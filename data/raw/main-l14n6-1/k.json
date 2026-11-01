@@ -1,0 +1,95 @@
+{
+ "columns_read": [
+  "custom_id",
+  "requested_model",
+  "effort",
+  "kind",
+  "cost_usd"
+ ],
+ "compact_table_sha256": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+ "k_from_rows": {
+  "opus": {
+   "1x6": {
+    "cap": 40,
+    "capped": false,
+    "capped_by": null,
+    "comparator_cost_per_puzzle": "0.0201205",
+    "h1_not_run": false,
+    "haiku_cost_per_sample": "0.000550085859375",
+    "k": 36,
+    "ratio": "257542400/7041099",
+    "raw_k": 36,
+    "samples_drawn": 40,
+    "spend": {
+     "comparator_arm": "0.0201205",
+     "difference": "-0.000317409062500",
+     "haiku_arm": "0.019803090937500",
+     "haiku_over_comparator": "0.9842245936979697323625158421"
+    }
+   },
+   "6x1": {
+    "cap": 40,
+    "capped": true,
+    "capped_by": "cap",
+    "comparator_cost_per_puzzle": "0.02406115",
+    "h1_not_run": false,
+    "haiku_cost_per_sample": "0.00054651359375",
+    "k": 40,
+    "ratio": "153991360/3497687",
+    "raw_k": 44,
+    "samples_drawn": 40,
+    "spend": {
+     "comparator_arm": "0.02406115",
+     "difference": "-0.00220060625000",
+     "haiku_arm": "0.02186054375000",
+     "haiku_over_comparator": "0.9085411025657543384252207397"
+    }
+   }
+  },
+  "rows_without_cost": 0,
+  "sonnet": {
+   "1x6": {
+    "cap": 40,
+    "capped": false,
+    "capped_by": null,
+    "comparator_cost_per_puzzle": "0.007370875",
+    "h1_not_run": false,
+    "haiku_cost_per_sample": "0.000550085859375",
+    "k": 13,
+    "ratio": "94347200/7041099",
+    "raw_k": 13,
+    "samples_drawn": 40,
+    "spend": {
+     "comparator_arm": "0.007370875",
+     "difference": "-0.000219758828125",
+     "haiku_arm": "0.007151116171875",
+     "haiku_over_comparator": "0.9701855168992826496175827158"
+    }
+   }
+  },
+  "warnings": []
+ },
+ "k_o": {
+  "1x6": 36,
+  "6x1": 40
+ },
+ "k_s": 13,
+ "n": 6,
+ "rows_kept_by_tag": {
+  "hm": 6400,
+  "om": 160,
+  "sm": 160
+ },
+ "rows_left_out_by_tag": {
+  "es": 1086,
+  "hl": 6400,
+  "ho": 6400,
+  "hv": 400,
+  "hx": 480,
+  "ol": 160,
+  "rthm": 50,
+  "rtom": 10,
+  "rtsm": 10,
+  "sl": 160
+ }
+}

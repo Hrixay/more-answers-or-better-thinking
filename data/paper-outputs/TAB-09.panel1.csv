@@ -1,0 +1,7 @@
+Model,Mode,24×1 whole (%),24×1 per piece (%),1×24 whole (%),1×24 final (%),1×24 lines = key (%),1×24 local (%),1×24 format ok (%)
+Haiku-medium,"""real time (25+25 tries)""",0.0,79.2,0.0,0.0,17.7,75.1,92.0
+Haiku-medium,"""Batch (50+50 tries)""",0.0,81.1,0.0,0.0,10.0,76.5,71.4
+Opus-medium,"""real time (5+5 tries)""",100.0,100.0,100.0,100.0,100.0,100.0,100.0
+Opus-medium,"""Batch (5+5 tries)""",100.0,100.0,60.0,80.0,80.2,97.9,80.0
+Sonnet-medium,"""real time (5+5 tries)""",20.0,96.7,40.0,40.0,52.5,93.3,100.0
+Sonnet-medium,"""Batch (5+5 tries)""",40.0,95.0,20.0,20.0,26.7,95.8,100.0

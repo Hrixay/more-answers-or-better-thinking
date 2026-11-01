@@ -1,0 +1,10 @@
+Shape,Setting,Samples voted (k),Accuracy (%),Accuracy 95% interval,Interval type,Format compliance of the setting's samples (%),List cost per puzzle ($),Samples per Haiku-max sample (Haiku-max cost per puzzle / one sample of this setting),d: one Haiku-max sample minus this row (points),d 95% interval (paired),Label
+1×6,One Haiku-max sample,1,97.50,"[95.42, 99.17]",cluster bootstrap,100.00,0.00441,—,—,—,exploratory setting; point pre-specified descriptive (Study 1)
+1×6,One Haiku-medium sample,1,43.72,"[36.44, 50.72]",cluster bootstrap,98.59,0.00110,—,—,—,pre-specified descriptive (Study 1)
+1×6,"Haiku-medium vote, cost-matched",4,49.36,"[41.15, 57.41]",cluster bootstrap,98.59,0.00440,4.00,+48.14,"[39.82, 56.22]",post hoc paired d and samples per Haiku-max sample (free analysis 1); vote point pre-specified descriptive (Study 1)
+1×6,One Opus-medium answer,1,96.25,"[89.43, 99.22]",Clopper–Pearson (exact),97.50,0.0402,—,+1.25,"[−2.50, 7.50]","paired d (free analysis 7; post hoc, exploratory); point pre-specified descriptive (Study 1)"
+6×1,One Haiku-max sample,1,95.00,"[91.25, 97.92]",cluster bootstrap,99.58,0.00407,—,—,—,exploratory setting; point pre-specified descriptive (Study 1)
+6×1,One Haiku-medium sample,1,51.00,"[44.28, 57.25]",cluster bootstrap,99.72,0.00109,—,—,—,pre-specified descriptive (Study 1)
+6×1,"Haiku-medium vote, cost-matched",3,56.26,"[48.56, 63.97]",cluster bootstrap,99.72,0.00328,3.72,+38.74,"[31.16, 46.24]",post hoc paired d and samples per Haiku-max sample (free analysis 1); vote point pre-specified descriptive (Study 1)
+6×1,Haiku-medium vote at the chains' cost-matched k,4,58.95,"[50.85, 66.94]",cluster bootstrap,99.72,0.00437,—,—,—,"pre-specified descriptive (Study 1); above the cost match on this shape, no paired interval"
+6×1,One Opus-medium answer,1,100.00,"[95.49, 100.00]",Clopper–Pearson (exact),100.00,0.0481,—,−5.00,"[−9.58, −2.50]","paired d (free analysis 7; post hoc, exploratory); point pre-specified descriptive (Study 1)"

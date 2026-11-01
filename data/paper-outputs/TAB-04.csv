@@ -1,0 +1,18 @@
+Setting,Shape,Role,Used in,Samples per puzzle,Accuracy (%),Accuracy 95% interval,Interval type,Median over puzzles (%),Format compliance (%),List cost per sample ($),Batch cost per sample ($),Cost per correct answer ($),"Cost per correct answer, lower end of the 95% interval ($)","Cost per correct answer, upper end of the 95% interval ($)"
+"Haiku, thinking off",1×6,exploratory,—,40,22.00,"[16.97, 27.31]",cluster bootstrap,15.00,81.72,0.000890,0.000445,0.00405,0.00322,0.00523
+"Haiku, thinking off",6×1,exploratory,—,40,23.50,"[18.81, 28.56]",cluster bootstrap,18.75,99.56,0.000956,0.000478,0.00407,0.00334,0.00517
+Haiku-low,1×6,exploratory,—,40,39.22,"[32.28, 46.16]",cluster bootstrap,32.50,98.13,0.00103,0.000516,0.00263,0.00220,0.00323
+Haiku-low,6×1,exploratory,—,40,46.50,"[40.22, 53.00]",cluster bootstrap,50.00,99.66,0.00103,0.000513,0.00221,0.00191,0.00258
+Haiku-medium,1×6,confirmatory,"Test 2, Test 3",40,43.72,"[36.44, 50.72]",cluster bootstrap,40.00,98.59,0.00110,0.000550,0.00252,0.00214,0.00301
+Haiku-medium,6×1,confirmatory,Test 1,40,51.00,"[44.28, 57.25]",cluster bootstrap,50.00,99.72,0.00109,0.000547,0.00214,0.00189,0.00246
+Haiku-max,1×6,exploratory,—,3,97.50,"[95.42, 99.17]",cluster bootstrap,100.00,100.00,0.00441,0.00220,0.00452,0.00433,0.00471
+Haiku-max,6×1,exploratory,—,3,95.00,"[91.25, 97.92]",cluster bootstrap,100.00,99.58,0.00407,0.00203,0.00428,0.00408,0.00453
+Step voting,1×6,confirmatory,Test 4,—,53.75,"[42.50, 63.75]",cluster bootstrap,—,—,0.00356,0.00178,0.00662,0.00537,0.00851
+Opus-low,1×6,confirmatory,Test 5,1,97.50,"[91.26, 99.70]",Clopper–Pearson (exact),—,98.75,0.0365,0.0183,0.0375,0.0352,0.0399
+Opus-low,6×1,"five-test setting, in no test at this shape",—,1,100.00,"[95.49, 100.00]",Clopper–Pearson (exact),—,100.00,0.0449,0.0224,0.0449,0.0438,0.0458
+Opus-medium,1×6,confirmatory,"Test 2, Test 4",1,96.25,"[89.43, 99.22]",Clopper–Pearson (exact),—,97.50,0.0402,0.0201,0.0418,0.0395,0.0447
+Opus-medium,6×1,confirmatory,Test 1,1,100.00,"[95.49, 100.00]",Clopper–Pearson (exact),—,100.00,0.0481,0.0241,0.0481,0.0471,0.0491
+Sonnet-low,1×6,exploratory,—,1,71.25,"[60.05, 80.82]",Clopper–Pearson (exact),—,100.00,0.0142,0.00708,0.0199,0.0174,0.0231
+Sonnet-low,6×1,exploratory,—,1,76.25,"[65.42, 85.05]",Clopper–Pearson (exact),—,100.00,0.0158,0.00792,0.0208,0.0185,0.0238
+Sonnet-medium,1×6,confirmatory,"Test 3, Test 5",1,80.00,"[69.56, 88.11]",Clopper–Pearson (exact),—,97.50,0.0147,0.00737,0.0184,0.0166,0.0209
+Sonnet-medium,6×1,"five-test setting, in no test at this shape",—,1,75.00,"[64.06, 84.01]",Clopper–Pearson (exact),—,100.00,0.0161,0.00805,0.0215,0.0191,0.0247

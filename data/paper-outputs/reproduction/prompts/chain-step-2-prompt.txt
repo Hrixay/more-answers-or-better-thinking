@@ -1,0 +1,9 @@
+Every value here lists the balances of 6 budget lines, in whole units, in this order: Rent, Payroll, Supplies, Reserve, Travel and Training. A value looks like [1227, 1050, 1955, 2860, 7438, 7316], which means Rent 1227, Payroll 1050, Supplies 1955, Reserve 2860, Travel 7438 and Training 7316. A balance never goes below 0. The rule below says what happens to the balances. When a rule picks the line with the largest or the smallest balance and two or more lines are tied, it picks the one that comes first in the order above. House rule: straight after every rule, as part of the same step, if the line with the smallest balance is below 1900, move 400 units to it from the line with the largest balance, or all of that line if it holds fewer. The house rule acts at most once per step, always after that step's own rule, and does not act again on its own result. If the largest and the smallest line are the same line, nothing moves. The balances you write for a step are the ones after the house rule.
+
+Rule
+The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+
+Balances
+[2324, 1450, 1955, 2860, 7038, 6219]
+
+Apply the rule to the balances, then the house rule. Reply with one line, `Answer: v`, where v is the new balances after the rule and the house rule.

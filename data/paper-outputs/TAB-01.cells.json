@@ -1,0 +1,2126 @@
+{
+ "output": {
+  "id": "TAB-01",
+  "kind": "table",
+  "label": "confirmatory (Holm within each study only); merges framing T-tests and analyses TF-A4",
+  "section": "Introduction",
+  "title": "The eight tests at a glance"
+ },
+ "panels": [],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "main_plan": {
+   "commit": "7c8bb4b",
+   "path": "data/plans/main-l14n6-1-plan-all.json",
+   "sha256": "3d173b387bc65810433e2850c06c724855aa40634d724a350bc2aa7d57f6f40e"
+  },
+  "overview_s1_spec_lock3": {
+   "commit": "086fbfd",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "95%. d: paired BCa bootstrap over puzzles, B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1) and"
+    },
+    {
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1b); error-rate ratio: paired percentile bootstrap over puzzles; an error-rate ratio's upper end is unbounded where the comparator made no errors in some bootstrap draws; Test 1's comparator bound:"
+    },
+    {
+     "kind": "num",
+     "printed": "exact Clopper–Pearson;",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t1.comparator_interval",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Test 5's cost ratio: paired cluster bootstrap over puzzles, two-sided, unadjusted (exploratory)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "Study 1:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles per test; the Haiku-medium vote drawn from"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.1x6.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "samples per puzzle and shape; step voting made"
+    },
+    {
+     "kind": "num",
+     "printed": "1,086",
+     "raw": 1086,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.refusals_and_truncations.calls_made",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "calls over its"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles; Opus and Sonnet one answer per puzzle. Study 1b:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles for B1 and B2 and"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for B3, each in both shapes, with"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max samples and"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-medium samples per puzzle and shape"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price, US dollars"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1: the main-run puzzle set at 6 steps (Test 1 on pieces, Tests 2–5 on chains); Study 1b: fresh puzzle sets at 16 steps (B1, B2) and at 6 steps (B3), chains and pieces pooled per puzzle"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 (main run, 6 steps) and Study 1b (16 steps and 6 steps); Holm within each study only, never pooled"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "num",
+     "printed": "the tests (d and the pre-registered reading): confirmatory; Test 5 (at Study 1's 10-point margin) and B2 (at Study 1b's primary 5-point margin) shown no worse (Holm-adjusted); Tests 1–4, B1 and B3 read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); B1–B3 also shown at Study 1b's secondary 10-point margin, quoted only as the secondary. Error-rate ratios: pre-specified descriptive, reported beside the test (not part of any test's reading). k, the spend shares and the cost ratios: not tested (labels in the notes); k is each vote's size, set by its study's pre-registered rule for a cost-matched vote; the spend shares of Tests 1–3 and B2 and the cost ratios of B1 and B3: pre-specified descriptive; Test 5's cost ratio: exploratory, no test (intervals two-sided, unadjusted); Test 4's cost ratio: post hoc arithmetic on pre-specified means",
+     "raw": "exploratory, no test (intervals two-sided, unadjusted)",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9h.label",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Study"
+   },
+   {
+    "kind": "label",
+    "printed": "Puzzles"
+   },
+   {
+    "kind": "label",
+    "printed": "What is compared"
+   },
+   {
+    "kind": "label",
+    "printed": "Margin (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "k"
+   },
+   {
+    "kind": "label",
+    "printed": "Spend share or cost ratio"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Reading (pre-registered decision rule)"
+   },
+   {
+    "kind": "label",
+    "printed": "Shown no worse (Holm-adjusted)"
+   },
+   {
+    "kind": "label",
+    "printed": "Shown no worse (Holm-adjusted) at Study 1b's secondary 10-point margin"
+   },
+   {
+    "kind": "label",
+    "printed": "Error-rate ratio [95%]"
+   },
+   {
+    "kind": "label",
+    "printed": "Label"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Decision"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "In the reading columns, \"> margin\" stands for \"by more than the margin\": \"worse by > margin\" is worse by more than the margin, as the other tables of this supplement write it."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Holm's correction runs within each study only; the two studies are never pooled. At Study 1's 10-point margin (its only confirmatory margin; a secondary 5-point view is in ⟦TAB-03⟧) only Test 5 was shown no worse (Holm-adjusted), and at Study 1b's primary 5-point margin only B2. Tests 1–4, B1 and B3 carry the pre-registered decision rule's reading of the unadjusted 95% interval, which is never a Holm-adjusted result."
+    }
+   ],
+   [
+    {
+     "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places; p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "At Study 1b's pre-registered secondary 10-point margin, quoted only as the secondary, B1, B2 and B3 were each shown no worse than Opus-medium by more than the margin (Holm-adjusted; B1: p = 0.00027, below its Holm threshold of 0.0125; B2: p ≤ 0.00011, below its Holm threshold of 0.00833; B3: p ≤ 0.00108, below its Holm threshold of 0.025).",
+     "raw": [
+      0.0002657598362947877,
+      0.0125,
+      0.00010062651391767874,
+      0.008333333333333333,
+      0.0010780584973148488,
+      0.025
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B3",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "≤ marks a p at the smallest value the bootstrap can return (no resample reached the margin)."
+    }
+   ],
+   [
+    {
+     "formula": "100 * x; 100 * x; 100 * x; 100 * x",
+     "kind": "num",
+     "printed": "Under the original pre-registered marking rule, which Deviation 2 kept as a sensitivity check (fixed in Lock 3, before any main-run data; not a pre-registered secondary view), Sonnet-medium's chain score is 55.00% instead of 80.00% (format compliance 65.00% instead of 97.50%). Test 3 would read inconclusive (d = +0.30 points, 95% interval [−13.58, 14.95]) instead of worse by more than the margin. Test 5's reading is unchanged (d = +41.25 points, 95% interval [28.75, 52.50]).",
+     "raw": [
+      0.55,
+      0.8,
+      0.65,
+      0.975,
+      "inconclusive",
+      0.30429160299813884,
+      [
+       -13.575129632250732,
+       14.949624502459807
+      ],
+      "worse by more than the margin",
+      41.25,
+      [
+       28.75,
+       52.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "secondary.rates.sonnet-med.original_acc",
+       "source": "main"
+      },
+      {
+       "key": "secondary.rates.sonnet-med.official_acc",
+       "source": "main"
+      },
+      {
+       "key": "secondary.rates.sonnet-med.format_compliance_original",
+       "source": "main"
+      },
+      {
+       "key": "secondary.rates.sonnet-med.format_compliance",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.d",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.ci95.1",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t5.d",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t5.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t5.ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet ran at medium effort, one level below its default (high), in Tests 3 and 5."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1's tests were pre-registered at 24 steps and run at 6 steps (Deviation 1)."
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "B2's accuracy is the expected accuracy of a vote of k = 6 Haiku-max samples, computed from the 10 designed samples per puzzle and shape (no vote of that size was run separately); k was measured from the two settings' mean list costs per sample. Per shape, the vote costs $0.0736 per answer on chains against Opus-medium's $0.0674, and $0.0605 on pieces against $0.0825 (list price).",
+     "raw": [
+      6,
+      10,
+      0.0735627525,
+      0.067429725,
+      0.06051853125,
+      0.082513725
+     ],
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      },
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      },
+      {
+       "key": "costs_beside_tests.B2.challenger.1x16.list_usd",
+       "source": "s1b"
+      },
+      {
+       "key": "costs_beside_tests.B2.comparator.1x16.list_usd",
+       "source": "s1b"
+      },
+      {
+       "key": "costs_beside_tests.B2.challenger.16x1.list_usd",
+       "source": "s1b"
+      },
+      {
+       "key": "costs_beside_tests.B2.comparator.16x1.list_usd",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "d (points): the challenger (named first) minus the comparator, in accuracy points, paired over puzzles (in Study 1b both shapes of a puzzle are pooled); a positive d means the challenger scored higher. Shapes: 1×6 is the chain form of a puzzle and 6×1 the pieces form. k (Tests 1–3): the size of the cost-matched Haiku-medium vote, the most samples whose combined mean cost fits within the comparator's mean cost per puzzle; the k computation prices each call at the Batch rate, exactly half the list price, so k is the same at list prices (B2's k is in the note above). Test 1's k is capped at 40, the number of samples drawn per puzzle and shape, from the cost-matched 44.",
+     "raw": [
+      40,
+      44
+     ],
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.cap",
+       "source": "main_k"
+      },
+      {
+       "key": "k_from_rows.opus.6x1.raw_k",
+       "source": "main_k"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "k, spend share and cost ratio (none is tested; k is defined in the notes above). Each cell of the spend share or cost ratio column names its quantity; spend shares and the cost ratios of Test 4, B1 and B3 print to three decimals and Test 5's cost ratio to two, as ⟦TAB-05⟧ prints it. Spend share: Tests 1–3, the vote's realised spend over the comparator's at list price (pre-specified descriptive); B2, the vote's list cost per answer over Opus-medium's, as reported beside the test (pre-specified descriptive). Cost ratio: Test 4, step voting's mean list cost per puzzle over Opus-medium's, computed for this table from the two reported means (post hoc arithmetic on pre-specified means); Test 5, Opus-low's list cost per answer over Sonnet-medium's with its 95% interval, labelled exploratory, no test (intervals two-sided, unadjusted); B1 and B3, the challenger's list cost per answer over Opus-medium's, as reported beside each test (pre-specified descriptive). The file's own words for one Haiku-max sample's cost are, for B1, \"about 1/6 of the cost per answer (k measured)\" and, for B3, \"about 1/10 of the cost per answer (k measured)\".",
+     "raw": [
+      "exploratory, no test (intervals two-sided, unadjusted)",
+      "about 1/6 of the cost per answer (k measured)",
+      "about 1/10 of the cost per answer (k measured)"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9h.label",
+       "source": "main"
+      },
+      {
+       "key": "costs_beside_tests.B1.wording",
+       "source": "s1b"
+      },
+      {
+       "key": "costs_beside_tests.B3.wording",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Error-rate ratio (pre-specified descriptive, reported beside the test; not part of any test's reading): the challenger's errors over the comparator's. An unbounded upper end comes from bootstrap draws in which the comparator made no errors."
+    }
+   ],
+   [
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "Test 1's error-rate ratio is undefined: the comparator made no errors, so its error rate is at most 4.51%, the upper end of the exact 95% interval.",
+     "raw": 0.0450640350676923,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t1.comparator_error_rate_upper95",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium vote vs Opus-medium, 6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "−10",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "spend share 0.909",
+     "raw": "0.9085411025657543384252207397",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_8b.realised_spend.tests.t1.by_row.k+0.haiku_over_comparator",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−33.13",
+     "raw": -33.125,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−43.75, −23.75]",
+     "raw": [
+      -43.75,
+      -23.75
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "worse by > margin",
+     "raw": "worse by more than the margin",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.reading",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "undefined (comparator errors 0 of 80)",
+     "raw": [
+      false,
+      [
+       0.0,
+       80
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t1.defined",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t1.E_cmp",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t1.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); error-rate ratio: pre-specified descriptive, reported beside the test; k: set by the pre-registered rule for a cost-matched vote, not tested; spend share: pre-specified descriptive, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "steps",
+       "source": "main_plan"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "worse by > 10 (pre-registered rule)",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium vote vs Opus-medium, 1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "−10",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "36",
+     "raw": 36,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.1x6.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "spend share 0.984",
+     "raw": "0.9842245936979697323625158421",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_8b.realised_spend.tests.t2.by_row.k+0.haiku_over_comparator",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−37.64",
+     "raw": -37.642737626290256,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−48.82, −26.96]",
+     "raw": [
+      -48.82033729073203,
+      -26.964504230951597
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "worse by > margin",
+     "raw": "worse by more than the margin",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.reading",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "11.04 [4.75, unbounded]",
+     "raw": [
+      11.038063367010736,
+      [
+       4.7457906721064615,
+       "unbounded"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t2.R",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t2.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t2.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); error-rate ratio: pre-specified descriptive, reported beside the test; k: set by the pre-registered rule for a cost-matched vote, not tested; spend share: pre-specified descriptive, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "steps",
+       "source": "main_plan"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "worse by > 10 (pre-registered rule)",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium vote vs Sonnet-medium, 1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "−10",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "13",
+     "raw": 13,
+     "refs": [
+      {
+       "key": "k_from_rows.sonnet.1x6.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "spend share 0.970",
+     "raw": "0.9701855168992826496175827158",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_8b.realised_spend.tests.t3.by_row.k+0.haiku_over_comparator",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−24.70",
+     "raw": -24.69582569072623,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−36.12, −12.20]",
+     "raw": [
+      -36.11658909624632,
+      -12.198504541137433
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "worse by > margin",
+     "raw": "worse by more than the margin",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "2.23 [1.47, 3.92]",
+     "raw": [
+      2.2347912845363114,
+      [
+       1.4731118157173777,
+       3.9213012721956613
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t3.R",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); error-rate ratio: pre-specified descriptive, reported beside the test; k: set by the pre-registered rule for a cost-matched vote, not tested; spend share: pre-specified descriptive, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "steps",
+       "source": "main_plan"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "worse by > 10 (pre-registered rule; marking rule as run)",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 4"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Step voting vs Opus-medium, 1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "−10",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "challenger mean list cost per puzzle / comparator's",
+     "kind": "num",
+     "printed": "cost ratio 0.088",
+     "raw": 0.0884524489948063,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−42.50",
+     "raw": -42.5,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−53.75, −30.00]",
+     "raw": [
+      -53.75,
+      -30.0
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "worse by > margin",
+     "raw": "worse by more than the margin",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.reading",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "12.33 [5.17, unbounded]",
+     "raw": [
+      12.333333333333334,
+      [
+       5.166666666666667,
+       "unbounded"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t4.R",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t4.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t4.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); error-rate ratio: pre-specified descriptive, reported beside the test; cost ratio: post hoc arithmetic on pre-specified means, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "steps",
+       "source": "main_plan"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "worse by > 10 (pre-registered rule)",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 5"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-low vs Sonnet-medium, 1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "−10",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "cost ratio 2.48 [2.36, 2.59]",
+     "raw": [
+      2.478064001899367,
+      [
+       2.360504296870377,
+       2.592742084213743
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9h.1x6.pairs.opus-low-vs-sonnet-med.point.cost_ratio",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9h.1x6.pairs.opus-low-vs-sonnet-med.intervals.cost_ratio.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9h.1x6.pairs.opus-low-vs-sonnet-med.intervals.cost_ratio.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+17.50",
+     "raw": 17.5,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[8.75, 27.50]",
+     "raw": [
+      8.75,
+      27.5
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "shown no worse by > margin (Holm-adjusted)",
+     "raw": "non-inferior",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.reading",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.declared",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.13 [0.00, 0.40]",
+     "raw": [
+      0.125,
+      [
+       0.0,
+       0.4
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t5.R",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t5.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t5.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, shown no worse (Holm-adjusted across Study 1's tests); error-rate ratio: pre-specified descriptive, reported beside the test; cost ratio: exploratory, no test (intervals two-sided, unadjusted)",
+     "raw": [
+      true,
+      "exploratory, no test (intervals two-sided, unadjusted)"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.declared",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9h.label",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "steps",
+       "source": "main_plan"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "shown no worse by > 10 (Holm-adjusted)",
+     "raw": [
+      "non-inferior",
+      true
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B1"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample vs one Opus-medium answer"
+    },
+    {
+     "kind": "num",
+     "printed": "−5",
+     "raw": -5.0,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "cost ratio 0.149",
+     "raw": 0.1490353905088885,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B1.ratio_challenger_over_comparator",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.19",
+     "raw": -5.1875,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.75, −2.69]",
+     "raw": [
+      -7.75,
+      -2.6875
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "inconclusive",
+     "raw": "inconclusive (could not show)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3.37 [1.78, 10.07]",
+     "raw": [
+      3.3714285714285714,
+      [
+       1.78,
+       10.066666666666666
+      ]
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B1.R",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); not shown no worse (Holm-adjusted) at the primary 5-point margin; error-rate ratio: pre-specified descriptive, reported beside the test; cost ratio: pre-specified descriptive, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "inconclusive at 5; shown no worse by > 10 (Holm-adjusted)",
+     "raw": [
+      "inconclusive",
+      false,
+      "non-inferior",
+      true
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B2"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote vs one Opus-medium answer"
+    },
+    {
+     "kind": "num",
+     "printed": "−5",
+     "raw": -5.0,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "spend share 0.894",
+     "raw": 0.8942123430533311,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B2.ratio_challenger_over_comparator",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.63",
+     "raw": 0.6324404761904753,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.15, 2.44]",
+     "raw": [
+      -1.1458333333333346,
+      2.4404761904761894
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "shown no worse by > margin (Holm-adjusted), in all three views",
+     "raw": "holds (no worse in all three views)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.71 [0.24, 2.11]",
+     "raw": [
+      0.7108843537414969,
+      [
+       0.24206349206349223,
+       2.10952380952381
+      ]
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B2.R",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, shown no worse (Holm-adjusted across Study 1b's tests) at the primary 5-point margin; error-rate ratio: pre-specified descriptive, reported beside the test; k: set by the pre-registered rule for a cost-matched vote, not tested; spend share: pre-specified descriptive, not tested",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B2.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "shown no worse by > 5 (Holm-adjusted)",
+     "raw": [
+      "non-inferior",
+      true
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B3"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample vs one Opus-medium answer"
+    },
+    {
+     "kind": "num",
+     "printed": "−5",
+     "raw": -5.0,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "cost ratio 0.095",
+     "raw": 0.09502552155767963,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B3.ratio_challenger_over_comparator",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−3.63",
+     "raw": -3.625,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.00, −1.50]",
+     "raw": [
+      -7.0,
+      -1.5
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "inconclusive",
+     "raw": "inconclusive (could not show)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6.80 [1.67, unbounded]",
+     "raw": [
+      6.8,
+      [
+       1.6666666666666667,
+       "unbounded"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B3.R",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B3.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B3.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "the test: confirmatory, read by the pre-registered decision rule on the unadjusted interval (not Holm-adjusted); not shown no worse (Holm-adjusted) at the primary 5-point margin; error-rate ratio: pre-specified descriptive, reported beside the test; cost ratio: pre-specified descriptive, not tested",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+     "kind": "num",
+     "printed": "inconclusive at 5; shown no worse by > 10 (Holm-adjusted)",
+     "raw": [
+      "inconclusive",
+      false,
+      "non-inferior",
+      true
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.margin",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.reading",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.margin",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+Every value here lists the balances of 6 budget lines, in whole units, in this order: Rent, Payroll, Supplies, Reserve, Travel and Training. A value looks like [2019, 3659, 7351, 7595, 4603, 3622], which means Rent 2019, Payroll 3659, Supplies 7351, Reserve 7595, Travel 4603 and Training 3622. A balance never goes below 0. Each rule below says what happens to the balances. When a rule picks the line with the largest or the smallest balance and two or more lines are tied, it picks the one that comes first in the order above. House rule: straight after every rule, as part of the same step, if the line with the smallest balance is below 1900, move 400 units to it from the line with the largest balance, or all of that line if it holds fewer. The house rule acts at most once per step, always after that step's own rule, and does not act again on its own result. If the largest and the smallest line are the same line, nothing moves. The balances you write for a step are the ones after the house rule.
+
+Rules
+A: The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+B: The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+C: The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+D: Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time.
+
+Sequences
+1. Start at [981, 1165, 2287, 3060, 8107, 7681]. Apply B.
+2. Start at [2254, 1102, 2111, 2259, 7249, 6405]. Apply A.
+3. Start at [2835, 1535, 1879, 3174, 6173, 6913]. Apply D.
+4. Start at [2602, 3410, 2280, 3374, 6139, 5895]. Apply C.
+
+Here are 8 replies to the puzzle above, written separately.
+
+Reply 1
+[placeholder: Haiku-medium sample 1's reply to this puzzle, as the run sent it]
+
+Reply 2
+[placeholder: Haiku-medium sample 2's reply to this puzzle, as the run sent it]
+
+Reply 3
+[placeholder: Haiku-medium sample 3's reply to this puzzle, as the run sent it]
+
+Reply 4
+[placeholder: Haiku-medium sample 4's reply to this puzzle, as the run sent it]
+
+Reply 5
+[placeholder: Haiku-medium sample 5's reply to this puzzle, as the run sent it]
+
+Reply 6
+[placeholder: Haiku-medium sample 6's reply to this puzzle, as the run sent it]
+
+Reply 7
+[placeholder: Haiku-medium sample 7's reply to this puzzle, as the run sent it]
+
+Reply 8
+[placeholder: Haiku-medium sample 8's reply to this puzzle, as the run sent it]
+
+Choose the reply whose balances are right. Reply with one line, `Pick: k`, where k is the number of the reply you choose.

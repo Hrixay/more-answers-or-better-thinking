@@ -1,0 +1,1148 @@
+{
+ "output": {
+  "id": "TAB-15",
+  "kind": "table",
+  "label": "exploratory counts",
+  "section": "Results: top-up (appendix)",
+  "title": "Top-up counts (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Picker positions (counts of puzzle-shape pairs)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Picked"
+     },
+     {
+      "kind": "label",
+      "printed": "Chains (1×6)"
+     },
+     {
+      "kind": "label",
+      "printed": "Pieces (6×1)"
+     },
+     {
+      "kind": "label",
+      "printed": "Pooled"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "First sample"
+      },
+      {
+       "kind": "num",
+       "printed": "37",
+       "raw": 37,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "44",
+       "raw": 44,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "81",
+       "raw": 81,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.1",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Second sample"
+      },
+      {
+       "kind": "num",
+       "printed": "13",
+       "raw": 13,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.2",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "20",
+       "raw": 20,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.2",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "33",
+       "raw": 33,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.2",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Third sample"
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.3",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.3",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "14",
+       "raw": 14,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.3",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Fourth sample"
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.4",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.4",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.4",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Fifth sample"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.5",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.5",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.5",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sixth sample"
+      },
+      {
+       "kind": "num",
+       "printed": "2",
+       "raw": 2,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.6",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2",
+       "raw": 2,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.6",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.6",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Seventh sample"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.7",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.7",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "11",
+       "raw": 11,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.7",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Eighth sample"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.8",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.8",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.8",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "No readable pick"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.none",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.none",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.none",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Total puzzle-shape pairs"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "picker_positions.1x6.puzzles",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "picker_positions.6x1.puzzles",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "picker_positions.pooled.puzzles",
+         "source": "topup"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Completeness by setting (calls)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Setting"
+     },
+     {
+      "kind": "label",
+      "printed": "Designed calls"
+     },
+     {
+      "kind": "label",
+      "printed": "Final calls"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzle-shape pairs"
+     },
+     {
+      "kind": "label",
+      "printed": "Pairs unfinished"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "the same printed value in every row of the dropped column (the build stops otherwise); the same printed value in every row of the dropped column (the build stops otherwise)",
+       "kind": "num",
+       "printed": "For every setting listed, completed: yes; missing calls: 0.",
+       "raw": [
+        true,
+        0
+       ],
+       "refs": [
+        {
+         "key": "completeness.arms.c13.completed",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.e2.completed",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.h_pick8.completed",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.same_model.completed",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.c13.missing",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.e2.missing",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.h_pick8.missing",
+         "source": "topup"
+        },
+        {
+         "key": "completeness.arms.same_model.missing",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "A dash: the setting's completeness record gives no value for that column."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "num",
+       "printed": "Step voting on pieces",
+       "raw": "c13",
+       "refs": [
+        {
+         "key": "completeness.arms.c13.arm",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1,061",
+       "raw": 1061,
+       "refs": [
+        {
+         "key": "completeness.arms.c13.designed",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1,061",
+       "raw": 1061,
+       "refs": [
+        {
+         "key": "completeness.arms.c13.final",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "completeness.arms.c13.puzzles",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "completeness.arms.c13.puzzles_unfinished",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku team",
+       "raw": "e2",
+       "refs": [
+        {
+         "key": "completeness.arms.e2.arm",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2,399",
+       "raw": 2399,
+       "refs": [
+        {
+         "key": "completeness.arms.e2.designed",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2,399",
+       "raw": 2399,
+       "refs": [
+        {
+         "key": "completeness.arms.e2.final",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "completeness.arms.e2.puzzles",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "completeness.arms.e2.puzzles_unfinished",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "completeness.arms.h_pick8.arm",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "completeness.arms.h_pick8.designed",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "completeness.arms.h_pick8.final",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Drift check",
+       "raw": "same-model-check",
+       "refs": [
+        {
+         "key": "completeness.arms.same_model.arm",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "completeness.arms.same_model.designed",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "completeness.arms.same_model.final",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "none (counts)"
+    }
+   ],
+   "n": [
+    {
+     "formula": "designed calls / base puzzles; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "puzzles per shape: 80 (Haiku team and picker). Per puzzle, the Haiku team's calls vary (adaptive; the completeness panel gives its calls in all) and the picker makes 1 call over the first 8 main-run Haiku-medium samples. The drift check between runs re-ran 20 puzzles in both shapes, 5 samples each.",
+     "raw": [
+      80,
+      1.0,
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      20,
+      5
+     ],
+     "refs": [
+      {
+       "key": "e2_counts.1x6.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.designed_calls",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.1x6.n_base",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.bases",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.tries_per_puzzle",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no cost column)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps, which the top-up run also used: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Top-up run (6 steps, a separate run)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "exploratory counts"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Count"
+   },
+   {
+    "kind": "label",
+    "printed": "Chains (1×6)"
+   },
+   {
+    "kind": "label",
+    "printed": "Pieces (6×1)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "formula": "the same printed value in every row of the dropped column (the build stops otherwise); the same printed value in every row of the dropped column (the build stops otherwise); the same printed value in every row of the dropped column (the build stops otherwise); the same printed value in every row of the dropped column (the build stops otherwise)",
+     "kind": "num",
+     "printed": "At each shape: 80 puzzles, 0 of them with a failed plan, 0 unfinished, and 80 with a final aggregator.",
+     "raw": [
+      80,
+      0,
+      0,
+      80
+     ],
+     "refs": [
+      {
+       "key": "e2_counts.1x6.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.6x1.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.1x6.failed_plans.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.6x1.failed_plans.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.1x6.unfinished_puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.6x1.unfinished_puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.1x6.aggregator_changes.over_puzzles_with_a_final_aggregator",
+       "source": "topup"
+      },
+      {
+       "key": "e2_counts.6x1.aggregator_changes.over_puzzles_with_a_final_aggregator",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Counts only; they are exploratory and carry no test. Aggregator changes are counted over puzzles with a final aggregator: a change is a puzzle whose final answer (the aggregator's graded whole answer) is not the helpers' results taken in order. \"Helpers' results\" means the helpers' answers in order, at either shape; it is not the chain shape."
+    }
+   ],
+   [
+    {
+     "formula": "the number of entries in the stamped list",
+     "kind": "num",
+     "printed": "A setting is \"not completed\" if a designed call has no final record. Settings not completed: 0.",
+     "raw": [],
+     "refs": [
+      {
+       "key": "completeness.not_completed",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Adaptive designs (their number of calls is not fixed in advance): step voting on pieces and the Haiku team. Their designed calls are the final calls plus the calls the runner's own logic would still have made when the analysis ran: a lower bound.",
+     "raw": [
+      "c13",
+      "e2"
+     ],
+     "refs": [
+      {
+       "key": "completeness.arms.c13.arm",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.e2.arm",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the record's hyphen in a range is printed as an en dash (house style)",
+     "kind": "num",
+     "printed": "Picker positions are descriptive: how often each of samples 1–8 is picked; position effects are not studied.",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Puzzles with a failed task"
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.failed_tasks.puzzles",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.failed_tasks.puzzles",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Failed tasks"
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.failed_tasks.tasks",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.failed_tasks.tasks",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Helper draws"
+    },
+    {
+     "kind": "num",
+     "printed": "1,035",
+     "raw": 1035,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.helper_draws",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,044",
+     "raw": 1044,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.helper_draws",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Aggregator changed the helpers' answer"
+    },
+    {
+     "kind": "num",
+     "printed": "42",
+     "raw": 42,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.aggregator_changes.changed",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "34",
+     "raw": 34,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.aggregator_changes.changed",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Helpers' results right, final answer wrong"
+    },
+    {
+     "kind": "num",
+     "printed": "15",
+     "raw": 15,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.aggregator_changes.right_chain_turned_wrong",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": 9,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.aggregator_changes.right_chain_turned_wrong",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Helpers' results wrong, final answer right"
+    },
+    {
+     "kind": "num",
+     "printed": "7",
+     "raw": 7,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.aggregator_changes.wrong_chain_turned_right",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "18",
+     "raw": 18,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.aggregator_changes.wrong_chain_turned_right",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Changed: aggregator unreadable"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.aggregator_changes.of_which_aggregator_unreadable",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.aggregator_changes.of_which_aggregator_unreadable",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Changed: helpers had no result"
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "e2_counts.1x6.aggregator_changes.of_which_helpers_had_no_result",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "e2_counts.6x1.aggregator_changes.of_which_helpers_had_no_result",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

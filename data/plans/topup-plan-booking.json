@@ -1,0 +1,76 @@
+{
+ "study": "topup",
+ "draft": null,
+ "plan_sha256": "d83e13c365d3dc536b9073c4ee4a6955e9b63225227d31e783c4c356a9d17edf",
+ "set_id": "main-ledger-l14n6-v1",
+ "puzzles": 160,
+ "parts": {
+  "same_model": {
+   "calls": 200,
+   "max_tokens": 5000,
+   "batch_booking_usd": "0.2809795",
+   "basis": "exact (main._item with hm)",
+   "tries": 5,
+   "bases": 20
+  },
+  "h_pick8": {
+   "calls": 160,
+   "max_tokens": 48000,
+   "batch_booking_usd": "3.2242901",
+   "basis": "stand-in: 8 replies of 20000 characters each"
+  },
+  "e2_planner": {
+   "calls": 160,
+   "max_tokens": 48000,
+   "batch_booking_usd": "1.9464021",
+   "basis": "exact"
+  },
+  "e2_helpers_at_cap": {
+   "calls": 8640,
+   "max_tokens": 48000,
+   "batch_booking_usd": "105.5635812",
+   "basis": "every task to 9 draws; task text stand-in of 4000 characters",
+   "per_shape": {
+    "1x6": 4320,
+    "6x1": 4320
+   }
+  },
+  "e2_aggregator": {
+   "calls": 160,
+   "max_tokens": 48000,
+   "batch_booking_usd": "1.9496019",
+   "basis": "the true states as stand-in results (same size)"
+  },
+  "c13_at_cap": {
+   "calls": 4320,
+   "max_tokens": 48000,
+   "batch_booking_usd": "52.1921007",
+   "basis": "every piece to 9 draws (through e3.step_item)",
+   "step_positions": 480,
+   "first_round_calls": 960,
+   "first_round_booking_usd": "11.5982446"
+  }
+ },
+ "total_calls_at_worst_case": 13640,
+ "total_batch_booking_at_worst_case_usd": "165.1569555",
+ "round_1": {
+  "calls": 1480,
+  "by_role": {
+   "same_model_check": 200,
+   "h_pick8": 160,
+   "e2_planner": 160,
+   "es": 960
+  },
+  "batch_booking_usd": "17.0499163",
+  "waves_if_nothing_were_spent_between": [
+   1480
+  ]
+ },
+ "cap_usd": "25",
+ "cap_proposed_usd": "25",
+ "max_rounds": 60,
+ "to_confirm": [
+  "the cap (spec: about 25 USD; the user's call through Edith's clearance; passed as --cap at run time)"
+ ],
+ "booking_note": "the guard's worst case per call (prices.worst_case, Batch price): prompt at the dearest input rate plus max_tokens at the output rate; booked round by round, never all at once; the bill is a fraction of this"
+}

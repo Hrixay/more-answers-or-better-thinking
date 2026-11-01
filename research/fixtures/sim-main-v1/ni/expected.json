@@ -1,0 +1,304 @@
+{
+ "case": "ni",
+ "set_id": "simfix-ni-v1",
+ "seed": 1101,
+ "n_base": 80,
+ "haiku_tries": 40,
+ "true_d_left_out": {
+  "t1": 12,
+  "t2": 12,
+  "t3": 12,
+  "t4": 12,
+  "t5": 12
+ },
+ "k": {
+  "opus_matched": {
+   "24x1": 29,
+   "1x24": 29
+  },
+  "sonnet_matched_1x24": 14
+ },
+ "population_vote_accuracy": {
+  "O/24x1": 0.8121,
+  "O/1x24": 0.57762,
+  "S/1x24": 0.55402
+ },
+ "target_accuracy": {
+  "opus-med/24x1": 0.6921,
+  "opus-med/1x24": 0.45762,
+  "sonnet-med/1x24": 0.43402,
+  "e3/1x24": 0.57762,
+  "opus-low/1x24": 0.55402,
+  "sonnet-med/24x1": 0.80402,
+  "opus-low/24x1": 0.6621,
+  "e3/24x1": 0.6921
+ },
+ "observed_accuracy": {
+  "opus-med/24x1": 0.725,
+  "opus-med/1x24": 0.4375,
+  "opus-low/24x1": 0.6625,
+  "opus-low/1x24": 0.575,
+  "sonnet-med/24x1": 0.8625,
+  "sonnet-med/1x24": 0.4375,
+  "e3/24x1": 0.7125,
+  "e3/1x24": 0.575
+ },
+ "special_rows": {},
+ "method": {
+  "bootstrap": "paired base-puzzle BCa",
+  "n_boot": 10000,
+  "test_seed": "int(sha256(f\"{seed}:{test}\").hexdigest()[:15], 16)",
+  "p": "invert the BCa lower bound at the margin -10",
+  "holm": "one-sided family alpha 0.025; step j threshold 0.025/(6-j)",
+  "worse": "two-sided 95% BCa upper end below -10",
+  "vote": "exact expected vote@k over k-subsets; null answers vote for nothing; truncations_left_out drops truncated samples and caps k at what is left"
+ },
+ "readings": {
+  "as_deployed": {
+   "t1": {
+    "n": 80,
+    "d_hat": 4.029,
+    "p": 0.006171,
+    "ci95": [
+     -7.092,
+     15.213
+    ],
+    "z0": 0.002005,
+    "acc": 0.000536,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -8.501078,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": 9.75,
+    "p": 0.000612,
+    "ci95": [
+     -2.879,
+     22.104
+    ],
+    "z0": -0.00752,
+    "acc": 0.000897,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -5.586499,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": 6.251,
+    "p": 0.007196,
+    "ci95": [
+     -7.277,
+     19.566
+    ],
+    "z0": -0.004512,
+    "acc": -0.001876,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -7.277335,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00022,
+    "ci95": [
+     0.0,
+     25.0
+    ],
+    "z0": -0.097663,
+    "acc": -0.000632,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -4.324515,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00023,
+    "ci95": [
+     -1.25,
+     26.25
+    ],
+    "z0": -0.098418,
+    "acc": -0.001428,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -3.75,
+    "reading": "non-inferior",
+    "near_threshold": false
+   }
+  },
+  "refusals_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": 4.029,
+    "p": 0.006171,
+    "ci95": [
+     -7.092,
+     15.213
+    ],
+    "z0": 0.002005,
+    "acc": 0.000536,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -8.501078,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": 9.75,
+    "p": 0.000612,
+    "ci95": [
+     -2.879,
+     22.104
+    ],
+    "z0": -0.00752,
+    "acc": 0.000897,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -5.586499,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": 6.251,
+    "p": 0.007196,
+    "ci95": [
+     -7.277,
+     19.566
+    ],
+    "z0": -0.004512,
+    "acc": -0.001876,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -7.277335,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00022,
+    "ci95": [
+     0.0,
+     25.0
+    ],
+    "z0": -0.097663,
+    "acc": -0.000632,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -4.324515,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00023,
+    "ci95": [
+     -1.25,
+     26.25
+    ],
+    "z0": -0.098418,
+    "acc": -0.001428,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -3.75,
+    "reading": "non-inferior",
+    "near_threshold": false
+   }
+  },
+  "truncations_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": 4.029,
+    "p": 0.006171,
+    "ci95": [
+     -7.092,
+     15.213
+    ],
+    "z0": 0.002005,
+    "acc": 0.000536,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -8.501078,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": 9.75,
+    "p": 0.000612,
+    "ci95": [
+     -2.879,
+     22.104
+    ],
+    "z0": -0.00752,
+    "acc": 0.000897,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -5.586499,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": 6.251,
+    "p": 0.007196,
+    "ci95": [
+     -7.277,
+     19.566
+    ],
+    "z0": -0.004512,
+    "acc": -0.001876,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -7.277335,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00022,
+    "ci95": [
+     0.0,
+     25.0
+    ],
+    "z0": -0.097663,
+    "acc": -0.000632,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -4.324515,
+    "reading": "non-inferior",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": 13.75,
+    "p": 0.00023,
+    "ci95": [
+     -1.25,
+     26.25
+    ],
+    "z0": -0.098418,
+    "acc": -0.001428,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -3.75,
+    "reading": "non-inferior",
+    "near_threshold": false
+   }
+  }
+ }
+}

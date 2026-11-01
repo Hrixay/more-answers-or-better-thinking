@@ -1,0 +1,257 @@
+{
+ "note": "The 28 frozen test sets' build parameters (no items). harness.taskgen.regenerate rebuilds a set from these and the released generator, restoring each item's recorded generator version, and checks it against the lock manifest.",
+ "sets": [
+  {
+   "set_id": "check-ledger-l16-v1",
+   "family": "ledger",
+   "setting": "l16",
+   "n_base": 5,
+   "style": "d31",
+   "split": "scratch",
+   "generator": "ledger-0.4"
+  },
+  {
+   "set_id": "ext40-ledger-l14-v1",
+   "family": "ledger",
+   "setting": "l14",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "ext40-ledger-l14n12-v1",
+   "family": "ledger",
+   "setting": "l14n12",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ext40-ledger-l14n16-v1",
+   "family": "ledger",
+   "setting": "l14n16",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ext40-ledger-l14n4-v1",
+   "family": "ledger",
+   "setting": "l14n4",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ext40-ledger-l14n6-v1",
+   "family": "ledger",
+   "setting": "l14n6",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ext40-ledger-l14n8-v1",
+   "family": "ledger",
+   "setting": "l14n8",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ext40-ledger-l15-v1",
+   "family": "ledger",
+   "setting": "l15",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "ext40-ledger-l16-v1",
+   "family": "ledger",
+   "setting": "l16",
+   "n_base": 40,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "ladder-ledger-l14n12-v1",
+   "family": "ledger",
+   "setting": "l14n12",
+   "n_base": 20,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ladder-ledger-l14n16-v1",
+   "family": "ledger",
+   "setting": "l14n16",
+   "n_base": 20,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ladder-ledger-l14n4-v1",
+   "family": "ledger",
+   "setting": "l14n4",
+   "n_base": 20,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ladder-ledger-l14n6-v1",
+   "family": "ledger",
+   "setting": "l14n6",
+   "n_base": 20,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "ladder-ledger-l14n8-v1",
+   "family": "ledger",
+   "setting": "l14n8",
+   "n_base": 20,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "main-ledger-l14n12-v1",
+   "family": "ledger",
+   "setting": "l14n12",
+   "n_base": 80,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "main-ledger-l14n16-v1",
+   "family": "ledger",
+   "setting": "l14n16",
+   "n_base": 80,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "main-ledger-l14n4-v1",
+   "family": "ledger",
+   "setting": "l14n4",
+   "n_base": 80,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "main-ledger-l14n6-v1",
+   "family": "ledger",
+   "setting": "l14n6",
+   "n_base": 80,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "main-ledger-l14n8-v1",
+   "family": "ledger",
+   "setting": "l14n8",
+   "n_base": 80,
+   "style": "d31",
+   "split": "main",
+   "generator": "ledger-0.5"
+  },
+  {
+   "set_id": "pilot-code-c3b-v1",
+   "family": "code",
+   "setting": "c3b",
+   "n_base": 4,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "codetrace-sketch-0.1"
+  },
+  {
+   "set_id": "pilot-digits-d4-v1",
+   "family": "digits",
+   "setting": "d4",
+   "n_base": 5,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "taskgen-proto-0.3"
+  },
+  {
+   "set_id": "pilot-digits-d4p-v1",
+   "family": "digits",
+   "setting": "d4p",
+   "n_base": 10,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "taskgen-proto-0.3"
+  },
+  {
+   "set_id": "pilot-digits-d4s-v1",
+   "family": "digits",
+   "setting": "d4s",
+   "n_base": 10,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "taskgen-proto-0.3"
+  },
+  {
+   "set_id": "pilot-ledger-l14-v1",
+   "family": "ledger",
+   "setting": "l14",
+   "n_base": 5,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "pilot-ledger-l15-v1",
+   "family": "ledger",
+   "setting": "l15",
+   "n_base": 10,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "pilot-ledger-l16-v1",
+   "family": "ledger",
+   "setting": "l16",
+   "n_base": 10,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "pilot-ledger-l17-v1",
+   "family": "ledger",
+   "setting": "l17",
+   "n_base": 5,
+   "style": "d31",
+   "split": "pilot",
+   "generator": "ledger-0.4.2"
+  },
+  {
+   "set_id": "smoke3-ledger-l16-v1",
+   "family": "ledger",
+   "setting": "l16",
+   "n_base": 5,
+   "style": "d31",
+   "split": "scratch",
+   "generator": "ledger-0.4.2"
+  }
+ ]
+}

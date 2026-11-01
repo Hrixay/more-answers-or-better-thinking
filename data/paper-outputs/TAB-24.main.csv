@@ -1,0 +1,9 @@
+"Study, steps",Shape,"Vote (effort, k)",Vote accuracy (%),One Haiku-max sample (%),Difference (points) [95% interval]
+"Study 1, 6",chains,"Haiku-medium, k = 4",49.4,97.5,"+48.1 [39.8, 56.2]"
+"Study 1, 6",pieces,"Haiku-medium, k = 3",56.3,95.0,"+38.7 [31.2, 46.2]"
+"Study 1b, 16",pooled,"Haiku-medium, k = 4",22.5,92.6,"+70.1 [63.8, 75.6]"
+"Study 1b, 16",pooled,"Haiku-high, k = 3",37.3,92.6,"+55.3 [49.6, 60.5]"
+"Study 1b, 16",pooled,"Haiku-xhigh, k = 2",58.9,92.6,"+33.7 [29.6, 37.6]"
+"Study 1b, 6",pooled,"Haiku-medium, k = 3",60.6,95.8,"+35.1 [25.8, 45.0]"
+"Study 1b, 6",pooled,"Haiku-high, k = 3",65.4,95.8,"+30.4 [21.5, 39.5]"
+"Study 1b, 6",pooled,"Haiku-xhigh, k = 2",77.7,95.8,"+18.1 [12.5, 25.3]"

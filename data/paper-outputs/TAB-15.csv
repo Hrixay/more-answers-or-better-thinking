@@ -1,0 +1,9 @@
+Count,Chains (1×6),Pieces (6×1)
+Puzzles with a failed task,1,0
+Failed tasks,1,0
+Helper draws,"1,035","1,044"
+Aggregator changed the helpers' answer,42,34
+"Helpers' results right, final answer wrong",15,9
+"Helpers' results wrong, final answer right",7,18
+Changed: aggregator unreadable,2,0
+Changed: helpers had no result,1,0

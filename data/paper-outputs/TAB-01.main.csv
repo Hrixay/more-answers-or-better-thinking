@@ -1,0 +1,25 @@
+Test,Steps,Comparison,k; spend share,d (points) [95% interval],Error-rate ratio [95% interval],Decision
+Test 1,6,"Haiku-medium vote vs Opus-medium, pieces",40; 0.909,"−33.1 [−43.8, −23.8]","undefined
+
+(comparator errors 0 of 80)",worse by > 10 (pre-registered rule)
+Test 2,6,"Haiku-medium vote vs Opus-medium, chains",36; 0.984,"−37.6 [−48.8, −27.0]","11.0
+
+[4.7, unbounded]",worse by > 10 (pre-registered rule)
+Test 3,6,"Haiku-medium vote vs Sonnet-medium, chains",13; 0.970,"−24.7 [−36.1, −12.2]","2.2
+
+[1.5, 3.9]",worse by > 10 (pre-registered rule; marking rule as run)
+Test 4,6,"Step voting vs Opus-medium, chains",cost ratio 0.09,"−42.5 [−53.8, −30.0]","12.3
+
+[5.2, unbounded]",worse by > 10 (pre-registered rule)
+Test 5,6,"Opus-low vs Sonnet-medium, chains","cost ratio 2.48 [2.36, 2.59]","+17.5 [8.8, 27.5]","0.1
+
+[0.0, 0.4]",shown no worse by > 10 (Holm-adjusted)
+B1,16,Haiku-max sample vs Opus-medium,cost ratio 0.15,"−5.2 [−7.8, −2.7]","3.4
+
+[1.8, 10.1]",inconclusive at 5; shown no worse by > 10 (Holm-adjusted)
+B2,16,Haiku-max vote vs Opus-medium,6; 0.894,"+0.6 [−1.1, 2.4]","0.7
+
+[0.2, 2.1]",shown no worse by > 5 (Holm-adjusted)
+B3,6,Haiku-max sample vs Opus-medium,cost ratio 0.10,"−3.6 [−7.0, −1.5]","6.8
+
+[1.7, unbounded]",inconclusive at 5; shown no worse by > 10 (Holm-adjusted)

@@ -1,0 +1,1995 @@
+{
+ "output": {
+  "id": "TAB-25",
+  "kind": "table",
+  "label": "post hoc descriptive sensitivity",
+  "section": "Results: Study 1b (appendix)",
+  "title": "B2's Haiku-max vote at every k, 16 steps (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Each shape's own cost-matched k, and B2's vote's per-shape cost",
+   "table": {
+    "caption": {
+     "interval": [
+      {
+       "kind": "label",
+       "printed": "d: paired BCa bootstrap over puzzles (free analysis 3, its own seed), B ="
+      },
+      {
+       "kind": "num",
+       "printed": "10,000",
+       "raw": 10000,
+       "refs": [
+        {
+         "key": "code.B",
+         "source": "fa3"
+        }
+       ]
+      }
+     ],
+     "n": [
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.paired.n",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "puzzles per shape; designed samples per item:"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "constants.designed_tries.hx",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "for Haiku-max,"
+      },
+      {
+       "kind": "num",
+       "printed": "2",
+       "raw": 2,
+       "refs": [
+        {
+         "key": "constants.designed_tries.om",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "for Opus-medium"
+      }
+     ],
+     "price": [
+      {
+       "kind": "label",
+       "printed": "list price per answer, as Study 1b's analysis stamps it; a vote of k samples costs k times one sample's list cost per answer"
+      }
+     ],
+     "set": [
+      {
+       "kind": "label",
+       "printed": "Study 1b's main set at this length; each shape on its own"
+      }
+     ],
+     "study": [
+      {
+       "kind": "label",
+       "printed": "Study 1b at"
+      },
+      {
+       "kind": "num",
+       "printed": "16",
+       "raw": 16,
+       "refs": [
+        {
+         "key": "completeness.B2.N",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "steps"
+      }
+     ],
+     "tier": [
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 3): own k, samples per comparator answer, the vote's cost and d, with no p-value, no Holm correction and no reading against the margin; pre-specified descriptive: the stamped one-sample costs and B2's vote cost; derived: B2's spend share per shape"
+      }
+     ]
+    },
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Own cost-matched k"
+     },
+     {
+      "kind": "label",
+      "printed": "Samples per comparator answer (Opus-medium cost per answer / one Haiku-max sample)"
+     },
+     {
+      "kind": "label",
+      "printed": "One Haiku-max sample: list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Vote at own k: list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Opus-medium: list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "d: vote at own k minus Opus-medium (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "d 95% interval (paired)"
+     },
+     {
+      "kind": "label",
+      "printed": "B2's vote: list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "B2's vote / Opus-medium spend share (derived)"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "label",
+       "printed": "Label of every row: post hoc (free analysis 3) for own k, samples per comparator answer, vote cost and d; pre-specified descriptive for the one-sample costs and B2's vote cost; derived for B2's spend share."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Post hoc (free analysis 3): each shape's own cost-matched k is the floor of Opus-medium's list cost per answer over one Haiku-max sample's on that shape, held to the designed samples; the vote's cost at that k and its paired d against Opus-medium are free analysis 3's."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Pre-specified descriptive: one Haiku-max sample's and Opus-medium's list cost per answer on each shape (Study 1b's settings and costs beside Test B2), and B2's vote's cost per shape (costs beside Test B2). Derived: B2's vote / Opus-medium spend share per shape, the quotient of those two stamped costs."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.k",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5.50",
+       "raw": 5.499771776484302,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.om_over_hx_cost_ratio",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0123",
+       "raw": 0.01226045875,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.1x16.cost_per_answer",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0613",
+       "raw": 0.06130229375,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.vote_cost_per_answer",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0674",
+       "raw": 0.067429725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.comparator.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+1.02",
+       "raw": 1.0193452380952375,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.paired.d",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−2.22, 4.76]",
+       "raw": [
+        -2.2247023809523814,
+        4.761904761904761
+       ],
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.1x16.paired.ci95.0",
+         "source": "fa3"
+        },
+        {
+         "key": "result.own_equal_money_k.1x16.paired.ci95.1",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0736",
+       "raw": 0.0735627525,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "B2 vote list cost per answer / Opus-medium list cost per answer",
+       "kind": "num",
+       "printed": "1.091",
+       "raw": 1.090954360261739,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.1x16.list_usd",
+         "source": "s1b"
+        },
+        {
+         "key": "costs_beside_tests.B2.comparator.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.16x1.k",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8.18",
+       "raw": 8.180673585002115,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.16x1.om_over_hx_cost_ratio",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0101",
+       "raw": 0.010086421875,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.16x1.cost_per_answer",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0807",
+       "raw": 0.080691375,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.16x1.vote_cost_per_answer",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0825",
+       "raw": 0.082513725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.comparator.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+0.56",
+       "raw": 0.5555555555555556,
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.16x1.paired.d",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−0.90, 3.26]",
+       "raw": [
+        -0.9027777777777777,
+        3.2638888888888884
+       ],
+       "refs": [
+        {
+         "key": "result.own_equal_money_k.16x1.paired.ci95.0",
+         "source": "fa3"
+        },
+        {
+         "key": "result.own_equal_money_k.16x1.paired.ci95.1",
+         "source": "fa3"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0605",
+       "raw": 0.06051853125,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "B2 vote list cost per answer / Opus-medium list cost per answer",
+       "kind": "num",
+       "printed": "0.733",
+       "raw": 0.7334359374758563,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.16x1.list_usd",
+         "source": "s1b"
+        },
+        {
+         "key": "costs_beside_tests.B2.comparator.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa3": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa3.json",
+   "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+  },
+  "fa_votes_spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "d: paired BCa bootstrap over puzzles (free analysis 3), B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; the Test B2 row's pooled d: Study 1b's confirmatory paired BCa bootstrap, B =",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "code.B",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; its error-rate ratio: Study 1b's paired percentile bootstrap over puzzles, B =",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; accuracies: cluster bootstrap over puzzles (percentile)",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "error_ratios.B2.B",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.by_k.0.pooled.n",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles; designed samples per item:"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Haiku-max,"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Opus-medium"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price per answer, as Study 1b's analysis stamps it; a vote of k samples costs k times one sample's list cost per answer"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's 16-step main set; every puzzle as a chain and as pieces"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B2.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity (free analysis 3) for the vote rows' d and cost ratio, with no p-value, no Holm correction and no reading against the margin; the Test B2 row's pooled d and interval are confirmatory (Test B2), stamped values unchanged; the Test B2 row's error-rate ratio is pre-specified descriptive, reported beside the test; every accuracy, format compliance and cost is pre-specified descriptive"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples voted (k)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy, pooled (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance of the samples, 1×16 / 16×1 (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per answer, pooled ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Spend share or cost ratio (vote / Opus-medium), pooled"
+   },
+   {
+    "kind": "label",
+    "printed": "d pooled: vote minus Opus-medium (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "d pooled 95% interval (paired)"
+   },
+   {
+    "kind": "label",
+    "printed": "Error-rate ratio R (vote / Opus-medium) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Label"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "d is the vote of k Haiku-max samples minus one Opus-medium answer, in points, paired over the same puzzles; a positive d means the vote scored higher."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The Test B2 row is the pre-registered test at B2's own k ="
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1b's rule for a cost-matched vote). Its pooled d and interval are Test B2's stamped confirmatory values, unchanged: p"
+    },
+    {
+     "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00011, below its Holm threshold of",
+     "raw": 0.00010062651391767874,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00833; reading:",
+     "raw": 0.008333333333333333,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.holm_thresholds.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "shown no worse by > margin (Holm-adjusted), in all three views.",
+     "raw": "holds (no worse in all three views)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Its accuracy, format compliance and costs are pre-specified descriptive, not part of the test. One comparison, one interval: free analysis 3's own interval for this vote is not printed."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Error-rate ratio R: the vote's errors over Opus-medium's on the same puzzles. Near the ceiling it sits beside d; on the Test B2 row it is Study 1b's stamped value for Test B2, pre-specified descriptive, reported beside the test and not part of it. The post hoc rows have none: free analysis 3 stamps no error-rate ratio."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The other vote rows are post hoc descriptive sensitivity: Study 1b's spec set no sensitivity analysis over k, so their d and cost ratio carry no p-value, no Holm correction and no reading against the margin, and they leave B2 unchanged. Their accuracy, format compliance and cost are Study 1b's pre-specified vote curve."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample (k ="
+    },
+    {
+     "kind": "num",
+     "printed": "1)",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.0.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "is Test B1's challenger and is reported with the Study 1b tests."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Cost:"
+    },
+    {
+     "kind": "num",
+     "printed": "US dollars per answer at list price (item 9b);",
+     "raw": "USD per answer, list price (item 9b)",
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.opus_medium_cost_per_answer.unit",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "a vote of k samples costs k times one sample's list cost per answer. Every value in the spend share or cost ratio column is the vote's pooled list cost per answer over Opus-medium's: a cost ratio on the post hoc rows and, on the Test B2 row, B2's spend share, as ⟦TAB-01⟧ prints it. The samples per comparator answer that set a cost-matched k (Opus-medium's cost per answer over one Haiku-max sample's, as in Panel 1) are printed to two decimals; a vote's cost over Opus-medium's, as reported for Test B2 with the Study 1b tests, to three."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance: the Haiku-max samples the votes are taken over, and Opus-medium's answers on its row."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Panel 1: per-shape intervals are printed only here (one comparison, one interval): free analysis 3 also stamps per-shape intervals at each k, drawn with other seeds, and they are not printed."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "≤ marks a p at the smallest value the bootstrap can return (no resample reached the margin)."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "One Opus-medium answer (the comparator)"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.25, 99.06]",
+     "raw": [
+      96.25,
+      99.0625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.00 / 100.00",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0750",
+     "raw": 0.074971725,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive (comparator of Tests B1 and B2)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "result.by_k.0.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.87",
+     "raw": 92.86805555555556,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.62, 94.81]",
+     "raw": [
+      90.61805555555556,
+      94.80555555555556
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0223",
+     "raw": 0.022346880625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.298",
+     "raw": 0.298070781017777,
+     "refs": [
+      {
+       "key": "result.by_k.0.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−4.94",
+     "raw": -4.944444444444445,
+     "refs": [
+      {
+       "key": "result.by_k.0.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.44, −2.38]",
+     "raw": [
+      -7.444444444444445,
+      -2.381944444444444
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.0.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.0.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.by_k.1.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.03",
+     "raw": 97.02604166666666,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.32, 98.40]",
+     "raw": [
+      95.32291666666666,
+      98.39583333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0335",
+     "raw": 0.0335203209375,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.447",
+     "raw": 0.44710617152666554,
+     "refs": [
+      {
+       "key": "result.by_k.1.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.79",
+     "raw": -0.7864583333333341,
+     "refs": [
+      {
+       "key": "result.by_k.1.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−2.83, 1.21]",
+     "raw": [
+      -2.828125000000001,
+      1.211805555555555
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.1.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.1.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "4",
+     "raw": 4,
+     "refs": [
+      {
+       "key": "result.by_k.2.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.45",
+     "raw": 97.45014880952381,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.95, 98.65]",
+     "raw": [
+      95.94568452380952,
+      98.65104166666666
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0447",
+     "raw": 0.04469376125,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.596",
+     "raw": 0.596141562035554,
+     "refs": [
+      {
+       "key": "result.by_k.2.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.36",
+     "raw": -0.36235119047619146,
+     "refs": [
+      {
+       "key": "result.by_k.2.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−2.24, 1.59]",
+     "raw": [
+      -2.2380952380952386,
+      1.5930059523809517
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.2.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.2.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "result.by_k.3.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.30",
+     "raw": 98.30357142857143,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.93, 99.36]",
+     "raw": [
+      96.92708333333334,
+      99.36011904761905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0559",
+     "raw": 0.0558672015625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.745",
+     "raw": 0.7451769525444426,
+     "refs": [
+      {
+       "key": "result.by_k.3.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.49",
+     "raw": 0.4910714285714282,
+     "refs": [
+      {
+       "key": "result.by_k.3.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.37, 2.31]",
+     "raw": [
+      -1.372767857142857,
+      2.306547619047618
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.3.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.3.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote: Test B2"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.44",
+     "raw": 98.44494047619047,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[97.08, 99.46]",
+     "raw": [
+      97.08333333333334,
+      99.45684523809524
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0670",
+     "raw": 0.067040641875,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B2.challenger.pooled.list_usd",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.894",
+     "raw": 0.8942123430533311,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B2.ratio_challenger_over_comparator",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.63",
+     "raw": 0.6324404761904753,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.15, 2.44]",
+     "raw": [
+      -1.1458333333333346,
+      2.4404761904761894
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.71 [0.24, 2.11]",
+     "raw": [
+      0.7108843537414969,
+      [
+       0.24206349206349223,
+       2.10952380952381
+      ]
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B2.R",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory: the pooled d and its interval (Test B2, 5-point margin), stamped values unchanged. Error-rate ratio: pre-specified descriptive, reported beside the test, not part of it. Accuracy, format compliance and costs: pre-specified descriptive"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "7",
+     "raw": 7,
+     "refs": [
+      {
+       "key": "result.by_k.5.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.80",
+     "raw": 98.80208333333334,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[97.40, 99.74]",
+     "raw": [
+      97.39583333333334,
+      99.73958333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0782",
+     "raw": 0.0782140821875,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.043",
+     "raw": 1.0432477335622197,
+     "refs": [
+      {
+       "key": "result.by_k.5.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.99",
+     "raw": 0.9895833333333333,
+     "refs": [
+      {
+       "key": "result.by_k.5.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.89, 2.81]",
+     "raw": [
+      -0.8854166666666672,
+      2.8125
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.5.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.5.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "8",
+     "raw": 8,
+     "refs": [
+      {
+       "key": "result.by_k.6.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.99",
+     "raw": 98.99305555555556,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[97.50, 99.90]",
+     "raw": [
+      97.5,
+      99.89583333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0894",
+     "raw": 0.0893875225,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.192",
+     "raw": 1.192283124071108,
+     "refs": [
+      {
+       "key": "result.by_k.6.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.18",
+     "raw": 1.1805555555555558,
+     "refs": [
+      {
+       "key": "result.by_k.6.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.76, 2.95]",
+     "raw": [
+      -0.7638888888888887,
+      2.9513888888888893
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.6.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.6.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": 9,
+     "refs": [
+      {
+       "key": "result.by_k.7.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.22",
+     "raw": 99.21875,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[97.66, 100.00]",
+     "raw": [
+      97.65625,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.101",
+     "raw": 0.1005609628125,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.341",
+     "raw": 1.3413185145799966,
+     "refs": [
+      {
+       "key": "result.by_k.7.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.41",
+     "raw": 1.40625,
+     "refs": [
+      {
+       "key": "result.by_k.7.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.78, 3.28]",
+     "raw": [
+      -0.78125,
+      3.28125
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.7.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.7.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.by_k.8.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[98.13, 100.00]",
+     "raw": [
+      98.125,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.112",
+     "raw": 0.111734403125,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.490",
+     "raw": 1.4903539050888852,
+     "refs": [
+      {
+       "key": "result.by_k.8.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.56",
+     "raw": 1.5625,
+     "refs": [
+      {
+       "key": "result.by_k.8.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.63, 3.44]",
+     "raw": [
+      -0.625,
+      3.4375
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.8.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.8.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity: d and cost ratio (free analysis 3); accuracy, format compliance and cost pre-specified descriptive (vote curve)"
+    }
+   ]
+  ]
+ }
+}

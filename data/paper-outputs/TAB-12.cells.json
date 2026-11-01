@@ -1,0 +1,6214 @@
+{
+ "output": {
+  "id": "TAB-12",
+  "kind": "table",
+  "label": "pre-specified descriptive (no tests)",
+  "section": "Results: effort and length",
+  "title": "Effort sweep (Study 1b)"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_curve_py_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/curve.py",
+   "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+  },
+  "s1b_driver_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/study1b.py",
+   "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+  },
+  "spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "cluster bootstrap (several samples) or Clopper–Pearson (one sample), as recorded per setting; exact Clopper–Pearson over puzzles (free analysis 4, post hoc) where a bootstrap interval collapsed"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles:"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps;"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps;"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps; samples per puzzle and shape in the Samples per puzzle column"
+    }
+   ],
+   "price": [
+    {
+     "formula": "text cut /^- (The list cost per answer is beside each point)\\.$/ group 1; not printed: the record for 'the effort figure's points carry the list cost per answer'",
+     "kind": "num",
+     "printed": "list price in US dollars (pre-registered)",
+     "raw": "The list cost per answer is beside each point",
+     "refs": [
+      {
+       "key": "L277",
+       "source": "spec1b"
+      }
+     ]
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's own puzzle sets, one per length (each setting ran on the set of its length): the set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps is Test B3's, the set at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps that of Tests B1 and B2, and there is one set at"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b effort sweep. At"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: every model at every effort level, and Haiku, thinking off. At"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: Haiku at every effort level; Haiku, thinking off; and Opus-medium. At"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: Haiku-max and Opus-medium"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive (no tests); the exact intervals are post hoc (free analysis 4)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Puzzles"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples per puzzle"
+   },
+   {
+    "kind": "label",
+    "printed": "Pooled accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Pooled 95% interval (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Interval type"
+   },
+   {
+    "kind": "label",
+    "printed": "Chain accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Chain 95% interval (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Pieces accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Pieces 95% interval (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance, chain (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format flag, chain"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance, pieces (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format flag, pieces"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per answer ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per correct answer ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Token limit (max_tokens)"
+   },
+   {
+    "kind": "label",
+    "printed": "Trial round: largest output (tokens)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "formula": "text cut /^- \\*\\*(Format compliance, refusals, truncations and missing items)\\*\\* for every arm/ group 1; not printed: the record for 'format compliance and its flag are pre-registered for every arm'; text cut /^## \\d+\\. Descriptive outputs \\((pre-registered), no tests\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. Descriptive outputs \\\\((pre-registered), no tests\\\\)$''",
+     "kind": "num",
+     "printed": "Format flag: yes means the pre-registered format-compliance flag fires for that setting and shape. Its rule, in the file's words:",
+     "raw": [
+      "Format compliance, refusals, truncations and missing items",
+      "pre-registered"
+     ],
+     "refs": [
+      {
+       "key": "L286",
+       "source": "spec1b"
+      },
+      {
+       "key": "L270",
+       "source": "spec1b"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^item 16: count / designed calls with .+; item 17: (non-compliance above (\\d+(?:\\.\\d+)?)% of answered tries)$/ group 1",
+     "kind": "num",
+     "printed": "\"non-compliance above 5% of answered tries\";",
+     "raw": "non-compliance above 5% of answered tries",
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.label",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "non-compliance is the share of answered samples (the file's \"tries\") whose format was not ok, one minus the format compliance (checked). Refusals, truncations and missing calls are counted apart in the Study 1b file (not in this table) and do not enter the flag: the answered samples leave them out (checked)."
+    }
+   ],
+   [
+    {
+     "formula": "the number of the effort sweep's arm and shape cells whose non-compliance is exactly the format flag's threshold and whose stamped flag does not fire (printed as a word)",
+     "kind": "num",
+     "printed": "Two",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "cells sit at exactly"
+    },
+    {
+     "formula": "non-compliance of the cells on the threshold, 100 x (1 - format compliance)",
+     "kind": "num",
+     "printed": "5.0%",
+     "raw": 5.000000000000004,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and are not flagged, as the rule says"
+    },
+    {
+     "formula": "text cut /^item 16: count / designed calls with .+; item 17: (non-compliance above (\\d+(?:\\.\\d+)?)% of answered tries)$/ group 2",
+     "kind": "num",
+     "printed": "'more than 5%'.",
+     "raw": "5",
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.label",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Pooled accuracy is each puzzle's mean over its two shapes. Intervals are cluster bootstrap over puzzles for settings with several samples and Clopper–Pearson for one-sample settings (the interval type the file records for each setting, in the Interval type column that opens the table's second part); per-shape intervals are of the same type."
+    }
+   ],
+   [
+    {
+     "formula": "text cut /^- \\*\\*Per shape:\\*\\* h, o, v and d for each shape, with a (cluster bootstrap over base puzzles) \\((\\d,\\d{3}) draws, seed \\d+\\)\\. Descriptive\\.$/ group 1; not printed: the record for 'the per-test intervals per shape are a cluster bootstrap over base puzzles'; text cut /^## \\d+\\. (The confirmatory tests): B1, B2, B3 \\(F-3\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. (The confirmatory tests): B1, B2, B3 \\\\(F-3\\\\)$''; text cut /^- Each point carries its interval: a (cluster bootstrap for multi-try arms), Clopper–Pearson for one-try arms, (\\d,\\d{3}) draws, seed$/ group 1; not printed: the record for 'the effort sweep's multi-try intervals are a cluster bootstrap'; text cut /^## \\d+\\. Descriptive outputs \\((pre-registered), no tests\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. Descriptive outputs \\\\((pre-registered), no tests\\\\)$''; text cut /^(\\d+)$/ group 1; not printed: the record for 'the bootstrap draws the Study 1b file used'; text cut /\"\"\"The (cluster bootstrap) \\(curve\\.cluster_bootstrap, percentile 95%\\) of the mean over drawn base puzzles/ group 1; not printed: the record for '_boot is the cluster bootstrap over base puzzles'; text cut /lambda s: math\\.fsum\\(values\\[b\\] for b in s\\) / len\\(s\\), (name, draws=draws),/ group 1; not printed: the record for '_boot draws under the name and with the draws it is given'; text cut /\"ci95\": _boot\\(bases, v, (f\"1b:\\{t\\}:\\{n\\}:\\{shape\\}:\\{s\\}\"), draws\\)/ group 1; not printed: the record for 'each per-test interval is _boot under its own name'; text cut /name = (f\"1b:\\{su\\.name\\}:\\{n\\}:\\{shape\\}\")/ group 1; not printed: the record for 'the effort sweep's per-shape bootstrap name'; text cut /d\\.update\\(ci95=_boot\\(bases, per\\[shape\\], name, draws\\), interval=\"(cluster bootstrap)\", bootstrap_name=name\\)/ group 1; not printed: the record for 'the effort sweep's per-shape interval of a multi-try arm is _boot'; text cut /\"ci95\": _boot\\(sorted\\(v\\), v, (f\"1b:hx-vote:\\{n\\}:\\{label\\}\"), draws\\)/ group 1; not printed: the record for 'each vote-curve interval is _boot under its own name'; text cut /out\\.update\\((_accuracy\\(ctx, ar, su, n, draws, final_only=False\\))\\)/ group 1; not printed: the record for 'an effort-sweep arm's entry is _accuracy with the draws it is given'; text cut /= (arm_point\\(ctx, rows, su, int\\(s\\[\"n\"\\]\\), draws, h\\))/ group 1; not printed: the record for 'every effort-sweep arm gets the draws'; text cut /arms = (descriptive_arms\\(ctx, rows, plan, dv\\))/ group 1; not printed: the record for 'the effort sweep gets the file's draws'; text cut /\"per_form\": (per_form\\(rows, k, dv\\)),/ group 1; not printed: the record for 'the per-test intervals get the file's draws'; text cut /\"vote_curve_n16\": (vote_curve\\(ctx, rows, k, dv\\)),/ group 1; not printed: the record for 'the vote curve gets the file's draws'; text cut /\"constants\": \\{.*(\"draws\": dv),/ group 1; not printed: the record for 'the file stamps the draws the driver used'; text cut /rng = random\\.Random\\((derive_seed\\(seed, name\\))\\)/ group 1; not printed: the record for 'the cluster bootstrap seeds its draws by the bootstrap's name'",
+     "kind": "num",
+     "printed": "Haiku-max's and Opus-medium's intervals here at the lengths of Tests B1–B3 and those in TAB-11 (Tests B1–B3 by shape) come from separate bootstrap draws over the same puzzles, with the same points, and differ only by resampling, so their ends can differ slightly; where both collapsed to one value, both show the same exact interval.",
+     "raw": [
+      "cluster bootstrap over base puzzles",
+      "The confirmatory tests",
+      "cluster bootstrap for multi-try arms",
+      "pre-registered",
+      "2000",
+      "cluster bootstrap",
+      "name, draws=draws",
+      "f\"1b:{t}:{n}:{shape}:{s}\"",
+      "f\"1b:{su.name}:{n}:{shape}\"",
+      "cluster bootstrap",
+      "f\"1b:hx-vote:{n}:{label}\"",
+      "_accuracy(ctx, ar, su, n, draws, final_only=False)",
+      "arm_point(ctx, rows, su, int(s[\"n\"]), draws, h)",
+      "descriptive_arms(ctx, rows, plan, dv)",
+      "per_form(rows, k, dv)",
+      "vote_curve(ctx, rows, k, dv)",
+      "\"draws\": dv",
+      "derive_seed(seed, name)"
+     ],
+     "refs": [
+      {
+       "key": "L216",
+       "source": "spec1b"
+      },
+      {
+       "key": "L158",
+       "source": "spec1b"
+      },
+      {
+       "key": "L275",
+       "source": "spec1b"
+      },
+      {
+       "key": "L270",
+       "source": "spec1b"
+      },
+      {
+       "key": "constants.draws",
+       "source": "s1b"
+      },
+      {
+       "key": "L705",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L708",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L691",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L832",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L836",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1054",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L894",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L917",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1163",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1188",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1192",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1180",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L228",
+       "source": "s1b_curve_py_s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "\"(exact, post hoc; … puzzles)\" marks a bootstrap interval that collapsed to one value (every puzzle right, or every one wrong), replaced by the exact two-sided 95% Clopper–Pearson interval from free analysis 4 (post hoc; it changes no test). The count in the mark is the number of puzzles, not of samples (the conservative unit)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Token limit and the trial round's largest output are recorded only for the settings whose limit the trial round set; the Study 1b file records no limit for the other settings, so those cells are empty."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance is the share of answered samples whose format was ok, per shape."
+    }
+   ],
+   [
+    {
+     "formula": "text cut /^- \\*\\*(Cost per correct answer)\\*\\* for every arm/ group 1; not printed: the record for 'cost per correct answer is pre-registered for every arm'; text cut /^## \\d+\\. Descriptive outputs \\((pre-registered), no tests\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. Descriptive outputs \\\\((pre-registered), no tests\\\\)$''",
+     "kind": "num",
+     "printed": "Cost per correct answer is list-price dollars per correct answer, as pre-registered; no setting in this table is a vote.",
+     "raw": [
+      "Cost per correct answer",
+      "pre-registered"
+     ],
+     "refs": [
+      {
+       "key": "L283",
+       "source": "spec1b"
+      },
+      {
+       "key": "L270",
+       "source": "spec1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-low"
+    },
+    {
+     "kind": "label",
+     "printed": "and"
+    },
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps have the same accuracies and intervals on both shapes and pooled. They are separate settings: list cost per answer"
+    },
+    {
+     "kind": "num",
+     "printed": "$0.0150",
+     "raw": 0.01502185,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "against"
+    },
+    {
+     "kind": "num",
+     "printed": "$0.0154;",
+     "raw": 0.015358725,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "chain format compliance"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00%",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sl.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "against"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50%.",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "27.50",
+     "raw": 27.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[20.00, 35.25]",
+     "raw": [
+      20.0,
+      35.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26.50",
+     "raw": 26.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[17.50, 36.50]",
+     "raw": [
+      17.5,
+      36.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "28.50",
+     "raw": 28.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[19.00, 38.00]",
+     "raw": [
+      19.0,
+      38.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "83.50",
+     "raw": 0.835,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.000927",
+     "raw": 0.0009273925,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00337",
+     "raw": 0.0033723363636363637,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.50",
+     "raw": 0.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.00, 1.13]",
+     "raw": [
+      0.0,
+      1.125
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.00, 4.51] (exact, post hoc; 80 puzzles)",
+     "raw": [
+      [
+       0.0,
+       4.5064035067692245
+      ],
+      80
+     ],
+     "refs": [
+      {
+       "key": "result.cells.12.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.12.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.12.n",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.00, 2.25]",
+     "raw": [
+      0.0,
+      2.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "28.00",
+     "raw": 0.28,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "78.25",
+     "raw": 0.7825,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00147",
+     "raw": 0.00146679125,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.293",
+     "raw": 0.29335825,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "14,000",
+     "raw": 14000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.1.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3,549",
+     "raw": 3549,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.1.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.75",
+     "raw": 52.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[43.75, 61.25]",
+     "raw": [
+      43.75,
+      61.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.50",
+     "raw": 52.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[42.00, 62.50]",
+     "raw": [
+      42.0,
+      62.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "53.00",
+     "raw": 53.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[42.50, 64.50]",
+     "raw": [
+      42.5,
+      64.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.50",
+     "raw": 0.985,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00104",
+     "raw": 0.0010364425,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00196",
+     "raw": 0.00196481990521327,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "12.75",
+     "raw": 12.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[9.63, 16.00]",
+     "raw": [
+      9.625,
+      16.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "9.50",
+     "raw": 9.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[6.25, 13.25]",
+     "raw": [
+      6.25,
+      13.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "16.00",
+     "raw": 16.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[11.75, 20.75]",
+     "raw": [
+      11.75,
+      20.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "93.75",
+     "raw": 0.9375,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00234",
+     "raw": 0.00234356125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0184",
+     "raw": 0.01838087254901961,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "14,000",
+     "raw": 14000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.2.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4,717",
+     "raw": 4717,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.2.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "54.50",
+     "raw": 54.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[46.00, 63.25]",
+     "raw": [
+      46.0,
+      63.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.00",
+     "raw": 52.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[41.00, 63.00]",
+     "raw": [
+      41.0,
+      63.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57.00",
+     "raw": 57.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[46.50, 67.50]",
+     "raw": [
+      46.5,
+      67.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.00",
+     "raw": 0.99,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.00",
+     "raw": 0.99,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00110",
+     "raw": 0.0011033225,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00202",
+     "raw": 0.0020244449541284406,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "17.75",
+     "raw": 17.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[13.75, 21.75]",
+     "raw": [
+      13.75,
+      21.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11.50",
+     "raw": 11.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[8.00, 15.25]",
+     "raw": [
+      8.0,
+      15.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "24.00",
+     "raw": 24.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[17.25, 30.75]",
+     "raw": [
+      17.25,
+      30.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "95.49",
+     "raw": 0.9548872180451128,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00254",
+     "raw": 0.00253889125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0143",
+     "raw": 0.014303612676056338,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "60.75",
+     "raw": 60.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[52.25, 69.50]",
+     "raw": [
+      52.25,
+      69.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "59.00",
+     "raw": 59.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[48.50, 69.50]",
+     "raw": [
+      48.5,
+      69.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "62.50",
+     "raw": 62.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[50.50, 73.50]",
+     "raw": [
+      50.5,
+      73.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00125",
+     "raw": 0.00125357,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00206",
+     "raw": 0.0020634897119341565,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6,000",
+     "raw": 6000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.5.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,723",
+     "raw": 2723,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.5.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "31.25",
+     "raw": 31.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[26.88, 36.00]",
+     "raw": [
+      26.875,
+      36.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "31.00",
+     "raw": 31.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[25.50, 36.75]",
+     "raw": [
+      25.5,
+      36.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "31.50",
+     "raw": 31.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[25.25, 37.75]",
+     "raw": [
+      25.25,
+      37.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "93.75",
+     "raw": 0.9375,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00334",
+     "raw": 0.00333936125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0107",
+     "raw": 0.010685956000000002,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "32,000",
+     "raw": 32000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.3.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "15,600",
+     "raw": 15600,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.3.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "76.75",
+     "raw": 76.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[70.00, 83.00]",
+     "raw": [
+      70.0,
+      83.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.50",
+     "raw": 80.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[74.00, 86.50]",
+     "raw": [
+      74.0,
+      86.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "73.00",
+     "raw": 73.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[63.50, 82.50]",
+     "raw": [
+      63.5,
+      82.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.50",
+     "raw": 0.985,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00172",
+     "raw": 0.00172197625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00224",
+     "raw": 0.002243617263843648,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11,000",
+     "raw": 11000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.6.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5,356",
+     "raw": 5356,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.6.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "58.38",
+     "raw": 58.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[53.88, 62.88]",
+     "raw": [
+      53.875,
+      62.875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57.25",
+     "raw": 57.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[50.75, 63.75]",
+     "raw": [
+      50.75,
+      63.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "59.50",
+     "raw": 59.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[52.75, 66.25]",
+     "raw": [
+      52.75,
+      66.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00507",
+     "raw": 0.00507423125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00869",
+     "raw": 0.00869247323340471,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "39,000",
+     "raw": 39000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.4.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "19,018",
+     "raw": 19018,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.4.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.75",
+     "raw": 95.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.00, 97.88]",
+     "raw": [
+      93.0,
+      97.875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[94.75, 99.25]",
+     "raw": [
+      94.75,
+      99.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.50, 97.25]",
+     "raw": [
+      90.5,
+      97.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00419",
+     "raw": 0.0041901575,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00438",
+     "raw": 0.00437614360313316,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.75",
+     "raw": 92.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.69, 94.63]",
+     "raw": [
+      90.6875,
+      94.625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@12.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.38",
+     "raw": 90.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.1x12.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[87.00, 93.50]",
+     "raw": [
+      87.0,
+      93.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.1x12.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@12.1x12.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.13",
+     "raw": 95.125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.12x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.13, 97.00]",
+     "raw": [
+      93.125,
+      97.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.12x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@12.12x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x12.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.12x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00826",
+     "raw": 0.008255653125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00890",
+     "raw": 0.008900973719676549,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96,000",
+     "raw": 96000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.13.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "29,648",
+     "raw": 29648,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.13.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.63",
+     "raw": 92.625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.38, 94.63]",
+     "raw": [
+      90.375,
+      94.625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.25",
+     "raw": 92.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.25, 94.88]",
+     "raw": [
+      89.25,
+      94.875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "93.00",
+     "raw": 93.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.38, 95.25]",
+     "raw": [
+      90.375,
+      95.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0112",
+     "raw": 0.0111734403125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0121",
+     "raw": 0.012063093454790823,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96,000",
+     "raw": 96000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.0.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "27,164",
+     "raw": 27164,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.0.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[69.56, 88.11]",
+     "raw": [
+      69.56311329945355,
+      88.11409135950146
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sl@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 77.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[61.55, 89.16]",
+     "raw": [
+      61.54883226965773,
+      89.16033610159279
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sl@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[67.22, 92.66]",
+     "raw": [
+      67.22098666384142,
+      92.66172706479148
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sl@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sl.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sl.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0150",
+     "raw": 0.01502185,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0188",
+     "raw": 0.0187773125,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[69.56, 88.11]",
+     "raw": [
+      69.56311329945355,
+      88.11409135950146
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sm@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 77.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[61.55, 89.16]",
+     "raw": [
+      61.54883226965773,
+      89.16033610159279
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sm@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[67.22, 92.66]",
+     "raw": [
+      67.22098666384142,
+      92.66172706479148
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sm@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0154",
+     "raw": 0.015358725,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0192",
+     "raw": 0.01919840625,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.26, 99.70]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[86.84, 99.94]",
+     "raw": [
+      86.84141415172341,
+      99.93672550679507
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[86.84, 99.94]",
+     "raw": [
+      86.84141415172341,
+      99.93672550679507
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0188",
+     "raw": 0.0188361,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0193",
+     "raw": 0.01931907692307692,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5,000",
+     "raw": 5000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.7.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,443",
+     "raw": 2443,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.7.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.26, 99.70]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 95.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[83.08, 99.39]",
+     "raw": [
+      83.08031360405823,
+      99.38863534006492
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sxh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sxh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0228",
+     "raw": 0.022837475,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0234",
+     "raw": 0.023423051282051282,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6,000",
+     "raw": 6000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.8.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,591",
+     "raw": 2591,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.8.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.49, 100.00]",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sx@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sx@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sx@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0475",
+     "raw": 0.0475381,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0475",
+     "raw": 0.0475381,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11,000",
+     "raw": 11000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.9.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5,364",
+     "raw": 5364,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.9.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.23, 99.97]",
+     "raw": [
+      93.23122155360775,
+      99.96835774723674
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ol@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[86.84, 99.94]",
+     "raw": [
+      86.84141415172341,
+      99.93672550679507
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ol@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ol@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0395",
+     "raw": 0.0394502,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0399",
+     "raw": 0.039949569620253166,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[98.13, 100.00]",
+     "raw": [
+      98.125,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.25, 100.00]",
+     "raw": [
+      96.25,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00] (exact, post hoc; 40 puzzles)",
+     "raw": [
+      [
+       91.19026971211977,
+       100.0
+      ],
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.cells.0.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.0.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.0.n",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0441",
+     "raw": 0.044095075,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0444",
+     "raw": 0.04437240251572327,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.72, 99.31]",
+     "raw": [
+      93.72293920453443,
+      99.31472572664562
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@12.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.1x12.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.43, 99.22]",
+     "raw": [
+      89.42980149834914,
+      99.21988127342833
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.1x12.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@12.1x12.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.12x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.23, 99.97]",
+     "raw": [
+      93.23122155360775,
+      99.96835774723674
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.12x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@12.12x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 0.9875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x12.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.12x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0612",
+     "raw": 0.06123045,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0628",
+     "raw": 0.06280046153846154,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.25, 99.06]",
+     "raw": [
+      96.25,
+      99.0625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.88",
+     "raw": 96.875,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[94.38, 99.38]",
+     "raw": [
+      94.375,
+      99.375
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.1x16.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.88, 100.00]",
+     "raw": [
+      96.875,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0750",
+     "raw": 0.074971725,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0766",
+     "raw": 0.0766484089456869,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.43, 99.22]",
+     "raw": [
+      89.42980149834914,
+      99.21988127342833
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.50",
+     "raw": 92.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[79.61, 98.43]",
+     "raw": [
+      79.6135251267101,
+      98.42578201489584
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 0.95,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0455",
+     "raw": 0.0455152,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0473",
+     "raw": 0.04728851948051948,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6,000",
+     "raw": 6000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.10.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,686",
+     "raw": 2686,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.10.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.26, 99.70]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 95.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[83.08, 99.39]",
+     "raw": [
+      83.08031360405823,
+      99.38863534006492
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oxh@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oxh@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 0.95,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0499",
+     "raw": 0.0499072,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0512",
+     "raw": 0.051186871794871795,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6,000",
+     "raw": 6000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.11.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,740",
+     "raw": 2740,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.11.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.49, 100.00]",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ox@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Clopper–Pearson (exact)",
+     "raw": "clopper-pearson",
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ox@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00]",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ox@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ox.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ox.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0888",
+     "raw": 0.08876345,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0888",
+     "raw": 0.08876345,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.cpc.cpc",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11,000",
+     "raw": 11000,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.12.max_tokens",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5,411",
+     "raw": 5411,
+     "refs": [
+      {
+       "key": "plan_as_run.limits.12.wave0_output_tokens_max",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

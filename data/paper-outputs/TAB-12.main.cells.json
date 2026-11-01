@@ -1,0 +1,3051 @@
+{
+ "output": {
+  "id": "TAB-12",
+  "kind": "table",
+  "label": "pre-specified descriptive (no tests)",
+  "section": "Results: effort and length",
+  "title": "Effort sweep (Study 1b)"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_curve_py_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/curve.py",
+   "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+  },
+  "s1b_driver_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/study1b.py",
+   "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+  },
+  "spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  }
+ },
+ "table": {
+  "caption": {
+   "format": [
+    {
+     "kind": "label",
+     "printed": "format compliance: the share of answered samples in the required answer format, chains / pieces; the pre-registered format check flags a shape whose non-compliance is above"
+    },
+    {
+     "formula": "text cut /^item 16: count / designed calls with .+; item 17: (non-compliance above (\\d+(?:\\.\\d+)?)% of answered tries)$/ group 2",
+     "kind": "num",
+     "printed": "5%",
+     "raw": "5",
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.label",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "of its answered samples (the flagged shape column; blank where neither shape is flagged)"
+    }
+   ],
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "cluster bootstrap over puzzles (several samples) or Clopper–Pearson (one sample), as recorded per setting"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles:"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps;"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps;"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps, each in both shapes; accuracy is each puzzle's mean over its two shapes; samples per puzzle and shape in the Samples per puzzle column"
+    }
+   ],
+   "price": [
+    {
+     "formula": "text cut /^- (The list cost per answer is beside each point)\\.$/ group 1; not printed: the record for 'the effort figure's points carry the list cost per answer'",
+     "kind": "num",
+     "printed": "list price in US dollars (pre-registered)",
+     "raw": "The list cost per answer is beside each point",
+     "refs": [
+      {
+       "key": "L277",
+       "source": "spec1b"
+      }
+     ]
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's own puzzle sets, one per length (each setting ran on the set of its length): the set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps is Test B3's, the set at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps that of Tests B1 and B2, and there is one set at"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b effort sweep. At"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: every model at every effort level, and Haiku, thinking off. At"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: Haiku at every effort level; Haiku, thinking off; and Opus-medium. At"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps: Haiku-max and Opus-medium"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive (no tests)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples per puzzle"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "95% interval (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance (%), chains / pieces"
+   },
+   {
+    "kind": "label",
+    "printed": "Flagged shape"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per answer ($)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Flagged: over"
+    },
+    {
+     "formula": "text cut /^item 16: count / designed calls with .+; item 17: (non-compliance above (\\d+(?:\\.\\d+)?)% of answered tries)$/ group 2",
+     "kind": "num",
+     "printed": "5%",
+     "raw": "5",
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.label",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "of answered samples non-compliant."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Equal accuracies of one-sample settings at one length give equal Clopper–Pearson intervals; Sonnet-low"
+    },
+    {
+     "kind": "label",
+     "printed": "and"
+    },
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "(6 steps) match in accuracy on each shape,",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "not in list cost."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "27.5",
+     "raw": 27.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[20.0, 35.3]",
+     "raw": [
+      20.0,
+      35.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "83.5 / 99.5",
+     "raw": [
+      0.835,
+      0.995
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "chains",
+     "raw": [
+      true,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.000927",
+     "raw": 0.0009273925,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.5",
+     "raw": 0.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[0.0, 1.1]",
+     "raw": [
+      0.0,
+      1.125
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "28.0 / 78.3",
+     "raw": [
+      0.28,
+      0.7825
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "both",
+     "raw": [
+      true,
+      true
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00147",
+     "raw": 0.00146679125,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.8",
+     "raw": 52.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[43.8, 61.3]",
+     "raw": [
+      43.75,
+      61.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "98.5 / 100.0",
+     "raw": [
+      0.985,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00104",
+     "raw": 0.0010364425,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "12.8",
+     "raw": 12.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[9.6, 16.0]",
+     "raw": [
+      9.625,
+      16.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hl@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "93.8 / 100.0",
+     "raw": [
+      0.9375,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hl.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "chains",
+     "raw": [
+      true,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00234",
+     "raw": 0.00234356125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "54.5",
+     "raw": 54.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[46.0, 63.3]",
+     "raw": [
+      46.0,
+      63.25
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.0 / 99.0",
+     "raw": [
+      0.99,
+      0.99
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00110",
+     "raw": 0.0011033225,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "17.8",
+     "raw": 17.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[13.8, 21.8]",
+     "raw": [
+      13.75,
+      21.75
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "95.5 / 100.0",
+     "raw": [
+      0.9548872180451128,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hm.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00254",
+     "raw": 0.00253889125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "60.8",
+     "raw": 60.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[52.3, 69.5]",
+     "raw": [
+      52.25,
+      69.5
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00125",
+     "raw": 0.00125357,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "31.3",
+     "raw": 31.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[26.9, 36.0]",
+     "raw": [
+      26.875,
+      36.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hh@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "93.8 / 100.0",
+     "raw": [
+      0.9375,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hh.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "chains",
+     "raw": [
+      true,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00334",
+     "raw": 0.00333936125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "76.8",
+     "raw": 76.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[70.0, 83.0]",
+     "raw": [
+      70.0,
+      83.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "98.5 / 99.5",
+     "raw": [
+      0.985,
+      0.995
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00172",
+     "raw": 0.00172197625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "58.4",
+     "raw": 58.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[53.9, 62.9]",
+     "raw": [
+      53.875,
+      62.875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hxh@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "97.5 / 100.0",
+     "raw": [
+      0.975,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00507",
+     "raw": 0.00507423125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.8",
+     "raw": 95.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[93.0, 97.9]",
+     "raw": [
+      93.0,
+      97.875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00419",
+     "raw": 0.0041901575,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.8",
+     "raw": 92.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[90.7, 94.6]",
+     "raw": [
+      90.6875,
+      94.625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@12.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.9 / 100.0",
+     "raw": [
+      0.99875,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x12.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.12x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00826",
+     "raw": 0.008255653125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.6",
+     "raw": 92.625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[90.4, 94.6]",
+     "raw": [
+      90.375,
+      94.625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.5 / 99.9",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0112",
+     "raw": 0.0111734403125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.0",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[69.6, 88.1]",
+     "raw": [
+      69.56311329945355,
+      88.11409135950146
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sl@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sl.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sl.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0150",
+     "raw": 0.01502185,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.0",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[69.6, 88.1]",
+     "raw": [
+      69.56311329945355,
+      88.11409135950146
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sm@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "97.5 / 100.0",
+     "raw": [
+      0.975,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0154",
+     "raw": 0.015358725,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[91.3, 99.7]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0188",
+     "raw": 0.0188361,
+     "refs": [
+      {
+       "key": "descriptive.arms.sh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[91.3, 99.7]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0228",
+     "raw": 0.022837475,
+     "refs": [
+      {
+       "key": "descriptive.arms.sxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[95.5, 100.0]",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sx@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sx.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0475",
+     "raw": 0.0475381,
+     "refs": [
+      {
+       "key": "descriptive.arms.sx@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-low"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.8",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[93.2, 100.0]",
+     "raw": [
+      93.23122155360775,
+      99.96835774723674
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ol@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "97.5 / 100.0",
+     "raw": [
+      0.975,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0395",
+     "raw": 0.0394502,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.4",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[98.1, 100.0]",
+     "raw": [
+      98.125,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0441",
+     "raw": 0.044095075,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[93.7, 99.3]",
+     "raw": [
+      93.72293920453443,
+      99.31472572664562
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@12.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "98.8 / 100.0",
+     "raw": [
+      0.9875,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x12.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.12x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0612",
+     "raw": 0.06123045,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@12.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.8",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[96.3, 99.1]",
+     "raw": [
+      96.25,
+      99.0625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0750",
+     "raw": 0.074971725,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-high"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.3",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[89.4, 99.2]",
+     "raw": [
+      89.42980149834914,
+      99.21988127342833
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "95.0 / 100.0",
+     "raw": [
+      0.95,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0455",
+     "raw": 0.0455152,
+     "refs": [
+      {
+       "key": "descriptive.arms.oh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-xhigh"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[91.3, 99.7]",
+     "raw": [
+      91.25928440694078,
+      99.69579138351905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.oxh@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "95.0 / 100.0",
+     "raw": [
+      0.95,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0499",
+     "raw": 0.0499072,
+     "refs": [
+      {
+       "key": "descriptive.arms.oxh@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "lower end at 1 decimals with the one-more-decimal guard at 100; upper end rounded half up at 1 decimals with no guard (an upper bound rounds to the safe side: polish 2.2, Edith proof 3 A.23)",
+     "kind": "num",
+     "printed": "[95.5, 100.0]",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ox@6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.0 / 100.0",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ox.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ox.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the shapes whose format flag fires (chains, pieces; both when both do)",
+     "kind": "num",
+     "printed": "",
+     "raw": [
+      false,
+      false
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.fires",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.fires",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0888",
+     "raw": 0.08876345,
+     "refs": [
+      {
+       "key": "descriptive.arms.ox@6.pooled.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

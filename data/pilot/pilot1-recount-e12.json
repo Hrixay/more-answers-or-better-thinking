@@ -1,0 +1,160 @@
+{
+ "analysis": "pilot1-recount-e12",
+ "checks": [
+  {
+   "equal": true,
+   "ours": 0.88,
+   "stamped": 0.88,
+   "what": "original chain mean = exploratory 1x24 whole answer"
+  },
+  {
+   "equal": true,
+   "ours": 0.96,
+   "stamped": 0.96,
+   "what": "original pieces mean = exploratory 24x1 whole answer"
+  },
+  {
+   "equal": true,
+   "ours": 0.92,
+   "stamped": 0.92,
+   "what": "original chain format compliance = exploratory 1x24"
+  },
+  {
+   "equal": true,
+   "ours": 1.0,
+   "stamped": 1.0,
+   "what": "pieces format compliance = exploratory 24x1"
+  },
+  {
+   "equal": true,
+   "ours": 0.92,
+   "stamped": 0.92,
+   "what": "original pooled = the curve's point 7 (original rule)"
+  },
+  {
+   "equal": true,
+   "ours": 0.94,
+   "stamped": 0.94,
+   "what": "Deviation 2 pooled = the curve's point 7 (Deviation 2)"
+  },
+  {
+   "equal": true,
+   "ours": 25,
+   "stamped": 25,
+   "what": "base puzzles = the curve's n_base"
+  }
+ ],
+ "code": {
+  "git_dirty": false,
+  "git_head": "6da3666c81622bc1b88e3ecc1e8e6f653143599e",
+  "module": "harness/analysis/pilot1_recount.py",
+  "module_sha256": "90bf83bfe20d57b8092f0b5beb3307c1e97fb0e2d9daa93aa568671bc5d596bd"
+ },
+ "flag_rule": "D-76 (3): a model whose format non-compliance is above 5% is flagged",
+ "inputs": {
+  "replies_sha256": "411c877baf3f4b399d44355c6d77126c4abd7c348d17fca194aa0e46d7f79142",
+  "sets": {
+   "pilot-ledger-l14-v1": "a9136afbe8cc01e5a098352bbc9475723dc4a83a31bed10f270b197a91e05775",
+   "pilot-ledger-l15-v1": "ce28f75f320423437fb3316a9734e54ee19de1754cfdb7ccc5cefa3d41430493",
+   "pilot-ledger-l16-v1": "e174f2d3cf1c6dda9bd1d75f417d5b16e2a95fd594d05a8cc43fd961a3b3e112"
+  },
+  "stamped": {
+   "curve_d90": {
+    "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+   },
+   "curve_original": {
+    "path": "data/pilot/curve-ladder-l14n-1.json",
+    "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+   },
+   "exploratory": {
+    "path": "data/pilot/pilot-ledger-1-exploratory.json",
+    "sha256": "1a5d052fd0f8958cd17a3b25c3df3ef2ee6567a7b4f37e32b26a7d26e0350e27"
+   }
+  }
+ },
+ "label": "exploratory (Pilot 1, D-86(5)); a recount of a printed marker, no test",
+ "question": "E-12 (Edith's check 1): the marking rule of Pilot 1's 24-step Opus marker, D-76 condition 3's format flag under it, and the source of the shift from 0.92 to 0.94",
+ "result": {
+  "d2": {
+   "by_shape": {
+    "1x24": {
+     "answered": 25,
+     "format_compliance": 0.96,
+     "format_ok": 24,
+     "format_statuses": {
+      "extra_line": 1,
+      "ok": 24
+     },
+     "mean": 0.92,
+     "right": 23,
+     "tries": 25
+    },
+    "24x1": {
+     "answered": 25,
+     "format_compliance": 1.0,
+     "format_ok": 25,
+     "format_statuses": {
+      "ok": 25
+     },
+     "mean": 0.96,
+     "right": 24,
+     "tries": 25
+    }
+   },
+   "flag_above_5pct_non_compliance": {
+    "1x24": false,
+    "24x1": false
+   },
+   "format_compliance_both_shapes": 0.98,
+   "n_base": 25,
+   "pooled_mean": 0.94
+  },
+  "original": {
+   "by_shape": {
+    "1x24": {
+     "answered": 25,
+     "format_compliance": 0.92,
+     "format_ok": 23,
+     "format_statuses": {
+      "extra_line": 2,
+      "ok": 23
+     },
+     "mean": 0.88,
+     "right": 22,
+     "tries": 25
+    },
+    "24x1": {
+     "answered": 25,
+     "format_compliance": 1.0,
+     "format_ok": 25,
+     "format_statuses": {
+      "ok": 25
+     },
+     "mean": 0.96,
+     "right": 24,
+     "tries": 25
+    }
+   },
+   "flag_above_5pct_non_compliance": {
+    "1x24": true,
+    "24x1": false
+   },
+   "format_compliance_both_shapes": 0.96,
+   "n_base": 25,
+   "pooled_mean": 0.92
+  },
+  "shift": {
+   "chain_format_ok_only_under_d2": 1,
+   "chain_tries_right_only_under_d2": 1,
+   "chain_tries_right_only_under_original": 0,
+   "pieces_changed": 0,
+   "their_d2_format_statuses": {
+    "ok": 1
+   },
+   "their_original_format_statuses": {
+    "extra_line": 1
+   }
+  }
+ }
+}

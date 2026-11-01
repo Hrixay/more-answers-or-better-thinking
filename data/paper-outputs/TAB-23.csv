@@ -1,0 +1,10 @@
+File,Path,Commit,SHA-256,Code commit,Run file recorded,Recorded SHA-256
+Study 1 analysis,data/main/main-l14n6-1/analysis.json,8be72ec,43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef,c273eb9,compact_table.csv,984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4
+Study 1 k.json,data/main/main-l14n6-1/k.json,da61c76,b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b,c273eb9,compact_table.csv,984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4
+Study 1 keep-list analyses,data/main/main-l14n6-1/groupc.json,2830340,e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9,90cfb42,calls.jsonl,0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123
+Study 1 reporting definitions,research/reporting-definitions-main.md,93334b8,bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81,—,—,—
+Study 1b analysis,data/main/study1b-1/analysis.json,fb301dd,239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332,d1c565f,calls.jsonl,7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9
+Study 1b k.json,data/main/study1b-1/k.json,534e415,4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427,d1c565f,compact_table.csv,e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7
+Top-up analysis,data/main/topup-1/analysis.json,5c305db,c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558,d1c565f,calls.jsonl,752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138
+Length sweep curve (Deviation 2 rule),data/pilot/curve-ladder-l14n-1-d90.json,b6c1de5,33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0,—,—,—
+Length sweep curve (original rule),data/pilot/curve-ladder-l14n-1.json,4547097,1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad,—,—,—

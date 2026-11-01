@@ -1,0 +1,14 @@
+{
+  "title": "More Answers, or Better Thinking? What a Fixed Budget Buys Across Claude 5.5 Models on Synthetic Multi-Step Puzzles",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Jain, Hriday Kalpit"
+    },
+    {
+      "name": "Lodha, Vivek Jain"
+    }
+  ],
+  "description": "Code, data and pre-registrations for the paper: how to spend a fixed budget across Claude 5.5 models (a bigger model, more thinking, more samples, or a team), on synthetic multi-step puzzles."
+}

@@ -1,0 +1,6 @@
+Test,Inferiority p,Holm threshold,99% interval of d (points),Holds under Holm
+Test 1,≤ 0.00004,0.005,"[−47.5, −20.6]",yes
+Test 2,≤ 0.00007,0.00625,"[−52.2, −23.5]",yes
+Test 3,0.01087,0.0125,"[−39.3, −8.2]","yes, only under the marking rule as run"
+Test 4,≤ 0.00013,0.00833,"[−57.5, −26.3]",yes
+Test 5,≥ 0.99996,0.025,—,—

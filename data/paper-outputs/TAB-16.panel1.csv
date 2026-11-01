@@ -1,0 +1,9 @@
+Study,Steps,Challenger,Comparator,Shape,k,Raw k,Cap,Capped,Samples per comparator answer (comparator cost per answer / one challenger sample),"Spend share, challenger vote / comparator",Label
+Study 1,6,Haiku-medium,Opus-medium,chains (1×6),36,36,40,no,36.58,0.984,pre-registered cost-matched k rule
+Study 1,6,Haiku-medium,Opus-medium,pieces (6×1),40,44,40,yes,44.03,0.909,pre-registered cost-matched k rule
+Study 1,6,Haiku-medium,Sonnet-medium,chains (1×6),13,13,40,no,13.40,0.970,pre-registered cost-matched k rule
+Study 1b,16,Haiku-max,Opus-medium,pooled,6,6,10,no,6.71,0.894,pre-registered cost-matched k rule (Study 1b)
+Study 1b,16,Haiku-max,Opus-medium,chains (1×16),5,,,,5.50,0.909,post hoc (free analysis 3): the shape's own cost-matched k
+Study 1b,16,Haiku-max,Opus-medium,pieces (16×1),8,,,,8.18,0.978,post hoc (free analysis 3): the shape's own cost-matched k
+Study 1b,6,Haiku-max,Opus-medium,pooled,10,,10,,10.52,0.950,"post hoc (free analysis 2), not a test; the same k as measured beside Test B3"
+Study 1b,12,Haiku-max,Opus-medium,pooled,7,,10,,7.42,0.944,"post hoc (free analysis 2), not a test"

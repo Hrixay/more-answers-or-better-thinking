@@ -1,0 +1,150 @@
+{
+ "effort": "medium",
+ "extra_rung_needed": false,
+ "include_realtime": false,
+ "input_sha256": "575392b0d8b7bc1fa4c6dc51d28bdc57c49514ff692948cf7aa0d2ef4fa18690",
+ "model": "claude-haiku-5-5",
+ "n_rows": 500,
+ "n_trace_scored": 500,
+ "outside_15_60_return_to_user": true,
+ "pick": null,
+ "presets": [
+  {
+   "distance": 0.375,
+   "distance_key": 375,
+   "family": "ledger",
+   "format_compliance_1x24": 0.8,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.02,
+   "mean_prompt_chars": 7466.6,
+   "n_answered_1x24_traced": 50,
+   "n_answered_24x1_read": 50,
+   "n_puzzles": 10,
+   "n_rule_kinds": 7,
+   "n_tries": 100,
+   "preset": "l14",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.0,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "0",
+   "set_ids": [
+    "pilot-ledger-l14-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "1x24": 0.0,
+    "24x1": 0.0
+   },
+   "shape_n_puzzles": {
+    "1x24": 5,
+    "24x1": 5
+   },
+   "tier": 3
+  },
+  {
+   "distance": 0.375,
+   "distance_key": 375,
+   "family": "ledger",
+   "format_compliance_1x24": 0.87,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.01,
+   "mean_prompt_chars": 9257.45,
+   "n_answered_1x24_traced": 100,
+   "n_answered_24x1_read": 100,
+   "n_puzzles": 20,
+   "n_rule_kinds": 6,
+   "n_tries": 200,
+   "preset": "l15",
+   "rule_kinds": [
+    "avg_donors",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.0,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "0",
+   "set_ids": [
+    "pilot-ledger-l15-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "1x24": 0.0,
+    "24x1": 0.0
+   },
+   "shape_n_puzzles": {
+    "1x24": 10,
+    "24x1": 10
+   },
+   "tier": 3
+  },
+  {
+   "distance": 0.375,
+   "distance_key": 375,
+   "family": "ledger",
+   "format_compliance_1x24": 0.8282828282828283,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.0,
+   "mean_prompt_chars": 9978.25,
+   "n_answered_1x24_traced": 99,
+   "n_answered_24x1_read": 100,
+   "n_puzzles": 20,
+   "n_rule_kinds": 7,
+   "n_tries": 200,
+   "preset": "l16",
+   "rule_kinds": [
+    "avg_donors",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "sweep",
+    "two_clause"
+   ],
+   "score": 0.0,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "0",
+   "set_ids": [
+    "pilot-ledger-l16-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "1x24": 0.0,
+    "24x1": 0.0
+   },
+   "shape_n_puzzles": {
+    "1x24": 10,
+    "24x1": 10
+   },
+   "tier": 3
+  }
+ ],
+ "presets_without_rows": [],
+ "rule": "Haiku-medium tries only (no other model's numbers are read). Puzzle accuracy = mean of `right` over its tries (blank = wrong). Preset score = MEDIAN of its puzzle accuracies (not the mean), both shapes pooled. Tier 1: among presets with a score in [0.25, 0.50], pick the one closest to 0.375. Tier 2: if none, among presets in [0.15, 0.60], pick the one closest to 0.375 and report band_miss (the distance outside [0.25, 0.50]). Tier 3: if none, there is no binding pick (pick = null): if every preset is above 0.60, set extra_rung_needed (the spare rung l17 runs only on the user's go); if every preset is below 0.15, or the presets lie on both sides of the 0.15 to 0.60 window with none inside it, set outside_15_60_return_to_user (there is no easier rung). K2 tie-break: two presets are tied when their distances to 0.375, each rounded to 0.001, are equal; the tie goes to fewer distinct rule kinds, then to the shorter mean prompt. shape_gap is the absolute difference of the two per-shape medians; shape_gap_flag is set when it is strictly above 0.30 (information only). Try scores (D-76: the official trace score): a 1x24 try of a ledger set is right only if its reply parses under the fixed rules and all 24 step lines equal the key (the Answer line equal to line 24), read from the raw reply; a try whose format is not ok is wrong (an answer-only item is scored by its final answer). A 24x1 try of a ledger set is right only if every piece is right, read from the raw reply by the same parser (Edith R3). Sets of other families use `right` as before.",
+ "sets": {
+  "pilot-ledger-l14-v1": "a9136afbe8cc01e5a098352bbc9475723dc4a83a31bed10f270b197a91e05775",
+  "pilot-ledger-l15-v1": "ce28f75f320423437fb3316a9734e54ee19de1754cfdb7ccc5cefa3d41430493",
+  "pilot-ledger-l16-v1": "e174f2d3cf1c6dda9bd1d75f417d5b16e2a95fd594d05a8cc43fd961a3b3e112"
+ },
+ "tier": 3,
+ "trace_sha256": "80a9e644e90eb5f23a6da0d60b724d529627ff23e31b182b3c33ad8c67de4a5d"
+}

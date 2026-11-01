@@ -1,0 +1,804 @@
+{
+ "output": {
+  "id": "TAB-16",
+  "kind": "table",
+  "label": "pre-specified descriptive; item 19 estimates; post hoc columns flagged (merges T15 and TF-A10)",
+  "section": "Results: effort and length",
+  "title": "Where the money goes"
+ },
+ "panels": [],
+ "sources": {
+  "fa10": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa10.json",
+   "sha256": "74bdca2c18c23b6542af2e32555c1e62fd1f8e96f7789ac1f807c1711154df54"
+  },
+  "fa2": {
+   "commit": "4935d15",
+   "path": "data/main/free-analyses/fa2r2.json",
+   "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+  },
+  "fa3": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa3.json",
+   "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "s1_defs_s1b": {
+   "commit": "93334b8",
+   "path": "research/reporting-definitions-main.md",
+   "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "none (point values; API counts have no interval)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1);"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1b, 16 steps), each in both shapes"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price per answer; Study 1: the pre-registered price table, dated"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12;",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9a.price_table_date",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b:"
+    },
+    {
+     "kind": "num",
+     "printed": "US dollars per answer at list price",
+     "raw": "USD per answer, list price (item 9b)",
+     "refs": [
+      {
+       "key": "costs_beside_tests.B1.challenger.unit",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as its file gives it, with no price-table date"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1 main set; Study 1b's set for Tests B1 and B2 (16 steps)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 (main run,"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps) and Study 1b (effort sweep,"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps)"
+    }
+   ],
+   "tier": [
+    {
+     "formula": "text cut /^(research/reporting-definitions-main\\.md) \\(\\w+; [^)]*\\), items \\d+-\\d+, / group 1; not printed: the record for 'Study 1's group-B items follow its reporting definitions'; text cut /\"(reporting definitions fixed after prereg-lock-3 and before any main-run result) was$/ group 1; not printed: the record for 'the reporting definitions were fixed after Lock 3, before any main-run result was opened'; text cut /^(opened)\"\\.\\*$/ group 1; not printed: the record for 'the header's sentence ends: opened'",
+     "kind": "num",
+     "printed": "pre-specified descriptive (Study 1's pre-specified costs per answer at its pre-registered price table, and its token means for Haiku-medium, Sonnet-medium and Opus-medium; Study 1b's effort sweep); post hoc: the thinking shares, and the token means for Haiku-max at",
+     "raw": [
+      "research/reporting-definitions-main.md",
+      "reporting definitions fixed after prereg-lock-3 and before any main-run result",
+      "opened"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.note",
+       "source": "main"
+      },
+      {
+       "key": "L11",
+       "source": "s1_defs_s1b"
+      },
+      {
+       "key": "L12",
+       "source": "s1_defs_s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps and for every row at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (labelled \"post hoc; thinking tokens as the API reports them\")"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per answer ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Mean output tokens per answer"
+   },
+   {
+    "kind": "label",
+    "printed": "Thinking share of list cost (%)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Rows at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps are Study 1's settings, rows at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps Study 1b's; each cell is chain / pieces."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Thinking share of list cost: the thinking tokens the API reports, priced at the model's list output rate and summed over calls, over the summed list cost."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00110 / 0.00109",
+     "raw": [
+      0.00110017171875,
+      0.0010930271875
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,007 / 1,970",
+     "raw": [
+      2006.8184375,
+      1970.339375
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9g.1x6.by_k.0.haiku_mean_output_tokens",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.6x1.by_k.0.haiku_mean_output_tokens",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "81.3 / 81.1",
+     "raw": [
+      0.8131906681045099,
+      0.810786671305925
+     ],
+     "refs": [
+      {
+       "key": "result.study1.haiku-med 1x6.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1.haiku-med 6x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00441 / 0.00407",
+     "raw": [
+      0.004405077083333334,
+      0.004066895
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8,617 / 7,918",
+     "raw": [
+      8616.629166666668,
+      7918.075
+     ],
+     "refs": [
+      {
+       "key": "result.study1.haiku-max 1x6.mean_output_tokens",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1.haiku-max 6x1.mean_output_tokens",
+       "source": "fa10"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "95.4 / 95.2",
+     "raw": [
+      0.9537437152301065,
+      0.9521166229601048
+     ],
+     "refs": [
+      {
+       "key": "result.study1.haiku-max 1x6.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1.haiku-max 6x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0147 / 0.0161",
+     "raw": [
+      0.01474175,
+      0.0160969
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,281 / 1,394",
+     "raw": [
+      1280.65,
+      1393.975
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9g.1x6.comparators.sonnet-med.mean_output_tokens",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.6x1.comparators.sonnet-med.mean_output_tokens",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "4.2 / 0.0",
+     "raw": [
+      0.04200654603422251,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "result.study1.sonnet-med 1x6.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1.sonnet-med 6x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0402 / 0.0481",
+     "raw": [
+      0.040241,
+      0.0481223
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,819 / 2,190",
+     "raw": [
+      1818.525,
+      2190.4
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9g.1x6.comparators.opus-med.mean_output_tokens",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.6x1.comparators.opus-med.mean_output_tokens",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "43.5 / 37.8",
+     "raw": [
+      0.4351097139733106,
+      0.3783433044555224
+     ],
+     "refs": [
+      {
+       "key": "result.study1.opus-med 1x6.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1.opus-med 6x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00256 / 0.00252",
+     "raw": [
+      0.00255919625,
+      0.00251858625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.1x16.cost_per_answer",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hm@16.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4,778 / 4,606",
+     "raw": [
+      4777.6625,
+      4606.255
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.hm@16 1x16.mean_output_tokens",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.hm@16 16x1.mean_output_tokens",
+       "source": "fa10"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "83.3 / 81.3",
+     "raw": [
+      0.832655955947107,
+      0.8132841390680978
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.hm@16 1x16.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.hm@16 16x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0123 / 0.0101",
+     "raw": [
+      0.01226045875,
+      0.010086421875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.cost_per_answer",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "24,180 / 19,742",
+     "raw": [
+      24180.1875,
+      19741.92625
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.hx@16 1x16.mean_output_tokens",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.hx@16 16x1.mean_output_tokens",
+       "source": "fa10"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "96.5 / 95.6",
+     "raw": [
+      0.9651484288872942,
+      0.956132734136702
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.hx@16 1x16.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.hx@16 16x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0674 / 0.0825",
+     "raw": [
+      0.067429725,
+      0.082513725
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.1x16.cost_per_answer",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3,031 / 3,695",
+     "raw": [
+      3030.75625,
+      3694.76875
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.om@16 1x16.mean_output_tokens",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.om@16 16x1.mean_output_tokens",
+       "source": "fa10"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "64.6 / 53.3",
+     "raw": [
+      0.6455628433899143,
+      0.5326053332339555
+     ],
+     "refs": [
+      {
+       "key": "result.study1b.om@16 1x16.thinking_share_of_list_cost",
+       "source": "fa10"
+      },
+      {
+       "key": "result.study1b.om@16 16x1.thinking_share_of_list_cost",
+       "source": "fa10"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

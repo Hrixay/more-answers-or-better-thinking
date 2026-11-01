@@ -1,0 +1,25 @@
+Setting,Shape,Answered samples,Format ok,Non-compliance (%),Fired
+"Haiku, thinking off",1×6,"3,200","2,615",18.28,yes
+"Haiku, thinking off",6×1,"3,200","3,186",0.44,no
+Haiku-low,1×6,"3,200","3,140",1.88,no
+Haiku-low,6×1,"3,200","3,189",0.34,no
+Haiku-medium,1×6,"3,200","3,155",1.41,no
+Haiku-medium,6×1,"3,200","3,191",0.28,no
+Haiku-max,1×6,240,240,0.00,no
+Haiku-max,6×1,240,239,0.42,no
+Haiku-medium (rewording check),1×6,200,200,0.00,no
+Haiku-medium (rewording check),6×1,200,200,0.00,no
+Opus-low,1×6,80,79,1.25,no
+Opus-low,6×1,80,80,0.00,no
+Opus-medium,1×6,80,78,2.50,no
+Opus-medium,6×1,80,80,0.00,no
+Sonnet-low,1×6,80,80,0.00,no
+Sonnet-low,6×1,80,80,0.00,no
+Sonnet-medium,1×6,80,78,2.50,no
+Sonnet-medium,6×1,80,80,0.00,no
+"Haiku-medium, real time",1×6,25,25,0.00,no
+"Haiku-medium, real time",6×1,25,25,0.00,no
+"Opus-medium, real time",1×6,5,5,0.00,no
+"Opus-medium, real time",6×1,5,5,0.00,no
+"Sonnet-medium, real time",1×6,5,5,0.00,no
+"Sonnet-medium, real time",6×1,5,5,0.00,no

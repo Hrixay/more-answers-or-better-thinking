@@ -1,0 +1,1463 @@
+{
+ "output": {
+  "id": "TAB-08",
+  "kind": "table",
+  "label": "pre-specified exploratory (offline simulation)",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Escalate-to-Opus cascade, offline (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "bootstrap over puzzles, 95% intervals (bootstrap name stamped per row)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "even-numbered puzzles: 40; odd-numbered puzzles: 40; per puzzle the cascade uses k_c Haiku-medium samples, plus one Opus-medium sample when it escalates",
+     "raw": [
+      40,
+      40
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even_bases",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.odd_bases",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price per puzzle"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified exploratory (offline simulation)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "k_c"
+   },
+   {
+    "kind": "label",
+    "printed": "τ"
+   },
+   {
+    "kind": "label",
+    "printed": "Rule for τ"
+   },
+   {
+    "kind": "label",
+    "printed": "Cascade accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cascade accuracy 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium accuracy 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "d: cascade minus Opus (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "d 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Escalation rate (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cascade cost per puzzle ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cascade cost 95% interval ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium cost per puzzle ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium cost 95% interval ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost difference ($ per puzzle)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost difference, lower end of the 95% interval ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost difference, upper end of the 95% interval ($)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "num",
+     "printed": "Offline simulation: the cascade takes a vote of k_c Haiku-medium samples and escalates to Opus-medium when the top answer's share is below τ. τ is chosen on the odd-numbered puzzles; the cascade and Opus-medium are compared on the even-numbered puzzles. Every column except τ and its rule is on the even-numbered puzzles. The file's own label, in its words: \"escalate-to-Opus cascade (offline, exploratory)\"; its units: \"points; USD, list price\".",
+     "raw": [
+      "escalate-to-Opus cascade (offline, exploratory)",
+      "points; USD, list price"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.label",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.unit",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The Rule for τ column is the file's own text, in quotation marks (its \"bases\" are puzzles): where no τ came within the margin on the odd-numbered puzzles, the highest accuracy on them was taken."
+    }
+   ],
+   [
+    {
+     "formula": "the value every row of the table prints (the build refuses a column that is not constant)",
+     "kind": "num",
+     "printed": "Opus-medium's accuracy on the odd-numbered puzzles is 100.00% in every row.",
+     "raw": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.opus_odd_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.opus_odd_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.opus_odd_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.opus_odd_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.opus_odd_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.opus_odd_accuracy",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "No test and no verdict: d is a point difference with an unadjusted 95% interval."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium's accuracy and cost on the even-numbered puzzles are the same in every k_c row of a shape, so they are printed once per shape, with the interval from that shape's first row; each row's own bootstrap gives slightly different intervals for them, which are not printed again ('as above')."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "At 6×1 Opus-medium was right on every even-numbered puzzle, so its bootstrap interval collapses to one point; the exact two-sided 95% (Clopper–Pearson) interval over the even-numbered puzzles from free analysis 4 is printed in its place, labelled post hoc† (exact)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "No format-compliance figure is stamped for the cascade; the format compliance of Haiku-medium's and Opus-medium's samples over all puzzles is in TAB-04."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"none within 10 points: the highest odd-base accuracy\"",
+     "raw": "none within 10 points: the highest odd-base accuracy",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[70.00, 92.50]",
+     "raw": [
+      70.0,
+      92.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.50",
+     "raw": 92.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[82.50, 100.00]",
+     "raw": [
+      82.5,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−10.00",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−20.00, −2.50]",
+     "raw": [
+      -20.0,
+      -2.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "62.50",
+     "raw": 0.625,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0323",
+     "raw": 0.0322738375,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0260, 0.0389]",
+     "raw": [
+      0.0259584,
+      0.038937025
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0416",
+     "raw": 0.0416481,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0397, 0.0436]",
+     "raw": [
+      0.0396735,
+      0.0436195
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.opus_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00937",
+     "raw": -0.009374262500000001,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0155",
+     "raw": -0.015454812500000002,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00327",
+     "raw": -0.0032735250000000002,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.8",
+     "raw": 0.8,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"cheapest tau within 10 points of Opus-medium on the odd bases\"",
+     "raw": "cheapest tau within 10 points of Opus-medium on the odd bases",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.00",
+     "raw": 90.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[80.00, 97.50]",
+     "raw": [
+      80.0,
+      97.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.50, 0.00]",
+     "raw": [
+      -7.5,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "70.00",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0408",
+     "raw": 0.0408262875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0340, 0.0471]",
+     "raw": [
+      0.0340266375,
+      0.047140325
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−0.000822",
+     "raw": -0.0008218125000000002,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00719",
+     "raw": -0.0071892000000000015,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00490",
+     "raw": 0.004901612499999999,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"cheapest tau within 10 points of Opus-medium on the odd bases\"",
+     "raw": "cheapest tau within 10 points of Opus-medium on the odd bases",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.00",
+     "raw": 90.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[80.00, 97.50]",
+     "raw": [
+      80.0,
+      97.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.50, 0.00]",
+     "raw": [
+      -7.5,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "67.50",
+     "raw": 0.675,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0509",
+     "raw": 0.050949062499999996,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0440, 0.0578]",
+     "raw": [
+      0.043963312500000004,
+      0.0577942875
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "+0.00930",
+     "raw": 0.009300962500000001,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00287",
+     "raw": 0.002871775000000001,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0151",
+     "raw": 0.015149025,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"cheapest tau within 10 points of Opus-medium on the odd bases\"",
+     "raw": "cheapest tau within 10 points of Opus-medium on the odd bases",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "87.50",
+     "raw": 87.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[77.50, 97.50]",
+     "raw": [
+      77.5,
+      97.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.opus_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00] post hoc† (exact)",
+     "raw": [
+      91.19026971211977,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "result.cells.116.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.116.exact95.1",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−12.50",
+     "raw": -12.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−22.50, −2.50]",
+     "raw": [
+      -22.5,
+      -2.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "47.50",
+     "raw": 0.475,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0290",
+     "raw": 0.0289858375,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0213, 0.0369]",
+     "raw": [
+      0.0213005,
+      0.03685365
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0489",
+     "raw": 0.0488545,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.opus_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0478, 0.0499]",
+     "raw": [
+      0.0478423,
+      0.0499494
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.opus_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.opus_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0199",
+     "raw": -0.019868662500000002,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0272",
+     "raw": -0.0272422875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0124",
+     "raw": -0.012423325,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"cheapest tau within 10 points of Opus-medium on the odd bases\"",
+     "raw": "cheapest tau within 10 points of Opus-medium on the odd bases",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.50",
+     "raw": 92.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[85.00, 100.00]",
+     "raw": [
+      85.0,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−7.50",
+     "raw": -7.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−15.00, 0.00]",
+     "raw": [
+      -15.0,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "52.50",
+     "raw": 0.525,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0366",
+     "raw": 0.036647,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0293, 0.0447]",
+     "raw": [
+      0.029257250000000002,
+      0.0447135375
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0122",
+     "raw": -0.0122075,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0195",
+     "raw": -0.0195320375,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00470",
+     "raw": -0.004697962499999999,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.6",
+     "raw": 0.6,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "\"cheapest tau within 10 points of Opus-medium on the odd bases\"",
+     "raw": "cheapest tau within 10 points of Opus-medium on the odd bases",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.rule",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.00",
+     "raw": 90.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[80.00, 97.50]",
+     "raw": [
+      80.0,
+      97.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−10.00",
+     "raw": -10.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−20.00, −2.50]",
+     "raw": [
+      -20.0,
+      -2.5
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "45.00",
+     "raw": 0.45,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0441",
+     "raw": 0.04413575,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0370, 0.0518]",
+     "raw": [
+      0.0370262125,
+      0.05184165
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "label",
+     "printed": "as above"
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00472",
+     "raw": -0.004718749999999999,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0117",
+     "raw": -0.011718474999999999,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference_ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00266",
+     "raw": 0.0026613750000000005,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

@@ -1,0 +1,972 @@
+{
+ "analysis": "fa12",
+ "checks": [
+  {
+   "equal": true,
+   "ours": 40,
+   "stamped": 40,
+   "what": "t1: k at rho_list = k.json k"
+  },
+  {
+   "equal": true,
+   "ours": -33.125,
+   "stamped": -33.125,
+   "what": "t1: d at rho_list = the locked d"
+  },
+  {
+   "equal": true,
+   "ours": 36,
+   "stamped": 36,
+   "what": "t2: k at rho_list = k.json k"
+  },
+  {
+   "equal": true,
+   "ours": -37.642737626290256,
+   "stamped": -37.642737626290256,
+   "what": "t2: d at rho_list = the locked d"
+  },
+  {
+   "equal": true,
+   "ours": 13,
+   "stamped": 13,
+   "what": "t3: k at rho_list = k.json k"
+  },
+  {
+   "equal": true,
+   "ours": -24.69582569072623,
+   "stamped": -24.69582569072623,
+   "what": "t3: d at rho_list = the locked d"
+  },
+  {
+   "equal": true,
+   "ours": 6,
+   "stamped": 6,
+   "what": "B2: k at rho_list = k.json k"
+  },
+  {
+   "equal": true,
+   "ours": 0.6324404761904753,
+   "stamped": 0.6324404761904753,
+   "what": "B2: d at rho_list = the locked d"
+  },
+  {
+   "equal": true,
+   "ours": 94.25,
+   "stamped": 94.25,
+   "what": "hx vote@1 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 94.25,
+   "stamped": 94.25,
+   "what": "hx vote@2 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.41666666666666,
+   "stamped": 97.41666666666667,
+   "what": "hx vote@3 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.41666666666666,
+   "stamped": 97.41666666666667,
+   "what": "hx vote@4 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.0952380952381,
+   "stamped": 98.0952380952381,
+   "what": "hx vote@5 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.0952380952381,
+   "stamped": 98.0952380952381,
+   "what": "hx vote@6 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.33333333333334,
+   "stamped": 98.33333333333333,
+   "what": "hx vote@7 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.33333333333334,
+   "stamped": 98.33333333333333,
+   "what": "hx vote@8 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.75,
+   "stamped": 98.75,
+   "what": "hx vote@9 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.75,
+   "stamped": 98.75,
+   "what": "hx vote@10 at N=6 6x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.25,
+   "stamped": 97.25,
+   "what": "hx vote@1 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.25,
+   "stamped": 97.25,
+   "what": "hx vote@2 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.05555555555557,
+   "stamped": 99.05555555555557,
+   "what": "hx vote@3 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.16666666666667,
+   "stamped": 99.16666666666667,
+   "what": "hx vote@4 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.3452380952381,
+   "stamped": 99.3452380952381,
+   "what": "hx vote@5 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.3452380952381,
+   "stamped": 99.3452380952381,
+   "what": "hx vote@6 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.58333333333333,
+   "stamped": 99.58333333333333,
+   "what": "hx vote@7 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.58333333333333,
+   "stamped": 99.58333333333333,
+   "what": "hx vote@8 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 100.0,
+   "stamped": 100.0,
+   "what": "hx vote@9 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 100.0,
+   "stamped": 100.0,
+   "what": "hx vote@10 at N=6 1x6 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.75,
+   "stamped": 95.75,
+   "what": "hx vote@1 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.75,
+   "stamped": 95.75,
+   "what": "hx vote@2 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.23611111111111,
+   "stamped": 98.23611111111111,
+   "what": "hx vote@3 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.29166666666666,
+   "stamped": 98.29166666666666,
+   "what": "hx vote@4 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.7202380952381,
+   "stamped": 98.7202380952381,
+   "what": "hx vote@5 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.7202380952381,
+   "stamped": 98.7202380952381,
+   "what": "hx vote@6 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.95833333333333,
+   "stamped": 98.95833333333333,
+   "what": "hx vote@7 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.95833333333333,
+   "stamped": 98.95833333333333,
+   "what": "hx vote@8 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@9 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@10 at N=6 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.125,
+   "stamped": 95.125,
+   "what": "hx vote@1 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.125,
+   "stamped": 95.125,
+   "what": "hx vote@2 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.31944444444444,
+   "stamped": 98.31944444444446,
+   "what": "hx vote@3 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.72916666666667,
+   "stamped": 98.72916666666667,
+   "what": "hx vote@4 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.11458333333334,
+   "stamped": 99.11458333333333,
+   "what": "hx vote@5 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.16666666666667,
+   "stamped": 99.16666666666666,
+   "what": "hx vote@6 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@7 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@8 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@9 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 99.375,
+   "stamped": 99.375,
+   "what": "hx vote@10 at N=12 12x1 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 90.375,
+   "stamped": 90.375,
+   "what": "hx vote@1 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 90.48611111111111,
+   "stamped": 90.48611111111111,
+   "what": "hx vote@2 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.37152777777779,
+   "stamped": 95.3715277777778,
+   "what": "hx vote@3 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.85267857142858,
+   "stamped": 95.85267857142858,
+   "what": "hx vote@4 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 96.73363095238095,
+   "stamped": 96.73363095238095,
+   "what": "hx vote@5 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 96.75595238095238,
+   "stamped": 96.7559523809524,
+   "what": "hx vote@6 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.29166666666667,
+   "stamped": 97.29166666666666,
+   "what": "hx vote@7 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.36111111111111,
+   "stamped": 97.36111111111111,
+   "what": "hx vote@8 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.8125,
+   "stamped": 97.8125,
+   "what": "hx vote@9 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.125,
+   "stamped": 98.125,
+   "what": "hx vote@10 at N=12 1x12 equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 92.75,
+   "stamped": 92.75,
+   "what": "hx vote@1 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 92.80555555555556,
+   "stamped": 92.80555555555556,
+   "what": "hx vote@2 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 96.84548611111106,
+   "stamped": 96.84548611111106,
+   "what": "hx vote@3 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.2909226190476,
+   "stamped": 97.2909226190476,
+   "what": "hx vote@4 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.92410714285714,
+   "stamped": 97.92410714285714,
+   "what": "hx vote@5 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 97.9613095238095,
+   "stamped": 97.9613095238095,
+   "what": "hx vote@6 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.33333333333333,
+   "stamped": 98.33333333333333,
+   "what": "hx vote@7 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.36805555555556,
+   "stamped": 98.36805555555556,
+   "what": "hx vote@8 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.59375,
+   "stamped": 98.59375,
+   "what": "hx vote@9 at N=12 pooled equals fa2r2's mean"
+  },
+  {
+   "equal": true,
+   "ours": 98.75,
+   "stamped": 98.75,
+   "what": "hx vote@10 at N=12 pooled equals fa2r2's mean"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "e4321f9dae45b9258a20ba4d94bf668ddb3962ab",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "7e56e9bcae7efd0d42cf5e7d841a2908dcf9b5bd6c5dafe543bbaf86296d1c29"
+ },
+ "definition": {
+  "analysis": "Re-pricing at comparator:Haiku price ratios of 10x, 20x, 40x and 80x: equal-money k, vote at that k and its gap for Tests 1-3 and B2; item 9d's break-even ratio for Haiku-max at 6, 12, 16 steps; item 9f's cached view beside it.",
+  "could_change_headline": "No.",
+  "inputs": "main item_8b, item_9d, item_9f, item_24; study1b-1 vote_curve_n16; facts-checked.md row 1e; analysis 2",
+  "rank": 12,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[11]",
+  "tier_label": "post hoc sensitivity",
+  "why": "Shows how far the equal-money verdicts rest on one price list."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "interval_sanity": {
+  "checked": 18,
+  "point_outside": [],
+  "zero_width": []
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "break_even_haiku_max": {
+   "N=12": {
+    "12x1": {
+     "R_list": 8.88054172996174,
+     "bootstrap_name": "fa12:break_even:12:12x1",
+     "ci95": [
+      12.670425032334679,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 5,
+     "n_bases": 80,
+     "opus_medium_mean": 98.75,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 537,
+     "rho_list": 40.0,
+     "rho_star": 22.521148605746337,
+     "share_replicates_no_k_match": 0.2685,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "1x12": {
+     "R_list": 6.149649290922962,
+     "bootstrap_name": "fa12:break_even:12:1x12",
+     "ci95": [
+      18.059922709052923,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 5,
+     "n_bases": 80,
+     "opus_medium_mean": 96.25,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 386,
+     "rho_list": 40.0,
+     "rho_star": 32.52217980872585,
+     "share_replicates_no_k_match": 0.193,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "pooled": {
+     "R_list": 7.416790540118533,
+     "bootstrap_name": "fa12:break_even:12:pooled",
+     "ci95": [
+      15.72046840737432,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 5,
+     "n_bases": 80,
+     "opus_medium_mean": 97.5,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 311,
+     "rho_list": 40.0,
+     "rho_star": 26.965841750305607,
+     "share_replicates_no_k_match": 0.1555,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    }
+   },
+   "N=16": {
+    "16x1": {
+     "R_list": 8.180673585002115,
+     "bootstrap_name": "fa12:break_even:16:16x1",
+     "ci95": [
+      14.498939611076416,
+      49.56722833599782
+     ],
+     "k_cap": 10,
+     "k_match": 6,
+     "n_bases": 80,
+     "opus_medium_mean": 98.75,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 0,
+     "rho_list": 40.0,
+     "rho_star": 29.33743749903425,
+     "share_replicates_no_k_match": 0.0,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "1x16": {
+     "R_list": 5.499771776484302,
+     "bootstrap_name": "fa12:break_even:16:1x16",
+     "ci95": [
+      20.55684183749333,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 4,
+     "n_bases": 80,
+     "opus_medium_mean": 96.875,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 211,
+     "rho_list": 40.0,
+     "rho_star": 29.09211627364638,
+     "share_replicates_no_k_match": 0.1055,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "pooled": {
+     "R_list": 6.7098156792521015,
+     "bootstrap_name": "fa12:break_even:16:pooled",
+     "ci95": [
+      17.44828090466836,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 5,
+     "n_bases": 80,
+     "opus_medium_mean": 97.8125,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 105,
+     "rho_list": 40.0,
+     "rho_star": 29.807078101777705,
+     "share_replicates_no_k_match": 0.0525,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    }
+   },
+   "N=6": {
+    "1x6": {
+     "R_list": 9.3788584962111,
+     "bootstrap_name": "fa12:break_even:6:1x6",
+     "ci95": [
+      4.121332859577595,
+      39.73241339740015
+     ],
+     "k_cap": 10,
+     "k_match": 3,
+     "n_bases": 40,
+     "opus_medium_mean": 98.75,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 0,
+     "rho_list": 40.0,
+     "rho_star": 12.794734033835564,
+     "share_replicates_no_k_match": 0.0,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "6x1": {
+     "R_list": 11.744990551060196,
+     "bootstrap_name": "fa12:break_even:6:6x1",
+     "ci95": [
+      16.858592736841665,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": "no break-even within 10 tries",
+     "n_bases": 40,
+     "opus_medium_mean": 100.0,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 1304,
+     "rho_list": 40.0,
+     "rho_star": "no break-even within 10 tries",
+     "share_replicates_no_k_match": 0.652,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    },
+    "pooled": {
+     "R_list": 10.523488675545012,
+     "bootstrap_name": "fa12:break_even:6:pooled",
+     "ci95": [
+      11.202194209334234,
+      "unbounded"
+     ],
+     "k_cap": 10,
+     "k_match": 9,
+     "n_bases": 40,
+     "opus_medium_mean": 99.375,
+     "replicates_dropped_both_sides_zero": 0,
+     "replicates_no_k_match": 675,
+     "rho_list": 40.0,
+     "rho_star": 34.209187760764664,
+     "share_replicates_no_k_match": 0.3375,
+     "share_replicates_zero_comparator_cost": 0.0,
+     "share_replicates_zero_haiku_cost": 0.0
+    }
+   }
+  },
+  "cached_view": "item 9f is read from data/main/main-l14n6-1/analysis.json reporting.group_b.item_9f (not recomputed)",
+  "label": "post hoc sensitivity: how far the equal-money readings rest on one price list; no reading",
+  "rho_prime": [
+   10,
+   20,
+   40,
+   80
+  ],
+  "tests": {
+   "B2": {
+    "N": 16,
+    "R_list": 6.7098156792521015,
+    "by_rho": [
+     {
+      "R_prime": 1.6774539198130254,
+      "comparator_mean": 97.8125,
+      "gap": -5.1875,
+      "held_to_samples": false,
+      "k": 1,
+      "paired": {
+       "ci95": [
+        -7.875,
+        -2.6875
+       ],
+       "d": -5.1875,
+       "n": 80,
+       "seed_name": "fa12:B2:rho10"
+      },
+      "rho_prime": 10,
+      "vote_mean": 92.625
+     },
+     {
+      "R_prime": 3.3549078396260508,
+      "comparator_mean": 97.8125,
+      "gap": -0.7864583333333428,
+      "held_to_samples": false,
+      "k": 3,
+      "paired": {
+       "ci95": [
+        -2.8854166666666674,
+        1.1597222222222219
+       ],
+       "d": -0.7864583333333341,
+       "n": 80,
+       "seed_name": "fa12:B2:rho20"
+      },
+      "rho_prime": 20,
+      "vote_mean": 97.02604166666666
+     },
+     {
+      "R_prime": 6.7098156792521015,
+      "comparator_mean": 97.8125,
+      "gap": 0.6324404761904674,
+      "held_to_samples": false,
+      "k": 6,
+      "paired": {
+       "ci95": [
+        -1.2053571428571437,
+        2.462797619047618
+       ],
+       "d": 0.6324404761904753,
+       "n": 80,
+       "seed_name": "fa12:B2:rho40"
+      },
+      "rho_prime": 40,
+      "vote_mean": 98.44494047619047
+     },
+     {
+      "R_prime": 13.419631358504203,
+      "comparator_mean": 97.8125,
+      "gap": 1.5625,
+      "held_to_samples": true,
+      "k": 10,
+      "paired": {
+       "ci95": [
+        -0.625,
+        3.4375
+       ],
+       "d": 1.5625,
+       "n": 80,
+       "seed_name": "fa12:B2:rho80"
+      },
+      "rho_prime": 80,
+      "vote_mean": 99.375
+     }
+    ],
+    "comparator": "om",
+    "rho_list": 40.0
+   },
+   "t1": {
+    "R_list": 44.026626739328016,
+    "by_rho": [
+     {
+      "R_prime": 11.006656684832004,
+      "comparator_mean": 100.0,
+      "gap": -35.55543535820456,
+      "held_to_samples": false,
+      "k": 11,
+      "paired": {
+       "ci95": [
+        -44.8527452279058,
+        -27.568785205865947
+       ],
+       "d": -35.55543535820457,
+       "n": 80,
+       "seed_name": "fa12:t1:rho10"
+      },
+      "rho_prime": 10,
+      "vote_mean": 64.44456464179544
+     },
+     {
+      "R_prime": 22.013313369664008,
+      "comparator_mean": 100.0,
+      "gap": -33.93629848549483,
+      "held_to_samples": false,
+      "k": 22,
+      "paired": {
+       "ci95": [
+        -43.92150767215264,
+        -24.84838544206874
+       ],
+       "d": -33.93629848549484,
+       "n": 80,
+       "seed_name": "fa12:t1:rho20"
+      },
+      "rho_prime": 20,
+      "vote_mean": 66.06370151450517
+     },
+     {
+      "R_prime": 44.026626739328016,
+      "comparator_mean": 100.0,
+      "gap": -33.125,
+      "held_to_samples": true,
+      "k": 40,
+      "paired": {
+       "ci95": [
+        -43.75,
+        -23.75
+       ],
+       "d": -33.125,
+       "n": 80,
+       "seed_name": "fa12:t1:rho40"
+      },
+      "rho_prime": 40,
+      "vote_mean": 66.875
+     },
+     {
+      "R_prime": 88.05325347865603,
+      "comparator_mean": 100.0,
+      "gap": -33.125,
+      "held_to_samples": true,
+      "k": 40,
+      "paired": {
+       "ci95": [
+        -43.75,
+        -23.75
+       ],
+       "d": -33.125,
+       "n": 80,
+       "seed_name": "fa12:t1:rho80"
+      },
+      "rho_prime": 80,
+      "vote_mean": 66.875
+     }
+    ],
+    "comparator": "opus-med",
+    "rho_list": 40.0,
+    "shape": "6x1"
+   },
+   "t2": {
+    "R_list": 36.57701730937173,
+    "by_rho": [
+     {
+      "R_prime": 9.144254327342933,
+      "comparator_mean": 96.25,
+      "gap": -42.62976542888382,
+      "held_to_samples": false,
+      "k": 9,
+      "paired": {
+       "ci95": [
+        -51.8192137182438,
+        -32.997969712341806
+       ],
+       "d": -42.6297654288838,
+       "n": 80,
+       "seed_name": "fa12:t2:rho10"
+      },
+      "rho_prime": 10,
+      "vote_mean": 53.62023457111618
+     },
+     {
+      "R_prime": 18.288508654685867,
+      "comparator_mean": 96.25,
+      "gap": -39.53819346390738,
+      "held_to_samples": false,
+      "k": 18,
+      "paired": {
+       "ci95": [
+        -49.81665743311811,
+        -29.821833280694392
+       ],
+       "d": -39.5381934639074,
+       "n": 80,
+       "seed_name": "fa12:t2:rho20"
+      },
+      "rho_prime": 20,
+      "vote_mean": 56.71180653609262
+     },
+     {
+      "R_prime": 36.57701730937173,
+      "comparator_mean": 96.25,
+      "gap": -37.64273762629025,
+      "held_to_samples": false,
+      "k": 36,
+      "paired": {
+       "ci95": [
+        -48.38331144910092,
+        -26.981159043659044
+       ],
+       "d": -37.642737626290256,
+       "n": 80,
+       "seed_name": "fa12:t2:rho40"
+      },
+      "rho_prime": 40,
+      "vote_mean": 58.60726237370975
+     },
+     {
+      "R_prime": 73.15403461874347,
+      "comparator_mean": 96.25,
+      "gap": -38.75,
+      "held_to_samples": true,
+      "k": 40,
+      "paired": {
+       "ci95": [
+        -50.0,
+        -28.125
+       ],
+       "d": -38.75,
+       "n": 80,
+       "seed_name": "fa12:t2:rho80"
+      },
+      "rho_prime": 80,
+      "vote_mean": 57.5
+     }
+    ],
+    "comparator": "opus-med",
+    "rho_list": 40.0,
+    "shape": "1x6"
+   },
+   "t3": {
+    "R_list": 13.399499140688123,
+    "by_rho": [
+     {
+      "R_prime": 6.6997495703440615,
+      "comparator_mean": 80.0,
+      "gap": -28.405197450921165,
+      "held_to_samples": false,
+      "k": 6,
+      "paired": {
+       "ci95": [
+        -39.283548484864276,
+        -16.12720649184465
+       ],
+       "d": -28.405197450921133,
+       "n": 80,
+       "seed_name": "fa12:t3:rho10"
+      },
+      "rho_prime": 10,
+      "vote_mean": 51.594802549078835
+     },
+     {
+      "R_prime": 13.399499140688123,
+      "comparator_mean": 80.0,
+      "gap": -24.695825690726238,
+      "held_to_samples": false,
+      "k": 13,
+      "paired": {
+       "ci95": [
+        -36.095560583859694,
+        -11.811972117281503
+       ],
+       "d": -24.69582569072623,
+       "n": 80,
+       "seed_name": "fa12:t3:rho20"
+      },
+      "rho_prime": 20,
+      "vote_mean": 55.30417430927376
+     },
+     {
+      "R_prime": 26.798998281376246,
+      "comparator_mean": 80.0,
+      "gap": -21.78843843047948,
+      "held_to_samples": false,
+      "k": 26,
+      "paired": {
+       "ci95": [
+        -34.31316135810718,
+        -9.089923319903663
+       ],
+       "d": -21.788438430479466,
+       "n": 80,
+       "seed_name": "fa12:t3:rho40"
+      },
+      "rho_prime": 40,
+      "vote_mean": 58.21156156952052
+     },
+     {
+      "R_prime": 53.59799656275249,
+      "comparator_mean": 80.0,
+      "gap": -22.5,
+      "held_to_samples": true,
+      "k": 40,
+      "paired": {
+       "ci95": [
+        -35.0,
+        -8.75
+       ],
+       "d": -22.5,
+       "n": 80,
+       "seed_name": "fa12:t3:rho80"
+      },
+      "rho_prime": 80,
+      "vote_mean": 57.5
+     }
+    ],
+    "comparator": "sonnet-med",
+    "rho_list": 20.0,
+    "shape": "1x6"
+   }
+  }
+ },
+ "undefined_as_null": []
+}

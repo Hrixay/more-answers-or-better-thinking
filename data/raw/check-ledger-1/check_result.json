@@ -1,0 +1,192 @@
+{
+ "status": "complete",
+ "reason": "",
+ "calls_planned": 20,
+ "calls_made": 20,
+ "answered": 20,
+ "other_failures": 0,
+ "refusals": 0,
+ "spent_usd": "2.302126",
+ "results": [
+  {
+   "custom_id": "check-check-ledger-l16-v1-000-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 10525
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-000-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 8087
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-000-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 8624
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-000-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 7704
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-001-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 5921
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-001-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6631
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-001-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6170
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-001-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 5824
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-002-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6829
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-002-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 7541
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-002-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6543
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-002-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6540
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-003-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6575
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-003-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6387
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-003-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6692
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-003-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 7059
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-004-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6318
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-004-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6230
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-004-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6002
+  },
+  {
+   "custom_id": "check-check-ledger-l16-v1-004-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 5666
+  }
+ ]
+}

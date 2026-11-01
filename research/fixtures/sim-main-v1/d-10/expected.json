@@ -1,0 +1,304 @@
+{
+ "case": "d-10",
+ "set_id": "simfix-d-10-v1",
+ "seed": 1104,
+ "n_base": 80,
+ "haiku_tries": 40,
+ "true_d_left_out": {
+  "t1": -10,
+  "t2": -10,
+  "t3": -10,
+  "t4": -10,
+  "t5": -10
+ },
+ "k": {
+  "opus_matched": {
+   "24x1": 29,
+   "1x24": 29
+  },
+  "sonnet_matched_1x24": 14
+ },
+ "population_vote_accuracy": {
+  "O/24x1": 0.8121,
+  "O/1x24": 0.57762,
+  "S/1x24": 0.55402
+ },
+ "target_accuracy": {
+  "opus-med/24x1": 0.9121,
+  "opus-med/1x24": 0.67762,
+  "sonnet-med/1x24": 0.65402,
+  "e3/1x24": 0.57762,
+  "opus-low/1x24": 0.55402,
+  "sonnet-med/24x1": 0.80402,
+  "opus-low/24x1": 0.8821,
+  "e3/24x1": 0.9121
+ },
+ "observed_accuracy": {
+  "opus-med/24x1": 0.8875,
+  "opus-med/1x24": 0.775,
+  "opus-low/24x1": 0.8875,
+  "opus-low/1x24": 0.5375,
+  "sonnet-med/24x1": 0.775,
+  "sonnet-med/1x24": 0.6625,
+  "e3/24x1": 0.9375,
+  "e3/1x24": 0.575
+ },
+ "special_rows": {},
+ "method": {
+  "bootstrap": "paired base-puzzle BCa",
+  "n_boot": 10000,
+  "test_seed": "int(sha256(f\"{seed}:{test}\").hexdigest()[:15], 16)",
+  "p": "invert the BCa lower bound at the margin -10",
+  "holm": "one-sided family alpha 0.025; step j threshold 0.025/(6-j)",
+  "worse": "two-sided 95% BCa upper end below -10",
+  "vote": "exact expected vote@k over k-subsets; null answers vote for nothing; truncations_left_out drops truncated samples and caps k at what is left"
+ },
+ "readings": {
+  "as_deployed": {
+   "t1": {
+    "n": 80,
+    "d_hat": -13.803,
+    "p": 0.764536,
+    "ci95": [
+     -23.845,
+     -3.848
+    ],
+    "z0": 0.007019,
+    "acc": -0.002681,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -26.262209,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -18.78,
+    "p": 0.910157,
+    "ci95": [
+     -31.239,
+     -5.88
+    ],
+    "z0": -0.007771,
+    "acc": 0.006749,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -32.850094,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -10.229,
+    "p": 0.512698,
+    "ci95": [
+     -23.213,
+     3.39
+    ],
+    "z0": 0.003509,
+    "acc": 0.008137,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -27.024278,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -20.0,
+    "p": 0.963278,
+    "ci95": [
+     -33.75,
+     -8.75
+    ],
+    "z0": -0.089355,
+    "acc": 0.00207,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -33.75,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -12.5,
+    "p": 0.737039,
+    "ci95": [
+     -27.5,
+     0.0
+    ],
+    "z0": -0.094641,
+    "acc": 0.001649,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -31.25,
+    "reading": "inconclusive",
+    "near_threshold": false
+   }
+  },
+  "refusals_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": -13.803,
+    "p": 0.764536,
+    "ci95": [
+     -23.845,
+     -3.848
+    ],
+    "z0": 0.007019,
+    "acc": -0.002681,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -26.262209,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -18.78,
+    "p": 0.910157,
+    "ci95": [
+     -31.239,
+     -5.88
+    ],
+    "z0": -0.007771,
+    "acc": 0.006749,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -32.850094,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -10.229,
+    "p": 0.512698,
+    "ci95": [
+     -23.213,
+     3.39
+    ],
+    "z0": 0.003509,
+    "acc": 0.008137,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -27.024278,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -20.0,
+    "p": 0.963278,
+    "ci95": [
+     -33.75,
+     -8.75
+    ],
+    "z0": -0.089355,
+    "acc": 0.00207,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -33.75,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -12.5,
+    "p": 0.737039,
+    "ci95": [
+     -27.5,
+     0.0
+    ],
+    "z0": -0.094641,
+    "acc": 0.001649,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -31.25,
+    "reading": "inconclusive",
+    "near_threshold": false
+   }
+  },
+  "truncations_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": -13.803,
+    "p": 0.764536,
+    "ci95": [
+     -23.845,
+     -3.848
+    ],
+    "z0": 0.007019,
+    "acc": -0.002681,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -26.262209,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -18.78,
+    "p": 0.910157,
+    "ci95": [
+     -31.239,
+     -5.88
+    ],
+    "z0": -0.007771,
+    "acc": 0.006749,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -32.850094,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -10.229,
+    "p": 0.512698,
+    "ci95": [
+     -23.213,
+     3.39
+    ],
+    "z0": 0.003509,
+    "acc": 0.008137,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -27.024278,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -20.0,
+    "p": 0.963278,
+    "ci95": [
+     -33.75,
+     -8.75
+    ],
+    "z0": -0.089355,
+    "acc": 0.00207,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -33.75,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -12.5,
+    "p": 0.737039,
+    "ci95": [
+     -27.5,
+     0.0
+    ],
+    "z0": -0.094641,
+    "acc": 0.001649,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -31.25,
+    "reading": "inconclusive",
+    "near_threshold": false
+   }
+  }
+ }
+}

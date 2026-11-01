@@ -1,0 +1,39 @@
+{
+ "case": "d-10",
+ "reps": 1000,
+ "n_boot": 10000,
+ "seeds": "500000..500999",
+ "per_test": {
+  "t1": {
+   "rej_025": 24,
+   "rej_005": 9,
+   "cover95": 935,
+   "ni_holm": 9
+  },
+  "t2": {
+   "rej_025": 34,
+   "rej_005": 7,
+   "cover95": 939,
+   "ni_holm": 7
+  },
+  "t3": {
+   "rej_025": 23,
+   "rej_005": 5,
+   "cover95": 956,
+   "ni_holm": 5
+  },
+  "t4": {
+   "rej_025": 15,
+   "rej_005": 2,
+   "cover95": 950,
+   "ni_holm": 2
+  },
+  "t5": {
+   "rej_025": 19,
+   "rej_005": 3,
+   "cover95": 950,
+   "ni_holm": 3
+  }
+ },
+ "familywise_any_non_inferior": 25
+}

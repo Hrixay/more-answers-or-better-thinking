@@ -1,0 +1,763 @@
+{
+ "analysis": "fa10",
+ "checks": [],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "048020caa071918da7a2802ac0416d4c63085a64",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "b56a2aab77dbf72beecf4dd9ce30291dc00611cda6276c4251e0ef035da28449"
+ },
+ "definition": {
+  "analysis": "Token and cost structure by arm and length: mean input and output tokens (measured usage), cost per answer, Haiku-max/Opus-medium output-token and cost ratios; this also settles E-03's token multiples from stamped columns.",
+  "could_change_headline": "No.",
+  "inputs": "study1b-1 descriptive.arms, trial_round, k.json; data/raw/study1b-1/compact_table.csv (D-109); main item_9g, item_19",
+  "rank": 10,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[9]",
+  "tier_label": "pre-specified descriptive (items 9g, 19) plus post hoc descriptive",
+  "why": "Backs the third surprise (token parity at medium effort) and the length caveat on price."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "haiku_max_over_opus_medium": {
+   "study1:6:1x6": {
+    "list_cost_per_call": 0.10946738608218812,
+    "output_tokens": 4.7382516966589225
+   },
+   "study1:6:6x1": {
+    "list_cost_per_call": 0.0845116505237696,
+    "output_tokens": 3.614899105186267
+   },
+   "study1b:12:12x1": {
+    "list_cost_per_call": 0.11260574302873173,
+    "output_tokens": 4.899161014142554
+   },
+   "study1b:12:1x12": {
+    "list_cost_per_call": 0.16261089904362935,
+    "output_tokens": 7.139736745024901
+   },
+   "study1b:16:16x1": {
+    "list_cost_per_call": 0.1222393229126428,
+    "output_tokens": 5.343210248273318
+   },
+   "study1b:16:1x16": {
+    "list_cost_per_call": 0.1818257267102899,
+    "output_tokens": 7.978268625198744
+   },
+   "study1b:6:1x6": {
+    "list_cost_per_call": 0.10662278361529638,
+    "output_tokens": 4.6102631883742
+   },
+   "study1b:6:6x1": {
+    "list_cost_per_call": 0.08514268237616691,
+    "output_tokens": 3.6460585130343386
+   }
+  },
+  "label_n1": "post hoc; thinking tokens as the API reports them (Edith's settlement N1)",
+  "note": "Measured usage from the final records (no estimate); list prices from harness/pareto/prices.py.",
+  "study1": {
+   "e3 1x6": {
+    "calls": 1086,
+    "list_cost_per_call": 0.0002622036832412527,
+    "mean_input_tokens": 489.5966850828729,
+    "mean_output_tokens": 426.48802946593,
+    "mean_thinking_tokens": 383.20902394106815,
+    "thinking_share_of_list_cost": 0.7307468362076338,
+    "thinking_share_of_output": 0.8985223440407974
+   },
+   "haiku-low 1x6": {
+    "calls": 3200,
+    "list_cost_per_call": 0.0010315843749999975,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 1869.64375,
+    "mean_thinking_tokens": 1652.3190625,
+    "thinking_share_of_list_cost": 0.8008647196212155,
+    "thinking_share_of_output": 0.8837614451951074
+   },
+   "haiku-low 6x1": {
+    "calls": 3200,
+    "list_cost_per_call": 0.0010258584375000006,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 1836.001875,
+    "mean_thinking_tokens": 1644.54375,
+    "thinking_share_of_list_cost": 0.8015451693353156,
+    "thinking_share_of_output": 0.8957200819852104
+   },
+   "haiku-max 1x6": {
+    "calls": 240,
+    "list_cost_per_call": 0.004405077083333334,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 8616.629166666668,
+    "mean_thinking_tokens": 8402.629166666668,
+    "thinking_share_of_list_cost": 0.9537437152301065,
+    "thinking_share_of_output": 0.9751643019723006
+   },
+   "haiku-max 6x1": {
+    "calls": 240,
+    "list_cost_per_call": 0.004066894999999999,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 7918.075,
+    "mean_thinking_tokens": 7744.316666666667,
+    "thinking_share_of_list_cost": 0.9521166229601048,
+    "thinking_share_of_output": 0.9780554827614877
+   },
+   "haiku-med 1x6": {
+    "calls": 3200,
+    "list_cost_per_call": 0.001100171718750001,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 2006.8184375,
+    "mean_thinking_tokens": 1789.29875,
+    "thinking_share_of_list_cost": 0.8131906681045099,
+    "thinking_share_of_output": 0.8916096825525602
+   },
+   "haiku-med 6x1": {
+    "calls": 3200,
+    "list_cost_per_call": 0.0010930271875000024,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 1970.339375,
+    "mean_thinking_tokens": 1772.42375,
+    "thinking_share_of_list_cost": 0.810786671305925,
+    "thinking_share_of_output": 0.899552519981488
+   },
+   "haiku-med-d42-variant 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.001202517499999999,
+    "mean_input_tokens": 989.7,
+    "mean_output_tokens": 2207.095,
+    "mean_thinking_tokens": 1802.39,
+    "thinking_share_of_list_cost": 0.7494236050618813,
+    "thinking_share_of_output": 0.8166345354413833
+   },
+   "haiku-med-d42-variant 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0011646325000000005,
+    "mean_input_tokens": 1101.7,
+    "mean_output_tokens": 2108.925,
+    "mean_thinking_tokens": 1871.02,
+    "thinking_share_of_list_cost": 0.8032662663973397,
+    "thinking_share_of_output": 0.8871913415602736
+   },
+   "haiku-thinking-off 1x6": {
+    "calls": 3200,
+    "list_cost_per_call": 0.0008901445312500014,
+    "mean_input_tokens": 965.625,
+    "mean_output_tokens": 1587.1640625,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "haiku-thinking-off 6x1": {
+    "calls": 3200,
+    "list_cost_per_call": 0.0009562557812500011,
+    "mean_input_tokens": 1076.575,
+    "mean_output_tokens": 1697.1965625,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "opus-low 1x6": {
+    "calls": 80,
+    "list_cost_per_call": 0.03653099999999999,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 1633.025,
+    "mean_thinking_tokens": 684.1625,
+    "thinking_share_of_list_cost": 0.3745654375735678,
+    "thinking_share_of_output": 0.4189540882717656
+   },
+   "opus-low 6x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.04486430000000001,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 2027.5,
+    "mean_thinking_tokens": 757.375,
+    "thinking_share_of_list_cost": 0.3376292508743032,
+    "thinking_share_of_output": 0.37355117139334154
+   },
+   "opus-med 1x6": {
+    "calls": 80,
+    "list_cost_per_call": 0.04024100000000001,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 1818.525,
+    "mean_thinking_tokens": 875.4625,
+    "thinking_share_of_list_cost": 0.4351097139733106,
+    "thinking_share_of_output": 0.4814135082003272
+   },
+   "opus-med 6x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.048122300000000014,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 2190.4,
+    "mean_thinking_tokens": 910.3375,
+    "thinking_share_of_list_cost": 0.3783433044555224,
+    "thinking_share_of_output": 0.4156033144631118
+   },
+   "rt-haiku-med 1x6": {
+    "calls": 25,
+    "list_cost_per_call": 0.00099908,
+    "mean_input_tokens": 974.4,
+    "mean_output_tokens": 1803.28,
+    "mean_thinking_tokens": 1589.2,
+    "thinking_share_of_list_cost": 0.7953317051687554,
+    "thinking_share_of_output": 0.8812829954305488
+   },
+   "rt-haiku-med 6x1": {
+    "calls": 25,
+    "list_cost_per_call": 0.00099824,
+    "mean_input_tokens": 1085.4,
+    "mean_output_tokens": 1779.4,
+    "mean_thinking_tokens": 1605.36,
+    "thinking_share_of_list_cost": 0.804095207565315,
+    "thinking_share_of_output": 0.9021917500280994
+   },
+   "rt-opus-med 1x6": {
+    "calls": 5,
+    "list_cost_per_call": 0.0345896,
+    "mean_input_tokens": 974.4,
+    "mean_output_tokens": 1534.6,
+    "mean_thinking_tokens": 850.6,
+    "thinking_share_of_list_cost": 0.49182413210907333,
+    "thinking_share_of_output": 0.5542812459272775
+   },
+   "rt-opus-med 6x1": {
+    "calls": 5,
+    "list_cost_per_call": 0.0455456,
+    "mean_input_tokens": 1085.4,
+    "mean_output_tokens": 2060.2,
+    "mean_thinking_tokens": 878.0,
+    "thinking_share_of_list_cost": 0.38554767090564185,
+    "thinking_share_of_output": 0.4261722162896806
+   },
+   "rt-sonnet-med 1x6": {
+    "calls": 5,
+    "list_cost_per_call": 0.0141868,
+    "mean_input_tokens": 974.4,
+    "mean_output_tokens": 1223.8,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "rt-sonnet-med 6x1": {
+    "calls": 5,
+    "list_cost_per_call": 0.015540799999999999,
+    "mean_input_tokens": 1085.4,
+    "mean_output_tokens": 1337.0,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sonnet-low 1x6": {
+    "calls": 80,
+    "list_cost_per_call": 0.014155625000000008,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 1222.0375,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sonnet-low 6x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.0158324,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 1367.525,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sonnet-med 1x6": {
+    "calls": 80,
+    "list_cost_per_call": 0.014741750000000007,
+    "mean_input_tokens": 967.625,
+    "mean_output_tokens": 1280.65,
+    "mean_thinking_tokens": 61.925,
+    "thinking_share_of_list_cost": 0.04200654603422251,
+    "thinking_share_of_output": 0.048354351305977435
+   },
+   "sonnet-med 6x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.016096900000000004,
+    "mean_input_tokens": 1078.575,
+    "mean_output_tokens": 1393.975,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   }
+  },
+  "study1b": {
+   "hh@16 16x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.00294581125,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 5460.705,
+    "mean_thinking_tokens": 4914.5525,
+    "thinking_share_of_list_cost": 0.8341594357072267,
+    "thinking_share_of_output": 0.8999849836239093
+   },
+   "hh@16 1x16": {
+    "calls": 400,
+    "list_cost_per_call": 0.0037329112499999996,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 7125.0925,
+    "mean_thinking_tokens": 6607.19,
+    "thinking_share_of_list_cost": 0.8849915732660402,
+    "thinking_share_of_output": 0.9273128734819934
+   },
+   "hh@6 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.0012766050000000003,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 2359.14,
+    "mean_thinking_tokens": 2144.77,
+    "thinking_share_of_list_cost": 0.8400288264576744,
+    "thinking_share_of_output": 0.9091321413735514
+   },
+   "hh@6 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0012305350000000003,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2244.82,
+    "mean_thinking_tokens": 2031.9,
+    "thinking_share_of_list_cost": 0.8256165001401834,
+    "thinking_share_of_output": 0.9051505243182082
+   },
+   "hl@16 16x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.0023463500000000027,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 4261.7825,
+    "mean_thinking_tokens": 3726.9425,
+    "thinking_share_of_list_cost": 0.7942000340955093,
+    "thinking_share_of_output": 0.8745032154972714
+   },
+   "hl@16 1x16": {
+    "calls": 400,
+    "list_cost_per_call": 0.0023407725000000002,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 4340.815,
+    "mean_thinking_tokens": 3822.6875,
+    "thinking_share_of_list_cost": 0.8165440041695633,
+    "thinking_share_of_output": 0.8806381981263887
+   },
+   "hl@6 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.0010429375,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1891.805,
+    "mean_thinking_tokens": 1676.86,
+    "thinking_share_of_list_cost": 0.8039120273266614,
+    "thinking_share_of_output": 0.8863809959271701
+   },
+   "hl@6 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0010299474999999998,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 1843.645,
+    "mean_thinking_tokens": 1649.655,
+    "thinking_share_of_list_cost": 0.8008442177878005,
+    "thinking_share_of_output": 0.8947790925042511
+   },
+   "hm@16 16x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.0025185862500000013,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 4606.255,
+    "mean_thinking_tokens": 4096.6525,
+    "thinking_share_of_list_cost": 0.8132841390680978,
+    "thinking_share_of_output": 0.8893672842688909
+   },
+   "hm@16 1x16": {
+    "calls": 400,
+    "list_cost_per_call": 0.002559196249999999,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 4777.6625,
+    "mean_thinking_tokens": 4261.86,
+    "thinking_share_of_list_cost": 0.832655955947107,
+    "thinking_share_of_output": 0.8920387323298788
+   },
+   "hm@6 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.0010918800000000002,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1989.69,
+    "mean_thinking_tokens": 1774.065,
+    "thinking_share_of_list_cost": 0.8123900978129461,
+    "thinking_share_of_output": 0.8916288467047631
+   },
+   "hm@6 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0011147649999999993,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2013.28,
+    "mean_thinking_tokens": 1808.34,
+    "thinking_share_of_list_cost": 0.811085744529117,
+    "thinking_share_of_output": 0.8982059127394103
+   },
+   "ho@16 16x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.0016081037500000005,
+    "mean_input_tokens": 2152.5875,
+    "mean_output_tokens": 2785.69,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "ho@16 1x16": {
+    "calls": 400,
+    "list_cost_per_call": 0.0013254787500000002,
+    "mean_input_tokens": 1701.65,
+    "mean_output_tokens": 2310.6275,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "ho@6 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.0008886549999999999,
+    "mean_input_tokens": 968.35,
+    "mean_output_tokens": 1583.64,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "ho@6 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0009661299999999997,
+    "mean_input_tokens": 1079.25,
+    "mean_output_tokens": 1716.41,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "hx@12 12x1": {
+    "calls": 800,
+    "list_cost_per_call": 0.007661289375000007,
+    "mean_input_tokens": 1722.7875,
+    "mean_output_tokens": 14978.02125,
+    "mean_thinking_tokens": 14636.0325,
+    "thinking_share_of_list_cost": 0.9551938181423922,
+    "thinking_share_of_output": 0.9771672943780875
+   },
+   "hx@12 1x12": {
+    "calls": 800,
+    "list_cost_per_call": 0.008850016875000007,
+    "mean_input_tokens": 1407.875,
+    "mean_output_tokens": 17418.45875,
+    "mean_thinking_tokens": 17024.39125,
+    "thinking_share_of_list_cost": 0.9618281801298808,
+    "thinking_share_of_output": 0.977376442677513
+   },
+   "hx@16 16x1": {
+    "calls": 800,
+    "list_cost_per_call": 0.010086421875000012,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 19741.92625,
+    "mean_thinking_tokens": 19287.91625,
+    "thinking_share_of_list_cost": 0.956132734136702,
+    "thinking_share_of_output": 0.9770027506814336
+   },
+   "hx@16 1x16": {
+    "calls": 800,
+    "list_cost_per_call": 0.012260458750000001,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 24180.1875,
+    "mean_thinking_tokens": 23666.325,
+    "thinking_share_of_list_cost": 0.9651484288872942,
+    "thinking_share_of_output": 0.9787486139220385
+   },
+   "hx@6 1x6": {
+    "calls": 400,
+    "list_cost_per_call": 0.004326288750000001,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 8458.5075,
+    "mean_thinking_tokens": 8244.4325,
+    "thinking_share_of_list_cost": 0.9528296626063155,
+    "thinking_share_of_output": 0.9746911615317477
+   },
+   "hx@6 6x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.004054026250000001,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 7891.8025,
+    "mean_thinking_tokens": 7717.8,
+    "thinking_share_of_list_cost": 0.9518685282316557,
+    "thinking_share_of_output": 0.9779514882689981
+   },
+   "hxh@16 16x1": {
+    "calls": 400,
+    "list_cost_per_call": 0.004585388749999999,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 8739.86,
+    "mean_thinking_tokens": 8229.5025,
+    "thinking_share_of_list_cost": 0.8973614832548285,
+    "thinking_share_of_output": 0.94160575798697
+   },
+   "hxh@16 1x16": {
+    "calls": 400,
+    "list_cost_per_call": 0.005563073749999997,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 10785.4175,
+    "mean_thinking_tokens": 10270.0625,
+    "thinking_share_of_list_cost": 0.9230564757477824,
+    "thinking_share_of_output": 0.9522174269099921
+   },
+   "hxh@6 1x6": {
+    "calls": 200,
+    "list_cost_per_call": 0.0018148675000000001,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 3435.665,
+    "mean_thinking_tokens": 3220.83,
+    "thinking_share_of_list_cost": 0.887345770421257,
+    "thinking_share_of_output": 0.9374691653580893
+   },
+   "hxh@6 6x1": {
+    "calls": 200,
+    "list_cost_per_call": 0.0016290850000000015,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 3041.92,
+    "mean_thinking_tokens": 2850.305,
+    "thinking_share_of_list_cost": 0.8748177658010464,
+    "thinking_share_of_output": 0.9370085340837366
+   },
+   "oh@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.042331900000000006,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1922.525,
+    "mean_thinking_tokens": 948.175,
+    "thinking_share_of_list_cost": 0.4479718604645668,
+    "thinking_share_of_output": 0.49319254626077685
+   },
+   "oh@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.04869849999999999,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2218.675,
+    "mean_thinking_tokens": 959.95,
+    "thinking_share_of_list_cost": 0.3942421224473034,
+    "thinking_share_of_output": 0.43266814652889674
+   },
+   "ol@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.0353179,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1571.825,
+    "mean_thinking_tokens": 651.9,
+    "thinking_share_of_list_cost": 0.3691612468465,
+    "thinking_share_of_output": 0.41474082674598
+   },
+   "ol@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.0435825,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 1962.875,
+    "mean_thinking_tokens": 713.7,
+    "thinking_share_of_list_cost": 0.3275167785234899,
+    "thinking_share_of_output": 0.3635993122333312
+   },
+   "om@12 12x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.06803640000000002,
+    "mean_input_tokens": 1722.7875,
+    "mean_output_tokens": 3057.2625,
+    "mean_thinking_tokens": 1648.775,
+    "thinking_share_of_list_cost": 0.4846743801847245,
+    "thinking_share_of_output": 0.5392978195362681
+   },
+   "om@12 1x12": {
+    "calls": 80,
+    "list_cost_per_call": 0.05442450000000001,
+    "mean_input_tokens": 1407.875,
+    "mean_output_tokens": 2439.65,
+    "mean_thinking_tokens": 1593.7375,
+    "thinking_share_of_list_cost": 0.5856691379801374,
+    "thinking_share_of_output": 0.6532648125755743
+   },
+   "om@16 16x1": {
+    "calls": 160,
+    "list_cost_per_call": 0.08251372500000004,
+    "mean_input_tokens": 2154.5875,
+    "mean_output_tokens": 3694.76875,
+    "mean_thinking_tokens": 2197.3625,
+    "thinking_share_of_list_cost": 0.5326053332339555,
+    "thinking_share_of_output": 0.5947226061170946
+   },
+   "om@16 1x16": {
+    "calls": 160,
+    "list_cost_per_call": 0.067429725,
+    "mean_input_tokens": 1703.65,
+    "mean_output_tokens": 3030.75625,
+    "mean_thinking_tokens": 2176.50625,
+    "thinking_share_of_list_cost": 0.6455628433899143,
+    "thinking_share_of_output": 0.7181396557377387
+   },
+   "om@6 1x6": {
+    "calls": 80,
+    "list_cost_per_call": 0.04057565,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1834.7125,
+    "mean_thinking_tokens": 864.7125,
+    "thinking_share_of_list_cost": 0.4262223772139202,
+    "thinking_share_of_output": 0.4713068123752359
+   },
+   "om@6 6x1": {
+    "calls": 80,
+    "list_cost_per_call": 0.04761450000000002,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2164.475,
+    "mean_thinking_tokens": 898.5,
+    "thinking_share_of_list_cost": 0.3774060422770375,
+    "thinking_share_of_output": 0.4151122096582312
+   },
+   "ox@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.08955539999999998,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 4283.7,
+    "mean_thinking_tokens": 3376.425,
+    "thinking_share_of_list_cost": 0.7540416323303788,
+    "thinking_share_of_output": 0.7882029553890328
+   },
+   "ox@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.0879715,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 4182.325,
+    "mean_thinking_tokens": 3001.3,
+    "thinking_share_of_list_cost": 0.6823346197348006,
+    "thinking_share_of_output": 0.7176152020706186
+   },
+   "oxh@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.046123399999999995,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 2112.1,
+    "mean_thinking_tokens": 1158.475,
+    "thinking_share_of_list_cost": 0.502337208445171,
+    "thinking_share_of_output": 0.5484943894701956
+   },
+   "oxh@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.053691,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2468.3,
+    "mean_thinking_tokens": 1177.025,
+    "thinking_share_of_list_cost": 0.438444059525805,
+    "thinking_share_of_output": 0.4768565409391079
+   },
+   "sh@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.0160862,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1414.55,
+    "mean_thinking_tokens": 1013.425,
+    "thinking_share_of_list_cost": 0.6299965187552063,
+    "thinking_share_of_output": 0.7164292531193666
+   },
+   "sh@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.021585999999999998,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 1942.35,
+    "mean_thinking_tokens": 1055.95,
+    "thinking_share_of_list_cost": 0.48918280366904493,
+    "thinking_share_of_output": 0.5436455839575771
+   },
+   "sl@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.01433595,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1239.525,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sl@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.01570775,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 1354.525,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sm@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.014836200000000003,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1289.55,
+    "mean_thinking_tokens": 127.575,
+    "thinking_share_of_list_cost": 0.08598899987867513,
+    "thinking_share_of_output": 0.09892985925322786
+   },
+   "sm@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.015881250000000006,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 1371.875,
+    "mean_thinking_tokens": 0.0,
+    "thinking_share_of_list_cost": 0.0,
+    "thinking_share_of_output": 0.0
+   },
+   "sx@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.046956200000000003,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 4501.55,
+    "mean_thinking_tokens": 3731.0,
+    "thinking_share_of_list_cost": 0.794570259092516,
+    "thinking_share_of_output": 0.8288256267285713
+   },
+   "sx@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.04812,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 4595.75,
+    "mean_thinking_tokens": 3616.725,
+    "thinking_share_of_list_cost": 0.7516053615960099,
+    "thinking_share_of_output": 0.7869716585976174
+   },
+   "sxh@6 1x6": {
+    "calls": 40,
+    "list_cost_per_call": 0.02103295,
+    "mean_input_tokens": 970.35,
+    "mean_output_tokens": 1909.225,
+    "mean_thinking_tokens": 1344.625,
+    "thinking_share_of_list_cost": 0.6392945354788556,
+    "thinking_share_of_output": 0.7042779138131965
+   },
+   "sxh@6 6x1": {
+    "calls": 40,
+    "list_cost_per_call": 0.02464199999999999,
+    "mean_input_tokens": 1081.25,
+    "mean_output_tokens": 2247.95,
+    "mean_thinking_tokens": 1286.0,
+    "thinking_share_of_list_cost": 0.5218732245759273,
+    "thinking_share_of_output": 0.5720767810671945
+   }
+  }
+ }
+}

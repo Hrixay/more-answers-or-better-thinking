@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "568e8a445e70779e0cadaec9b365c4daf4f7ae5f",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "0.000000",
+  "item_set_sha256": "a6da8acebbf4ded09a335b945fe82c1eeddcf3a9d99f6a5267850f879d848232",
+  "mode": "live",
+  "n_items": 9,
+  "note": "smoke run",
+  "price_table_date": "2026-10-10",
+  "run_cap_usd": "2",
+  "run_id": "smoke-2",
+  "source_sha256": "2c113c37e030dd2d363e5ce6d23580f160965a33f84bb0fc26255afbc3c0624d"
+}

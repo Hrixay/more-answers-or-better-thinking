@@ -1,0 +1,2860 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Two panels of whole-answer accuracy against list cost per answer on a log axis, from Study 1b's effort sweep, with each model's settings joined in effort order and each point labelled with its setting: 6 steps (A), for all three models, and 16 steps (B), for Haiku and Opus-medium. Both panels share one accuracy axis, from zero to one hundred percent. Points pool chains and pieces. A dashed line marks Opus-medium's accuracy in each panel. In A the markers for Haiku-low and Haiku-medium, for Sonnet-low and Sonnet-medium, and for the Opus settings low to xhigh with Sonnet-max overlap, so their values are in TAB-12. A small box at the top right of A, around the five overlapping markers of the Opus settings low to xhigh and Sonnet-max, is joined by two lines to an inset below it that enlarges them: the same markers at their measured cost and accuracy, each labelled, with no bars or lines."
+  },
+  {
+   "kind": "label",
+   "printed": "At 6 steps Haiku accuracy rises with effort from"
+  },
+  {
+   "kind": "num",
+   "printed": "27.5%",
+   "raw": 27.5,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.0.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "with thinking off, through"
+  },
+  {
+   "kind": "num",
+   "printed": "52.8%",
+   "raw": 52.75,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.1.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at low and"
+  },
+  {
+   "kind": "num",
+   "printed": "54.5%",
+   "raw": 54.5,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.2.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at medium, to"
+  },
+  {
+   "kind": "num",
+   "printed": "95.8%",
+   "raw": 95.75,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.5.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at max, while its cost per answer rises from"
+  },
+  {
+   "kind": "num",
+   "printed": "0.000927",
+   "raw": 0.0009273925,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.0.pooled.cost_per_answer",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "to"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00419",
+   "raw": 0.0041901575,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.haiku.5.pooled.cost_per_answer",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "US dollars. Sonnet-low and Sonnet-medium are both at"
+  },
+  {
+   "kind": "num",
+   "printed": "80.0%",
+   "raw": 80.0,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and Sonnet-max is at"
+  },
+  {
+   "kind": "num",
+   "printed": "100.0%. The Opus settings lie between",
+   "raw": 100.0,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "96.3%",
+   "raw": 96.25,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.opus.2.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at high and"
+  },
+  {
+   "kind": "num",
+   "printed": "100.0%",
+   "raw": 100.0,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.opus.4.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at max; Opus-medium is at"
+  },
+  {
+   "kind": "num",
+   "printed": "99.4%",
+   "raw": 99.375,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.opus.1.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0441",
+   "raw": 0.044095075,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=6.opus.1.pooled.cost_per_answer",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars."
+  },
+  {
+   "kind": "label",
+   "printed": "At 16 steps Haiku rises from"
+  },
+  {
+   "kind": "num",
+   "printed": "0.5%",
+   "raw": 0.5,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.haiku.0.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "with thinking off to"
+  },
+  {
+   "kind": "num",
+   "printed": "17.8%",
+   "raw": 17.75,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.haiku.2.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at medium and"
+  },
+  {
+   "kind": "num",
+   "printed": "92.6%",
+   "raw": 92.625,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.haiku.5.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at max for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0112",
+   "raw": 0.0111734403125,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.haiku.5.pooled.cost_per_answer",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars, beside"
+  },
+  {
+   "kind": "num",
+   "printed": "97.8%",
+   "raw": 97.8125,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.opus.0.pooled.mean",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for Opus-medium at"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0750",
+   "raw": 0.074971725,
+   "refs": [
+    {
+     "key": "descriptive.effort_figure.N=16.opus.0.pooled.cost_per_answer",
+     "source": "s1b"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars."
+  }
+ ],
+ "caption": {
+  "format": [
+   {
+    "kind": "label",
+    "printed": "format compliance, the share of answered samples in the required format, is stamped per shape (none for a pooled point): each point's chain and pieces values and format flags are in this figure's data file and in TAB-12; the format check (its rule is in TAB-07) flags these points on the shape named:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off at 6 steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.5%);",
+    "raw": 0.835,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off at 16 steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "28.0%,",
+    "raw": 0.28,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "pieces"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "78.3%);",
+    "raw": 0.7825,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low at 16 steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "93.8%);",
+    "raw": 0.9375,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-high at 16 steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "93.8%); no other point is flagged, and no flagged point is marked in the plot; of Study 1's settings, which are not drawn here (their values are in TAB-04, which prints format compliance to two decimals where this figure prints one), the format check flags",
+    "raw": 0.9375,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off on chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(81.7%), and its rule is in TAB-07",
+    "raw": 0.8171875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "vertical bars are 95% intervals:"
+   },
+   {
+    "kind": "num",
+    "printed": "cluster bootstrap",
+    "raw": "cluster bootstrap",
+    "refs": [
+     {
+      "key": "descriptive.arms.hm@6.pooled.interval",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "for the Haiku settings (several samples per puzzle) and for Opus-medium, over"
+   },
+   {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "descriptive.arms.om@6.tries_per_item",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples per puzzle;"
+   },
+   {
+    "kind": "num",
+    "printed": "exact (Clopper–Pearson)",
+    "raw": "clopper-pearson",
+    "refs": [
+     {
+      "key": "descriptive.arms.ol@6.pooled.interval",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "for the other Opus and Sonnet settings (one sample per puzzle)"
+   }
+  ],
+  "n": [
+   {
+    "kind": "label",
+    "printed": "puzzles:"
+   },
+   {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "descriptive.arms.hm@6.pooled.n_base",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at 6 steps and"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "descriptive.arms.hm@16.pooled.n_base",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at 16 steps, each pooled over chains and pieces"
+   }
+  ],
+  "note": [
+   {
+    "kind": "label",
+    "printed": "points pool chains and pieces; the words beside the points are efforts (off is thinking off); the dashed line is Opus-medium's accuracy in each panel; both panels draw accuracy on the same axis, from zero to one hundred percent, and cost on their own ranges at the same distance per factor of ten; 95% bars shorter than their markers, with neither end reaching a printed point past the marker’s edge, are not drawn (in A: Opus-medium; in B: Haiku, thinking off; Haiku-max; and Opus-medium), and their interval ends are in TAB-12 and this figure's data file; a 95% bar only just longer than its marker, with neither end reaching a printed point past the marker’s edge, is drawn just to the right of the marker (Haiku-max in A); markers that overlap or touch are drawn at their measured values, which are in TAB-12 and this figure's data file; the inset in A, boxed on the panel, enlarges the cluster of five markers that overlap (markers only: their lines and 95% bars are in the panel), and an effort label that cannot be placed beside such a marker names the set:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low and Haiku-medium in A"
+   },
+   {
+    "kind": "num",
+    "printed": "(52.8%",
+    "raw": 52.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "54.5%);",
+    "raw": 54.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low and Sonnet-medium in A"
+   },
+   {
+    "kind": "label",
+    "printed": "(both"
+   },
+   {
+    "kind": "num",
+    "printed": "80.0%);",
+    "raw": 80.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-low, Opus-medium, Opus-high, Opus-xhigh and Sonnet-max in A, enlarged in its inset"
+   },
+   {
+    "kind": "num",
+    "printed": "(98.8%,",
+    "raw": 98.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "99.4%,",
+    "raw": 99.375,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "96.3%,",
+    "raw": 96.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "97.5%",
+    "raw": 97.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.3.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "100.0%); Study 1's 6-step settings on other puzzles, one point per shape, are not drawn here: they are in TAB-04 (and Haiku-medium, Haiku-max and Opus-medium are in FIG-06); nothing is fitted and no point is marked as a best buy: the points are measured values, each with its label, and the cheapest measured setting for a target accuracy is in TAB-34 (appendix, post hoc)",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "US dollars per answer at list price (Study 1b's stamped cost unit; its file stamps no price-table date)"
+   }
+  ],
+  "set": [
+   {
+    "kind": "label",
+    "printed": "Study 1b's 6-step set, on which Test B3 ran, and its 16-step set, on which Tests B1 and B2 ran"
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "Study 1b effort sweep at 6 steps and 16 steps"
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "pre-specified descriptive (effort sweep, no tests)"
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-04",
+  "kind": "figure",
+  "label": "pre-specified descriptive (merges F4, framing F-effort-cost, analyses TF-A6 figure)",
+  "section": "Results: effort and length",
+  "title": "Accuracy against cost per answer by model and effort (6 and 16 steps)"
+ },
+ "points": [
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.5",
+    "raw": 0.835,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.5",
+    "raw": 0.995,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "35.3",
+    "raw": 35.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.0.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "20.0",
+    "raw": 20.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.0.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Haiku, thinking off, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.000927",
+    "raw": 0.0009273925,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.0.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "27.5",
+    "raw": 27.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.5",
+    "raw": 0.985,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hl.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "61.3",
+    "raw": 61.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.1.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "43.8",
+    "raw": 43.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.1.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 1 other in panel A, so its value is read in TAB-12",
+   "panel": "6 steps",
+   "series": "Haiku-low, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00104",
+    "raw": 0.0010364425,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.1.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "52.8",
+    "raw": 52.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hm.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "63.3",
+    "raw": 63.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.2.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "46.0",
+    "raw": 46.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.2.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 1 other in panel A, so its value is read in TAB-12",
+   "panel": "6 steps",
+   "series": "Haiku-medium, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00110",
+    "raw": 0.0011033225,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.2.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "54.5",
+    "raw": 54.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "69.5",
+    "raw": 69.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.3.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "52.3",
+    "raw": 52.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.3.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Haiku-high, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00125",
+    "raw": 0.00125357,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.3.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "60.8",
+    "raw": 60.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.3.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.5",
+    "raw": 0.985,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.5",
+    "raw": 0.995,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "83.0",
+    "raw": 83.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.4.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "70.0",
+    "raw": 70.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.4.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Haiku-xhigh, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00172",
+    "raw": 0.00172197625,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.4.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "76.8",
+    "raw": 76.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.4.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "97.9",
+    "raw": 97.875,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.5.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "93.0",
+    "raw": 93.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.5.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A; its 95% bar is only just longer than its marker (neither end reaches a printed point past the marker’s edge), so it is drawn just to the right of the marker",
+   "panel": "6 steps",
+   "series": "Haiku-max, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00419",
+    "raw": 0.0041901575,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.5.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "95.8",
+    "raw": 95.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.haiku.5.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sl.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sl.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "88.1",
+    "raw": 88.11409135950146,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "69.6",
+    "raw": 69.56311329945355,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 1 other in panel A, so its value is read in TAB-12",
+   "panel": "6 steps",
+   "series": "Sonnet-low, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0150",
+    "raw": 0.01502185,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "80.0",
+    "raw": 80.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "88.1",
+    "raw": 88.11409135950146,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.1.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "69.6",
+    "raw": 69.56311329945355,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.1.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 1 other in panel A, so its value is read in TAB-12",
+   "panel": "6 steps",
+   "series": "Sonnet-medium, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0154",
+    "raw": 0.015358725,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.1.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "80.0",
+    "raw": 80.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 99.69579138351905,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.2.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "91.3",
+    "raw": 91.25928440694078,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.2.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Sonnet-high, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0188",
+    "raw": 0.0188361,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.2.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 97.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sxh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 99.69579138351905,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.3.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "91.3",
+    "raw": 91.25928440694078,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.3.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Sonnet-xhigh, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0228",
+    "raw": 0.022837475,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.3.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 97.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.3.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sx.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.sx.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 95.49359649323077,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 4 others in panel A, so its value is read in TAB-12; the inset in panel A enlarges it, with the four others it overlaps",
+   "panel": "6 steps",
+   "series": "Sonnet-max, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0475",
+    "raw": 0.0475381,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.sonnet.4.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.97",
+    "raw": 99.96835774723674,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.0.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "93.2",
+    "raw": 93.23122155360775,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.0.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 4 others in panel A, so its value is read in TAB-12; the inset in panel A enlarges it, with the four others it overlaps",
+   "panel": "6 steps",
+   "series": "Opus-low, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0395",
+    "raw": 0.0394502,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.0.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "98.8",
+    "raw": 98.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.1.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "98.1",
+    "raw": 98.125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.1.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 4 others in panel A, so its value is read in TAB-12; the inset in panel A enlarges it, with the four others it overlaps; its 95% bar is shorter than its marker, and neither end reaches a printed point past the marker’s edge, so it is not drawn (its ends are lo and hi)",
+   "panel": "6 steps",
+   "series": "Opus-medium, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0441",
+    "raw": 0.044095075,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.1.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "99.4",
+    "raw": 99.375,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.oh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.oh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.2",
+    "raw": 99.21988127342833,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.2.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "89.4",
+    "raw": 89.42980149834914,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.2.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 4 others in panel A, so its value is read in TAB-12; the inset in panel A enlarges it, with the four others it overlaps",
+   "panel": "6 steps",
+   "series": "Opus-high, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0455",
+    "raw": 0.0455152,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.2.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 96.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.oxh.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 99.69579138351905,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.3.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "91.3",
+    "raw": 91.25928440694078,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.3.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "its marker overlaps or touches 4 others in panel A, so its value is read in TAB-12; the inset in panel A enlarges it, with the four others it overlaps",
+   "panel": "6 steps",
+   "series": "Opus-xhigh, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0499",
+    "raw": 0.0499072,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.3.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 97.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.3.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ox.1x6.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ox.6x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.4.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "exact (Clopper–Pearson)",
+   "lo": {
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 95.49359649323077,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.4.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel A",
+   "panel": "6 steps",
+   "series": "Opus-max, 6 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0888",
+    "raw": 0.08876345,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.4.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=6.opus.4.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "28.0",
+    "raw": 0.28,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "78.3",
+    "raw": 0.7825,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "1.1",
+    "raw": 1.125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.0.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.0.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B; its 95% bar is shorter than its marker, and neither end reaches a printed point past the marker’s edge, so it is not drawn (its ends are lo and hi)",
+   "panel": "16 steps",
+   "series": "Haiku, thinking off, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00147",
+    "raw": 0.00146679125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.0.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "0.5",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "93.8",
+    "raw": 0.9375,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hl.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "16.0",
+    "raw": 16.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.1.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "9.6",
+    "raw": 9.625,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.1.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B",
+   "panel": "16 steps",
+   "series": "Haiku-low, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00234",
+    "raw": 0.00234356125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.1.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "12.8",
+    "raw": 12.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.1.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 0.9548872180451128,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hm.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "21.8",
+    "raw": 21.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.2.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "13.8",
+    "raw": 13.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.2.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B",
+   "panel": "16 steps",
+   "series": "Haiku-medium, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00254",
+    "raw": 0.00253889125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.2.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "17.8",
+    "raw": 17.75,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.2.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "93.8",
+    "raw": 0.9375,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hh.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hh.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "36.0",
+    "raw": 36.0,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.3.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "26.9",
+    "raw": 26.875,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.3.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B",
+   "panel": "16 steps",
+   "series": "Haiku-high, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00334",
+    "raw": 0.00333936125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.3.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "31.3",
+    "raw": 31.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.3.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hxh.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "62.9",
+    "raw": 62.875,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.4.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "53.9",
+    "raw": 53.875,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.4.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B",
+   "panel": "16 steps",
+   "series": "Haiku-xhigh, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.00507",
+    "raw": 0.00507423125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.4.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "58.4",
+    "raw": 58.375,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.4.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.5",
+    "raw": 0.995,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.9",
+    "raw": 0.99875,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "94.6",
+    "raw": 94.625,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.5.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "90.4",
+    "raw": 90.375,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.5.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B; its 95% bar is shorter than its marker, and neither end reaches a printed point past the marker’s edge, so it is not drawn (its ends are lo and hi)",
+   "panel": "16 steps",
+   "series": "Haiku-max, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0112",
+    "raw": 0.0111734403125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.5.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "92.6",
+    "raw": 92.625,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.haiku.5.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_chains": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_compliance_pieces": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_chains": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "format_flag_pieces": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.fires",
+      "source": "s1b"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 99.0625,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.opus.0.pooled.ci95.1",
+      "source": "s1b"
+     }
+    ]
+   },
+   "interval": "cluster bootstrap",
+   "lo": {
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 96.25,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.opus.0.pooled.ci95.0",
+      "source": "s1b"
+     }
+    ]
+   },
+   "note": "drawn in panel B; its 95% bar is shorter than its marker, and neither end reaches a printed point past the marker’s edge, so it is not drawn (its ends are lo and hi)",
+   "panel": "16 steps",
+   "series": "Opus-medium, 16 steps",
+   "x": {
+    "kind": "num",
+    "printed": "0.0750",
+    "raw": 0.074971725,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.opus.0.pooled.cost_per_answer",
+      "source": "s1b"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "97.8",
+    "raw": 97.8125,
+    "refs": [
+     {
+      "key": "descriptive.effort_figure.N=16.opus.0.pooled.mean",
+      "source": "s1b"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  }
+ }
+}

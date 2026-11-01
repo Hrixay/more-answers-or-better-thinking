@@ -1,0 +1,504 @@
+{
+ "case": "d-10",
+ "set_id": "simfix2-d-10-v2",
+ "seed": 1104,
+ "n_base": 80,
+ "haiku_tries": 40,
+ "line_count": 10,
+ "true_d_official_left_out": {
+  "t1": -10,
+  "t2": -10,
+  "t3": -10,
+  "t4": -10,
+  "t5": -10
+ },
+ "k": {
+  "opus_matched": {
+   "24x1": 29,
+   "1x24": 29
+  },
+  "sonnet_matched_1x24": 14
+ },
+ "population_vote_accuracy": {
+  "O/24x1": 0.8121,
+  "O/1x24": 0.57728,
+  "S/1x24": 0.55116
+ },
+ "target_accuracy_official": {
+  "opus-med/24x1": 0.9121,
+  "opus-med/1x24": 0.67728,
+  "sonnet-med/1x24": 0.65116,
+  "e3/1x24": 0.57728,
+  "opus-low/1x24": 0.55116,
+  "sonnet-med/24x1": 0.80116,
+  "opus-low/24x1": 0.8821,
+  "e3/24x1": 0.9121
+ },
+ "rates_1x24": {
+  "haiku-med": {
+   "answered": 3200,
+   "format_compliance": 0.9697,
+   "trace_wrong": 2315,
+   "absorbed_share_of_trace_wrong": 0.0881,
+   "copy_share_of_trace_wrong": 0.1067,
+   "official_acc": 0.2462,
+   "final_acc": 0.3966,
+   "copyfree_acc": 0.3234
+  },
+  "opus-med": {
+   "answered": 80,
+   "format_compliance": 0.975,
+   "trace_wrong": 17,
+   "absorbed_share_of_trace_wrong": 0.1176,
+   "copy_share_of_trace_wrong": 0.0588,
+   "official_acc": 0.7625,
+   "final_acc": 0.825,
+   "copyfree_acc": 0.775
+  },
+  "opus-low": {
+   "answered": 80,
+   "format_compliance": 1.0,
+   "trace_wrong": 37,
+   "absorbed_share_of_trace_wrong": 0.0541,
+   "copy_share_of_trace_wrong": 0.2162,
+   "official_acc": 0.5375,
+   "final_acc": 0.6625,
+   "copyfree_acc": 0.6375
+  },
+  "sonnet-med": {
+   "answered": 80,
+   "format_compliance": 0.9875,
+   "trace_wrong": 26,
+   "absorbed_share_of_trace_wrong": 0.1538,
+   "copy_share_of_trace_wrong": 0.2692,
+   "official_acc": 0.6625,
+   "final_acc": 0.8,
+   "copyfree_acc": 0.75
+  }
+ },
+ "scoring": {
+  "official": "D-76: format_status ok AND trace_key equals the right trace (24x1 and E3 unchanged); a try whose format is not ok is wrong and a null vote",
+  "final_answer_secondary": "final_key equals the right final; null if no Answer line",
+  "copy_slips_forgiven": "format ok AND slip_type in {none, copy}; in the vote a copy-slip trace counts for the right trace",
+  "vote": "plurality over identical keys, exact vote@k, ties 1/m, null = a vote for nothing",
+  "bootstrap": "as v1 (paired BCa, 10,000, per-test seed from sha256)"
+ },
+ "readings": {
+  "official": {
+   "as_deployed": {
+    "t1": {
+     "n": 80,
+     "d_hat": -13.803,
+     "p": 0.764536,
+     "ci95": [
+      -23.845,
+      -3.848
+     ],
+     "z0": 0.007019,
+     "acc": -0.002681,
+     "holm_step": 4,
+     "holm_threshold": 0.0125,
+     "lower_bound_at_step": -25.237803,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t2": {
+     "n": 80,
+     "d_hat": -14.215,
+     "p": 0.748326,
+     "ci95": [
+      -25.904,
+      -1.887
+     ],
+     "z0": 0.009776,
+     "acc": 0.003988,
+     "holm_step": 3,
+     "holm_threshold": 0.008333333333333333,
+     "lower_bound_at_step": -28.391512,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t3": {
+     "n": 80,
+     "d_hat": -8.787,
+     "p": 0.424522,
+     "ci95": [
+      -21.118,
+      3.772
+     ],
+     "z0": -0.006016,
+     "acc": 0.00577,
+     "holm_step": 1,
+     "holm_threshold": 0.005,
+     "lower_bound_at_step": -24.76077,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t4": {
+     "n": 80,
+     "d_hat": -18.75,
+     "p": 0.939534,
+     "ci95": [
+      -32.5,
+      -6.25
+     ],
+     "z0": -0.081304,
+     "acc": 0.00252,
+     "holm_step": 5,
+     "holm_threshold": 0.025,
+     "lower_bound_at_step": -32.5,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t5": {
+     "n": 80,
+     "d_hat": -12.5,
+     "p": 0.737039,
+     "ci95": [
+      -27.5,
+      0.0
+     ],
+     "z0": -0.094641,
+     "acc": 0.001649,
+     "holm_step": 2,
+     "holm_threshold": 0.00625,
+     "lower_bound_at_step": -31.25,
+     "reading": "inconclusive",
+     "near_threshold": false
+    }
+   },
+   "refusals_left_out": {
+    "t1": {
+     "n": 80,
+     "d_hat": -13.803,
+     "p": 0.764536,
+     "ci95": [
+      -23.845,
+      -3.848
+     ],
+     "z0": 0.007019,
+     "acc": -0.002681,
+     "holm_step": 4,
+     "holm_threshold": 0.0125,
+     "lower_bound_at_step": -25.237803,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t2": {
+     "n": 80,
+     "d_hat": -14.215,
+     "p": 0.748326,
+     "ci95": [
+      -25.904,
+      -1.887
+     ],
+     "z0": 0.009776,
+     "acc": 0.003988,
+     "holm_step": 3,
+     "holm_threshold": 0.008333333333333333,
+     "lower_bound_at_step": -28.391512,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t3": {
+     "n": 80,
+     "d_hat": -8.787,
+     "p": 0.424522,
+     "ci95": [
+      -21.118,
+      3.772
+     ],
+     "z0": -0.006016,
+     "acc": 0.00577,
+     "holm_step": 1,
+     "holm_threshold": 0.005,
+     "lower_bound_at_step": -24.76077,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t4": {
+     "n": 80,
+     "d_hat": -18.75,
+     "p": 0.939534,
+     "ci95": [
+      -32.5,
+      -6.25
+     ],
+     "z0": -0.081304,
+     "acc": 0.00252,
+     "holm_step": 5,
+     "holm_threshold": 0.025,
+     "lower_bound_at_step": -32.5,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t5": {
+     "n": 80,
+     "d_hat": -12.5,
+     "p": 0.737039,
+     "ci95": [
+      -27.5,
+      0.0
+     ],
+     "z0": -0.094641,
+     "acc": 0.001649,
+     "holm_step": 2,
+     "holm_threshold": 0.00625,
+     "lower_bound_at_step": -31.25,
+     "reading": "inconclusive",
+     "near_threshold": false
+    }
+   },
+   "truncations_left_out": {
+    "t1": {
+     "n": 80,
+     "d_hat": -13.803,
+     "p": 0.764536,
+     "ci95": [
+      -23.845,
+      -3.848
+     ],
+     "z0": 0.007019,
+     "acc": -0.002681,
+     "holm_step": 4,
+     "holm_threshold": 0.0125,
+     "lower_bound_at_step": -25.237803,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t2": {
+     "n": 80,
+     "d_hat": -14.215,
+     "p": 0.748326,
+     "ci95": [
+      -25.904,
+      -1.887
+     ],
+     "z0": 0.009776,
+     "acc": 0.003988,
+     "holm_step": 3,
+     "holm_threshold": 0.008333333333333333,
+     "lower_bound_at_step": -28.391512,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t3": {
+     "n": 80,
+     "d_hat": -8.787,
+     "p": 0.424522,
+     "ci95": [
+      -21.118,
+      3.772
+     ],
+     "z0": -0.006016,
+     "acc": 0.00577,
+     "holm_step": 1,
+     "holm_threshold": 0.005,
+     "lower_bound_at_step": -24.76077,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t4": {
+     "n": 80,
+     "d_hat": -18.75,
+     "p": 0.939534,
+     "ci95": [
+      -32.5,
+      -6.25
+     ],
+     "z0": -0.081304,
+     "acc": 0.00252,
+     "holm_step": 5,
+     "holm_threshold": 0.025,
+     "lower_bound_at_step": -32.5,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t5": {
+     "n": 80,
+     "d_hat": -12.5,
+     "p": 0.737039,
+     "ci95": [
+      -27.5,
+      0.0
+     ],
+     "z0": -0.094641,
+     "acc": 0.001649,
+     "holm_step": 2,
+     "holm_threshold": 0.00625,
+     "lower_bound_at_step": -31.25,
+     "reading": "inconclusive",
+     "near_threshold": false
+    }
+   }
+  },
+  "final_answer_secondary": {
+   "as_deployed": {
+    "t1": {
+     "n": 80,
+     "d_hat": -13.803,
+     "p": 0.764536,
+     "ci95": [
+      -23.845,
+      -3.848
+     ],
+     "z0": 0.007019,
+     "acc": -0.002681,
+     "holm_step": 3,
+     "holm_threshold": 0.008333333333333333,
+     "lower_bound_at_step": -26.262209,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t2": {
+     "n": 80,
+     "d_hat": 4.079,
+     "p": 0.000649,
+     "ci95": [
+      -5.107,
+      14.417
+     ],
+     "z0": 0.014038,
+     "acc": 0.00988,
+     "holm_step": 1,
+     "holm_threshold": 0.005,
+     "lower_bound_at_step": -7.476844,
+     "reading": "non-inferior",
+     "near_threshold": false
+    },
+    "t3": {
+     "n": 80,
+     "d_hat": 2.22,
+     "p": 0.005652,
+     "ci95": [
+      -7.252,
+      12.787
+     ],
+     "z0": 0.001003,
+     "acc": 0.011022,
+     "holm_step": 2,
+     "holm_threshold": 0.00625,
+     "lower_bound_at_step": -9.722972,
+     "reading": "non-inferior",
+     "near_threshold": true
+    },
+    "t4": {
+     "n": 80,
+     "d_hat": -25.0,
+     "p": 0.998207,
+     "ci95": [
+      -37.5,
+      -15.0
+     ],
+     "z0": -0.108247,
+     "acc": -0.002266,
+     "holm_step": 5,
+     "holm_threshold": 0.025,
+     "lower_bound_at_step": -37.5,
+     "reading": "worse by more than the margin",
+     "near_threshold": false
+    },
+    "t5": {
+     "n": 80,
+     "d_hat": -13.75,
+     "p": 0.806665,
+     "ci95": [
+      -27.5,
+      -2.5
+     ],
+     "z0": -0.092627,
+     "acc": 0.000632,
+     "holm_step": 4,
+     "holm_threshold": 0.0125,
+     "lower_bound_at_step": -30.0,
+     "reading": "inconclusive",
+     "near_threshold": false
+    }
+   }
+  },
+  "copy_slips_forgiven": {
+   "as_deployed": {
+    "t1": {
+     "n": 80,
+     "d_hat": -13.803,
+     "p": 0.764536,
+     "ci95": [
+      -23.845,
+      -3.848
+     ],
+     "z0": 0.007019,
+     "acc": -0.002681,
+     "holm_step": 4,
+     "holm_threshold": 0.0125,
+     "lower_bound_at_step": -25.237803,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t2": {
+     "n": 80,
+     "d_hat": -0.486,
+     "p": 0.043101,
+     "ci95": [
+      -11.27,
+      11.04
+     ],
+     "z0": 0.010779,
+     "acc": 0.005013,
+     "holm_step": 1,
+     "holm_threshold": 0.005,
+     "lower_bound_at_step": -14.351006,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t3": {
+     "n": 80,
+     "d_hat": -2.464,
+     "p": 0.087581,
+     "ci95": [
+      -13.232,
+      8.528
+     ],
+     "z0": -0.002507,
+     "acc": 0.005197,
+     "holm_step": 2,
+     "holm_threshold": 0.00625,
+     "lower_bound_at_step": -15.883434,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t4": {
+     "n": 80,
+     "d_hat": -20.0,
+     "p": 0.958882,
+     "ci95": [
+      -33.75,
+      -7.5
+     ],
+     "z0": -0.076275,
+     "acc": 0.00207,
+     "holm_step": 5,
+     "holm_threshold": 0.025,
+     "lower_bound_at_step": -33.75,
+     "reading": "inconclusive",
+     "near_threshold": false
+    },
+    "t5": {
+     "n": 80,
+     "d_hat": -11.25,
+     "p": 0.670682,
+     "ci95": [
+      -26.25,
+      1.25
+     ],
+     "z0": -0.084574,
+     "acc": 0.001253,
+     "holm_step": 3,
+     "holm_threshold": 0.008333333333333333,
+     "lower_bound_at_step": -28.75,
+     "reading": "inconclusive",
+     "near_threshold": false
+    }
+   }
+  }
+ }
+}

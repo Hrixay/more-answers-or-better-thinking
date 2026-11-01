@@ -1,0 +1,1462 @@
+{
+ "anonymous": true,
+ "output": {
+  "id": "TAB-19",
+  "kind": "table",
+  "label": "disclosure",
+  "section": "Method (appendix)",
+  "title": "Deviations and declared changes (appendix)"
+ },
+ "panels": [],
+ "rules_fired": {
+  "\\bDOI 10\\.5281/zenodo\\.\\d+\\b": 0,
+  "\\bGist created\\b": 0,
+  "\\bWayback snapshot\\b": 0,
+  "\\bWayback\\b": 0,
+  "\\bZenodo (v\\d) record created\\b": 0,
+  "\\bZenodo (v\\d)\\b": 1,
+  "\\bZenodo API\\b": 0,
+  "\\bZenodo DOI\\b": 0,
+  "\\bZenodo record\\b": 0,
+  "\\bZenodo time\\b": 0,
+  "\\bZenodo was unavailable\\b": 0,
+  "\\bZenodo\\b": 0,
+  "\\ba Zenodo record\\b": 0,
+  "\\bgist [0-9a-f]{6,}…?; Wayback \\d{14}\\b": 0,
+  "\\bgist with a Wayback snapshot\\b": 0,
+  "\\bgist\\b": 0,
+  "\\bgists\\b": 0,
+  "\\bno gist or Wayback\\b": 0,
+  "\\bpublic gist\\b": 1,
+  "^10\\.5281/zenodo\\.\\d+$": 0,
+  "^\\d{14}$": 0
+ },
+ "sources": {
+  "clr_main": {
+   "commit": "f4a14d1",
+   "path": "ops/reviews/2026-10-12-clearance-main-l14n6-1.md",
+   "sha256": "46f7dc88fe60f98054d987615bf99949628302836a137a560886d958f07aba2f"
+  },
+  "curve": {
+   "commit": "4547097",
+   "path": "data/pilot/curve-ladder-l14n-1.json",
+   "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+  },
+  "curve_d90": {
+   "commit": "b6c1de5",
+   "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+   "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+  },
+  "findings": {
+   "commit": "b6e1788",
+   "path": "research/paper-notes/findings-register.md",
+   "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+  },
+  "log": {
+   "commit": "bec30e3",
+   "path": "LOG.md",
+   "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "plan": {
+   "commit": "7b43f91",
+   "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+   "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+  },
+  "register": {
+   "commit": "28944cb",
+   "path": "decisions/register.md",
+   "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+  },
+  "register_d152": {
+   "commit": "ac8ac83",
+   "path": "decisions/register.md",
+   "sha256": "b227fdaa8dcffe9a465a3b703adfc0c99c7f182b089e1530c83df7a47386556f"
+  },
+  "settlement_g3": {
+   "commit": "05fddf9",
+   "path": "ops/reviews/2026-10-15-plan-settlement/g3.md",
+   "sha256": "92f48d733d8986a72edc3d19b18bb24906a4dc9700c9a44ebe7274218d771745"
+  },
+  "settlement_g4": {
+   "commit": "05fddf9",
+   "path": "ops/reviews/2026-10-15-plan-settlement/g4.md",
+   "sha256": "f609e65d2b4a6fbc4d1706d1b333083a8d0d8506c649adab656a793f7de2075b"
+  },
+  "settlement_main": {
+   "commit": "05fddf9",
+   "path": "ops/reviews/2026-10-15-plan-settlement.md",
+   "sha256": "ca84a5e312dec0107845c67bd2fc2be32698420ff30fb211a683151035683ec7"
+  },
+  "spec1": {
+   "commit": "f773d83",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  },
+  "study1b_clearance": {
+   "commit": "5b0f8f5",
+   "path": "ops/reviews/2026-10-13-clearance-study1b-1.md",
+   "sha256": "042a5e2d41e775c64db2dc581f771a7c9d53a459158f39ada4a6e6526660e645"
+  },
+  "topup_clearance": {
+   "commit": "ea3181d",
+   "path": "ops/reviews/2026-10-13-clearance-topup-1.md",
+   "sha256": "dc5989d53a19c5aafa67f02401bfa007f856a0e4bd431c69fdb0f70aa24965a3"
+  }
+ },
+ "table": {
+  "caption": {
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, Study 1b and the top-up"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "num",
+     "printed": "disclosure",
+     "raw": "disclosure",
+     "refs": [
+      {
+       "key": "plan.tables_figures.18.label",
+       "source": "plan"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Item"
+   },
+   {
+    "kind": "label",
+    "printed": "Ruling or record"
+   },
+   {
+    "kind": "label",
+    "printed": "Date"
+   },
+   {
+    "kind": "label",
+    "printed": "Change"
+   },
+   {
+    "kind": "label",
+    "printed": "Trigger"
+   },
+   {
+    "kind": "label",
+    "printed": "Data existing at the time"
+   },
+   {
+    "kind": "label",
+    "printed": "Where reported"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "formula": "not printed: the dates are local: the S3 run's UTC date; text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC;/ group 1; not printed: the dates are local: the S3 run's UTC times; text cut /\\((D-\\d+); pilot plan step \\d\\)/ group 1; not printed: the dates are local: the ruling the run went under; text cut /go for the S3 bill check `(s3-ledger-1)`/ group 1; not printed: the dates are local: the ruling is the go for that run; not printed: the dates are local: the go's later date; text cut /^(\\d\\d-\\d\\d) \\d\\d:\\d\\d:\\d\\d$/ group 1; not printed: the dates are local: Lock 1's tag date, UTC; text cut /^## \\d{4}-(\\d\\d-\\d\\d) / group 1; not printed: the dates are local: our log's later date for the cut",
+     "kind": "num",
+     "printed": "Dates are the dates of our rulings (local calendar dates, not UTC), the spec heading's date or our log entry's date (also a local calendar date); a dash means no single date is stamped.",
+     "raw": [
+      "2026-10-11",
+      "19:09–19:18",
+      "D-82",
+      "s3-ledger-1",
+      "2026-10-12",
+      "10-11",
+      "10-12"
+     ],
+     "refs": [
+      {
+       "key": "L42.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L42.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L42.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L104.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L104.Date",
+       "source": "register"
+      },
+      {
+       "key": "L130.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L432",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /^- main runner [0-9a-f]{7} (\\u2192) [0-9a-f]{7} \\u2192 [0-9a-f]{7} \\(the commit the main run ran from, per its/ group 1; not printed: the record for 'the main runner is a chain of three commits joined by an arrow, the last the commit the main run ran from'; text cut /^- E3 [0-9a-f]{7} (/) [0-9a-f]{7};$/ group 1; not printed: the record for 'step voting's two commits are joined by a slash'; the stamped key path; not printed: E3, whose two commits the slash joins, is the step-voting arm of the main run",
+     "kind": "num",
+     "printed": "In the commit list of the post-lock code row, “→” leads from one commit of the main runner to the next, the last being the commit the main run ran from, and “/” separates the two commits of the step-voting design.",
+     "raw": [
+      "→",
+      "/",
+      "reporting.group_b.item_16.e3"
+     ],
+     "refs": [
+      {
+       "key": "L359",
+       "source": "findings"
+      },
+      {
+       "key": "L360",
+       "source": "findings"
+      },
+      {
+       "key": "reporting.group_b.item_16.e3",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The change, trigger and data cells are short summaries of the records each cell cites in this table's source file, released with the paper outputs in data/paper-outputs/; every number printed in digits (dates, times, counts, measured values and commit IDs) is read from those records, except digits that are part of a name, such as Lock 1, Tests 1–5, the 24-step marker, 95% intervals or a table's number."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Anonymous copy for review: the public proofs are"
+    },
+    {
+     "formula": "text cut /the anonymous copy\\'s phrase becomes \"([^\"]+)\"/ group 1",
+     "kind": "num",
+     "printed": "fingerprints posted publicly before each study's runs; identifiers withheld for review, given at camera-ready",
+     "raw": "fingerprints posted publicly before each study's runs; identifiers withheld for review, given at camera-ready",
+     "refs": [
+      {
+       "key": "L174",
+       "source": "register_d152"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(commit IDs and SHA-256 fingerprints are kept)."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Deviation 1"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /\\*\\*(declared deviation \\(shorter puzzles\\))\\*\\*/ group 1; not printed: the record for 'D-86 is among what 'Our ruling on shorter puzzles (a disclosed deviation)' names'; text cut /^### (Deviation 1) / group 1",
+     "kind": "num",
+     "printed": "Our ruling on shorter puzzles (a disclosed deviation); spec Amendments, heading Deviation 1",
+     "raw": [
+      [
+       "D-86",
+       "declared deviation (shorter puzzles)"
+      ],
+      "Deviation 1"
+     ],
+     "refs": [
+      {
+       "key": "L108.ID",
+       "source": "register"
+      },
+      {
+       "key": "L108.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L1422",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L108.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /fixed (\\d+)-step puzzles/ group 1; text cut /N = (\\d+)/ group 1",
+     "kind": "num",
+     "printed": "Puzzle length moved from 24 steps to 6 steps; the new length was picked by a Haiku-only rule fixed before the length sweep ran",
+     "raw": [
+      "24",
+      "6"
+     ],
+     "refs": [
+      {
+       "key": "L1431",
+       "source": "spec1"
+      },
+      {
+       "key": "L1541",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\((pilot-ledger-1 returned to the user): Haiku-medium whole-answer about/ group 1; not printed: the record for 'the preset rule returned the decision'",
+     "kind": "num",
+     "printed": "Pilot 1 scored Haiku-medium at about zero at every preset, so the pre-registered preset rule returned the decision to us",
+     "raw": [
+      "pilot-ledger-1 returned to the user"
+     ],
+     "refs": [
+      {
+       "key": "L108.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "not printed: the diagnostic's run date, on or before the ruling's; text cut /`ops/reviews/[\\d-]+-(diag-haiku-effort-1)-result\\.md`/ group 1; not printed: the record for 'the ruling cites the diagnostic's result'",
+     "kind": "num",
+     "printed": "Pilot 1 had run; its Haiku results were read and its Opus and Sonnet answers and scores were still sealed; the Haiku-only effort diagnostic had run and was read; no length-sweep, main-run or later data",
+     "raw": [
+      "2026-10-11",
+      "diag-haiku-effort-1"
+     ],
+     "refs": [
+      {
+       "key": "L40.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L108.Notes",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Section 3.3 of the paper; Section 4.1 of the paper, where Tests 1–5 are first reported; Appendix B of the paper"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Deviation 2"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^\\*\\*Declared Deviation 2 \\((marking rule)\\), before any main-run data:\\*\\*/ group 1; not printed: the record for 'D-90 is among what 'Our ruling on the marking rule (a disclosed deviation)' names'; text cut /^### (Deviation 2) / group 1",
+     "kind": "num",
+     "printed": "Our ruling on the marking rule (a disclosed deviation); spec Amendments, heading Deviation 2",
+     "raw": [
+      [
+       "D-90",
+       "marking rule"
+      ],
+      "Deviation 2"
+     ],
+     "refs": [
+      {
+       "key": "L112.ID",
+       "source": "register"
+      },
+      {
+       "key": "L112.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L1641",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L112.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "A step line written more than once with identical balances is accepted; a repeat with different balances still fails; the same rule for every model"
+    },
+    {
+     "formula": "text cut /Sonnet-medium (often) wrote every step line/ group 1; text cut /At the chosen (\\d+) steps this marked/ group 1; text cut /steps this marked (\\d+ of its \\d+ chain answers) wrong/ group 1",
+     "kind": "num",
+     "printed": "Sonnet-medium's length-sweep replies often repeated every step line, which the old rule marked wrong even when every value was right (at the chosen 6 steps, 3 of its 20 chain answers)",
+     "raw": [
+      "often",
+      "6",
+      "3 of its 20 chain answers"
+     ],
+     "refs": [
+      {
+       "key": "L1650",
+       "source": "spec1"
+      },
+      {
+       "key": "L1651",
+       "source": "spec1"
+      },
+      {
+       "key": "L1651",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The length sweep had run and its Sonnet and Opus replies were read after the Haiku-only pick was committed; no main-run data"
+    },
+    {
+     "kind": "label",
+     "printed": "Section 3.4 of the paper; Appendix E of the paper (Deviation 2 and the length curve); Table TAB-03"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Amendment 1"
+    },
+    {
+     "formula": "text cut /^### (Amendment 1) / group 1",
+     "kind": "num",
+     "printed": "spec Amendments, heading Amendment 1",
+     "raw": [
+      "Amendment 1"
+     ],
+     "refs": [
+      {
+       "key": "L1533",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\((\\d{4}-\\d\\d-\\d\\d)\\)/ group 1",
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L1533",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /Amendment 1's (\\w+) disclosures/ group 1; text cut /^- (Haiku's and Opus's numbers are the same, apart from) / group 1; 100 * x; 100 * x; 100 * x; 100 * x; text cut /^- \\*\\*N2\\. (Amendment 1 understates what changed under Deviation 2's rule)\\.\\*\\*$/ group 1; not printed: the record for 'the settlement names the understatement'; text cut /^- \\*\\*([^*]+)\\*\\* (?:moved|fell) / group 1; not printed: the record for 'a change N2 lists'; text cut /^- \\*\\*([^*]+)\\*\\* (?:moved|fell) / group 1; not printed: the record for 'a change N2 lists'; text cut /^- \\*\\*([^*]+)\\*\\* (?:moved|fell) / group 1; not printed: the record for 'a change N2 lists'; text cut /(corrects Amendment 1's sentence as a disclosed erratum)\\./ group 1; not printed: the record for 'the ruling corrects the sentence as a disclosed erratum'",
+     "kind": "num",
+     "printed": "Filled in only the values the locked rules chose after the length sweep, plus four disclosures; no test added and no rule changed. Its line 'Haiku's and Opus's numbers are the same, apart from …' understates what moved under Deviation 2's rule (among them Pilot 1's Opus-medium 24-step marker, exploratory, with 95% intervals: 92.00% [84.00, 98.00] under the original rule, 94.00% [88.00, 98.00] under Deviation 2; TAB-13) and is corrected as a disclosed erratum",
+     "raw": [
+      "four",
+      "Haiku's and Opus's numbers are the same, apart from",
+      [
+       0.92,
+       [
+        0.84,
+        0.98
+       ]
+      ],
+      [
+       0.94,
+       [
+        0.88,
+        0.98
+       ]
+      ],
+      "Amendment 1 understates what changed under Deviation 2's rule",
+      "Pilot 1's Opus 24-step marker",
+      "Haiku-medium's chain per-step rate",
+      "Unplaceable counts",
+      "corrects Amendment 1's sentence as a disclosed erratum"
+     ],
+     "refs": [
+      {
+       "key": "L371",
+       "source": "findings"
+      },
+      {
+       "key": "L1634",
+       "source": "spec1"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.mean",
+       "source": "curve"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.ci95.0",
+       "source": "curve"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.ci95.1",
+       "source": "curve"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.mean",
+       "source": "curve_d90"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.ci95.0",
+       "source": "curve_d90"
+      },
+      {
+       "key": "pilot1.om.l14_to_l16.ci95.1",
+       "source": "curve_d90"
+      },
+      {
+       "key": "L51",
+       "source": "settlement_main"
+      },
+      {
+       "key": "L53",
+       "source": "settlement_main"
+      },
+      {
+       "key": "L54",
+       "source": "settlement_main"
+      },
+      {
+       "key": "L55",
+       "source": "settlement_main"
+      },
+      {
+       "key": "L57",
+       "source": "settlement_main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The length sweep: its pre-set rules chose the values"
+    },
+    {
+     "kind": "label",
+     "printed": "Length-sweep data; the pick was committed on Haiku data before any Opus or Sonnet length-sweep answer was opened; no main-run data"
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans); Table TAB-13"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Main-run rules"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^(The user's rulings before the main run) main-l14n6-1/ group 1; not printed: the record for 'D-94 is among what 'Our rulings before the main run' names'",
+     "kind": "num",
+     "printed": "Our rulings before the main run",
+     "raw": [
+      "D-94",
+      "The user's rulings before the main run"
+     ],
+     "refs": [
+      {
+       "key": "L116.ID",
+       "source": "register"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L116.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /the (\\$\\d+) cap/ group 1; text cut /start before (Zenodo v\\d)/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "A hard cap of $100 replaced the pre-registered multiple of the projected cost; the truncation pause was kept; the run was allowed to start before archive record v3",
+     "raw": [
+      "$100",
+      "Zenodo v3"
+     ],
+     "refs": [
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /would need up to ~(\\d+) waves/ group 1; text cut /expires at the end of (\\d{4}-\\d\\d-\\d\\d) UTC/ group 1; text cut /could pass the (\\d\\d-\\d\\d) expiry/ group 1; not printed: the ruling's own expiry, the clearance's month-day",
+     "kind": "num",
+     "printed": "Speed: the old formula would have forced many small waves (up to about 17) and could have run past the main-run clearance's expiry (the end of 2026-10-13 UTC); actual spend was unaffected",
+     "raw": [
+      "17",
+      "2026-10-13",
+      "10-13"
+     ],
+     "refs": [
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L157",
+       "source": "clr_main"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Pilot 1, the length sweep and Lock 3 existed; no main-run data"
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Reporting definitions after Lock 3"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^(The user's rulings before the main run) main-l14n6-1/ group 1; not printed: the record for 'D-94 is among what 'Our rulings before the main run and our later acceptance of Addendum C' names'; not printed: the ruling's internal decision number; text cut /(\\(3\\)) \\*\\*Addendum C accepted\\*\\*/ group 1; not printed: the record for 'D-134 is among what 'Our rulings before the main run and our later acceptance of Addendum C' names'; text cut /^\\*\\*(5\\.7) / group 1; not printed: the section of our findings record (internal)",
+     "kind": "num",
+     "printed": "Our rulings before the main run and our later acceptance of Addendum C",
+     "raw": [
+      [
+       "D-94",
+       "The user's rulings before the main run",
+       "D-134",
+       "(3)"
+      ],
+      "5.7"
+     ],
+     "refs": [
+      {
+       "key": "L116.ID",
+       "source": "register"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L156.ID",
+       "source": "register"
+      },
+      {
+       "key": "L156.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L377",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L116.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- Items (\\d+–\\d+) were approved/ group 1; text cut /\\((D-94\\(4\\))\\)/ group 1; not printed: the ruling's internal number, as the findings record cites it; text cut /\\(4\\) \\*\\*(yes to the reporting definitions), items \\d+–\\d+\\*\\*/ group 1; not printed: the record for 'the rulings before the main run approved the reporting items'; text cut /rewords (item \\d+)/ group 1; text cut /committed (about \\d+ minutes) \\*\\*after\\*\\* launch/ group 1; text cut /\\*\\*(neither was ruled on by name)\\*\\*/ group 1; text cut /\\*\\*neither was ruled on by name\\*\\* (at the time)\\./ group 1; text cut /\\*\\*The user accepted (Addendum C, C4 included), on (\\d{4}-\\d\\d-\\d\\d) \\((D-134) (\\(3\\))\\)/ group 1; text cut /\\*\\*The user accepted (Addendum C, C4 included), on (\\d{4}-\\d\\d-\\d\\d) \\((D-134) (\\(3\\))\\)/ group 2; text cut /\\*\\*The user accepted (Addendum C, C4 included), on (\\d{4}-\\d\\d-\\d\\d) \\((D-134) (\\(3\\))\\)/ group 4; not printed: the acceptance's internal decision number and part; text cut /(\\(3\\)) \\*\\*Addendum C accepted\\*\\*/ group 1; not printed: the record for 'D-134 (3) accepted Addendum C'; text cut /^## (\\d{4}-\\d\\d-\\d\\d) / group 1; not printed: the date of the Study 1 driver's verified run, before the acceptance",
+     "kind": "num",
+     "printed": "Reporting items 1–24 were approved by name in our rulings before the main run, after Lock 3 and before launch. Addendum C (committed before launch; it rewords item 7) and Addendum C4 (committed about 12 minutes after launch) were checked, but neither was ruled on by name at the time; we accepted Addendum C, C4 included, on 2026-10-15, after the results had been opened",
+     "raw": [
+      "1–24",
+      "D-94(4)",
+      "yes to the reporting definitions",
+      "item 7",
+      "about 12 minutes",
+      "neither was ruled on by name",
+      "at the time",
+      "Addendum C, C4 included",
+      "2026-10-15",
+      [
+       "D-134",
+       "(3)"
+      ],
+      "(3)",
+      "2026-10-12"
+     ],
+     "refs": [
+      {
+       "key": "L378",
+       "source": "findings"
+      },
+      {
+       "key": "L378",
+       "source": "findings"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L156.ID",
+       "source": "register"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L156.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L181",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^\\\"(Reporting definitions and inventory commit) \\(SHA-1\\): [0-9a-f]{40}\\\"/ group 1; not printed: the record for 'the stamp names the definitions'; text cut /(after collection ended) \\(\\d\\d:\\d\\d:\\d\\dZ\\) and before any result was opened\\.$/ group 1; not printed: the record for 'the stamp came after collection ended and before any result was opened'",
+     "kind": "num",
+     "printed": "Pre-registered descriptive outputs lacked locked definitions; the definitions were written and reviewed before the main run's public analysis stamp",
+     "raw": [
+      "Reporting definitions and inventory commit",
+      "after collection ended"
+     ],
+     "refs": [
+      {
+       "key": "L112",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L113",
+       "source": "settlement_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^\\\"(Reporting definitions and inventory commit) \\(SHA-1\\): [0-9a-f]{40}\\\"/ group 1; not printed: the record for 'the stamp names the definitions'; text cut /(after collection ended) \\(\\d\\d:\\d\\d:\\d\\dZ\\) and before any result was opened\\.$/ group 1; not printed: the record for 'the stamp came after collection ended and before any result was opened'",
+     "kind": "num",
+     "printed": "No main-run result had been opened when the definitions and Addendum C4 were committed; the definitions are inside the main run's public analysis stamp; the first main-run calls were already sent when Addendum C4 was committed",
+     "raw": [
+      "Reporting definitions and inventory commit",
+      "after collection ended"
+     ],
+     "refs": [
+      {
+       "key": "L112",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L113",
+       "source": "settlement_g4"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Locks and public fingerprints; Changes to the locked plans)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "12-step retry"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^\\*\\*(One final attempt) of Study 1b's 12-step point/ group 1; not printed: the record for 'D-108 is among what 'Our ruling on one final 12-step attempt' names'",
+     "kind": "num",
+     "printed": "Our ruling on one final 12-step attempt",
+     "raw": [
+      "D-108",
+      "One final attempt"
+     ],
+     "refs": [
+      {
+       "key": "L130.ID",
+       "source": "register"
+      },
+      {
+       "key": "L130.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L130.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /at (12) steps/ group 1; text cut /The (three) failed submits/ group 1",
+     "kind": "num",
+     "printed": "A final attempt to send Study 1b's point at 12 steps after three failed submits; a disclosed deviation from the resubmit limit; descriptive only",
+     "raw": [
+      "12",
+      "three"
+     ],
+     "refs": [
+      {
+       "key": "L130.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L130.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The earlier submits failed to upload; no batch was created and nothing was charged"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b's other waves had returned; only counts, stop reasons and costs had been seen, no answer or score"
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Lock 4 lineage clarification"
+    },
+    {
+     "formula": "text cut /into main \\(([0-9a-f]{7})\\)/ group 1",
+     "kind": "num",
+     "printed": "record merge 2080573",
+     "raw": [
+      "2080573"
+     ],
+     "refs": [
+      {
+       "key": "L77",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^## (\\d{4}-\\d\\d-\\d\\d)/ group 1",
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L77",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /made (a second child) of the tag/ group 1",
+     "kind": "num",
+     "printed": "Merging the Lock 4 tag commit into main made a second child of the tag; ruled a disclosed clarification: the run commit is the tag's only first-parent child and the merge is a record merge with no run code",
+     "raw": [
+      "a second child"
+     ],
+     "refs": [
+      {
+       "key": "L77",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The record merge of the tag commit into main, after the tag was cut"
+    },
+    {
+     "formula": "text cut /\\*\\*(\\d\\d:\\d\\d:\\d\\d)Z\\*\\*, after the gist at/ group 1; text cut /after the gist at (\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1; text cut /^Study 1b first INVOCATION (\\d\\d:\\d\\d:\\d\\d)$/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "No Study 1b or top-up data: the merge (07:36:37 UTC) came after Lock 4's public posting (07:34:10 UTC) and before Study 1b's first launch (08:33:00 UTC)",
+     "raw": [
+      "07:36:37",
+      "07:34:10",
+      "08:33:00"
+     ],
+     "refs": [
+      {
+       "key": "L120",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L120",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L133.Next paid data",
+       "source": "settlement_g4"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Top-up start"
+    },
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^\\*\\*(The user's go for the top-up run) \\(`topup-1`\\)/ group 1; not printed: the record for 'D-110 is among what 'Our rulings on the top-up's go, timing and run commit' names'; not printed: the ruling's internal decision number; text cut /^\\*\\*(Top-up timing): / group 1; not printed: the record for 'D-111 is among what 'Our rulings on the top-up's go, timing and run commit' names'; not printed: the ruling's internal decision number; text cut /so it runs at (the prepared declared-change commit) [0-9a-f]{7} \\(/ group 1; not printed: the record for 'D-112 is among what 'Our rulings on the top-up's go, timing and run commit' names'",
+     "kind": "num",
+     "printed": "Our rulings on the top-up's go, timing and run commit",
+     "raw": [
+      "D-110",
+      "The user's go for the top-up run",
+      "D-111",
+      "Top-up timing",
+      "D-112",
+      "the prepared declared-change commit"
+     ],
+     "refs": [
+      {
+       "key": "L132.ID",
+       "source": "register"
+      },
+      {
+       "key": "L132.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L133.ID",
+       "source": "register"
+      },
+      {
+       "key": "L133.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L134.ID",
+       "source": "register"
+      },
+      {
+       "key": "L134.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L134.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /main run's (\\d+)-hour window closes \\(\\d\\d-\\d\\d \\d\\d:\\d\\d UTC\\)/ group 1; the build checks that the stated close (10-14 13:01) is this many hours after the main run's first invocation (2026-10-12T13:01); text cut /\\((not_before moved earlier), D-110\\)/ group 1; not printed: the record for 'the disclosed change moved the not-before time earlier'; text cut /; (inside the main run's original \\d+-hour window), disclosed/ group 1; not printed: the record for 'the run started inside the main run's original window'; text cut /`window\\.json` started_utc \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\dZ)/ group 1; not printed: the run's own start record (window.json started_utc) gives the same time as the cost records' window start; text cut /window started (\\d\\d:\\d\\d:\\d\\dZ)/ group 1; the record's Z is printed UTC (house style)",
+     "kind": "num",
+     "printed": "The top-up started within 48 hours of the main run's start by a disclosed change to the locked plan (its earliest start was brought forward); the live run started at 11:50:23 UTC",
+     "raw": [
+      "48",
+      "not_before moved earlier",
+      "inside the main run's original 48-hour window",
+      "11:50:23Z",
+      "11:50:23Z"
+     ],
+     "refs": [
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L133.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L134.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L119",
+       "source": "topup_clearance"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /main run's (\\d+)-hour window closes \\(\\d\\d-\\d\\d \\d\\d:\\d\\d UTC\\)/ group 1; the build checks that the stated close (10-14 13:01) is this many hours after the main run's first invocation (2026-10-12T13:01); text cut /also asked to run it TONIGHT instead of after (\\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\d)Z/ group 1; not printed: D-110's time is the main run's 48-hour close (checked); text cut /(also asked to run it TONIGHT instead of after) \\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\dZ/ group 1; not printed: the record for 'we asked to start it early'; text cut /paused (\\d\\d:\\d\\d:\\d\\dZ)/ group 1; the record's Z is printed UTC (house style); text cut /(with w1 in flight)/ group 1; not printed: the record for 'its first round was in flight'; text cut /^> submitted and (before any reply had been collected),/ group 1; text cut /(\\d+ final records so far)/ group 1; not printed: the run record at the pause: no reply collected; text cut /INVOCATIONs [\\d:]+Z and (\\d\\d:\\d\\d:\\d\\dZ)/ group 1; the record's Z is printed UTC (house style); text cut /every custom id at attempt 1 \\((no re-send)/ group 1; not printed: the record for 'each call was sent once'; text cut /each sent once\\. (No request, setting or analysis changed)\\.$/ group 1",
+     "kind": "num",
+     "printed": "We asked to start it before 48 hours had passed since the main run's start. It was paused at 11:52:36 UTC with its first batch of requests in flight, before any reply had been collected, and resumed at 13:26:53 UTC, collecting that batch without sending it again; each call was sent once (TAB-20). No request, setting or analysis changed",
+     "raw": [
+      "48",
+      "2026-10-14 13:01",
+      "also asked to run it TONIGHT instead of after",
+      "11:52:36Z",
+      "with w1 in flight",
+      "before any reply had been collected",
+      "0 final records so far",
+      "13:26:53Z",
+      "no re-send",
+      "No request, setting or analysis changed"
+     ],
+     "refs": [
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L132.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L132.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L152",
+       "source": "settlement_g3"
+      },
+      {
+       "key": "L135",
+       "source": "topup_clearance"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L154",
+       "source": "settlement_g3"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /, \\d\\d:\\d\\d:\\d\\d–(\\d\\d:\\d\\d:\\d\\d)Z, exit 0\\./ group 1; text cut /^## (\\d{4}-\\d\\d-\\d\\d) / group 1; not printed: the Study 1 driver's verified run, logged before the top-up's date; text cut /re-run \\((\\d{4}-\\d\\d-\\d\\d)\\)$/ group 1; not printed: the date of Study 1b's clearance to read; text cut /\\*\\*(The Study 1b results may now be read)\\.\\*\\*/ group 1; not printed: the record for 'the re-run's end cleared Study 1b's results to be read'; text cut /^- \\*\\*The commit:\\*\\* `([0-9a-f]{40})`\\./ group 1; the commit object's committer time (its bytes hashed against the id): 2026-10-13T11:33:40Z; not printed: the disclosed change was committed before Study 1b's results were cleared to read; text cut /about (\\d\\d:\\d\\d)Z\\)$/ group 1; not printed: the top-up clearance's issue, after Study 1b was cleared to read; text cut /INVOCATION (\\d\\d:\\d\\d:\\d\\d)Z\\./ group 1; not printed: the top-up's launch, after Study 1b was cleared to read",
+     "kind": "num",
+     "printed": "Study 1's results were open; Study 1b's were cleared to read at 11:35:43 UTC, after the disclosed change was committed and before the run's clearance and launch; no top-up data; the top-up's definitions were written before any top-up data",
+     "raw": [
+      "11:35:43",
+      "2026-10-12",
+      "2026-10-13",
+      "The Study 1b results may now be read",
+      "2026-10-13T11:33:40Z",
+      "11:50",
+      "11:50:13"
+     ],
+     "refs": [
+      {
+       "key": "L568",
+       "source": "study1b_clearance"
+      },
+      {
+       "key": "L181",
+       "source": "log"
+      },
+      {
+       "key": "L565",
+       "source": "study1b_clearance"
+      },
+      {
+       "key": "L569",
+       "source": "study1b_clearance"
+      },
+      {
+       "key": "L9",
+       "source": "topup_clearance"
+      },
+      {
+       "key": "L134.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L86",
+       "source": "topup_clearance"
+      },
+      {
+       "key": "L119",
+       "source": "topup_clearance"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Post-lock code"
+    },
+    {
+     "formula": "text cut /^\\*\\*5\\.4 (Code used after the locks)\\./ group 1; text cut /^- (5e2b860)/ group 1; text cut /^- (0b45978)/ group 1; text cut /runner ([0-9a-f]{7} → [0-9a-f]{7} → [0-9a-f]{7})/ group 1; text cut /^- E3 ([0-9a-f]{7} / [0-9a-f]{7})/ group 1; text cut /arm ([0-9a-f]{7})/ group 1; text cut /driver ([0-9a-f]{7})/ group 1; text cut /^\\*\\*(5\\.4) / group 1; not printed: the section of our findings record (internal)",
+     "kind": "num",
+     "printed": "Code used after the locks (our list); commits 5e2b860, 0b45978, d364c24 → 7c8bb4b → b4ff738, aa228e1 / 20e093e, 89ffd02, c273eb9",
+     "raw": [
+      "Code used after the locks",
+      "5e2b860",
+      "0b45978",
+      "d364c24 → 7c8bb4b → b4ff738",
+      "aa228e1 / 20e093e",
+      "89ffd02",
+      "c273eb9",
+      "5.4"
+     ],
+     "refs": [
+      {
+       "key": "L355",
+       "source": "findings"
+      },
+      {
+       "key": "L357",
+       "source": "findings"
+      },
+      {
+       "key": "L358",
+       "source": "findings"
+      },
+      {
+       "key": "L359",
+       "source": "findings"
+      },
+      {
+       "key": "L360",
+       "source": "findings"
+      },
+      {
+       "key": "L361",
+       "source": "findings"
+      },
+      {
+       "key": "L362",
+       "source": "findings"
+      },
+      {
+       "key": "L355",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 1's tag (UTC); text cut /^Pilot 1 first call (\\d\\d:\\d\\d)$/ group 1; not printed: Pilot 1's first call, after Lock 1's tag; not printed: Pilot 1's UTC date, Lock 1's tag date; not printed: the diagnostic's UTC date, after Pilot 1 and before Lock 2's tag; text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 2's tag (UTC); text cut /^- 5e2b860 \\((the pilot)\\)/ group 1; not printed: the record for 'the fix was used for the pilot'; text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 3's tag (UTC); text cut /^main run (\\d\\d:\\d\\d:\\d\\d)–/ group 1; not printed: the main run's first call, after Lock 3's tag; text cut /\\((the commit the main run ran from), per its/ group 1; not printed: the record for 'the main runner is the main run's commit'; text cut /lines are (not in lock 3)\\./ group 1; not printed: the record for 'the converter and driver are not in Lock 3'; the stamped key path; not printed: the step-voting arm is a main-run arm; the stamped key path; not printed: the rewording-check arm is a main-run arm",
+     "kind": "num",
+     "printed": "Code used in paid runs or the analysis after the locks: after Lock 1 (the pilot fix, the effort-diagnostic runner) and after Lock 3 (the main runner with operational changes to the batch and transport code, the step-voting design and the rewording-check setting, and the converter and driver)",
+     "raw": [
+      "10-11 19:32:37",
+      "21:06",
+      "2026-10-11",
+      "2026-10-11",
+      "10-12 07:11:26",
+      "the pilot",
+      "10-12 09:11:59",
+      "13:01:25",
+      "the commit the main run ran from",
+      "not in lock 3",
+      "reporting.group_b.item_16.e3",
+      "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6"
+     ],
+     "refs": [
+      {
+       "key": "L130.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L130.Next paid data",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L41.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L40.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L131.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L357",
+       "source": "findings"
+      },
+      {
+       "key": "L132.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L132.Next paid data",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L359",
+       "source": "findings"
+      },
+      {
+       "key": "L362",
+       "source": "findings"
+      },
+      {
+       "key": "reporting.group_b.item_16.e3",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- \\*\\*The post-lock runner fix\\*\\* `[0-9a-f]{7}` \\((the real-time check on a ledger set)\\)/ group 1; not printed: the record for 'the fix let the pilot's real-time check run on a ledger set'; text cut /One runner fix, (so that the pilot's real-time check runs on a)$/ group 1; not printed: the record for 'the fix's purpose, in the spec's words'; text cut /from a clean detached checkout at ([0-9a-f]{7}) / group 1; not printed: the diagnostic ran from this runner; text cut /^(The Haiku effort diagnostic) \\(D-\\d+, D-\\d+\\)/ group 1; not printed: the record for 'the run is the effort diagnostic'; text cut /^The Haiku effort diagnostic \\((D-\\d+, D-\\d+)\\)/ group 1; not printed: the diagnostic's own rulings (internal decision numbers); text cut /(Haiku only, a diagnostic)\\./ group 1; not printed: the record for 'the diagnostic was Haiku only'; text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 1's tag (UTC); text cut /^Pilot 1 first call (\\d\\d:\\d\\d)$/ group 1; not printed: Pilot 1's first call, after Lock 1's tag; not printed: Pilot 1's UTC date, Lock 1's tag date; not printed: the diagnostic's UTC date, after Pilot 1 and before Lock 2's tag; text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 2's tag (UTC); text cut /^- 5e2b860 \\((the pilot)\\)/ group 1; not printed: the record for 'the fix was used for the pilot'; text cut /^(\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: Lock 3's tag (UTC); text cut /^main run (\\d\\d:\\d\\d:\\d\\d)–/ group 1; not printed: the main run's first call, after Lock 3's tag; text cut /\\((the commit the main run ran from), per its/ group 1; not printed: the record for 'the main runner is the main run's commit'; text cut /lines are (not in lock 3)\\./ group 1; not printed: the record for 'the converter and driver are not in Lock 3'; the stamped key path; not printed: the step-voting arm is a main-run arm; the stamped key path; not printed: the rewording-check arm is a main-run arm; text cut /(crash resume and read retries)/ group 1; not printed: the record for 'the main runner's changes were crash resume and read retries'",
+     "kind": "num",
+     "printed": "After Lock 1, a runner fix so that the pilot's real-time check could run on a ledger set, and a runner for the separate Haiku-only effort diagnostic (a run with its own rulings); after Lock 3, operational needs (crash resume and read retries) and new settings; the converter and driver were written after Lock 3",
+     "raw": [
+      "the real-time check on a ledger set",
+      "so that the pilot's real-time check runs on a",
+      "0b45978",
+      "The Haiku effort diagnostic",
+      "D-84, D-85",
+      "Haiku only, a diagnostic",
+      "10-11 19:32:37",
+      "21:06",
+      "2026-10-11",
+      "2026-10-11",
+      "10-12 07:11:26",
+      "the pilot",
+      "10-12 09:11:59",
+      "13:01:25",
+      "the commit the main run ran from",
+      "not in lock 3",
+      "reporting.group_b.item_16.e3",
+      "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6",
+      "crash resume and read retries"
+     ],
+     "refs": [
+      {
+       "key": "L1621",
+       "source": "spec1"
+      },
+      {
+       "key": "L1492",
+       "source": "spec1"
+      },
+      {
+       "key": "L40.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L40.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L40.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L40.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L130.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L130.Next paid data",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L41.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L40.Date",
+       "source": "spend_log"
+      },
+      {
+       "key": "L131.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L357",
+       "source": "findings"
+      },
+      {
+       "key": "L132.Tag (UTC)",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L132.Next paid data",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L359",
+       "source": "findings"
+      },
+      {
+       "key": "L362",
+       "source": "findings"
+      },
+      {
+       "key": "reporting.group_b.item_16.e3",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6",
+       "source": "main"
+      },
+      {
+       "key": "L359",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- (Each was reviewed CLEAN before use)\\./ group 1; not printed: the record for 'each was reviewed before use'; text cut /^\\\"(Reporting definitions and inventory commit) \\(SHA-1\\): [0-9a-f]{40}\\\"/ group 1; not printed: the record for 'the stamp names the definitions'; text cut /(after collection ended) \\(\\d\\d:\\d\\d:\\d\\dZ\\) and before any result was opened\\.$/ group 1; not printed: the record for 'the stamp came after collection ended and before any result was opened'; text cut /driver ([0-9a-f]{7}) \\+/ group 1; not printed: the stamp names the converter and driver commit",
+     "kind": "num",
+     "printed": "Each runner was committed and reviewed before its own run; the converter and driver are in the main run's public analysis stamp, made after collection ended and before any result was opened",
+     "raw": [
+      "Each was reviewed CLEAN before use",
+      "Reporting definitions and inventory commit",
+      "after collection ended",
+      "c273eb9"
+     ],
+     "refs": [
+      {
+       "key": "L363",
+       "source": "findings"
+      },
+      {
+       "key": "L112",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L113",
+       "source": "settlement_g4"
+      },
+      {
+       "key": "L193",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Appendix B of the paper (Changes to the locked plans); Table TAB-23"
+    }
+   ]
+  ]
+ }
+}

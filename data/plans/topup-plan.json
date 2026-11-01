@@ -1,0 +1,22 @@
+{
+ "study": "topup",
+ "run_id_prefix": "topup-",
+ "spec": "research/topup-run-spec.md at 9c007e5 (Karen; Edith CLEAN; the spec frozen in lock 4); wording D-100; window and same-model check D-99",
+ "notes": "Every count below is the spec's. Haiku-medium at 48,000 for every new call; the same-model check at main.py's hm exactly (5,000). C13 is E3 through e3.py on the pieces items (tag es). Worst-case rounds: chain E2 = 1 planner + 6 tasks x up to 8 voting rounds + 1 aggregator = 50.",
+ "set": {"set": "data/tasks/main-ledger-l14n6-v1", "items_sha256": "11deebd8109adfcc7a1332006ceb63db6e14ab170a8afaf8fe4b8bd6f17f09bf", "steps": 6},
+ "main_run": {"run_id": "main-l14n6-1", "setup": "hm", "note": "the picker reads samples 1-8 of every puzzle from this run's calls.jsonl, by custom id"},
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "max_tokens": 48000,
+ "voting": {"lead": 2, "cap": 9, "first_round_draws": 2},
+ "parts": ["same_model", "h_pick8", "e2", "c13"],
+ "same_model": {"bases": 20, "tries": 5, "mirrors": "hm", "note": "D-99: bases 000-019, both shapes, x5 = 200 calls, in round 1"},
+ "max_rounds": 60,
+ "window": {"hours": 48, "not_before_utc": "2026-10-14T13:01:00+00:00",
+            "latest_first_round_utc": "2026-10-16T23:59:00+00:00", "stop_and_report_utc": "2026-10-18T23:59:00+00:00",
+            "note": "not_before: the main run's window closes (D-99, spec section 2). latest_first_round and stop_and_report confirmed by Jarvis 2026-10-13 (checklist section 4; inside the user's 'finish by 10-18', a day before the credit expires at the end of 10-19 UTC)."},
+ "cap_proposed_usd": "25",
+ "booking_stand_ins": {"helper_task_chars": 4000, "picker_reply_chars": 20000,
+                       "note": "booking estimates only (plan output): a helper's task text and, without --main-run, each picker reply; the guard books the real prompts"},
+ "to_confirm": ["the cap (spec: about 25 USD; the user's call through Edith's clearance; passed as --cap at run time)"]
+}

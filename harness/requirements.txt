@@ -1,0 +1,9 @@
+# Pinned for the pilot (checklist 2a). RealTransport refuses to start unless this exact version is installed.
+# anthropic 0.125.0, released 2026-08-19 (52 days before this pin; the rule is at least two weeks old).
+# Why not 1.8.0 (the first choice): every 1.x release requires Python >= 3.10, and this machine's only python3 is 3.9.6.
+# 0.125.0 is the newest release that supports Python >= 3.9. Checked in its v0.125.0 source: messages.stream takes
+# output_config and thinking; Message has stop_details (refusal category) and the stop_reason "refusal". The 5.5 models
+# are passed as plain model id strings. Revisit the pin if the harness moves to Python >= 3.10.
+# sha256 of the wheel (PyPI): 3486013602eca76d8b12540764e53654f02cf4951110bca86cf06e67428a9f21
+# (pip --require-hashes would need hashes for every dependency too; the exact version is enforced at start-up instead.)
+anthropic==0.125.0

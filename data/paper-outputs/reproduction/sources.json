@@ -1,0 +1,22 @@
+{
+ "files": {
+  "data/main/study1b-1/analysis.json": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+  "data/plans/study1b-plan.json": "00abea9b0c585ce0c3c386b1fdd84029e4667c76feabeffd109725331162b911",
+  "data/plans/topup-plan.json": "bd342efbdce2e8bea41c804b57a73642b086e64c87f4efe339ea831403c4ca5b",
+  "harness/analysis/reproduction.py": "f86f615ca6d532564b7fd90f48305ed23e3cada4f8d1bee7c7e784efb984c7cf",
+  "harness/pareto/d42.py": "8efe56cb78766cc7783fa5ec62ba7ce7dd15cb44b2c82b4580ab25a2260a51a9",
+  "harness/pareto/e3.py": "e3d345bca21c62e608d6f96ed7a292db2b264e4907a1d2746808527e961ee1b5",
+  "harness/pareto/ladder.py": "058d587abe24505a803edc7ffe1512069126e2c6c93babdac5d5cc4eab3c3841",
+  "harness/pareto/limits.py": "f74b2f8048eb604a3a90993b36c9497b722f21576e70bd57f9bc4d86851bf80a",
+  "harness/pareto/main.py": "cfb2f105e1b48be57fee3da84154668dc62720e6f1bc547dd6cedfd81b0ecf6a",
+  "harness/pareto/pilot.py": "fbc22e1912631ce0d325b644d3910aca2c42a9f4faa286b32c0b61209efde60d",
+  "harness/pareto/prices.py": "500edff3a3ff27606f51b70b835921bd458f418e974249f4dc73051c63e27435",
+  "harness/pareto/request.py": "75d138d55ddb7bcfcab6c426e5b77b519274054667b19d2b71ea1e16a7007103",
+  "harness/pareto/slim.py": "84df9b24de841f73964734680107ebd11b1c68608bfe6a324b3efef9e3a35186",
+  "harness/pareto/topup.py": "46cfd2af44b2cbf71807fa8974873c4363ef60428a84d23eaa20810a15709fa3",
+  "harness/taskgen/illustration.py": "a45fffe73535bc1690c833a0d4b0929ac59aea2155dcfb11f16b28b102e09c0b",
+  "harness/taskgen/ledger.py": "2bd47699e292386ae87e7cac7130fa03659251b3634eb066179ce2a4d7d98f97",
+  "harness/taskgen/prompt_d31.py": "71cb5c9694e717284eabdbae40c7d21207fb0de5c63152998c01cf909d067752",
+  "research/models/team_prompts.py": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498"
+ }
+}

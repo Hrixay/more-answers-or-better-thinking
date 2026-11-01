@@ -1,0 +1,51 @@
+Setting,Shape,Answered samples,Format ok,Non-compliance (%),Fired
+"Haiku, thinking off",1×6,200,167,16.50,yes
+"Haiku, thinking off",6×1,200,199,0.50,no
+"Haiku, thinking off",1×16,400,112,72.00,yes
+"Haiku, thinking off",16×1,400,313,21.75,yes
+Haiku-low,1×6,200,197,1.50,no
+Haiku-low,6×1,200,200,0.00,no
+Haiku-low,1×16,400,375,6.25,yes
+Haiku-low,16×1,400,400,0.00,no
+Haiku-medium,1×6,200,198,1.00,no
+Haiku-medium,6×1,200,198,1.00,no
+Haiku-medium,1×16,399,381,4.51,no
+Haiku-medium,16×1,400,400,0.00,no
+Haiku-high,1×6,200,200,0.00,no
+Haiku-high,6×1,200,200,0.00,no
+Haiku-high,1×16,400,375,6.25,yes
+Haiku-high,16×1,400,400,0.00,no
+Haiku-xhigh,1×6,200,197,1.50,no
+Haiku-xhigh,6×1,200,199,0.50,no
+Haiku-xhigh,1×16,400,390,2.50,no
+Haiku-xhigh,16×1,400,400,0.00,no
+Haiku-max,1×6,400,400,0.00,no
+Haiku-max,6×1,400,400,0.00,no
+Haiku-max,1×12,800,799,0.13,no
+Haiku-max,12×1,800,800,0.00,no
+Haiku-max,1×16,800,796,0.50,no
+Haiku-max,16×1,800,799,0.13,no
+Opus-low,1×6,40,39,2.50,no
+Opus-low,6×1,40,40,0.00,no
+Opus-medium,1×6,80,80,0.00,no
+Opus-medium,6×1,80,80,0.00,no
+Opus-medium,1×12,80,79,1.25,no
+Opus-medium,12×1,80,80,0.00,no
+Opus-medium,1×16,160,160,0.00,no
+Opus-medium,16×1,160,160,0.00,no
+Opus-high,1×6,40,38,5.00,no
+Opus-high,6×1,40,40,0.00,no
+Opus-xhigh,1×6,40,38,5.00,no
+Opus-xhigh,6×1,40,40,0.00,no
+Opus-max,1×6,40,40,0.00,no
+Opus-max,6×1,40,40,0.00,no
+Sonnet-low,1×6,40,40,0.00,no
+Sonnet-low,6×1,40,40,0.00,no
+Sonnet-medium,1×6,40,39,2.50,no
+Sonnet-medium,6×1,40,40,0.00,no
+Sonnet-high,1×6,40,40,0.00,no
+Sonnet-high,6×1,40,40,0.00,no
+Sonnet-xhigh,1×6,40,40,0.00,no
+Sonnet-xhigh,6×1,40,40,0.00,no
+Sonnet-max,1×6,40,40,0.00,no
+Sonnet-max,6×1,40,40,0.00,no

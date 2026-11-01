@@ -1,0 +1,324 @@
+{
+ "analysis": "fa1",
+ "checks": [
+  {
+   "equal": true,
+   "ours": 97.5,
+   "stamped": 97.5,
+   "what": "Study 1 Haiku-max single try 1x6 mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.00000000000003,
+   "stamped": 95.0,
+   "what": "Study 1 Haiku-max single try 6x1 mean"
+  },
+  {
+   "equal": true,
+   "ours": 92.625,
+   "stamped": 92.625,
+   "what": "Study 1b hx@16 pooled single-try mean"
+  },
+  {
+   "equal": true,
+   "ours": 95.75,
+   "stamped": 95.75,
+   "what": "Study 1b hx@6 pooled single-try mean"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "048020caa071918da7a2802ac0416d4c63085a64",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "b56a2aab77dbf72beecf4dd9ce30291dc00611cda6276c4251e0ef035da28449"
+ },
+ "definition": {
+  "analysis": "Equal money on the same puzzles: one Haiku-max try against a lower-effort Haiku vote whose k is the floor of the stamped cost ratio, paired over bases with the locked paired BCa bootstrap. Study 1: Haiku-medium k = 4 (chains), 3 (pieces). Study 1b at 16 steps: Haiku-medium 4, Haiku-high 3, Haiku-xhigh 2; at 6 steps: 3, 3, 2. Under the 1/m tie rule a 2-try vote scores about the single-try rate; report what the data give.",
+  "could_change_headline": "No test changes; it can support or force a rewording of the one sentence (F-01).",
+  "inputs": "data/raw/main-l14n6-1 (D-93) and data/raw/study1b-1 (D-109), hash-checked; stamped cost_per_puzzle / cost_per_answer keys; locked exact vote and paired BCa code",
+  "rank": 1,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[0]",
+  "tier_label": "post hoc exploratory (no Holm, no verdict; each row within one study)",
+  "why": "The 'effort first' half of the main message rests today on a reading across studies; this is the free same-puzzle, equal-money check a reviewer will ask for first."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "note": "d > 0 means one Haiku-max try scored higher than the lower-effort vote at the same money. Each row is within one study and one set; the two studies are never pooled. Under the 1/m tie rule a 2-try vote scores about its single try.",
+  "study1": {
+   "1x6": {
+    "cost_ratio": 4.003990475539875,
+    "haiku_max_single": 97.5,
+    "k": 4,
+    "paired": {
+     "ci95": [
+      39.82086729948572,
+      56.2173161268556
+     ],
+     "d": 48.14080223948645,
+     "n": 80,
+     "seed_name": "fa1:study1:haiku-max-vs-haiku-med:1x6"
+    },
+    "vote_at_k": 49.359197760513545
+   },
+   "6x1": {
+    "cost_ratio": 3.7207628927345415,
+    "haiku_max_single": 95.00000000000003,
+    "k": 3,
+    "paired": {
+     "ci95": [
+      31.15565958164642,
+      46.242451079622136
+     ],
+     "d": 38.73570344129554,
+     "n": 80,
+     "seed_name": "fa1:study1:haiku-max-vs-haiku-med:6x1"
+    },
+    "vote_at_k": 56.26429655870447
+   }
+  },
+  "study1b": {
+   "hh@16": {
+    "cost_ratio": 3.345981304807918,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 92.625,
+    "k": 3,
+    "paired": {
+     "16x1": {
+      "ci95": [
+       47.125,
+       62.75
+      ],
+      "d": 55.25,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hh:16x1"
+     },
+     "1x16": {
+      "ci95": [
+       48.20833333333333,
+       62.333333333333336
+      ],
+      "d": 55.3125,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hh:1x16"
+     },
+     "pooled": {
+      "ci95": [
+       49.57291666666667,
+       60.5
+      ],
+      "d": 55.28125,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hh:pooled"
+     }
+    },
+    "vote_at_k_pooled": 37.343749999999986
+   },
+   "hh@6": {
+    "cost_ratio": 3.3425795926832964,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 95.75,
+    "k": 3,
+    "paired": {
+     "1x6": {
+      "ci95": [
+       22.25,
+       47.33333333333333
+      ],
+      "d": 33.75,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hh:1x6"
+     },
+     "6x1": {
+      "ci95": [
+       16.75,
+       39.41666666666667
+      ],
+      "d": 27.0,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hh:6x1"
+     },
+     "pooled": {
+      "ci95": [
+       21.5,
+       39.54166666666667
+      ],
+      "d": 30.375,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hh:pooled"
+     }
+    },
+    "vote_at_k_pooled": 65.375
+   },
+   "hm@16": {
+    "cost_ratio": 4.400913316984333,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 92.625,
+    "k": 4,
+    "paired": {
+     "16x1": {
+      "ci95": [
+       52.625,
+       70.375
+      ],
+      "d": 61.875,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hm:16x1"
+     },
+     "1x16": {
+      "ci95": [
+       71.22916666666666,
+       83.95833333333334
+      ],
+      "d": 78.39583333333334,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hm:1x16"
+     },
+     "pooled": {
+      "ci95": [
+       63.791666666666664,
+       75.57291666666666
+      ],
+      "d": 70.13541666666666,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hm:pooled"
+     }
+    },
+    "vote_at_k_pooled": 22.489583333333336
+   },
+   "hm@6": {
+    "cost_ratio": 3.7977631200306345,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 95.75,
+    "k": 3,
+    "paired": {
+     "1x6": {
+      "ci95": [
+       27.875,
+       54.916666666666664
+      ],
+      "d": 40.95833333333333,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hm:1x6"
+     },
+     "6x1": {
+      "ci95": [
+       18.916666666666664,
+       41.29166666666667
+      ],
+      "d": 29.291666666666668,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hm:6x1"
+     },
+     "pooled": {
+      "ci95": [
+       25.791666666666668,
+       45.02083333333333
+      ],
+      "d": 35.125,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hm:pooled"
+     }
+    },
+    "vote_at_k_pooled": 60.625
+   },
+   "hxh@16": {
+    "cost_ratio": 2.201996669446234,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 92.625,
+    "k": 2,
+    "paired": {
+     "16x1": {
+      "ci95": [
+       27.5,
+       39.5
+      ],
+      "d": 33.5,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hxh:16x1"
+     },
+     "1x16": {
+      "ci95": [
+       28.0625,
+       40.0625
+      ],
+      "d": 33.875,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hxh:1x16"
+     },
+     "pooled": {
+      "ci95": [
+       29.5625,
+       37.625
+      ],
+      "d": 33.6875,
+      "n": 80,
+      "seed_name": "fa1:study1b:16:hx-vs-hxh:pooled"
+     }
+    },
+    "vote_at_k_pooled": 58.9375
+   },
+   "hxh@6": {
+    "cost_ratio": 2.4333422136338987,
+    "designed_tries": 5,
+    "haiku_max_single_pooled": 95.75,
+    "k": 2,
+    "paired": {
+     "1x6": {
+      "ci95": [
+       9.5,
+       22.625
+      ],
+      "d": 15.375,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hxh:1x6"
+     },
+     "6x1": {
+      "ci95": [
+       13.0,
+       31.0
+      ],
+      "d": 20.75,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hxh:6x1"
+     },
+     "pooled": {
+      "ci95": [
+       12.5,
+       25.25
+      ],
+      "d": 18.0625,
+      "n": 40,
+      "seed_name": "fa1:study1b:6:hx-vs-hxh:pooled"
+     }
+    },
+    "vote_at_k_pooled": 77.6875
+   }
+  }
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "folders_searched": [
+  "data",
+  "research"
+ ],
+ "other_files_scanned": 955,
+ "runs_scanned": {
+  "check-ledger-1": {
+   "ids": 20,
+   "lines": 20,
+   "prompt_hashes": 10
+  },
+  "diag-haiku-effort-1": {
+   "ids": 36,
+   "lines": 36,
+   "prompt_hashes": 24
+  },
+  "ladder-l14n-1": {
+   "ids": 2400,
+   "lines": 2415,
+   "prompt_hashes": 200
+  },
+  "main-l14n6-1": {
+   "ids": 21876,
+   "lines": 21904,
+   "prompt_hashes": 680
+  },
+  "pilot-ledger-1": {
+   "ids": 670,
+   "lines": 676,
+   "prompt_hashes": 50
+  },
+  "s3-ledger-1": {
+   "ids": 5,
+   "lines": 8,
+   "prompt_hashes": 5
+  },
+  "smoke-1": {
+   "ids": 1,
+   "lines": 1,
+   "prompt_hashes": 1
+  },
+  "smoke-2": {
+   "ids": 9,
+   "lines": 12,
+   "prompt_hashes": 2
+  }
+ },
+ "sets": {
+  "ext40-ledger-l14n6-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 80,
+   "items_sha256": "1f342a6c9b0129df5796a52612ef50cc58ba162dedd6abfc4036cc38173b94dd",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 7,
+    "first": [
+     [
+      "data/plans/study1b-never-sent.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "data/plans/study1b-plan-booking.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "data/plans/study1b-plan.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "research/models/study1b_power_results.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "research/study1b-never-sent-check.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "research/study1b-plan.md",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "research/study1b-spec.md",
+      "ext40-ledger-l14n6-v1"
+     ]
+    ]
+   }
+  },
+  "main-ledger-l14n12-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "9aefe3406a17f08bb0614fe4fdf72b87a5b7e2ba0fde1a0072805d27d44f7c44",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 5,
+    "first": [
+     [
+      "data/plans/study1b-never-sent.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "data/plans/study1b-plan-booking.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "data/plans/study1b-plan.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "research/study1b-never-sent-check.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "research/study1b-spec.md",
+      "main-ledger-l14n12-v1"
+     ]
+    ]
+   }
+  },
+  "main-ledger-l14n16-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "0bf12afca05edd504085c715c9ce1b5cdd8eb40a67978db675f8884e7a55f372",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 7,
+    "first": [
+     [
+      "data/plans/study1b-never-sent.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "data/plans/study1b-plan-booking.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "data/plans/study1b-plan.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "research/models/study1b_power_results.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "research/study1b-never-sent-check.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "research/study1b-plan.md",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "research/study1b-spec.md",
+      "main-ledger-l14n16-v1"
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,60 @@
+# The paper's one figure style: Karen's house style, page 3 (layout-benchmark.md at 795d18a, F9-F14 and her default style), as Edith's
+# polish standard §8 adopts it (848056a). Every paper figure loads it through paper_out_style.apply_rc(); anyone drawing a figure for
+# the paper can load it with plt.style.use("<path>/paper.mplstyle"). Figures are built at their print size (6.5 in wide for 2-3
+# panels, 4.5 in for one; one row 2.0-2.6 in tall) and included at 100%, so these sizes are the printed sizes.
+
+# Font: Computer Modern (matplotlib's cmr10), which looks the same as the body's Latin Modern; STIX fills the glyphs cmr10 lacks
+# (en dash, true minus, curly quotes, ×, ≤). Tick labels and symbols use mathtext in Computer Modern.
+# cmr10 traps (Karen's test render): write < and > as math ($<$); no straight quotes; bold only as $\mathbf{...}$ or the cmb10 cut;
+# escape a dollar sign (\$0.01); no bbox_inches="tight".
+font.family: cmr10, STIXGeneral
+mathtext.fontset: cm
+axes.formatter.use_mathtext: True
+axes.unicode_minus: True
+
+# Text sizes in points at print size (F11): 8 for labels, annotations and legends; 7.5 for tick labels; 9 for panel letters (set
+# where drawn).
+font.size: 8
+axes.titlesize: 8
+axes.labelsize: 8
+legend.fontsize: 8
+legend.title_fontsize: 8
+xtick.labelsize: 7.5
+ytick.labelsize: 7.5
+
+# Frame (F9): left and bottom spines only, 0.6 pt; ticks outward, 3 pt; gridlines off by default, switched on per accuracy axis
+# (ax.grid(axis="y")), light grey, 0.4 pt.
+text.color: 0b0b0b
+axes.labelcolor: 0b0b0b
+axes.edgecolor: 4D4D4D
+axes.linewidth: 0.6
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.axisbelow: True
+grid.color: E6E6E6
+grid.linewidth: 0.4
+xtick.color: 4D4D4D
+ytick.color: 4D4D4D
+xtick.direction: out
+ytick.direction: out
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+
+# Marks (F5, F7, F8): one Okabe-Ito colour per model (paper_out_style.MODEL_BASE), a mark drawn without a colour takes them in order
+# (never matplotlib's defaults); data lines 1.5 pt; markers 5 pt; error bars without caps (set elinewidth=0.8 on each call).
+axes.prop_cycle: cycler('color', ['0072B2', 'B87F00', '009E73', '4D4D4D'])
+lines.linewidth: 1.5
+lines.markersize: 5
+errorbar.capsize: 0
+legend.frameon: False
+
+# Output (F14): vector PDF with embedded TrueType fonts, a 300 dpi PNG preview, no hash salt or dates (paper_out_style.save).
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.hashsalt: pareto
+figure.dpi: 100
+savefig.dpi: 300
+path.simplify: False

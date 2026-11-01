@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+.vscode/
+.idea/
+
+# claude code local state
+.claude/settings.local.json
+.claude/worktrees/
+
+# raw API call logs stay on this machine (D-37); the compact per-call table goes in git
+data/raw/

@@ -1,0 +1,564 @@
+{
+ "analysis": "fa6b",
+ "checks": [],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "1a7649ac3d07942931dd8253264940e0291a4bfc",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "850e0c7247ffbcde6b9f2709c5e834a6e74e349d27498ddc43b14435658f94e5"
+ },
+ "definition": {
+  "analysis": "Wrong-answer repeat share at max effort (item 4's pairwise metric) for Haiku-max at 6, 12 and 16 steps and on Study 1's 3 tries, plus Haiku-high and Haiku-xhigh; item 20's bins applied to the 16-step vote curve (bin source per E-20). Report puzzles kept and pairs.",
+  "could_change_headline": "No.",
+  "inputs": "data/raw/study1b-1 (D-109), data/raw/main-l14n6-1 (D-93); item 4 and item 20 code",
+  "rank": 6,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[5]",
+  "tier_label": "post hoc exploratory (no causal claim)",
+  "why": "Checks the second surprise's mechanism at max effort; until computed, 'Haiku-max's errors rarely repeat' is not allowed."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "bins_16": {
+   "16x1": {
+    "bins": {
+     "[0,10)": {
+      "all": {
+       "puzzles": 41,
+       "single_try_mean": 91.70731707317073,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 98.28687572590012
+      },
+      "puzzles": 41,
+      "status": "read",
+      "thirds": {
+       "t1": {
+        "puzzles": 3,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       },
+       "t2": {
+        "puzzles": 3,
+        "single_try_mean": 63.333333333333336,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 85.31746031746032
+       },
+       "t3": {
+        "puzzles": 4,
+        "single_try_mean": 75.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 93.45238095238095
+       }
+      },
+      "too_few_wrong_tries": 31
+     },
+     "[10,20)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[20,30)": {
+      "all": {
+       "puzzles": 11,
+       "single_try_mean": 90.0,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 98.05194805194805
+      },
+      "puzzles": 11,
+      "status": "read",
+      "thirds": {
+       "t1": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       },
+       "t2": {
+        "puzzles": 1,
+        "single_try_mean": 50.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 78.57142857142857
+       },
+       "t3": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       }
+      },
+      "too_few_wrong_tries": 8
+     },
+     "[30,40)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[40,50)": {
+      "all": {
+       "puzzles": 12,
+       "single_try_mean": 94.16666666666667,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 100.0
+      },
+      "puzzles": 12,
+      "status": "read",
+      "thirds": {
+       "t2": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       },
+       "t3": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       }
+      },
+      "too_few_wrong_tries": 10
+     },
+     "[50,60)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[60,70)": {
+      "all": {
+       "puzzles": 7,
+       "single_try_mean": 97.14285714285714,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 100.0
+      },
+      "puzzles": 7,
+      "status": "read",
+      "thirds": {},
+      "too_few_wrong_tries": 7
+     },
+     "[70,80)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[80,90)": {
+      "all": {
+       "puzzles": 5,
+       "single_try_mean": 96.0,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 100.0
+      },
+      "puzzles": 5,
+      "status": "read",
+      "thirds": {},
+      "too_few_wrong_tries": 5
+     },
+     "[90,100]": {
+      "all": {
+       "puzzles": 4,
+       "single_try_mean": 100.0,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 100.0
+      },
+      "puzzles": 4,
+      "status": "read",
+      "thirds": {},
+      "too_few_wrong_tries": 4
+     }
+    },
+    "unbinned": {
+     "single_try_mean": 93.0,
+     "vote_at_10_mean": 100.0,
+     "vote_at_6_mean": 98.85416666666667
+    },
+    "uninformative": false
+   },
+   "1x16": {
+    "bins": {
+     "[0,10)": {
+      "all": {
+       "puzzles": 49,
+       "single_try_mean": 91.0204081632653,
+       "vote_at_10_mean": 97.95918367346938,
+       "vote_at_6_mean": 97.20602526724977
+      },
+      "puzzles": 49,
+      "status": "read",
+      "thirds": {
+       "t1": {
+        "puzzles": 4,
+        "single_try_mean": 67.5,
+        "vote_at_10_mean": 75.0,
+        "vote_at_6_mean": 80.35714285714286
+       },
+       "t2": {
+        "puzzles": 4,
+        "single_try_mean": 70.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 94.04761904761904
+       },
+       "t3": {
+        "puzzles": 4,
+        "single_try_mean": 72.5,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 91.36904761904762
+       }
+      },
+      "too_few_wrong_tries": 37
+     },
+     "[10,20)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[20,30)": {
+      "all": {
+       "puzzles": 19,
+       "single_try_mean": 94.73684210526316,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 99.56140350877192
+      },
+      "puzzles": 19,
+      "status": "read",
+      "thirds": {
+       "t1": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       },
+       "t2": {
+        "puzzles": 1,
+        "single_try_mean": 70.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 91.66666666666666
+       },
+       "t3": {
+        "puzzles": 1,
+        "single_try_mean": 80.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 100.0
+       }
+      },
+      "too_few_wrong_tries": 16
+     },
+     "[30,40)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[40,50)": {
+      "all": {
+       "puzzles": 9,
+       "single_try_mean": 95.55555555555556,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 100.0
+      },
+      "puzzles": 9,
+      "status": "read",
+      "thirds": {},
+      "too_few_wrong_tries": 9
+     },
+     "[50,60)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[60,70)": {
+      "all": {
+       "puzzles": 3,
+       "single_try_mean": 86.66666666666667,
+       "vote_at_10_mean": 100.0,
+       "vote_at_6_mean": 96.03174603174602
+      },
+      "puzzles": 3,
+      "status": "read",
+      "thirds": {
+       "t3": {
+        "puzzles": 1,
+        "single_try_mean": 60.0,
+        "vote_at_10_mean": 100.0,
+        "vote_at_6_mean": 88.09523809523809
+       }
+      },
+      "too_few_wrong_tries": 2
+     },
+     "[70,80)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[80,90)": {
+      "puzzles": 0,
+      "status": "empty"
+     },
+     "[90,100]": {
+      "puzzles": 0,
+      "status": "empty"
+     }
+    },
+    "unbinned": {
+     "single_try_mean": 92.25,
+     "vote_at_10_mean": 98.75,
+     "vote_at_6_mean": 98.0357142857143
+    },
+    "uninformative": false
+   }
+  },
+  "note": "Exploratory, no causal claim (repeats are not shown to cause or prevent anything). Puzzles kept and pairs are the counts behind each share; a None vote key never agrees (D-72.1).",
+  "repeat_share": {
+   "study1:haiku-max@6": {
+    "1x6": {
+     "agree": 0,
+     "mean_top_share": null,
+     "pairs": 0,
+     "puzzles": 0,
+     "share": null
+    },
+    "6x1": {
+     "agree": 3,
+     "mean_top_share": 1.0,
+     "pairs": 3,
+     "puzzles": 1,
+     "share": 1.0
+    },
+    "both_shapes": {
+     "agree": 3,
+     "pairs": 3,
+     "share": 1.0
+    }
+   },
+   "study1:haiku-med@6": {
+    "1x6": {
+     "agree": 7269,
+     "mean_top_share": 0.4989780825592615,
+     "pairs": 26026,
+     "puzzles": 74,
+     "share": 0.27929762545147163
+    },
+    "6x1": {
+     "agree": 8177,
+     "mean_top_share": 0.5919872404519123,
+     "pairs": 20234,
+     "puzzles": 75,
+     "share": 0.4041217752298112
+    },
+    "both_shapes": {
+     "agree": 15446,
+     "pairs": 46260,
+     "share": 0.33389537397319496
+    }
+   },
+   "study1b:hh@16": {
+    "16x1": {
+     "agree": 64,
+     "mean_top_share": 0.4453051643192487,
+     "pairs": 413,
+     "puzzles": 71,
+     "share": 0.1549636803874092
+    },
+    "1x16": {
+     "agree": 42,
+     "mean_top_share": 0.41554054054054035,
+     "pairs": 405,
+     "puzzles": 74,
+     "share": 0.1037037037037037
+    },
+    "both_shapes": {
+     "agree": 106,
+     "pairs": 818,
+     "share": 0.1295843520782396
+    }
+   },
+   "study1b:hh@6": {
+    "1x6": {
+     "agree": 40,
+     "mean_top_share": 0.6819444444444445,
+     "pairs": 100,
+     "puzzles": 24,
+     "share": 0.4
+    },
+    "6x1": {
+     "agree": 50,
+     "mean_top_share": 0.6608333333333334,
+     "pairs": 101,
+     "puzzles": 20,
+     "share": 0.49504950495049505
+    },
+    "both_shapes": {
+     "agree": 90,
+     "pairs": 201,
+     "share": 0.44776119402985076
+    }
+   },
+   "study1b:hm@16": {
+    "16x1": {
+     "agree": 44,
+     "mean_top_share": 0.3687793427230044,
+     "pairs": 519,
+     "puzzles": 71,
+     "share": 0.08477842003853564
+    },
+    "1x16": {
+     "agree": 42,
+     "mean_top_share": 0.3368749999999997,
+     "pairs": 634,
+     "puzzles": 80,
+     "share": 0.06624605678233439
+    },
+    "both_shapes": {
+     "agree": 86,
+     "pairs": 1153,
+     "share": 0.0745880312228968
+    }
+   },
+   "study1b:hm@6": {
+    "1x6": {
+     "agree": 33,
+     "mean_top_share": 0.5326388888888889,
+     "pairs": 132,
+     "puzzles": 24,
+     "share": 0.25
+    },
+    "6x1": {
+     "agree": 37,
+     "mean_top_share": 0.6060606060606061,
+     "pairs": 106,
+     "puzzles": 22,
+     "share": 0.3490566037735849
+    },
+    "both_shapes": {
+     "agree": 70,
+     "pairs": 238,
+     "share": 0.29411764705882354
+    }
+   },
+   "study1b:hx@12": {
+    "12x1": {
+     "agree": 18,
+     "mean_top_share": 0.6969696969696969,
+     "pairs": 26,
+     "puzzles": 11,
+     "share": 0.6923076923076923
+    },
+    "1x12": {
+     "agree": 56,
+     "mean_top_share": 0.7805555555555554,
+     "pairs": 83,
+     "puzzles": 18,
+     "share": 0.6746987951807228
+    },
+    "both_shapes": {
+     "agree": 74,
+     "pairs": 109,
+     "share": 0.6788990825688074
+    }
+   },
+   "study1b:hx@16": {
+    "16x1": {
+     "agree": 24,
+     "mean_top_share": 0.7711111111111111,
+     "pairs": 42,
+     "puzzles": 15,
+     "share": 0.5714285714285714
+    },
+    "1x16": {
+     "agree": 36,
+     "mean_top_share": 0.8102678571428572,
+     "pairs": 60,
+     "puzzles": 16,
+     "share": 0.6
+    },
+    "both_shapes": {
+     "agree": 60,
+     "pairs": 102,
+     "share": 0.5882352941176471
+    }
+   },
+   "study1b:hx@6": {
+    "1x6": {
+     "agree": 6,
+     "mean_top_share": 0.75,
+     "pairs": 7,
+     "puzzles": 2,
+     "share": 0.8571428571428571
+    },
+    "6x1": {
+     "agree": 19,
+     "mean_top_share": 1.0,
+     "pairs": 19,
+     "puzzles": 5,
+     "share": 1.0
+    },
+    "both_shapes": {
+     "agree": 25,
+     "pairs": 26,
+     "share": 0.9615384615384616
+    }
+   },
+   "study1b:hxh@16": {
+    "16x1": {
+     "agree": 64,
+     "mean_top_share": 0.6078014184397164,
+     "pairs": 179,
+     "puzzles": 47,
+     "share": 0.3575418994413408
+    },
+    "1x16": {
+     "agree": 37,
+     "mean_top_share": 0.536734693877551,
+     "pairs": 184,
+     "puzzles": 49,
+     "share": 0.20108695652173914
+    },
+    "both_shapes": {
+     "agree": 101,
+     "pairs": 363,
+     "share": 0.27823691460055094
+    }
+   },
+   "study1b:hxh@6": {
+    "1x6": {
+     "agree": 10,
+     "mean_top_share": 0.6111111111111112,
+     "pairs": 20,
+     "puzzles": 9,
+     "share": 0.5
+    },
+    "6x1": {
+     "agree": 32,
+     "mean_top_share": 0.7666666666666667,
+     "pairs": 55,
+     "puzzles": 13,
+     "share": 0.5818181818181818
+    },
+    "both_shapes": {
+     "agree": 42,
+     "pairs": 75,
+     "share": 0.56
+    }
+   }
+  }
+ },
+ "undefined_as_null": [
+  "repeat_share.study1:haiku-max@6.1x6.share",
+  "repeat_share.study1:haiku-max@6.1x6.mean_top_share"
+ ]
+}

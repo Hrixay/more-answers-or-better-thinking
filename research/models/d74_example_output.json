@@ -1,0 +1,33 @@
+{
+ "A: cheap tokens, power poor -> add, no cut": {
+  "add40": true,
+  "passes": true,
+  "step": "Full plan (musts + shoulds 1-4 + Haiku-max)",
+  "extras_cut": [],
+  "cost_of_40": 16.6,
+  "all_in_with_add": 153.5
+ },
+ "B: middling tokens, power poor -> add after trading extras": {
+  "add40": true,
+  "passes": true,
+  "step": "Cut 4: Haiku-off",
+  "extras_cut": [
+   "Cut 1: Haiku-max",
+   "Cut 2: H-pick8",
+   "Cut 3: E2",
+   "Cut 4: Haiku-off"
+  ],
+  "cost_of_40": 23.6,
+  "all_in_with_add": 169.2
+ },
+ "C: dear tokens, power poor -> no add (musts + 40 too dear), D-73 cuts": {
+  "add40": false,
+  "step": "Cut 8: other-shape arms (24x1 Sonnet, E3, Opus-low)",
+  "all_in": 149.4
+ },
+ "D: dearer tokens, power fine -> no add, D-73 as usual": {
+  "add40": false,
+  "step": "Cut 3: E2",
+  "all_in": 168.9
+ }
+}

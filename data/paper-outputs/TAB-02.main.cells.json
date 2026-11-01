@@ -1,0 +1,1327 @@
+{
+ "output": {
+  "id": "TAB-02",
+  "kind": "table",
+  "label": "confirmatory: Test 5 Holm-declared; Tests 1-4 three-way reading of unadjusted intervals",
+  "section": "Results: Study 1",
+  "title": "Study 1 confirmatory tests (Tests 1-5)"
+ },
+ "panels": [],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "s1_defs": {
+   "commit": "93334b8",
+   "path": "research/reporting-definitions-main.md",
+   "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+  },
+  "s1_spec": {
+   "commit": "f773d83",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  }
+ },
+ "table": {
+  "caption": {
+   "cap": [
+    {
+     "formula": "the value every row of the table prints (the build refuses a column that is not constant)",
+     "kind": "num",
+     "printed": "the vote's size k and its raw k (the cost-matched k before the cap) are columns; the cap on k, 40 samples, is the same for every vote, so it is given in the note and is not a column",
+     "raw": [
+      40,
+      40,
+      40
+     ],
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.cap",
+       "source": "main_k"
+      },
+      {
+       "key": "k_from_rows.opus.1x6.cap",
+       "source": "main_k"
+      },
+      {
+       "key": "k_from_rows.sonnet.1x6.cap",
+       "source": "main_k"
+      }
+     ]
+    }
+   ],
+   "companions": [
+    {
+     "kind": "num",
+     "printed": "to state in the caption (this version prints none of them in a cell): the label near ceiling (Amendment 1) on Tests 1 and 2 (defined in the supplement's full table); Study 1's tests were pre-registered at 24 steps and run at 6 steps (Deviation 1); Sonnet ran at medium effort, one level below its default, in Tests 3 and 5; under the original pre-registered marking rule, which Deviation 2 kept as a sensitivity check, Test 3 would read inconclusive (could not show) instead of worse by more than the margin",
+     "raw": [
+      "near ceiling (Amendment 1)",
+      "inconclusive",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.label",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "decision": [
+    {
+     "formula": "the margin's size",
+     "kind": "num",
+     "printed": "Decision cells: 'worse' is a reading of worse by more than the margin from the pre-registered decision rule on the unadjusted interval (Tests 1–4); 'shown no worse' is shown no worse by more than the margin, Holm-adjusted (Test 5); the margin is 10 points and is in the column header",
+     "raw": 10.0,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "format": [
+    {
+     "kind": "label",
+     "printed": "format compliance: a vote's is that of its samples; step voting has none recorded (a dash in the table); the table's accuracy and format compliance are one row per side, the challenger's above its comparator's"
+    }
+   ],
+   "full_table_only": [
+    {
+     "kind": "label",
+     "printed": "printed in the supplement's full table only: the spend shares and cost ratios (the 'price' fact), raw k and the cap (the 'cap' fact: the cap is in the full table's note), the p-values and Holm thresholds, the tie-decided share, the near-ceiling label's column and its definition, the original marking rule's scores and d, and Test 1's exact upper bound on its comparator's error rate (the 'interval' fact's last clause)"
+    }
+   ],
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "d: paired BCa bootstrap, 95%, B = 10,000, margin −10 points; error-rate ratio: paired percentile bootstrap over puzzles, 95% (replicates not stamped); Test 1's undefined ratio: the comparator's exact (Clopper–Pearson) upper bound on its error rate",
+     "raw": [
+      10000,
+      -10.0,
+      "clopper-pearson"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t1.comparator_interval",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "formula": "tries / base_puzzles",
+     "kind": "num",
+     "printed": "puzzles per test: 80; samples per puzzle and shape: Haiku-medium 40 drawn (each vote uses its k of them), Opus-low, Opus-medium and Sonnet-medium 1; step voting made 1,086 calls in all on the chains",
+     "raw": [
+      80,
+      40,
+      1.0,
+      1086
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.n",
+       "source": "main"
+      },
+      {
+       "key": "k_from_rows.opus.6x1.samples_drawn",
+       "source": "main_k"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.refusals_and_truncations.tries",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.base_puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.refusals_and_truncations.calls_made",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "num",
+     "printed": "list price: the spend share is the vote's realised list spend over the comparator's at the test's k; Test 4's cost ratio is step voting's mean list cost per puzzle over Opus-medium's; Test 5's cost ratio is Opus-low's list cost per answer over Sonnet-medium's",
+     "raw": "list (item 9a)",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_8b.realised_spend.priced",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "Tests 1–5 confirmatory: Test 5 shown no worse (Holm-adjusted across Study 1's tests); Tests 1–4 read by the pre-registered decision rule on unadjusted intervals; error-rate ratios pre-specified descriptive, reported beside the test; spend shares and cost ratios not tested (descriptive, except Test 4's cost ratio, which is post hoc arithmetic on pre-specified means, and Test 5's, which is exploratory)"
+    }
+   ],
+   "views": [
+    {
+     "kind": "label",
+     "printed": "Views (the second line of the Decision cell): 'views agree' if every view TAB-03 prints (all but the sign-flip p, each read at its own margin) gives the same reading as the Decision, 'views differ' if one does not; TAB-03's views of Tests 1–5, not tests: pre-registered secondary views and sensitivity checks, the sensitivity check Deviation 2 fixed in Lock 3, and reporting views fixed after Lock 3, before any result was opened (each view's label is in TAB-03's notes)"
+    }
+   ],
+   "views_differ": [
+    {
+     "kind": "num",
+     "printed": "Test 3 (views differ) reads inconclusive (could not show) in TAB-03's views Copy slips forgiven and Original marking rule (the sensitivity check Deviation 2 kept) instead of worse by more than the margin; every other view reads as its Decision",
+     "raw": [
+      "inconclusive",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger vs comparator"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Error-rate ratio [95% interval]"
+   },
+   {
+    "formula": "the margin's size",
+    "kind": "num",
+    "printed": "Decision (by > 10 points) and views",
+    "raw": 10.0,
+    "refs": [
+     {
+      "key": "confirmatory.views.as_deployed.margin",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Decision: Tests 1–4 by the pre-registered rule, Test 5 shown no worse (Holm-adjusted). Unbounded: the comparator made no error in too many bootstrap draws."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Views agree: each view in TAB-03 gives the Decision's reading."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-medium vote, k = 40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "66.9",
+     "raw": 66.875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.7",
+     "raw": 0.9971875,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.haiku-med.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−33.1",
+     "raw": -33.125,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "undefined",
+     "raw": false,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t1.defined",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flag in the Method legend's words; the margin (by more than its size in points) is in the column header and the qualifier (pre-registered rule, Holm-adjusted) in the note",
+     "kind": "num",
+     "printed": "worse",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "vs Opus-medium, pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-med.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−43.8, −23.8]",
+     "raw": [
+      -43.75,
+      -23.75
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "(comparator errors 0 of 80)",
+     "raw": [
+      0.0,
+      80
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t1.E_cmp",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t1.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "views agree if every view TAB-03 prints (all but the sign-flip p, each at its own margin) stamps the confirmatory view's reading, else views differ",
+     "kind": "num",
+     "printed": "views agree",
+     "raw": [
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.refusals_out.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.truncations_out.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.final_answer.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "ties.ties_as_wrong.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.five_point_view.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.family_row.tests.t1.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-medium vote, k = 36",
+     "raw": 36,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.1x6.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "58.6",
+     "raw": 58.607262373709744,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.6",
+     "raw": 0.9859375,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.haiku-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−37.6",
+     "raw": -37.642737626290256,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11.0",
+     "raw": 11.038063367010736,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t2.R",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flag in the Method legend's words; the margin (by more than its size in points) is in the column header and the qualifier (pre-registered rule, Holm-adjusted) in the note",
+     "kind": "num",
+     "printed": "worse",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "vs Opus-medium, chains"
+    },
+    {
+     "kind": "num",
+     "printed": "96.3",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−48.8, −27.0]",
+     "raw": [
+      -48.82033729073203,
+      -26.964504230951597
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[4.7, unbounded]",
+     "raw": [
+      4.7457906721064615,
+      "unbounded"
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t2.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t2.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "views agree if every view TAB-03 prints (all but the sign-flip p, each at its own margin) stamps the confirmatory view's reading, else views differ",
+     "kind": "num",
+     "printed": "views agree",
+     "raw": [
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.refusals_out.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.truncations_out.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.final_answer.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "ties.ties_as_wrong.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.five_point_view.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.family_row.tests.t2.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-medium vote, k = 13",
+     "raw": 13,
+     "refs": [
+      {
+       "key": "k_from_rows.sonnet.1x6.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "55.3",
+     "raw": 55.30417430927377,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_S.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.6",
+     "raw": 0.9859375,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.haiku-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−24.7",
+     "raw": -24.69582569072623,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2.2",
+     "raw": 2.2347912845363114,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t3.R",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flag in the Method legend's words; the margin (by more than its size in points) is in the column header and the qualifier (pre-registered rule, Holm-adjusted) in the note",
+     "kind": "num",
+     "printed": "worse",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "vs Sonnet-medium, chains"
+    },
+    {
+     "kind": "num",
+     "printed": "80.0",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.sonnet-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−36.1, −12.2]",
+     "raw": [
+      -36.11658909624632,
+      -12.198504541137433
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[1.5, 3.9]",
+     "raw": [
+      1.4731118157173777,
+      3.9213012721956613
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "views agree if every view TAB-03 prints (all but the sign-flip p, each at its own margin) stamps the confirmatory view's reading, else views differ",
+     "kind": "num",
+     "printed": "views differ",
+     "raw": [
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "inconclusive",
+      "inconclusive",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.refusals_out.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.truncations_out.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.final_answer.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "ties.ties_as_wrong.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.five_point_view.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.family_row.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 4"
+    },
+    {
+     "kind": "label",
+     "printed": "Step voting"
+    },
+    {
+     "kind": "num",
+     "printed": "53.8",
+     "raw": 53.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "−42.5",
+     "raw": -42.5,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "12.3",
+     "raw": 12.333333333333334,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t4.R",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flag in the Method legend's words; the margin (by more than its size in points) is in the column header and the qualifier (pre-registered rule, Holm-adjusted) in the note",
+     "kind": "num",
+     "printed": "worse",
+     "raw": [
+      "worse by more than the margin",
+      false
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "vs Opus-medium, chains"
+    },
+    {
+     "kind": "num",
+     "printed": "96.3",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−53.8, −30.0]",
+     "raw": [
+      -53.75,
+      -30.0
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[5.2, unbounded]",
+     "raw": [
+      5.166666666666667,
+      "unbounded"
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t4.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t4.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "views agree if every view TAB-03 prints (all but the sign-flip p, each at its own margin) stamps the confirmatory view's reading, else views differ",
+     "kind": "num",
+     "printed": "views agree",
+     "raw": [
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin",
+      "worse by more than the margin"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.refusals_out.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.truncations_out.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.final_answer.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "ties.ties_as_wrong.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.five_point_view.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.tests.t4.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.family_row.tests.t4.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 5"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-low"
+    },
+    {
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.8",
+     "raw": 0.9875,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-low.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+17.5",
+     "raw": 17.5,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.1",
+     "raw": 0.125,
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t5.R",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reading and Holm flag in the Method legend's words; the margin (by more than its size in points) is in the column header and the qualifier (pre-registered rule, Holm-adjusted) in the note",
+     "kind": "num",
+     "printed": "shown no worse",
+     "raw": [
+      "non-inferior",
+      true
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.declared",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "vs Sonnet-medium, chains"
+    },
+    {
+     "kind": "num",
+     "printed": "80.0",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.5",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.sonnet-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[8.8, 27.5]",
+     "raw": [
+      8.75,
+      27.5
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.0, 0.4]",
+     "raw": [
+      0.0,
+      0.4
+     ],
+     "refs": [
+      {
+       "key": "reporting.error_ratios.t5.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.error_ratios.t5.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "views agree if every view TAB-03 prints (all but the sign-flip p, each at its own margin) stamps the confirmatory view's reading, else views differ",
+     "kind": "num",
+     "printed": "views agree",
+     "raw": [
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior",
+      "non-inferior"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.refusals_out.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.truncations_out.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.final_answer.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.copy_slips_forgiven.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "ties.ties_as_wrong.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.five_point_view.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.tests.t5.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9g.family_row.tests.t5.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

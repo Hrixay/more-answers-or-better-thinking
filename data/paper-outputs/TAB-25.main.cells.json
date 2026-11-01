@@ -1,0 +1,848 @@
+{
+ "output": {
+  "id": "TAB-25",
+  "kind": "table",
+  "label": "post hoc descriptive sensitivity",
+  "section": "Results: Study 1b (appendix)",
+  "title": "B2's Haiku-max vote at every k, 16 steps (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "fa3": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa3.json",
+   "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+  },
+  "fa_votes_spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "d: paired BCa bootstrap over puzzles (free analysis 3), B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; the Test B2 row's pooled d: Study 1b's confirmatory paired BCa bootstrap, B =",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "code.B",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; its error-rate ratio: Study 1b's paired percentile bootstrap over puzzles, B =",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10,000; accuracies: cluster bootstrap over puzzles (percentile)",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "error_ratios.B2.B",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.by_k.0.pooled.n",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles; designed samples per item:"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Haiku-max,"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Opus-medium"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price per answer, as Study 1b's analysis stamps it; a vote of k samples costs k times one sample's list cost per answer"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's 16-step main set; every puzzle as a chain and as pieces"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B2.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc descriptive sensitivity (free analysis 3) for the vote rows' d and cost ratio, with no p-value, no Holm correction and no reading against the margin; the Test B2 row's pooled d and interval are confirmatory (Test B2), stamped values unchanged; the Test B2 row's error-rate ratio is pre-specified descriptive, reported beside the test; every accuracy, format compliance and cost is pre-specified descriptive"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Samples voted (k)"
+   },
+   {
+    "kind": "label",
+    "printed": "Pooled accuracy (%) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Spend share"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "d: the vote of k Haiku-max samples minus one Opus-medium answer, paired over puzzles (shapes pooled). Opus-medium's pooled accuracy (%):"
+    },
+    {
+     "kind": "num",
+     "printed": "97.8 [96.3, 99.1].",
+     "raw": [
+      97.8125,
+      96.25,
+      99.0625
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Spend share: the vote's pooled list cost per answer over Opus-medium's."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "result.by_k.0.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.9 [90.6, 94.8]",
+     "raw": [
+      92.86805555555556,
+      90.61805555555556,
+      94.80555555555556
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.1.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−4.9 [−7.4, −2.4]",
+     "raw": [
+      -4.944444444444445,
+      -7.444444444444445,
+      -2.381944444444444
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.0.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.0.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.0.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.298",
+     "raw": 0.298070781017777,
+     "refs": [
+      {
+       "key": "result.by_k.0.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.by_k.1.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.0 [95.3, 98.4]",
+     "raw": [
+      97.02604166666666,
+      95.32291666666666,
+      98.39583333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.2.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.8 [−2.8, 1.2]",
+     "raw": [
+      -0.7864583333333341,
+      -2.828125000000001,
+      1.211805555555555
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.1.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.1.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.1.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.447",
+     "raw": 0.44710617152666554,
+     "refs": [
+      {
+       "key": "result.by_k.1.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "4",
+     "raw": 4,
+     "refs": [
+      {
+       "key": "result.by_k.2.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.5 [95.9, 98.7]",
+     "raw": [
+      97.45014880952381,
+      95.94568452380952,
+      98.65104166666666
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.3.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.4 [−2.2, 1.6]",
+     "raw": [
+      -0.36235119047619146,
+      -2.2380952380952386,
+      1.5930059523809517
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.2.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.2.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.2.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.596",
+     "raw": 0.596141562035554,
+     "refs": [
+      {
+       "key": "result.by_k.2.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "result.by_k.3.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.3 [96.9, 99.4]",
+     "raw": [
+      98.30357142857143,
+      96.92708333333334,
+      99.36011904761905
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.4.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.5 [−1.4, 2.3]",
+     "raw": [
+      0.4910714285714282,
+      -1.372767857142857,
+      2.306547619047618
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.3.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.3.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.3.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.745",
+     "raw": 0.7451769525444426,
+     "refs": [
+      {
+       "key": "result.by_k.3.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "6 (Test B2)",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.4 [97.1, 99.5]",
+     "raw": [
+      98.44494047619047,
+      97.08333333333334,
+      99.45684523809524
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.6 [−1.1, 2.4]",
+     "raw": [
+      0.6324404761904753,
+      -1.1458333333333346,
+      2.4404761904761894
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.894",
+     "raw": 0.8942123430533311,
+     "refs": [
+      {
+       "key": "costs_beside_tests.B2.ratio_challenger_over_comparator",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "7",
+     "raw": 7,
+     "refs": [
+      {
+       "key": "result.by_k.5.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.8 [97.4, 99.7]",
+     "raw": [
+      98.80208333333334,
+      97.39583333333334,
+      99.73958333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.6.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.0 [−0.9, 2.8]",
+     "raw": [
+      0.9895833333333333,
+      -0.8854166666666672,
+      2.8125
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.5.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.5.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.5.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.043",
+     "raw": 1.0432477335622197,
+     "refs": [
+      {
+       "key": "result.by_k.5.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "8",
+     "raw": 8,
+     "refs": [
+      {
+       "key": "result.by_k.6.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.0 [97.5, 99.9]",
+     "raw": [
+      98.99305555555556,
+      97.5,
+      99.89583333333334
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.7.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.2 [−0.8, 3.0]",
+     "raw": [
+      1.1805555555555558,
+      -0.7638888888888887,
+      2.9513888888888893
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.6.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.6.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.6.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.192",
+     "raw": 1.192283124071108,
+     "refs": [
+      {
+       "key": "result.by_k.6.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": 9,
+     "refs": [
+      {
+       "key": "result.by_k.7.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.2 [97.7, 100.0]",
+     "raw": [
+      99.21875,
+      97.65625,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.8.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.4 [−0.8, 3.3]",
+     "raw": [
+      1.40625,
+      -0.78125,
+      3.28125
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.7.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.7.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.7.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.341",
+     "raw": 1.3413185145799966,
+     "refs": [
+      {
+       "key": "result.by_k.7.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.by_k.8.k",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.4 [98.1, 100.0]",
+     "raw": [
+      99.375,
+      98.125,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.pooled.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.6 [−0.6, 3.4]",
+     "raw": [
+      1.5625,
+      -0.625,
+      3.4375
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.8.pooled.d",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.8.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.8.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.490",
+     "raw": 1.4903539050888852,
+     "refs": [
+      {
+       "key": "result.by_k.8.cost_ratio_pooled",
+       "source": "fa3"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

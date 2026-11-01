@@ -1,0 +1,280 @@
+{
+ "analysis": "fa5",
+ "checks": [
+  {
+   "equal": true,
+   "ours": [
+    {
+     "1x6": 36,
+     "6x1": 40
+    },
+    13
+   ],
+   "stamped": [
+    {
+     "1x6": 36,
+     "6x1": 40
+    },
+    13
+   ],
+   "what": "k_o and k_s as stamped (k.json)"
+  },
+  {
+   "equal": true,
+   "ours": 0.9999612609431736,
+   "stamped": 0.9999612609431736,
+   "what": "t1 locked p"
+  },
+  {
+   "equal": true,
+   "ours": -33.125,
+   "stamped": -33.125,
+   "what": "t1 locked d"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -43.75,
+    -23.75
+   ],
+   "stamped": [
+    -43.75,
+    -23.75
+   ],
+   "what": "t1 locked 95% interval"
+  },
+  {
+   "equal": true,
+   "ours": 0.9999318896545342,
+   "stamped": 0.9999318896545342,
+   "what": "t2 locked p"
+  },
+  {
+   "equal": true,
+   "ours": -37.642737626290256,
+   "stamped": -37.642737626290256,
+   "what": "t2 locked d"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -48.82033729073203,
+    -26.964504230951597
+   ],
+   "stamped": [
+    -48.82033729073203,
+    -26.964504230951597
+   ],
+   "what": "t2 locked 95% interval"
+  },
+  {
+   "equal": true,
+   "ours": 0.989134762837108,
+   "stamped": 0.989134762837108,
+   "what": "t3 locked p"
+  },
+  {
+   "equal": true,
+   "ours": -24.69582569072623,
+   "stamped": -24.69582569072623,
+   "what": "t3 locked d"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -36.11658909624632,
+    -12.198504541137433
+   ],
+   "stamped": [
+    -36.11658909624632,
+    -12.198504541137433
+   ],
+   "what": "t3 locked 95% interval"
+  },
+  {
+   "equal": true,
+   "ours": 0.9998709194756313,
+   "stamped": 0.9998709194756313,
+   "what": "t4 locked p"
+  },
+  {
+   "equal": true,
+   "ours": -42.5,
+   "stamped": -42.5,
+   "what": "t4 locked d"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -53.75,
+    -30.0
+   ],
+   "stamped": [
+    -53.75,
+    -30.0
+   ],
+   "what": "t4 locked 95% interval"
+  },
+  {
+   "equal": true,
+   "ours": 3.9904417443614726e-05,
+   "stamped": 3.9904417443614726e-05,
+   "what": "t5 locked p"
+  },
+  {
+   "equal": true,
+   "ours": 17.5,
+   "stamped": 17.5,
+   "what": "t5 locked d"
+  },
+  {
+   "equal": true,
+   "ours": [
+    8.75,
+    27.5
+   ],
+   "stamped": [
+    8.75,
+    27.5
+   ],
+   "what": "t5 locked 95% interval"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "048020caa071918da7a2802ac0416d4c63085a64",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "b56a2aab77dbf72beecf4dd9ce30291dc00611cda6276c4251e0ef035da28449"
+ },
+ "definition": {
+  "analysis": "Multiplicity-corrected readings of Tests 1-4 from the locked bootstrap code and seeds, with the correction fixed before computing (E-19): Holm across the four (H0 d >= -10) or 99% intervals.",
+  "could_change_headline": "Only Test 3's wording (2.2 points of room); Tests 1, 2 and 4 are far from the margin.",
+  "inputs": "main analysis.json confirmatory.views.as_deployed.tests.t1-t4; data/raw/main-l14n6-1 (D-93)",
+  "rank": 5,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[4]",
+  "tier_label": "post hoc sensitivity",
+  "why": "Holm adjusted only the 'no worse' claim; a reviewer will flag the unadjusted 'worse' readings."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "alpha": 0.025,
+  "disclosure": "chosen after the main results were open; the pre-registered unadjusted three-way reading stays the result",
+  "holm_order": [
+   "t1",
+   "t2",
+   "t4",
+   "t3",
+   "t5"
+  ],
+  "margin": -10.0,
+  "method": "E-19: p_inferiority = 1 - the locked non-inferiority p (H0: d >= -10); Holm over all five at alpha 0.025; the 99% interval from the same bootstrap as the stricter line",
+  "tests": {
+   "t1": {
+    "ci95": [
+     -43.75,
+     -23.75
+    ],
+    "ci99": [
+     -47.5,
+     -20.625
+    ],
+    "ci99_excludes_margin": true,
+    "d": -33.125,
+    "holm_inferior": true,
+    "holm_threshold": 0.005,
+    "p_inferiority": 3.8739056826386786e-05,
+    "p_noninferiority_locked": 0.9999612609431736
+   },
+   "t2": {
+    "ci95": [
+     -48.82033729073203,
+     -26.964504230951597
+    ],
+    "ci99": [
+     -52.23131177736441,
+     -23.549738756975596
+    ],
+    "ci99_excludes_margin": true,
+    "d": -37.642737626290256,
+    "holm_inferior": true,
+    "holm_threshold": 0.00625,
+    "p_inferiority": 6.811034546583272e-05,
+    "p_noninferiority_locked": 0.9999318896545342
+   },
+   "t3": {
+    "ci95": [
+     -36.11658909624632,
+     -12.198504541137433
+    ],
+    "ci99": [
+     -39.2832508706911,
+     -8.247778651752515
+    ],
+    "ci99_excludes_margin": false,
+    "d": -24.69582569072623,
+    "holm_inferior": true,
+    "holm_threshold": 0.0125,
+    "p_inferiority": 0.010865237162892005,
+    "p_noninferiority_locked": 0.989134762837108
+   },
+   "t4": {
+    "ci95": [
+     -53.75,
+     -30.0
+    ],
+    "ci99": [
+     -57.5,
+     -26.25
+    ],
+    "ci99_excludes_margin": true,
+    "d": -42.5,
+    "holm_inferior": true,
+    "holm_threshold": 0.008333333333333333,
+    "p_inferiority": 0.00012908052436866324,
+    "p_noninferiority_locked": 0.9998709194756313
+   },
+   "t5": {
+    "ci95": [
+     8.75,
+     27.5
+    ],
+    "ci99": [
+     6.25,
+     31.25
+    ],
+    "ci99_excludes_margin": false,
+    "d": 17.5,
+    "holm_inferior": false,
+    "holm_threshold": 0.025,
+    "p_inferiority": 0.9999600955825564,
+    "p_noninferiority_locked": 3.9904417443614726e-05
+   }
+  }
+ }
+}

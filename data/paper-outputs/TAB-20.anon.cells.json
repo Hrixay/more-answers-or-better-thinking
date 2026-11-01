@@ -1,0 +1,4586 @@
+{
+ "anonymous": true,
+ "output": {
+  "id": "TAB-20",
+  "kind": "table",
+  "label": "disclosure (merges T-L3 and TF-A17; lock-proof column per E-16)",
+  "section": "Method (appendix)",
+  "title": "Pre-registration timeline (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Locks (fingerprints and public proofs)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Lock"
+     },
+     {
+      "kind": "label",
+      "printed": "Tag"
+     },
+     {
+      "kind": "label",
+      "printed": "Commit"
+     },
+     {
+      "kind": "label",
+      "printed": "Tar SHA-256"
+     },
+     {
+      "kind": "label",
+      "printed": "Tag cut (UTC, month-day)"
+     },
+     {
+      "kind": "label",
+      "printed": "Posting created (UTC, month-day)"
+     },
+     {
+      "kind": "label",
+      "printed": "Archived snapshot"
+     },
+     {
+      "kind": "label",
+      "printed": "Archive DOI"
+     },
+     {
+      "kind": "label",
+      "printed": "Archive record time (UTC, month-day)"
+     },
+     {
+      "kind": "label",
+      "printed": "Next paid data (UTC)"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Lock 1"
+      },
+      {
+       "formula": "text cut /^Tag: (prereg-lock-\\d)$/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-1",
+       "raw": "prereg-lock-1",
+       "refs": [
+        {
+         "key": "L18",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^Git commit ID \\(SHA-1\\): ([0-9a-f]{40})$/ group 1",
+       "kind": "num",
+       "printed": "b4b6b8474f39538055b3e358b48243d51aca5e3b",
+       "raw": "b4b6b8474f39538055b3e358b48243d51aca5e3b",
+       "refs": [
+        {
+         "key": "L19",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^SHA-256 of `git -c tar\\.umask=0002 archive --format=tar prereg-lock-1` \\(uncompressed\\): ([0-9a-f]{64})$/ group 1",
+       "kind": "num",
+       "printed": "37454153435ae927ccd5aa3a5f61e4f7033e53a35875b830a3f9ccfd2c610adf",
+       "raw": "37454153435ae927ccd5aa3a5f61e4f7033e53a35875b830a3f9ccfd2c610adf",
+       "refs": [
+        {
+         "key": "L20",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10-11 19:32:37",
+       "raw": "10-11 19:32:37",
+       "refs": [
+        {
+         "key": "L130.Tag (UTC)",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(created \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ\\)/ group 1; ref 2: text cut /\\(created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+       "kind": "num",
+       "printed": "10-11 19:35:19",
+       "raw": [
+        "10-11",
+        "19:35:19"
+       ],
+       "refs": [
+        {
+         "key": "L438",
+         "source": "log"
+        },
+        {
+         "key": "L438",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /web\\.archive\\.org/web/(\\d{14})// group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "20261011193547",
+       "refs": [
+        {
+         "key": "L438",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "10.5281/zenodo.23304164",
+       "refs": [
+        {
+         "key": "L437",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /DataCite registered \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ/ group 1; ref 2: text cut /DataCite registered \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "10-11 20:20:40 (DataCite)",
+       "raw": [
+        "10-11",
+        "20:20:40"
+       ],
+       "refs": [
+        {
+         "key": "L437",
+         "source": "log"
+        },
+        {
+         "key": "L437",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(Pilot 1 first call \\d\\d:\\d\\d)$/ group 1",
+       "kind": "num",
+       "printed": "Pilot 1 first call 21:06",
+       "raw": "Pilot 1 first call 21:06",
+       "refs": [
+        {
+         "key": "L130.Next paid data",
+         "source": "settle_g4"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Lock 2"
+      },
+      {
+       "formula": "text cut /^Tag: (prereg-lock-\\d)$/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-2",
+       "raw": "prereg-lock-2",
+       "refs": [
+        {
+         "key": "L13",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^Git commit ID \\(SHA-1\\): ([0-9a-f]{40})$/ group 1",
+       "kind": "num",
+       "printed": "95fb5f81b9a3a131da77f5a776af200c8e60477d",
+       "raw": "95fb5f81b9a3a131da77f5a776af200c8e60477d",
+       "refs": [
+        {
+         "key": "L14",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^SHA-256 of `git -c tar\\.umask=0002 archive --format=tar prereg-lock-2` \\(uncompressed\\): ([0-9a-f]{64})$/ group 1",
+       "kind": "num",
+       "printed": "93a2381571d0eb12ba27bd9084701ecc4ca1e72536bc0300e509ac583e6c615a",
+       "raw": "93a2381571d0eb12ba27bd9084701ecc4ca1e72536bc0300e509ac583e6c615a",
+       "refs": [
+        {
+         "key": "L15",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10-12 07:11:26",
+       "raw": "10-12 07:11:26",
+       "refs": [
+        {
+         "key": "L131.Tag (UTC)",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /Lock 2 has (no gist or Wayback)/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "no posting or snapshot",
+       "raw": "no gist or Wayback",
+       "refs": [
+        {
+         "key": "L105",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "10.5281/zenodo.23311831",
+       "refs": [
+        {
+         "key": "L382",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /DataCite registered \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ/ group 1; ref 2: text cut /DataCite registered \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "10-12 07:20:23 (DataCite)",
+       "raw": [
+        "10-12",
+        "07:20:23"
+       ],
+       "refs": [
+        {
+         "key": "L382",
+         "source": "log"
+        },
+        {
+         "key": "L382",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(length sweep \\d\\d:\\d\\d:\\d\\d)$/ group 1",
+       "kind": "num",
+       "printed": "length sweep 07:29:27",
+       "raw": "length sweep 07:29:27",
+       "refs": [
+        {
+         "key": "L131.Next paid data",
+         "source": "settle_g4"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Lock 3"
+      },
+      {
+       "formula": "text cut /^Tag: (prereg-lock-\\d)$/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-3",
+       "raw": "prereg-lock-3",
+       "refs": [
+        {
+         "key": "L8",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^Git commit ID \\(SHA-1\\): ([0-9a-f]{40})$/ group 1",
+       "kind": "num",
+       "printed": "086fbfd04063a10e2c64f2a737e5771b0aa70dc8",
+       "raw": "086fbfd04063a10e2c64f2a737e5771b0aa70dc8",
+       "refs": [
+        {
+         "key": "L9",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^SHA-256 of `git -c tar\\.umask=0002 archive --format=tar prereg-lock-3` \\(uncompressed\\): ([0-9a-f]{64})$/ group 1",
+       "kind": "num",
+       "printed": "1221e8394529d1f5e81bdfebc7827366b32e3fb3aa24cfa39bfe71e98144deb5",
+       "raw": "1221e8394529d1f5e81bdfebc7827366b32e3fb3aa24cfa39bfe71e98144deb5",
+       "refs": [
+        {
+         "key": "L10",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10-12 09:11:59",
+       "raw": "10-12 09:11:59",
+       "refs": [
+        {
+         "key": "L132.Tag (UTC)",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(created \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ\\)/ group 1; ref 2: text cut /\\(created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+       "kind": "num",
+       "printed": "10-12 10:25:49",
+       "raw": [
+        "10-12",
+        "10:25:49"
+       ],
+       "refs": [
+        {
+         "key": "L319",
+         "source": "log"
+        },
+        {
+         "key": "L319",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /web\\.archive\\.org/web/(\\d{14})// group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "20261012102601",
+       "refs": [
+        {
+         "key": "L319",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "10.5281/zenodo.23313537",
+       "refs": [
+        {
+         "key": "L225",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(DataCite \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ\\)$/ group 1; ref 2: text cut /\\(DataCite \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)$/ group 1",
+       "kind": "num",
+       "printed": "10-12 13:28:29 (DataCite; during the main run)",
+       "raw": [
+        "10-12",
+        "13:28:29"
+       ],
+       "refs": [
+        {
+         "key": "L225",
+         "source": "log"
+        },
+        {
+         "key": "L225",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(main run \\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d), so v3 came / group 1",
+       "kind": "num",
+       "printed": "main run 13:01:25–13:54:17",
+       "raw": "main run 13:01:25–13:54:17",
+       "refs": [
+        {
+         "key": "L132.Next paid data",
+         "source": "settle_g4"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Lock 4"
+      },
+      {
+       "formula": "text cut /^Tag: (prereg-lock-\\d)$/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-4",
+       "raw": "prereg-lock-4",
+       "refs": [
+        {
+         "key": "L2",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^Git commit ID \\(SHA-1\\): ([0-9a-f]{40})$/ group 1",
+       "kind": "num",
+       "printed": "d1c565fc9188d56e970bbb15ce908271627ccf0a",
+       "raw": "d1c565fc9188d56e970bbb15ce908271627ccf0a",
+       "refs": [
+        {
+         "key": "L3",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^SHA-256 of `git -c tar\\.umask=0002 archive --format=tar prereg-lock-4` \\(uncompressed\\): ([0-9a-f]{64})$/ group 1",
+       "kind": "num",
+       "printed": "47e40b3597b1080889616022670015037d356914d0dc379d0ee669acb1b595ad",
+       "raw": "47e40b3597b1080889616022670015037d356914d0dc379d0ee669acb1b595ad",
+       "refs": [
+        {
+         "key": "L4",
+         "source": "fp_lock4"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10-13 07:33:17",
+       "raw": "10-13 07:33:17",
+       "refs": [
+        {
+         "key": "L133.Tag (UTC)",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(\\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ\\) and Wayback/ group 1; ref 2: text cut /\\(\\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\) and Wayback/ group 1",
+       "kind": "num",
+       "printed": "10-13 07:34:10",
+       "raw": [
+        "10-13",
+        "07:34:10"
+       ],
+       "refs": [
+        {
+         "key": "L81",
+         "source": "log"
+        },
+        {
+         "key": "L81",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /and Wayback (\\d{14});/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "20261013073439",
+       "refs": [
+        {
+         "key": "L81",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(record created/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+       "kind": "num",
+       "printed": "withheld for review",
+       "raw": "10.5281/zenodo.23335207",
+       "refs": [
+        {
+         "key": "L73",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(record created \\d{4}-(\\d\\d-\\d\\d)T\\d\\d:\\d\\d:\\d\\dZ\\)/ group 1; ref 2: text cut /\\(record created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+       "kind": "num",
+       "printed": "10-13 07:43:34 (record created)",
+       "raw": [
+        "10-13",
+        "07:43:34"
+       ],
+       "refs": [
+        {
+         "key": "L73",
+         "source": "log"
+        },
+        {
+         "key": "L73",
+         "source": "log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /^(Study 1b first) INVOCATION \\d\\d:\\d\\d:\\d\\d$/ group 1; ref 2: text cut /^Study 1b first INVOCATION (\\d\\d:\\d\\d:\\d\\d)$/ group 1",
+       "kind": "num",
+       "printed": "Study 1b first invocation 08:33:00",
+       "raw": [
+        "Study 1b first",
+        "08:33:00"
+       ],
+       "refs": [
+        {
+         "key": "L133.Next paid data",
+         "source": "settle_g4"
+        },
+        {
+         "key": "L133.Next paid data",
+         "source": "settle_g4"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Runs (every run that sent an API call)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Run"
+     },
+     {
+      "kind": "label",
+      "printed": "Date"
+     },
+     {
+      "kind": "label",
+      "printed": "Lock in force"
+     },
+     {
+      "kind": "label",
+      "printed": "Run commit"
+     },
+     {
+      "kind": "label",
+      "printed": "Logged span (UTC)"
+     },
+     {
+      "kind": "label",
+      "printed": "Invocations (UTC)"
+     },
+     {
+      "kind": "label",
+      "printed": "Run started (UTC)"
+     },
+     {
+      "kind": "label",
+      "printed": "Pauses"
+     },
+     {
+      "kind": "label",
+      "printed": "First call (UTC)"
+     },
+     {
+      "kind": "label",
+      "printed": "Last commit or end (UTC)"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "formula": "ref 1: whole value; ref 2: text cut /(rejected by the API: HTTP \\d+) invalid/ group 1; ref 3: text cut /is (unbilled) \\(/ group 1",
+       "kind": "num",
+       "printed": "smoke-1 (rejected by the API: HTTP 401; unbilled)",
+       "raw": [
+        "smoke-1",
+        [
+         "rejected by the API: HTTP 401",
+         "unbilled"
+        ]
+       ],
+       "refs": [
+        {
+         "key": "L46.Run ID",
+         "source": "spend_log"
+        },
+        {
+         "key": "L46.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L46.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-10",
+       "raw": "2026-10-10",
+       "refs": [
+        {
+         "key": "L46.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "before any lock"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "smoke-2",
+       "raw": "smoke-2",
+       "refs": [
+        {
+         "key": "L45.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-10",
+       "raw": "2026-10-10",
+       "refs": [
+        {
+         "key": "L45.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "before any lock"
+      },
+      {
+       "formula": "text cut /run from M \\(([0-9a-f]{7})\\)/ group 1",
+       "kind": "num",
+       "printed": "568e8a4",
+       "raw": "568e8a4",
+       "refs": [
+        {
+         "key": "L45.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "check-ledger-1",
+       "raw": "check-ledger-1",
+       "refs": [
+        {
+         "key": "L43.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-11",
+       "raw": "2026-10-11",
+       "refs": [
+        {
+         "key": "L43.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(before any lock)$/ group 1",
+       "kind": "num",
+       "printed": "before any lock",
+       "raw": "before any lock",
+       "refs": [
+        {
+         "key": "L330.Public proof",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+       "kind": "num",
+       "printed": "e1d6d60",
+       "raw": "e1d6d60",
+       "refs": [
+        {
+         "key": "L43.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+       "kind": "num",
+       "printed": "10:16–10:37",
+       "raw": "10:16–10:37",
+       "refs": [
+        {
+         "key": "L43.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "s3-ledger-1",
+       "raw": "s3-ledger-1",
+       "refs": [
+        {
+         "key": "L42.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-11",
+       "raw": "2026-10-11",
+       "refs": [
+        {
+         "key": "L42.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(before any lock)$/ group 1",
+       "kind": "num",
+       "printed": "before any lock",
+       "raw": "before any lock",
+       "refs": [
+        {
+         "key": "L330.Public proof",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+       "kind": "num",
+       "printed": "582d8d1",
+       "raw": "582d8d1",
+       "refs": [
+        {
+         "key": "L42.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+       "kind": "num",
+       "printed": "19:09–19:18",
+       "raw": "19:09–19:18",
+       "refs": [
+        {
+         "key": "L42.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "pilot-ledger-1",
+       "raw": "pilot-ledger-1",
+       "refs": [
+        {
+         "key": "L41.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-11",
+       "raw": "2026-10-11",
+       "refs": [
+        {
+         "key": "L41.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /\\(lock (1 plus a reviewed real-time fix, [0-9a-f]{7})\\)/ group 1",
+       "kind": "num",
+       "printed": "Lock 1 plus a reviewed real-time fix, 5e2b860",
+       "raw": "1 plus a reviewed real-time fix, 5e2b860",
+       "refs": [
+        {
+         "key": "L332.Public proof",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+       "kind": "num",
+       "printed": "1b058a5",
+       "raw": "1b058a5",
+       "refs": [
+        {
+         "key": "L41.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+       "kind": "num",
+       "printed": "20:48–21:27",
+       "raw": "20:48–21:27",
+       "refs": [
+        {
+         "key": "L41.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /; (no halts);/ group 1",
+       "kind": "num",
+       "printed": "no halts",
+       "raw": "no halts",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d)$/ group 1",
+       "kind": "num",
+       "printed": "21:06",
+       "raw": "21:06",
+       "refs": [
+        {
+         "key": "L332.Time",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "diag-haiku-effort-1",
+       "raw": "diag-haiku-effort-1",
+       "refs": [
+        {
+         "key": "L40.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-11",
+       "raw": "2026-10-11",
+       "refs": [
+        {
+         "key": "L40.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^(under no lock);/ group 1",
+       "kind": "num",
+       "printed": "under no lock",
+       "raw": "under no lock",
+       "refs": [
+        {
+         "key": "L333.Public proof",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+       "kind": "num",
+       "printed": "0b45978",
+       "raw": "0b45978",
+       "refs": [
+        {
+         "key": "L40.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+       "kind": "num",
+       "printed": "21:57–22:55",
+       "raw": "21:57–22:55",
+       "refs": [
+        {
+         "key": "L40.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d)–/ group 1",
+       "kind": "num",
+       "printed": "22:12",
+       "raw": "22:12",
+       "refs": [
+        {
+         "key": "L333.Time",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /–(\\d\\d:\\d\\d) \\(paid calls\\)$/ group 1",
+       "kind": "num",
+       "printed": "22:55",
+       "raw": "22:55",
+       "refs": [
+        {
+         "key": "L333.Time",
+         "source": "findings"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "ladder-l14n-1",
+       "raw": "ladder-l14n-1",
+       "refs": [
+        {
+         "key": "L39.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-12",
+       "raw": "2026-10-12",
+       "refs": [
+        {
+         "key": "L39.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /\\(D-86 to D-89, under (prereg-lock-2)\\)/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-2",
+       "raw": "prereg-lock-2",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) \\(the prereg-lock-2 tag\\)/ group 1",
+       "kind": "num",
+       "printed": "95fb5f8",
+       "raw": "95fb5f8",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+       "kind": "num",
+       "printed": "07:28–07:53",
+       "raw": "07:28–07:53",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /; (no stop)\\./ group 1; not printed: the spend log's own words, 'no stop', which our printed 'no halts' replaces (one wording)",
+       "kind": "num",
+       "printed": "no halts",
+       "raw": "no stop",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /first `send` was at \\*\\*(\\d\\d:\\d\\d:\\d\\d)\\.\\d+Z\\*\\*/ group 1",
+       "kind": "num",
+       "printed": "07:29:27",
+       "raw": "07:29:27",
+       "refs": [
+        {
+         "key": "L103",
+         "source": "settle_g4"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /^`commit` at (\\d\\d:\\d\\d:\\d\\d)Z\\.$/ group 1",
+       "kind": "num",
+       "printed": "07:53:17",
+       "raw": "07:53:17",
+       "refs": [
+        {
+         "key": "L104",
+         "source": "settle_g4"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-12",
+       "raw": "2026-10-12",
+       "refs": [
+        {
+         "key": "L38.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(D-92, D-94; (prereg-lock-3)\\)/ group 1; ref 2: text cut /= lock (3 plus reviewed runner code)$/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-3 (runner: Lock 3 plus reviewed runner code)",
+       "raw": [
+        "prereg-lock-3",
+        "3 plus reviewed runner code"
+       ],
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L337.Public proof",
+         "source": "findings"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) \\(/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "ref 1: text cut /INVOCATION \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z; one invocation/ group 1; ref 2: text cut /INVOCATION \\S+; (one invocation)\\)/ group 1",
+       "kind": "num",
+       "printed": "13:01:21 (one invocation)",
+       "raw": [
+        "13:01:21",
+        "one invocation"
+       ],
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /; (no halts),/ group 1",
+       "kind": "num",
+       "printed": "no halts",
+       "raw": "no halts",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /First send (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "13:01:25",
+       "raw": "13:01:25",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /last commit (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "13:54:17",
+       "raw": "13:54:17",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-13",
+       "raw": "2026-10-13",
+       "refs": [
+        {
+         "key": "L37.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /\\(D-96; (prereg-lock-4)\\)/ group 1",
+       "kind": "num",
+       "printed": "prereg-lock-4",
+       "raw": "prereg-lock-4",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /price-date commit ([0-9a-f]{7})[0-9a-f]* \\(/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "ref 1: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z;/ group 1; ref 2: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z;/ group 2; ref 3: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z;/ group 3; ref 4: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z;/ group 4",
+       "kind": "num",
+       "printed": "08:33:00, 10:02:40, 10:24:12, 11:07:47",
+       "raw": [
+        "08:33:00",
+        "10:02:40",
+        "10:24:12",
+        "11:07:47"
+       ],
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /window started (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "08:35:49",
+       "raw": "08:35:49",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(every truncation check under \\d+%) \\(no pause\\)/ group 1",
+       "kind": "num",
+       "printed": "truncation pause: none (every truncation check under 2%); the run stopped after each failed upload of the 12-step point and was invoked again (see the notes)",
+       "raw": "every truncation check under 2%",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /Last commit (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "11:19:29",
+       "raw": "11:19:29",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2026-10-13",
+       "raw": "2026-10-13",
+       "refs": [
+        {
+         "key": "L36.Date",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(D-99, D-100; (prereg-lock-4) with the declared start change ([^)]+)\\)/ group 1; ref 2: text cut /\\(D-99, D-100; (prereg-lock-4) with the declared start change ([^)]+)\\)/ group 2; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+       "kind": "num",
+       "printed": "prereg-lock-4 with the disclosed start change",
+       "raw": [
+        "prereg-lock-4",
+        "D-110/D-111/D-112"
+       ],
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /checkout at ([0-9a-f]{7}) \\(/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z and/ group 1; ref 2: text cut /\\d\\d:\\d\\d-(\\d\\d:\\d\\d:\\d\\d)Z, EXIT 0/ group 1",
+       "kind": "num",
+       "printed": "11:50:13–14:09:51",
+       "raw": [
+        "11:50:13",
+        "14:09:51"
+       ],
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z and/ group 1; ref 2: text cut /and (\\d\\d:\\d\\d:\\d\\d)Z \\(paused/ group 1",
+       "kind": "num",
+       "printed": "11:50:13, 13:26:53",
+       "raw": [
+        "11:50:13",
+        "13:26:53"
+       ],
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /window started (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+       "kind": "num",
+       "printed": "11:50:23",
+       "raw": "11:50:23",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: text cut /\\(paused (\\d\\d:\\d\\d:\\d\\d)Z/ group 1; ref 2: text cut /and (\\d\\d:\\d\\d:\\d\\d)Z \\(paused/ group 1; ref 3: text cut /every custom id (at attempt 1 \\(no re-send, no crash re-run, no failed submit\\))/ group 1",
+       "kind": "num",
+       "printed": "paused 11:52:36 with its first batch of requests in flight; resumed 13:26:53; every call at attempt 1 (no re-send, no crash re-run, no failed submit)",
+       "raw": [
+        "11:52:36",
+        "13:26:53",
+        "at attempt 1 (no re-send, no crash re-run, no failed submit)"
+       ],
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        },
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "formula": "text cut /\\d\\d:\\d\\d-(\\d\\d:\\d\\d:\\d\\d)Z, EXIT 0/ group 1",
+       "kind": "num",
+       "printed": "14:09:51 (run end)",
+       "raw": "14:09:51",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Exposed-puzzle sensitivity (Study 1b, pre-registered)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Test"
+     },
+     {
+      "kind": "label",
+      "printed": "Test set"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles without the exposed ones"
+     },
+     {
+      "kind": "label",
+      "printed": "Exposed puzzles left out"
+     },
+     {
+      "kind": "label",
+      "printed": "Reading, 5-point margin"
+     },
+     {
+      "kind": "label",
+      "printed": "Reading without them, 5-point margin"
+     },
+     {
+      "kind": "label",
+      "printed": "Shown no worse (Holm-adjusted), as deployed, 5-point margin"
+     },
+     {
+      "kind": "label",
+      "printed": "Shown no worse (Holm-adjusted) without them, as deployed, 5-point margin"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "num",
+       "printed": "main-ledger-l14n16-v1",
+       "raw": "main-ledger-l14n16-v1",
+       "refs": [
+        {
+         "key": "constants.test_sets.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "main-ledger-l14n16-v1-000",
+       "raw": "main-ledger-l14n16-v1-000",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.excluded.main-ledger-l14n16-v1.0",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.template.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "num",
+       "printed": "main-ledger-l14n16-v1",
+       "raw": "main-ledger-l14n16-v1",
+       "refs": [
+        {
+         "key": "constants.test_sets.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "main-ledger-l14n16-v1-000",
+       "raw": "main-ledger-l14n16-v1-000",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.excluded.main-ledger-l14n16-v1.0",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"holds (no worse in all three views)\"",
+       "raw": "holds (no worse in all three views)",
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.template.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"holds (no worse in all three views)\"",
+       "raw": "holds (no worse in all three views)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "num",
+       "printed": "ext40-ledger-l14n6-v1",
+       "raw": "ext40-ledger-l14n6-v1",
+       "refs": [
+        {
+         "key": "constants.test_sets.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "38",
+       "raw": 38,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "ref 1: whole value; ref 2: whole value",
+       "kind": "num",
+       "printed": "ext40-ledger-l14n6-v1-000, ext40-ledger-l14n6-v1-003",
+       "raw": [
+        "ext40-ledger-l14n6-v1-000",
+        "ext40-ledger-l14n6-v1-003"
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.excluded.ext40-ledger-l14n6-v1.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.excluded.ext40-ledger-l14n6-v1.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.template.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "rules_fired": {
+  "\\bDOI 10\\.5281/zenodo\\.\\d+\\b": 4,
+  "\\bGist created\\b": 1,
+  "\\bWayback snapshot\\b": 2,
+  "\\bWayback\\b": 1,
+  "\\bZenodo (v\\d) record created\\b": 1,
+  "\\bZenodo (v\\d)\\b": 7,
+  "\\bZenodo API\\b": 1,
+  "\\bZenodo DOI\\b": 1,
+  "\\bZenodo record\\b": 2,
+  "\\bZenodo time\\b": 1,
+  "\\bZenodo was unavailable\\b": 1,
+  "\\bZenodo\\b": 1,
+  "\\ba Zenodo record\\b": 1,
+  "\\bgist [0-9a-f]{6,}…?; Wayback \\d{14}\\b": 6,
+  "\\bgist with a Wayback snapshot\\b": 4,
+  "\\bgist\\b": 2,
+  "\\bgists\\b": 1,
+  "\\bno gist or Wayback\\b": 2,
+  "\\bpublic gist\\b": 0,
+  "^10\\.5281/zenodo\\.\\d+$": 4,
+  "^\\d{14}$": 3
+ },
+ "sources": {
+  "clr_1b": {
+   "commit": "5b0f8f5",
+   "path": "ops/reviews/2026-10-13-clearance-study1b-1.md",
+   "sha256": "042a5e2d41e775c64db2dc581f771a7c9d53a459158f39ada4a6e6526660e645"
+  },
+  "clr_topup": {
+   "commit": "ea3181d",
+   "path": "ops/reviews/2026-10-13-clearance-topup-1.md",
+   "sha256": "dc5989d53a19c5aafa67f02401bfa007f856a0e4bd431c69fdb0f70aa24965a3"
+  },
+  "findings": {
+   "commit": "b6e1788",
+   "path": "research/paper-notes/findings-register.md",
+   "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+  },
+  "fp_lock4": {
+   "commit": "4d60335",
+   "path": "decisions/briefings/2026-10-13-zenodo-v4/fingerprint-lock4.txt",
+   "sha256": "600b53eb5664a0be248db85aa2dad5857145baaf18bd2bf573195f030a1629ad"
+  },
+  "lock_manifest": {
+   "commit": "d1c565f",
+   "path": "ops/lock/LOCK-MANIFEST.md",
+   "sha256": "64a276d42e352cb716004c9f78f4d95a033bc6f9ad0122870da14df51f3ad1a5"
+  },
+  "log": {
+   "commit": "bec30e3",
+   "path": "LOG.md",
+   "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+  },
+  "register": {
+   "commit": "28944cb",
+   "path": "decisions/register.md",
+   "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+  },
+  "register_d152": {
+   "commit": "ac8ac83",
+   "path": "decisions/register.md",
+   "sha256": "b227fdaa8dcffe9a465a3b703adfc0c99c7f182b089e1530c83df7a47386556f"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "settle_g3": {
+   "commit": "05fddf9",
+   "path": "ops/reviews/2026-10-15-plan-settlement/g3.md",
+   "sha256": "92f48d733d8986a72edc3d19b18bb24906a4dc9700c9a44ebe7274218d771745"
+  },
+  "settle_g4": {
+   "commit": "05fddf9",
+   "path": "ops/reviews/2026-10-15-plan-settlement/g4.md",
+   "sha256": "f609e65d2b4a6fbc4d1706d1b333083a8d0d8506c649adab656a793f7de2075b"
+  },
+  "spec1": {
+   "commit": "f773d83",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  }
+ },
+ "table": {
+  "caption": {
+   "n": [
+    {
+     "kind": "label",
+     "printed": "the sensitivity panel: puzzles per test, as read from Study 1b's analysis file"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the sensitivity panel: Study 1b's test sets, with the exposed puzzles left out"
+    }
+   ],
+   "study": [
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /(rejected by the API: HTTP \\d+) invalid/ group 1; ref 3: text cut /is (unbilled) \\(/ group 1",
+     "kind": "num",
+     "printed": "every run that sent an API call (smoke-1 rejected by the API: HTTP 401; unbilled): the setup checks, Pilot 1, the effort diagnostic, the length sweep, the main run, Study 1b and the top-up run",
+     "raw": [
+      "smoke-1",
+      [
+       "rejected by the API: HTTP 401",
+       "unbilled"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "L46.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L46.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L46.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "disclosure"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Date"
+   },
+   {
+    "kind": "label",
+    "printed": "Time (UTC)"
+   },
+   {
+    "kind": "label",
+    "printed": "Event"
+   },
+   {
+    "kind": "label",
+    "printed": "Commit or record"
+   },
+   {
+    "kind": "label",
+    "printed": "Seal or note"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "All times are UTC. The lock tag times, and the commit times of the puzzle sets, Addendum C4, the record merge and the price-date commit, are git's tagger and committer times, as re-read from git in our final fact-check; the commit times of the length pick and of Study 1's k.json are from our own process record; run times are from our records of each run (a logged span starts when the run's command started, before its first call); the exposure scan's time is the Lock 4 manifest's; posting, snapshot and archive times are the public records' own. A date is printed on the first row of each UTC day; the rows below it fall on the same day. A row with no time is a ruling, or a run or step whose record gives only its date; it sits in order between the rows around it."
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: whole value; not printed: the record for 'only its date, with no time or time zone'; ref 2: text cut /^(The user's go for the S3 bill check `s3-ledger-1`), run BEFORE the lock/ group 1; not printed: the record for 'D-82 is the go for s3-ledger-1, given before that run'; ref 3: whole value; not printed: the record for 'a local calendar date, not a UTC one'; ref 4: whole value; not printed: the record for 'a local calendar date, not a UTC one'",
+     "kind": "num",
+     "printed": "Deviation 1's ruling has no recorded time: our decision records give only its date, with no time or time zone. That date, printed beside it, is a local calendar date, not a UTC one. It was ruled after the effort diagnostic and before the puzzle sets were committed.",
+     "raw": [
+      "2026-10-12",
+      "The user's go for the S3 bill check `s3-ledger-1`",
+      "2026-10-12",
+      "2026-10-11"
+     ],
+     "refs": [
+      {
+       "key": "L108.Date",
+       "source": "register"
+      },
+      {
+       "key": "L104.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L104.Date",
+       "source": "register"
+      },
+      {
+       "key": "L42.Date",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: text cut /Window started \\d\\d:\\d\\d:\\d\\dZ \\(48 h\\)\\. (Round 1 sent): / group 1; not printed: the record for 'the top-up's window start is followed by its first round sent'; ref 2: text cut /Round 1 sent: (.*?) Counts and costs only/ group 1; not printed: the work log's sentence on the top-up's first batch has no time; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Run rows give each run's span from its records; the second panel splits it into invocations, the run's start, pauses, first call and last commit or end. \"Run started\" is the time our cost records log as the run's \"window started\" (after its first invocation). The top-up's \"First call\" is a dash: its work log records \"Window started\" and then its first batch of requests as sent, with no time for that send. Commits, postings and hashes are shortened in the timeline; the lock panel prints each lock's full commit ID and tar SHA-256, and TAB-23 the analysis files' hashes.",
+     "raw": [
+      "Round 1 sent",
+      "msgbatch_01Pz32CvYthBmqc1S83KMkHP, 1,480 requests (same-model check 200, pickers 160, planners 160, C13 first draws 960), $15.7900189 reserved."
+     ],
+     "refs": [
+      {
+       "key": "L37",
+       "source": "log"
+      },
+      {
+       "key": "L37",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: text cut /Waves (w6-w8 \\(the 12-step point\\) failed to upload)( on a slow uplink); (no batch was created) \\(/ group 1; the record's hyphen in a range is printed as an en dash (house style); ref 2: text cut /Waves (w6-w8 \\(the 12-step point\\) failed to upload)( on a slow uplink); (no batch was created) \\(/ group 3; ref 3: text cut /Waves (w6-w8 \\(the 12-step point\\) failed to upload)( on a slow uplink); (no batch was created) \\(/ group 2; not printed: the cause the spend log names: the likely cause, measured after the third failure (Edith, PR 27 record section 4); ref 4: text cut /; (closed at \\$0) with/ group 1; ref 5: text cut /\\([\\d,]+; (D-108)'s (4th attempt)\\)/ group 2; ref 6: text cut /\\([\\d,]+; (D-108)'s (4th attempt)\\)/ group 1; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "Study 1b's later invocations each re-submitted the 12-step point after its upload failed: waves w6–w8 (the 12-step point) failed to upload, and no batch was created; they were closed at $0, and the 12-step point went through on its 4th attempt, a disclosed deviation (TAB-19).",
+     "raw": [
+      "w6-w8 (the 12-step point) failed to upload",
+      "no batch was created",
+      " on a slow uplink",
+      "closed at $0",
+      "4th attempt",
+      "D-108"
+     ],
+     "refs": [
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: text cut /\\(DataCite \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)$/ group 1; ref 2: text cut /zenodo\\.\\d+, (\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Lock 3's archive record v3: our project log records the DataCite registration at 13:28:29 UTC and the publication time read from the archive's API at 13:28:28 UTC; both fall inside the main run.",
+     "raw": [
+      "13:28:29",
+      "13:28:28"
+     ],
+     "refs": [
+      {
+       "key": "L225",
+       "source": "log"
+      },
+      {
+       "key": "L209",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 2: text cut /^Where D-69's public fingerprint goes: (a Zenodo record) holding only/ group 1; not printed: the record for 'the lock procedure's Zenodo record'; ref 3: text cut /Plus (a public GitHub gist with the same fingerprint and an Internet Archive \\(Wayback\\) snapshot)/ group 1; not printed: the record for 'the lock procedure's gist and Wayback snapshot'; ref 4: text cut /^(gist) \\d\\d:\\d\\d:\\d\\d; Wayback \\d{14}; Zenodo v1 \\d\\d:\\d\\d:\\d\\d / group 1; not printed: the record for 'Lock 1 has a gist, a Wayback snapshot and a Zenodo record'; ref 5: text cut /(Our plan had called for a)$/ group 1; not printed: the settlement's quotation of Lock 2's plan, not printed; ref 6: text cut /^(gist and an archive snapshot as well)\\.\\\"$/ group 1; not printed: the settlement's quotation of Lock 2's plan, not printed (Lock 2 had a Zenodo record only); anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Our lock procedure set an archive record plus a public posting with an archived snapshot as each lock's public proof; Lock 1 has all three. Lock 2 has only its archive record. Lock 3 was first public as a posting, with archive record v3 deposited during the main run, as its record states.",
+     "raw": [
+      "D-71",
+      "a Zenodo record",
+      "a public GitHub gist with the same fingerprint and an Internet Archive (Wayback) snapshot",
+      "gist",
+      "Our plan had called for a",
+      "gist and an archive snapshot as well"
+     ],
+     "refs": [
+      {
+       "key": "L93.ID",
+       "source": "register"
+      },
+      {
+       "key": "L93.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L93.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L130.Public proof (UTC)",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L146",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L147",
+       "source": "settle_g4"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: text cut /\\(the tag's (only first-parent child)\\)/ group 1; ref 2: text cut /declared-change commit ([0-9a-f]{7}) \\(not_before moved earlier/ group 1; not printed: the record for 'the top-up's run commit moved the plan's earliest start (not_before) earlier'; ref 3: text cut /checkout at ([0-9a-f]{7}) \\(/ group 1; not printed: the top-up's run commit, checked equal to the declared-change commit",
+     "kind": "num",
+     "printed": "Study 1b ran at the tag's only first-parent child; the top-up at a later commit that also moved the plan's earliest start time earlier, as a disclosed change (TAB-19).",
+     "raw": [
+      "only first-parent child",
+      "056dd26",
+      "056dd26"
+     ],
+     "refs": [
+      {
+       "key": "L63",
+       "source": "log"
+      },
+      {
+       "key": "L133.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /(It goes in the appendix only and never replaces the primary result)/ group 1; not printed: the ruling's own words, 'in the appendix only', which our printed 'outside the main text' replaces (inside the supplement 'the appendix' names nothing)",
+     "kind": "num",
+     "printed": "Exposed-puzzle sensitivity (third panel): a pre-registered sensitivity analysis. It is reported outside the main text (the paper's Appendix D; here, TAB-10's sensitivity panel, which gives its d, 95% interval, p and error-rate ratio) and never replaces the primary result. Readings in quotation marks are the Study 1b file's own template words; the ruled reading, shown no worse (Holm-adjusted), is in the columns headed \"Shown no worse (Holm-adjusted)\".",
+     "raw": "It goes in the appendix only and never replaces the primary result",
+     "refs": [
+      {
+       "key": "L119.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "A dash: the records give nothing for that cell; in the lock panel, Lock 2's dash means it has no archived snapshot."
+    }
+   ],
+   [
+    {
+     "formula": "ref 1: text cut /^Pilot 1 first call (\\d\\d:\\d\\d)$/ group 1; not printed: the lock panel's entry for Pilot 1's first call; ref 2: text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d)$/ group 1; not printed: Pilot 1's first call as the timeline's record gives it, checked equal to the lock panel's entry; ref 3: text cut /^length sweep (\\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: the lock panel's entry for the length sweep's first call; ref 4: text cut /first `send` was at \\*\\*(\\d\\d:\\d\\d:\\d\\d)\\.\\d+Z\\*\\*/ group 1; not printed: the length sweep's first call as the timeline's record gives it, checked equal to the lock panel's entry; ref 5: text cut /^main run (\\d\\d:\\d\\d:\\d\\d)–\\d\\d:\\d\\d:\\d\\d, so / group 1; not printed: the lock panel's entry for the main run's first call; ref 6: text cut /First send (\\d\\d:\\d\\d:\\d\\d)Z/ group 1; not printed: the main run's first call as the timeline's record gives it, checked equal to the lock panel's entry; ref 7: text cut /^main run \\d\\d:\\d\\d:\\d\\d–(\\d\\d:\\d\\d:\\d\\d), so / group 1; not printed: the lock panel's entry for the main run's last commit; ref 8: text cut /last commit (\\d\\d:\\d\\d:\\d\\d)Z/ group 1; not printed: the main run's last commit as the timeline's record gives it, checked equal to the lock panel's entry; ref 9: text cut /^Study 1b first INVOCATION (\\d\\d:\\d\\d:\\d\\d)$/ group 1; not printed: the lock panel's entry for Study 1b's first invocation; ref 10: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z, (\\d\\d:\\d\\d:\\d\\d)Z;/ group 1; not printed: Study 1b's first invocation as the timeline's record gives it, checked equal to the lock panel's entry",
+     "kind": "num",
+     "printed": "Lock panel, last column: the next paid data after each lock, as our final fact-check lists it: the first call of Pilot 1, of the length sweep and of the main run (the main run's entry runs on to its last commit), and Study 1b's first invocation. The timeline's run rows instead start each run's span when its command started.",
+     "raw": [
+      "21:06",
+      "21:06",
+      "07:29:27",
+      "07:29:27",
+      "13:01:25",
+      "13:01:25",
+      "13:54:17",
+      "13:54:17",
+      "08:33:00",
+      "08:33:00"
+     ],
+     "refs": [
+      {
+       "key": "L130.Next paid data",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L332.Time",
+       "source": "findings"
+      },
+      {
+       "key": "L131.Next paid data",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L103",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L132.Next paid data",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L132.Next paid data",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L133.Next paid data",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Anonymous copy for review: the public proofs are"
+    },
+    {
+     "formula": "text cut /the anonymous copy\\'s phrase becomes \"([^\"]+)\"/ group 1",
+     "kind": "num",
+     "printed": "fingerprints posted publicly before each study's runs; identifiers withheld for review, given at camera-ready",
+     "raw": "fingerprints posted publicly before each study's runs; identifiers withheld for review, given at camera-ready",
+     "refs": [
+      {
+       "key": "L174",
+       "source": "register_d152"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(commit IDs and SHA-256 fingerprints are kept)."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "num",
+     "printed": "2026-10-10",
+     "raw": "2026-10-10",
+     "refs": [
+      {
+       "key": "L45.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /(rejected by the API: HTTP \\d+) invalid/ group 1; ref 3: text cut /is (unbilled) \\(/ group 1; ref 4: whole value",
+     "kind": "num",
+     "printed": "Setup checks: smoke-1 (rejected by the API: HTTP 401; unbilled) and smoke-2; the first API calls, before any lock",
+     "raw": [
+      "smoke-1",
+      [
+       "rejected by the API: HTTP 401",
+       "unbilled"
+      ],
+      "smoke-2"
+     ],
+     "refs": [
+      {
+       "key": "L46.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L46.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L46.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L45.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /run from M \\(([0-9a-f]{7})\\)/ group 1",
+     "kind": "num",
+     "printed": "smoke-2 run commit 568e8a4",
+     "raw": [
+      "smoke-2",
+      "568e8a4"
+     ],
+     "refs": [
+      {
+       "key": "L45.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L45.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L43.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+     "kind": "num",
+     "printed": "10:16–10:37",
+     "raw": "10:16–10:37",
+     "refs": [
+      {
+       "key": "L43.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /^(before any lock)$/ group 1",
+     "kind": "num",
+     "printed": "Setup check check-ledger-1 (the refusal check on Opus and Sonnet; before any lock)",
+     "raw": [
+      "check-ledger-1",
+      "before any lock"
+     ],
+     "refs": [
+      {
+       "key": "L43.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L330.Public proof",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+     "kind": "num",
+     "printed": "run commit e1d6d60",
+     "raw": "e1d6d60",
+     "refs": [
+      {
+       "key": "L43.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\*\\*Sealed \\((D-78) C\\): (the answers are not read or graded until) the (D-69) lock tag\\.\\*\\*/ group 2; ref 2: text cut /\\*\\*Sealed \\((D-78) C\\): (the answers are not read or graded until) the (D-69) lock tag\\.\\*\\*/ group 1; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 3: text cut /\\*\\*Sealed \\((D-78) C\\): (the answers are not read or graded until) the (D-69) lock tag\\.\\*\\*/ group 3; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "Sealed: the answers are not read or graded until Lock 1's tag",
+     "raw": [
+      "the answers are not read or graded until",
+      "D-78",
+      "D-69"
+     ],
+     "refs": [
+      {
+       "key": "L43.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L43.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L43.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1",
+     "kind": "num",
+     "printed": "19:09–19:18",
+     "raw": "19:09–19:18",
+     "refs": [
+      {
+       "key": "L42.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /the S3 (bill check) `s3-ledger-1`/ group 1; ref 3: text cut /run BEFORE the lock: (one Batch of 5 requests) \\(/ group 1",
+     "kind": "num",
+     "printed": "Setup check s3-ledger-1 (the bill check: one Batch of 5 requests on Opus and Sonnet; before any lock)",
+     "raw": [
+      "s3-ledger-1",
+      "bill check",
+      "one Batch of 5 requests"
+     ],
+     "refs": [
+      {
+       "key": "L42.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L104.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L104.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+     "kind": "num",
+     "printed": "run commit 582d8d1",
+     "raw": "582d8d1",
+     "refs": [
+      {
+       "key": "L42.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\*\\*(Sealed for good) \\((D-82)\\): (the answers are never read or graded; the items are excluded from every analysis)\\.\\*\\*/ group 1; ref 2: text cut /\\*\\*(Sealed for good) \\((D-82)\\): (the answers are never read or graded; the items are excluded from every analysis)\\.\\*\\*/ group 3; ref 3: text cut /\\*\\*(Sealed for good) \\((D-82)\\): (the answers are never read or graded; the items are excluded from every analysis)\\.\\*\\*/ group 2; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "Sealed for good: the answers are never read or graded; the items are excluded from every analysis",
+     "raw": [
+      "Sealed for good",
+      "the answers are never read or graded; the items are excluded from every analysis",
+      "D-82"
+     ],
+     "refs": [
+      {
+       "key": "L42.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L42.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L42.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d:\\d\\d)$/ group 1",
+     "kind": "num",
+     "printed": "19:32:37",
+     "raw": "19:32:37",
+     "refs": [
+      {
+       "key": "L130.Tag (UTC)",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^Tag: (prereg-lock-1)$/ group 1",
+     "kind": "num",
+     "printed": "Lock 1 cut (tag prereg-lock-1)",
+     "raw": "prereg-lock-1",
+     "refs": [
+      {
+       "key": "L18",
+       "source": "fp_lock4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /prereg-lock-1 on ([0-9a-f]{7}) / group 1",
+     "kind": "num",
+     "printed": "commit b4b6b84",
+     "raw": "b4b6b84",
+     "refs": [
+      {
+       "key": "L432",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+     "kind": "num",
+     "printed": "19:35:19",
+     "raw": "19:35:19",
+     "refs": [
+      {
+       "key": "L438",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Lock 1 public proof: public posting with an archived snapshot",
+     "raw": "D-71",
+     "refs": [
+      {
+       "key": "L93.ID",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]* \\(created/ group 1; ref 2: text cut /web\\.archive\\.org/web/(\\d{14})// group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "f8da61f9",
+      "20261011193547"
+     ],
+     "refs": [
+      {
+       "key": "L438",
+       "source": "log"
+      },
+      {
+       "key": "L438",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /DataCite registered \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+     "kind": "num",
+     "printed": "20:20:40",
+     "raw": "20:20:40",
+     "refs": [
+      {
+       "key": "L437",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Lock 1 public proof: archive record v1 registered (DataCite)"
+    },
+    {
+     "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "DOI withheld for review",
+     "raw": "10.5281/zenodo.23304164",
+     "refs": [
+      {
+       "key": "L437",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1; ref 2: text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d)$/ group 1",
+     "kind": "num",
+     "printed": "20:48–21:27; first paid call 21:06",
+     "raw": [
+      "20:48–21:27",
+      "21:06"
+     ],
+     "refs": [
+      {
+       "key": "L41.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L332.Time",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Pilot 1 (pilot-ledger-1) under Lock 1",
+     "raw": "pilot-ledger-1",
+     "refs": [
+      {
+       "key": "L41.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /checkout at ([0-9a-f]{7}) with/ group 1; ref 2: text cut /\\(lock (1 plus a reviewed real-time fix, [0-9a-f]{7})\\)/ group 1",
+     "kind": "num",
+     "printed": "run commit 1b058a5 (Lock 1 plus a reviewed real-time fix, 5e2b860)",
+     "raw": [
+      "1b058a5",
+      "1 plus a reviewed real-time fix, 5e2b860"
+     ],
+     "refs": [
+      {
+       "key": "L41.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L332.Public proof",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /Preset pick \\(D-36\\(4\\), (Haiku only, committed [0-9a-f]{7}) (before any Opus or Sonnet number was opened)\\): (none), every preset below [\\d.]+, returned to the user\\./ group 1; ref 2: text cut /Preset pick \\(D-36\\(4\\), (Haiku only, committed [0-9a-f]{7}) (before any Opus or Sonnet number was opened)\\): (none), every preset below [\\d.]+, returned to the user\\./ group 2; not printed: the spend log's wording, 'number', is not printed: counts, tokens and costs were seen (TP-10); ref 3: text cut /Preset pick \\(D-36\\(4\\), (Haiku only, committed [0-9a-f]{7}) (before any Opus or Sonnet number was opened)\\): (none), every preset below [\\d.]+, returned to the user\\./ group 3; ref 4: text cut /^- Haiku-medium's pilot medians were (\\d+)% at every preset\\. / group 1; rounded to 1 places; ref 5: text cut /Opus and Sonnet pilot \\*(answers and scores)\\* stayed unopened/ group 1; ref 6: text cut /; (pilot-1 opened as exploratory) \\(/ group 1; not printed: the log's own words, with 'pilot-1', which our printed 'Pilot 1's Opus and Sonnet results' replaces (one name per run)",
+     "kind": "num",
+     "printed": "Preset pick (Haiku only, committed 21fa9f0 before any Opus or Sonnet answer or score was opened): none (Haiku-medium's pilot medians were 0.0% at every preset; this led to Deviation 1). Opus and Sonnet answers and scores stayed sealed until after Lock 2; then Pilot 1's Opus and Sonnet results were opened as exploratory",
+     "raw": [
+      "Haiku only, committed 21fa9f0",
+      "before any Opus or Sonnet number was opened",
+      "none",
+      "0",
+      "answers and scores",
+      "pilot-1 opened as exploratory"
+     ],
+     "refs": [
+      {
+       "key": "L41.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L41.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L41.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L343",
+       "source": "findings"
+      },
+      {
+       "key": "L343",
+       "source": "findings"
+      },
+      {
+       "key": "L354",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1; ref 2: text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d–\\d\\d:\\d\\d) \\(paid calls\\)$/ group 1",
+     "kind": "num",
+     "printed": "21:57–22:55; paid calls 22:12–22:55",
+     "raw": [
+      "21:57–22:55",
+      "22:12–22:55"
+     ],
+     "refs": [
+      {
+       "key": "L40.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L333.Time",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: whole value; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Effort diagnostic (diag-haiku-effort-1), under no lock; disclosed in archive record v3",
+     "raw": [
+      "diag-haiku-effort-1",
+      "under no lock; disclosed in Zenodo v3"
+     ],
+     "refs": [
+      {
+       "key": "L40.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L333.Public proof",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7}) with/ group 1",
+     "kind": "num",
+     "printed": "run commit 0b45978",
+     "raw": "0b45978",
+     "refs": [
+      {
+       "key": "L40.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "2026-10-12 (local date of the ruling)",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L108.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "Deviation 1 ruled: shorter puzzles, the length to be picked by a Haiku-only rule on the length sweep"
+    },
+    {
+     "formula": "ref 1: text cut /^### (Deviation 1) \\(/ group 1; ref 2: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "spec heading Deviation 1",
+     "raw": [
+      "Deviation 1",
+      "D-86"
+     ],
+     "refs": [
+      {
+       "key": "L1422",
+       "source": "spec1"
+      },
+      {
+       "key": "L108.ID",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /(Opus and Sonnet pilot) \\*answers/ group 1; ref 2: text cut /pilot \\*(answers and scores)\\* stayed/ group 1; ref 3: text cut /\\* (stayed unopened; their counts, tokens and costs were seen, for pricing)\\.$/ group 1",
+     "kind": "num",
+     "printed": "At the time of the ruling, Opus and Sonnet pilot answers and scores stayed unopened; their counts, tokens and costs were seen, for pricing",
+     "raw": [
+      "Opus and Sonnet pilot",
+      "answers and scores",
+      "stayed unopened; their counts, tokens and costs were seen, for pricing"
+     ],
+     "refs": [
+      {
+       "key": "L343",
+       "source": "findings"
+      },
+      {
+       "key": "L343",
+       "source": "findings"
+      },
+      {
+       "key": "L343",
+       "source": "findings"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /on (\\d{4}-\\d\\d-\\d\\d) \\d\\d:\\d\\dZ/ group 1",
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L89",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /author and committer \\*\\*(\\d\\d:\\d\\d:\\d\\d)Z\\*\\*/ group 1",
+     "kind": "num",
+     "printed": "06:25:10",
+     "raw": "06:25:10",
+     "refs": [
+      {
+       "key": "L90",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Puzzle sets frozen at every candidate length for Lock 2, among them Study 1b's later test sets (unused by Study 1)"
+    },
+    {
+     "formula": "ref 1: text cut /\\*\\*Commit:\\*\\* ([0-9a-f]{7})[0-9a-f]{33},/ group 1; ref 2: text cut /(a git commit time is self-reported)\\./ group 1; ref 3: text cut /is \\*\\*lock (2's Zenodo)$/ group 1; ref 4: text cut /^(record) \\(/ group 1; ref 5: text cut /^record \\((\\d\\d:\\d\\d:\\d\\d)Z\\)\\*\\*/ group 1; ref 6: text cut /(before any Haiku-max API answer existed):/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "commit aae04fe (a git commit time is self-reported); public proof: Lock 2's archive record (07:20:23), before any Haiku-max API answer existed",
+     "raw": [
+      "aae04fe",
+      "a git commit time is self-reported",
+      "2's Zenodo",
+      "record",
+      "07:20:23",
+      "before any Haiku-max API answer existed"
+     ],
+     "refs": [
+      {
+       "key": "L90",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L97",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L97",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L98",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L98",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L98",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\(verdict: (all three sets never sent and in no other file);/ group 1; ref 2: text cut /The never-sent file (covers only API logs and repo files)\\./ group 1",
+     "kind": "num",
+     "printed": "Checked before Lock 4: all three sets never sent and in no other file (the check covers only API logs and repo files); but see the exposure-scan row and the sensitivity panel",
+     "raw": [
+      "all three sets never sent and in no other file",
+      "covers only API logs and repo files"
+     ],
+     "refs": [
+      {
+       "key": "L275",
+       "source": "lock_manifest"
+      },
+      {
+       "key": "L138",
+       "source": "settle_g4"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d:\\d\\d)$/ group 1",
+     "kind": "num",
+     "printed": "07:11:26",
+     "raw": "07:11:26",
+     "refs": [
+      {
+       "key": "L131.Tag (UTC)",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^Tag: (prereg-lock-2)$/ group 1",
+     "kind": "num",
+     "printed": "Lock 2 cut (tag prereg-lock-2)",
+     "raw": "prereg-lock-2",
+     "refs": [
+      {
+       "key": "L13",
+       "source": "fp_lock4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /prereg-lock-2 on ([0-9a-f]{7}) / group 1",
+     "kind": "num",
+     "printed": "commit 95fb5f8",
+     "raw": "95fb5f8",
+     "refs": [
+      {
+       "key": "L379",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /DataCite registered \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+     "kind": "num",
+     "printed": "07:20:23",
+     "raw": "07:20:23",
+     "refs": [
+      {
+       "key": "L382",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /Lock 2 has (no gist or Wayback)/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Lock 2 public proof: archive record v2 registered (DataCite) only (no posting or snapshot)",
+     "raw": "no gist or Wayback",
+     "refs": [
+      {
+       "key": "L105",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "DOI withheld for review",
+     "raw": "10.5281/zenodo.23311831",
+     "refs": [
+      {
+       "key": "L382",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /(\\d\\d:\\d\\d–\\d\\d:\\d\\d) UTC/ group 1; ref 2: text cut /first `send` was at \\*\\*(\\d\\d:\\d\\d:\\d\\d)\\.\\d+Z\\*\\*/ group 1",
+     "kind": "num",
+     "printed": "07:28–07:53; first call 07:29:27",
+     "raw": [
+      "07:28–07:53",
+      "07:29:27"
+     ],
+     "refs": [
+      {
+       "key": "L39.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L103",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /\\(D-86 to D-89, under (prereg-lock-2)\\)/ group 1",
+     "kind": "num",
+     "printed": "Length sweep (ladder-l14n-1) under prereg-lock-2",
+     "raw": [
+      "ladder-l14n-1",
+      "prereg-lock-2"
+     ],
+     "refs": [
+      {
+       "key": "L39.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L39.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7}) \\(the prereg-lock-2 tag\\)/ group 1",
+     "kind": "num",
+     "printed": "run commit 95fb5f8",
+     "raw": "95fb5f8",
+     "refs": [
+      {
+       "key": "L39.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /; (\\d\\d:\\d\\d:\\d\\d)$/ group 1; ref 2: text cut /committed (before any Opus or Sonnet ladder answer was opened)/ group 1; not printed: the spend log's own words, 'ladder answer', which our printed 'length-sweep answer' replaces (one name per term)",
+     "kind": "num",
+     "printed": "Haiku-only pick of the length committed at 07:54:40, before any Opus or Sonnet length-sweep answer was opened",
+     "raw": [
+      "07:54:40",
+      "before any Opus or Sonnet ladder answer was opened"
+     ],
+     "refs": [
+      {
+       "key": "L335.Time",
+       "source": "findings"
+      },
+      {
+       "key": "L39.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "Deviation 2 ruled (identical repeated step lines accepted, for every model); Amendment 1 written (only the values the pre-set rules chose after the length sweep)"
+    },
+    {
+     "formula": "ref 1: text cut /^### (Deviation 2) \\(/ group 1; ref 2: text cut /^### (Amendment 1) \\(/ group 1; ref 3: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "spec headings Deviation 2 and Amendment 1",
+     "raw": [
+      "Deviation 2",
+      "Amendment 1",
+      "D-90"
+     ],
+     "refs": [
+      {
+       "key": "L1641",
+       "source": "spec1"
+      },
+      {
+       "key": "L1533",
+       "source": "spec1"
+      },
+      {
+       "key": "L112.ID",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\*\\*Declared Deviation 2 \\(marking rule\\), (before any main-run data):\\*\\*/ group 1",
+     "kind": "num",
+     "printed": "Ruled before any main-run data",
+     "raw": "before any main-run data",
+     "refs": [
+      {
+       "key": "L112.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d:\\d\\d)$/ group 1",
+     "kind": "num",
+     "printed": "09:11:59",
+     "raw": "09:11:59",
+     "refs": [
+      {
+       "key": "L132.Tag (UTC)",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^Tag: (prereg-lock-3)$/ group 1",
+     "kind": "num",
+     "printed": "Lock 3 cut (tag prereg-lock-3): Amendment 1 and Deviation 2",
+     "raw": "prereg-lock-3",
+     "refs": [
+      {
+       "key": "L8",
+       "source": "fp_lock4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /prereg-lock-3 on ([0-9a-f]{7}) / group 1",
+     "kind": "num",
+     "printed": "commit 086fbfd",
+     "raw": "086fbfd",
+     "refs": [
+      {
+       "key": "L351",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+     "kind": "num",
+     "printed": "10:25:49",
+     "raw": "10:25:49",
+     "refs": [
+      {
+       "key": "L319",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /; (Zenodo was unavailable);/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Lock 3 public proof: public posting with an archived snapshot; the data archive was unavailable",
+     "raw": "Zenodo was unavailable",
+     "refs": [
+      {
+       "key": "L227",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]* \\(created/ group 1; ref 2: text cut /web\\.archive\\.org/web/(\\d{14})// group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "eb3ec6a6",
+      "20261012102601"
+     ],
+     "refs": [
+      {
+       "key": "L319",
+       "source": "log"
+      },
+      {
+       "key": "L319",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /INVOCATION \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z; one invocation/ group 1; ref 2: text cut /last commit (\\d\\d:\\d\\d:\\d\\d)Z/ group 1; ref 3: text cut /First send (\\d\\d:\\d\\d:\\d\\d)Z/ group 1",
+     "kind": "num",
+     "printed": "13:01:21–13:54:17; first call 13:01:25",
+     "raw": [
+      [
+       "13:01:21",
+       "13:54:17"
+      ],
+      "13:01:25"
+     ],
+     "refs": [
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /\\(D-92, D-94; (prereg-lock-3)\\)/ group 1; ref 3: text cut /\\(3\\) \\*\\*(the run may start before Zenodo v3 is published)\\*\\*/ group 1; ref 4: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 5: text cut /^(The user's rulings before the main run) main-l14n6-1 / group 1; not printed: the record for 'D-94's rulings came before the main run'; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Main run (main-l14n6-1) under prereg-lock-3; ruled before the run: the run may start before archive record v3 is published",
+     "raw": [
+      "main-l14n6-1",
+      "prereg-lock-3",
+      "the run may start before Zenodo v3 is published",
+      "D-94",
+      "The user's rulings before the main run"
+     ],
+     "refs": [
+      {
+       "key": "L38.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L116.ID",
+       "source": "register"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /checkout at ([0-9a-f]{7}) \\(/ group 1; ref 2: text cut /= lock (3 plus reviewed runner code)$/ group 1",
+     "kind": "num",
+     "printed": "run commit b4ff738 (Lock 3 plus reviewed runner code)",
+     "raw": [
+      "b4ff738",
+      "3 plus reviewed runner code"
+     ],
+     "refs": [
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L337.Public proof",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\*\\*Sealed:\\*\\* (no answer, score or accuracy opened) \\(clearance addendum\\); / group 1; ref 2: text cut /\\*\\*Sealed:\\*\\* [^(]+\\(clearance addendum\\); ([^.]+)\\./ group 1",
+     "kind": "num",
+     "printed": "Sealed: no answer, score or accuracy opened; counts, stop reasons, kinds and costs only",
+     "raw": [
+      "no answer, score or accuracy opened",
+      "counts, stop reasons, kinds and costs only"
+     ],
+     "refs": [
+      {
+       "key": "L38.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut / at (\\d\\d:\\d\\d:\\d\\d)Z\\*\\*\\.$/ group 1",
+     "kind": "num",
+     "printed": "13:12:58",
+     "raw": "13:12:58",
+     "refs": [
+      {
+       "key": "L108",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /Addendum C4 \\((four edge-case pins)\\)/ group 1; ref 2: text cut /committed (about \\d+ minutes) \\*\\*after\\*\\* launch/ group 1; ref 3: text cut /\\*\\*(neither was ruled on by name)\\*\\* at the time\\./ group 1; not printed: the record for 'Addendum C and its C4 were not ruled on by name at the time'; ref 4: text cut /\\*\\*The user accepted Addendum C, C4 included, on (\\d{4}-\\d\\d-\\d\\d) \\(D-134 \\(3\\)\\)/ group 1; ref 5: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 6: text cut /\\(3\\) \\*\\*(Addendum C accepted)\\*\\*/ group 1; not printed: the record for 'the ruling accepted Addendum C'; ref 7: whole value; not printed: the register's date of that ruling, checked equal to the printed date",
+     "kind": "num",
+     "printed": "Addendum C4 (four edge-case pins to the reporting definitions) committed about 12 minutes after launch; Addendum C, C4 included, was not ruled on by name at the time; we accepted it on 2026-10-15",
+     "raw": [
+      "four edge-case pins",
+      "about 12 minutes",
+      "neither was ruled on by name",
+      "2026-10-15",
+      "D-134",
+      "Addendum C accepted",
+      "2026-10-15"
+     ],
+     "refs": [
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L379",
+       "source": "findings"
+      },
+      {
+       "key": "L156.ID",
+       "source": "register"
+      },
+      {
+       "key": "L156.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L156.Date",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /entered in \\*\\*([0-9a-f]{7}) at / group 1",
+     "kind": "num",
+     "printed": "commit 93334b8",
+     "raw": "93334b8",
+     "refs": [
+      {
+       "key": "L108",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- All of it (came before any result was opened and is inside the stamp)\\.$/ group 1",
+     "kind": "num",
+     "printed": "Addendum C4 came before any result was opened and is inside the stamp",
+     "raw": "came before any result was opened and is inside the stamp",
+     "refs": [
+      {
+       "key": "L380",
+       "source": "findings"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(DataCite \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)$/ group 1",
+     "kind": "num",
+     "printed": "13:28:29",
+     "raw": "13:28:29",
+     "refs": [
+      {
+       "key": "L225",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^(deposited during the run, as the record says) \\(D-94\\(3\\)\\)$/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "Lock 3 public proof: archive record v3 registered (DataCite); deposited during the run, as the record says",
+     "raw": "deposited during the run, as the record says",
+     "refs": [
+      {
+       "key": "L338.Public proof",
+       "source": "findings"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "DOI withheld for review",
+     "raw": "10.5281/zenodo.23313537",
+     "refs": [
+      {
+       "key": "L225",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+     "kind": "num",
+     "printed": "14:18:44",
+     "raw": "14:18:44",
+     "refs": [
+      {
+       "key": "L195",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 2: text cut /driver ([0-9a-f]{7}) \\+/ group 1; ref 3: text cut /definitions ([0-9a-f]{7}) \\+/ group 1",
+     "kind": "num",
+     "printed": "Analysis stamp for Study 1: driver c273eb9 and reporting definitions 93334b8 with the main run's raw-file fingerprints",
+     "raw": [
+      "D-93",
+      "c273eb9",
+      "93334b8"
+     ],
+     "refs": [
+      {
+       "key": "L115.ID",
+       "source": "register"
+      },
+      {
+       "key": "L193",
+       "source": "log"
+      },
+      {
+       "key": "L193",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]* \\(created/ group 1; ref 2: text cut /web\\.archive\\.org/web/(\\d{14})// group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "a604ef9b",
+      "20261012141856"
+     ],
+     "refs": [
+      {
+       "key": "L195",
+       "source": "log"
+      },
+      {
+       "key": "L195",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(No main-study result has been opened)\\./ group 1; not printed: the log's own words, with 'main-study', which our printed 'main-run' replaces (one name per term)",
+     "kind": "num",
+     "printed": "No main-run result has been opened",
+     "raw": "No main-study result has been opened",
+     "refs": [
+      {
+       "key": "L195",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /exit 0, (\\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d)Z;/ group 1",
+     "kind": "num",
+     "printed": "14:21:29–14:23:36",
+     "raw": "14:21:29–14:23:36",
+     "refs": [
+      {
+       "key": "L185",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /^(\\d\\d:\\d\\d:\\d\\d); / group 1; ref 2: text cut /Driver's (one run) VERIFIED/ group 1",
+     "kind": "num",
+     "printed": "k fixed from costs only, before any score was seen (k.json committed at 14:21:14); then the stamped driver's one run",
+     "raw": [
+      "14:21:14",
+      "one run"
+     ],
+     "refs": [
+      {
+       "key": "L340.Time",
+       "source": "findings"
+      },
+      {
+       "key": "L181",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /checkout at ([0-9a-f]{7})[0-9a-f]* \\(the stamped commit/ group 1; ref 2: text cut /analysis\\.json SHA-256 ([0-9a-f]{8})[0-9a-f]{56}$/ group 1",
+     "kind": "num",
+     "printed": "driver at c273eb9; output SHA-256 43d18eed…",
+     "raw": [
+      "c273eb9",
+      "43d18eed"
+     ],
+     "refs": [
+      {
+       "key": "L187",
+       "source": "log"
+      },
+      {
+       "key": "L185",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /(Results may now be read)$/ group 1; ref 2: text cut /analysis\\.json (byte-identical) \\(/ group 1",
+     "kind": "num",
+     "printed": "Results may now be read, after a byte-identical re-run",
+     "raw": [
+      "Results may now be read",
+      "byte-identical"
+     ],
+     "refs": [
+      {
+       "key": "L181",
+       "source": "log"
+      },
+      {
+       "key": "L181",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /exposure scan \\(\\w+, (\\d{4}-\\d\\d-\\d\\d)T/ group 1",
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L287",
+       "source": "lock_manifest"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /exposure scan \\(\\w+, \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z,/ group 1",
+     "kind": "num",
+     "printed": "07:21:34",
+     "raw": "07:21:34",
+     "refs": [
+      {
+       "key": "L287",
+       "source": "lock_manifest"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /; (no new exposure)\\.$/ group 1; ref 2: text cut /^\\*\\*(Study 1b's three partly displayed test puzzles) are kept\\.\\*\\*/ group 1; ref 3: whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 4: text cut /had (parts of their answers shown inside Claude Code) helper and review sessions/ group 1; ref 5: text cut /shown in (helper, build and review sessions), never/ group 1; not printed: the record for 'the puzzles were shown in our own work sessions (helper, build and review sessions)'",
+     "kind": "num",
+     "printed": "Final exposure scan before Lock 4: no new exposure; Study 1b's three partly displayed test puzzles had parts of their answers shown inside Claude Code during our own work sessions; kept, disclosed, and given a pre-registered sensitivity without them (sensitivity panel)",
+     "raw": [
+      "no new exposure",
+      "Study 1b's three partly displayed test puzzles",
+      "D-97",
+      "parts of their answers shown inside Claude Code",
+      "helper, build and review sessions"
+     ],
+     "refs": [
+      {
+       "key": "L287",
+       "source": "lock_manifest"
+      },
+      {
+       "key": "L119.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L119.ID",
+       "source": "register"
+      },
+      {
+       "key": "L119.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L201",
+       "source": "settle_g3"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /-final\\.json` \\(([0-9a-f]{8})[0-9a-f]{56}\\)/ group 1",
+     "kind": "num",
+     "printed": "scan file SHA-256 a78fb109…",
+     "raw": "a78fb109",
+     "refs": [
+      {
+       "key": "L287",
+       "source": "lock_manifest"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /; (they were never shown to a model under test, and nothing was tuned on them)\\./ group 1",
+     "kind": "num",
+     "printed": "Those puzzles: they were never shown to a model under test, and nothing was tuned on them",
+     "raw": "they were never shown to a model under test, and nothing was tuned on them",
+     "refs": [
+      {
+       "key": "L119.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /^\\d\\d-\\d\\d (\\d\\d:\\d\\d:\\d\\d)$/ group 1",
+     "kind": "num",
+     "printed": "07:33:17",
+     "raw": "07:33:17",
+     "refs": [
+      {
+       "key": "L133.Tag (UTC)",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^Tag: (prereg-lock-4)$/ group 1",
+     "kind": "num",
+     "printed": "Lock 4 cut (tag prereg-lock-4): Study 1b and the top-up run, before either sent a call",
+     "raw": "prereg-lock-4",
+     "refs": [
+      {
+       "key": "L2",
+       "source": "fp_lock4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /prereg-lock-4 = ([0-9a-f]{7})[0-9a-f]{33} / group 1",
+     "kind": "num",
+     "printed": "commit d1c565f",
+     "raw": "d1c565f",
+     "refs": [
+      {
+       "key": "L81",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(\\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\) and Wayback/ group 1",
+     "kind": "num",
+     "printed": "07:34:10",
+     "raw": "07:34:10",
+     "refs": [
+      {
+       "key": "L81",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Lock 4 public proof: public posting with an archived snapshot"
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]* \\(/ group 1; ref 2: text cut /and Wayback (\\d{14});/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "f0ec2ea8",
+      "20261013073439"
+     ],
+     "refs": [
+      {
+       "key": "L81",
+       "source": "log"
+      },
+      {
+       "key": "L81",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /, \\*\\*(\\d\\d:\\d\\d:\\d\\d)Z\\*\\*, after the gist/ group 1",
+     "kind": "num",
+     "printed": "07:36:37",
+     "raw": "07:36:37",
+     "refs": [
+      {
+       "key": "L120",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /made (a second child of the tag)\\./ group 1; ref 2: text cut /ruled it a (declared) clarification:/ group 1; not printed: our log's own word for this clarification, which our printed 'disclosed' replaces (D-161)",
+     "kind": "num",
+     "printed": "Record merge of the tag into main: it made a second child of the tag; ruled a disclosed clarification",
+     "raw": [
+      "a second child of the tag",
+      "declared"
+     ],
+     "refs": [
+      {
+       "key": "L77",
+       "source": "log"
+      },
+      {
+       "key": "L77",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- \\*\\*([0-9a-f]{7})\\*\\* \\(/ group 1",
+     "kind": "num",
+     "printed": "commit 2080573",
+     "raw": "2080573",
+     "refs": [
+      {
+       "key": "L120",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /and (2080573 is disclosed as a record merge with no run code)\\./ group 1",
+     "kind": "num",
+     "printed": "2080573 is disclosed as a record merge with no run code",
+     "raw": "2080573 is disclosed as a record merge with no run code",
+     "refs": [
+      {
+       "key": "L77",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /, \\*\\*(\\d\\d:\\d\\d:\\d\\d)Z\\*\\*\\)\\./ group 1",
+     "kind": "num",
+     "printed": "07:38:42",
+     "raw": "07:38:42",
+     "refs": [
+      {
+       "key": "L118",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\(the tag's (only first-parent child)\\)/ group 1; ref 2: text cut /^(`harness/pareto/prices\\.py` and `harness/tests/test_prices\\.py` \\(3\\+/3−\\))\\.$/ group 1; not printed: the record for 'the commit changed only the price file and its test, three lines'; ref 3: text cut /(the price-date commit may also touch the re-check docstring line)/ group 1; not printed: the record for 'the price-date commit may also touch the re-check docstring line'; ref 4: text cut /(UNCHANGED \\(all four models = the locked table;)/ group 1; not printed: the record for 'the prices were re-checked unchanged before the commit'; ref 5: text cut /Price re-check (\\d\\d:\\d\\d) UTC: UNCHANGED/ group 1; not printed: the re-check's time, checked to come before the commit's",
+     "kind": "num",
+     "printed": "Price-date commit, the tag's only first-parent child; it changed only the price table's date (with its re-check note and the test that checks it); no price changed",
+     "raw": [
+      "only first-parent child",
+      "`harness/pareto/prices.py` and `harness/tests/test_prices.py` (3+/3−)",
+      "the price-date commit may also touch the re-check docstring line",
+      "UNCHANGED (all four models = the locked table;",
+      "07:37"
+     ],
+     "refs": [
+      {
+       "key": "L63",
+       "source": "log"
+      },
+      {
+       "key": "L119",
+       "source": "settle_g4"
+      },
+      {
+       "key": "L95",
+       "source": "log"
+      },
+      {
+       "key": "L31",
+       "source": "log"
+      },
+      {
+       "key": "L31",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^- \\*\\*([0-9a-f]{7})\\*\\* \\(/ group 1",
+     "kind": "num",
+     "printed": "commit 521f2a1",
+     "raw": "521f2a1",
+     "refs": [
+      {
+       "key": "L118",
+       "source": "settle_g4"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /\\(record created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z\\)/ group 1",
+     "kind": "num",
+     "printed": "07:43:34",
+     "raw": "07:43:34",
+     "refs": [
+      {
+       "key": "L73",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Lock 4 public proof: archive record v4 created"
+    },
+    {
+     "formula": "text cut /DOI (10\\.5281/zenodo\\.\\d+) \\(record created/ group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "DOI withheld for review",
+     "raw": "10.5281/zenodo.23335207",
+     "refs": [
+      {
+       "key": "L73",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z,/ group 1; ref 2: text cut /Last commit (\\d\\d:\\d\\d:\\d\\d)Z\\./ group 1",
+     "kind": "num",
+     "printed": "08:33:00–11:19:29",
+     "raw": [
+      "08:33:00",
+      "11:19:29"
+     ],
+     "refs": [
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /\\(D-96; (prereg-lock-4)\\)/ group 1",
+     "kind": "num",
+     "printed": "Study 1b (study1b-1) under prereg-lock-4",
+     "raw": [
+      "study1b-1",
+      "prereg-lock-4"
+     ],
+     "refs": [
+      {
+       "key": "L37.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /price-date commit ([0-9a-f]{7})[0-9a-f]* \\(/ group 1",
+     "kind": "num",
+     "printed": "run commit 521f2a1",
+     "raw": "521f2a1",
+     "refs": [
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\*\\*Sealed:\\*\\* ([^.]+)\\./ group 1",
+     "kind": "num",
+     "printed": "Sealed: counts, stop reasons and costs only; no answer or score opened",
+     "raw": "counts, stop reasons and costs only; no answer or score opened",
+     "refs": [
+      {
+       "key": "L37.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "ref 1: text cut /— (Study 1b's k) FIXED/ group 1; ref 2: text cut / FIXED (from costs only): / group 1; ref 3: text cut /: (k = \\d+) \\(/ group 1",
+     "kind": "num",
+     "printed": "Study 1b's k fixed from costs only (k = 6)",
+     "raw": [
+      "Study 1b's k",
+      "from costs only",
+      "k = 6"
+     ],
+     "refs": [
+      {
+       "key": "L47",
+       "source": "log"
+      },
+      {
+       "key": "L47",
+       "source": "log"
+      },
+      {
+       "key": "L47",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /k\\.json SHA-256 ([0-9a-f]{8})[0-9a-f]{56}$/ group 1",
+     "kind": "num",
+     "printed": "commit 534e415; k.json SHA-256 4204d537…",
+     "raw": [
+      "534e415",
+      "4204d537"
+     ],
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "s1b_k"
+      },
+      {
+       "key": "L47",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\. (No answer or score opened)\\. / group 1",
+     "kind": "num",
+     "printed": "No answer or score opened",
+     "raw": "No answer or score opened",
+     "refs": [
+      {
+       "key": "L49",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z,/ group 1",
+     "kind": "num",
+     "printed": "11:26:06",
+     "raw": "11:26:06",
+     "refs": [
+      {
+       "key": "L557",
+       "source": "clr_1b"
+      }
+     ]
+    },
+    {
+     "formula": "whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "Study 1b data stamp: run-file and k.json fingerprints",
+     "raw": "D-109",
+     "refs": [
+      {
+       "key": "L131.ID",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]*:/ group 1; ref 2: text cut /snapshot (\\d{14}) / group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "52dd104c",
+      "20261013112716"
+     ],
+     "refs": [
+      {
+       "key": "L557",
+       "source": "clr_1b"
+      },
+      {
+       "key": "L558",
+       "source": "clr_1b"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(It holds no data and no results)\\./ group 1",
+     "kind": "num",
+     "printed": "It holds no data and no results",
+     "raw": "It holds no data and no results",
+     "refs": [
+      {
+       "key": "L131.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /exit 0, (\\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d)Z;/ group 1",
+     "kind": "num",
+     "printed": "11:28:10–11:31:26",
+     "raw": "11:28:10–11:31:26",
+     "refs": [
+      {
+       "key": "L43",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^## The analysis: (driver run once),/ group 1",
+     "kind": "num",
+     "printed": "Study 1b driver run once at the Lock 4 commit",
+     "raw": "driver run once",
+     "refs": [
+      {
+       "key": "L565",
+       "source": "clr_1b"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /the prereg-lock-4 commit ([0-9a-f]{7})[0-9a-f]*,/ group 1; ref 2: text cut /analysis\\.json SHA-256 ([0-9a-f]{8})[0-9a-f]{56}$/ group 1",
+     "kind": "num",
+     "printed": "driver at d1c565f; output SHA-256 239173fc…",
+     "raw": [
+      "d1c565f",
+      "239173fc"
+     ],
+     "refs": [
+      {
+       "key": "L45",
+       "source": "log"
+      },
+      {
+       "key": "L43",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /(The results may now be read)\\./ group 1; ref 2: text cut /, (\\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d)Z, exit 0\\./ group 1",
+     "kind": "num",
+     "printed": "The results may now be read, after a byte-identical re-run (11:32:03–11:35:43)",
+     "raw": [
+      "The results may now be read",
+      "11:32:03–11:35:43"
+     ],
+     "refs": [
+      {
+       "key": "L39",
+       "source": "log"
+      },
+      {
+       "key": "L568",
+       "source": "clr_1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "ref 1: text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z and/ group 1; ref 2: text cut /\\d\\d:\\d\\d-(\\d\\d:\\d\\d:\\d\\d)Z, EXIT 0/ group 1",
+     "kind": "num",
+     "printed": "11:50:13–14:09:51",
+     "raw": [
+      "11:50:13",
+      "14:09:51"
+     ],
+     "refs": [
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: whole value; ref 2: text cut /\\(D-99, D-100; (prereg-lock-4) with the declared start change ([^)]+)\\)/ group 1; ref 3: text cut /\\(D-99, D-100; (prereg-lock-4) with the declared start change ([^)]+)\\)/ group 2; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1); ref 4: text cut /\\(paused (\\d\\d:\\d\\d:\\d\\d)Z/ group 1; ref 5: text cut /and (\\d\\d:\\d\\d:\\d\\d)Z \\(paused/ group 1; ref 6: text cut /every custom id (at attempt 1 \\(no re-send, no crash re-run, no failed submit\\))/ group 1",
+     "kind": "num",
+     "printed": "Top-up run (topup-1) under prereg-lock-4 with the disclosed start change; paused 11:52:36 with its first batch of requests in flight, resumed 13:26:53; every call at attempt 1 (no re-send, no crash re-run, no failed submit)",
+     "raw": [
+      "topup-1",
+      "prereg-lock-4",
+      "D-110/D-111/D-112",
+      "11:52:36",
+      "13:26:53",
+      "at attempt 1 (no re-send, no crash re-run, no failed submit)"
+     ],
+     "refs": [
+      {
+       "key": "L36.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7}) \\(/ group 1",
+     "kind": "num",
+     "printed": "run commit 056dd26",
+     "raw": "056dd26",
+     "refs": [
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\*\\*Sealed:\\*\\* ([^.]+)\\./ group 1",
+     "kind": "num",
+     "printed": "Sealed: counts, stop reasons and costs only; no answer or score opened",
+     "raw": "counts, stop reasons and costs only; no answer or score opened",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /created \\d{4}-\\d\\d-\\d\\dT(\\d\\d:\\d\\d:\\d\\d)Z,/ group 1",
+     "kind": "num",
+     "printed": "14:15:17",
+     "raw": "14:15:17",
+     "refs": [
+      {
+       "key": "L198",
+       "source": "clr_topup"
+      }
+     ]
+    },
+    {
+     "formula": "whole value; not printed: decision id: the register is not released, so the id is kept here, not printed (PO-1)",
+     "kind": "num",
+     "printed": "Top-up data stamp: run-file fingerprints",
+     "raw": "D-113",
+     "refs": [
+      {
+       "key": "L135.ID",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /gist\\.github\\.com/Hrixay/([0-9a-f]{8})[0-9a-f]*:/ group 1; ref 2: text cut /snapshot (\\d{14}) / group 1; anonymous copy: identifiers withheld and services named in neutral words",
+     "kind": "num",
+     "printed": "withheld for review",
+     "raw": [
+      "c9870cf2",
+      "20261013141633"
+     ],
+     "refs": [
+      {
+       "key": "L198",
+       "source": "clr_topup"
+      },
+      {
+       "key": "L199",
+       "source": "clr_topup"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /with (no data and no results)/ group 1",
+     "kind": "num",
+     "printed": "It holds no data and no results",
+     "raw": "no data and no results",
+     "refs": [
+      {
+       "key": "L135.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "text cut /exit 0, (\\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d)Z;/ group 1",
+     "kind": "num",
+     "printed": "14:18:45–14:19:00",
+     "raw": "14:18:45–14:19:00",
+     "refs": [
+      {
+       "key": "L25",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^## The top-up analysis: (driver run once),/ group 1",
+     "kind": "num",
+     "printed": "Top-up driver run once at the Lock 4 commit",
+     "raw": "driver run once",
+     "refs": [
+      {
+       "key": "L205",
+       "source": "clr_topup"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /the prereg-lock-4 commit ([0-9a-f]{7})[0-9a-f]* \\(/ group 1; ref 2: text cut /analysis\\.json SHA-256 ([0-9a-f]{8})[0-9a-f]{56}$/ group 1",
+     "kind": "num",
+     "printed": "driver at d1c565f; output SHA-256 c76478bf…",
+     "raw": [
+      "d1c565f",
+      "c76478bf"
+     ],
+     "refs": [
+      {
+       "key": "L27",
+       "source": "log"
+      },
+      {
+       "key": "L25",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "formula": "ref 1: text cut /\\*\\*(The top-up results may now be read)\\.\\*\\*/ group 1; ref 2: text cut /, (\\d\\d:\\d\\d:\\d\\d–\\d\\d:\\d\\d:\\d\\d)Z, exit 0\\./ group 1",
+     "kind": "num",
+     "printed": "The top-up results may now be read, after a byte-identical re-run (14:19:43–14:19:59)",
+     "raw": [
+      "The top-up results may now be read",
+      "14:19:43–14:19:59"
+     ],
+     "refs": [
+      {
+       "key": "L218",
+       "source": "clr_topup"
+      },
+      {
+       "key": "L208",
+       "source": "clr_topup"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

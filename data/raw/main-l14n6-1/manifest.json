@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "b4ff738b11bc38381c23423d3eb1dd8133947b22",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "20.75520105",
+  "item_set_sha256": "0b83c8298cb531941ca15dc369945c05b2a6a7bceedecd7d1bf79b1e0b254f6d",
+  "mode": "batch",
+  "n_items": 20790,
+  "note": "main run (D-27, Amendment 1): musts plus the named extras; E3 through harness.pareto.e3",
+  "price_table_date": "2026-10-12",
+  "run_cap_usd": "100",
+  "run_id": "main-l14n6-1",
+  "source_sha256": "9e07f1e19258a37e65b6611c8a247bf33cc20b241b48a00a69f026d2ff3aeb82"
+}

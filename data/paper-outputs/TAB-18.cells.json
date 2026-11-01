@@ -1,0 +1,2175 @@
+{
+ "output": {
+  "id": "TAB-18",
+  "kind": "table",
+  "label": "cross-study descriptive",
+  "section": "Discussion and limits (appendix)",
+  "title": "Cross-set comparison at 6 steps (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Format compliance and samples per puzzle",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Setting"
+     },
+     {
+      "kind": "label",
+      "printed": "Format compliance, chain, Study 1 (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Format compliance, chain, Study 1b (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Format compliance, pieces, Study 1 (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Format compliance, pieces, Study 1b (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Samples per puzzle and shape, Study 1"
+     },
+     {
+      "kind": "label",
+      "printed": "Samples per puzzle and shape, Study 1b"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "81.72",
+       "raw": 0.8171875,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "83.50",
+       "raw": 0.835,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.56",
+       "raw": 0.995625,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.50",
+       "raw": 0.995,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "40",
+       "raw": 40.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "descriptive.arms.ho@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.13",
+       "raw": 0.98125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-low 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.50",
+       "raw": 0.985,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hl.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.66",
+       "raw": 0.9965625,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-low 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hl.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "40",
+       "raw": 40.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-low 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.haiku-low 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "descriptive.arms.hl@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.59",
+       "raw": 0.9859375,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.00",
+       "raw": 0.99,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hm.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.72",
+       "raw": 0.9971875,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-med 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.00",
+       "raw": 0.99,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hm.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "40",
+       "raw": 40.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-med 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.haiku-med 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "descriptive.arms.hm@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.58",
+       "raw": 0.9958333333333333,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "3",
+       "raw": 3.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.haiku-max 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-low 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.sl.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-low 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.sl.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "1",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-low 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-low 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "descriptive.arms.sl@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 0.975,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-med 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 0.975,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-med 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "1",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-med 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.sonnet-med 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "descriptive.arms.sm@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.75",
+       "raw": 0.9875,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-low 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 0.975,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-low 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "1",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-low 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.opus-low 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "descriptive.arms.ol@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 0.975,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "tries / base_puzzles",
+       "kind": "num",
+       "printed": "1",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_24.table.opus-med 1x6.refusals_and_truncations.tries",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_24.table.opus-med 1x6.base_puzzles",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2",
+       "raw": 2,
+       "refs": [
+        {
+         "key": "descriptive.arms.om@6.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  },
+  "topup_spec_s1b": {
+   "commit": "9c007e5",
+   "path": "research/topup-run-spec.md",
+   "sha256": "f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "none (point differences only)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1);"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(Study 1b); samples per puzzle and shape by setting in Panel 1's last two columns"
+    }
+   ],
+   "panels": [
+    {
+     "kind": "label",
+     "printed": "Panel 1: format compliance of the samples (chain and pieces, in each study) and samples per puzzle and shape"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no cost column)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1's main set against Study 1b's set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^\\*\\*What it is:\\*\\* (Haiku-medium) ×\\d+, at the main run's Haiku-medium settings exactly/ group 1; not printed: the record for 'the drift check between runs is Haiku-medium with the main run's configuration'; text cut /^## \\d+\\. .*(same-model check)/ group 1; not printed: the record for 'the specification's section on the drift check between runs'; text cut /(the spec frozen in lock 4)/ group 1; not printed: the record for 'its analysis ran under the specification frozen in lock 4'; text cut /(frozen (?:at the tag|in) `prereg-lock-4`)/ group 1; not printed: the record for 'the specification is frozen at the Lock 4 tag'; text cut /Last commit (\\d\\d:\\d\\d:\\d\\d)Z\\./ group 1; not printed: the record for 'Study 1b's run ended at its last commit'; text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z and \\d\\d:\\d\\d:\\d\\dZ/ group 1; not printed: the record for 'the top-up run started at its first invocation'; text cut /^## Rows \\((newest first)\\)$/ group 1; not printed: the record for 'the spend log lists its rows newest first'",
+     "kind": "num",
+     "printed": "steps (the Test B3 set); the drift check between runs: none for Study 1b itself; the top-up run's drift check on Haiku-medium, run after Study 1b:",
+     "raw": [
+      "Haiku-medium",
+      "same-model check",
+      "the spec frozen in lock 4",
+      "frozen in `prereg-lock-4`",
+      "11:19:29",
+      "11:50:13",
+      "newest first"
+     ],
+     "refs": [
+      {
+       "key": "L78",
+       "source": "topup_spec_s1b"
+      },
+      {
+       "key": "L76",
+       "source": "topup_spec_s1b"
+      },
+      {
+       "key": "spec",
+       "source": "topup"
+      },
+      {
+       "key": "L3",
+       "source": "topup_spec_s1b"
+      },
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L32",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "not fired",
+     "raw": "not fired",
+     "refs": [
+      {
+       "key": "same_model_check.flag.status",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 main run at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps, run on"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12,",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L38.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "against Study 1b's run on"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13,",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L37.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "its set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "cross-study descriptive; our reading, not a test"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1 chain (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1b chain (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Difference, chain (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1 pieces (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1b pieces (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Difference, pieces (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1 pooled (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Study 1b pooled (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Difference, pooled (points)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "A reading across studies: our reading, not a test. The two studies used different puzzle sets, different runs and different puzzles, and nothing is paired. The difference is Study 1b's point minus Study 1's point, in points; there is no interval and no p-value."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Runs, oldest first: Study 1's main run on"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12;",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L38.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b's run on"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13;",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L37.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "the top-up run on"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13,",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L36.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /Last commit (\\d\\d:\\d\\d:\\d\\d)Z\\./ group 1; not printed: the record for 'Study 1b's run ended at its last commit'; text cut /INVOCATIONs (\\d\\d:\\d\\d:\\d\\d)Z and \\d\\d:\\d\\d:\\d\\dZ/ group 1; not printed: the record for 'the top-up run started at its first invocation'; text cut /^## Rows \\((newest first)\\)$/ group 1; not printed: the record for 'the spend log lists its rows newest first'",
+     "kind": "num",
+     "printed": "after Study 1b.",
+     "raw": [
+      "11:19:29",
+      "11:50:13",
+      "newest first"
+     ],
+     "refs": [
+      {
+       "key": "L37.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L32",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The drift check between runs: none was run for Study 1b itself (the Study 1b file records none)."
+    },
+    {
+     "formula": "text cut /^\\*\\*What it is:\\*\\* (Haiku-medium) ×\\d+, at the main run's Haiku-medium settings exactly/ group 1; not printed: the record for 'the drift check between runs is Haiku-medium with the main run's configuration'; text cut /^## \\d+\\. .*(same-model check)/ group 1; not printed: the record for 'the specification's section on the drift check between runs'; text cut /(the spec frozen in lock 4)/ group 1; not printed: the record for 'its analysis ran under the specification frozen in lock 4'; text cut /(frozen (?:at the tag|in) `prereg-lock-4`)/ group 1; not printed: the record for 'the specification is frozen at the Lock 4 tag'",
+     "kind": "num",
+     "printed": "The top-up run's drift check, which the top-up run's specification (frozen with Lock 4) defines as Haiku-medium with the main run's configuration, re-ran Haiku-medium on Study 1's main set and compared it with Study 1's answers; its flag:",
+     "raw": [
+      "Haiku-medium",
+      "same-model check",
+      "the spec frozen in lock 4",
+      "frozen in `prereg-lock-4`"
+     ],
+     "refs": [
+      {
+       "key": "L78",
+       "source": "topup_spec_s1b"
+      },
+      {
+       "key": "L76",
+       "source": "topup_spec_s1b"
+      },
+      {
+       "key": "spec",
+       "source": "topup"
+      },
+      {
+       "key": "L3",
+       "source": "topup_spec_s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "not fired.",
+     "raw": "not fired",
+     "refs": [
+      {
+       "key": "same_model_check.flag.status",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "It covers Haiku-medium only, not the other settings of this table."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 used"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles on its main set. Study 1b's set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (the Test B3 set) has"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 points are from its pre-specified descriptive table; Study 1b points are from the effort sweep. Study 1's file records the pooled point of Haiku-medium, Sonnet-medium and Opus-medium (its shape points equal the table's; checked); for the other settings Study 1's pooled point is the mean of its two shape means, which is the same pooling (each puzzle's mean over its two shapes)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Samples per puzzle and shape differ between the studies and between settings (Panel 1's last two columns). Study 1's is its recorded samples divided by its recorded puzzles; Study 1b's is recorded in its file."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance (Panel 1): share of answered samples whose format was ok, per shape and study."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "22.00",
+     "raw": 22.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26.50",
+     "raw": 26.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+4.50",
+     "raw": 4.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "23.50",
+     "raw": 23.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "28.50",
+     "raw": 28.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+5.00",
+     "raw": 5.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "mean of the two shape means (each base puzzle's mean over its two shapes)",
+     "kind": "num",
+     "printed": "22.75",
+     "raw": 22.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "27.50",
+     "raw": 27.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus the mean of Study 1's two shape means",
+     "kind": "num",
+     "printed": "+4.75",
+     "raw": 4.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "39.22",
+     "raw": 39.21875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.50",
+     "raw": 52.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+13.28",
+     "raw": 13.28125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "46.50",
+     "raw": 46.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "53.00",
+     "raw": 53.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+6.50",
+     "raw": 6.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "mean of the two shape means (each base puzzle's mean over its two shapes)",
+     "kind": "num",
+     "printed": "42.86",
+     "raw": 42.859375,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.75",
+     "raw": 52.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus the mean of Study 1's two shape means",
+     "kind": "num",
+     "printed": "+9.89",
+     "raw": 9.890625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hl@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "43.72",
+     "raw": 43.71875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "52.00",
+     "raw": 52.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+8.28",
+     "raw": 8.28125,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "51.00",
+     "raw": 51.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57.00",
+     "raw": 57.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+6.00",
+     "raw": 6.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "47.36",
+     "raw": 0.47359375000000004,
+     "refs": [
+      {
+       "key": "main_run_markers.haiku-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "54.50",
+     "raw": 54.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus 100 * Study 1 pooled",
+     "kind": "num",
+     "printed": "+7.14",
+     "raw": 7.140625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "main_run_markers.haiku-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "−0.25",
+     "raw": -0.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 95.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "−0.75",
+     "raw": -0.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "mean of the two shape means (each base puzzle's mean over its two shapes)",
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.75",
+     "raw": 95.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus the mean of Study 1's two shape means",
+     "kind": "num",
+     "printed": "−0.50",
+     "raw": -0.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-low"
+    },
+    {
+     "kind": "num",
+     "printed": "71.25",
+     "raw": 71.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 77.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+6.25",
+     "raw": 6.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "76.25",
+     "raw": 76.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+6.25",
+     "raw": 6.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "mean of the two shape means (each base puzzle's mean over its two shapes)",
+     "kind": "num",
+     "printed": "73.75",
+     "raw": 73.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus the mean of Study 1's two shape means",
+     "kind": "num",
+     "printed": "+6.25",
+     "raw": 6.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.sl@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 77.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "75.00",
+     "raw": 75.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+7.50",
+     "raw": 7.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 0.775,
+     "refs": [
+      {
+       "key": "main_run_markers.sonnet-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus 100 * Study 1 pooled",
+     "kind": "num",
+     "printed": "+2.50",
+     "raw": 2.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.sm@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "main_run_markers.sonnet-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-low"
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "mean of the two shape means (each base puzzle's mean over its two shapes)",
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus the mean of Study 1's two shape means",
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.ol@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 1x6.accuracy_mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-low 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "+2.50",
+     "raw": 2.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b minus Study 1 (points)",
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.13",
+     "raw": 0.98125,
+     "refs": [
+      {
+       "key": "main_run_markers.opus-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "Study 1b pooled minus 100 * Study 1 pooled",
+     "kind": "num",
+     "printed": "+1.25",
+     "raw": 1.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "main_run_markers.opus-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

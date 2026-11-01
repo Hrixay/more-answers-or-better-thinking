@@ -1,0 +1,6947 @@
+{
+ "output": {
+  "id": "TAB-07",
+  "kind": "table",
+  "label": "pre-specified checks (flags, not tests); fairness check exploratory",
+  "section": "Results: Study 1",
+  "title": "Pre-specified checks and flags"
+ },
+ "panels": [
+  {
+   "name": "Format flags, Study 1",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Setting"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Answered samples"
+     },
+     {
+      "kind": "label",
+      "printed": "Format ok"
+     },
+     {
+      "kind": "label",
+      "printed": "Non-compliance (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Fired"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "the number matched by 'non-compliance above (\\\\d+)% of answered tries' in this stamped string",
+       "kind": "num",
+       "printed": "Flag rule, the same in both studies: the flag fires when non-compliance is above 5% of answered samples.",
+       "raw": "item 16: count / designed calls with Wilson 95% and list cost; item 17: non-compliance above 5% of answered tries",
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.label",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "2,615",
+       "raw": 2615,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "18.28",
+       "raw": 0.1828125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3,186",
+       "raw": 3186,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.44",
+       "raw": 0.004375,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-thinking-off 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3,140",
+       "raw": 3140,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.88",
+       "raw": 0.01875,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3,189",
+       "raw": 3189,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.34",
+       "raw": 0.0034375,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-low 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3,155",
+       "raw": 3155,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.41",
+       "raw": 0.0140625,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3,191",
+       "raw": 3191,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.28",
+       "raw": 0.0028125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "240",
+       "raw": 240,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "240",
+       "raw": 240,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "240",
+       "raw": 240,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "239",
+       "raw": 239,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.42",
+       "raw": 0.004166666666666667,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-max 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium (rewording check)"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium (rewording check)"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.haiku-med-d42-variant 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.25",
+       "raw": 0.0125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-low 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "78",
+       "raw": 78,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.50",
+       "raw": 0.025,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.opus-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-low 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "78",
+       "raw": 78,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.50",
+       "raw": 0.025,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.sonnet-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.answered",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.format_ok",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.non_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.fires",
+         "source": "main"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Format flags, Study 1b",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Setting"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Answered samples"
+     },
+     {
+      "kind": "label",
+      "printed": "Format ok"
+     },
+     {
+      "kind": "label",
+      "printed": "Non-compliance (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Fired"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "the number matched by 'non-compliance above (\\\\d+)% of answered tries' in this stamped string",
+       "kind": "num",
+       "printed": "Flag rule, the same in both studies: the flag fires when non-compliance is above 5% of answered samples.",
+       "raw": "item 16: count / designed calls with Wilson 95% and list cost; item 17: non-compliance above 5% of answered tries",
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.label",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "167",
+       "raw": 167,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "16.50",
+       "raw": 0.165,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "199",
+       "raw": 199,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.50",
+       "raw": 0.005,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "112",
+       "raw": 112,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "72.00",
+       "raw": 0.72,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "313",
+       "raw": 313,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "21.75",
+       "raw": 0.2175,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ho 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "197",
+       "raw": 197,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.50",
+       "raw": 0.015,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "375",
+       "raw": 375,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "6.25",
+       "raw": 0.0625,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hl 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "198",
+       "raw": 198,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.00",
+       "raw": 0.01,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "198",
+       "raw": 198,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.00",
+       "raw": 0.01,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "399",
+       "raw": 399,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "381",
+       "raw": 381,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "4.51",
+       "raw": 0.045112781954887216,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hm 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "375",
+       "raw": 375,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "6.25",
+       "raw": 0.0625,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hh 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "197",
+       "raw": 197,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.50",
+       "raw": 0.015,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "199",
+       "raw": 199,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.50",
+       "raw": 0.005,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "390",
+       "raw": 390,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.50",
+       "raw": 0.025,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hxh 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×12"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "799",
+       "raw": 799,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.13",
+       "raw": 0.00125,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x12.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "12×1"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 12x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "796",
+       "raw": 796,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.50",
+       "raw": 0.005,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "799",
+       "raw": 799,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.13",
+       "raw": 0.00125,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.hx 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "39",
+       "raw": 39,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.50",
+       "raw": 0.025,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ol 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×12"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "1.25",
+       "raw": 0.0125,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x12.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "12×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 12x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 1x16.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.om 16x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "38",
+       "raw": 38,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "5.00",
+       "raw": 0.05,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "38",
+       "raw": 38,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "5.00",
+       "raw": 0.05,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.oxh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.ox 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sl 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "39",
+       "raw": 39,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.50",
+       "raw": 0.025,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sm 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sxh 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 1x6.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sonnet-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.answered",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.format_ok",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.non_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_17_flags.sx 6x1.fires",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "curve": {
+   "commit": "4547097",
+   "path": "data/pilot/curve-ladder-l14n-1.json",
+   "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+  },
+  "curve_d90": {
+   "commit": "b6c1de5",
+   "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+   "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "s1_defs": {
+   "commit": "93334b8",
+   "path": "research/reporting-definitions-main.md",
+   "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+  },
+  "s1_driver_log": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/driver-run.log",
+   "sha256": "bb77248f86b282d4b87f540591079b27eaec67bc01d2316aec2a9542488fe7fe"
+  },
+  "s1_fairness_py": {
+   "commit": "c273eb9",
+   "path": "harness/analysis/fairness.py",
+   "sha256": "6af248e7aaa70f179aa53b922cbae7b3255ca0512568e5aff20a685984319587"
+  },
+  "s1_main_analysis_py": {
+   "commit": "c273eb9",
+   "path": "harness/analysis/main_analysis.py",
+   "sha256": "5fb0ab788aef57759e3a90f3b4b8dd5064bc36c2c25fac9fb9de74fba1695627"
+  },
+  "s1_pilot_plan": {
+   "commit": "7bcc8d1",
+   "path": "research/pilot-plan-ledger.md",
+   "sha256": "51c811bdb99e22ad0168d1a02ed4334841b0153beff90b5368ca6942371911f9"
+  },
+  "s1_spec": {
+   "commit": "f773d83",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  },
+  "s1_work_log": {
+   "commit": "bec30e3",
+   "path": "LOG.md",
+   "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "fairness check and Flag R: percentile bootstrap at level 90%, B = 2,000; other intervals 95%",
+     "raw": [
+      0.9,
+      2000
+     ],
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      },
+      {
+       "key": "fairness.B",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "puzzles for the fairness check: 80; the other rows give their own pairs, puzzles or samples",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "fairness.presets.l14n6",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no costs)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps (format flags also Study 1b; the drift check between runs from the top-up)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified checks (flags, not tests); the fairness check is exploratory"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Check"
+   },
+   {
+    "kind": "label",
+    "printed": "Quantity"
+   },
+   {
+    "kind": "label",
+    "printed": "Value"
+   },
+   {
+    "kind": "label",
+    "printed": "Interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Interval level (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Count"
+   },
+   {
+    "kind": "label",
+    "printed": "Rule"
+   },
+   {
+    "kind": "label",
+    "printed": "Stamped reading"
+   },
+   {
+    "kind": "label",
+    "printed": "Fired"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Checks and flags, not tests. Each Quantity cell names its unit: % for shares and accuracies, points for differences, ratios and counts as named. Dashes mark cells with no stamped value for that column."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Terms. A slip is a step whose written balances differ from that step's rule applied to the model's own previous balances. T steps are steps of the targeted rule kinds: kinds added, or made more frequent, where Haiku slipped while the puzzles were tuned; G steps are steps of the other kinds. Same-slip pairwise agreement (Flag R): among pairs of Haiku-medium samples that slip at the same step of the same puzzle (on a chain only its first slip counts, on pieces every slipped piece), the share that wrote the same wrong balances there. Slip-rate ratio: a model's slip rate on T steps divided by its slip rate on G steps. House variant: the house rule is a puzzle-wide rule that should act on some steps; the ratio's numerator is the share of those steps (the exposed steps) where the model missed it (the exposed slips). Targeting index: Haiku-medium's ratio divided by the comparison's ratio, here Opus-medium and Sonnet-medium pooled; near one means the T kinds are no harder for Haiku in particular. Zero-slip corrected: the model had no slips in one group, so half a slip was added to both groups' counts before dividing, which pulls the ratio towards one."
+    }
+   ],
+   [
+    {
+     "formula": "cited (not printed): the Study 1 driver run's entry, which names the commit its checkout was at (TAB-23's code commit for the Study 1 analysis); cited (not printed): the driver's console log, committed with the result file: the commit it ran at",
+     "kind": "num",
+     "printed": "Rule column: the rule text is stamped for the flag of the drift check between runs and for the near-ceiling label's source (given in plain words), and the format flag's rule is stamped and given under the format panels. For Flag R, the targeting indices behind Flag K and the low-information flag, the result file stamps no threshold: the Rule cell gives each threshold as the Study 1 analysis code that produced the result file applies it (the fairness check's code and the analysis driver, at the code commit TAB-23 lists for the Study 1 analysis). The thresholds printed in those Rule cells are the ones the pre-registered plan (Flag R and Flag K) and Study 1's reporting definitions (the low-information flag) state. The stamped reading column repeats the files' own reason strings, in plain words where they hold code names.",
+     "raw": [
+      "`python3 -m harness.analysis.main_analysis --set data/tasks/main-ledger-l14n6-v1 --run data/raw/main-l14n6-1 --k k.json --extras sl,ho,hx`, nice 19, from a clean detached checkout at c273eb96 (the stamped commit; run files re-hashed equal to the stamp first). Output `data/main/main-l14n6-1/analysis.json` and its console log `driver-run.log` (one expected warning: the set's freeze commit a8f0acd vs c273eb9). Not interpreted; Edith checks it against the stamp, then Jarvis takes it to the user.",
+      "WARNING: git commit differs (set: a8f0acda9e4fc2757cc8cd323b5cc0a5790b4538, now: c273eb96149d60280dcf19a7930d54bf1fb52125)"
+     ],
+     "refs": [
+      {
+       "key": "L187",
+       "source": "s1_work_log"
+      },
+      {
+       "key": "L1",
+       "source": "s1_driver_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the number matched by '\"TI_house\": \\\\{\"haiku\": \\\\(\\\\d+, \\\\d+, \\\\d+, \\\\d+\\\\), \"comparison\": \\\\(\\\\d+, (\\\\d+), \\\\d+, \\\\d+\\\\)\\\\},$' in this stamped string; the number matched by 'with \\\\*\\\\*at least (\\\\d+) in each group\\\\*\\\\*' in this stamped string; cited (not printed): the code's names for the minimum fields (the second is the fewest exposed slips); cited (not printed): the house variant's stamped reason, whose minimum is the code's; cited (not printed): the pre-registered plan's minimum and its rule for the house index; cited (not printed): the pre-registered plan's minimum and its rule for the house index; cited (not printed): the pre-registered plan's minimum and its rule for the house index",
+     "kind": "num",
+     "printed": "Assessability: the fewest slips and steps an index needs to be assessable are as the analysis code sets them. For the house variant it asks the comparison (Opus and Sonnet pooled) for at least 3 exposed slips, the number in its reading; the pre-registered plan states no such number, and applies its general rule to the house index, which asks the comparison for at least 5 slips in each group, with its house-rule slips as one group. With 0 exposed slips, the house variant is not assessable under either number.",
+     "raw": [
+      "\"TI_house\": {\"haiku\": (20, 5, 5, 0), \"comparison\": (10, 3, 5, 100)},",
+      "model at least 10, with **at least 5 in each group** (Edith's rule).",
+      0,
+      "# Enough data, per index and role: (min slips over both groups, min exposed slips, min G slips, min steps in each group).",
+      "not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249})",
+      "- Flag K is assessed only if Haiku has at least 20 slips (at least 5 in each group), and the comparison",
+      "smaller group against the imbalance. The same rule applies to the house index, with house slips as",
+      "one group."
+     ],
+     "refs": [
+      {
+       "key": "L86",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L312",
+       "source": "s1_pilot_plan"
+      },
+      {
+       "key": "fairness.TI_house.assess_counts.opus+sonnet.exposed_slips",
+       "source": "main"
+      },
+      {
+       "key": "L83",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "fairness.TI_house.assess_reason",
+       "source": "main"
+      },
+      {
+       "key": "L311",
+       "source": "s1_pilot_plan"
+      },
+      {
+       "key": "L314",
+       "source": "s1_pilot_plan"
+      },
+      {
+       "key": "L315",
+       "source": "s1_pilot_plan"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The rewording check's lower interval ends at zero are floating-point zeros in the file (exact zeros up to rounding error), printed as zero without a sign."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The rewording check (a robustness check planned in the pre-registered design, outside the confirmatory tests; no test): its wording, puzzles and comparison were fixed after Lock 3, before any result was opened. It was checked on Haiku-medium single samples only."
+    }
+   ],
+   [
+    {
+     "formula": "the number matched by \"^- Opus-medium's pooled whole-answer accuracy at n = (\\\\d+) is (\\\\d+) of (\\\\d+) \\\\((\\\\d\\\\.\\\\d+) ≥ (\\\\d\\\\.\\\\d+)\\\\)\" in this stamped string; the number matched by \"^- Opus-medium's pooled whole-answer accuracy at n = (\\\\d+) is (\\\\d+) of (\\\\d+) \\\\((\\\\d\\\\.\\\\d+) ≥ (\\\\d\\\\.\\\\d+)\\\\)\" in this stamped string; 100 times the proportion matched by \"^- Opus-medium's pooled whole-answer accuracy at n = (\\\\d+) is (\\\\d+) of (\\\\d+) \\\\((\\\\d\\\\.\\\\d+) ≥ (\\\\d\\\\.\\\\d+)\\\\)\" in this stamped string, to 2 decimals; 100 times the proportion matched by \"^- Opus-medium's pooled whole-answer accuracy at n = (\\\\d+) is (\\\\d+) of (\\\\d+) \\\\((\\\\d\\\\.\\\\d+) ≥ (\\\\d\\\\.\\\\d+)\\\\)\" in this stamped string, to 0 decimals",
+     "kind": "num",
+     "printed": "Near ceiling (Amendment 1): a label that the pre-registration's Amendment 1 turned on for Tests 1 and 2 because their comparator, Opus-medium, was right on 40 of 40 answers in the length sweep at 6 steps, a pooled whole-answer accuracy of 100.00%, at or above the pre-set 95%; it marks a comparator at or near a perfect score. With it, the error-rate ratio (the challenger's errors over Opus-medium's) is reported with its interval next to the no-worse-than reading (in TAB-02); where Opus-medium made no errors the ratio is undefined, and its exact 95% upper error rate, in %, is given instead.",
+     "raw": [
+      "- Opus-medium's pooled whole-answer accuracy at n = 6 is 40 of 40 (1.00 ≥ 0.95): 6×1 20 of 20, 1×6 20 of 20. The same",
+      "- Opus-medium's pooled whole-answer accuracy at n = 6 is 40 of 40 (1.00 ≥ 0.95): 6×1 20 of 20, 1×6 20 of 20. The same",
+      "- Opus-medium's pooled whole-answer accuracy at n = 6 is 40 of 40 (1.00 ≥ 0.95): 6×1 20 of 20, 1×6 20 of 20. The same",
+      "- Opus-medium's pooled whole-answer accuracy at n = 6 is 40 of 40 (1.00 ≥ 0.95): 6×1 20 of 20, 1×6 20 of 20. The same"
+     ],
+     "refs": [
+      {
+       "key": "L1603",
+       "source": "s1_spec"
+      },
+      {
+       "key": "L1603",
+       "source": "s1_spec"
+      },
+      {
+       "key": "L1603",
+       "source": "s1_spec"
+      },
+      {
+       "key": "L1603",
+       "source": "s1_spec"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "The near-ceiling label was set from the length sweep (Amendment 1) and was not re-decided afterwards; the main run's Opus-medium pooled score (the near-ceiling row) is shown for information only.",
+     "raw": [
+      false,
+      true
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.re_decided_on_main_run",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_15.for_information_only",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The fairness check's first-slip variant is a separate stamped sensitivity and is not shown here."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on T steps, both shapes (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "66.57",
+     "raw": 0.6656566462004625,
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_T.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[59.42, 73.26]",
+     "raw": [
+      0.5941690244802559,
+      0.7325862775026991
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_T.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.pooled.agreement_T.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_T.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "25,082 pairs",
+     "raw": 25082,
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_T.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on G steps, both shapes (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "89.23",
+     "raw": 0.8923321082525894,
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_G.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[83.01, 94.91]",
+     "raw": [
+      0.8301284972204502,
+      0.9490914666871119
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_G.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.pooled.agreement_G.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_G.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11,972 pairs",
+     "raw": 11972,
+     "refs": [
+      {
+       "key": "reporting.flag_r.pooled.agreement_G.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on T steps, 1×6 (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "62.09",
+     "raw": 0.6208661417322835,
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_T.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[53.61, 69.50]",
+     "raw": [
+      0.5360942871173678,
+      0.6949665498566422
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_T.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.1x6.agreement_T.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_T.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "12,700 pairs",
+     "raw": 12700,
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_T.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on G steps, 1×6 (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "88.62",
+     "raw": 0.8862053959965187,
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_G.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[76.63, 98.25]",
+     "raw": [
+      0.7663291139240507,
+      0.9825167278221455
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_G.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.1x6.agreement_G.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_G.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4,596 pairs",
+     "raw": 4596,
+     "refs": [
+      {
+       "key": "reporting.flag_r.1x6.agreement_G.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on T steps, 6×1 (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "71.16",
+     "raw": 0.7115974802132127,
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_T.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[61.43, 79.88]",
+     "raw": [
+      0.6143319233640209,
+      0.7987703718161413
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_T.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.6x1.agreement_T.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_T.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "12,382 pairs",
+     "raw": 12382,
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_T.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium same-slip pairwise agreement on G steps, 6×1 (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "89.61",
+     "raw": 0.8961496746203904,
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_G.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[81.82, 95.94]",
+     "raw": [
+      0.818246277475774,
+      0.95935126257442
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_G.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.6x1.agreement_G.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "90",
+     "raw": "ci90",
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_G.ci90",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "7,376 pairs",
+     "raw": 7376,
+     "refs": [
+      {
+       "key": "reporting.flag_r.6x1.agreement_G.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Flag R"
+    },
+    {
+     "kind": "label",
+     "printed": "Flag R: agreement on T steps against G steps (pooled)"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "25,082 T pairs, 11,972 G pairs",
+     "raw": [
+      25082,
+      11972
+     ],
+     "refs": [
+      {
+       "key": "reporting.flag_r.pairs_t",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.pairs_g",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the number matched by 'fires = agree_t > 0 and agree_t \\\\* pairs_g >= (\\\\d+) \\\\* agree_g \\\\* pairs_t$' in this stamped string; the number matched by 'pts\\\\[\\\\\"pairs_g\\\\\"\\\\], min_pairs=(\\\\d+)\\\\)\\\\)$' in this stamped string",
+     "kind": "num",
+     "printed": "fires when T-step agreement is at least 2 times G-step agreement, with at least 10 pairs in each (as the analysis code applies it)",
+     "raw": [
+      "fires = agree_t > 0 and agree_t * pairs_g >= 2 * agree_g * pairs_t",
+      "flag_r=fairness.flag_r(pts[\"agree_t\"], pts[\"pairs_t\"], pts[\"agree_g\"], pts[\"pairs_g\"], min_pairs=10))"
+     ],
+     "refs": [
+      {
+       "key": "L484",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L354",
+       "source": "s1_main_analysis_py"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "does not fire",
+     "raw": "does not fire",
+     "refs": [
+      {
+       "key": "reporting.flag_r.flag_r.reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "reporting.flag_r.flag_r.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Targeting index (ratio) against Opus and Sonnet pooled",
+     "raw": [
+      false,
+      "opus+sonnet"
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI.correction_point.opus+sonnet",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI.comparison",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.82",
+     "raw": 0.8204423543414004,
+     "refs": [
+      {
+       "key": "fairness.TI.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.43, 1.37]",
+     "raw": [
+      0.428350767746007,
+      1.371894572323353
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "the number matched by '^FLAG_TI = (\\\\d+\\\\.\\\\d+)$' in this stamped string; the number matched by 'val >= FLAG_TI and lo is not None and lo > (\\\\d+\\\\.\\\\d+)\\\\)$' in this stamped string; cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule",
+     "kind": "num",
+     "printed": "fires when the index is assessable and its point is at least 2.0, with its interval's lower end above 1.0 (as the analysis code applies it, which also sets the fewest slips and steps an index needs to be assessable)",
+     "raw": [
+      "FLAG_TI = 2.0",
+      "fires = bool(a[\"assessable\"] and val is not None and val >= FLAG_TI and lo is not None and lo > 1.0)",
+      "\"TI\": {\"haiku\": (20, 5, 5, 0), \"comparison\": (10, 5, 5, 100)},",
+      "\"TI_house\": {\"haiku\": (20, 5, 5, 0), \"comparison\": (10, 3, 5, 100)},"
+     ],
+     "refs": [
+      {
+       "key": "L76",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L400",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L85",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L86",
+       "source": "s1_fairness_py"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "assessable",
+     "raw": "assessable",
+     "refs": [
+      {
+       "key": "fairness.TI.assess_reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.TI.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Targeting index, house variant (ratio; the comparison's ratio zero-slip corrected) against Opus and Sonnet pooled",
+     "raw": [
+      true,
+      "opus+sonnet"
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI_house.correction_point.opus+sonnet",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.comparison",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.78",
+     "raw": 0.7827609116304468,
+     "refs": [
+      {
+       "key": "fairness.TI_house.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.14, 1.83]",
+     "raw": [
+      0.14032837416822036,
+      1.8290256284621562
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI_house.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "the number matched by '^FLAG_TI = (\\\\d+\\\\.\\\\d+)$' in this stamped string; the number matched by 'val >= FLAG_TI and lo is not None and lo > (\\\\d+\\\\.\\\\d+)\\\\)$' in this stamped string; cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule",
+     "kind": "num",
+     "printed": "fires when the index is assessable and its point is at least 2.0, with its interval's lower end above 1.0 (as the analysis code applies it, which also sets the fewest slips and steps an index needs to be assessable)",
+     "raw": [
+      "FLAG_TI = 2.0",
+      "fires = bool(a[\"assessable\"] and val is not None and val >= FLAG_TI and lo is not None and lo > 1.0)",
+      "\"TI\": {\"haiku\": (20, 5, 5, 0), \"comparison\": (10, 5, 5, 100)},",
+      "\"TI_house\": {\"haiku\": (20, 5, 5, 0), \"comparison\": (10, 3, 5, 100)},"
+     ],
+     "refs": [
+      {
+       "key": "L76",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L400",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L85",
+       "source": "s1_fairness_py"
+      },
+      {
+       "key": "L86",
+       "source": "s1_fairness_py"
+      }
+     ]
+    },
+    {
+     "formula": "the stamped reason, in plain words; the number matched by 'exposed slips < (\\\\d+);' in this stamped string",
+     "kind": "num",
+     "printed": "not assessable: Opus and Sonnet pooled had 0 exposed slips in 457 exposed steps, fewer than the 3 the index needs",
+     "raw": [
+      "not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249})",
+      0,
+      457,
+      "not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249})"
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI_house.assess_reason",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_counts.opus+sonnet.exposed_slips",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_counts.opus+sonnet.exposed_steps",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.TI_house.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "label",
+     "printed": "Flag K (either index fires)"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "the stamped reason, in plain words",
+     "kind": "num",
+     "printed": "does not fire (the targeting index does not fire; the house variant is not assessable)",
+     "raw": "does not fire (TI_house not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249}))",
+     "refs": [
+      {
+       "key": "fairness.flag_k.reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.flag_k.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, T steps over G steps: Haiku (ratio)",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.RR.haiku.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4.03",
+     "raw": 4.031545597306092,
+     "refs": [
+      {
+       "key": "fairness.RR.haiku.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[3.23, 5.10]",
+     "raw": [
+      3.231989788132694,
+      5.098830474469807
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR.haiku.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR.haiku.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, T steps over G steps: Opus (ratio; zero-slip corrected)",
+     "raw": true,
+     "refs": [
+      {
+       "key": "fairness.RR.opus.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.65",
+     "raw": 0.6480331262939958,
+     "refs": [
+      {
+       "key": "fairness.RR.opus.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.28, 2.16]",
+     "raw": [
+      0.27772848269742684,
+      2.1599999999999997
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR.opus.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR.opus.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, T steps over G steps: Sonnet (ratio)",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.RR.sonnet.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5.37",
+     "raw": 5.367384615384616,
+     "refs": [
+      {
+       "key": "fairness.RR.sonnet.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[3.09, 10.70]",
+     "raw": [
+      3.088770053475936,
+      10.703846153846154
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR.sonnet.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR.sonnet.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, T steps over G steps: Opus and Sonnet pooled (ratio)",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.RR.opus+sonnet.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4.91",
+     "raw": 4.913868202894478,
+     "refs": [
+      {
+       "key": "fairness.RR.opus+sonnet.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[2.98, 9.36]",
+     "raw": [
+      2.9755555555555557,
+      9.361702127659575
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR.opus+sonnet.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR.opus+sonnet.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, house variant (missed house-rule steps over G steps): Haiku (ratio)",
+     "raw": false,
+     "refs": [
+      {
+       "key": "fairness.RR_house.haiku.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.09",
+     "raw": 0.09301383109375208,
+     "refs": [
+      {
+       "key": "fairness.RR_house.haiku.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.02, 0.20]",
+     "raw": [
+      0.01996886542806986,
+      0.1982304175833564
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR_house.haiku.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR_house.haiku.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, house variant (missed house-rule steps over G steps): Opus (ratio; zero-slip corrected)",
+     "raw": true,
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.91",
+     "raw": 0.9072463768115941,
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.39, 2.88]",
+     "raw": [
+      0.38721804511278196,
+      2.878504672897196
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR_house.opus.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, house variant (missed house-rule steps over G steps): Sonnet (ratio; zero-slip corrected)",
+     "raw": true,
+     "refs": [
+      {
+       "key": "fairness.RR_house.sonnet.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.13",
+     "raw": 0.13069016152716592,
+     "refs": [
+      {
+       "key": "fairness.RR_house.sonnet.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.09, 0.25]",
+     "raw": [
+      0.08599577762139338,
+      0.2482979575490589
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR_house.sonnet.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR_house.sonnet.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "num",
+     "printed": "Slip-rate ratio, house variant (missed house-rule steps over G steps): Opus and Sonnet pooled (ratio; zero-slip corrected)",
+     "raw": true,
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus+sonnet.corrected",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.12",
+     "raw": 0.11882789458662354,
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus+sonnet.point",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.08, 0.21]",
+     "raw": [
+      0.07976539589442816,
+      0.21305458027449728
+     ],
+     "refs": [
+      {
+       "key": "fairness.RR_house.opus+sonnet.ci90.0",
+       "source": "main"
+      },
+      {
+       "key": "fairness.RR_house.opus+sonnet.ci90.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "fairness.level",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus: slips on T steps, of steps checked (counts)"
+    },
+    {
+     "kind": "num",
+     "printed": "0 of 322",
+     "raw": [
+      0,
+      322
+     ],
+     "refs": [
+      {
+       "key": "fairness.counts.opus.T_slips",
+       "source": "main"
+      },
+      {
+       "key": "fairness.counts.opus.T_steps",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus: slips on G steps, of steps checked (counts)"
+    },
+    {
+     "kind": "num",
+     "printed": "1 of 626",
+     "raw": [
+      1,
+      626
+     ],
+     "refs": [
+      {
+       "key": "fairness.counts.opus.G_slips",
+       "source": "main"
+      },
+      {
+       "key": "fairness.counts.opus.G_steps",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Fairness check"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus: house-rule slips missed, of steps that should fire (counts)"
+    },
+    {
+     "kind": "num",
+     "printed": "0 of 230",
+     "raw": [
+      0,
+      230
+     ],
+     "refs": [
+      {
+       "key": "fairness.counts.opus.house_missed",
+       "source": "main"
+      },
+      {
+       "key": "fairness.counts.opus.house_should_fire",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Low-information flag"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-medium single-sample accuracy at 6×1 (pieces), mean over puzzles (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "51.00",
+     "raw": 0.51,
+     "refs": [
+      {
+       "key": "reporting.low_information_flag.haiku_med_accuracy",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "the number matched by 'fires = acc is not None and 100\\\\.0 \\\\* acc > (\\\\d+\\\\.\\\\d+)$' in this stamped string",
+     "kind": "num",
+     "printed": "fires when that accuracy is above 60.0% (as the analysis code applies it)",
+     "raw": "fires = acc is not None and 100.0 * acc > 60.0",
+     "refs": [
+      {
+       "key": "L387",
+       "source": "s1_main_analysis_py"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": null,
+     "refs": [
+      {
+       "key": "reporting.low_information_flag.label_test_1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "reporting.low_information_flag.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Low-information flag"
+    },
+    {
+     "kind": "label",
+     "printed": "Median over puzzles of the same accuracy (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "50.00",
+     "raw": 0.5,
+     "refs": [
+      {
+       "key": "reporting.low_information_flag.median",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Near-ceiling label"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-medium pooled accuracy, main run (%) (label shown beside Test 1, Test 2)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.13",
+     "raw": 0.98125,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.opus_med_pooled_accuracy_main_run.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[95.63, 100.00]",
+     "raw": [
+      0.95625,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.opus_med_pooled_accuracy_main_run.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_15.opus_med_pooled_accuracy_main_run.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "ci95",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.opus_med_pooled_accuracy_main_run.ci95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80 puzzles",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.opus_med_pooled_accuracy_main_run.n_base",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "set on the length sweep at 6 steps: Opus-medium right on 20 of 20 chains and 20 of 20 pieces",
+     "raw": [
+      20,
+      20,
+      20,
+      20
+     ],
+     "refs": [
+      {
+       "key": "models.om.by_n.6.whole_answer.1xn.right",
+       "source": "curve_d90"
+      },
+      {
+       "key": "models.om.by_n.6.whole_answer.1xn.tries",
+       "source": "curve_d90"
+      },
+      {
+       "key": "models.om.by_n.6.whole_answer.nx1.right",
+       "source": "curve_d90"
+      },
+      {
+       "key": "models.om.by_n.6.whole_answer.nx1.tries",
+       "source": "curve_d90"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "near ceiling (Amendment 1)",
+     "raw": "near ceiling (Amendment 1)",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.label",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_15.on",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Rewording check"
+    },
+    {
+     "kind": "label",
+     "printed": "Reworded prompt minus Haiku-medium on the same puzzles, both shapes (points)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "+8.75",
+     "raw": 0.08750000000000002,
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.pooled.difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[0.00, 17.25]",
+     "raw": [
+      -2.0816681711721684e-18,
+      0.1725
+     ],
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.pooled.difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.d42_robustness.pooled.difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "difference_ci95",
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.pooled.difference_ci95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "cited (not printed): the pooled count, the two shapes' counts added",
+     "kind": "num",
+     "printed": "20 puzzles in each shape",
+     "raw": [
+      20,
+      40
+     ],
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.1x6.puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.d42_robustness.pooled.puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Rewording check"
+    },
+    {
+     "kind": "label",
+     "printed": "Reworded prompt minus Haiku-medium on the same puzzles, 1×6 (points)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "+11.50",
+     "raw": 0.11499999999999988,
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.1x6.difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[0.00, 23.50]",
+     "raw": [
+      -8.326672684688674e-18,
+      0.23499999999999996
+     ],
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.1x6.difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.d42_robustness.1x6.difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "difference_ci95",
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.1x6.difference_ci95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20 puzzles",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.1x6.puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Rewording check"
+    },
+    {
+     "kind": "label",
+     "printed": "Reworded prompt minus Haiku-medium on the same puzzles, 6×1 (points)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "+6.00",
+     "raw": 0.05999999999999994,
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.6x1.difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[−5.00, 17.00]",
+     "raw": [
+      -0.05000000000000001,
+      0.16999999999999998
+     ],
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.6x1.difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.d42_robustness.6x1.difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "difference_ci95",
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.6x1.difference_ci95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20 puzzles",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.d42_robustness.6x1.puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Top-up minus main run, Haiku-medium, both shapes (points)"
+    },
+    {
+     "kind": "num",
+     "printed": "+1.50",
+     "raw": 1.5,
+     "refs": [
+      {
+       "key": "same_model_check.pooled.d",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−8.00, 10.00]",
+     "raw": [
+      -8.0,
+      10.0
+     ],
+     "refs": [
+      {
+       "key": "same_model_check.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "ci95",
+     "refs": [
+      {
+       "key": "same_model_check.pooled.ci95",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "cited (not printed): the pooled count, the two shapes' counts added",
+     "kind": "num",
+     "printed": "20 puzzles in each shape",
+     "raw": [
+      20,
+      40
+     ],
+     "refs": [
+      {
+       "key": "same_model_check.1x6.n_puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.n_puzzles",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Top-up minus main run, Haiku-medium, 1×6 (points)"
+    },
+    {
+     "kind": "num",
+     "printed": "+6.00",
+     "raw": 6.0,
+     "refs": [
+      {
+       "key": "same_model_check.1x6.d",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−3.00, 15.00]",
+     "raw": [
+      -3.0,
+      15.0
+     ],
+     "refs": [
+      {
+       "key": "same_model_check.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "ci95",
+     "refs": [
+      {
+       "key": "same_model_check.1x6.ci95",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20 puzzles",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "same_model_check.1x6.n_puzzles",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Top-up minus main run, Haiku-medium, 6×1 (points)"
+    },
+    {
+     "kind": "num",
+     "printed": "−3.00",
+     "raw": -3.0,
+     "refs": [
+      {
+       "key": "same_model_check.6x1.d",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−14.00, 8.00]",
+     "raw": [
+      -14.0,
+      8.0
+     ],
+     "refs": [
+      {
+       "key": "same_model_check.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "digits of the interval key's name",
+     "kind": "num",
+     "printed": "95",
+     "raw": "ci95",
+     "refs": [
+      {
+       "key": "same_model_check.6x1.ci95",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20 puzzles",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "same_model_check.6x1.n_puzzles",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Mean output tokens, relative change top-up against main (%)"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "+0.29",
+     "raw": 0.002903084015660331,
+     "refs": [
+      {
+       "key": "same_model_check.output_tokens.relative_change",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "same_model_check.flag.tokens_condition",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Accuracy condition"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "same_model_check.flag.accuracy_condition",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Drift check (top-up)"
+    },
+    {
+     "kind": "label",
+     "printed": "Drift-check flag"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "fires if the pooled 95% interval excludes 0 and |d| > 10 points, or mean output tokens move by more than 25%; a flag, not a gate",
+     "raw": "fires if the pooled 95% interval excludes 0 and |d| > 10 points, or mean output tokens move by more than 25%; a flag, not a gate",
+     "refs": [
+      {
+       "key": "same_model_check.flag.rule",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "not fired",
+     "raw": "not fired",
+     "refs": [
+      {
+       "key": "same_model_check.flag.status",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "same_model_check.flag.fires",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

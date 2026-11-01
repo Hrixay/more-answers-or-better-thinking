@@ -1,0 +1,814 @@
+{
+ "output": {
+  "id": "TAB-14",
+  "kind": "table",
+  "label": "exploratory",
+  "section": "Results: top-up",
+  "title": "Top-up arms and comparisons"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  },
+  "topup_run_spec": {
+   "commit": "9c007e5",
+   "path": "research/topup-run-spec.md",
+   "sha256": "f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "95%. Accuracy: the top-up file's cluster bootstrap over puzzles, 2,000 resamples, except the main-run rows Study 1 also reports, which print Study 1's stamped interval (as TAB-04 prints it): exact (Clopper–Pearson) for Opus-medium's one sample on chains and on pieces, Study 1's cluster bootstrap for step voting on chains. Differences: paired BCa bootstrap, B = 10,000",
+     "raw": [
+      2000,
+      10000
+     ],
+     "refs": [
+      {
+       "key": "constants.draws",
+       "source": "topup"
+      },
+      {
+       "key": "constants.B",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "formula": "designed calls / base puzzles; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "puzzles per shape: 80 in every row (the pooled rows take each puzzle's mean over both shapes). Per puzzle, the picker makes 1 call and reads the first 8 main-run Haiku-medium samples, which the one-sample, vote and any-of rows also use; Opus-medium makes 1 sample. The Haiku team and step voting are adaptive, so their calls per puzzle vary: the Haiku team made 2,399 calls over 160 puzzle-shape pairs, step voting on pieces 1,061 over 80 and step voting on chains (main run) 1,086 over 80.",
+     "raw": [
+      80,
+      1.0,
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      1,
+      2399,
+      160,
+      1061,
+      80,
+      1086,
+      80
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.n_base",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.designed_calls",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.1x6.n_base",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.k",
+       "source": "main"
+      },
+      {
+       "key": "completeness.arms.e2.final",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.e2.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.c13.final",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.c13.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.refusals_and_truncations.calls_made",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "US dollars per puzzle at list price (Study 1's pre-registered price table)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps, which the top-up run also used: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "formula": "text cut /^(False)$/ group 1; not printed: the record for 'the Haiku team and step voting on pieces are compared within the top-up run'; the one status that every cross-window comparison's stamped drift-check (same-model check) flag gives; the build checks they are all equal",
+     "kind": "num",
+     "printed": "Top-up run (6 steps, a separate run): the Haiku team, the Haiku picker and step voting on pieces, against main-run comparators; on pieces, also the Haiku team against step voting on pieces, both in the top-up run; the drift check between the two runs, for every comparison across them: not fired",
+     "raw": [
+      "6x1",
+      "c13",
+      "False",
+      [
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.shape",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.cross_window",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-any8:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-any8:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.same_model_flag",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "tier": [
+    {
+     "formula": "text cut /^(unadjusted) \\(exploratory, outside Holm\\)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'; text cut /^(True)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'; text cut /^(True)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'",
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict); step voting on pieces, whose d against one Opus-medium answer from the main run is the pieces counterpart of Test 4, is unadjusted, exploratory, outside the pre-registered family; the comparator rows that print Study 1's own values are pre-specified descriptive (Label column)",
+     "raw": [
+      "exploratory (no Holm, no verdict)",
+      [
+       "unadjusted",
+       "True",
+       "True"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.exploratory",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.outside_holm_family",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "95% interval (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per puzzle ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points) [95% interval]"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "formula": "text cut /^(True)$/ group 1; not printed: the record for 'this d compares two separate runs (cross-window)'; text cut /^(True)$/ group 1; not printed: the record for 'this d compares two separate runs (cross-window)'; yes: this stamped list of cross-window comparisons names 'Test 4 at pieces'; not printed: this d compares two separate runs (cross-window)",
+     "kind": "num",
+     "printed": "d: the design minus Opus-medium (main run), paired; each d compares two separate runs.",
+     "raw": [
+      "True",
+      "True",
+      "Cross-window comparisons (flag status attached): E2 - E3 at 1x6, E2 - Opus-medium, every picker comparison (its comparators are main-run samples) and Test 4 at pieces. E2 - C13 at 6x1 is within the top-up window."
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-om:1x6.cross_window",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:6x1.cross_window",
+       "source": "topup"
+      },
+      {
+       "key": "choices.cross_window",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Picker cost: its call plus the 8 main-run samples it reads. — marks no d (Opus-medium is the comparator; the picker has no paired comparison with it).",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku team"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "52.5",
+     "raw": 52.5,
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[41.3, 62.5]",
+     "raw": [
+      41.25,
+      62.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.e2.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00623",
+     "raw": 0.00622884625,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−43.8 [−55.0, −31.3]",
+     "raw": [
+      -43.75,
+      -55.0,
+      -31.25
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-om:1x6.d",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku team"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "72.5",
+     "raw": 72.5,
+     "refs": [
+      {
+       "key": "accuracy.e2.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[62.5, 82.5]",
+     "raw": [
+      62.5,
+      82.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.e2.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00649",
+     "raw": 0.00648801875,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−27.5 [−37.5, −18.8]",
+     "raw": [
+      -27.5,
+      -37.5,
+      -18.75
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-om:6x1.d",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku picker"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "62.5",
+     "raw": 62.5,
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[52.5, 72.5]",
+     "raw": [
+      52.5,
+      72.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0103",
+     "raw": 0.01032886875,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "a dash: the top-up file stamps this design's comparisons at this shape with these comparators only, none with Opus-medium (main-om)",
+     "kind": "num",
+     "printed": "—",
+     "raw": [
+      "any8",
+      "single8",
+      "vote8"
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:hp8-any8:1x6.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:1x6.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:1x6.comparator",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku picker"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "67.5",
+     "raw": 67.5,
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[57.5, 78.8]",
+     "raw": [
+      57.5,
+      78.75
+     ],
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0101",
+     "raw": 0.01014913625,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "a dash: the top-up file stamps this design's comparisons at this shape with these comparators only, none with Opus-medium (main-om)",
+     "kind": "num",
+     "printed": "—",
+     "raw": [
+      "any8",
+      "single8",
+      "vote8"
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:hp8-any8:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:6x1.comparator",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Step voting"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "51.3",
+     "raw": 51.25,
+     "refs": [
+      {
+       "key": "accuracy.c13.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[40.0, 62.5]",
+     "raw": [
+      40.0,
+      62.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.c13.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.c13.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00351",
+     "raw": 0.00350548375,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.c13.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−48.8 [−60.0, −37.5]",
+     "raw": [
+      -48.75,
+      -60.0,
+      -37.5
+     ],
+     "refs": [
+      {
+       "key": "test4_pieces.as_deployed.d",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.as_deployed.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.as_deployed.ci95.1",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "96.3",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.4, 99.2]",
+     "raw": [
+      89.42980149834914,
+      99.21988127342833
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0402",
+     "raw": 0.040241,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "a dash: this row is Opus-medium, the stamped comparator of every d printed at this shape",
+     "kind": "num",
+     "printed": "—",
+     "raw": [
+      "main-om"
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-om:1x6.comparator",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.5, 100.0]",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0481",
+     "raw": 0.0481223,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "a dash: this row is Opus-medium, the stamped comparator of every d printed at this shape",
+     "kind": "num",
+     "printed": "—",
+     "raw": [
+      "main-om",
+      "opus-med (main run)"
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-om:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.comparator",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

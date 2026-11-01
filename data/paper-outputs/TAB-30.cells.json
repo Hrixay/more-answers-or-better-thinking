@@ -1,0 +1,3298 @@
+{
+ "output": {
+  "id": "TAB-30",
+  "kind": "table",
+  "label": "post hoc sensitivity",
+  "section": "Discussion and limits (appendix)",
+  "title": "Re-pricing: equal-money k and the vote's gap at other price ratios (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Break-even price ratio",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Vote vs comparator"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Smallest k reaching the comparator's accuracy"
+     },
+     {
+      "kind": "label",
+      "printed": "Samples per comparator answer"
+     },
+     {
+      "kind": "label",
+      "printed": "Break-even price ratio"
+     },
+     {
+      "kind": "label",
+      "printed": "95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "Replicates with no break-even (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Label"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9.38",
+       "raw": 9.3788584962111,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "12.79",
+       "raw": 12.794734033835564,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[4.12, 39.73]",
+       "raw": [
+        4.121332859577595,
+        39.73241339740015
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.1x6.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 10 samples",
+       "raw": "no break-even within 10 tries",
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "11.74",
+       "raw": 11.744990551060196,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 10 samples",
+       "raw": "no break-even within 10 tries",
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[16.86, unbounded]",
+       "raw": [
+        16.858592736841665,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "65.20",
+       "raw": 0.652,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.6x1.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "pooled"
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10.52",
+       "raw": 10.523488675545012,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "34.21",
+       "raw": 34.209187760764664,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[11.20, unbounded]",
+       "raw": [
+        11.202194209334234,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "33.75",
+       "raw": 0.3375,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=6.pooled.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 12 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "1×12"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6.15",
+       "raw": 6.149649290922962,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "32.52",
+       "raw": 32.52217980872585,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[18.06, unbounded]",
+       "raw": [
+        18.059922709052923,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "19.30",
+       "raw": 0.193,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.1x12.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 12 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "12×1"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8.88",
+       "raw": 8.88054172996174,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "22.52",
+       "raw": 22.521148605746337,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[12.67, unbounded]",
+       "raw": [
+        12.670425032334679,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "26.85",
+       "raw": 0.2685,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.12x1.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 12 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "pooled"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "7.42",
+       "raw": 7.416790540118533,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "26.97",
+       "raw": 26.965841750305607,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[15.72, unbounded]",
+       "raw": [
+        15.72046840737432,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "15.55",
+       "raw": 0.1555,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=12.pooled.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 16 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5.50",
+       "raw": 5.499771776484302,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "29.09",
+       "raw": 29.09211627364638,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[20.56, unbounded]",
+       "raw": [
+        20.55684183749333,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "10.55",
+       "raw": 0.1055,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.1x16.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 16 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8.18",
+       "raw": 8.180673585002115,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "29.34",
+       "raw": 29.33743749903425,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[14.50, 49.57]",
+       "raw": [
+        14.498939611076416,
+        49.56722833599782
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.16x1.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max vs Opus-medium, 16 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "pooled"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6.71",
+       "raw": 6.7098156792521015,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.R_list",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "29.81",
+       "raw": 29.807078101777705,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.rho_star",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[17.45, unbounded]",
+       "raw": [
+        17.44828090466836,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.ci95.0",
+         "source": "fa12"
+        },
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.ci95.1",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "5.25",
+       "raw": 0.0525,
+       "refs": [
+        {
+         "key": "result.break_even_haiku_max.N=16.pooled.share_replicates_no_k_match",
+         "source": "fa12"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "post hoc (free analysis 12)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium vs Opus-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "36.58",
+       "raw": 36.57701730937173,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.R_list",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.rho_star",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[unbounded, unbounded]",
+       "raw": [
+        "unbounded",
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.ci95.1",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:1x6.share_replicates_no_k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "pre-specified (item 9d, Study 1)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium vs Opus-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "44.03",
+       "raw": 44.026626739328016,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.R_list",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.rho_star",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[unbounded, unbounded]",
+       "raw": [
+        "unbounded",
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.ci95.1",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.opus-med:6x1.share_replicates_no_k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "pre-specified (item 9d, Study 1)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium vs Sonnet-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "13.40",
+       "raw": 13.399499140688123,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.R_list",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.rho_star",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[unbounded, unbounded]",
+       "raw": [
+        "unbounded",
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.ci95.1",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.80",
+       "raw": 0.998,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:1x6.share_replicates_no_k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "pre-specified (item 9d, Study 1)"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-medium vs Sonnet-medium, 6 steps"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "14.73",
+       "raw": 14.726898090080674,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.R_list",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no break-even within 40 samples",
+       "raw": "no break-even within 40 samples",
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.rho_star",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[12.13, unbounded]",
+       "raw": [
+        12.13007082515573,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.ci95.1",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "87.30",
+       "raw": 0.873,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9d.cells.sonnet-med:6x1.share_replicates_no_k_match",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "pre-specified (item 9d, Study 1)"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Cached view (Study 1, offline re-pricing)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Test"
+     },
+     {
+      "kind": "label",
+      "printed": "Cached k"
+     },
+     {
+      "kind": "label",
+      "printed": "d (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "95% interval"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test 1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.t1.cached_k",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−33.13",
+       "raw": -33.125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t1.d",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−43.75, −23.75]",
+       "raw": [
+        -43.75,
+        -23.75
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t1.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t1.ci95.1",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test 2"
+      },
+      {
+       "kind": "num",
+       "printed": "39",
+       "raw": 39,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.t2.cached_k",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−38.21",
+       "raw": -38.21354166666667,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t2.d",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−49.39, −27.04]",
+       "raw": [
+        -49.38541666666667,
+        -27.041666666666668
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t2.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t2.ci95.1",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test 3"
+      },
+      {
+       "kind": "num",
+       "printed": "14",
+       "raw": 14,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.t3.cached_k",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−24.39",
+       "raw": -24.388193482446532,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t3.d",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−35.90, −11.80]",
+       "raw": [
+        -35.89755131051123,
+        -11.802210378420552
+       ],
+       "refs": [
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t3.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "reporting.group_b.item_9f.family_row.family.tests.t3.ci95.1",
+         "source": "main"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa12": {
+   "commit": "a0ecfba",
+   "path": "data/main/free-analyses/fa12.json",
+   "sha256": "63d009747ae20318f3332a61fd6f088c4eead9694a754e122af5146f68c34a81"
+  },
+  "fa3": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa3.json",
+   "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "gaps d and the cached view: paired BCa bootstrap over puzzles, 95%, B = 10,000 (the same for the locked tests, free analysis 3 and free analysis 12); break-even: cluster bootstrap over puzzles, 95%, 2,000 draws for the Haiku-max rows (free analysis 12); Study 1's pre-specified Haiku-medium break-even rows: the same kind of interval from the locked analysis, whose draw count is not stamped",
+     "raw": [
+      10000,
+      2000
+     ],
+     "refs": [
+      {
+       "key": "code.B",
+       "source": "fa12"
+      },
+      {
+       "key": "code.draws",
+       "source": "fa12"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "formula": "tries / base_puzzles",
+     "kind": "num",
+     "printed": "Study 1: 80 puzzles per test, in the test's shape; the Haiku-medium vote draws its k from 40 samples per puzzle, and the comparator gives 1 sample per puzzle; Study 1's pre-specified Haiku-medium break-even uses the same puzzles per shape. Study 1b: Test B2 and Test B1 on 80 puzzles at 16 steps, each puzzle's chain and pieces pooled; the Haiku-max break-even on 40 puzzles at 6 steps and 80 at 12 steps and 16 steps. In Study 1b the Haiku-max vote draws its k from 10 samples per puzzle and shape at every length, and Opus-medium's samples per puzzle and shape (2, 1 and 2 on the 6-step, 12-step and 16-step sets) are averaged",
+     "raw": [
+      80,
+      40,
+      1.0,
+      80,
+      40,
+      80,
+      10,
+      2,
+      1,
+      2
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.paired.n",
+       "source": "fa12"
+      },
+      {
+       "key": "k_from_rows.opus.6x1.samples_drawn",
+       "source": "main_k"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.refusals_and_truncations.tries",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.base_puzzles",
+       "source": "main"
+      },
+      {
+       "key": "result.tests.B2.by_rho.0.paired.n",
+       "source": "fa12"
+      },
+      {
+       "key": "result.break_even_haiku_max.N=6.pooled.n_bases",
+       "source": "fa12"
+      },
+      {
+       "key": "result.break_even_haiku_max.N=12.pooled.n_bases",
+       "source": "fa12"
+      },
+      {
+       "key": "samples_drawn",
+       "source": "s1b_k"
+      },
+      {
+       "key": "descriptive.arms.om@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@12.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list prices of the pinned table, re-scaled per row"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1: the main-run puzzle set at 6 steps; Study 1b: the 16-step set for Tests B1 and B2, and the 6-step, 12-step and 16-step sets for the Haiku-max break-even"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run (Tests 1–3; the pre-specified break-even price ratio and cached view), and Study 1b (Tests B1 and B2; the Haiku-max break-even)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc sensitivity (free analysis 12), beside Study 1's pre-specified break-even price ratio and cached view; a row that is the same comparison as a printed result reprints it with its label (confirmatory: Tests 1–3, B1 and B2 as run; post hoc: free analysis 3)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Price ratio per token (comparator / Haiku)"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples per comparator answer"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost-matched k"
+   },
+   {
+    "kind": "label",
+    "printed": "Held"
+   },
+   {
+    "kind": "label",
+    "printed": "Vote accuracy at k (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Comparator accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Gap d (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Source of d and interval"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "The stamped label of free analysis 12 reads"
+    },
+    {
+     "kind": "num",
+     "printed": "\"post hoc sensitivity: how far the equal-money readings rest on one price list; no reading\";",
+     "raw": "post hoc sensitivity: how far the equal-money readings rest on one price list; no reading",
+     "refs": [
+      {
+       "key": "result.label",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "its \"equal-money\" is cost-matched."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Samples per comparator answer: the comparator's cost per answer divided by the cost of one Haiku sample (at the price ratio in the row; in Panel 1, at list price)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The price ratio is per token, comparator over Haiku, the same for input and output (the pinned table's is"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40.0,
+     "refs": [
+      {
+       "key": "result.tests.t1.rho_list",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Opus and"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20.0,
+     "refs": [
+      {
+       "key": "result.tests.t3.rho_list",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "for Sonnet); token counts are held as measured. At the list ratio each row is the locked test and prints its d and interval."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "One comparison, one interval: any other re-priced row that is the same comparison as a printed result (the same settings, k and puzzle set) takes that result and its label, named in the last column. A Test 1 row held at the locked test's k is Test 1 as run; Test B2's one-sample vote is Test B1 (one Haiku-max sample against Opus-medium on the same 16-step set); its votes at other k are free analysis 3's rows at that k. The remaining rows are post hoc (free analysis 12), with no reading."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Held: the cost-matched k at that price exceeds the samples drawn per puzzle and shape, so k is held at that number."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Accuracies in the main panel are given to two decimals, as the tests' own tables give them, so a row that is a locked test prints the same numbers; d always has two. d is the difference of the unrounded accuracies, so it can differ in its last digit from the difference of the two printed accuracies."
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Under the original pre-registered marking rule, which Deviation 2 kept as a sensitivity check, Test 3 would read inconclusive instead of worse by more than the margin (d = +0.30 points, 95% interval −13.58 to +14.95).",
+     "raw": [
+      "inconclusive",
+      "worse by more than the margin",
+      0.30429160299813884,
+      [
+       -13.575129632250732,
+       14.949624502459807
+      ]
+     ],
+     "refs": [
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.d",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "A break-even interval end is \"unbounded\" when too many replicates never reach the comparator's accuracy within the samples drawn; the share of such replicates is shown."
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Break-even intervals (Panel 1): the Haiku-max rows' cluster bootstrap uses 2,000 draws (free analysis 12); the Haiku-medium rows are Study 1's pre-specified break-even (item 9d), whose interval comes from the locked analysis, and the locked file does not stamp its number of draws, so none is given here.",
+     "raw": 2000,
+     "refs": [
+      {
+       "key": "code.draws",
+       "source": "fa12"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "one reading, equal in every test (checked)",
+     "kind": "num",
+     "printed": "Cached view: the reading from the pre-registered decision rule, applied to the cached view's interval, is worse by more than the margin in every test (Tests 1–3).",
+     "raw": "worse by more than the margin",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9f.family_row.family.tests.t1.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.family.tests.t2.reading",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9f.family_row.family.tests.t3.reading",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Cached view: Test 1's cached k is held at the cap of 40 samples drawn; the cached cost of that many samples is still below the comparator's list cost per answer.",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9f.t1.k_cap",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11.01",
+     "raw": 11.006656684832004,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11",
+     "raw": 11,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "64.44",
+     "raw": 64.44456464179544,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−35.56",
+     "raw": -35.55543535820457,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−44.85, −27.57]",
+     "raw": [
+      -44.8527452279058,
+      -27.568785205865947
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.0.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t1.by_rho.0.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "22.01",
+     "raw": 22.013313369664008,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "22",
+     "raw": 22,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "66.06",
+     "raw": 66.06370151450517,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−33.94",
+     "raw": -33.93629848549484,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−43.92, −24.85]",
+     "raw": [
+      -43.92150767215264,
+      -24.84838544206874
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.1.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t1.by_rho.1.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "44.03",
+     "raw": 44.026626739328016,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "held at 40",
+     "raw": [
+      true,
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.held_to_samples",
+       "source": "fa12"
+      },
+      {
+       "key": "k_from_rows.opus.6x1.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "66.88",
+     "raw": 66.875,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.2.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−33.13",
+     "raw": -33.125,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−43.75, −23.75]",
+     "raw": [
+      -43.75,
+      -23.75
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test 1)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "88.05",
+     "raw": 88.05325347865603,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "held at 40",
+     "raw": [
+      true,
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.held_to_samples",
+       "source": "fa12"
+      },
+      {
+       "key": "k_from_rows.opus.6x1.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "66.88",
+     "raw": 66.875,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.tests.t1.by_rho.3.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−33.13",
+     "raw": -33.125,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−43.75, −23.75]",
+     "raw": [
+      -43.75,
+      -23.75
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test 1)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "9.14",
+     "raw": 9.144254327342933,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": 9,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "53.62",
+     "raw": 53.62023457111618,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−42.63",
+     "raw": -42.6297654288838,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−51.82, −33.00]",
+     "raw": [
+      -51.8192137182438,
+      -32.997969712341806
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.0.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t2.by_rho.0.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "18.29",
+     "raw": 18.288508654685867,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "18",
+     "raw": 18,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "56.71",
+     "raw": 56.71180653609262,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−39.54",
+     "raw": -39.5381934639074,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−49.82, −29.82]",
+     "raw": [
+      -49.81665743311811,
+      -29.821833280694392
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.1.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t2.by_rho.1.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "36.58",
+     "raw": 36.57701730937173,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "36",
+     "raw": 36,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "58.61",
+     "raw": 58.60726237370975,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.2.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−37.64",
+     "raw": -37.642737626290256,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−48.82, −26.96]",
+     "raw": [
+      -48.82033729073203,
+      -26.964504230951597
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test 2)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "73.15",
+     "raw": 73.15403461874347,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "held at 40",
+     "raw": [
+      true,
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.held_to_samples",
+       "source": "fa12"
+      },
+      {
+       "key": "k_from_rows.opus.1x6.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57.50",
+     "raw": 57.5,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−38.75",
+     "raw": -38.75,
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−50.00, −28.13]",
+     "raw": [
+      -50.0,
+      -28.125
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t2.by_rho.3.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t2.by_rho.3.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6.70",
+     "raw": 6.6997495703440615,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "51.59",
+     "raw": 51.594802549078835,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−28.41",
+     "raw": -28.405197450921133,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−39.28, −16.13]",
+     "raw": [
+      -39.283548484864276,
+      -16.12720649184465
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.0.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t3.by_rho.0.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "13.40",
+     "raw": 13.399499140688123,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "13",
+     "raw": 13,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "55.30",
+     "raw": 55.30417430927376,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.1.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−24.70",
+     "raw": -24.69582569072623,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.d",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−36.12, −12.20]",
+     "raw": [
+      -36.11658909624632,
+      -12.198504541137433
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test 3)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26.80",
+     "raw": 26.798998281376246,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26",
+     "raw": 26,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "58.21",
+     "raw": 58.21156156952052,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−21.79",
+     "raw": -21.788438430479466,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−34.31, −9.09]",
+     "raw": [
+      -34.31316135810718,
+      -9.089923319903663
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.2.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t3.by_rho.2.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "53.60",
+     "raw": 53.59799656275249,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "held at 40",
+     "raw": [
+      true,
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.held_to_samples",
+       "source": "fa12"
+      },
+      {
+       "key": "k_from_rows.sonnet.1x6.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57.50",
+     "raw": 57.5,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−22.50",
+     "raw": -22.5,
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.paired.d",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−35.00, −8.75]",
+     "raw": [
+      -35.0,
+      -8.75
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t3.by_rho.3.paired.ci95.0",
+       "source": "fa12"
+      },
+      {
+       "key": "result.tests.t3.by_rho.3.paired.ci95.1",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 12)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.68",
+     "raw": 1.6774539198130254,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.63",
+     "raw": 92.625,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.0.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.19",
+     "raw": -5.1875,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.75, −2.69]",
+     "raw": [
+      -7.75,
+      -2.6875
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test B1: the same comparison as a one-sample vote)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3.35",
+     "raw": 3.3549078396260508,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.03",
+     "raw": 97.02604166666666,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.1.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.79",
+     "raw": -0.7864583333333341,
+     "refs": [
+      {
+       "key": "result.by_k.1.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−2.83, 1.21]",
+     "raw": [
+      -2.828125000000001,
+      1.211805555555555
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.1.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.1.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 3 at this k)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6.71",
+     "raw": 6.7098156792521015,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "",
+     "raw": false,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.held_to_samples",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.44",
+     "raw": 98.44494047619047,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.2.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.63",
+     "raw": 0.6324404761904753,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.15, 2.44]",
+     "raw": [
+      -1.1458333333333346,
+      2.4404761904761894
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "confirmatory (Test B2)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.rho_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "13.42",
+     "raw": 13.419631358504203,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.R_prime",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.k",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "held at 10",
+     "raw": [
+      true,
+      10
+     ],
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.held_to_samples",
+       "source": "fa12"
+      },
+      {
+       "key": "samples_drawn",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.vote_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "result.tests.B2.by_rho.3.comparator_mean",
+       "source": "fa12"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.56",
+     "raw": 1.5625,
+     "refs": [
+      {
+       "key": "result.by_k.8.pooled.d",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.63, 3.44]",
+     "raw": [
+      -0.625,
+      3.4375
+     ],
+     "refs": [
+      {
+       "key": "result.by_k.8.pooled.ci95.0",
+       "source": "fa3"
+      },
+      {
+       "key": "result.by_k.8.pooled.ci95.1",
+       "source": "fa3"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 3 at this k)"
+    }
+   ]
+  ]
+ }
+}

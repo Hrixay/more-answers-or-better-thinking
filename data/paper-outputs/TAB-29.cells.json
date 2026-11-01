@@ -1,0 +1,1480 @@
+{
+ "output": {
+  "id": "TAB-29",
+  "kind": "table",
+  "label": "post hoc exploratory",
+  "section": "Results: Study 1 (beside Test 5) or Discussion and limits",
+  "title": "Sonnet at its default effort on Study 1b's 40 six-step bases"
+ },
+ "panels": [],
+ "sources": {
+  "fa9": {
+   "commit": "a0ecfba",
+   "path": "data/main/free-analyses/fa9.json",
+   "sha256": "88db8da4553ea4b6359bdbbc8e77ad070682c1441a85dba12ead6174b5a94f44"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "paired BCa bootstrap over puzzles, 95%, B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "code.B",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "puzzles: 40 (Study 1b's 6-step set), each as a chain (1×6) and as pieces (6×1); samples per puzzle and shape: Sonnet-high 1, Opus-low 1, Sonnet-medium 1, Opus-medium 2 and Haiku-max 10; a setting with several samples contributes each puzzle's mean over them (its one-sample accuracy)",
+     "raw": [
+      40,
+      1,
+      1,
+      1,
+      2,
+      10
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.pooled.n",
+       "source": "fa9"
+      },
+      {
+       "key": "descriptive.arms.sh@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ol@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.sm@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory (free analysis 9); beside Test 5, a reading across studies: our reading, not a test"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Comparator"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Comparator accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Comparator format compliance (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points), Sonnet-high minus comparator"
+   },
+   {
+    "kind": "label",
+    "printed": "95% interval (paired bootstrap)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost ratio per answer (Sonnet-high / comparator)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost-per-correct ratio (Sonnet-high / comparator)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Label:"
+    },
+    {
+     "kind": "num",
+     "printed": "post hoc exploratory; against Test 5 a cross-study reading (Study 1b's 6-step set, not Study 1's).",
+     "raw": "post hoc exploratory; against Test 5 a cross-study reading (Study 1b's 6-step set, not Study 1's)",
+     "refs": [
+      {
+       "key": "result.label",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Every row is on the"
+    },
+    {
+     "formula": "one value, equal in every row (checked)",
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.1x6.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.paired.6x1.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.paired.pooled.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.1x6.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.6x1.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.pooled.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.1x6.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.6x1.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.pooled.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.1x6.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.6x1.n",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.pooled.n",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles of Study 1b's 6-step set, as a chain and as pieces. In every row, Sonnet-high's accuracy is"
+    },
+    {
+     "formula": "one value, equal in every row (checked)",
+     "kind": "num",
+     "printed": "97.50%",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.sonnet_high_mean.1x6",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.sonnet_high_mean.6x1",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.sonnet_high_mean.pooled",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.sonnet_high_mean.1x6",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.sonnet_high_mean.6x1",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.sonnet_high_mean.pooled",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.sonnet_high_mean.1x6",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.sonnet_high_mean.6x1",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.sonnet_high_mean.pooled",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.sonnet_high_mean.1x6",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.sonnet_high_mean.6x1",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.sonnet_high_mean.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and its format compliance, in both shapes, is"
+    },
+    {
+     "formula": "one value, equal in every row and shape (checked)",
+     "kind": "num",
+     "printed": "100.00%.",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sh.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The 6-step set includes"
+    },
+    {
+     "formula": "fa9 base puzzles (6-step set) minus the base puzzles Test B3 keeps in the exposed-base sensitivity",
+     "kind": "num",
+     "printed": "2",
+     "raw": 2.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.pooled.n",
+       "source": "fa9"
+      },
+      {
+       "key": "sensitivity_exposed_bases_excluded.bases_per_test.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "puzzles for which parts of the answer keys were shown in our own work sessions; those parts were never shown to a model under test, so no sensitivity run was needed.",
+     "raw": "The 6-step set includes the two partly shown bases (C-066), which were never shown to a model under test; no sensitivity run is needed (Edith, ops/reviews/2026-10-15-labelling-and-fa9-fa12-definitions.md).",
+     "refs": [
+      {
+       "key": "result.note",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% interval: the paired BCa (bias-corrected and accelerated) bootstrap over puzzles, B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000.",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "code.B",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet's default effort is high; Test 5 compared Opus-low with Sonnet-medium on Study 1's puzzles. These rows are on Study 1b's 6-step set, so set beside Test 5 they are a reading across studies: our reading, not a test."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance is the share of answered samples in the required answer format; in the pooled rows it is given per shape, 1×6 / 6×1."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-low",
+     "raw": "Opus-low",
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator_mean.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.1x6.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.50, 7.50]",
+     "raw": [
+      -7.5,
+      7.5
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.1x6.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.paired.1x6.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.46",
+     "raw": 0.4554687566361533,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cost_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.46",
+     "raw": 0.4554687566361534,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cpc_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-low",
+     "raw": "Opus-low",
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator_mean.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.6x1.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−15.00, 0.00]",
+     "raw": [
+      -15.0,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.6x1.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.paired.6x1.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.50",
+     "raw": 0.4952905409281248,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cost_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.51",
+     "raw": 0.5079902983878203,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cpc_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-low",
+     "raw": "Opus-low",
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.comparator_mean.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "97.50 / 100.00",
+     "raw": [
+      0.975,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ol.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−1.25",
+     "raw": -1.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.pooled.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−6.25, 2.50]",
+     "raw": [
+      -6.25,
+      2.5
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.paired.pooled.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-ol.paired.pooled.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.48",
+     "raw": 0.4774652599986819,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cost_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.48",
+     "raw": 0.4835866094858444,
+     "refs": [
+      {
+       "key": "result.sh-vs-ol.cpc_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-medium",
+     "raw": "Opus-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator_mean.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−1.25",
+     "raw": -1.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.1x6.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−10.00, 2.50]",
+     "raw": [
+      -10.0,
+      2.5
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.1x6.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.1x6.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.40",
+     "raw": 0.39644959476927666,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cost_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.40",
+     "raw": 0.4015322818817033,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cpc_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-medium",
+     "raw": "Opus-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator_mean.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.6x1.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−12.50, 0.00]",
+     "raw": [
+      -12.5,
+      0.0
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.6x1.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.6x1.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.45",
+     "raw": 0.4533492948576589,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cost_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.46",
+     "raw": 0.464973635751445,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cpc_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Opus-medium",
+     "raw": "Opus-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.comparator_mean.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.00 / 100.00",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−1.88",
+     "raw": -1.875,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.pooled.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.50, 0.63]",
+     "raw": [
+      -7.5,
+      0.625
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-om.paired.pooled.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-om.paired.pooled.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.43",
+     "raw": 0.42717015449004225,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cost_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.44",
+     "raw": 0.43538496515331226,
+     "refs": [
+      {
+       "key": "result.sh-vs-om.cpc_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Haiku-max, one sample",
+     "raw": "Haiku-max, one try",
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator_mean.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.25",
+     "raw": 0.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.1x6.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−9.00, 3.75]",
+     "raw": [
+      -9.0,
+      3.75
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.1x6.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.1x6.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3.72",
+     "raw": 3.718244650221278,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cost_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3.71",
+     "raw": 3.7087106895796857,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cpc_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Haiku-max, one sample",
+     "raw": "Haiku-max, one try",
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator_mean.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+3.25",
+     "raw": 3.25,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.6x1.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−6.00, 7.75]",
+     "raw": [
+      -6.0,
+      7.75
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.6x1.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.6x1.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5.32",
+     "raw": 5.324583184433006,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cost_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5.15",
+     "raw": 5.147097078285239,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cpc_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Haiku-max, one sample",
+     "raw": "Haiku-max, one try",
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "num",
+     "printed": "95.75",
+     "raw": 95.75,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.comparator_mean.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.00 / 100.00",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.75",
+     "raw": 1.75,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.pooled.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−4.00, 5.25]",
+     "raw": [
+      -4.0,
+      5.25
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.paired.pooled.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-hx.paired.pooled.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4.50",
+     "raw": 4.495320283306773,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cost_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4.41",
+     "raw": 4.414635047452548,
+     "refs": [
+      {
+       "key": "result.sh-vs-hx.cpc_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Sonnet-medium",
+     "raw": "Sonnet-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "77.50",
+     "raw": 77.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator_mean.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+20.00",
+     "raw": 20.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.1x6.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[7.50, 35.00]",
+     "raw": [
+      7.5,
+      35.0
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.1x6.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.1x6.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.08",
+     "raw": 1.0842533802456154,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cost_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.86",
+     "raw": 0.8618424304516431,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cpc_ratio.1x6",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Sonnet-medium",
+     "raw": "Sonnet-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "82.50",
+     "raw": 82.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator_mean.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+15.00",
+     "raw": 15.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.6x1.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[2.50, 30.00]",
+     "raw": [
+      2.5,
+      30.0
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.6x1.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.6x1.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.36",
+     "raw": 1.3592129083038174,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cost_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.15",
+     "raw": 1.1501032301032301,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cpc_ratio.6x1",
+       "source": "fa9"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Sonnet-medium",
+     "raw": "Sonnet-medium",
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.comparator_mean.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "97.50 / 100.00",
+     "raw": [
+      0.975,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.sm.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+17.50",
+     "raw": 17.5,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.pooled.d",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[10.00, 25.00]",
+     "raw": [
+      10.0,
+      25.0
+     ],
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.paired.pooled.ci95.0",
+       "source": "fa9"
+      },
+      {
+       "key": "result.sh-vs-sm.paired.pooled.ci95.1",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.23",
+     "raw": 1.226410395394149,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cost_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.01",
+     "raw": 1.0062854526310965,
+     "refs": [
+      {
+       "key": "result.sh-vs-sm.cpc_ratio.pooled",
+       "source": "fa9"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

@@ -1,0 +1,1181 @@
+{
+ "output": {
+  "id": "TAB-28",
+  "kind": "table",
+  "label": "post hoc descriptive",
+  "section": "Results: effort and length",
+  "title": "Haiku with thinking off: format failures and wrong answers"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "fa8": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa8.json",
+   "sha256": "33f5ed5fad5bb936cd7aa96d9b6718be6900547a4044fb9c1ba23a63ac912f0c"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "95% over puzzles: Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "cluster bootstrap",
+     "raw": "cluster bootstrap",
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.interval",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; Study 1 cluster bootstrap; exact (Clopper–Pearson, post hoc) where marked"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles: Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; Study 1b 6-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; Study 1b 16-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.1x16.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; samples per puzzle: Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-thinking-off 1x6.own_k.vs opus-med.k_value.samples_drawn",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "no costs in this table"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1: the main-run puzzle set; Study 1b: its 6-step and 16-step sets (other puzzles)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 (main run, 6 steps) and Study 1b (6-step and 16-step sets), each row within one study"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "Study 1: exploratory setting for the accuracy and its 95% interval, format columns pre-specified descriptive; Study 1b: pre-specified descriptive; columns marked post hoc: post hoc descriptive recount"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Study"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples"
+   },
+   {
+    "kind": "label",
+    "printed": "Format ok"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Not-ok format statuses"
+   },
+   {
+    "kind": "label",
+    "printed": "Format not ok (post hoc)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format ok but wrong (post hoc)"
+   },
+   {
+    "kind": "label",
+    "printed": "Right (post hoc)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy on format-ok samples (%; conditional, post hoc)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Post hoc sample counts. Format not ok: the sample's official format status (the marking rule with Deviation 2) is not ok; the kinds are listed under not-ok format statuses. Format ok but wrong: format ok, answer wrong. Right: the official answer is right; every right sample is format ok, because the official rule scores a sample whose format is not ok as wrong. The three counts add up to the samples (both checked when the table is built)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The post hoc analysis calls the format-not-ok samples \"unparseable\", but on chains such a sample can still carry a readable, even right, final answer. Scored on the final answer alone, Study 1's chains reach"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "27.97%",
+     "raw": 0.2796875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-thinking-off 1x6.rates.final_acc",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "against the official"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "22.00%",
+     "raw": 0.22,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-thinking-off 1x6.rates.official_acc",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(an exploratory setting). On pieces the final answer is the whole answer, so the two scores coincide (checked against Study 1's stamped final-answer scoring); no other chain row has a stamped final-answer accuracy."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Accuracy on format-ok samples (the post hoc analysis calls it \"accuracy on parseable tries\") is the right answers among the format-ok samples divided by the format-ok samples. It is conditional on format and is not a whole-answer accuracy."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Labels. In Study 1, Haiku, thinking off, is one of the pre-registered exploratory settings, so its accuracy and 95% interval are exploratory values, read from Study 1's pre-specified table of every setup's results. The format columns (samples, format ok, format compliance and the not-ok statuses) are pre-specified descriptive in both studies (the pre-registered format rules). Study 1b's accuracy and interval are pre-specified descriptive. The columns marked post hoc are a post hoc descriptive recount of the per-sample scores; the recount's samples, format ok, statuses and accuracy on all samples agree with the locked values (checked when the table is built)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 and Study 1b used different puzzle sets and different runs; set side by side, their rows are a reading across studies: our reading, not a test."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "(exact): the bootstrap interval collapsed to one value; the exact (Clopper–Pearson) 95% interval over puzzles replaces it (post hoc presentation)."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "3,200",
+     "raw": 3200,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.tries",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,615",
+     "raw": 2615,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_ok",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "81.72",
+     "raw": 0.8171875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "22.00\n\n[16.97, 27.31]",
+     "raw": [
+      22.0,
+      [
+       16.96875,
+       27.3125
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_interval.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_interval.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.accuracy_interval.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "extra line 373; misnumbered 94; missing line 65; non-integer 52; answer mismatch 1",
+     "raw": [
+      373,
+      94,
+      65,
+      52,
+      1
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.status_counts.extra_line",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.status_counts.misnumbered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.status_counts.missing_line",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.status_counts.non_integer",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.status_counts.answer_mismatch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "585",
+     "raw": 585,
+     "refs": [
+      {
+       "key": "result.study1:6:1x6.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,911",
+     "raw": 1911,
+     "refs": [
+      {
+       "key": "result.study1:6:1x6.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "704",
+     "raw": 704,
+     "refs": [
+      {
+       "key": "result.study1:6:1x6.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "26.92",
+     "raw": 0.2692160611854684,
+     "refs": [
+      {
+       "key": "result.study1:6:1x6.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "3,200",
+     "raw": 3200,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.tries",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3,186",
+     "raw": 3186,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.format_ok",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.56",
+     "raw": 0.995625,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "23.50\n\n[18.81, 28.56]",
+     "raw": [
+      23.5,
+      [
+       18.8125,
+       28.5625
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_interval.mean",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_interval.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.accuracy_interval.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "non-integer 5; wrong length 5; missing line 4",
+     "raw": [
+      5,
+      5,
+      4
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.status_counts.non_integer",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.status_counts.wrong_length",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.status_counts.missing_line",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "14",
+     "raw": 14,
+     "refs": [
+      {
+       "key": "result.study1:6:6x1.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,434",
+     "raw": 2434,
+     "refs": [
+      {
+       "key": "result.study1:6:6x1.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "752",
+     "raw": 752,
+     "refs": [
+      {
+       "key": "result.study1:6:6x1.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "23.60",
+     "raw": 0.23603264281230382,
+     "refs": [
+      {
+       "key": "result.study1:6:6x1.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "200",
+     "raw": 200,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.tries",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "167",
+     "raw": 167,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_ok",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "83.50",
+     "raw": 0.835,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26.50\n\n[17.50, 36.50]",
+     "raw": [
+      26.5,
+      [
+       17.5,
+       36.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.1x6.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.1x6.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.1x6.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "extra line 26; missing line 3; misnumbered 2; non-integer 2",
+     "raw": [
+      26,
+      3,
+      2,
+      2
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.status_counts.extra_line",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.status_counts.missing_line",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.status_counts.misnumbered",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x6.status_counts.non_integer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "33",
+     "raw": 33,
+     "refs": [
+      {
+       "key": "result.study1b:6:1x6.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "114",
+     "raw": 114,
+     "refs": [
+      {
+       "key": "result.study1b:6:1x6.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "53",
+     "raw": 53,
+     "refs": [
+      {
+       "key": "result.study1b:6:1x6.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "31.74",
+     "raw": 0.31736526946107785,
+     "refs": [
+      {
+       "key": "result.study1b:6:1x6.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "200",
+     "raw": 200,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.tries",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "199",
+     "raw": 199,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_ok",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "28.50\n\n[19.00, 38.00]",
+     "raw": [
+      28.5,
+      [
+       19.0,
+       38.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@6.6x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "wrong length 1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.6x1.status_counts.wrong_length",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "result.study1b:6:6x1.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "142",
+     "raw": 142,
+     "refs": [
+      {
+       "key": "result.study1b:6:6x1.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "57",
+     "raw": 57,
+     "refs": [
+      {
+       "key": "result.study1b:6:6x1.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "28.64",
+     "raw": 0.2864321608040201,
+     "refs": [
+      {
+       "key": "result.study1b:6:6x1.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "kind": "num",
+     "printed": "400",
+     "raw": 400,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.tries",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "112",
+     "raw": 112,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_ok",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "28.00",
+     "raw": 0.28,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00\n\n[0.00, 4.51]\n\n(exact)",
+     "raw": [
+      0.0,
+      [
+       0.0,
+       4.5064035067692245
+      ]
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.1x16.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.12.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.12.exact95.1",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "missing line 220; extra line 46; misnumbered 16; non-integer 6",
+     "raw": [
+      220,
+      46,
+      16,
+      6
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.status_counts.missing_line",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.status_counts.extra_line",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.status_counts.misnumbered",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.1x16.status_counts.non_integer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "288",
+     "raw": 288,
+     "refs": [
+      {
+       "key": "result.study1b:16:1x16.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "112",
+     "raw": 112,
+     "refs": [
+      {
+       "key": "result.study1b:16:1x16.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "result.study1b:16:1x16.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "0.00",
+     "raw": 0.0,
+     "refs": [
+      {
+       "key": "result.study1b:16:1x16.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "kind": "num",
+     "printed": "400",
+     "raw": 400,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.tries",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "313",
+     "raw": 313,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_ok",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "78.25",
+     "raw": 0.7825,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1.00\n\n[0.00, 2.25]",
+     "raw": [
+      1.0,
+      [
+       0.0,
+       2.25
+      ]
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.ho@16.16x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.16x1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "missing line 73; no answer 7; non-integer 7",
+     "raw": [
+      73,
+      7,
+      7
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.status_counts.missing_line",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.status_counts.no_answer",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.ho.16x1.status_counts.non_integer",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "87",
+     "raw": 87,
+     "refs": [
+      {
+       "key": "result.study1b:16:16x1.unparseable",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "309",
+     "raw": 309,
+     "refs": [
+      {
+       "key": "result.study1b:16:16x1.parseable_but_wrong",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4",
+     "raw": 4,
+     "refs": [
+      {
+       "key": "result.study1b:16:16x1.right",
+       "source": "fa8"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "1.28",
+     "raw": 0.012779552715654952,
+     "refs": [
+      {
+       "key": "result.study1b:16:16x1.accuracy_on_parseable_conditional",
+       "source": "fa8"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

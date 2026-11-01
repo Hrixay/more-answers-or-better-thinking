@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "056dd26b7c5febe9061f0011930dabe91046ae11",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "103.28631355",
+  "item_set_sha256": "99daef19522442b0d8819e4e751572f61ecbebf22031cc4d6e847a4cdf87447a",
+  "mode": "batch",
+  "n_items": 1480,
+  "note": "top-up run (D-99, D-100): E2, H-pick8, C13 and the same-model check, in Batch rounds built from the call log; plan e038a46e62cfd28a5a4548f2d09c9f52c61e4ba1958b6c4ee6cc800ea9459d8d; the item set listed is round 1 only (later rounds are built from the log)",
+  "price_table_date": "2026-10-13",
+  "run_cap_usd": "25",
+  "run_id": "topup-1",
+  "source_sha256": "084838a4c9638eea002bb6930054540bcc29896679b91d8a270187e591e4e3d6"
+}

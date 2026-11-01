@@ -1,0 +1,7 @@
+Test,Shape,Challenger,Challenger accuracy (%),Challenger 95% interval,Opus-medium accuracy (%),Opus-medium 95% interval,d (points),d 95% interval,"Format compliance, challenger (%)"
+Test B1,chains (1×16),One Haiku-max sample,92.25,"[89.13, 94.88]",96.88,"[93.75, 99.38]",−4.63,"[−8.75, −0.38]",99.50
+Test B1,pieces (16×1),One Haiku-max sample,93.00,"[90.38, 95.38]",98.75,"[96.88, 100.00]",−5.75,"[−8.63, −2.63]",99.88
+Test B2,chains (1×16),Haiku-max vote,98.04,"[95.65, 99.60]",96.88,"[93.75, 99.38]",+1.16,"[−2.22, 4.72]",99.50
+Test B2,pieces (16×1),Haiku-max vote,98.85,"[97.54, 99.90]",98.75,"[96.88, 100.00]",+0.10,"[−1.80, 2.23]",99.88
+Test B3,chains (1×6),One Haiku-max sample,97.25,"[94.75, 99.25]",98.75,"[96.25, 100.00]",−1.50,"[−4.75, 1.50]",100.00
+Test B3,pieces (6×1),One Haiku-max sample,94.25,"[90.75, 97.25]",100.00,"[91.19, 100.00] (exact, post hoc; 40 puzzles)",−5.75,"[−9.25, −2.75]",100.00

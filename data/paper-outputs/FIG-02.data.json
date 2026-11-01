@@ -1,0 +1,8746 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Three panels. Panels A (chains) and B (pieces) are dot plots of the whole-answer accuracy of the Haiku-medium vote of"
+  },
+  {
+   "kind": "num",
+   "printed": "40",
+   "raw": 40,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples. Puzzles are grouped by their single-sample accuracy bin (bins of"
+  },
+  {
+   "formula": "upper edge in the bin's key name - bin_lower_edge",
+   "kind": "num",
+   "printed": "10",
+   "raw": 10.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[0,10)']",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].bin_lower_edge",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "points, each labelled by its range on the x axis, in two staggered rows) and, within each bin, by thirds of how often their wrong samples agree with each other: up to three dots per bin, from left to right the lowest, middle and highest third (three shades of Haiku’s blue, darkest for the lowest third), each with a 95% bar. No line joins the dots: each cell holds"
+  },
+  {
+   "kind": "num",
+   "printed": "1",
+   "raw": 1,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.n",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "to"
+  },
+  {
+   "kind": "num",
+   "printed": "6",
+   "raw": 6,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.n",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "puzzles, so the dots show where a cell sits, not a trend. One more dot, in grey and labelled “too few wrong samples”, in a column of its own right of the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "90–100",
+   "raw": [
+    90,
+    100
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin (whose puzzles they are), stands for the puzzles with fewer than"
+  },
+  {
+   "formula": "the number in the sentence 'Puzzles with fewer than N wrong tries are left out' (C-040.min_wrong)",
+   "kind": "num",
+   "printed": "2",
+   "raw": 2,
+   "refs": [
+    {
+     "key": "item_C9.definition",
+     "source": "groupc"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "wrong samples, too few to split into thirds:"
+  },
+  {
+   "kind": "num",
+   "printed": "6",
+   "raw": 6,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.n",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "chains and"
+  },
+  {
+   "kind": "num",
+   "printed": "5",
+   "raw": 5,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.n",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "pieces. The number of puzzles in each cell prints in one row under the dots, in light grey bands that run behind every second bin and behind the grey dot’s column. No value is printed beside a dot; the cells that are neither at zero nor at the top of the axis are, in the chains panel:"
+  },
+  {
+   "kind": "label",
+   "printed": "in the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "10–20",
+   "raw": [
+    10,
+    20
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin"
+  },
+  {
+   "kind": "label",
+   "printed": "the lowest third"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "83.3%, and in the",
+   "raw": 0.8333333333333334,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "40–50",
+   "raw": [
+    40,
+    50
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin"
+  },
+  {
+   "kind": "label",
+   "printed": "the middle third"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "66.7%",
+   "raw": 0.6666666666666666,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "the highest third"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "16.7%. In the pieces panel:",
+   "raw": 0.16666666666666666,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "in the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "20–30",
+   "raw": [
+    20,
+    30
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[20,30)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin"
+  },
+  {
+   "kind": "label",
+   "printed": "the lowest third"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "66.7%, and in the",
+   "raw": 0.6666666666666666,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "40–50",
+   "raw": [
+    40,
+    50
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[40,50)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin"
+  },
+  {
+   "kind": "label",
+   "printed": "the highest third"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "37.5%.",
+   "raw": 0.375,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "In the chains panel the lowest, middle and highest thirds reach"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "83.3%,",
+   "raw": 0.8333333333333334,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "0.0%",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "0.0%",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "in the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "10–20",
+   "raw": [
+    10,
+    20
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin,"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "100.0%,",
+   "raw": 1.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "0.0%",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "0.0%",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "in the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "30–40",
+   "raw": [
+    30,
+    40
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[30,40)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin, and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "100.0%,",
+   "raw": 1.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "66.7%",
+   "raw": 0.6666666666666666,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "16.7%",
+   "raw": 0.16666666666666666,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "in the"
+  },
+  {
+   "formula": "the upper edge in the bin's key name",
+   "kind": "num",
+   "printed": "40–50",
+   "raw": [
+    40,
+    50
+   ],
+   "refs": [
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+     "source": "main"
+    },
+    {
+     "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "bin."
+  },
+  {
+   "kind": "label",
+   "printed": "Panel C shows, as horizontal bars, that over both shapes a pair of wrong Haiku-medium samples gave the same wrong answer in"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "33.4%",
+   "raw": 0.33389537397319496,
+   "refs": [
+    {
+     "key": "haiku_repeat_share.both_shapes.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of pairs and the same first slip in"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "50.3%",
+   "raw": 0.5027053397197091,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_13.both_shapes.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of the pairs whose first slips can both be placed; on chains alone the shares are"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "27.9%",
+   "raw": 0.27929762545147163,
+   "refs": [
+    {
+     "key": "haiku_repeat_share.1x6.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "48.9%, on pieces alone",
+   "raw": 0.4893752995686212,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_13.1x6.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "40.4%",
+   "raw": 0.4041217752298112,
+   "refs": [
+    {
+     "key": "haiku_repeat_share.6x1.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "51.9%.",
+   "raw": 0.5193419740777667,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_13.6x1.share",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Where a cell’s vote is right on all or none of its puzzles (a dot at zero or at the top of the axis), its bootstrap interval has no width and its bar shows the exact 95% interval over that cell’s puzzles from free analysis 4 (post hoc)."
+  }
+ ],
+ "caption": {
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "panels A and B: 95% cluster bootstrap within each cell (the bar on its dot) where it has width; a cell whose vote is right on all or on none of its puzzles has a bootstrap interval of no width, and its bar is the exact (Clopper–Pearson) 95% interval over the cell’s puzzles from free analysis 4 (post hoc); panel C: none (Study 1’s file stamps no interval for the repeat shares)"
+   }
+  ],
+  "n": [
+   {
+    "kind": "label",
+    "printed": "puzzles in each cell: the number under each dot, in light grey bands that run behind every second bin and behind the grey dot’s column; panel C, both shapes: the same-wrong-answer share is over"
+   },
+   {
+    "kind": "num",
+    "printed": "46,260",
+    "raw": 46260,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.both_shapes.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "pairs of wrong samples and the first-slip share over"
+   },
+   {
+    "kind": "num",
+    "printed": "45,096",
+    "raw": 45096,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.both_shapes.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "pairs: the first-slip share counts only wrong samples whose first slip can be placed"
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "not applicable (no cost on this figure)"
+   }
+  ],
+  "set": [
+   {
+    "kind": "label",
+    "printed": "the Study 1 puzzle set at 6 steps: each puzzle as a chain and as pieces"
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "Study 1, main run, 6 steps; all three panels are Haiku-medium’s samples: the whole-answer accuracy of its vote of"
+   },
+   {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples, split by the single-sample accuracy bins, and the pairs of wrong samples in panel C"
+   }
+  ],
+  "thirds": [
+   {
+    "kind": "label",
+    "printed": "within each bin, puzzles are split into thirds by how often their wrong samples repeat each other: the dots run left to right from the lowest third (darkest) through the middle third to the highest third (lightest); no line joins the dots, because each cell holds"
+   },
+   {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "to"
+   },
+   {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "puzzles, so the dots show where a cell sits, not a trend; the grey dot labelled “too few wrong samples”, in a column of its own right of the"
+   },
+   {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90–100",
+    "raw": [
+     90,
+     100
+    ],
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     },
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "bin (whose puzzles they are), stands for the puzzles with fewer than"
+   },
+   {
+    "formula": "the number in the sentence 'Puzzles with fewer than N wrong tries are left out' (C-040.min_wrong)",
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "item_C9.definition",
+      "source": "groupc"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "wrong samples, too few to split into thirds (chains:"
+   },
+   {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.n",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "puzzles; pieces:"
+   },
+   {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.n",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "puzzles); no value is printed beside a dot, so the cells that are neither at zero nor at the top of the axis are given here (chains:"
+   },
+   {
+    "kind": "label",
+    "printed": "in the"
+   },
+   {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10–20",
+    "raw": [
+     10,
+     20
+    ],
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     },
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "bin"
+   },
+   {
+    "kind": "label",
+    "printed": "the lowest third"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.3%, and in the",
+    "raw": 0.8333333333333334,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40–50",
+    "raw": [
+     40,
+     50
+    ],
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     },
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "bin"
+   },
+   {
+    "kind": "label",
+    "printed": "the middle third"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.7%",
+    "raw": 0.6666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "label",
+    "printed": "the highest third"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "16.7%; pieces:",
+    "raw": 0.16666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "in the"
+   },
+   {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20–30",
+    "raw": [
+     20,
+     30
+    ],
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     },
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "bin"
+   },
+   {
+    "kind": "label",
+    "printed": "the lowest third"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.7%, and in the",
+    "raw": 0.6666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40–50",
+    "raw": [
+     40,
+     50
+    ],
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     },
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "bin"
+   },
+   {
+    "kind": "label",
+    "printed": "the highest third"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.5%)",
+    "raw": 0.375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "pre-specified descriptive; no test and no cause; the exact intervals (the bars on cells at zero and at the top of the axis) are post hoc (free analysis 4)"
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-02",
+  "kind": "figure",
+  "label": "pre-specified descriptive; no test, no cause",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Where the vote helped: difficulty bins by agreement thirds (appendix)"
+ },
+ "points": [
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.9",
+    "raw": 0.4592581264399004,
+    "refs": [
+     {
+      "key": "result.cells.13.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.13.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "result.cells.13.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.13.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.2",
+    "raw": 0.5218237501049814,
+    "refs": [
+     {
+      "key": "result.cells.14.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.14.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "result.cells.14.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.14.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.2",
+    "raw": 0.5218237501049814,
+    "refs": [
+     {
+      "key": "result.cells.15.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.15.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "result.cells.15.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.15.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.0",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.3",
+    "raw": 0.8333333333333334,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.16.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.16.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.16.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.16.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.17.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.17.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.17.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.17.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.18.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.18.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.18.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.18.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.19.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.19.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.19.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.19.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.20.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.20.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.20.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.20.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.21.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.21.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.21.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.21.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.22.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.22.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.22.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.22.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.23.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.23.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.23.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.23.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.24.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.24.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.24.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.24.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.7",
+    "raw": 0.6666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.0",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "16.7",
+    "raw": 0.16666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.25.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.25.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.25.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.25.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.26.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.26.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.26.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.26.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.27.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.27.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.27.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.27.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.28.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "2.5",
+    "raw": 0.024999999999999967,
+    "refs": [
+     {
+      "key": "result.cells.28.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.28.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.28.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.29.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "2.5",
+    "raw": 0.024999999999999967,
+    "refs": [
+     {
+      "key": "result.cells.29.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.29.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.29.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.30.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "2.5",
+    "raw": 0.024999999999999967,
+    "refs": [
+     {
+      "key": "result.cells.30.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.30.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.30.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.31.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.31.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.31.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.31.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.32.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.32.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.32.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.32.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.33.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.33.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.33.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.33.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.34.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.34.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.34.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.34.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.35.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.35.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.35.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.35.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.36.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.36.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.36.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.36.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.37.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "2.5",
+    "raw": 0.024999999999999967,
+    "refs": [
+     {
+      "key": "result.cells.37.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.37.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.37.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.38.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "2.5",
+    "raw": 0.024999999999999967,
+    "refs": [
+     {
+      "key": "result.cells.38.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.38.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.38.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.39.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.1",
+    "raw": 0.5407418735600993,
+    "refs": [
+     {
+      "key": "result.cells.39.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "result.cells.39.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "result.cells.39.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains, too few wrong samples",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.1x6.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.40.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.40.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.40.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.40.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.41.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.41.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.41.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.41.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.42.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.42.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.42.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.42.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[0,10)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.43.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.43.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.43.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.43.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.44.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.44.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.44.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.44.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.2",
+    "raw": 0.841886116991581,
+    "refs": [
+     {
+      "key": "result.cells.45.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.45.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.45.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.45.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[10,20)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.7",
+    "raw": 0.6666666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.46.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.46.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.46.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.46.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.8",
+    "raw": 0.7075982261787133,
+    "refs": [
+     {
+      "key": "result.cells.47.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.47.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.47.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.47.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[20,30)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.9749999999999999,
+    "refs": [
+     {
+      "key": "result.cells.48.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.48.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.48.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.48.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.9749999999999999,
+    "refs": [
+     {
+      "key": "result.cells.49.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.49.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.49.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.49.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.9749999999999999,
+    "refs": [
+     {
+      "key": "result.cells.50.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.cells.50.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "result.cells.50.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0,
+    "refs": [
+     {
+      "key": "result.cells.50.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[30,40)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.51.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.8",
+    "raw": 0.3976353643835252,
+    "refs": [
+     {
+      "key": "result.cells.51.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.51.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.51.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.52.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.8",
+    "raw": 0.3976353643835252,
+    "refs": [
+     {
+      "key": "result.cells.52.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.52.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.52.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 0.75,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.5",
+    "raw": 0.375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[40,50)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.53.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.53.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.53.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.53.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.54.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.54.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.54.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.54.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.55.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.55.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.55.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.55.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "50",
+    "raw": 50,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[50,60)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.56.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.56.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.56.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.56.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.57.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.57.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.57.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.57.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.58.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.8",
+    "raw": 0.15811388300841894,
+    "refs": [
+     {
+      "key": "result.cells.58.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.58.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "result.cells.58.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "60",
+    "raw": 60,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[60,70)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.59.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.59.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.59.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.59.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.60.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.60.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.60.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.60.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.61.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.61.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.61.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.61.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "70",
+    "raw": 70,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[70,80)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.62.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.62.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.62.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.62.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.63.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.63.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.63.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.63.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t2.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, middle third",
+   "x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t2.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.64.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.2",
+    "raw": 0.2924017738212864,
+    "refs": [
+     {
+      "key": "result.cells.64.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.64.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "result.cells.64.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t3.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t3.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t3.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t3.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, highest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[80,90)'].thirds.t3.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.65.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.8",
+    "raw": 0.3976353643835252,
+    "refs": [
+     {
+      "key": "result.cells.65.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.65.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "result.cells.65.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].thirds.t1.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, lowest third of agreement",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].thirds.t1.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.66.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.8",
+    "raw": 0.4781762498950183,
+    "refs": [
+     {
+      "key": "result.cells.66.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "result.cells.66.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "result.cells.66.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "n": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.n",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right",
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces, too few wrong samples",
+   "x": {
+    "kind": "num",
+    "printed": "90",
+    "raw": 90,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].bin_lower_edge",
+      "source": "main"
+     }
+    ]
+   },
+   "x_upper": {
+    "formula": "the upper edge in the bin's key name",
+    "kind": "num",
+    "printed": "100",
+    "raw": 100,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]']",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_20.6x1.bins['[90,100]'].too few wrong tries.mean_vote_at_k.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong",
+   "pairs": {
+    "kind": "num",
+    "printed": "26,026",
+    "raw": 26026,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.1x6.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same wrong answer, chains",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "27.9",
+    "raw": 0.27929762545147163,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.1x6.share",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong and placeable",
+   "pairs": {
+    "kind": "num",
+    "printed": "25,036",
+    "raw": 25036,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.1x6.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same first slip, chains",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.9",
+    "raw": 0.4893752995686212,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.1x6.share",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong",
+   "pairs": {
+    "kind": "num",
+    "printed": "20,234",
+    "raw": 20234,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.6x1.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same wrong answer, pieces",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "40.4",
+    "raw": 0.4041217752298112,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.6x1.share",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong and placeable",
+   "pairs": {
+    "kind": "num",
+    "printed": "20,060",
+    "raw": 20060,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.6x1.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same first slip, pieces",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "51.9",
+    "raw": 0.5193419740777667,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.6x1.share",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong",
+   "pairs": {
+    "kind": "num",
+    "printed": "46,260",
+    "raw": 46260,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.both_shapes.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same wrong answer, both",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.4",
+    "raw": 0.33389537397319496,
+    "refs": [
+     {
+      "key": "haiku_repeat_share.both_shapes.share",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "over pairs of Haiku-medium samples that are both wrong and placeable",
+   "pairs": {
+    "kind": "num",
+    "printed": "45,096",
+    "raw": 45096,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.both_shapes.pairs",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "repeat shares",
+   "series": "share of Haiku-medium wrong-sample pairs that repeat, same first slip, both",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.3",
+    "raw": 0.5027053397197091,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_13.both_shapes.share",
+      "source": "main"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "groupc": {
+   "commit": "2830340",
+   "path": "data/main/main-l14n6-1/groupc.json",
+   "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  }
+ }
+}

@@ -1,0 +1,3252 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Two panels, chains above pieces, of horizontal bars for each Study 1 setting and, on chains only, for"
+  },
+  {
+   "kind": "label",
+   "printed": "Step voting"
+  },
+  {
+   "kind": "label",
+   "printed": "(a design): the estimated thinking share of list cost, drawn the same way on every bar: in the model’s colour up to the thinking share by the API’s own count (the tick), and in grey, the estimate’s bias, from there to the end of the estimate (wholly grey on the bracketed rows), against the rest (light grey: visible output and input), with the estimated share printed at the right of each bar (under the header “Est. share”) and the median estimated thinking tokens in a column beside it (under the header “Median est. thinking tokens”)."
+  },
+  {
+   "kind": "label",
+   "printed": "Both panels list the settings in the same order, the settings for which the API reports no thinking tokens first"
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "Step voting"
+  },
+  {
+   "kind": "label",
+   "printed": "(a design, plotted on chains only) last. Estimated thinking takes"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "96.6%",
+   "raw": 0.9664515897139522,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-max:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of Haiku-max’s chain cost,"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "86.4%",
+   "raw": 0.8642730346498466,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of Haiku-medium’s,"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "59.1%",
+   "raw": 0.5911259660545215,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.opus-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of Opus-medium’s and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "34.7%",
+   "raw": 0.34696525175097936,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of Sonnet-medium’s. A bracket at the right of the top rows of each panel, with the words “API reports no thinking” and a dagger (post hoc), marks the settings for which the API reports no thinking tokens; their bars are drawn wholly in grey, and the first bar of each panel is labelled “estimate’s bias”; the API’s mean thinking tokens per call (free analysis 10, post hoc) is in parentheses:"
+  },
+  {
+   "kind": "label",
+   "printed": "on chains,"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off"
+  },
+  {
+   "kind": "num",
+   "printed": "(0)",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "result.study1.haiku-thinking-off 1x6.mean_thinking_tokens",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-low"
+  },
+  {
+   "kind": "num",
+   "printed": "(0).",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "result.study1.sonnet-low 1x6.mean_thinking_tokens",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "On pieces,"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off"
+  },
+  {
+   "kind": "num",
+   "printed": "(0);",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "result.study1.haiku-thinking-off 6x1.mean_thinking_tokens",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-low"
+  },
+  {
+   "kind": "num",
+   "printed": "(0); and",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "result.study1.sonnet-low 6x1.mean_thinking_tokens",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-medium"
+  },
+  {
+   "kind": "num",
+   "printed": "(0). For each of these settings the estimate still shows a share of its cost as thinking, the estimate’s bias:",
+   "raw": 0.0,
+   "refs": [
+    {
+     "key": "result.study1.sonnet-med 6x1.mean_thinking_tokens",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "on chains,"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "33.7%",
+   "raw": 0.3372356139496307,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "31.4%.",
+   "raw": 0.31380634906618393,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "On pieces,"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "34.5%;",
+   "raw": 0.3453278141945874,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "30.1%; and",
+   "raw": 0.30111511836487204,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "30.5%. On every other bar a short dark tick marks the thinking share of list cost by the API’s own count (free analysis 10, post hoc; the key above panel A reads “tick: thinking share by the API’s own count†”): the bar is in the model’s colour up to the tick and grey from the tick to the end of the estimate, which is the estimate’s bias, as on the bracketed rows; the tick lies below the estimate on every bar:",
+   "raw": 0.30506650348824926,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "on chains,"
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "4.2%",
+   "raw": 0.04200654603422251,
+   "refs": [
+    {
+     "key": "result.study1.sonnet-med 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "34.7%,",
+   "raw": 0.34696525175097936,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "80.1%",
+   "raw": 0.8008647196212155,
+   "refs": [
+    {
+     "key": "result.study1.haiku-low 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "85.5%,",
+   "raw": 0.855408094951031,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-low:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "81.3%",
+   "raw": 0.8131906681045099,
+   "refs": [
+    {
+     "key": "result.study1.haiku-med 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "86.4%,",
+   "raw": 0.8642730346498466,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "95.4%",
+   "raw": 0.9537437152301065,
+   "refs": [
+    {
+     "key": "result.study1.haiku-max 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "96.6%,",
+   "raw": 0.9664515897139522,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-max:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Opus-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "37.5%",
+   "raw": 0.3745654375735678,
+   "refs": [
+    {
+     "key": "result.study1.opus-low 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "55.1%,",
+   "raw": 0.5505529550244997,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.opus-low:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Opus-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "43.5%",
+   "raw": 0.4351097139733106,
+   "refs": [
+    {
+     "key": "result.study1.opus-med 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "59.1%",
+   "raw": 0.5911259660545215,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.opus-med:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "Step voting"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "73.1%",
+   "raw": 0.7307468362076338,
+   "refs": [
+    {
+     "key": "result.study1.e3 1x6.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "76.5%;",
+   "raw": 0.7654663757948988,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.e3:1x6.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "on pieces,"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "80.2%",
+   "raw": 0.8015451693353156,
+   "refs": [
+    {
+     "key": "result.study1.haiku-low 6x1.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "84.7%,",
+   "raw": 0.8469522628457203,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-low:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "81.1%",
+   "raw": 0.810786671305925,
+   "refs": [
+    {
+     "key": "result.study1.haiku-med 6x1.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "85.4%,",
+   "raw": 0.8544133594572642,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-med:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "95.2%",
+   "raw": 0.9521166229601048,
+   "refs": [
+    {
+     "key": "result.study1.haiku-max 6x1.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "96.3%,",
+   "raw": 0.9629131479093183,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.haiku-max:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Opus-low"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "33.8%",
+   "raw": 0.3376292508743032,
+   "refs": [
+    {
+     "key": "result.study1.opus-low 6x1.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "52.5%",
+   "raw": 0.5252004377645477,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.opus-low:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "kind": "label",
+   "printed": "Opus-medium"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "37.8%",
+   "raw": 0.3783433044555224,
+   "refs": [
+    {
+     "key": "result.study1.opus-med 6x1.thinking_share_of_list_cost",
+     "source": "fa10"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "against"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "55.7%. Study 1’s file stamps these numbers as",
+   "raw": 0.5566701924055999,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.arms.opus-med:6x1.share_of_list_cost",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "“estimates (visible tokens = characters / 3)”.",
+   "raw": "estimates (visible tokens = characters / 3)",
+   "refs": [
+    {
+     "key": "reporting.group_b.item_19.label",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "The row labels marked ‡ are the settings Study 1 ran as exploratory:"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off;"
+  },
+  {
+   "kind": "label",
+   "printed": "Sonnet-low;"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-low; and"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max. No other plotted setting or design is exploratory."
+  },
+  {
+   "kind": "label",
+   "printed": "The format check (the share of samples in the required answer format) flags only"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku, thinking off on chains"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "(format compliance 81.7%).",
+   "raw": 0.8171875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+     "source": "main"
+    }
+   ]
+  }
+ ],
+ "caption": {
+  "estimate": [
+   {
+    "kind": "label",
+    "printed": "Study 1’s file stamps these numbers as"
+   },
+   {
+    "kind": "num",
+    "printed": "“estimates (visible tokens = characters / 3)”; this overstates thinking where little or none happens, so the API’s own thinking counts replace the estimate in the main text",
+    "raw": "estimates (visible tokens = characters / 3)",
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.label",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "exploratory": [
+   {
+    "kind": "label",
+    "printed": "‡ marks the settings that Study 1 ran as exploratory:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off;"
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low;"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low; and"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max. No other plotted setting or design is exploratory"
+   }
+  ],
+  "format": [
+   {
+    "kind": "label",
+    "printed": "the format check (the share of samples in the required answer format) flags only"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off on chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(format compliance 81.7%); Study 1’s file stamps no format compliance for",
+    "raw": 0.8171875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Step voting"
+   }
+  ],
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "none: point estimates (Study 1’s file stamps no interval for the share or the median)"
+   }
+  ],
+  "marked": [
+   {
+    "kind": "label",
+    "printed": "both panels list the settings in the same order, the settings for which the API reports no thinking tokens first and Step voting (a design, chains only) last; the bracket (dagger: post hoc) marks the settings for which the API reports no thinking tokens (free analysis 10; each setting’s mean thinking tokens per call in parentheses):"
+   },
+   {
+    "kind": "label",
+    "printed": "on chains,"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off"
+   },
+   {
+    "kind": "num",
+    "printed": "(0)",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low"
+   },
+   {
+    "kind": "num",
+    "printed": "(0).",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "On pieces,"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off"
+   },
+   {
+    "kind": "num",
+    "printed": "(0);",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low"
+   },
+   {
+    "kind": "num",
+    "printed": "(0); and",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "(0). For each of these settings the estimate nonetheless shows a share of its cost as thinking, so its bar is drawn wholly in grey (the estimate’s bias, drawn the same way on every bar: see ticks); the first bar of each panel is labelled “estimate’s bias”; the estimated shares:",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on chains,"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.7%",
+    "raw": 0.3372356139496307,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "31.4%.",
+    "raw": 0.31380634906618393,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "On pieces,"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.5%;",
+    "raw": 0.3453278141945874,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.1%; and",
+    "raw": 0.30111511836487204,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.5%",
+    "raw": 0.30506650348824926,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "n": [
+   {
+    "kind": "label",
+    "printed": "puzzles per shape:"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.base_puzzles",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(every setting or design); calls per setting or design on chains and on pieces, as Study 1’s file counts them for this estimate:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200;",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-low"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "80;",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "80;",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200;",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200;",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "kind": "num",
+    "printed": "240",
+    "raw": 240,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "240;",
+    "raw": 240,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-low"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "80;",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "80;",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:6x1.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Step voting"
+   },
+   {
+    "kind": "num",
+    "printed": "1,086",
+    "raw": 1086,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(chains only)"
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "US dollars at list price (Study 1’s price table, dated"
+   },
+   {
+    "kind": "num",
+    "printed": "2026-10-12)",
+    "raw": "2026-10-12",
+    "refs": [
+     {
+      "key": "reporting.group_b.item_9a.price_table_date",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "set": [
+   {
+    "kind": "label",
+    "printed": "the Study 1 puzzle set at 6 steps: each puzzle as a chain and as pieces"
+   }
+  ],
+  "step_voting": [
+   {
+    "kind": "label",
+    "printed": "Step voting’s bar is in no table (TAB-16 has no row for it): its estimated share"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.5%, its median estimated thinking tokens",
+    "raw": 0.7654663757948988,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "361",
+    "raw": 361.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and its thinking share by the API’s own count (the tick)"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.1%",
+    "raw": 0.7307468362076338,
+    "refs": [
+     {
+      "key": "result.study1.e3 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "come from Study 1’s file (the estimate and the median) and free analysis 10 (the tick, post hoc), and they are in this figure’s data file; Step voting is plotted on chains only because it ran on chains only in Study 1’s main run, so panel B has no row for it"
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "Study 1, main run, 6 steps"
+   }
+  ],
+  "ticks": [
+   {
+    "kind": "label",
+    "printed": "the dark tick on every other bar (the key above panel A) is the thinking share of list cost by the API’s own count (free analysis 10, post hoc); the bar is in the model’s colour up to the tick and in grey from the tick to the end of the estimate, the estimate’s bias, drawn as on the bracketed rows; the tick lies below the estimate on every bar, so the estimate overstates thinking in every plotted setting; the tick against the estimate:"
+   },
+   {
+    "kind": "label",
+    "printed": "on chains,"
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "4.2%",
+    "raw": 0.04200654603422251,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.7%,",
+    "raw": 0.34696525175097936,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.1%",
+    "raw": 0.8008647196212155,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.5%,",
+    "raw": 0.855408094951031,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.3%",
+    "raw": 0.8131906681045099,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "86.4%,",
+    "raw": 0.8642730346498466,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.4%",
+    "raw": 0.9537437152301065,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.6%,",
+    "raw": 0.9664515897139522,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.5%",
+    "raw": 0.3745654375735678,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1%,",
+    "raw": 0.5505529550244997,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "43.5%",
+    "raw": 0.4351097139733106,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.1%",
+    "raw": 0.5911259660545215,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "label",
+    "printed": "Step voting"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.1%",
+    "raw": 0.7307468362076338,
+    "refs": [
+     {
+      "key": "result.study1.e3 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.5%;",
+    "raw": 0.7654663757948988,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on pieces,"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.2%",
+    "raw": 0.8015451693353156,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.7%,",
+    "raw": 0.8469522628457203,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.1%",
+    "raw": 0.810786671305925,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.4%,",
+    "raw": 0.8544133594572642,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.2%",
+    "raw": 0.9521166229601048,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.3%,",
+    "raw": 0.9629131479093183,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-low"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.8%",
+    "raw": 0.3376292508743032,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.5%",
+    "raw": 0.5252004377645477,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.8%",
+    "raw": 0.3783433044555224,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "against"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.7%; Sonnet-medium is bracketed on pieces but not on chains because on chains the API reports a little thinking there (a thinking share of",
+    "raw": 0.5566701924055999,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "4.2%",
+    "raw": 0.04200654603422251,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of its list cost), and on pieces none"
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "pre-specified descriptive (Study 1’s estimate of the thinking share of list cost), labelled estimates; the settings marked ‡ are exploratory; the API’s own thinking counts (the bracketed settings’ zeros, the ticks and the split of each bar at its tick) are post hoc (free analysis 10)"
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-07",
+  "kind": "figure",
+  "label": "pre-specified descriptive (labelled estimates)",
+  "section": "Results: effort and length (appendix)",
+  "title": "Where the Haiku dollar goes (appendix)"
+ },
+ "points": [
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_note": "the API reports no thinking tokens (post hoc, free analysis 10); the bar is drawn in grey: it is the estimate's bias",
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.7",
+    "raw": 0.8171875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-thinking-off 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "600",
+    "raw": 600.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 66.27643860503693,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku, thinking off, chains",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.7",
+    "raw": 0.3372356139496307,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_note": "the API reports no thinking tokens (post hoc, free analysis 10); the bar is drawn in grey: it is the estimate's bias",
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-low 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.sonnet-low 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "446",
+    "raw": 446.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "68.6",
+    "raw": 68.6193650933816,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Sonnet-low, chains",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "31.4",
+    "raw": 0.31380634906618393,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "62",
+    "raw": 61.925,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "4.2",
+    "raw": 0.04200654603422251,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.sonnet-med 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "462.5",
+    "raw": 462.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "65.3",
+    "raw": 65.30347482490205,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Sonnet-medium, chains",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.7",
+    "raw": 0.34696525175097936,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "1652",
+    "raw": 1652.3190625,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.1",
+    "raw": 0.8008647196212155,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.1",
+    "raw": 0.98125,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-low 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-low 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,737",
+    "raw": 1737.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "14.5",
+    "raw": 14.459190504896895,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-low, chains",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.5",
+    "raw": 0.855408094951031,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "1789",
+    "raw": 1789.29875,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.3",
+    "raw": 0.8131906681045099,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.6",
+    "raw": 0.9859375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-med 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,879",
+    "raw": 1879.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "13.6",
+    "raw": 13.57269653501534,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-medium, chains",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "86.4",
+    "raw": 0.8642730346498466,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "8403",
+    "raw": 8402.629166666668,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.4",
+    "raw": 0.9537437152301065,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-max 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "8,228",
+    "raw": 8228.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "3.4",
+    "raw": 3.354841028604781,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-max, chains",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.6",
+    "raw": 0.9664515897139522,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "684",
+    "raw": 684.1625,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.5",
+    "raw": 0.3745654375735678,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.8",
+    "raw": 0.9875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-low 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-low 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,052.5",
+    "raw": 1052.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "44.9",
+    "raw": 44.94470449755003,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Opus-low, chains",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1",
+    "raw": 0.5505529550244997,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "875",
+    "raw": 875.4625,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "43.5",
+    "raw": 0.4351097139733106,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-med 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,175.5",
+    "raw": 1175.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "40.9",
+    "raw": 40.88740339454785,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Opus-medium, chains",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.1",
+    "raw": 0.5911259660545215,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "383",
+    "raw": 383.20902394106815,
+    "refs": [
+     {
+      "key": "result.study1.e3 1x6.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.1",
+    "raw": 0.7307468362076338,
+    "refs": [
+     {
+      "key": "result.study1.e3 1x6.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "361",
+    "raw": 361.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "chains",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "23.5",
+    "raw": 23.453362420510118,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Step voting, chains",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.5",
+    "raw": 0.7654663757948988,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_note": "the API reports no thinking tokens (post hoc, free analysis 10); the bar is drawn in grey: it is the estimate's bias",
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.haiku-thinking-off 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.6",
+    "raw": 0.995625,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-thinking-off 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-thinking-off 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "662",
+    "raw": 662.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "65.5",
+    "raw": 65.46721858054126,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku, thinking off, pieces",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.5",
+    "raw": 0.3453278141945874,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-thinking-off:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_note": "the API reports no thinking tokens (post hoc, free analysis 10); the bar is drawn in grey: it is the estimate's bias",
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-low 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-low 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.sonnet-low 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "471",
+    "raw": 471.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "69.9",
+    "raw": 69.88848816351279,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Sonnet-low, pieces",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.1",
+    "raw": 0.30111511836487204,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_note": "the API reports no thinking tokens (post hoc, free analysis 10); the bar is drawn in grey: it is the estimate's bias",
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "0.0",
+    "raw": 0.0,
+    "refs": [
+     {
+      "key": "result.study1.sonnet-med 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.sonnet-med 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "487.5",
+    "raw": 487.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "69.5",
+    "raw": 69.49334965117507,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Sonnet-medium, pieces",
+   "tier": "five-test setting, in no test at this shape",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.5",
+    "raw": 0.30506650348824926,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.sonnet-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "1645",
+    "raw": 1644.54375,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.2",
+    "raw": 0.8015451693353156,
+    "refs": [
+     {
+      "key": "result.study1.haiku-low 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 0.9965625,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-low 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-low 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,728",
+    "raw": 1728.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "15.3",
+    "raw": 15.30477371542797,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-low, pieces",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "84.7",
+    "raw": 0.8469522628457203,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "1772",
+    "raw": 1772.42375,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.1",
+    "raw": 0.810786671305925,
+    "refs": [
+     {
+      "key": "result.study1.haiku-med 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 0.9971875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-med 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,863.5",
+    "raw": 1863.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "14.6",
+    "raw": 14.558664054273578,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-medium, pieces",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.4",
+    "raw": 0.8544133594572642,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "7744",
+    "raw": 7744.316666666667,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.2",
+    "raw": 0.9521166229601048,
+    "refs": [
+     {
+      "key": "result.study1.haiku-max 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.6",
+    "raw": 0.9958333333333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-max 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "7,604.5",
+    "raw": 7604.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "3.7",
+    "raw": 3.708685209068179,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Haiku-max, pieces",
+   "tier": "exploratory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 0.9629131479093183,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.haiku-max:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "757",
+    "raw": 757.375,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.8",
+    "raw": 0.3376292508743032,
+    "refs": [
+     {
+      "key": "result.study1.opus-low 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-low 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-low 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,186",
+    "raw": 1186.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "47.5",
+    "raw": 47.47995622354523,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Opus-low, pieces",
+   "tier": "five-test setting, in no test at this shape",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.5",
+    "raw": 0.5252004377645477,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-low:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "api_mean_thinking_tokens": {
+    "kind": "num",
+    "printed": "910",
+    "raw": 910.3375,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 6x1.mean_thinking_tokens",
+      "source": "fa10"
+     }
+    ]
+   },
+   "api_thinking_share": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.8",
+    "raw": 0.3783433044555224,
+    "refs": [
+     {
+      "key": "result.study1.opus-med 6x1.thinking_share_of_list_cost",
+      "source": "fa10"
+     }
+    ]
+   },
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-med 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "median_thinking_tokens": {
+    "kind": "num",
+    "printed": "1,351.5",
+    "raw": 1351.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:6x1.median",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "estimate",
+   "panel": "pieces",
+   "rest": {
+    "formula": "100 - 100 * share_of_list_cost",
+    "kind": "num",
+    "printed": "44.3",
+    "raw": 44.33298075944001,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   },
+   "series": "Opus-medium, pieces",
+   "tier": "confirmatory",
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.7",
+    "raw": 0.5566701924055999,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.opus-med:6x1.share_of_list_cost",
+      "source": "main"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa10": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa10.json",
+   "sha256": "74bdca2c18c23b6542af2e32555c1e62fd1f8e96f7789ac1f807c1711154df54"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  }
+ }
+}

@@ -1,0 +1,397 @@
+{
+ "output": {
+  "id": "TAB-21",
+  "kind": "table",
+  "label": "disclosure",
+  "section": "Discussion and limits (appendix)",
+  "title": "Tuning bias: which choices favour which side (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "spec1": {
+   "commit": "f773d83",
+   "path": "studies/1-real-price/spec.md",
+   "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+  }
+ },
+ "table": {
+  "caption": {
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 (main run, 6 steps)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "disclosure"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Choice"
+   },
+   {
+    "kind": "label",
+    "printed": "Favours"
+   },
+   {
+    "kind": "label",
+    "printed": "Bounded or measured by"
+   },
+   {
+    "kind": "label",
+    "printed": "Outcome (accuracies in %)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "First three columns: the bias table of Study 1's pre-registration, relabelled for 6 steps (Deviation 1), in the paper's words and without internal references. Last column: each check's outcome or where it is reported."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "num",
+     "printed": "Rule kinds tuned on Haiku's slips",
+     "raw": "Rule kinds tuned on Haiku's slips",
+     "refs": [
+      {
+       "key": "L1120.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Opus and Sonnet (against the vote)",
+     "raw": "Opus and Sonnet (against the vote)",
+     "refs": [
+      {
+       "key": "L1120.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: decision number removed; the house-rule index's code → words; the targeting index's code → words",
+     "kind": "num",
+     "printed": "The fairness check (the targeting index, the house-rule index, repeat share)",
+     "raw": "The fairness check (TI, TI_house, repeat share), D-67",
+     "refs": [
+      {
+       "key": "L1120.Bounded or measured by",
+       "source": "spec1"
+      },
+      {
+       "key": "L1108",
+       "source": "spec1"
+      },
+      {
+       "key": "L1107",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /exposed slips < (\\d+)/ group 1",
+     "kind": "num",
+     "printed": "The fairness check's flag did not fire (the targeting index did not trigger the flag; the house-rule index was not assessable: Opus and Sonnet together had 0 house-rule slips, fewer than the 3 it needs); Flag R did not fire (TAB-07)",
+     "raw": [
+      false,
+      false,
+      false,
+      0,
+      "3",
+      false
+     ],
+     "refs": [
+      {
+       "key": "fairness.flag_k.fires",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI.fires",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assessable",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_counts.opus+sonnet.exposed_slips",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_reason",
+       "source": "main"
+      },
+      {
+       "key": "reporting.flag_r.flag_r.fires",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "The 10-point margin",
+     "raw": "The 10-point margin",
+     "refs": [
+      {
+       "key": "L1121.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "The vote",
+     "raw": "The vote",
+     "refs": [
+      {
+       "key": "L1121.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: a session's name removed; 'the three-way reading' → 'the pre-registered decision rule'",
+     "kind": "num",
+     "printed": "The pre-registered decision rule; the error-rate ratios; a 5-point secondary view (a power simulation)",
+     "raw": "The three-way reading; the error-rate ratios; a 5-point secondary view (Karen's power simulation)",
+     "refs": [
+      {
+       "key": "L1121.Bounded or measured by",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "the 5-point view's size: minus its stamped (signed) margin, -x",
+     "kind": "num",
+     "printed": "The 5-point view of Tests 1–5 (TAB-03)",
+     "raw": 5.0,
+     "refs": [
+      {
+       "key": "reporting.five_point_view.margin",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Refusals and truncations count as wrong",
+     "raw": "Refusals and truncations count as wrong",
+     "refs": [
+      {
+       "key": "L1122.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "The vote",
+     "raw": "The vote",
+     "refs": [
+      {
+       "key": "L1122.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: 'a match' → 'a result shown no worse'; the headline rule's code → 'The headline rule'",
+     "kind": "num",
+     "printed": "The headline rule (a result shown no worse must hold with them left out)",
+     "raw": "F3 (a match must hold with them left out)",
+     "refs": [
+      {
+       "key": "L1122.Bounded or measured by",
+       "source": "spec1"
+      },
+      {
+       "key": "L1035",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The refusals-out and truncations-out views (TAB-03)"
+    }
+   ],
+   [
+    {
+     "formula": "relabelled: house style: 'a to b%' → 'a–b%'; house style: no '%' in a cell: 'n%' → 'n per cent'",
+     "kind": "num",
+     "printed": "The 25–50 per cent Haiku band",
+     "raw": "The 25 to 50% Haiku band",
+     "refs": [
+      {
+       "key": "L1123.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "The vote",
+     "raw": "The vote",
+     "refs": [
+      {
+       "key": "L1123.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: decision number removed",
+     "kind": "num",
+     "printed": "Stated as the regime studied; the scope sentence",
+     "raw": "Stated as the regime studied (D-21); the scope sentence",
+     "refs": [
+      {
+       "key": "L1123.Bounded or measured by",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "Study 1 pooled, Haiku-medium single sample: 47.4 (TAB-18)",
+     "raw": 0.47359375000000004,
+     "refs": [
+      {
+       "key": "main_run_markers.haiku-med.pooled.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "relabelled: 24×1 → 6×1; paper wording: '6×1 near the ceiling' → 'Pieces near the ceiling'",
+     "kind": "num",
+     "printed": "Pieces near the ceiling",
+     "raw": "24×1 near the ceiling",
+     "refs": [
+      {
+       "key": "L1124.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: 'Both arms' → 'Both sides'",
+     "kind": "num",
+     "printed": "Both sides, so less informative",
+     "raw": "Both arms, so less informative",
+     "refs": [
+      {
+       "key": "L1124.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: house style: no '%' in a cell: 'n%' → 'n per cent'",
+     "kind": "num",
+     "printed": "Per-shape medians reported; a low-information flag if Haiku pieces score above 60 per cent",
+     "raw": "Per-shape medians reported; a low-information flag if Haiku pieces score above 60%",
+     "refs": [
+      {
+       "key": "L1124.Bounded or measured by",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "Low-information flag did not fire; Haiku-medium pieces: 51.0 (TAB-07)",
+     "raw": [
+      false,
+      0.51
+     ],
+     "refs": [
+      {
+       "key": "reporting.low_information_flag.fires",
+       "source": "main"
+      },
+      {
+       "key": "reporting.low_information_flag.haiku_med_accuracy",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "relabelled: 1×24 → 1×6; paper wording: 'Absorption in 1×6' → 'Absorption in chains'",
+     "kind": "num",
+     "printed": "Absorption in chains",
+     "raw": "Absorption in 1×24",
+     "refs": [
+      {
+       "key": "L1125.Choice",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: 'Arms that slip more' → 'Designs that slip more'",
+     "kind": "num",
+     "printed": "Designs that slip more (the vote)",
+     "raw": "Arms that slip more (the vote)",
+     "refs": [
+      {
+       "key": "L1125.Favours",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "formula": "relabelled: 1×24 → 1×6; decision number removed; the absorption caps' code → words; paper wording: 'The official 1×6 score' → 'The official chain score'",
+     "kind": "num",
+     "printed": "The official chain score is all step lines right, so an absorbed slip still counts as wrong; the puzzle generator's absorption caps (single units, each transfer size and the house-rule slips on the reference chain) bound the final-answer view",
+     "raw": "The official 1×24 score is all step lines right (D-76), so an absorbed slip still counts as wrong; the caps (L2: single units, each transfer size and the house-rule slips on the reference chain) bound the final-answer view",
+     "refs": [
+      {
+       "key": "L1125.Bounded or measured by",
+       "source": "spec1"
+      },
+      {
+       "key": "L372",
+       "source": "spec1"
+      },
+      {
+       "key": "L377",
+       "source": "spec1"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The final-answer view (TAB-03)"
+    }
+   ]
+  ]
+ }
+}

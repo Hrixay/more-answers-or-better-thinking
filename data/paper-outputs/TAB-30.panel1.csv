@@ -1,0 +1,14 @@
+Vote vs comparator,Shape,Smallest k reaching the comparator's accuracy,Samples per comparator answer,Break-even price ratio,95% interval,Replicates with no break-even (%),Label
+"Haiku-max vs Opus-medium, 6 steps",1×6,3,9.38,12.79,"[4.12, 39.73]",0.00,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 6 steps",6×1,no break-even within 10 samples,11.74,no break-even within 10 samples,"[16.86, unbounded]",65.20,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 6 steps",pooled,9,10.52,34.21,"[11.20, unbounded]",33.75,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 12 steps",1×12,5,6.15,32.52,"[18.06, unbounded]",19.30,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 12 steps",12×1,5,8.88,22.52,"[12.67, unbounded]",26.85,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 12 steps",pooled,5,7.42,26.97,"[15.72, unbounded]",15.55,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 16 steps",1×16,4,5.50,29.09,"[20.56, unbounded]",10.55,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 16 steps",16×1,6,8.18,29.34,"[14.50, 49.57]",0.00,post hoc (free analysis 12)
+"Haiku-max vs Opus-medium, 16 steps",pooled,5,6.71,29.81,"[17.45, unbounded]",5.25,post hoc (free analysis 12)
+"Haiku-medium vs Opus-medium, 6 steps",1×6,no break-even within 40 samples,36.58,no break-even within 40 samples,"[unbounded, unbounded]",100.00,"pre-specified (item 9d, Study 1)"
+"Haiku-medium vs Opus-medium, 6 steps",6×1,no break-even within 40 samples,44.03,no break-even within 40 samples,"[unbounded, unbounded]",100.00,"pre-specified (item 9d, Study 1)"
+"Haiku-medium vs Sonnet-medium, 6 steps",1×6,no break-even within 40 samples,13.40,no break-even within 40 samples,"[unbounded, unbounded]",99.80,"pre-specified (item 9d, Study 1)"
+"Haiku-medium vs Sonnet-medium, 6 steps",6×1,no break-even within 40 samples,14.73,no break-even within 40 samples,"[12.13, unbounded]",87.30,"pre-specified (item 9d, Study 1)"

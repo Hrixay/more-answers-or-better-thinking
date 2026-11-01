@@ -1,0 +1,3 @@
+# Edith's P4: git must not change a line ending, or every SHA-256 in this repository (data/paper-outputs/MANIFEST.json,
+# LOCKED-FILES.md, ops/lock/LOCK-MANIFEST.md) fails in a default Windows clone.
+* -text

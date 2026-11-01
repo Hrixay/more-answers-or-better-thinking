@@ -1,0 +1,6 @@
+[placeholder: the planner's instruction for task 1, as the planner wrote it]
+
+Balances
+[981, 1165, 2287, 3060, 8107, 7681]
+
+Follow the instruction above for these balances. Reply with one line, `Answer: v`, where v is the new balances.

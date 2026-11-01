@@ -1,0 +1,12 @@
+Challenger,Comparator,Shape,d (points),d 95% interval,Across runs,Drift check (top-up),Label
+Haiku team,"Step voting, main run",chains (1×6),−1.25,"[−15.00, 12.50]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku team,Step voting on pieces,pieces (6×1),+21.25,"[6.25, 35.00]",no,not needed (same run),"exploratory (no Holm, no verdict)"
+Haiku team,"Opus-medium, main run",chains (1×6),−43.75,"[−55.00, −31.25]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku team,"Opus-medium, main run",pieces (6×1),−27.50,"[−37.50, −18.75]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,Any of the first 8 Haiku-medium samples right (the ceiling for a picker),chains (1×6),−25.00,"[−36.25, −16.25]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,Any of the first 8 Haiku-medium samples right (the ceiling for a picker),pieces (6×1),−18.75,"[−28.75, −11.25]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,One Haiku-medium sample (the first 8 samples),chains (1×6),+18.91,"[9.53, 27.97]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,One Haiku-medium sample (the first 8 samples),pieces (6×1),+14.53,"[6.41, 22.50]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,Haiku-medium vote of the first 8 samples,chains (1×6),+9.64,"[−1.88, 21.35]",yes,not fired,"exploratory (no Holm, no verdict)"
+Haiku picker over 8 samples,Haiku-medium vote of the first 8 samples,pieces (6×1),+2.08,"[−6.88, 10.83]",yes,not fired,"exploratory (no Holm, no verdict)"
+"Step voting on pieces, top-up run","Opus-medium, main run",pieces (6×1),−48.75,"[−60.00, −37.50]",yes,not fired,"unadjusted, exploratory, outside the pre-registered family"

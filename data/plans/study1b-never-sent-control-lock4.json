@@ -1,0 +1,227 @@
+{
+ "folders_searched": [
+  "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/lock4-empty"
+ ],
+ "other_files_scanned": 0,
+ "ran_from": {
+  "commit": "0a2396cae9037de9df72366d1c49e06dd9a2e661",
+  "tree_clean": true
+ },
+ "raw": "/Users/hrixay/Desktop/pareto/data/raw",
+ "runs_scanned": {
+  "check-ledger-1": {
+   "ids": 20,
+   "lines": 20,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/check-ledger-1/calls.jsonl",
+   "prompt_hashes": 10,
+   "sha256": "92dd68a5b002ba102b7d24e1905de1058e11f1bc84287ab0a0b9e0a628402d77"
+  },
+  "diag-haiku-effort-1": {
+   "ids": 36,
+   "lines": 36,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/diag-haiku-effort-1/calls.jsonl",
+   "prompt_hashes": 24,
+   "sha256": "d64316f1e5324395cea13c190328e1c238a99119a0648706d9cca28cd2a362f3"
+  },
+  "ladder-l14n-1": {
+   "ids": 2400,
+   "lines": 2415,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/ladder-l14n-1/calls.jsonl",
+   "prompt_hashes": 200,
+   "sha256": "3725c1cc87dcca8e0107234cb379f9a29c18486c1908e9f1486759d4fb0b52f4"
+  },
+  "main-l14n6-1": {
+   "ids": 21876,
+   "lines": 21904,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/main-l14n6-1/calls.jsonl",
+   "prompt_hashes": 680,
+   "sha256": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123"
+  },
+  "pilot-ledger-1": {
+   "ids": 670,
+   "lines": 676,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/pilot-ledger-1/calls.jsonl",
+   "prompt_hashes": 50,
+   "sha256": "411c877baf3f4b399d44355c6d77126c4abd7c348d17fca194aa0e46d7f79142"
+  },
+  "s3-ledger-1": {
+   "ids": 5,
+   "lines": 8,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/s3-ledger-1/calls.jsonl",
+   "prompt_hashes": 5,
+   "sha256": "9f988dd553368baaa09d8f0bb5e67b001d8ff5a424f1c2fdb5f14a7e3180aca5"
+  },
+  "smoke-1": {
+   "ids": 1,
+   "lines": 1,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/smoke-1/calls.jsonl",
+   "prompt_hashes": 1,
+   "sha256": "fffbbf2784dc38fd610049137061fca3623b975b56ce514054b484c738c67071"
+  },
+  "smoke-2": {
+   "ids": 9,
+   "lines": 12,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/smoke-2/calls.jsonl",
+   "prompt_hashes": 2,
+   "sha256": "50e7e07dbe547355ecde6670c138efecb4152006456d470e9e397192097739de"
+  }
+ },
+ "sets": {
+  "ladder-ledger-l14n16-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 40,
+   "items_sha256": "0503cf11971e8b5a00221f0eb0573f47497490732941478f88f5afa55ecbb12b",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": false,
+   "sent_by_id": {
+    "count": 480,
+    "first": [
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-01"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-02"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-03"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-04"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-05"
+     ]
+    ]
+   },
+   "sent_by_prompt_hash": {
+    "count": 40,
+    "first": [
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-1x16"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-001-16x1"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-001-1x16"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-002-16x1"
+     ]
+    ]
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 0,
+    "first": []
+   }
+  },
+  "main-ledger-l14n6-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "11deebd8109adfcc7a1332006ceb63db6e14ab170a8afaf8fe4b8bd6f17f09bf",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": false,
+   "sent_by_id": {
+    "count": 21876,
+    "first": [
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0101"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0102"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0201"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0202"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0203"
+     ]
+    ]
+   },
+   "sent_by_prompt_hash": {
+    "count": 160,
+    "first": [
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-6x1"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-001-1x6"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-001-6x1"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-002-1x6"
+     ]
+    ]
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 0,
+    "first": []
+   }
+  }
+ },
+ "spend_log": {
+  "bookkeeping_rows": [
+   "smoke-2 (markers)"
+  ],
+  "every_spend_log_run_scanned": true,
+  "path": "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/ops/spend-log.md",
+  "runs_scanned_not_in_spend_log": [],
+  "runs_with_calls": [
+   "check-ledger-1",
+   "diag-haiku-effort-1",
+   "ladder-l14n-1",
+   "main-l14n6-1",
+   "pilot-ledger-1",
+   "s3-ledger-1",
+   "smoke-1",
+   "smoke-2"
+  ]
+ }
+}

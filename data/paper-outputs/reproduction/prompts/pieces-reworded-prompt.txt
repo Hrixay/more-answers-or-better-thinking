@@ -1,0 +1,15 @@
+Each value is a list of the balances of 6 budget lines, in whole units, always in this order: Rent, Payroll, Supplies, Reserve, Travel and Training. For instance, [2019, 3659, 7351, 7595, 4603, 3622] means Rent 2019, Payroll 3659, Supplies 7351, Reserve 7595, Travel 4603 and Training 3622. No balance can drop below 0. The rules below describe how the balances change. If a rule picks the line with the largest or the smallest balance and several lines share that balance, the rule picks whichever of them is listed first in the order above. House rule: immediately after each rule, within the same step, look at the line with the smallest balance; if it is below 1900, it receives 400 units from the line with the largest balance, or the largest line's whole balance if that is less than 400. The house rule runs no more than once per step, always after that step's rule, and is not applied again to its own outcome. If one line is both the largest and the smallest, nothing moves. Each step's balances, as you write them, are the balances after the house rule.
+
+Rules
+A: The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+B: The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+C: The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.
+D: Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time.
+
+Sequences
+1. Start at [981, 1165, 2287, 3060, 8107, 7681]. Apply B.
+2. Start at [2254, 1102, 2111, 2259, 7249, 6405]. Apply A.
+3. Start at [2835, 1535, 1879, 3174, 6173, 6913]. Apply D.
+4. Start at [2602, 3410, 2280, 3374, 6139, 5895]. Apply C.
+
+Every sequence is a single rule applied to its start balances and then the house rule, and the sequences have nothing to do with each other. Reply with one line, `Answer: 1 = v, 2 = v, ..., 4 = v`, containing the balances each sequence ends on, in order.

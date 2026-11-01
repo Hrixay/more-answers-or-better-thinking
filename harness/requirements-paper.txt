@@ -1,0 +1,12 @@
+# Pinned for the paper outputs (harness/analysis/paper_outputs.py), separate from harness/requirements.txt: the paid-run harness never
+# imports these. The figure files are byte-identical only with these exact versions, so paper_out_style.check_versions() refuses to
+# build with any other. These are the versions installed for this machine's python3 (3.9.6) on 2026-10-15; matplotlib 3.9.4 is the
+# last 3.9.x release and supports Python 3.9. Pillow writes the PNGs and fontTools subsets the fonts in the PDFs, so both are pinned.
+matplotlib==3.9.4
+numpy==1.26.4
+pillow==11.3.0
+fonttools==4.60.2
+pyparsing==3.3.2
+kiwisolver==1.4.7
+cycler==0.12.1
+contourpy==1.3.0

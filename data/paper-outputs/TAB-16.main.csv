@@ -1,0 +1,8 @@
+Setting,Steps,List cost per answer ($),Mean output tokens per answer,Thinking share of list cost (%)
+Haiku-medium,6,0.00110 / 0.00109,"2,007 / 1,970",81.3 / 81.1
+Haiku-max,6,0.00441 / 0.00407,"8,617 / 7,918",95.4 / 95.2
+Sonnet-medium,6,0.0147 / 0.0161,"1,281 / 1,394",4.2 / 0.0
+Opus-medium,6,0.0402 / 0.0481,"1,819 / 2,190",43.5 / 37.8
+Haiku-medium,16,0.00256 / 0.00252,"4,778 / 4,606",83.3 / 81.3
+Haiku-max,16,0.0123 / 0.0101,"24,180 / 19,742",96.5 / 95.6
+Opus-medium,16,0.0674 / 0.0825,"3,031 / 3,695",64.6 / 53.3

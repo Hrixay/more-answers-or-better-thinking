@@ -1,0 +1,4 @@
+Test,Puzzles (exposed ones left out),d (points),d 95% interval,5-point margin: p,5-point margin: reading,Error-rate ratio R,Error-rate ratio 95% interval
+Test B1,79,−5.19,"[−7.85, −2.66]",0.56397,"""inconclusive (could not show)""",3.34,"[1.76, 9.80]"
+Test B2,79,+0.64,"[−1.20, 2.50]",≤ 0.00009,"""holds (no worse in all three views)""",0.71,"[0.24, 2.13]"
+Test B3,38,−3.82,"[−7.50, −1.45]",0.25586,"""inconclusive (could not show)""",6.80,"[1.67, unbounded]"

@@ -1,0 +1,639 @@
+{
+ "output": {
+  "id": "TAB-27",
+  "kind": "table",
+  "label": "post hoc sensitivity",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Tests 1-4 under a multiplicity correction (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "fa5": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa5.json",
+   "sha256": "13fe74329bebcb83e1a4cc15ba90b393e98a625781ba2233d2bf349ae26ec21e"
+  },
+  "fa_checks_s1_defs": {
+   "commit": "93334b8",
+   "path": "research/reporting-definitions-main.md",
+   "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  }
+ },
+ "table": {
+  "caption": {
+   "holm": [
+    {
+     "kind": "label",
+     "printed": "Holm in the inferiority direction over all five pre-registered tests at one-sided alpha"
+    },
+    {
+     "kind": "num",
+     "printed": "0.025;",
+     "raw": 0.025,
+     "refs": [
+      {
+       "key": "result.alpha",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "each inferiority p is one minus the locked one-sided p, from the same bootstrap draws; Test 5 is the family's fifth member only (no inferiority reading, dashes in its row)"
+    }
+   ],
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "paired BCa bootstrap, B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(95% unadjusted, as locked); the stricter interval is the"
+    },
+    {
+     "formula": "digits of the interval key's name, then %",
+     "kind": "num",
+     "printed": "99%",
+     "raw": "ci99",
+     "refs": [
+      {
+       "key": "result.tests.t3.ci99",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "interval from the same draws"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles per test:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.n",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(the same in all five tests); samples per puzzle: the Haiku-medium vote's k is"
+    },
+    {
+     "kind": "num",
+     "printed": "40 in Test 1, 36 in Test 2 and 13 in Test 3",
+     "raw": [
+      [
+       40,
+       36
+      ],
+      13
+     ],
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.k",
+       "source": "main_k"
+      },
+      {
+       "key": "k_from_rows.opus.1x6.k",
+       "source": "main_k"
+      },
+      {
+       "key": "k_from_rows.sonnet.1x6.k",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(each vote counts once per puzzle);"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-low, Opus-medium and Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "1 each;",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_7.per_piece_accuracy.arms.opus-low.designed_tries",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "step voting (Test 4) made"
+    },
+    {
+     "kind": "num",
+     "printed": "1,086",
+     "raw": 1086,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.refusals_and_truncations.calls_made",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "calls in all on the chains"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no cost column)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1's main-run puzzles at 6 steps, as-deployed view; score:"
+    },
+    {
+     "kind": "num",
+     "printed": "the official marking rule (with Deviation 2's repeated-line rule)",
+     "raw": "official",
+     "refs": [
+      {
+       "key": "confirmatory.views.as_deployed.score",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps (pre-registered at 24 steps; Deviation 1)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "num",
+     "printed": "post hoc sensitivity;",
+     "raw": "post hoc sensitivity",
+     "refs": [
+      {
+       "key": "definition.tier_label",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "the reading from the pre-registered decision rule, applied to the unadjusted interval, stays the result; the error-rate ratio is pre-specified descriptive, reported beside the test"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Inferiority p"
+   },
+   {
+    "kind": "label",
+    "printed": "Holm threshold"
+   },
+   {
+    "formula": "digits of the interval key's name, then %",
+    "kind": "num",
+    "printed": "99% interval of d (points)",
+    "raw": "ci99",
+    "refs": [
+     {
+      "key": "result.tests.t3.ci99",
+      "source": "fa5"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Holds under Holm"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Inferiority p: one minus the pre-registered one-sided p."
+    },
+    {
+     "kind": "label",
+     "printed": "≤ and ≥ mark bounds: no resample reached the margin."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Holds under Holm: inferiority p below its threshold, so worse by >"
+    },
+    {
+     "formula": "the margin's size",
+     "kind": "num",
+     "printed": "10",
+     "raw": 10.0,
+     "refs": [
+      {
+       "key": "result.margin",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(pre-registered rule) holds. The"
+    },
+    {
+     "formula": "digits of the interval key's name, then %",
+     "kind": "num",
+     "printed": "99%",
+     "raw": "ci99",
+     "refs": [
+      {
+       "key": "result.tests.t3.ci99",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "interval is not part of Holm."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test 1"
+    },
+    {
+     "formula": "p at the bootstrap's floor (1 minus bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00004",
+     "raw": 3.8739056826386786e-05,
+     "refs": [
+      {
+       "key": "result.tests.t1.p_inferiority",
+       "source": "fa5"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.z0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t1.a",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.005",
+     "raw": 0.005,
+     "refs": [
+      {
+       "key": "result.tests.t1.holm_threshold",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−47.5, −20.6]",
+     "raw": [
+      -47.5,
+      -20.625
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t1.ci99.0",
+       "source": "fa5"
+      },
+      {
+       "key": "result.tests.t1.ci99.1",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "result.tests.t1.holm_inferior",
+       "source": "fa5"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 2"
+    },
+    {
+     "formula": "p at the bootstrap's floor (1 minus bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00007",
+     "raw": 6.811034546583272e-05,
+     "refs": [
+      {
+       "key": "result.tests.t2.p_inferiority",
+       "source": "fa5"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.z0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t2.a",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00625",
+     "raw": 0.00625,
+     "refs": [
+      {
+       "key": "result.tests.t2.holm_threshold",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−52.2, −23.5]",
+     "raw": [
+      -52.23131177736441,
+      -23.549738756975596
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t2.ci99.0",
+       "source": "fa5"
+      },
+      {
+       "key": "result.tests.t2.ci99.1",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "result.tests.t2.holm_inferior",
+       "source": "fa5"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 3"
+    },
+    {
+     "kind": "num",
+     "printed": "0.01087",
+     "raw": 0.010865237162892005,
+     "refs": [
+      {
+       "key": "result.tests.t3.p_inferiority",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0125",
+     "raw": 0.0125,
+     "refs": [
+      {
+       "key": "result.tests.t3.holm_threshold",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−39.3, −8.2]",
+     "raw": [
+      -39.2832508706911,
+      -8.247778651752515
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t3.ci99.0",
+       "source": "fa5"
+      },
+      {
+       "key": "result.tests.t3.ci99.1",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "formula": "fa5's Holm reading (marking rule as run; fa5 computed no Holm result under the original rule); 'only' rests on the stamped three-way reading under the original rule, which differs from the reading as run (its 95% interval's upper end is not below the margin, so its one-sided inferiority p is at or above every Holm threshold here)",
+     "kind": "num",
+     "printed": "yes, only under the marking rule as run",
+     "raw": true,
+     "refs": [
+      {
+       "key": "result.tests.t3.holm_inferior",
+       "source": "fa5"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.reading",
+       "source": "main"
+      },
+      {
+       "key": "secondary.original_repeat_rule.tests.t3.ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 4"
+    },
+    {
+     "formula": "p at the bootstrap's floor (1 minus bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00013",
+     "raw": 0.00012908052436866324,
+     "refs": [
+      {
+       "key": "result.tests.t4.p_inferiority",
+       "source": "fa5"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.z0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t4.a",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00833",
+     "raw": 0.008333333333333333,
+     "refs": [
+      {
+       "key": "result.tests.t4.holm_threshold",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−57.5, −26.3]",
+     "raw": [
+      -57.5,
+      -26.25
+     ],
+     "refs": [
+      {
+       "key": "result.tests.t4.ci99.0",
+       "source": "fa5"
+      },
+      {
+       "key": "result.tests.t4.ci99.1",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "result.tests.t4.holm_inferior",
+       "source": "fa5"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test 5"
+    },
+    {
+     "formula": "1 minus a p at the bootstrap's floor (the locked p, recorded with its z0, a and B); printed as a bound rounded down at 5 places",
+     "kind": "num",
+     "printed": "≥ 0.99996",
+     "raw": 0.9999600955825564,
+     "refs": [
+      {
+       "key": "result.tests.t5.p_inferiority",
+       "source": "fa5"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.p",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.z0",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.tests.t5.a",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.025",
+     "raw": 0.025,
+     "refs": [
+      {
+       "key": "result.tests.t5.holm_threshold",
+       "source": "fa5"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ]
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+Test,Shape,Challenger,Comparator,d (points),95% interval (unadjusted),"Error-rate ratio (challenger's over comparator's, 95% interval)",Reading (pre-registered decision rule),Locked p (one-sided),"Inferiority p, one minus the locked p (post hoc)","Holm threshold, inferiority direction (post hoc)",Inferiority p below its Holm threshold (post hoc),Stricter interval (post hoc),Stricter interval wholly below the margin (post hoc)
+Test 1,6×1,Haiku-medium vote,Opus-medium,−33.13,"[−43.75, −23.75]","undefined (comparator: 0 errors in 80; its error rate at most 4.51, exact 95%)",worse by > margin,0.99996,≤ 0.00004,0.005,yes,"[−47.50, −20.63]",yes
+Test 2,1×6,Haiku-medium vote,Opus-medium,−37.64,"[−48.82, −26.96]","11.04 [4.75, unbounded]",worse by > margin,0.99993,≤ 0.00007,0.00625,yes,"[−52.23, −23.55]",yes
+Test 3,1×6,Haiku-medium vote,Sonnet-medium,−24.70,"[−36.12, −12.20]","2.23 [1.47, 3.92]",worse by > margin,0.98913,0.01087,0.0125,yes,"[−39.28, −8.25]",no
+Test 4,1×6,Step voting,Opus-medium,−42.50,"[−53.75, −30.00]","12.33 [5.17, unbounded]",worse by > margin,0.99987,≤ 0.00013,0.00833,yes,"[−57.50, −26.25]",yes
+Test 5,1×6,Opus-low,Sonnet-medium,+17.50,"[8.75, 27.50]","0.13 [0.00, 0.40]",shown no worse by > margin (Holm-adjusted),≤ 0.00004,0.99996,0.025,—,—,—

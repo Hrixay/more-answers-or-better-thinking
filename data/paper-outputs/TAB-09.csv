@@ -1,0 +1,4 @@
+Setting,Calls,"Accuracy, real time (%)","Accuracy, Batch (%)","Difference, real time minus Batch (points)","Mean output tokens per call, real time","Mean output tokens per call, Batch",Latency median (s),Latency quartiles (s),Latency p95 (s),Latency max (s)
+"Haiku-medium, real time",50,54.00,58.00,−4.00,"1,791.3","1,812.7",6.91,"[6.51, 7.34]",8.00,8.39
+"Opus-medium, real time",10,90.00,100.00,−10.00,"1,797.4","1,932.9",16.20,"[13.78, 16.89]",17.84,18.16
+"Sonnet-medium, real time",10,70.00,90.00,−20.00,"1,280.4","1,285.3",7.77,"[7.13, 8.30]",8.63,8.74

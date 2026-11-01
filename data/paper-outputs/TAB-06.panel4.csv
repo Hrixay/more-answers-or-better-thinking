@@ -1,0 +1,5 @@
+Pair (low minus medium effort),Shape,Low-effort accuracy (%),Low-effort format compliance (%),Medium-effort accuracy (%),Medium-effort format compliance (%),d (points),d 95% interval,Low-effort list cost per sample ($),Medium-effort list cost per sample ($),Cost difference ($ per sample)
+Haiku-low minus Haiku-medium,1×6,39.22,98.13,43.72,98.59,−4.50,"[−6.91, −2.13]",0.00103,0.00110,−0.0000686
+Haiku-low minus Haiku-medium,6×1,46.50,99.66,51.00,99.72,−4.50,"[−7.84, −1.09]",0.00103,0.00109,−0.0000672
+Opus-low minus Opus-medium,1×6,97.50,98.75,96.25,97.50,+1.25,"[−3.75, 7.50]",0.0365,0.0402,−0.00371
+Opus-low minus Opus-medium,6×1,"100.00 [95.49, 100.00] post hoc† (exact)",100.00,"100.00 [95.49, 100.00] post hoc† (exact)",100.00,0.00,"[0.00, 0.00] (collapsed)",0.0449,0.0481,−0.00326

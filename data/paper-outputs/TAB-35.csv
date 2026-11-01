@@ -1,0 +1,13 @@
+Study,"Setting (model, effort)",Samples per puzzle,Puzzles,Steps,Role
+Length sweep,Haiku-medium; Opus-medium; Sonnet-medium,10; 1; 1,20,"4, 6, 8, 12, 16",description (chose the length)
+Study 1,Haiku-medium,40,80,6,"test (Tests 1–3, as votes)"
+Study 1,Opus-medium; Sonnet-medium; Opus-low,1 each,80,6,test (the comparators; Test 5)
+Study 1,"Step voting: Haiku-medium, one step a call",up to 9 per step,80,6,test (Test 4)
+Study 1,"Haiku-low; Haiku, thinking off; Haiku-max; Sonnet-low",40; 40; 3; 1,80,6,exploratory
+Study 1,"Haiku-medium, reworded prompt",10,20,6,description (wording check)
+Study 1b,Haiku-max; Opus-medium,10; 2,80,16,"test (Tests B1, B2)"
+Study 1b,Haiku-max; Opus-medium,10; 2,40,6,test (Test B3)
+Study 1b,"Haiku, thinking off; Haiku at low, medium, high and xhigh effort",5 each,80 and 40,16 and 6,description
+Study 1b,"Sonnet at low, medium, high, xhigh and max effort; Opus at low, high, xhigh and max effort",1 each,40,6,description
+Study 1b,Haiku-max; Opus-medium,10; 1,80,12,description (the 12-step point)
+Top-up,"Haiku-medium designs: a team, a picker, step voting on pieces; and the drift check between runs",see ⟦TAB-14⟧,80 (drift check: 20),6,exploratory

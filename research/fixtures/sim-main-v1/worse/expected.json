@@ -1,0 +1,304 @@
+{
+ "case": "worse",
+ "set_id": "simfix-worse-v1",
+ "seed": 1107,
+ "n_base": 80,
+ "haiku_tries": 40,
+ "true_d_left_out": {
+  "t1": -15,
+  "t2": -30,
+  "t3": -30,
+  "t4": -30,
+  "t5": -30
+ },
+ "k": {
+  "opus_matched": {
+   "24x1": 29,
+   "1x24": 29
+  },
+  "sonnet_matched_1x24": 14
+ },
+ "population_vote_accuracy": {
+  "O/24x1": 0.8121,
+  "O/1x24": 0.57762,
+  "S/1x24": 0.55402
+ },
+ "target_accuracy": {
+  "opus-med/24x1": 0.9621,
+  "opus-med/1x24": 0.87762,
+  "sonnet-med/1x24": 0.85402,
+  "e3/1x24": 0.57762,
+  "opus-low/1x24": 0.55402,
+  "sonnet-med/24x1": 0.80402,
+  "opus-low/24x1": 0.9321,
+  "e3/24x1": 0.9621
+ },
+ "observed_accuracy": {
+  "opus-med/24x1": 0.9625,
+  "opus-med/1x24": 0.9125,
+  "opus-low/24x1": 0.875,
+  "opus-low/1x24": 0.6,
+  "sonnet-med/24x1": 0.825,
+  "sonnet-med/1x24": 0.8875,
+  "e3/24x1": 0.9625,
+  "e3/1x24": 0.65
+ },
+ "special_rows": {},
+ "method": {
+  "bootstrap": "paired base-puzzle BCa",
+  "n_boot": 10000,
+  "test_seed": "int(sha256(f\"{seed}:{test}\").hexdigest()[:15], 16)",
+  "p": "invert the BCa lower bound at the margin -10",
+  "holm": "one-sided family alpha 0.025; step j threshold 0.025/(6-j)",
+  "worse": "two-sided 95% BCa upper end below -10",
+  "vote": "exact expected vote@k over k-subsets; null answers vote for nothing; truncations_left_out drops truncated samples and caps k at what is left"
+ },
+ "readings": {
+  "as_deployed": {
+   "t1": {
+    "n": 80,
+    "d_hat": -12.452,
+    "p": 0.763933,
+    "ci95": [
+     -20.654,
+     -5.822
+    ],
+    "z0": -0.03811,
+    "acc": -0.021655,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -23.787499,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -28.275,
+    "p": 0.999512,
+    "ci95": [
+     -39.027,
+     -17.341
+    ],
+    "z0": -0.00376,
+    "acc": 6.8e-05,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -39.026852,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -27.946,
+    "p": 0.999432,
+    "ci95": [
+     -38.259,
+     -17.503
+    ],
+    "z0": -0.006016,
+    "acc": 0.004484,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -39.739508,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -26.25,
+    "p": 0.998881,
+    "ci95": [
+     -40.0,
+     -16.25
+    ],
+    "z0": -0.111525,
+    "acc": -0.001547,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -43.75,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -28.75,
+    "p": 0.99925,
+    "ci95": [
+     -42.5,
+     -17.5
+    ],
+    "z0": -0.091368,
+    "acc": 0.002041,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -45.0,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   }
+  },
+  "refusals_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": -12.452,
+    "p": 0.763933,
+    "ci95": [
+     -20.654,
+     -5.822
+    ],
+    "z0": -0.03811,
+    "acc": -0.021655,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -23.787499,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -28.275,
+    "p": 0.999512,
+    "ci95": [
+     -39.027,
+     -17.341
+    ],
+    "z0": -0.00376,
+    "acc": 6.8e-05,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -39.026852,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -27.946,
+    "p": 0.999432,
+    "ci95": [
+     -38.259,
+     -17.503
+    ],
+    "z0": -0.006016,
+    "acc": 0.004484,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -39.739508,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -26.25,
+    "p": 0.998881,
+    "ci95": [
+     -40.0,
+     -16.25
+    ],
+    "z0": -0.111525,
+    "acc": -0.001547,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -43.75,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -28.75,
+    "p": 0.99925,
+    "ci95": [
+     -42.5,
+     -17.5
+    ],
+    "z0": -0.091368,
+    "acc": 0.002041,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -45.0,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   }
+  },
+  "truncations_left_out": {
+   "t1": {
+    "n": 80,
+    "d_hat": -12.452,
+    "p": 0.763933,
+    "ci95": [
+     -20.654,
+     -5.822
+    ],
+    "z0": -0.03811,
+    "acc": -0.021655,
+    "holm_step": 1,
+    "holm_threshold": 0.005,
+    "lower_bound_at_step": -23.787499,
+    "reading": "inconclusive",
+    "near_threshold": false
+   },
+   "t2": {
+    "n": 80,
+    "d_hat": -28.275,
+    "p": 0.999512,
+    "ci95": [
+     -39.027,
+     -17.341
+    ],
+    "z0": -0.00376,
+    "acc": 6.8e-05,
+    "holm_step": 5,
+    "holm_threshold": 0.025,
+    "lower_bound_at_step": -39.026852,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t3": {
+    "n": 80,
+    "d_hat": -27.946,
+    "p": 0.999432,
+    "ci95": [
+     -38.259,
+     -17.503
+    ],
+    "z0": -0.006016,
+    "acc": 0.004484,
+    "holm_step": 4,
+    "holm_threshold": 0.0125,
+    "lower_bound_at_step": -39.739508,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t4": {
+    "n": 80,
+    "d_hat": -26.25,
+    "p": 0.998881,
+    "ci95": [
+     -40.0,
+     -16.25
+    ],
+    "z0": -0.111525,
+    "acc": -0.001547,
+    "holm_step": 2,
+    "holm_threshold": 0.00625,
+    "lower_bound_at_step": -43.75,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   },
+   "t5": {
+    "n": 80,
+    "d_hat": -28.75,
+    "p": 0.99925,
+    "ci95": [
+     -42.5,
+     -17.5
+    ],
+    "z0": -0.091368,
+    "acc": 0.002041,
+    "holm_step": 3,
+    "holm_threshold": 0.008333333333333333,
+    "lower_bound_at_step": -45.0,
+    "reading": "worse by more than the margin",
+    "near_threshold": false
+   }
+  }
+ }
+}

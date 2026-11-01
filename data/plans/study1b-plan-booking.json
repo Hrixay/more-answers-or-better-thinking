@@ -1,0 +1,597 @@
+{
+ "study": "study1b",
+ "draft": null,
+ "plan_sha256": "d8c66f5bf1559e6be882d1d7155c7f8e79077205448ac595601dc62c9c7e1b63",
+ "wave0": {
+  "calls": 280,
+  "batch_booking_usd": "61.3989164",
+  "arms": [
+   {
+    "steps": 16,
+    "tag": "hx",
+    "calls": 20,
+    "max_tokens": 128000,
+    "batch_booking_usd": "0.6455556"
+   },
+   {
+    "steps": 16,
+    "tag": "ho",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3255556"
+   },
+   {
+    "steps": 16,
+    "tag": "hl",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3255556"
+   },
+   {
+    "steps": 16,
+    "tag": "hh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3255556"
+   },
+   {
+    "steps": 16,
+    "tag": "hxh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3255556"
+   },
+   {
+    "steps": 6,
+    "tag": "hh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3231128"
+   },
+   {
+    "steps": 6,
+    "tag": "hxh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "0.3231128"
+   },
+   {
+    "steps": 6,
+    "tag": "sh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "6.462256"
+   },
+   {
+    "steps": 6,
+    "tag": "sxh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "6.462256"
+   },
+   {
+    "steps": 6,
+    "tag": "sx",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "6.462256"
+   },
+   {
+    "steps": 6,
+    "tag": "oh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "12.924512"
+   },
+   {
+    "steps": 6,
+    "tag": "oxh",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "12.924512"
+   },
+   {
+    "steps": 6,
+    "tag": "ox",
+    "calls": 20,
+    "max_tokens": 64000,
+    "batch_booking_usd": "12.924512"
+   },
+   {
+    "steps": 12,
+    "tag": "hx",
+    "calls": 20,
+    "max_tokens": 128000,
+    "batch_booking_usd": "0.6446088"
+   }
+  ],
+  "sets": [
+   {
+    "set": "data/tasks/ladder-ledger-l14n16-v1",
+    "set_id": "ladder-ledger-l14n16-v1",
+    "steps": 16
+   },
+   {
+    "set": "data/tasks/ladder-ledger-l14n6-v1",
+    "set_id": "ladder-ledger-l14n6-v1",
+    "steps": 6
+   },
+   {
+    "set": "data/tasks/ladder-ledger-l14n12-v1",
+    "set_id": "ladder-ledger-l14n12-v1",
+    "steps": 12
+   }
+  ]
+ },
+ "sets": [
+  {
+   "set": "data/tasks/main-ledger-l14n16-v1",
+   "set_id": "main-ledger-l14n16-v1",
+   "steps": 16,
+   "items": 160,
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "thinking_off": false,
+     "tries_per_item": 10,
+     "role": "confirmatory",
+     "calls": 1600,
+     "max_tokens": "wave-0 rule",
+     "floor": 96000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "38.8483260",
+     "batch_booking_at_cap_usd": "51.6483260"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 2,
+     "role": "confirmatory",
+     "calls": 320,
+     "max_tokens": 9000,
+     "batch_booking_usd": "32.386608",
+     "cost_per_call_usd": "0.035725850",
+     "cost_source": "ladder-l14n-1 per-arm Batch cost as billed (Opus-medium at 16 steps): sum of cost_usd over the 40 final records of ladder-ledger-l14n16-v1 tag om in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+    },
+    {
+     "tag": "ho",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "thinking_off": true,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 800,
+     "max_tokens": "wave-0 rule",
+     "floor": 14000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.0241630",
+     "batch_booking_at_cap_usd": "25.8241630"
+    },
+    {
+     "tag": "hl",
+     "model": "claude-haiku-5-5",
+     "effort": "low",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 800,
+     "max_tokens": "wave-0 rule",
+     "floor": 14000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.0241630",
+     "batch_booking_at_cap_usd": "25.8241630"
+    },
+    {
+     "tag": "hm",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 800,
+     "max_tokens": 14000,
+     "batch_booking_usd": "3.0241630",
+     "cost_per_call_usd": "0.001251736",
+     "cost_source": "ladder-l14n-1 per-arm Batch cost as billed (Haiku-medium at 16 steps): sum of cost_usd over the 400 final records of ladder-ledger-l14n16-v1 tag hm in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+    },
+    {
+     "tag": "hh",
+     "model": "claude-haiku-5-5",
+     "effort": "high",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 800,
+     "max_tokens": "wave-0 rule",
+     "floor": 14000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.0241630",
+     "batch_booking_at_cap_usd": "25.8241630"
+    },
+    {
+     "tag": "hxh",
+     "model": "claude-haiku-5-5",
+     "effort": "xhigh",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 800,
+     "max_tokens": "wave-0 rule",
+     "floor": 14000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.0241630",
+     "batch_booking_at_cap_usd": "25.8241630"
+    }
+   ],
+   "calls": 5920,
+   "batch_booking_at_floors_usd": "86.3557490",
+   "batch_booking_at_caps_usd": "190.3557490"
+  },
+  {
+   "set": "data/tasks/ext40-ledger-l14n6-v1",
+   "set_id": "ext40-ledger-l14n6-v1",
+   "steps": 6,
+   "items": 80,
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "thinking_off": false,
+     "tries_per_item": 10,
+     "role": "confirmatory",
+     "calls": 800,
+     "max_tokens": 30000,
+     "batch_booking_usd": "6.1245820",
+     "cost_per_call_usd": "0.002117993",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-max 1x6' + 'haiku-max 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 2,
+     "role": "confirmatory",
+     "calls": 160,
+     "max_tokens": 4000,
+     "batch_booking_usd": "7.396656",
+     "cost_per_call_usd": "0.022090825",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'opus-med 1x6' + 'opus-med 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "ho",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "thinking_off": true,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 400,
+     "max_tokens": 4000,
+     "batch_booking_usd": "0.4622910",
+     "cost_per_call_usd": "0.000461600",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-thinking-off 1x6' + 'haiku-thinking-off 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "hl",
+     "model": "claude-haiku-5-5",
+     "effort": "low",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 400,
+     "max_tokens": 7000,
+     "batch_booking_usd": "0.7622910",
+     "cost_per_call_usd": "0.000514361",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-low 1x6' + 'haiku-low 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "hm",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 400,
+     "max_tokens": 6000,
+     "batch_booking_usd": "0.6622910",
+     "cost_per_call_usd": "0.000548300",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-med 1x6' + 'haiku-med 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "hh",
+     "model": "claude-haiku-5-5",
+     "effort": "high",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 400,
+     "max_tokens": "wave-0 rule",
+     "floor": 6000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "0.6622910",
+     "batch_booking_at_cap_usd": "12.8622910"
+    },
+    {
+     "tag": "hxh",
+     "model": "claude-haiku-5-5",
+     "effort": "xhigh",
+     "thinking_off": false,
+     "tries_per_item": 5,
+     "role": "descriptive",
+     "calls": 400,
+     "max_tokens": "wave-0 rule",
+     "floor": 6000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "0.6622910",
+     "batch_booking_at_cap_usd": "12.8622910"
+    },
+    {
+     "tag": "sl",
+     "model": "claude-sonnet-5-5",
+     "effort": "low",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": 3000,
+     "batch_booking_usd": "1.449164",
+     "cost_per_call_usd": "0.007497006",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'sonnet-low 1x6' + 'sonnet-low 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "sm",
+     "model": "claude-sonnet-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": 3000,
+     "batch_booking_usd": "1.449164",
+     "cost_per_call_usd": "0.007709662",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'sonnet-med 1x6' + 'sonnet-med 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "sh",
+     "model": "claude-sonnet-5-5",
+     "effort": "high",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 3000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "1.449164",
+     "batch_booking_at_cap_usd": "51.449164"
+    },
+    {
+     "tag": "sxh",
+     "model": "claude-sonnet-5-5",
+     "effort": "xhigh",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 3000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "1.449164",
+     "batch_booking_at_cap_usd": "51.449164"
+    },
+    {
+     "tag": "sx",
+     "model": "claude-sonnet-5-5",
+     "effort": "max",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 3000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "1.449164",
+     "batch_booking_at_cap_usd": "51.449164"
+    },
+    {
+     "tag": "ol",
+     "model": "claude-opus-5-5",
+     "effort": "low",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": 4000,
+     "batch_booking_usd": "3.698328",
+     "cost_per_call_usd": "0.020348825",
+     "cost_source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'opus-low 1x6' + 'opus-low 6x1' (cost_usd over rows)"
+    },
+    {
+     "tag": "oh",
+     "model": "claude-opus-5-5",
+     "effort": "high",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 4000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.698328",
+     "batch_booking_at_cap_usd": "102.898328"
+    },
+    {
+     "tag": "oxh",
+     "model": "claude-opus-5-5",
+     "effort": "xhigh",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 4000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.698328",
+     "batch_booking_at_cap_usd": "102.898328"
+    },
+    {
+     "tag": "ox",
+     "model": "claude-opus-5-5",
+     "effort": "max",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 80,
+     "max_tokens": "wave-0 rule",
+     "floor": 4000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "3.698328",
+     "batch_booking_at_cap_usd": "102.898328"
+    }
+   ],
+   "calls": 3680,
+   "batch_booking_at_floors_usd": "38.7718250",
+   "batch_booking_at_caps_usd": "510.7718250"
+  },
+  {
+   "set": "data/tasks/main-ledger-l14n12-v1",
+   "set_id": "main-ledger-l14n12-v1",
+   "steps": 12,
+   "items": 160,
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "thinking_off": false,
+     "tries_per_item": 10,
+     "role": "descriptive",
+     "calls": 1600,
+     "max_tokens": "wave-0 rule",
+     "floor": 96000,
+     "cap": 128000,
+     "batch_booking_at_floor_usd": "38.7677450",
+     "batch_booking_at_cap_usd": "51.5677450"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "thinking_off": false,
+     "tries_per_item": 1,
+     "role": "descriptive",
+     "calls": 160,
+     "max_tokens": 7000,
+     "batch_booking_usd": "12.670980",
+     "cost_per_call_usd": "0.031645600",
+     "cost_source": "ladder-l14n-1 per-arm Batch cost as billed (Opus-medium at 12 steps): sum of cost_usd over the 40 final records of ladder-ledger-l14n12-v1 tag om in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+    }
+   ],
+   "calls": 1760,
+   "batch_booking_at_floors_usd": "51.4387250",
+   "batch_booking_at_caps_usd": "64.2387250"
+  }
+ ],
+ "test_calls": 11360,
+ "test_batch_booking_at_floors_usd": "176.5662990",
+ "test_batch_booking_at_caps_usd": "765.3662990",
+ "total_calls": 11640,
+ "total_batch_booking_at_floors_usd": "237.9652154",
+ "total_batch_booking_at_caps_usd": "826.7652154",
+ "check_floor_total_equals_guard_worst_case": true,
+ "cut": {
+  "multiplier": "1.5",
+  "share_of_cap": "0.9",
+  "order": [
+   {
+    "name": "Opus-max at 6",
+    "arms": [
+     [
+      6,
+      "ox"
+     ]
+    ]
+   },
+   {
+    "name": "Opus-xhigh at 6",
+    "arms": [
+     [
+      6,
+      "oxh"
+     ]
+    ]
+   },
+   {
+    "name": "Sonnet-max",
+    "arms": [
+     [
+      6,
+      "sx"
+     ]
+    ]
+   },
+   {
+    "name": "Sonnet-xhigh",
+    "arms": [
+     [
+      6,
+      "sxh"
+     ]
+    ]
+   },
+   {
+    "name": "the 12-step point",
+    "arms": [
+     [
+      12,
+      "hx"
+     ],
+     [
+      12,
+      "om"
+     ]
+    ]
+   },
+   {
+    "name": "Haiku-xhigh at 16",
+    "arms": [
+     [
+      16,
+      "hxh"
+     ]
+    ]
+   }
+  ],
+  "never_cut": [
+   [
+    6,
+    "hx"
+   ],
+   [
+    6,
+    "om"
+   ],
+   [
+    16,
+    "hx"
+   ],
+   [
+    16,
+    "om"
+   ]
+  ],
+  "note": "Edith S-1: projected = wave 0's Batch cost + 1.5 x sum(cost per call x planned calls) over the arms left; cut in order while over 0.9 x cap"
+ },
+ "costs_to_fill": [],
+ "cap_usd": "130",
+ "waves_at_floors_if_nothing_were_spent_between": [
+  4981,
+  6659
+ ],
+ "booking_note": "the guard's worst case per call (prices.worst_case, Batch price): prompt at the dearest input rate plus max_tokens at the output rate; the bill is a fraction of this. Calibrated arms are bounded by their floor and the rule's cap until wave 0 sets them."
+}

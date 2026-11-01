@@ -1,0 +1,3586 @@
+{
+ "output": {
+  "id": "TAB-14",
+  "kind": "table",
+  "label": "exploratory",
+  "section": "Results: top-up",
+  "title": "Top-up arms and comparisons"
+ },
+ "panels": [
+  {
+   "name": "Comparisons (d = challenger minus comparator, points)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Challenger"
+     },
+     {
+      "kind": "label",
+      "printed": "Comparator"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "d (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "d 95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "Across runs"
+     },
+     {
+      "kind": "label",
+      "printed": "Drift check (top-up)"
+     },
+     {
+      "kind": "label",
+      "printed": "Label"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "the same printed value in every row of the dropped column (the build stops otherwise)",
+       "kind": "num",
+       "printed": "Every comparison is paired over 80 puzzles at its shape.",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-e3:6x1.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-om:1x6.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-om:6x1.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-single:1x6.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-single:6x1.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.n",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.n",
+         "source": "topup"
+        },
+        {
+         "key": "test4_pieces.as_deployed.n",
+         "source": "topup"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku team",
+       "raw": "e2",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.challenger",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "Step voting, main run",
+       "raw": "main-e3",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.comparator",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "chains (1×6)",
+       "raw": "1x6",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−1.25",
+       "raw": -1.25,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−15.00, 12.50]",
+       "raw": [
+        -15.0,
+        12.5
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-e3:1x6.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:1x6.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku team",
+       "raw": "e2",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.challenger",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "Step voting on pieces",
+       "raw": "c13",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.comparator",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+21.25",
+       "raw": 21.25,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[6.25, 35.00]",
+       "raw": [
+        6.25,
+        35.0
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-e3:6x1.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-e3:6x1.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "not needed (same run)"
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku team",
+       "raw": "e2",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.challenger",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "Opus-medium, main run",
+       "raw": "main-om",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.comparator",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "chains (1×6)",
+       "raw": "1x6",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−43.75",
+       "raw": -43.75,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−55.00, −31.25]",
+       "raw": [
+        -55.0,
+        -31.25
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-om:1x6.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:1x6.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku team",
+       "raw": "e2",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.challenger",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "Opus-medium, main run",
+       "raw": "main-om",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.comparator",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−27.50",
+       "raw": -27.5,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−37.50, −18.75]",
+       "raw": [
+        -37.5,
+        -18.75
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:e2-om:6x1.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:e2-om:6x1.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Any of the first 8 Haiku-medium samples right (the ceiling for a picker)",
+       "raw": [
+        "any8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "chains (1×6)",
+       "raw": "1x6",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−25.00",
+       "raw": -25.0,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−36.25, −16.25]",
+       "raw": [
+        -36.25,
+        -16.25
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:1x6.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Any of the first 8 Haiku-medium samples right (the ceiling for a picker)",
+       "raw": [
+        "any8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−18.75",
+       "raw": -18.75,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−28.75, −11.25]",
+       "raw": [
+        -28.75,
+        -11.25
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-any8:6x1.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "One Haiku-medium sample (the first 8 samples)",
+       "raw": [
+        "single8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "chains (1×6)",
+       "raw": "1x6",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+18.91",
+       "raw": 18.90625,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[9.53, 27.97]",
+       "raw": [
+        9.53125,
+        27.96875
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-single:1x6.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:1x6.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "One Haiku-medium sample (the first 8 samples)",
+       "raw": [
+        "single8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+14.53",
+       "raw": 14.53125,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[6.41, 22.50]",
+       "raw": [
+        6.40625,
+        22.5
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-single:6x1.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-single:6x1.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku-medium vote of the first 8 samples",
+       "raw": [
+        "vote8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "chains (1×6)",
+       "raw": "1x6",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+9.64",
+       "raw": 9.635416666666668,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−1.88, 21.35]",
+       "raw": [
+        -1.875,
+        21.354166666666668
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:1x6.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku picker over 8 samples",
+       "raw": [
+        "h-pick8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.challenger",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "the display name of the stamped arm id; the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+       "kind": "num",
+       "printed": "Haiku-medium vote of the first 8 samples",
+       "raw": [
+        "vote8",
+        "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.comparator",
+         "source": "topup"
+        },
+        {
+         "key": "picker_positions.label",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+2.08",
+       "raw": 2.0833333333333335,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−6.88, 10.83]",
+       "raw": [
+        -6.875,
+        10.833333333333332
+       ],
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "comparisons.topup:hp8-vote8:6x1.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "exploratory (no Holm, no verdict)",
+       "raw": "exploratory (no Holm, no verdict)",
+       "refs": [
+        {
+         "key": "comparisons.label",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Step voting on pieces, top-up run",
+       "raw": "c13 (step voting on pieces, top-up)",
+       "refs": [
+        {
+         "key": "test4_pieces.challenger",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "Opus-medium, main run",
+       "raw": "opus-med (main run)",
+       "refs": [
+        {
+         "key": "test4_pieces.comparator",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "pieces (6×1)",
+       "raw": "6x1",
+       "refs": [
+        {
+         "key": "test4_pieces.shape",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−48.75",
+       "raw": -48.75,
+       "refs": [
+        {
+         "key": "test4_pieces.as_deployed.d",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−60.00, −37.50]",
+       "raw": [
+        -60.0,
+        -37.5
+       ],
+       "refs": [
+        {
+         "key": "test4_pieces.as_deployed.ci95.0",
+         "source": "topup"
+        },
+        {
+         "key": "test4_pieces.as_deployed.ci95.1",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "yes: this stamped list of cross-window comparisons names 'Test 4 at pieces'",
+       "kind": "num",
+       "printed": "yes",
+       "raw": "Cross-window comparisons (flag status attached): E2 - E3 at 1x6, E2 - Opus-medium, every picker comparison (its comparators are main-run samples) and Test 4 at pieces. E2 - C13 at 6x1 is within the top-up window.",
+       "refs": [
+        {
+         "key": "choices.cross_window",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "not fired",
+       "raw": "not fired",
+       "refs": [
+        {
+         "key": "test4_pieces.same_model_flag",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "unadjusted, exploratory, outside the pre-registered family"
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  },
+  "topup_run_spec": {
+   "commit": "9c007e5",
+   "path": "research/topup-run-spec.md",
+   "sha256": "f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "95%. Accuracy: the top-up file's cluster bootstrap over puzzles, 2,000 resamples, except the main-run rows Study 1 also reports, which print Study 1's stamped interval (as TAB-04 prints it): exact (Clopper–Pearson) for Opus-medium's one sample on chains and on pieces, Study 1's cluster bootstrap for step voting on chains. Differences: paired BCa bootstrap, B = 10,000",
+     "raw": [
+      2000,
+      10000
+     ],
+     "refs": [
+      {
+       "key": "constants.draws",
+       "source": "topup"
+      },
+      {
+       "key": "constants.B",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "formula": "designed calls / base puzzles; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "puzzles per shape: 80 in every row (the pooled rows take each puzzle's mean over both shapes). Per puzzle, the picker makes 1 call and reads the first 8 main-run Haiku-medium samples, which the one-sample, vote and any-of rows also use; Opus-medium makes 1 sample. The Haiku team and step voting are adaptive, so their calls per puzzle vary: the Haiku team made 2,399 calls over 160 puzzle-shape pairs, step voting on pieces 1,061 over 80 and step voting on chains (main run) 1,086 over 80.",
+     "raw": [
+      80,
+      1.0,
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      1,
+      2399,
+      160,
+      1061,
+      80,
+      1086,
+      80
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.n_base",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.designed_calls",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.1x6.n_base",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.k",
+       "source": "main"
+      },
+      {
+       "key": "completeness.arms.e2.final",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.e2.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.c13.final",
+       "source": "topup"
+      },
+      {
+       "key": "completeness.arms.c13.puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.refusals_and_truncations.calls_made",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "US dollars per puzzle at list price (Study 1's pre-registered price table)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps, which the top-up run also used: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "formula": "text cut /^(False)$/ group 1; not printed: the record for 'the Haiku team and step voting on pieces are compared within the top-up run'; the one status that every cross-window comparison's stamped drift-check (same-model check) flag gives; the build checks they are all equal",
+     "kind": "num",
+     "printed": "Top-up run (6 steps, a separate run): the Haiku team, the Haiku picker and step voting on pieces, against main-run comparators; on pieces, also the Haiku team against step voting on pieces, both in the top-up run; the drift check between the two runs, for every comparison across them: not fired",
+     "raw": [
+      "6x1",
+      "c13",
+      "False",
+      [
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired",
+       "not fired"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.shape",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.cross_window",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-om:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-any8:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-any8:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-single:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:1x6.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:hp8-vote8:6x1.same_model_flag",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.same_model_flag",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   "tier": [
+    {
+     "formula": "text cut /^(unadjusted) \\(exploratory, outside Holm\\)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'; text cut /^(True)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'; text cut /^(True)$/ group 1; not printed: the record for 'Test 4 at pieces is unadjusted, exploratory and outside the pre-registered (Holm) family'",
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict); step voting on pieces, whose d against one Opus-medium answer from the main run is the pieces counterpart of Test 4, is unadjusted, exploratory, outside the pre-registered family; the comparator rows that print Study 1's own values are pre-specified descriptive (Label column)",
+     "raw": [
+      "exploratory (no Holm, no verdict)",
+      [
+       "unadjusted",
+       "True",
+       "True"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.exploratory",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.outside_holm_family",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Run"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Readable picks (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per puzzle ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Extra list cost of the picker call alone ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per correct answer ($)"
+   },
+   {
+    "kind": "label",
+    "printed": "Label"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "num",
+     "printed": "On pieces the Haiku team is compared with step voting on pieces, both in the top-up run (across runs: no); in the main run, step voting ran on chains only.",
+     "raw": [
+      "6x1",
+      "c13",
+      false
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.shape",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.cross_window",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "The top-up is exploratory (no Holm, no verdict). Step voting on pieces against one Opus-medium answer from the main run is the pieces counterpart of Test 4, not one of Tests 1–5: it is labelled unadjusted (exploratory, outside Holm) and is outside the pre-registered family; the drift check between runs: not fired.",
+     "raw": [
+      "exploratory (no Holm, no verdict)",
+      "unadjusted (exploratory, outside Holm)",
+      "not fired"
+     ],
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.label",
+       "source": "topup"
+      },
+      {
+       "key": "test4_pieces.same_model_flag",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /(the spec frozen in lock 4)/ group 1; not printed: the record for 'the top-up analysis ran under the spec frozen in lock 4'; text cut /(frozen in `prereg-lock-4`)/ group 1; not printed: the record for 'the top-up spec is frozen at the Lock 4 tag'; text cut /^## \\d+\\. .*\\b(same-model check)\\b/ group 1; not printed: the record for 'the spec has a section on the same-model check'; text cut /^\\*\\*What it is:\\*\\* (Haiku-medium) ×\\d+, at the main run's Haiku-medium settings exactly/ group 1; not printed: the record for 'the same-model check runs Haiku-medium at the main run's Haiku-medium settings'; main-run calls of the same-model check / its puzzles (the main run's Haiku-medium samples per puzzle it is set against); text cut /^\\*\\*What it's compared with:\\*\\* the main run's Haiku-medium \\*\\*samples 1[–-](\\d+)\\*\\* of the same (?:\\d+) puzzles\\./ group 1; not printed: the record for 'the same-model check is set against the main run's Haiku-medium samples 1 to n of the same puzzles'; 100 * x",
+     "kind": "num",
+     "printed": "A comparison across runs sets a top-up setting against a main-run setting run at another time, and carries the status of the drift check between runs. The drift check, set by the top-up run's specification (frozen with Lock 4), re-ran Haiku-medium at the main run's Haiku-medium settings on 20 puzzles in both shapes (40 puzzle-shape pairs, 5 samples each, 200 calls) and set it against the main run's first 5 Haiku-medium samples on each of the same puzzles: pooled d (top-up minus main run) = +1.50 points (95% interval −8.00 to +10.00); mean output tokens per call changed by +0.29%; status: not fired (a flag, not a gate; these answers are never mixed into Study 1).",
+     "raw": [
+      [
+       "the spec frozen in lock 4",
+       "frozen in `prereg-lock-4`",
+       "same-model check",
+       "Haiku-medium"
+      ],
+      20,
+      40,
+      5,
+      200,
+      [
+       5.0,
+       "5"
+      ],
+      1.5,
+      -8.0,
+      10.0,
+      0.002903084015660331,
+      "not fired",
+      "a flag, not a gate; these answers are never mixed into Study 1"
+     ],
+     "refs": [
+      {
+       "key": "spec",
+       "source": "topup"
+      },
+      {
+       "key": "L3",
+       "source": "topup_run_spec"
+      },
+      {
+       "key": "L76",
+       "source": "topup_run_spec"
+      },
+      {
+       "key": "L78",
+       "source": "topup_run_spec"
+      },
+      {
+       "key": "same_model_check.bases",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.n_puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.tries_per_puzzle",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.refusals_truncations.top_up.calls",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.refusals_truncations.main.calls",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.n_puzzles",
+       "source": "topup"
+      },
+      {
+       "key": "L81",
+       "source": "topup_run_spec"
+      },
+      {
+       "key": "same_model_check.pooled.d",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.pooled.ci95.1",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.output_tokens.relative_change",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.flag.status",
+       "source": "topup"
+      },
+      {
+       "key": "same_model_check.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Rule for the drift check between runs: fires if the pooled 95% interval excludes 0 and |d| > 10 points, or mean output tokens move by more than 25%; a flag, not a gate.",
+     "raw": "fires if the pooled 95% interval excludes 0 and |d| > 10 points, or mean output tokens move by more than 25%; a flag, not a gate",
+     "refs": [
+      {
+       "key": "same_model_check.flag.rule",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the number cut from this stamped label by /each of samples 1-(\\d+) is picked/; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Picker cost: the list cost per puzzle is the total, the 8 main-run samples plus the picker call; the extra list cost is the picker call alone, on top of the 8 samples that the vote of 8 also uses. Cost per correct answer is given for the total only.",
+     "raw": [
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+     ],
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the number cut from this stamped label by /each of samples 1-(\\d+) is picked/; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/; the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "A Label cell that starts with \"comparator\" marks a main-run comparator. The rows of the first 8 Haiku-medium samples and the pooled Opus-medium row are rebuilt by the top-up analysis from the main run's log; the Opus-medium rows per shape and step voting on chains print Study 1's own stamped values (the rebuild gives the same accuracies). The vote of 8 is priced at the list cost of its 8 samples, the picker's stamped total minus its stamped extra. The one-sample row has no stamped cost. The any-of row is a ceiling that needs the answer key, not a setup one could run, so it is given no cost.",
+     "raw": [
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+     ],
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance is the share of answered replies whose format was ok, where a file stamps it: the Haiku team's (top-up file) and Opus-medium's (Study 1). Readable picks is the share of picker replies that named one of the samples. Other empty cells are not stamped."
+    }
+   ],
+   [
+    {
+     "formula": "the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "\"(exact)\" marks an exact (Clopper–Pearson) 95% interval. The main-run rows that Study 1 also reports print the interval Study 1 stamps for the same result (as TAB-04 prints it), so the paper gives one interval per result: Opus-medium's one sample on chains and on pieces (exact) and step voting on chains (Study 1's cluster bootstrap). The top-up file's own bootstraps for these rows are not printed; for Opus-medium on pieces it collapsed to one value. The same exact interval for the Opus-medium pieces cell is stamped by free analysis 4 (post hoc): [95.49, 100.00]. Every other row keeps the top-up file's cluster bootstrap; Study 1's pre-registered settings table (TAB-04) has no row for the top-up designs, the first 8 Haiku-medium samples or pooled shapes.",
+     "raw": [
+      [
+       95.49359649323077,
+       100.0
+      ],
+      "descriptive: how often each of samples 1-8 is picked; position effects are not studied"
+     ],
+     "refs": [
+      {
+       "key": "result.cells.1.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.1.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku team"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "52.50",
+     "raw": 52.5,
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[41.25, 62.50]",
+     "raw": [
+      41.25,
+      62.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.e2.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "100 * format_ok / answered",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.format_ok",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.answered",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00623",
+     "raw": 0.00622884625,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0119",
+     "raw": 0.011864469047619048,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.1x6.cpc.cpc",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku team"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "72.50",
+     "raw": 72.5,
+     "refs": [
+      {
+       "key": "accuracy.e2.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[62.50, 82.50]",
+     "raw": [
+      62.5,
+      82.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.e2.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "100 * format_ok / answered",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.format_ok",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.answered",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00649",
+     "raw": 0.00648801875,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00895",
+     "raw": 0.008948991379310345,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.6x1.cpc.cpc",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku team"
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "62.50",
+     "raw": 62.5,
+     "refs": [
+      {
+       "key": "accuracy.e2.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[55.63, 68.75]",
+     "raw": [
+      55.625,
+      68.75
+     ],
+     "refs": [
+      {
+       "key": "accuracy.e2.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.e2.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00636",
+     "raw": 0.0063584324999999995,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.e2.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku picker over 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "62.50",
+     "raw": 62.5,
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[52.50, 72.50]",
+     "raw": [
+      52.5,
+      72.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "100 * (answered - unreadable) / answered",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.unreadable_pick_among_answered.answered",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.unreadable_pick_among_answered.count",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0103",
+     "raw": 0.01032886875,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00154",
+     "raw": 0.0015398375,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0165",
+     "raw": 0.01652619,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.1x6.cpc.cpc",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku picker over 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "67.50",
+     "raw": 67.5,
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[57.50, 78.75]",
+     "raw": [
+      57.5,
+      78.75
+     ],
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "100 * (answered - unreadable) / answered",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.unreadable_pick_among_answered.answered",
+       "source": "topup"
+      },
+      {
+       "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.unreadable_pick_among_answered.count",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0101",
+     "raw": 0.01014913625,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00142",
+     "raw": 0.001422445,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0150",
+     "raw": 0.015035757407407408,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.6x1.cpc.cpc",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku picker over 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "65.00",
+     "raw": 65.0,
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[57.50, 72.50]",
+     "raw": [
+      57.5,
+      72.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.h-pick8.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.h-pick8.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0102",
+     "raw": 0.0102390025,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00148",
+     "raw": 0.00148114125,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Step voting on pieces"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "top-up run"
+    },
+    {
+     "kind": "num",
+     "printed": "51.25",
+     "raw": 51.25,
+     "refs": [
+      {
+       "key": "accuracy.c13.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[40.00, 62.50]",
+     "raw": [
+      40.0,
+      62.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.c13.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.c13.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00351",
+     "raw": 0.00350548375,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.c13.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00684",
+     "raw": 0.006839968292682927,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.c13.6x1.cpc.cpc",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "unadjusted, exploratory, outside the pre-registered family"
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "One Haiku-medium sample (the first 8 samples)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "43.59",
+     "raw": 43.59375,
+     "refs": [
+      {
+       "key": "accuracy.single8.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[36.72, 50.78]",
+     "raw": [
+      36.71875,
+      50.78125
+     ],
+     "refs": [
+      {
+       "key": "accuracy.single8.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.single8.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "One Haiku-medium sample (the first 8 samples)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "52.97",
+     "raw": 52.96875,
+     "refs": [
+      {
+       "key": "accuracy.single8.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[45.78, 60.63]",
+     "raw": [
+      45.78125,
+      60.625
+     ],
+     "refs": [
+      {
+       "key": "accuracy.single8.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.single8.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "One Haiku-medium sample (the first 8 samples)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "48.28",
+     "raw": 48.28125,
+     "refs": [
+      {
+       "key": "accuracy.single8.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[42.81, 53.91]",
+     "raw": [
+      42.8125,
+      53.90625
+     ],
+     "refs": [
+      {
+       "key": "accuracy.single8.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.single8.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku-medium vote of the first 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "52.86",
+     "raw": 52.864583333333336,
+     "refs": [
+      {
+       "key": "accuracy.vote8.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[42.24, 63.49]",
+     "raw": [
+      42.23958333333333,
+      63.489583333333336
+     ],
+     "refs": [
+      {
+       "key": "accuracy.vote8.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.vote8.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "h-pick8-total mean minus h-pick8-extra mean (the list cost of the main-run samples the picker reads)",
+     "kind": "num",
+     "printed": "0.00879",
+     "raw": 0.008789031249999999,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.1x6.mean",
+       "source": "topup"
+      },
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku-medium vote of the first 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "65.42",
+     "raw": 65.41666666666666,
+     "refs": [
+      {
+       "key": "accuracy.vote8.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[55.00, 75.00]",
+     "raw": [
+      55.0,
+      75.0
+     ],
+     "refs": [
+      {
+       "key": "accuracy.vote8.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.vote8.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "h-pick8-total mean minus h-pick8-extra mean (the list cost of the main-run samples the picker reads)",
+     "kind": "num",
+     "printed": "0.00873",
+     "raw": 0.00872669125,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.6x1.mean",
+       "source": "topup"
+      },
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Haiku-medium vote of the first 8 samples",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "59.14",
+     "raw": 59.140625,
+     "refs": [
+      {
+       "key": "accuracy.vote8.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[52.21, 65.73]",
+     "raw": [
+      52.213541666666664,
+      65.72916666666666
+     ],
+     "refs": [
+      {
+       "key": "accuracy.vote8.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.vote8.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "formula": "h-pick8-total mean minus h-pick8-extra mean (the list cost of the main-run samples the picker reads)",
+     "kind": "num",
+     "printed": "0.00876",
+     "raw": 0.00875786125,
+     "refs": [
+      {
+       "key": "costs.per_puzzle.h-pick8-total.pooled.mean",
+       "source": "topup"
+      },
+      {
+       "key": "costs.per_puzzle.h-pick8-extra.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Any of the first 8 Haiku-medium samples right (the ceiling for a picker)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "87.50",
+     "raw": 87.5,
+     "refs": [
+      {
+       "key": "accuracy.any8.1x6.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[80.00, 95.00]",
+     "raw": [
+      80.0,
+      95.0
+     ],
+     "refs": [
+      {
+       "key": "accuracy.any8.1x6.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.any8.1x6.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Any of the first 8 Haiku-medium samples right (the ceiling for a picker)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "86.25",
+     "raw": 86.25,
+     "refs": [
+      {
+       "key": "accuracy.any8.6x1.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[78.75, 92.50]",
+     "raw": [
+      78.75,
+      92.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.any8.6x1.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.any8.6x1.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the sample count: the number cut from this stamped label by /each of samples 1-(\\d+) is picked/",
+     "kind": "num",
+     "printed": "Any of the first 8 Haiku-medium samples right (the ceiling for a picker)",
+     "raw": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+     "refs": [
+      {
+       "key": "picker_positions.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "86.88",
+     "raw": 86.875,
+     "refs": [
+      {
+       "key": "accuracy.any8.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[81.25, 92.50]",
+     "raw": [
+      81.25,
+      92.5
+     ],
+     "refs": [
+      {
+       "key": "accuracy.any8.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.any8.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium, main run"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run (Study 1)"
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.43, 99.22] (exact)",
+     "raw": [
+      89.42980149834914,
+      99.21988127342833
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0402",
+     "raw": 0.040241,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0418",
+     "raw": 0.04180883116883117,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 1x6.cpc.cpc",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "comparator; pre-specified descriptive (Study 1, as TAB-04 prints it)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium, main run"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run (Study 1)"
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.49, 100.00] (exact)",
+     "raw": [
+      95.49359649323077,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0481",
+     "raw": 0.0481223,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.0481",
+     "raw": 0.0481223,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.opus-med 6x1.cpc.cpc",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "comparator; pre-specified descriptive (Study 1, as TAB-04 prints it)"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium, main run"
+    },
+    {
+     "kind": "label",
+     "printed": "pooled"
+    },
+    {
+     "kind": "label",
+     "printed": "main run, rebuilt from its log"
+    },
+    {
+     "kind": "num",
+     "printed": "98.13",
+     "raw": 98.125,
+     "refs": [
+      {
+       "key": "accuracy.main-om.pooled.mean",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.63, 100.00]",
+     "raw": [
+      95.625,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "accuracy.main-om.pooled.ci95.0",
+       "source": "topup"
+      },
+      {
+       "key": "accuracy.main-om.pooled.ci95.1",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "comparator; exploratory (no Holm, no verdict)",
+     "raw": "exploratory (no Holm, no verdict)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Step voting, main run"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "main run (Study 1)"
+    },
+    {
+     "kind": "num",
+     "printed": "53.75",
+     "raw": 53.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[42.50, 63.75]",
+     "raw": [
+      42.5,
+      63.75
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00356",
+     "raw": 0.003559415,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "0.00662",
+     "raw": 0.006622167441860465,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.e3 1x6.cpc.cpc",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "comparator; pre-specified descriptive (Study 1, as TAB-04 prints it)"
+    }
+   ]
+  ]
+ }
+}

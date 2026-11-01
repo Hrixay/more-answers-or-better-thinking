@@ -1,0 +1,374 @@
+{
+ "disjointness": {
+  "illustration_seed": "412511133936123486",
+  "illustration_set_id": "paper-illustration-ledger-l14n4-v1",
+  "prompt_hashes_compared": 1778,
+  "prompt_hashes_computed_from_items": 0,
+  "seeds_compared": 889,
+  "sets_checked": 28,
+  "shared_prompts": 0,
+  "shared_seeds": 0,
+  "shared_set_ids": 0
+ },
+ "generator": "ledger-0.5",
+ "label": "illustrative, not from any test set",
+ "puzzles": {
+  "chain": {
+   "absorption": 0.0,
+   "answer": [
+    [
+     2324,
+     2750,
+     3151,
+     2860,
+     5738,
+     5023
+    ]
+   ],
+   "attempt": 7,
+   "base_index": 0,
+   "chains": [
+    {
+     "names": [
+      "B",
+      "A",
+      "D",
+      "C"
+     ],
+     "start": [
+      1227,
+      1050,
+      1955,
+      2860,
+      7438,
+      7316
+     ],
+     "states": [
+      [
+       2324,
+       1450,
+       1955,
+       2860,
+       7038,
+       6219
+      ],
+      [
+       2324,
+       1850,
+       2265,
+       2860,
+       6638,
+       5909
+      ],
+      [
+       2324,
+       2750,
+       2715,
+       2860,
+       5738,
+       5459
+      ],
+      [
+       2324,
+       2750,
+       3151,
+       2860,
+       5738,
+       5023
+      ]
+     ]
+    }
+   ],
+   "decoys": [],
+   "depth": 4,
+   "house": {
+    "a": 400,
+    "t": 1900
+   },
+   "house_variants": {
+    "double": 0.0,
+    "omit": 0.0
+   },
+   "id": "paper-illustration-ledger-l14n4-v1-000-1x4",
+   "line_names": [
+    "Rent",
+    "Payroll",
+    "Supplies",
+    "Reserve",
+    "Travel",
+    "Training"
+   ],
+   "params": {
+    "decoys": 0,
+    "digits": 4,
+    "hard": false,
+    "house": true,
+    "house_fires": [
+     1,
+     2
+    ],
+    "kinds": [
+     "repick2",
+     "repeat_fixed",
+     "rank_move",
+     "count_move",
+     "avg_donors",
+     "two_clause",
+     "compare_move"
+    ],
+    "lines": 6,
+    "max_per_kind": 6,
+    "overwrite_max": 3,
+    "repeat_n": 3,
+    "total_steps": 4
+   },
+   "prompt": "Every value here lists the balances of 6 budget lines, in whole units, in this order: Rent, Payroll, Supplies, Reserve, Travel and Training. A value looks like [2019, 3659, 7351, 7595, 4603, 3622], which means Rent 2019, Payroll 3659, Supplies 7351, Reserve 7595, Travel 4603 and Training 3622. A balance never goes below 0. Each rule below says what happens to the balances. When a rule picks the line with the largest or the smallest balance and two or more lines are tied, it picks the one that comes first in the order above. House rule: straight after every rule, as part of the same step, if the line with the smallest balance is below 1900, move 400 units to it from the line with the largest balance, or all of that line if it holds fewer. The house rule acts at most once per step, always after that step's own rule, and does not act again on its own result. If the largest and the smallest line are the same line, nothing moves. The balances you write for a step are the ones after the house rule.\n\nRules\nA: The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nB: The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nC: The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nD: Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time.\n\nSequences\n1. Start at [1227, 1050, 1955, 2860, 7438, 7316]. Apply B, A, D, C.\n\nApply the rules of sequence 1 in the order listed, each followed by the house rule, each to the balances that the rule before it and its house rule gave. Reply with the balances after each rule and its house rule, one per line, written `1.1 = v`, `1.2 = v`, and so on (the first number is the sequence, the second is the rule's place in it). Then end with one line, `Answer: 1 = v`, giving the balances the sequence ends at.",
+   "rulebook": [
+    [
+     "A",
+     "rank_move",
+     "The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "B",
+     "rank_move",
+     "The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "C",
+     "rank_move",
+     "The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "D",
+     "repeat_fixed",
+     "Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time."
+    ]
+   ],
+   "seed": "412511133936123486",
+   "style": "d31",
+   "transfer_absorption": 0.0,
+   "transfer_by_size": {
+    "1": 0.0,
+    "10": 0.0,
+    "100": 0.0
+   },
+   "version": "ledger-0.5",
+   "width": 1
+  },
+  "pieces": {
+   "absorption": 0.0,
+   "answer": [
+    [
+     1381,
+     2317,
+     2287,
+     3060,
+     7707,
+     6529
+    ],
+    [
+     2254,
+     1502,
+     2431,
+     2259,
+     6849,
+     6085
+    ],
+    [
+     2835,
+     2435,
+     2329,
+     3174,
+     5723,
+     6013
+    ],
+    [
+     3073,
+     3410,
+     2280,
+     3374,
+     6139,
+     5424
+    ]
+   ],
+   "attempt": 7,
+   "base_index": 0,
+   "chains": [
+    {
+     "names": [
+      "B"
+     ],
+     "start": [
+      981,
+      1165,
+      2287,
+      3060,
+      8107,
+      7681
+     ],
+     "states": [
+      [
+       1381,
+       2317,
+       2287,
+       3060,
+       7707,
+       6529
+      ]
+     ]
+    },
+    {
+     "names": [
+      "A"
+     ],
+     "start": [
+      2254,
+      1102,
+      2111,
+      2259,
+      7249,
+      6405
+     ],
+     "states": [
+      [
+       2254,
+       1502,
+       2431,
+       2259,
+       6849,
+       6085
+      ]
+     ]
+    },
+    {
+     "names": [
+      "D"
+     ],
+     "start": [
+      2835,
+      1535,
+      1879,
+      3174,
+      6173,
+      6913
+     ],
+     "states": [
+      [
+       2835,
+       2435,
+       2329,
+       3174,
+       5723,
+       6013
+      ]
+     ]
+    },
+    {
+     "names": [
+      "C"
+     ],
+     "start": [
+      2602,
+      3410,
+      2280,
+      3374,
+      6139,
+      5895
+     ],
+     "states": [
+      [
+       3073,
+       3410,
+       2280,
+       3374,
+       6139,
+       5424
+      ]
+     ]
+    }
+   ],
+   "decoys": [],
+   "depth": 1,
+   "house": {
+    "a": 400,
+    "t": 1900
+   },
+   "house_variants": {
+    "double": 0.0,
+    "omit": 0.0
+   },
+   "id": "paper-illustration-ledger-l14n4-v1-000-4x1",
+   "line_names": [
+    "Rent",
+    "Payroll",
+    "Supplies",
+    "Reserve",
+    "Travel",
+    "Training"
+   ],
+   "params": {
+    "decoys": 0,
+    "digits": 4,
+    "hard": false,
+    "house": true,
+    "house_fires": [
+     1,
+     2
+    ],
+    "kinds": [
+     "repick2",
+     "repeat_fixed",
+     "rank_move",
+     "count_move",
+     "avg_donors",
+     "two_clause",
+     "compare_move"
+    ],
+    "lines": 6,
+    "max_per_kind": 6,
+    "overwrite_max": 3,
+    "repeat_n": 3,
+    "total_steps": 4
+   },
+   "prompt": "Every value here lists the balances of 6 budget lines, in whole units, in this order: Rent, Payroll, Supplies, Reserve, Travel and Training. A value looks like [2019, 3659, 7351, 7595, 4603, 3622], which means Rent 2019, Payroll 3659, Supplies 7351, Reserve 7595, Travel 4603 and Training 3622. A balance never goes below 0. Each rule below says what happens to the balances. When a rule picks the line with the largest or the smallest balance and two or more lines are tied, it picks the one that comes first in the order above. House rule: straight after every rule, as part of the same step, if the line with the smallest balance is below 1900, move 400 units to it from the line with the largest balance, or all of that line if it holds fewer. The house rule acts at most once per step, always after that step's own rule, and does not act again on its own result. If the largest and the smallest line are the same line, nothing moves. The balances you write for a step are the ones after the house rule.\n\nRules\nA: The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nB: The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nC: The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest.\nD: Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time.\n\nSequences\n1. Start at [981, 1165, 2287, 3060, 8107, 7681]. Apply B.\n2. Start at [2254, 1102, 2111, 2259, 7249, 6405]. Apply A.\n3. Start at [2835, 1535, 1879, 3174, 6173, 6913]. Apply D.\n4. Start at [2602, 3410, 2280, 3374, 6139, 5895]. Apply C.\n\nEach sequence is one rule applied to its start balances, followed by the house rule, and the sequences are separate. Reply with one line, `Answer: 1 = v, 2 = v, ..., 4 = v`, giving the balances each sequence ends at, in order.",
+   "rulebook": [
+    [
+     "A",
+     "rank_move",
+     "The line with the second-largest balance gives 5% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "B",
+     "rank_move",
+     "The line with the second-largest balance gives 15% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "C",
+     "rank_move",
+     "The line with the second-largest balance gives 8% of its balance, rounded down to a whole unit, to the line with the second-smallest balance. Where balances are equal, the line listed first in the order above counts first, whether counting from the largest or from the smallest."
+    ],
+    [
+     "D",
+     "repeat_fixed",
+     "Do this three times in a row: move 450 units from the line with the largest balance to the line with the smallest balance, or all of it if it holds fewer. Find the largest and the smallest line again each time."
+    ]
+   ],
+   "seed": "412511133936123486",
+   "style": "d31",
+   "transfer_absorption": 0.0,
+   "transfer_by_size": {
+    "1": 0.0,
+    "10": 0.0,
+    "100": 0.0
+   },
+   "version": "ledger-0.5",
+   "width": 4
+  }
+ },
+ "ruling": "D-141",
+ "seed": "412511133936123486",
+ "set_id": "paper-illustration-ledger-l14n4-v1",
+ "setting": "l14n4",
+ "style": "d31"
+}

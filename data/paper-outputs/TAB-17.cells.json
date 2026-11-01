@@ -1,0 +1,6750 @@
+{
+ "output": {
+  "id": "TAB-17",
+  "kind": "table",
+  "label": "descriptive (operations)",
+  "section": "Method (appendix)",
+  "title": "Runs, completeness and spend (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Completeness by setting (analysis files, item 16)",
+   "table": {
+    "caption": {
+     "n": [
+      {
+       "kind": "label",
+       "printed": "calls per setting, as designed (calls made, for the adaptive designs marked \"(made)\")"
+      }
+     ],
+     "study": [
+      {
+       "kind": "label",
+       "printed": "Study 1, Study 1b and the top-up, each from its own analysis file"
+      }
+     ],
+     "tier": [
+      {
+       "kind": "num",
+       "printed": "descriptive (operations)",
+       "raw": "descriptive (operations)",
+       "refs": [
+        {
+         "key": "plan.tables_figures.16.label",
+         "source": "plan"
+        }
+       ]
+      }
+     ]
+    },
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Run"
+     },
+     {
+      "kind": "label",
+      "printed": "Setting"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Designed calls (calls made where marked)"
+     },
+     {
+      "kind": "label",
+      "printed": "Missing"
+     },
+     {
+      "kind": "label",
+      "printed": "Truncations"
+     },
+     {
+      "kind": "label",
+      "printed": "Refusals"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "label",
+       "printed": "Counts are over the designed calls. *: step voting (in the main run, and on pieces in the top-up) and the Haiku team's helper draws are adaptive and have no designed count, so their figure is the calls actually made (each analysis file's label says so). Step voting's missing count in the main run is over its chains."
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Study 1b's trial round is outside item 16: the analysis file stamps its calls, tokens and costs only (dashes), and its records leave out 280 trial-round calls. With the trial round, each run's rows add up to the calls in its row of the main panel.",
+       "raw": 280,
+       "refs": [
+        {
+         "key": "records.trial_round_ignored",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Refusals are the sum of the analysis file's category counts; an empty list sums to zero."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-thinking-off 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-low 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "3,200",
+       "raw": 3200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "240",
+       "raw": 240,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "240",
+       "raw": 240,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-max 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-low 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.sonnet-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-low 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.opus-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium (rewording check)"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium (rewording check)"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.haiku-med-d42-variant 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "25",
+       "raw": 25,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-haiku-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-sonnet-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 1x6.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 1x6.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 1x6.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 1x6.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium, real time"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 6x1.designed_calls",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 6x1.missing.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 6x1.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.rates.rt-opus-med 6x1.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Main run"
+      },
+      {
+       "kind": "label",
+       "printed": "Step voting*"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "1,086",
+       "raw": 1086,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.e3.calls_made",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.e3.missing_chains.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.e3.truncations.count",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "reporting.group_b.item_16.e3.refusals_by_category",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ho 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hl 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hm 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "200",
+       "raw": 200,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hxh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.hx 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sl 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sm 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sxh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Sonnet-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.sx 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-low"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ol 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.om 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-high"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.oxh 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 1x6.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 1x6.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 1x6.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 1x6.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-max"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 6x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 6x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 6x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.ext40-ledger-l14n6-v1.ox 6x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×12"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 1x12.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 1x12.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 1x12.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 1x12.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "12×1"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 12x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 12x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 12x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.hx 12x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×12"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 1x12.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 1x12.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 1x12.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 1x12.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "12×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 12x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 12x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 12x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n12-v1.om 12x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku, thinking off"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.ho 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-low"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hl 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hm 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-high"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hh 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-xhigh"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "400",
+       "raw": 400,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hxh 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "800",
+       "raw": 800,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.hx 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 1x16.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 1x16.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 1x16.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 1x16.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "num",
+       "printed": "160",
+       "raw": 160,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 16x1.designed_calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 16x1.missing.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 16x1.truncations.count",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.item_16_rates.main-ledger-l14n16-v1.om 16x1.refusals_by_category",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Study 1b"
+      },
+      {
+       "kind": "label",
+       "printed": "Trial round (all its settings; answers never scored)"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "280",
+       "raw": 280,
+       "refs": [
+        {
+         "key": "trial_round.calls",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, planner"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 1x6.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 1x6.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 1x6.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 1x6.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, planner"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_planner 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, helper draws*"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "1,035",
+       "raw": 1035,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 1x6.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 1x6.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 1x6.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 1x6.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, helper draws*"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "1,044",
+       "raw": 1044,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_helpers 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, aggregator"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 1x6.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 1x6.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 1x6.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 1x6.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku team, aggregator"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.e2_aggregator 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku picker"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 1x6.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku picker"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.h_pick8 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Step voting on pieces*"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "1,061",
+       "raw": 1061,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.c13 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.c13 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.c13 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.c13 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Drift check"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "100",
+       "raw": 100,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 1x6.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 1x6.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 1x6.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 1x6.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Top-up"
+      },
+      {
+       "kind": "label",
+       "printed": "Drift check"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "100",
+       "raw": 100,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 6x1.designed_calls",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 6x1.missing.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 6x1.truncations.count",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "formula": "sum of the category counts",
+       "kind": "num",
+       "printed": "0",
+       "raw": {},
+       "refs": [
+        {
+         "key": "format_refusals_truncations_missing.rates.same_model 6x1.refusals_by_category",
+         "source": "topup"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "plan": {
+   "commit": "7b43f91",
+   "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+   "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+  },
+  "register": {
+   "commit": "28944cb",
+   "path": "decisions/register.md",
+   "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "n": [
+    {
+     "kind": "label",
+     "printed": "calls as logged per run"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "US dollars at the price paid (Batch at half of list price). Raw spend and raw totals: from our per-call cost records. Billing-rule total: the same, with refusals that stopped before any output at zero. Console: the 'used' figure read from the vendor's dashboard and recorded with each run"
+    }
+   ],
+   "study": [
+    {
+     "formula": "text cut /(rejected by the API)/ group 1",
+     "kind": "num",
+     "printed": "every logged run (one row per run in our cost records), in time order, including smoke-1 (rejected by the API; not billed) and the bookkeeping row smoke-2 (markers), with 0 calls",
+     "raw": [
+      "smoke-1",
+      "rejected by the API",
+      "smoke-2 (markers)",
+      "0"
+     ],
+     "refs": [
+      {
+       "key": "L46.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L46.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L44.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L44.Calls",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   "tier": [
+    {
+     "kind": "num",
+     "printed": "descriptive (operations)",
+     "raw": "descriptive (operations)",
+     "refs": [
+      {
+       "key": "plan.tables_figures.16.label",
+       "source": "plan"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Run"
+   },
+   {
+    "kind": "label",
+    "printed": "Part"
+   },
+   {
+    "kind": "label",
+    "printed": "Date"
+   },
+   {
+    "kind": "label",
+    "printed": "Calls"
+   },
+   {
+    "kind": "label",
+    "printed": "Refusals"
+   },
+   {
+    "kind": "label",
+    "printed": "Truncations"
+   },
+   {
+    "kind": "label",
+    "printed": "Missing"
+   },
+   {
+    "kind": "label",
+    "printed": "Raw spend (USD)"
+   },
+   {
+    "kind": "label",
+    "printed": "Raw total to date (USD)"
+   },
+   {
+    "kind": "label",
+    "printed": "Billing-rule total to date (USD)"
+   },
+   {
+    "kind": "label",
+    "printed": "Console used before (USD)"
+   },
+   {
+    "kind": "label",
+    "printed": "Console used after (USD)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "A dash means the run's row in our cost records does not state that figure; an empty cell means the figure does not apply to the total. Dollar columns are rounded to whole cents, as the Console reports them; the notes give more decimals where a check needs them."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Raw spend is the figure from our per-call cost records: every call priced from its logged usage at the price paid (Batch calls at half of list price), refusals included. The billing rule bills a refusal that stopped before any output at zero, so its total is a little lower where such refusals exist."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Totals to date and the Console's after-run reading are cumulative over the runs up to and including the row. The before-run reading covers the earlier runs only, so it checks the spend of all earlier runs."
+    }
+   ],
+   [
+    {
+     "formula": "not printed: the ruling's internal decision number; text cut /^\\*\\*(A public data stamp for Study 1b) before its results are opened\\*\\*/ group 1; not printed: the record for 'D-109 is among what 'our ruling on Study 1b's data stamp' names'; text cut /Also (the post-run Console reading): credits/ group 1; not printed: the record for 'the ruling's note holds the post-run Console reading'",
+     "kind": "num",
+     "printed": "Study 1b's totals are read from the note on its post-run Console reading, kept with our ruling on Study 1b's data stamp; the other rows' are from their own rows in our cost records. The Console reports whole cents.",
+     "raw": [
+      [
+       "D-109",
+       "A public data stamp for Study 1b"
+      ],
+      "the post-run Console reading"
+     ],
+     "refs": [
+      {
+       "key": "L131.ID",
+       "source": "register"
+      },
+      {
+       "key": "L131.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L131.Notes",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /Console dashboard \\$[\\d.]+ credits / \\$([\\d.]+) used/ group 1; text cut /\\\"Spend this month \\$[\\d.]+ of \\$(\\d+) limit\\\"/ group 1; text cut /Console dashboard \\$([\\d.]+) credits / \\$[\\d.]+ used/ group 1; text cut /\\\"Spend this month \\$([\\d.]+) of \\$\\d+ limit\\\"/ group 1; not printed: the ruling's internal decision number; text cut /^(The user's rulings before the main run) main-l14n6-1/ group 1; not printed: the record for 'D-94 is among what 'our rulings before the main run' names'",
+     "kind": "num",
+     "printed": "Console readings are the 'used' figures recorded with each run. Before the main run, that figure (20.72) is the credit of 200 less the 179.28 left; the same dashboard reading's 'Spend this month' read 20.73 (quoted with our rulings before the main run).",
+     "raw": [
+      "20.72",
+      "200",
+      "179.28",
+      "20.73",
+      [
+       "D-94",
+       "The user's rulings before the main run"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L116.Notes",
+       "source": "register"
+      },
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L116.Notes",
+       "source": "register"
+      },
+      {
+       "key": "L116.ID",
+       "source": "register"
+      },
+      {
+       "key": "L116.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /B5 figure about ([\\d.]+)/ group 1; rounded to 4 places; text cut /\\(\\$([\\d.]+)\\)/ group 1; text cut /B5 total \\$([\\d.]+)/ group 1; text cut /Spend this month \\$([\\d.]+) of/ group 1; text cut /about \\$([\\d.]+) under B5/ group 1; text cut /after the run: \\$([\\d.]+) used/ group 1; text cut /raw [\\d.]+, B5 ([\\d.]+)/ group 1; rounded to 4 places; text cut /after the run: \\$([\\d.]+) used/ group 1; text cut /raw ([\\d.]+), B5 [\\d.]+/ group 1; rounded to 4 places; text cut /for its (\\w+) zero-output `cyber` refusals/ group 1",
+     "kind": "num",
+     "printed": "Within one cent: each Console reading after a run agrees with the billing-rule total to date within one cent (billing-rule total against the Console's used figure, as each record states it; a figure recorded to more than four decimals is rounded to four): smoke-2 0.0439 against 0.04; main-l14n6-1 41.70 against 41.70; study1b-1 103.26 against 103.26; topup-1 104.1353 against 104.14. The raw total to date after topup-1, 104.1621, is more than one cent above that reading: it also prices the two zero-output setup-check refusals that the vendor does not bill (row smoke-2 (markers)).",
+     "raw": [
+      "smoke-2",
+      "0.04385",
+      "0.04",
+      "main-l14n6-1",
+      "41.70",
+      "41.70",
+      "study1b-1",
+      "103.26",
+      "103.26",
+      "topup-1",
+      "104.13528980",
+      "104.14",
+      "topup-1",
+      "104.16206180",
+      "two",
+      "smoke-2 (markers)"
+     ],
+     "refs": [
+      {
+       "key": "L45.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L45.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L45.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L37.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L131.Notes",
+       "source": "register"
+      },
+      {
+       "key": "L37.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Console check",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Run ID",
+       "source": "spend_log"
+      },
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      },
+      {
+       "key": "L44.What ran",
+       "source": "spend_log"
+      },
+      {
+       "key": "L44.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "num",
+     "printed": "smoke-1",
+     "raw": "smoke-1",
+     "refs": [
+      {
+       "key": "L46.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Setup check"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-10",
+     "raw": "2026-10-10",
+     "refs": [
+      {
+       "key": "L46.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": "1",
+     "refs": [
+      {
+       "key": "L46.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.00",
+     "raw": "0.00",
+     "refs": [
+      {
+       "key": "L46.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "smoke-2",
+     "raw": "smoke-2",
+     "refs": [
+      {
+       "key": "L45.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Setup check"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-10",
+     "raw": "2026-10-10",
+     "refs": [
+      {
+       "key": "L45.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": "9",
+     "refs": [
+      {
+       "key": "L45.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) of \\d+ calls were refused/ group 1",
+     "kind": "num",
+     "printed": "3",
+     "raw": "3",
+     "refs": [
+      {
+       "key": "L45.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.07",
+     "raw": "0.07062435",
+     "refs": [
+      {
+       "key": "L45.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /LEDGER figure ([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "0.07",
+     "raw": "0.07062435",
+     "refs": [
+      {
+       "key": "L45.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /B5 figure about ([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "0.04",
+     "raw": "0.04385",
+     "refs": [
+      {
+       "key": "L45.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "text cut /\\(\\$([\\d.]+)\\)/ group 1",
+     "kind": "num",
+     "printed": "0.04",
+     "raw": "0.04",
+     "refs": [
+      {
+       "key": "L45.Console check",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "smoke-2 (markers)",
+     "raw": "smoke-2 (markers)",
+     "refs": [
+      {
+       "key": "L44.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Setup check"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L44.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L44.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.00",
+     "raw": "0.00",
+     "refs": [
+      {
+       "key": "L44.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "text cut /rule-adjusted figure is now \\$([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "0.04",
+     "raw": "0.04385235",
+     "refs": [
+      {
+       "key": "L44.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "check-ledger-1",
+     "raw": "check-ledger-1",
+     "refs": [
+      {
+       "key": "L43.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Setup check"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L43.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": "20",
+     "refs": [
+      {
+       "key": "L43.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L43.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "2.30",
+     "raw": "2.302126",
+     "refs": [
+      {
+       "key": "L43.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "s3-ledger-1",
+     "raw": "s3-ledger-1",
+     "refs": [
+      {
+       "key": "L42.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Setup check"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L42.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": "5",
+     "refs": [
+      {
+       "key": "L42.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L42.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.29",
+     "raw": "0.287141",
+     "refs": [
+      {
+       "key": "L42.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "pilot-ledger-1",
+     "raw": "pilot-ledger-1",
+     "refs": [
+      {
+       "key": "L41.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Pilot 1"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L41.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "670",
+     "raw": "670",
+     "refs": [
+      {
+       "key": "L41.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L41.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\+ (\\d+) truncated/ group 1",
+     "kind": "num",
+     "printed": "1",
+     "raw": "1",
+     "refs": [
+      {
+       "key": "L41.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "8.73",
+     "raw": "8.7321605",
+     "refs": [
+      {
+       "key": "L41.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "text cut /pass, \\$([\\d.]+) read/ group 1",
+     "kind": "num",
+     "printed": "2.64",
+     "raw": "2.64",
+     "refs": [
+      {
+       "key": "L41.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "diag-haiku-effort-1",
+     "raw": "diag-haiku-effort-1",
+     "refs": [
+      {
+       "key": "L40.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Effort diagnostic"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-11",
+     "raw": "2026-10-11",
+     "refs": [
+      {
+       "key": "L40.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "36",
+     "raw": "36",
+     "refs": [
+      {
+       "key": "L40.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L40.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) truncated at/ group 1",
+     "kind": "num",
+     "printed": "5",
+     "raw": "5",
+     "refs": [
+      {
+       "key": "L40.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "0.42",
+     "raw": "0.4162312",
+     "refs": [
+      {
+       "key": "L40.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "ladder-l14n-1",
+     "raw": "ladder-l14n-1",
+     "refs": [
+      {
+       "key": "L39.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Length sweep"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L39.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,400",
+     "raw": "2400",
+     "refs": [
+      {
+       "key": "L39.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L39.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) truncated/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L39.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "8.95",
+     "raw": "8.946918",
+     "refs": [
+      {
+       "key": "L39.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "formula": "text cut /credits / \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "11.78",
+     "raw": "11.78",
+     "refs": [
+      {
+       "key": "L39.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "main-l14n6-1",
+     "raw": "main-l14n6-1",
+     "refs": [
+      {
+       "key": "L38.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Main run"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "L38.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "21,876",
+     "raw": "21876",
+     "refs": [
+      {
+       "key": "L38.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L38.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) truncations/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L38.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) missing/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L38.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20.97",
+     "raw": "20.97365350",
+     "refs": [
+      {
+       "key": "L38.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\\(raw \\$([\\d.]+)\\)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "41.73",
+     "raw": "41.73",
+     "refs": [
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /B5 total \\$([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "41.70",
+     "raw": "41.70",
+     "refs": [
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /credits / \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "20.72",
+     "raw": "20.72",
+     "refs": [
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /Spend this month \\$([\\d.]+) of/ group 1",
+     "kind": "num",
+     "printed": "41.70",
+     "raw": "41.70",
+     "refs": [
+      {
+       "key": "L38.Console check",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "study1b-1",
+     "raw": "study1b-1",
+     "refs": [
+      {
+       "key": "L37.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L37.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11,640",
+     "raw": "11640",
+     "refs": [
+      {
+       "key": "L37.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L37.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) truncated:/ group 1",
+     "kind": "num",
+     "printed": "1",
+     "raw": "1",
+     "refs": [
+      {
+       "key": "L37.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) missing/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L37.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "61.56",
+     "raw": "61.55745900",
+     "refs": [
+      {
+       "key": "L37.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /Spent ([\\d.]+) raw/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "103.29",
+     "raw": "103.28631355",
+     "refs": [
+      {
+       "key": "L131.Notes",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /about \\$([\\d.]+) under B5/ group 1",
+     "kind": "num",
+     "printed": "103.26",
+     "raw": "103.26",
+     "refs": [
+      {
+       "key": "L131.Notes",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /credits / \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "41.70",
+     "raw": "41.70",
+     "refs": [
+      {
+       "key": "L37.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /after the run: \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "103.26",
+     "raw": "103.26",
+     "refs": [
+      {
+       "key": "L37.Console check",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "topup-1",
+     "raw": "topup-1",
+     "refs": [
+      {
+       "key": "L36.Run ID",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Top-up"
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-13",
+     "raw": "2026-10-13",
+     "refs": [
+      {
+       "key": "L36.Date",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3,820",
+     "raw": "3820",
+     "refs": [
+      {
+       "key": "L36.Calls",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) refusals/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) truncated \\(/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /(\\d+) missing/ group 1",
+     "kind": "num",
+     "printed": "0",
+     "raw": "0",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.88",
+     "raw": "0.87574825",
+     "refs": [
+      {
+       "key": "L36.USD (computed)",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /raw ([\\d.]+), B5 [\\d.]+/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "104.16",
+     "raw": "104.16206180",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /raw [\\d.]+, B5 ([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "104.14",
+     "raw": "104.13528980",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /credits / \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "103.26",
+     "raw": "103.26",
+     "refs": [
+      {
+       "key": "L36.Console check",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /after the run: \\$([\\d.]+) used/ group 1",
+     "kind": "num",
+     "printed": "104.14",
+     "raw": "104.14",
+     "refs": [
+      {
+       "key": "L36.Console check",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "All runs"
+    },
+    {
+     "kind": "label",
+     "printed": "Total"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "104.16",
+     "raw": "104.16206180",
+     "refs": [
+      {
+       "key": "L23.USD",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /raw [\\d.]+, B5 ([\\d.]+)/ group 1; rounded to 2 places",
+     "kind": "num",
+     "printed": "104.14",
+     "raw": "104.13528980",
+     "refs": [
+      {
+       "key": "L36.Notes",
+       "source": "spend_log"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    }
+   ]
+  ]
+ }
+}

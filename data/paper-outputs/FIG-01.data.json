@@ -1,0 +1,5636 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Two panels of accuracy (%) against vote size k on a logarithmic axis at 6 steps, chains on the left and pieces on the right; the vote's 95% band is shaded."
+  },
+  {
+   "kind": "label",
+   "printed": "On chains the Haiku-medium vote"
+  },
+  {
+   "kind": "label",
+   "printed": "rises from"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "43.7%",
+   "raw": 0.4371875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.1x6.points.0.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at one sample to"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "58.6%",
+   "raw": 0.5860726237370975,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "kind": "num",
+   "printed": "36",
+   "raw": 36,
+   "refs": [
+    {
+     "key": "k_from_rows.opus.1x6.k",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples, the vote size at Opus-medium's price, and is"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "57.5%",
+   "raw": 0.575,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "kind": "num",
+   "printed": "40",
+   "raw": 40,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples, against"
+  },
+  {
+   "kind": "num",
+   "printed": "96.3%",
+   "raw": 96.25,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for one Opus-medium answer and"
+  },
+  {
+   "kind": "num",
+   "printed": "80.0%",
+   "raw": 80.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for one Sonnet-medium answer, drawn as dashed lines with their exact 95% intervals as bars at the right edge."
+  },
+  {
+   "kind": "label",
+   "printed": "On pieces the vote"
+  },
+  {
+   "kind": "label",
+   "printed": "rises from"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "51.0%",
+   "raw": 0.51,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.6x1.points.0.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at one sample to"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "66.9%",
+   "raw": 0.66875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "kind": "num",
+   "printed": "40",
+   "raw": 40,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples, against"
+  },
+  {
+   "kind": "num",
+   "printed": "100.0%",
+   "raw": 100.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for Opus-medium and"
+  },
+  {
+   "kind": "num",
+   "printed": "75.0%",
+   "raw": 75.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for Sonnet-medium."
+  },
+  {
+   "kind": "label",
+   "printed": "A coloured tick on the vote-size axis and a marker on the curve, labelled with its test and its vote size, show the vote size that costs about as much as the comparator:"
+  },
+  {
+   "kind": "num",
+   "printed": "36",
+   "raw": 36,
+   "refs": [
+    {
+     "key": "k_from_rows.opus.1x6.k",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples on chains (Test 2),"
+  },
+  {
+   "kind": "num",
+   "printed": "40",
+   "raw": 40,
+   "refs": [
+    {
+     "key": "k_from_rows.opus.6x1.k",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples on pieces (Test 1; capped, raw k"
+  },
+  {
+   "kind": "num",
+   "printed": "44; at the cap the vote costs",
+   "raw": 44,
+   "refs": [
+    {
+     "key": "k_from_rows.opus.6x1.raw_k",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "0.909",
+   "raw": "0.9085411025657543384252207397",
+   "refs": [
+    {
+     "key": "k_from_rows.opus.6x1.spend.haiku_over_comparator",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "of one Opus-medium answer's list cost)"
+  },
+  {
+   "kind": "label",
+   "printed": "for Opus-medium, and"
+  },
+  {
+   "kind": "num",
+   "printed": "13",
+   "raw": 13,
+   "refs": [
+    {
+     "key": "k_from_rows.sonnet.1x6.k",
+     "source": "main_k"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples on chains (Test 3)"
+  },
+  {
+   "kind": "label",
+   "printed": "for Sonnet-medium."
+  },
+  {
+   "kind": "label",
+   "printed": "Two filled marks joined by a line near the top left of both panels show Haiku-max, exploratory‡: one sample and the vote of"
+  },
+  {
+   "kind": "num",
+   "printed": "3",
+   "raw": 3,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples."
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max's vote of"
+  },
+  {
+   "kind": "num",
+   "printed": "3",
+   "raw": 3,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples on"
+  },
+  {
+   "kind": "label",
+   "printed": "chains"
+  },
+  {
+   "kind": "label",
+   "printed": "has a bar from"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "95.5%",
+   "raw": 0.9549359649323077,
+   "refs": [
+    {
+     "key": "result.cells.10.exact95.0",
+     "source": "fa4"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "to"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "100.0%: its bootstrap interval collapsed to a point, and the bar is the exact interval from free analysis 4 (post hoc†).",
+   "raw": 1.0,
+   "refs": [
+    {
+     "key": "result.cells.10.exact95.1",
+     "source": "fa4"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "Step voting (Test 4) is a single point at"
+  },
+  {
+   "kind": "num",
+   "printed": "53.8%",
+   "raw": 53.75,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "on chains, in a narrow strip beside the chains panel because it has no vote size; the dashed line of Opus-medium's chains level, the comparator of Test 4, continues across the strip."
+  },
+  {
+   "kind": "label",
+   "printed": "A 95% bar that does not stick out past its marker is not drawn:"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max's one sample on chains;"
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-max's vote of"
+  },
+  {
+   "kind": "num",
+   "printed": "3",
+   "raw": 3,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "samples on pieces."
+  }
+ ],
+ "caption": {
+  "bars": [
+   {
+    "kind": "label",
+    "printed": "a bar that does not stick out past its marker is not drawn:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max's one sample on chains;"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max's vote of"
+   },
+   {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples on pieces"
+   }
+  ],
+  "detail_format": [
+   {
+    "kind": "label",
+    "printed": "format compliance, the share of samples in the required answer format (as in TAB-04), chains then pieces:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium (the samples the votes are drawn from)"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.59%",
+    "raw": 0.9859375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.72%;",
+    "raw": 0.9971875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.00%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.58%;",
+    "raw": 0.9958333333333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.50%",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.00%;",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.50%",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.00%; the format check flags none of these; Study 1's file stamps none for step voting",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "detail_n": [
+   {
+    "kind": "label",
+    "printed": "puzzles per shape:"
+   },
+   {
+    "kind": "num",
+    "printed": "80; samples per shape (the same on chains and pieces): Haiku-medium",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.0.n_base",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "3,200",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(votes of up to"
+   },
+   {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.k_max",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples per puzzle are drawn from them), Haiku-max"
+   },
+   {
+    "kind": "num",
+    "printed": "240",
+    "raw": 240,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(its vote has"
+   },
+   {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples per puzzle), Opus-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and Sonnet-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(one sample per puzzle); step voting on chains:"
+   },
+   {
+    "kind": "num",
+    "printed": "1,086",
+    "raw": 1086,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "calls"
+   }
+  ],
+  "detail_set": [
+   {
+    "kind": "label",
+    "printed": "the Study 1 puzzle set at 6 steps: each puzzle as a chain and as pieces"
+   }
+  ],
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "95%: cluster bootstrap for the Haiku-medium vote's band (at one sample, the setting's own stamped single-sample interval, as in TAB-04, the one FIG-06 draws for the same sample), Haiku-max and step voting; exact (Clopper–Pearson) for one Opus-medium or Sonnet-medium answer, the bar at each panel's right edge; Haiku-max's vote of"
+   },
+   {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples on"
+   },
+   {
+    "kind": "label",
+    "printed": "chains: its bootstrap interval collapsed to a point, so its bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc†),"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.5%",
+    "raw": 0.9549359649323077,
+    "refs": [
+     {
+      "key": "result.cells.10.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "to"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.10.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   }
+  ],
+  "marking": [
+   {
+    "kind": "label",
+    "printed": "every value uses the official marking rule (Deviation 2)"
+   }
+  ],
+  "marks": [
+   {
+    "kind": "label",
+    "printed": "a filled marker on the curve, labelled with its test and its vote size $k$, and a tick of the comparator's colour on the vote-size axis mark the vote size at which the vote costs about as much as the comparator; dashed lines are the comparators' accuracy; the two marks joined by a line are Haiku-max, one sample and its vote of"
+   },
+   {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "samples; step voting has no vote size, so it sits in its own strip, with Opus-medium's level (the comparator of Test 4) continued across it"
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "US dollars at list price (Study 1's price table, dated"
+   },
+   {
+    "kind": "num",
+    "printed": "2026-10-12)",
+    "raw": "2026-10-12",
+    "refs": [
+     {
+      "key": "reporting.group_b.item_9a.price_table_date",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "rule": [
+   {
+    "kind": "label",
+    "printed": "the vote sizes at the comparators' prices are those of the tests:"
+   },
+   {
+    "kind": "label",
+    "printed": "Test 1,"
+   },
+   {
+    "kind": "label",
+    "printed": "$k$ ="
+   },
+   {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on pieces against Opus-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "(capped at the samples drawn, raw $k$"
+   },
+   {
+    "kind": "num",
+    "printed": "44; the vote costs",
+    "raw": 44,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.raw_k",
+      "source": "main_k"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "0.909",
+    "raw": "0.9085411025657543384252207397",
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.spend.haiku_over_comparator",
+      "source": "main_k"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of one Opus-medium answer's list cost);"
+   },
+   {
+    "kind": "label",
+    "printed": "Test 2,"
+   },
+   {
+    "kind": "label",
+    "printed": "$k$ ="
+   },
+   {
+    "kind": "num",
+    "printed": "36",
+    "raw": 36,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.1x6.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on chains against Opus-medium;"
+   },
+   {
+    "kind": "label",
+    "printed": "Test 3,"
+   },
+   {
+    "kind": "label",
+    "printed": "$k$ ="
+   },
+   {
+    "kind": "num",
+    "printed": "13",
+    "raw": 13,
+    "refs": [
+     {
+      "key": "k_from_rows.sonnet.1x6.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on chains against Sonnet-medium."
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "Study 1, main run, 6 steps"
+   }
+  ],
+  "test3": [
+   {
+    "kind": "label",
+    "printed": "Test 3 (chains) depends on how answers are marked: under the original pre-registered marking rule, which Deviation 2 kept as a sensitivity check, Sonnet-medium's chain score is"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.0%",
+    "raw": 0.55,
+    "refs": [
+     {
+      "key": "secondary.rates.sonnet-med.original_acc",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "instead of"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.0%, and Test 3 would read",
+    "raw": 0.8,
+    "refs": [
+     {
+      "key": "secondary.rates.sonnet-med.official_acc",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "inconclusive",
+    "raw": "inconclusive",
+    "refs": [
+     {
+      "key": "secondary.original_repeat_rule.tests.t3.reading",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "instead of"
+   },
+   {
+    "kind": "num",
+    "printed": "worse by more than the margin",
+    "raw": "worse by more than the margin",
+    "refs": [
+     {
+      "key": "confirmatory.views.as_deployed.tests.t3.reading",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "pre-specified descriptive; the marked vote sizes are the challengers of Tests 1–3 (pre-registered decision rule, not Holm-adjusted); the step-voting point is Test 4 (confirmatory); Haiku-max is an exploratory setting‡; the exact interval on Haiku-max's vote on"
+   },
+   {
+    "kind": "label",
+    "printed": "chains"
+   },
+   {
+    "kind": "label",
+    "printed": "is post hoc† (free analysis 4)"
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-01",
+  "kind": "figure",
+  "label": "pre-specified descriptive; Test 4 point confirmatory; Haiku-max exploratory",
+  "section": "Results: Study 1",
+  "title": "Study 1 vote curves at 6 steps"
+ },
+ "points": [
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "50.7",
+    "raw": 50.71875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "36.4",
+    "raw": 36.4375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "one sample: the 95% band starts from the setting's own stamped single-sample interval (as in TAB-04)",
+   "panel": "chains",
+   "series": "Haiku-medium, one sample, chains",
+   "x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.0.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "43.7",
+    "raw": 43.71875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "51.3",
+    "raw": 0.5130849358974359,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.1.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "37.3",
+    "raw": 0.3727083333333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.1.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.1.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "44.2",
+    "raw": 0.4423637820512821,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.1.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.4",
+    "raw": 0.5535614878542511,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.2.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.7",
+    "raw": 0.3965283400809717,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.2.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.5",
+    "raw": 0.47528424426450744,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.2.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.4",
+    "raw": 0.5740571087281614,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.3.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "41.2",
+    "raw": 0.4115270293066346,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.3.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.3.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "49.4",
+    "raw": 0.4935919776051355,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.3.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.9",
+    "raw": 0.5892783579378974,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.4.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "42.4",
+    "raw": 0.42375856499211767,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.4.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.4.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.7",
+    "raw": 0.5073281581176319,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.4.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.9",
+    "raw": 0.5990328852384773,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.5.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "43.1",
+    "raw": 0.4312591831818805,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.5.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.5.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "51.6",
+    "raw": 0.5159480254907887,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.5.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "60.8",
+    "raw": 0.6079148357778389,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.6.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "43.9",
+    "raw": 0.4389154765997839,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.6.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "7",
+    "raw": 7,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.6.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.4",
+    "raw": 0.5243938518371568,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.6.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "61.4",
+    "raw": 0.613551120697986,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.7.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "44.4",
+    "raw": 0.4441076821477363,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.7.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.7.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.0",
+    "raw": 0.5302580960940094,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.7.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "62.0",
+    "raw": 0.6196389148039327,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.8.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "44.9",
+    "raw": 0.4493775102300523,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.8.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "9",
+    "raw": 9,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.8.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.6",
+    "raw": 0.536202345711162,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.8.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 0.6252580196226659,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.9.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.3",
+    "raw": 0.45280592310686385,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.9.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.9.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.1",
+    "raw": 0.5407767235531026,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.9.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.0",
+    "raw": 0.6302675609148585,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.10.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.6",
+    "raw": 0.4563310044275407,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.10.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "11",
+    "raw": 11,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.10.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.5",
+    "raw": 0.5454734500159479,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.10.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.4",
+    "raw": 0.6344951797622742,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.11.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.0",
+    "raw": 0.46021950078874463,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.11.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.11.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.9",
+    "raw": 0.5491898060881597,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.11.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.9",
+    "raw": 0.6392481298562631,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.12.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.4",
+    "raw": 0.4638579104735904,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.12.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "13",
+    "raw": 13,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.12.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.3",
+    "raw": 0.5530417430927377,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.12.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.3",
+    "raw": 0.6434350354814697,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.13.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.7",
+    "raw": 0.466696495364589,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.13.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "14",
+    "raw": 14,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.13.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.6",
+    "raw": 0.5561180651755346,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.13.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.7",
+    "raw": 0.6472835087425246,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.14.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.9",
+    "raw": 0.46940736640208236,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.14.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "15",
+    "raw": 15,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.14.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5593630832176844,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.14.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.0",
+    "raw": 0.649830769047293,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.15.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.1",
+    "raw": 0.47085542774092026,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.15.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.15.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.2",
+    "raw": 0.5620167334202456,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.15.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.3",
+    "raw": 0.6527181811244873,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.16.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.3",
+    "raw": 0.47266308521541794,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.16.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "17",
+    "raw": 17,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.16.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.5",
+    "raw": 0.5648109714795544,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.16.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.5",
+    "raw": 0.6547950715589071,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.17.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.3",
+    "raw": 0.47345306506780427,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.17.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "18",
+    "raw": 18,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.17.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.7",
+    "raw": 0.567118065360926,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.17.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.8",
+    "raw": 0.6580221260208876,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.18.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.5",
+    "raw": 0.4754463533634515,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.18.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "19",
+    "raw": 19,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.18.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.0",
+    "raw": 0.5696018226267547,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.18.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.1",
+    "raw": 0.6607813135217361,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.19.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.6",
+    "raw": 0.47632108950866464,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.19.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.19.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.2",
+    "raw": 0.5716151744395092,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.19.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.66341186610461,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.20.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.8",
+    "raw": 0.4780462210573665,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.20.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "21",
+    "raw": 21,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.20.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.4",
+    "raw": 0.5738037772942636,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.20.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.5",
+    "raw": 0.6654743372619998,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.21.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.0",
+    "raw": 0.4795423618102904,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.21.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "22",
+    "raw": 22,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.21.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.6",
+    "raw": 0.5756041573384987,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.21.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.8",
+    "raw": 0.6678955536050648,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.22.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.2",
+    "raw": 0.48183318223521787,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.22.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "23",
+    "raw": 23,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.22.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.8",
+    "raw": 0.5775401369555072,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.22.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.0",
+    "raw": 0.6698461750989605,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.23.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.2",
+    "raw": 0.4821235062398677,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.23.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "24",
+    "raw": 24,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.23.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.9",
+    "raw": 0.5790976558887112,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.23.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.2",
+    "raw": 0.6720006613342762,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.24.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.3",
+    "raw": 0.4833191530986835,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.24.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "25",
+    "raw": 25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.24.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.1",
+    "raw": 0.5808068723383634,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.24.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.4",
+    "raw": 0.6740784526198611,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.25.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.4",
+    "raw": 0.483563465034978,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.25.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "26",
+    "raw": 26,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.25.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.2",
+    "raw": 0.5821156156952053,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.25.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.6",
+    "raw": 0.6763976092650381,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.26.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.5",
+    "raw": 0.4848869680876774,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.26.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "27",
+    "raw": 27,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.26.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.4",
+    "raw": 0.5835334483579542,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.26.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.8",
+    "raw": 0.6780004315178593,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.27.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.5",
+    "raw": 0.48499899941446045,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.27.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "28",
+    "raw": 28,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.27.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.5",
+    "raw": 0.5845434550178826,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.27.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.0",
+    "raw": 0.6795691162755428,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.28.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.6",
+    "raw": 0.48598115101326667,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.28.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "29",
+    "raw": 29,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.28.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.6",
+    "raw": 0.5856471450912107,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.28.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.0",
+    "raw": 0.6803946328323427,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.29.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.6",
+    "raw": 0.48612549943832556,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.29.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.29.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.6",
+    "raw": 0.5862793831906408,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.29.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.2",
+    "raw": 0.6820749935912596,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.30.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.6",
+    "raw": 0.48593567848538344,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.30.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "31",
+    "raw": 31,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.30.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.7",
+    "raw": 0.587021315311309,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.30.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.4",
+    "raw": 0.6835215112355205,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.31.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.6",
+    "raw": 0.48573072698962794,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.31.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "32",
+    "raw": 32,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.31.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.7",
+    "raw": 0.5872279568506349,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.31.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.5",
+    "raw": 0.6850778877674195,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.32.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.5",
+    "raw": 0.4853593090955707,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.32.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "33",
+    "raw": 33,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.32.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.8",
+    "raw": 0.5875194958884007,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.32.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.5",
+    "raw": 0.6854465581439266,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.33.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.5",
+    "raw": 0.4851370802522118,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.33.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "34",
+    "raw": 34,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.33.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.7",
+    "raw": 0.5872279330338541,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.33.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.6",
+    "raw": 0.686251009359562,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.34.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.3",
+    "raw": 0.4830200551006472,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.34.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "35",
+    "raw": 35,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.34.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.7",
+    "raw": 0.5869561014709042,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.34.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.5",
+    "raw": 0.6854277911514753,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.2",
+    "raw": 0.4820191167888536,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "36",
+    "raw": 36,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.6",
+    "raw": 0.5860726237370975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.4",
+    "raw": 0.6844464827935223,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.36.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.0",
+    "raw": 0.47991923920377866,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.36.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "37",
+    "raw": 37,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.36.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.5",
+    "raw": 0.584881705465587,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.36.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.3",
+    "raw": 0.683213141025641,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.37.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.8",
+    "raw": 0.47750000000000004,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.37.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "38",
+    "raw": 38,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.37.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.3",
+    "raw": 0.5830422008547009,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.37.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.3",
+    "raw": 0.6827604166666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.38.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.4",
+    "raw": 0.47411458333333334,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.38.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "39",
+    "raw": 39,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.38.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.0",
+    "raw": 0.5803645833333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.38.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.1",
+    "raw": 0.68125,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.9",
+    "raw": 0.46875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, chains",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.5",
+    "raw": 0.575,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "99.2",
+    "raw": 99.21988127342833,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "89.4",
+    "raw": 89.42980149834914,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "dashed line: its accuracy; bar at the panel's right edge: its exact 95% interval",
+   "panel": "chains",
+   "series": "Opus-medium, one sample, chains",
+   "y": {
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 96.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "88.1",
+    "raw": 88.11409135950146,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "69.6",
+    "raw": 69.56311329945355,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "dashed line: its accuracy; bar at the panel's right edge: its exact 95% interval",
+   "panel": "chains",
+   "series": "Sonnet-medium, one sample, chains",
+   "y": {
+    "kind": "num",
+    "printed": "80.0",
+    "raw": 80.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 1x6.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "vote size at which the vote costs about as much as the comparator, from k.json",
+   "panel": "chains",
+   "series": "Haiku-medium vote at the cost-matched k for Opus-medium (Test 2), chains",
+   "x": {
+    "kind": "num",
+    "printed": "36",
+    "raw": 36,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.1x6.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.6",
+    "raw": 0.5860726237370975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.35.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "note": "vote size at which the vote costs about as much as the comparator, from k.json",
+   "panel": "chains",
+   "series": "Haiku-medium vote at the cost-matched k for Sonnet-medium (Test 3), chains",
+   "x": {
+    "kind": "num",
+    "printed": "13",
+    "raw": 13,
+    "refs": [
+     {
+      "key": "k_from_rows.sonnet.1x6.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.3",
+    "raw": 0.5530417430927377,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.1x6.points.12.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.2",
+    "raw": 0.9916666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.0.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.4",
+    "raw": 0.9541666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.0.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-max, one sample, chains (exploratory)",
+   "x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.0.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.0.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.10.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 0.9549359649323077,
+    "refs": [
+     {
+      "key": "result.cells.10.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "result.cells.10.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "result.cells.10.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc), over exact_n puzzles, exact_x of them right, is drawn as the bar",
+   "panel": "chains",
+   "series": "Haiku-max, 3-sample vote, chains (exploratory)",
+   "x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "57.3",
+    "raw": 57.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "44.3",
+    "raw": 44.28125,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "one sample: the 95% band starts from the setting's own stamped single-sample interval (as in TAB-04)",
+   "panel": "pieces",
+   "series": "Haiku-medium, one sample, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.0.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "51.0",
+    "raw": 51.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "57.6",
+    "raw": 0.5763060897435898,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.1.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "44.3",
+    "raw": 0.44254006410256413,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.1.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.1.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "51.1",
+    "raw": 0.5114182692307693,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.1.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.0",
+    "raw": 0.6396617746288799,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.2.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.6",
+    "raw": 0.48562921727395414,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.2.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.3",
+    "raw": 0.5626429655870445,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.2.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.9",
+    "raw": 0.6693925415800416,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.3.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.9",
+    "raw": 0.5085466590071853,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.3.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.3.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.9",
+    "raw": 0.5894555157384105,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.3.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.8",
+    "raw": 0.6882485585281638,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.4.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.1",
+    "raw": 0.5209868611019927,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.4.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "5",
+    "raw": 5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.4.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "60.7",
+    "raw": 0.6068356995659627,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.4.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.0",
+    "raw": 0.7000671715671716,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.5.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.1",
+    "raw": 0.5307383407843934,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.5.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.5.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "61.8",
+    "raw": 0.6177772242673558,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.5.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "71.0",
+    "raw": 0.7095260417033831,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.6.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.8",
+    "raw": 0.5376042703664607,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.6.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "7",
+    "raw": 7,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.6.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "62.6",
+    "raw": 0.6260405105001661,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.6.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "71.7",
+    "raw": 0.7170960392748318,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.7.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.3",
+    "raw": 0.5434226740786339,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.7.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.7.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.2",
+    "raw": 0.6322021921054428,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.7.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "72.3",
+    "raw": 0.7234897588892728,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.8.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.7",
+    "raw": 0.5465612711922334,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.8.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "9",
+    "raw": 9,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.8.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.7",
+    "raw": 0.6370880447406666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.8.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.0",
+    "raw": 0.7295675244990784,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.9.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.0",
+    "raw": 0.5495071297582291,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.9.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "10",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.9.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.1",
+    "raw": 0.6412633345487393,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.9.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.4",
+    "raw": 0.7338187055974288,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.10.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1",
+    "raw": 0.5513793775925551,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.10.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "11",
+    "raw": 11,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.10.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.4",
+    "raw": 0.6444456464179542,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.10.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "73.8",
+    "raw": 0.7379874368367252,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.11.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.3",
+    "raw": 0.5531890603465406,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.11.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.11.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.7",
+    "raw": 0.6473776980501875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.11.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "74.2",
+    "raw": 0.7416852447529807,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.12.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.5",
+    "raw": 0.5546083698290567,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.12.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "13",
+    "raw": 13,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.12.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.0",
+    "raw": 0.6496351214825034,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.12.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "74.5",
+    "raw": 0.745258648731261,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.13.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.6",
+    "raw": 0.5559094166752808,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.13.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "14",
+    "raw": 14,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.13.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.2",
+    "raw": 0.6517993795905331,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.13.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "74.8",
+    "raw": 0.7478882472958439,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.14.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.7",
+    "raw": 0.5568533349056546,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.14.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "15",
+    "raw": 15,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.14.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.3",
+    "raw": 0.6533936153955466,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.14.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 0.7501250357115454,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.15.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.8",
+    "raw": 0.5578562162382295,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.15.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.15.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.5",
+    "raw": 0.6550566028600311,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.15.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.2",
+    "raw": 0.7518186960102955,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.16.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5586072482110739,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.16.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "17",
+    "raw": 17,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.16.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.6",
+    "raw": 0.6562015671609076,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.16.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.3",
+    "raw": 0.7530840227637859,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.17.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5592403967492665,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.17.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "18",
+    "raw": 18,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.17.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.7",
+    "raw": 0.6574690411832886,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.17.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.4",
+    "raw": 0.7540793504186801,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.18.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5597793975196943,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.18.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "19",
+    "raw": 19,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.18.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.8",
+    "raw": 0.6582968779082502,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.18.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.6",
+    "raw": 0.7556840172447188,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.19.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5602206904620063,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.19.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.19.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.9",
+    "raw": 0.659291895798461,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.19.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.7",
+    "raw": 0.7571755204378745,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.20.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5604588200915438,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.20.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "21",
+    "raw": 21,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.20.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.0",
+    "raw": 0.6598768252066138,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.20.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.8",
+    "raw": 0.7577895032500181,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.21.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5609686786891578,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.21.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "22",
+    "raw": 22,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.21.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.1",
+    "raw": 0.6606370151450516,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.21.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.8",
+    "raw": 0.7583711819634227,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.22.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5611570516527234,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.22.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "23",
+    "raw": 23,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.22.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.1",
+    "raw": 0.661041850043262,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.22.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.9",
+    "raw": 0.7591785130528244,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.23.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.561187539288712,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.23.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "24",
+    "raw": 24,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.23.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.2",
+    "raw": 0.6616164127244735,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.23.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.0",
+    "raw": 0.7597679252329097,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.24.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5608225035821679,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.24.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "25",
+    "raw": 25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.24.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.2",
+    "raw": 0.661884335816218,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.24.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.1",
+    "raw": 0.7607253865199344,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.25.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5607058887113867,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.25.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "26",
+    "raw": 26,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.25.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.2",
+    "raw": 0.6623096288563175,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.25.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.1",
+    "raw": 0.7614068622635839,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.26.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5609136291991736,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.26.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "27",
+    "raw": 27,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.26.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.2",
+    "raw": 0.662485444653447,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.26.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.2",
+    "raw": 0.7616675582895962,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.27.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5612142887224957,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.27.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "28",
+    "raw": 28,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.27.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.662791193563006,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.27.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.2",
+    "raw": 0.761721150521546,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.28.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5610998728874397,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.28.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "29",
+    "raw": 29,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.28.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.6629077467955755,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.28.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.2",
+    "raw": 0.7620523888544212,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.29.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5609753191295623,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.29.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "30",
+    "raw": 30,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.29.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.6631313157250532,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.29.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.2",
+    "raw": 0.7624614837143862,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.30.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.1",
+    "raw": 0.5607065080229263,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.30.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "31",
+    "raw": 31,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.30.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.6632609990850606,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.30.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.3",
+    "raw": 0.7625916217750583,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.31.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5600111570738505,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.31.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "32",
+    "raw": 32,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.31.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.3",
+    "raw": 0.6634639160800152,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.31.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.3",
+    "raw": 0.762873371779138,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.32.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5597839475132431,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.32.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "33",
+    "raw": 33,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.32.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.4",
+    "raw": 0.6636620767662758,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.32.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.7638102956195062,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.33.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5593055403581719,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.33.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "34",
+    "raw": 34,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.33.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.4",
+    "raw": 0.6639103883018357,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.33.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.5",
+    "raw": 0.7649597820239268,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.34.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5597747291826238,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.34.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "35",
+    "raw": 35,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.34.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.4",
+    "raw": 0.6642882666320167,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.34.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.6",
+    "raw": 0.7664098232848233,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.35.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5596043741109531,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.35.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "36",
+    "raw": 36,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.35.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.5",
+    "raw": 0.6646783701717912,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.35.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.8",
+    "raw": 0.7677258350202429,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.36.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5592706224696357,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.36.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "37",
+    "raw": 37,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.36.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.5",
+    "raw": 0.6653327429149798,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.36.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.9",
+    "raw": 0.7692788461538462,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.37.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.9",
+    "raw": 0.5592788461538462,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.37.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "38",
+    "raw": 38,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.37.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.6",
+    "raw": 0.6659535256410256,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.37.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "77.1",
+    "raw": 0.77109375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.38.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.0",
+    "raw": 0.5596875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.38.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "39",
+    "raw": 39,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.38.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.7",
+    "raw": 0.666875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.38.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "77.5",
+    "raw": 0.775,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "56.3",
+    "raw": 0.5625,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, pieces",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.9",
+    "raw": 0.66875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 95.49359649323077,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "dashed line: its accuracy; bar at the panel's right edge: its exact 95% interval",
+   "panel": "pieces",
+   "series": "Opus-medium, one sample, pieces",
+   "y": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "84.0",
+    "raw": 84.01203554931442,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "64.1",
+    "raw": 64.063652409315,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "dashed line: its accuracy; bar at the panel's right edge: its exact 95% interval",
+   "panel": "pieces",
+   "series": "Sonnet-medium, one sample, pieces",
+   "y": {
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 75.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.sonnet-med 6x1.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "haiku_over_comparator": {
+    "kind": "num",
+    "printed": "0.909",
+    "raw": "0.9085411025657543384252207397",
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.spend.haiku_over_comparator",
+      "source": "main_k"
+     }
+    ]
+   },
+   "note": "vote size at which the vote costs about as much as the comparator, from k.json",
+   "panel": "pieces",
+   "raw_k": {
+    "kind": "num",
+    "printed": "44",
+    "raw": 44,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.raw_k",
+      "source": "main_k"
+     }
+    ]
+   },
+   "series": "Haiku-medium vote at the cost-matched k for Opus-medium (Test 1), pieces",
+   "x": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "k_from_rows.opus.6x1.k",
+      "source": "main_k"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "66.9",
+    "raw": 0.66875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_8b.vote_curve.6x1.points.39.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.9",
+    "raw": 0.9791666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.0.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "91.3",
+    "raw": 0.9125,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.0.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-max, one sample, pieces (exploratory)",
+   "x": {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.0.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.0.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 0.9625,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-max, 3-sample vote, pieces (exploratory)",
+   "x": {
+    "kind": "num",
+    "printed": "3",
+    "raw": 3,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.k",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.8",
+    "raw": 0.9875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_10.arms.haiku-max 6x1.vote_curve.points.2.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "63.8",
+    "raw": 63.75,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "42.5",
+    "raw": 42.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "side strip: step voting has no whole-answer vote size",
+   "panel": "chains",
+   "series": "step voting, chains (Test 4)",
+   "y": {
+    "kind": "num",
+    "printed": "53.8",
+    "raw": 53.75,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  }
+ }
+}

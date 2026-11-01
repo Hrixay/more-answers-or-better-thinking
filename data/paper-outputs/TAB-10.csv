@@ -1,0 +1,4 @@
+Test,Challenger,Steps,Puzzles,Challenger accuracy (%),Opus-medium accuracy (%),"Format compliance, challenger, chains / pieces (%)",d (points),d 95% interval,5-point margin: p,5-point margin: Holm threshold,5-point margin: reading,5-point margin: shown no worse (Holm-adjusted),10-point margin: p,10-point margin: Holm threshold,Error-rate ratio R,Error-rate ratio 95% interval
+Test B1,One Haiku-max sample,16,80,92.63,97.81,99.50 / 99.88,−5.19,"[−7.75, −2.69]",0.56595,0.025,"""inconclusive (could not show)""",no,0.00027,0.0125,3.37,"[1.78, 10.07]"
+Test B2,Haiku-max vote,16,80,98.44,97.81,99.50 / 99.88,+0.63,"[−1.15, 2.44]",≤ 0.00011,0.00833,"""holds (no worse in all three views)""",yes,≤ 0.00011,0.00833,0.71,"[0.24, 2.11]"
+Test B3,One Haiku-max sample,6,40,95.75,99.38,100.00 / 100.00,−3.63,"[−7.00, −1.50]",0.20571,0.0125,"""inconclusive (could not show)""",no,≤ 0.00108,0.025,6.80,"[1.67, unbounded]"

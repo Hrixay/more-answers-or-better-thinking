@@ -1,0 +1,35 @@
+{
+ "inputs": {
+  "m": 0.27,
+  "conc": 10.37115384615385,
+  "shared": 0.34641016151377546,
+  "p_opus": 0.8
+ },
+ "k": 29,
+ "config": {
+  "seed": 20261011,
+  "nsim": 4000,
+  "kappa": 0.5,
+  "B": 80,
+  "B_add": 120,
+  "level": 0.01,
+  "margin": 10,
+  "threshold": 0.5,
+  "n_samples": 40
+ },
+ "B80": {
+  "ni": 0.0,
+  "inferior": 0.94825,
+  "inconclusive": 0.05175,
+  "half_width": 14.660675092072422,
+  "conclusive": 0.94825
+ },
+ "B120": {
+  "ni": 0.0,
+  "inferior": 0.9915,
+  "inconclusive": 0.0085,
+  "half_width": 11.87513520720152,
+  "conclusive": 0.9915
+ },
+ "add_40_power_test": false
+}

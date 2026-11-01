@@ -1,0 +1,2272 @@
+{
+ "analysis": "fa4r2",
+ "checks": [
+  {
+   "equal": true,
+   "ours": "4a2ba4bd230670fa5faa7a275af946b6a79757de7a25d021c019134852f6837d",
+   "stamped": "4a2ba4bd230670fa5faa7a275af946b6a79757de7a25d021c019134852f6837d",
+   "what": "the first version's cells, recomputed, equal fa4.json's (SHA-256 of their JSON)"
+  },
+  {
+   "equal": true,
+   "ours": 11,
+   "stamped": 11,
+   "what": "every first-version cell in these files is found again by the rule"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "29cba6908414ac0ddfdb1f71817f443747215a3b",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "961f773fe3aaf04229de149d482e3f06679379d3c600dd0e1fe393bb05165a5c"
+ },
+ "definition": {
+  "analysis": "Exact (Clopper-Pearson) intervals wherever a bootstrap collapsed: Study 1b om@6 pieces; top-up main-om pieces; C10 Opus pieces; item 7 Opus per-piece; length-sweep Opus-medium at 6 and 16 steps and its q; Study 1's 3-try Haiku-max vote on chains; Study 1b's Haiku-max vote@10 on pieces; thinking-off chains at 16 steps.",
+  "could_change_headline": "No.",
+  "inputs": "the keys named, in the three analysis files, groupc.json and the length-sweep file",
+  "rank": 4,
+  "size": "trivial",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[3]",
+  "tier_label": "post hoc presentation",
+  "why": "The approved style sheet requires it; a [100, 100] band suggests false certainty."
+ },
+ "inputs": {
+  "stamped_files": {
+   "curve": {
+    "path": "data/pilot/curve-ladder-l14n-1.json",
+    "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+   },
+   "curve_d90": {
+    "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+   },
+   "fa2r2": {
+    "path": "data/main/free-analyses/fa2r2.json",
+    "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+   },
+   "fa4": {
+    "path": "data/main/free-analyses/fa4.json",
+    "sha256": "03376ca1bbe9ba373c6bbc3a78b6bb99a0d939cf5338473ee48d9b2926a21c90"
+   },
+   "groupc": {
+    "path": "data/main/main-l14n6-1/groupc.json",
+    "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+   },
+   "main": {
+    "path": "data/main/main-l14n6-1/analysis.json",
+    "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+   },
+   "s1b": {
+    "path": "data/main/study1b-1/analysis.json",
+    "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+   },
+   "topup": {
+    "path": "data/main/topup-1/analysis.json",
+    "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+   }
+  }
+ },
+ "interval_sanity": {
+  "checked": 0,
+  "point_outside": [],
+  "zero_width": []
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "added_cells": 92,
+  "cells": [
+   {
+    "cell": "Study 1b Opus-medium, 6 steps, pieces",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "key": "descriptive.arms.om@6.6x1",
+    "n": 40,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "Top-up comparator Opus-medium (main run), pieces",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "accuracy.main-om.6x1",
+    "n": 80,
+    "note": null,
+    "source": "data/main/topup-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "C10 Opus-low, pieces (main run)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "item_C10.pairs.opus-low-vs-opus-med:6x1",
+    "n": 80,
+    "note": "the stamped interval is the paired difference's [0, 0]; each arm's exact accuracy interval is given instead",
+    "source": "data/main/main-l14n6-1/groupc.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "C10 Opus-medium, pieces (main run)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "item_C10.pairs.opus-low-vs-opus-med:6x1",
+    "n": 80,
+    "note": "the stamped interval is the paired difference's [0, 0]; each arm's exact accuracy interval is given instead",
+    "source": "data/main/main-l14n6-1/groupc.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "Item 7 Opus-medium per-piece accuracy",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_7.per_piece_accuracy.arms.opus-med",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Item 7 Opus-low per-piece accuracy",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_7.per_piece_accuracy.arms.opus-low",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 6 steps, pooled",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.6.per_step.pooled",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 6 steps, pieces (q's input)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.6.per_step.nx1",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 16 steps, pooled",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.16.per_step.pooled",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 16 steps, pieces (q's input)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.16.per_step.nx1",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Study 1 Haiku-max 3-try vote, chains",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Study 1b Haiku-max vote@10, 16 steps, pieces",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "descriptive.vote_curve_n16.points.9.16x1",
+    "n": 80,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "Study 1b Haiku thinking-off, 16 steps, chains",
+    "exact95": [
+     0.0,
+     4.5064035067692245
+    ],
+    "key": "descriptive.arms.ho@16.1x16",
+    "n": 80,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "points",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[0,10).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.4592581264399004
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t1.mean_vote_at_k.39",
+    "n": 6,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[0,10).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.5218237501049814
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t2.mean_vote_at_k.39",
+    "n": 5,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[0,10).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.5218237501049814
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t3.mean_vote_at_k.39",
+    "n": 5,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[0,10).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[10,20).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[10,20).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[10,20).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[10,20).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[10,20).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[10,20).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[20,30).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t1.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[20,30).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t2.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[20,30).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[20,30).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[30,40).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[30,40).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[30,40).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[30,40).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[40,50).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[40,50).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[40,50).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[50,60).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[50,60).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[50,60).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[50,60).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[60,70).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t1.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 1
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[60,70).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t2.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 1
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[60,70).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t3.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[60,70).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 1
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[70,80).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[70,80).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t2.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[70,80).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[70,80).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[80,90).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[80,90).thirds.t1.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[80,90).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[80,90).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[80,90).thirds.t2.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[80,90).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[90,100].thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[90,100].thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t2.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 1
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[90,100].thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.024999999999999967,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t3.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[90,100].thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 1
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.1x6.bins.[90,100].too few wrong tries.mean_vote_at_k.39)",
+    "exact95": [
+     0.5407418735600993,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.1x6.bins.[90,100].too few wrong tries.mean_vote_at_k.39",
+    "n": 6,
+    "n_key": "reporting.group_b.item_20.1x6.bins.[90,100].too few wrong tries.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 6
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[0,10).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[0,10).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[0,10).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[0,10).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[10,20).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t1.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[10,20).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t2.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[10,20).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.841886116991581
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[10,20).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[20,30).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[20,30).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[20,30).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[20,30).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.7075982261787133
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[20,30).thirds.t3.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[20,30).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[30,40).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.9749999999999999
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t1.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[30,40).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.9749999999999999
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t2.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[30,40).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.0,
+     0.9749999999999999
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t3.mean_vote_at_k.39",
+    "n": 1,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[30,40).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "share (0-1)",
+    "x": 0
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[40,50).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.3976353643835252,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[40,50).thirds.t1.mean_vote_at_k.39",
+    "n": 4,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[40,50).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 4
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[40,50).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.3976353643835252,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[40,50).thirds.t2.mean_vote_at_k.39",
+    "n": 4,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[40,50).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 4
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[50,60).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[50,60).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[50,60).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[50,60).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[60,70).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[60,70).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t2.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[60,70).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.15811388300841894,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t3.mean_vote_at_k.39",
+    "n": 2,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[60,70).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 2
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[70,80).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[70,80).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[70,80).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t3.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[70,80).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[80,90).thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t1.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[80,90).thirds.t2.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t2.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t2.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[80,90).thirds.t3.mean_vote_at_k.39)",
+    "exact95": [
+     0.2924017738212864,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t3.mean_vote_at_k.39",
+    "n": 3,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[80,90).thirds.t3.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 3
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[90,100].thirds.t1.mean_vote_at_k.39)",
+    "exact95": [
+     0.3976353643835252,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[90,100].thirds.t1.mean_vote_at_k.39",
+    "n": 4,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[90,100].thirds.t1.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 4
+   },
+   {
+    "cell": "item 20: the vote at k = 40 within a bin and third (reporting.group_b.item_20.6x1.bins.[90,100].too few wrong tries.mean_vote_at_k.39)",
+    "exact95": [
+     0.4781762498950183,
+     1.0
+    ],
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "key": "reporting.group_b.item_20.6x1.bins.[90,100].too few wrong tries.mean_vote_at_k.39",
+    "n": 5,
+    "n_key": "reporting.group_b.item_20.6x1.bins.[90,100].too few wrong tries.n",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 5
+   },
+   {
+    "cell": "item 24: a vote at its own equal-money k (reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "family": "item 24: a vote at its own equal-money k",
+    "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med",
+    "n": 80,
+    "n_key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "item 24: a vote at its own equal-money k (reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs sonnet-med)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "family": "item 24: a vote at its own equal-money k",
+    "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs sonnet-med",
+    "n": 80,
+    "n_key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "Study 1b: a figure's copy of an arm (descriptive.effort_figure.N=16.haiku.0.1x16)",
+    "exact95": [
+     0.0,
+     4.5064035067692245
+    ],
+    "family": "Study 1b: a figure's copy of an arm",
+    "key": "descriptive.effort_figure.N=16.haiku.0.1x16",
+    "n": 80,
+    "n_key": "descriptive.arms.ho@16.1x16.n_base",
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "points",
+    "x": 0
+   },
+   {
+    "cell": "Study 1b: a figure's copy of an arm (descriptive.effort_figure.N=6.opus.1.6x1)",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "family": "Study 1b: a figure's copy of an arm",
+    "key": "descriptive.effort_figure.N=6.opus.1.6x1",
+    "n": 40,
+    "n_key": "descriptive.arms.om@6.6x1.n_base",
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "Study 1b: the length sweep's points as copied (descriptive.length_curve.ladder.opus-medium.16.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "Study 1b: the length sweep's points as copied",
+    "key": "descriptive.length_curve.ladder.opus-medium.16.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Study 1b: the length sweep's points as copied (descriptive.length_curve.ladder.opus-medium.6.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "Study 1b: the length sweep's points as copied",
+    "key": "descriptive.length_curve.ladder.opus-medium.6.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Study 1b: a figure's copy of an arm (descriptive.length_curve.opus-medium.6.6x1)",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "family": "Study 1b: a figure's copy of an arm",
+    "key": "descriptive.length_curve.opus-medium.6.6x1",
+    "n": 40,
+    "n_key": "descriptive.arms.om@6.6x1.n_base",
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "Study 1b: a test's arm per shape (per_form.B3.6x1.o)",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "family": "Study 1b: a test's arm per shape",
+    "key": "per_form.B3.6x1.o",
+    "n": 40,
+    "n_key": null,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.1xn)",
+    "exact95": [
+     0.8235330881930345,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.1xn",
+    "n": 19,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 19
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.16.per_step.1xn)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.per_step.1xn",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.16.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.16.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.16.whole_answer.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.whole_answer.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.1xn)",
+    "exact95": [
+     0.8235330881930345,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.1xn",
+    "n": 19,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 19
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.6.per_step.1xn)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.per_step.1xn",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.6.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.6.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.6.whole_answer.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.whole_answer.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): per-step or whole-answer accuracy (models.om.by_n.8.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.8.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (original rule): a Pilot 1 marker (pilot1.om.l14_only)",
+    "exact95": [
+     0.4781762498950183,
+     1.0
+    ],
+    "family": "length sweep (original rule): a Pilot 1 marker",
+    "key": "pilot1.om.l14_only",
+    "n": 5,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 5
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.1xn)",
+    "exact95": [
+     0.8235330881930345,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.1xn",
+    "n": 19,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 19
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.12.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.12.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.16.per_step.1xn)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.per_step.1xn",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.16.whole_answer.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.16.whole_answer.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.1xn)",
+    "exact95": [
+     0.8235330881930345,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.1xn",
+    "n": 19,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 19
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.4.per_step.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.4.per_step.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.6.per_step.1xn)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.per_step.1xn",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.6.whole_answer.pooled)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.6.whole_answer.pooled",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy (models.om.by_n.8.per_step.nx1)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "key": "models.om.by_n.8.per_step.nx1",
+    "n": 20,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "length sweep (Deviation 2 rule): a Pilot 1 marker (pilot1.om.l14_only)",
+    "exact95": [
+     0.4781762498950183,
+     1.0
+    ],
+    "family": "length sweep (Deviation 2 rule): a Pilot 1 marker",
+    "key": "pilot1.om.l14_only",
+    "n": 5,
+    "n_key": null,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 5
+   },
+   {
+    "cell": "free analysis 2: a Haiku-max vote-curve point (result.N=6.curve.8.1x6)",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "family": "free analysis 2: a Haiku-max vote-curve point",
+    "key": "result.N=6.curve.8.1x6",
+    "n": 40,
+    "n_key": null,
+    "note": null,
+    "source": "data/main/free-analyses/fa2r2.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "free analysis 2: a Haiku-max vote-curve point (result.N=6.curve.9.1x6)",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "family": "free analysis 2: a Haiku-max vote-curve point",
+    "key": "result.N=6.curve.9.1x6",
+    "n": 40,
+    "n_key": null,
+    "note": null,
+    "source": "data/main/free-analyses/fa2r2.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   }
+  ],
+  "excluded": [
+   {
+    "what": "curve: q pools every piece-step over all lengths and sets (clusters stratified by set), so no single count of base puzzles carries it, and its q^N bands are powers of its interval; no exact interval",
+    "zero_width_intervals": 1
+   },
+   {
+    "what": "curve_d90: as for the original rule's q",
+    "zero_width_intervals": 1
+   },
+   {
+    "what": "main: item 20 at k below 40: FIG-02 draws the vote at k = 40 only, so these cells are printed nowhere",
+    "zero_width_intervals": 1061
+   }
+  ],
+  "families": [
+   {
+    "family": "item 20: the vote at k = 40 within a bin and third",
+    "file": "data/main/main-l14n6-1/analysis.json",
+    "key_pattern": "^reporting\\.group_b\\.item_20\\.[^.]+\\.bins\\.[^.]+\\.(thirds\\.t[123]|too few wrong tries)\\.mean_vote_at_k\\.\\d+$",
+    "n_from": "bin n"
+   },
+   {
+    "family": "item 10: a vote-curve point",
+    "file": "data/main/main-l14n6-1/analysis.json",
+    "key_pattern": "^reporting\\.group_b\\.item_10\\.arms\\.[^.]+\\.vote_curve\\.points\\.\\d+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "item 24: a vote at its own equal-money k",
+    "file": "data/main/main-l14n6-1/analysis.json",
+    "key_pattern": "^reporting\\.group_b\\.item_24\\.table\\.[^.]+\\.vote_at_own_k\\.[^.]+$",
+    "n_from": "row base_puzzles"
+   },
+   {
+    "family": "item 7: per-piece accuracy",
+    "file": "data/main/main-l14n6-1/analysis.json",
+    "key_pattern": "^reporting\\.group_b\\.item_7\\.per_piece_accuracy\\.arms\\.[^.]+$",
+    "n_from": "n_puzzles"
+   },
+   {
+    "family": "Study 1b: an arm at one length and shape",
+    "file": "data/main/study1b-1/analysis.json",
+    "key_pattern": "^descriptive\\.arms\\.[^.]+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "Study 1b: a 16-step vote-curve point",
+    "file": "data/main/study1b-1/analysis.json",
+    "key_pattern": "^descriptive\\.vote_curve_n16\\.points\\.\\d+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "Study 1b: a test's arm per shape",
+    "file": "data/main/study1b-1/analysis.json",
+    "key_pattern": "^per_form\\.[^.]+\\.[^.]+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "Study 1b: the length sweep's points as copied",
+    "file": "data/main/study1b-1/analysis.json",
+    "key_pattern": "^descriptive\\.length_curve\\.ladder\\.[^.]+\\.\\d+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "Study 1b: a figure's copy of an arm",
+    "file": "data/main/study1b-1/analysis.json",
+    "key_pattern": "^descriptive\\.(length_curve\\.[^.]+\\.\\d+|effort_figure\\.N=\\d+\\.[^.]+\\.[^.]+)\\.[^.]+$",
+    "n_from": "matching arm"
+   },
+   {
+    "family": "top-up: an arm's accuracy",
+    "file": "data/main/topup-1/analysis.json",
+    "key_pattern": "^accuracy\\.[^.]+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "length sweep (original rule): per-step or whole-answer accuracy",
+    "file": "data/pilot/curve-ladder-l14n-1.json",
+    "key_pattern": "^models\\.[^.]+\\.by_n\\.\\d+\\.(per_step|whole_answer)\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "length sweep (original rule): a Pilot 1 marker",
+    "file": "data/pilot/curve-ladder-l14n-1.json",
+    "key_pattern": "^pilot1\\.[^.]+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "length sweep (Deviation 2 rule): per-step or whole-answer accuracy",
+    "file": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "key_pattern": "^models\\.[^.]+\\.by_n\\.\\d+\\.(per_step|whole_answer)\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "length sweep (Deviation 2 rule): a Pilot 1 marker",
+    "file": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "key_pattern": "^pilot1\\.[^.]+\\.[^.]+$",
+    "n_from": "n_base"
+   },
+   {
+    "family": "free analysis 2: a Haiku-max vote-curve point",
+    "file": "data/main/free-analyses/fa2r2.json",
+    "key_pattern": "^result\\.N=\\d+\\.curve\\.\\d+\\.[^.]+$",
+    "n_from": "n_base"
+   }
+  ],
+  "first_version_cells": 13,
+  "method": "report_arms.clopper_pearson(x, n), two-sided 95%, over base puzzles (the conservative unit)",
+  "q_note": "the length sweep's q is estimated from pieces only, so its exact counterpart is the pieces per-step row",
+  "revision": {
+   "number": 2,
+   "of": "fa4.json",
+   "why": "fa4.json covered a hand list of 13 collapsed cells; the definition reads 'wherever a bootstrap collapsed', so revision 2 takes every zero-width interval in the stamped result files by rule (Jarvis, 2026-10-15, under D-131), keeping the first version's cells unchanged"
+  }
+ },
+ "undefined_as_null": []
+}

@@ -1,0 +1,4 @@
+Test,Test set,Puzzles,Puzzles without the exposed ones,Exposed puzzles left out,"Reading, 5-point margin","Reading without them, 5-point margin","Shown no worse (Holm-adjusted), as deployed, 5-point margin","Shown no worse (Holm-adjusted) without them, as deployed, 5-point margin"
+Test B1,main-ledger-l14n16-v1,80,79,main-ledger-l14n16-v1-000,"""inconclusive (could not show)""","""inconclusive (could not show)""",no,no
+Test B2,main-ledger-l14n16-v1,80,79,main-ledger-l14n16-v1-000,"""holds (no worse in all three views)""","""holds (no worse in all three views)""",yes,yes
+Test B3,ext40-ledger-l14n6-v1,40,38,"ext40-ledger-l14n6-v1-000, ext40-ledger-l14n6-v1-003","""inconclusive (could not show)""","""inconclusive (could not show)""",no,no

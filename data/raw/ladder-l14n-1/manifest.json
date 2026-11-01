@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "95fb5f81b9a3a131da77f5a776af200c8e60477d",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "11.80828305",
+  "item_set_sha256": "8f9b56cc9530c885fd57b570360dcaaa14ee3ee0d237674b9a06d3def5cc3dee",
+  "mode": "batch",
+  "n_items": 2400,
+  "note": "ladder pilot (D-86, D-87): Haiku-medium x10 picks N; Opus-medium and Sonnet-medium x1 sealed",
+  "price_table_date": "2026-10-12",
+  "run_cap_usd": "30",
+  "run_id": "ladder-l14n-1",
+  "source_sha256": "204972446e06a9fd8c1551acfd1003215b87680bdc3654b7906c571c7bc84d07"
+}

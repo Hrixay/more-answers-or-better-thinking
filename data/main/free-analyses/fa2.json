@@ -1,0 +1,852 @@
+{
+ "analysis": "fa2",
+ "checks": [
+  {
+   "equal": true,
+   "ours": 95.75,
+   "stamped": 95.75,
+   "what": "hx@6 vote@1 pooled = stamped single try"
+  },
+  {
+   "equal": true,
+   "ours": 92.75,
+   "stamped": 92.75,
+   "what": "hx@12 vote@1 pooled = stamped single try"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "048020caa071918da7a2802ac0416d4c63085a64",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "b56a2aab77dbf72beecf4dd9ce30291dc00611cda6276c4251e0ef035da28449"
+ },
+ "definition": {
+  "analysis": "Haiku-max vote curves at k = 1-10 at 6 steps (40 bases) and 12 steps (80 bases), pooled and per shape, exact vote@k, cluster bootstrap; the equal-money vote against Opus-medium paired (k 10 at 6 steps, held to the 10 tries drawn; k 7 at 12 steps), with cost per correct answer.",
+  "could_change_headline": "Not B1-B3; can extend or qualify the descriptive 'then voting' reading. Never read a trend in the gap across lengths.",
+  "inputs": "data/raw/study1b-1 (D-109); study1b-1 analysis.json descriptive.arms['hx@6','hx@12','om@6','om@12']",
+  "rank": 2,
+  "size": "small",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[1]",
+  "tier_label": "post hoc descriptive",
+  "why": "B2 tested the Haiku-max vote only at 16 steps; the tries at the other two lengths exist."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "N=12": {
+   "curve": [
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k1",
+      "ci95": [
+       95.125,
+       95.125
+      ],
+      "mean": 95.125,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k1",
+      "ci95": [
+       90.375,
+       90.375
+      ],
+      "mean": 90.375,
+      "n_base": 80
+     },
+     "k": 1,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k1",
+      "ci95": [
+       92.75,
+       92.75
+      ],
+      "mean": 92.75,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k2",
+      "ci95": [
+       95.125,
+       95.125
+      ],
+      "mean": 95.125,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k2",
+      "ci95": [
+       90.48611111111111,
+       90.48611111111111
+      ],
+      "mean": 90.48611111111111,
+      "n_base": 80
+     },
+     "k": 2,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k2",
+      "ci95": [
+       92.80555555555556,
+       92.80555555555556
+      ],
+      "mean": 92.80555555555556,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k3",
+      "ci95": [
+       98.31944444444446,
+       98.31944444444446
+      ],
+      "mean": 98.31944444444446,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k3",
+      "ci95": [
+       95.3715277777778,
+       95.3715277777778
+      ],
+      "mean": 95.3715277777778,
+      "n_base": 80
+     },
+     "k": 3,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k3",
+      "ci95": [
+       96.84548611111106,
+       96.84548611111106
+      ],
+      "mean": 96.84548611111106,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k4",
+      "ci95": [
+       98.72916666666667,
+       98.72916666666667
+      ],
+      "mean": 98.72916666666667,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k4",
+      "ci95": [
+       95.85267857142858,
+       95.85267857142858
+      ],
+      "mean": 95.85267857142858,
+      "n_base": 80
+     },
+     "k": 4,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k4",
+      "ci95": [
+       97.2909226190476,
+       97.2909226190476
+      ],
+      "mean": 97.2909226190476,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k5",
+      "ci95": [
+       99.11458333333333,
+       99.11458333333333
+      ],
+      "mean": 99.11458333333333,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k5",
+      "ci95": [
+       96.73363095238095,
+       96.73363095238095
+      ],
+      "mean": 96.73363095238095,
+      "n_base": 80
+     },
+     "k": 5,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k5",
+      "ci95": [
+       97.92410714285714,
+       97.92410714285714
+      ],
+      "mean": 97.92410714285714,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k6",
+      "ci95": [
+       99.16666666666666,
+       99.16666666666666
+      ],
+      "mean": 99.16666666666666,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k6",
+      "ci95": [
+       96.7559523809524,
+       96.7559523809524
+      ],
+      "mean": 96.7559523809524,
+      "n_base": 80
+     },
+     "k": 6,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k6",
+      "ci95": [
+       97.9613095238095,
+       97.9613095238095
+      ],
+      "mean": 97.9613095238095,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k7",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k7",
+      "ci95": [
+       97.29166666666666,
+       97.29166666666666
+      ],
+      "mean": 97.29166666666666,
+      "n_base": 80
+     },
+     "k": 7,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k7",
+      "ci95": [
+       98.33333333333333,
+       98.33333333333333
+      ],
+      "mean": 98.33333333333333,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k8",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k8",
+      "ci95": [
+       97.36111111111111,
+       97.36111111111111
+      ],
+      "mean": 97.36111111111111,
+      "n_base": 80
+     },
+     "k": 8,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k8",
+      "ci95": [
+       98.36805555555556,
+       98.36805555555556
+      ],
+      "mean": 98.36805555555556,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k9",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k9",
+      "ci95": [
+       97.8125,
+       97.8125
+      ],
+      "mean": 97.8125,
+      "n_base": 80
+     },
+     "k": 9,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k9",
+      "ci95": [
+       98.59375,
+       98.59375
+      ],
+      "mean": 98.59375,
+      "n_base": 80
+     }
+    },
+    {
+     "12x1": {
+      "bootstrap_name": "fa2:hx-vote:12:12x1:k10",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 80
+     },
+     "1x12": {
+      "bootstrap_name": "fa2:hx-vote:12:1x12:k10",
+      "ci95": [
+       98.125,
+       98.125
+      ],
+      "mean": 98.125,
+      "n_base": 80
+     },
+     "k": 10,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:12:pooled:k10",
+      "ci95": [
+       98.75,
+       98.75
+      ],
+      "mean": 98.75,
+      "n_base": 80
+     }
+    }
+   ],
+   "equal_money": {
+    "held_to_tries": 10,
+    "k": 7,
+    "om_mean_pooled": 97.5,
+    "om_over_hx_cost_ratio": 7.416790540118533,
+    "paired": {
+     "12x1": {
+      "ci95": [
+       -1.25,
+       5.0
+      ],
+      "d": 0.625,
+      "n": 80,
+      "seed_name": "fa2:12:hx-vote-k7-vs-om:12x1"
+     },
+     "1x12": {
+      "ci95": [
+       -3.5416666666666665,
+       6.875
+      ],
+      "d": 1.0416666666666667,
+      "n": 80,
+      "seed_name": "fa2:12:hx-vote-k7-vs-om:1x12"
+     },
+     "pooled": {
+      "ci95": [
+       -1.6666666666666665,
+       4.270833333333334
+      ],
+      "d": 0.8333333333333334,
+      "n": 80,
+      "seed_name": "fa2:12:hx-vote-k7-vs-om:pooled"
+     }
+    },
+    "vote_cost_per_answer_pooled": 0.057789571875,
+    "vote_mean_pooled": 98.33333333333333
+   },
+   "hx_cost_per_answer": {
+    "12x1": {
+     "batch_usd": 0.0038306446875,
+     "bootstrap_name": "cost_mean:hx:12x1",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.007473811875,
+      0.00785856125
+     ],
+     "list_usd": 0.007661289375
+    },
+    "1x12": {
+     "batch_usd": 0.0044250084375,
+     "bootstrap_name": "cost_mean:hx:1x12",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.008492961875,
+      0.00922041625
+     ],
+     "list_usd": 0.008850016875
+    },
+    "pooled": {
+     "batch_usd": 0.0041278265625,
+     "list_usd": 0.008255653125
+    },
+    "unit": "USD per answer, list price (item 9b)"
+   },
+   "om_cost_per_answer": {
+    "12x1": {
+     "batch_usd": 0.0340182,
+     "bootstrap_name": "cost_mean:om:12x1",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.064218,
+      0.07180450000000001
+     ],
+     "list_usd": 0.0680364
+    },
+    "1x12": {
+     "batch_usd": 0.02721225,
+     "bootstrap_name": "cost_mean:om:1x12",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.051804249999999996,
+      0.0571186
+     ],
+     "list_usd": 0.0544245
+    },
+    "pooled": {
+     "batch_usd": 0.030615225,
+     "list_usd": 0.06123045
+    },
+    "unit": "USD per answer, list price (item 9b)"
+   }
+  },
+  "N=6": {
+   "curve": [
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k1",
+      "ci95": [
+       97.25,
+       97.25
+      ],
+      "mean": 97.25,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k1",
+      "ci95": [
+       94.25,
+       94.25
+      ],
+      "mean": 94.25,
+      "n_base": 40
+     },
+     "k": 1,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k1",
+      "ci95": [
+       95.75,
+       95.75
+      ],
+      "mean": 95.75,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k2",
+      "ci95": [
+       97.25,
+       97.25
+      ],
+      "mean": 97.25,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k2",
+      "ci95": [
+       94.25,
+       94.25
+      ],
+      "mean": 94.25,
+      "n_base": 40
+     },
+     "k": 2,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k2",
+      "ci95": [
+       95.75,
+       95.75
+      ],
+      "mean": 95.75,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k3",
+      "ci95": [
+       99.05555555555557,
+       99.05555555555557
+      ],
+      "mean": 99.05555555555557,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k3",
+      "ci95": [
+       97.41666666666667,
+       97.41666666666667
+      ],
+      "mean": 97.41666666666667,
+      "n_base": 40
+     },
+     "k": 3,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k3",
+      "ci95": [
+       98.23611111111111,
+       98.23611111111111
+      ],
+      "mean": 98.23611111111111,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k4",
+      "ci95": [
+       99.16666666666667,
+       99.16666666666667
+      ],
+      "mean": 99.16666666666667,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k4",
+      "ci95": [
+       97.41666666666667,
+       97.41666666666667
+      ],
+      "mean": 97.41666666666667,
+      "n_base": 40
+     },
+     "k": 4,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k4",
+      "ci95": [
+       98.29166666666666,
+       98.29166666666666
+      ],
+      "mean": 98.29166666666666,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k5",
+      "ci95": [
+       99.3452380952381,
+       99.3452380952381
+      ],
+      "mean": 99.3452380952381,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k5",
+      "ci95": [
+       98.0952380952381,
+       98.0952380952381
+      ],
+      "mean": 98.0952380952381,
+      "n_base": 40
+     },
+     "k": 5,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k5",
+      "ci95": [
+       98.7202380952381,
+       98.7202380952381
+      ],
+      "mean": 98.7202380952381,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k6",
+      "ci95": [
+       99.3452380952381,
+       99.3452380952381
+      ],
+      "mean": 99.3452380952381,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k6",
+      "ci95": [
+       98.0952380952381,
+       98.0952380952381
+      ],
+      "mean": 98.0952380952381,
+      "n_base": 40
+     },
+     "k": 6,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k6",
+      "ci95": [
+       98.7202380952381,
+       98.7202380952381
+      ],
+      "mean": 98.7202380952381,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k7",
+      "ci95": [
+       99.58333333333333,
+       99.58333333333333
+      ],
+      "mean": 99.58333333333333,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k7",
+      "ci95": [
+       98.33333333333333,
+       98.33333333333333
+      ],
+      "mean": 98.33333333333333,
+      "n_base": 40
+     },
+     "k": 7,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k7",
+      "ci95": [
+       98.95833333333333,
+       98.95833333333333
+      ],
+      "mean": 98.95833333333333,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k8",
+      "ci95": [
+       99.58333333333333,
+       99.58333333333333
+      ],
+      "mean": 99.58333333333333,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k8",
+      "ci95": [
+       98.33333333333333,
+       98.33333333333333
+      ],
+      "mean": 98.33333333333333,
+      "n_base": 40
+     },
+     "k": 8,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k8",
+      "ci95": [
+       98.95833333333333,
+       98.95833333333333
+      ],
+      "mean": 98.95833333333333,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k9",
+      "ci95": [
+       100.0,
+       100.0
+      ],
+      "mean": 100.0,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k9",
+      "ci95": [
+       98.75,
+       98.75
+      ],
+      "mean": 98.75,
+      "n_base": 40
+     },
+     "k": 9,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k9",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 40
+     }
+    },
+    {
+     "1x6": {
+      "bootstrap_name": "fa2:hx-vote:6:1x6:k10",
+      "ci95": [
+       100.0,
+       100.0
+      ],
+      "mean": 100.0,
+      "n_base": 40
+     },
+     "6x1": {
+      "bootstrap_name": "fa2:hx-vote:6:6x1:k10",
+      "ci95": [
+       98.75,
+       98.75
+      ],
+      "mean": 98.75,
+      "n_base": 40
+     },
+     "k": 10,
+     "pooled": {
+      "bootstrap_name": "fa2:hx-vote:6:pooled:k10",
+      "ci95": [
+       99.375,
+       99.375
+      ],
+      "mean": 99.375,
+      "n_base": 40
+     }
+    }
+   ],
+   "equal_money": {
+    "held_to_tries": 10,
+    "k": 10,
+    "om_mean_pooled": 99.375,
+    "om_over_hx_cost_ratio": 10.523488675545012,
+    "paired": {
+     "1x6": {
+      "ci95": [
+       0.0,
+       6.25
+      ],
+      "d": 1.25,
+      "n": 40,
+      "seed_name": "fa2:6:hx-vote-k10-vs-om:1x6"
+     },
+     "6x1": {
+      "ci95": [
+       -6.25,
+       0.0
+      ],
+      "d": -1.25,
+      "n": 40,
+      "seed_name": "fa2:6:hx-vote-k10-vs-om:6x1"
+     },
+     "pooled": {
+      "ci95": [
+       -1.875,
+       1.875
+      ],
+      "d": 0.0,
+      "n": 40,
+      "seed_name": "fa2:6:hx-vote-k10-vs-om:pooled"
+     }
+    },
+    "vote_cost_per_answer_pooled": 0.041901575,
+    "vote_mean_pooled": 99.375
+   },
+   "hx_cost_per_answer": {
+    "1x6": {
+     "batch_usd": 0.002163144375,
+     "bootstrap_name": "cost_mean:hx:1x6",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.00413915875,
+      0.004497582500000001
+     ],
+     "list_usd": 0.00432628875
+    },
+    "6x1": {
+     "batch_usd": 0.002027013125,
+     "bootstrap_name": "cost_mean:hx:6x1",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.0038968274999999996,
+      0.0041913325000000005
+     ],
+     "list_usd": 0.00405402625
+    },
+    "pooled": {
+     "batch_usd": 0.00209507875,
+     "list_usd": 0.0041901575
+    },
+    "unit": "USD per answer, list price (item 9b)"
+   },
+   "om_cost_per_answer": {
+    "1x6": {
+     "batch_usd": 0.020287825,
+     "bootstrap_name": "cost_mean:om:1x6",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.03848915,
+      0.0424212
+     ],
+     "list_usd": 0.04057565
+    },
+    "6x1": {
+     "batch_usd": 0.02380725,
+     "bootstrap_name": "cost_mean:om:6x1",
+     "calls_without_record": 0,
+     "list_ci95": [
+      0.046787,
+      0.0484522
+     ],
+     "list_usd": 0.0476145
+    },
+    "pooled": {
+     "batch_usd": 0.0220475375,
+     "list_usd": 0.044095075
+    },
+    "unit": "USD per answer, list price (item 9b)"
+   }
+  },
+  "note": "Descriptive; never read a trend in the gap across lengths (plan, analysis 2)."
+ }
+}

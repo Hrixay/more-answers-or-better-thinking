@@ -1,0 +1,257 @@
+{
+ "effort": "medium",
+ "extra_rung_needed": false,
+ "include_realtime": false,
+ "input_sha256": "38a68adcdbe9710518f17bb263ece9dfcd033f084a9727bbdb59ef316fdfed96",
+ "model": "claude-haiku-5-5",
+ "n_rows": 2000,
+ "n_trace_scored": 2000,
+ "outside_15_60_return_to_user": false,
+ "pick": {
+  "band_miss": 0.0,
+  "in_band": true,
+  "no_preset_in_band": false,
+  "preset": "l14n6",
+  "score": 0.5,
+  "shape_gap": 0.0,
+  "shape_gap_flag": false,
+  "tie_broken": true,
+  "tied_with": [
+   "l14n8"
+  ],
+  "tier": 1
+ },
+ "presets": [
+  {
+   "distance": 0.275,
+   "distance_key": 275,
+   "family": "ledger",
+   "format_compliance_1x24": 0.965,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.27,
+   "mean_prompt_chars": 4422.6,
+   "n_answered_1x24_traced": 200,
+   "n_answered_24x1_read": 200,
+   "n_puzzles": 40,
+   "n_rule_kinds": 7,
+   "n_steps": 12,
+   "n_tries": 400,
+   "preset": "l14n12",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.1,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "1/10",
+   "set_ids": [
+    "ladder-ledger-l14n12-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "12x1": 0.1,
+    "1x12": 0.1
+   },
+   "shape_n_puzzles": {
+    "12x1": 20,
+    "1x12": 20
+   },
+   "tier": 3
+  },
+  {
+   "distance": 0.275,
+   "distance_key": 275,
+   "family": "ledger",
+   "format_compliance_1x24": 0.945,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.18,
+   "mean_prompt_chars": 5361.525,
+   "n_answered_1x24_traced": 200,
+   "n_answered_24x1_read": 200,
+   "n_puzzles": 40,
+   "n_rule_kinds": 7,
+   "n_steps": 16,
+   "n_tries": 400,
+   "preset": "l14n16",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.1,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "1/10",
+   "set_ids": [
+    "ladder-ledger-l14n16-v1"
+   ],
+   "shape_gap": 0.05,
+   "shape_gap_exact": "1/20",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "16x1": 0.1,
+    "1x16": 0.05
+   },
+   "shape_n_puzzles": {
+    "16x1": 20,
+    "1x16": 20
+   },
+   "tier": 3
+  },
+  {
+   "distance": 0.175,
+   "distance_key": 175,
+   "family": "ledger",
+   "format_compliance_1x24": 0.99,
+   "format_compliance_24x1": 1.0,
+   "in_band": false,
+   "mean": 0.555,
+   "mean_prompt_chars": 2456.025,
+   "n_answered_1x24_traced": 200,
+   "n_answered_24x1_read": 200,
+   "n_puzzles": 40,
+   "n_rule_kinds": 7,
+   "n_steps": 4,
+   "n_tries": 400,
+   "preset": "l14n4",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.55,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "11/20",
+   "set_ids": [
+    "ladder-ledger-l14n4-v1"
+   ],
+   "shape_gap": 0.45,
+   "shape_gap_exact": "9/20",
+   "shape_gap_flag": true,
+   "shape_medians": {
+    "1x4": 0.35,
+    "4x1": 0.8
+   },
+   "shape_n_puzzles": {
+    "1x4": 20,
+    "4x1": 20
+   },
+   "tier": 2
+  },
+  {
+   "distance": 0.125,
+   "distance_key": 125,
+   "family": "ledger",
+   "format_compliance_1x24": 0.98,
+   "format_compliance_24x1": 1.0,
+   "in_band": true,
+   "mean": 0.48,
+   "mean_prompt_chars": 2940.075,
+   "n_answered_1x24_traced": 200,
+   "n_answered_24x1_read": 200,
+   "n_puzzles": 40,
+   "n_rule_kinds": 7,
+   "n_steps": 6,
+   "n_tries": 400,
+   "preset": "l14n6",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.5,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "1/2",
+   "set_ids": [
+    "ladder-ledger-l14n6-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "1x6": 0.5,
+    "6x1": 0.5
+   },
+   "shape_n_puzzles": {
+    "1x6": 20,
+    "6x1": 20
+   },
+   "tier": 1
+  },
+  {
+   "distance": 0.125,
+   "distance_key": 125,
+   "family": "ledger",
+   "format_compliance_1x24": 0.99,
+   "format_compliance_24x1": 1.0,
+   "in_band": true,
+   "mean": 0.5225,
+   "mean_prompt_chars": 3443.725,
+   "n_answered_1x24_traced": 200,
+   "n_answered_24x1_read": 200,
+   "n_puzzles": 40,
+   "n_rule_kinds": 7,
+   "n_steps": 8,
+   "n_tries": 400,
+   "preset": "l14n8",
+   "rule_kinds": [
+    "avg_donors",
+    "compare_move",
+    "count_move",
+    "rank_move",
+    "repeat_fixed",
+    "repick2",
+    "two_clause"
+   ],
+   "score": 0.5,
+   "score_1x24": "trace (D-76)",
+   "score_exact": "1/2",
+   "set_ids": [
+    "ladder-ledger-l14n8-v1"
+   ],
+   "shape_gap": 0.0,
+   "shape_gap_exact": "0",
+   "shape_gap_flag": false,
+   "shape_medians": {
+    "1x8": 0.5,
+    "8x1": 0.5
+   },
+   "shape_n_puzzles": {
+    "1x8": 20,
+    "8x1": 20
+   },
+   "tier": 1
+  }
+ ],
+ "presets_without_rows": [],
+ "rule": "Haiku-medium tries only (no other model's numbers are read). Puzzle accuracy = mean of `right` over its tries (blank = wrong). Preset score = MEDIAN of its puzzle accuracies (not the mean), both shapes pooled. Tier 1: among presets with a score in [0.25, 0.50], pick the one closest to 0.375. Tier 2: if none, among presets in [0.15, 0.60], pick the one closest to 0.375 and report band_miss (the distance outside [0.25, 0.50]). Tier 3: if none, there is no binding pick (pick = null): if every preset is above 0.60, set extra_rung_needed (the spare rung l17 runs only on the user's go; 24-step presets only); if every preset is below 0.15, or the presets lie on both sides of the 0.15 to 0.60 window with none inside it, set outside_15_60_return_to_user (there is no easier rung). For the D-86 length ladder (presets l14n4 to l14n16) there is no further rung: tier 3 always sets outside_15_60_return_to_user and never extra_rung_needed. K2 tie-break: two presets are tied when their distances to 0.375, each rounded to 0.001, are equal; the tie goes to fewer steps (D-86; presets of the same length tie on it), then to fewer distinct rule kinds, then to the shorter mean prompt. shape_gap is the absolute difference of the two per-shape medians; shape_gap_flag is set when it is strictly above 0.30 (information only). Try scores (D-76: the official trace score): a 1x24 try of a ledger set is right only if its reply parses under the fixed rules and all 24 step lines equal the key (the Answer line equal to line 24), read from the raw reply; a try whose format is not ok is wrong (an answer-only item is scored by its final answer). A 24x1 try of a ledger set is right only if every piece is right, read from the raw reply by the same parser (Edith R3). Sets of other families use `right` as before. At N steps (D-86) every 1x24 above means the 1xN chain and every 24x1 the Nx1 pieces, in this text and in the field names (score_1x24, format_compliance_1x24, format_compliance_24x1, ...); each preset row gives its length as n_steps.",
+ "sets": {
+  "ladder-ledger-l14n12-v1": "9ac487325ede011169d1260826076fc55028ffb0b5e7eed829694366d5394e94",
+  "ladder-ledger-l14n16-v1": "0503cf11971e8b5a00221f0eb0573f47497490732941478f88f5afa55ecbb12b",
+  "ladder-ledger-l14n4-v1": "fd3454f7406cb8ac376c7d09462bc2589767b2692a93bf37b86905c5b8f4ac56",
+  "ladder-ledger-l14n6-v1": "e9e2d56098aeb2a63cad8111aee2e7399571c42980acd4ee01c7a2fa4e81f19b",
+  "ladder-ledger-l14n8-v1": "c69192dbe5393220a0d5927f157412ff041d61142c2c6cf9724652690c41f808"
+ },
+ "tier": 1,
+ "trace_sha256": "6a2f17a3e54e43eb023892a49198f01d92d59ea1d190487b24d0732083e9ba97"
+}

@@ -1,0 +1,1523 @@
+{
+ "decision_inputs": {
+  "chosen_n": 6,
+  "near_ceiling": true,
+  "note": "Opus-medium at the chosen n only; Opus at other n and Sonnet at every n are descriptive",
+  "opus_pooled": 1.0,
+  "p_opus_1xn": 1.0,
+  "p_opus_1xn_ci95": [
+   0.8388748419471808,
+   1.0
+  ]
+ },
+ "draws": 2000,
+ "models": {
+  "hm": {
+   "by_n": {
+    "12": {
+     "answered_1xn": 200,
+     "format_compliance_1xn": 0.96,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.834537037037037,
+        0.8967592592592594
+       ],
+       "mean": 0.8642361111111111,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8724999999999999,
+        0.9275
+       ],
+       "mean": 0.9008333333333333,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.8557870370370371,
+        0.9093865740740741
+       ],
+       "mean": 0.8825347222222222,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n12",
+     "set_id": "ladder-ledger-l14n12-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 8,
+     "vote_at_10": {
+      "1xn": {
+       "ci95": [
+        0.1625,
+        0.5625
+       ],
+       "mean": 0.36124999999999996,
+       "n_base": 20
+      },
+      "label": "not cost-matched",
+      "nx1": {
+       "ci95": [
+        0.185,
+        0.5900000000000001
+       ],
+       "mean": 0.385,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.231875,
+        0.520625
+       ],
+       "mean": 0.37312500000000004,
+       "n_base": 20
+      }
+     },
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.13,
+        0.36
+       ],
+       "mean": 0.23500000000000001,
+       "median": 0.1,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.15,
+        0.47000000000000003
+       ],
+       "mean": 0.30500000000000005,
+       "median": 0.1,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.16999999999999998,
+        0.3825
+       ],
+       "mean": 0.27,
+       "median": 0.1,
+       "n_base": 20
+      }
+     }
+    },
+    "16": {
+     "answered_1xn": 200,
+     "format_compliance_1xn": 0.94,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.86171875,
+        0.9122395833333334
+       ],
+       "mean": 0.8875520833333332,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8815625,
+        0.9256249999999999
+       ],
+       "mean": 0.9037499999999999,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.8729947916666667,
+        0.9172265625
+       ],
+       "mean": 0.8956510416666668,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n16",
+     "set_id": "ladder-ledger-l14n16-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 12,
+     "vote_at_10": {
+      "1xn": {
+       "ci95": [
+        0.05,
+        0.35
+       ],
+       "mean": 0.175,
+       "n_base": 20
+      },
+      "label": "not cost-matched",
+      "nx1": {
+       "ci95": [
+        0.225,
+        0.65
+       ],
+       "mean": 0.425,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.15,
+        0.4625
+       ],
+       "mean": 0.3,
+       "n_base": 20
+      }
+     },
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.065,
+        0.24500000000000002
+       ],
+       "mean": 0.145,
+       "median": 0.05,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.13,
+        0.305
+       ],
+       "mean": 0.215,
+       "median": 0.1,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.1025,
+        0.26
+       ],
+       "mean": 0.18,
+       "median": 0.1,
+       "n_base": 20
+      }
+     }
+    },
+    "4": {
+     "answered_1xn": 200,
+     "format_compliance_1xn": 0.99,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.7145833333333333,
+        0.8708333333333333
+       ],
+       "mean": 0.7958333333333333,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.85125,
+        0.9475
+       ],
+       "mean": 0.9037499999999999,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.791875,
+        0.9018750000000001
+       ],
+       "mean": 0.8497916666666667,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n4",
+     "set_id": "ladder-ledger-l14n4-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 2,
+     "vote_at_10": {
+      "1xn": {
+       "ci95": [
+        0.3,
+        0.7
+       ],
+       "mean": 0.5,
+       "n_base": 20
+      },
+      "label": "not cost-matched",
+      "nx1": {
+       "ci95": [
+        0.575,
+        0.95
+       ],
+       "mean": 0.775,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.4875,
+        0.775
+       ],
+       "mean": 0.6375,
+       "n_base": 20
+      }
+     },
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.265,
+        0.595
+       ],
+       "mean": 0.42000000000000004,
+       "median": 0.35,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.54,
+        0.82
+       ],
+       "mean": 0.6900000000000001,
+       "median": 0.8,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.41500000000000004,
+        0.6825
+       ],
+       "mean": 0.5549999999999999,
+       "median": 0.55,
+       "n_base": 20
+      }
+     }
+    },
+    "6": {
+     "answered_1xn": 200,
+     "format_compliance_1xn": 0.98,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.8131481481481482,
+        0.9139814814814814
+       ],
+       "mean": 0.8648148148148149,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8516666666666666,
+        0.9291666666666666
+       ],
+       "mean": 0.89,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.8364814814814814,
+        0.9184259259259259
+       ],
+       "mean": 0.8774074074074074,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n6",
+     "set_id": "ladder-ledger-l14n6-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 4,
+     "vote_at_10": {
+      "1xn": {
+       "ci95": [
+        0.4,
+        0.8
+       ],
+       "mean": 0.6,
+       "n_base": 20
+      },
+      "label": "not cost-matched",
+      "nx1": {
+       "ci95": [
+        0.375,
+        0.775
+       ],
+       "mean": 0.575,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.4125,
+        0.75
+       ],
+       "mean": 0.5875,
+       "n_base": 20
+      }
+     },
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.305,
+        0.615
+       ],
+       "mean": 0.45999999999999996,
+       "median": 0.5,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.34500000000000003,
+        0.655
+       ],
+       "mean": 0.5,
+       "median": 0.5,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.3375,
+        0.62
+       ],
+       "mean": 0.48,
+       "median": 0.5,
+       "n_base": 20
+      }
+     }
+    },
+    "8": {
+     "answered_1xn": 200,
+     "format_compliance_1xn": 0.985,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.8870138888888889,
+        0.9440972222222221
+       ],
+       "mean": 0.9155555555555555,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.9081250000000001,
+        0.945
+       ],
+       "mean": 0.9275,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.8997569444444444,
+        0.9426388888888889
+       ],
+       "mean": 0.9215277777777778,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n8",
+     "set_id": "ladder-ledger-l14n8-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 3,
+     "vote_at_10": {
+      "1xn": {
+       "ci95": [
+        0.4,
+        0.825
+       ],
+       "mean": 0.625,
+       "n_base": 20
+      },
+      "label": "not cost-matched",
+      "nx1": {
+       "ci95": [
+        0.45,
+        0.825
+       ],
+       "mean": 0.65,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.4875,
+        0.775
+       ],
+       "mean": 0.6375,
+       "n_base": 20
+      }
+     },
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.395,
+        0.6799999999999999
+       ],
+       "mean": 0.54,
+       "median": 0.5,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.39,
+        0.615
+       ],
+       "mean": 0.505,
+       "median": 0.5,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.42000000000000004,
+        0.6325000000000001
+       ],
+       "mean": 0.5225000000000001,
+       "median": 0.5,
+       "n_base": 20
+      }
+     }
+    }
+   },
+   "effort": "medium",
+   "model": "claude-haiku-5-5",
+   "q": {
+    "24": {
+     "band": [
+      0.06525253598394655,
+      0.12844523387261764
+     ],
+     "label": "dotted extrapolation only",
+     "q_n": 0.0919011262577141
+    },
+    "by_n": {
+     "12": {
+      "band": [
+       0.2554457593774979,
+       0.35839256949972836
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.7751887215337546,
+       "nx1": 1.0060960002884902,
+       "pooled": 0.8906423609111224
+      },
+      "q_n": 0.30315198540948746
+     },
+     "16": {
+      "band": [
+       0.1620808093044596,
+       0.2545727979949678
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.7120122184785657,
+       "nx1": 1.0557422549854596,
+       "pooled": 0.8838772367320126
+      },
+      "q_n": 0.2036481906305447
+     },
+     "4": {
+      "band": [
+       0.6345018594140623,
+       0.7103182924532165
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.6252146580716429,
+       "nx1": 1.0271383668319847,
+       "pooled": 0.8261765124518136
+      },
+      "q_n": 0.6717692788832097
+     },
+     "6": {
+      "band": [
+       0.5054164217528927,
+       0.5986589759618813
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.8354637735542201,
+       "nx1": 0.9081127973415436,
+       "pooled": 0.8717882854478818
+      },
+      "q_n": 0.550592394979705
+     },
+     "8": {
+      "band": [
+       0.40259260959990256,
+       0.5045520765936533
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.196612353064208,
+       "nx1": 1.1190541449952316,
+       "pooled": 1.1578332490297198
+      },
+      "q_n": 0.4512739640512675
+     }
+    },
+    "ci95": [
+     0.8925,
+     0.9180434782608695
+    ],
+    "q": 0.9053260869565217
+   },
+   "tries_per_puzzle": 10
+  },
+  "om": {
+   "by_n": {
+    "12": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 0.95,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 19
+      },
+      "nx1": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n12",
+     "set_id": "ladder-ledger-l14n12-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 1,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+       ],
+       "interval": "wilson",
+       "mean": 0.95,
+       "n_base": 20,
+       "right": 19,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.925,
+        1.0
+       ],
+       "mean": 0.975,
+       "n_base": 20
+      }
+     }
+    },
+    "16": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 1.0,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n16",
+     "set_id": "ladder-ledger-l14n16-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 0,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     }
+    },
+    "4": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 0.95,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 19
+      },
+      "nx1": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n4",
+     "set_id": "ladder-ledger-l14n4-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 1,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+       ],
+       "interval": "wilson",
+       "mean": 0.95,
+       "n_base": 20,
+       "right": 19,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.925,
+        1.0
+       ],
+       "mean": 0.975,
+       "n_base": 20
+      }
+     }
+    },
+    "6": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 1.0,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n6",
+     "set_id": "ladder-ledger-l14n6-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 0,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      }
+     }
+    },
+    "8": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 1.0,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.9625,
+        1.0
+       ],
+       "mean": 0.9875,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        1.0,
+        1.0
+       ],
+       "mean": 1.0,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.98125,
+        1.0
+       ],
+       "mean": 0.99375,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n8",
+     "set_id": "ladder-ledger-l14n8-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 0,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+       ],
+       "interval": "wilson",
+       "mean": 0.95,
+       "n_base": 20,
+       "right": 19,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8388748419471808,
+        1.0
+       ],
+       "interval": "wilson",
+       "mean": 1.0,
+       "n_base": 20,
+       "right": 20,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.925,
+        1.0
+       ],
+       "mean": 0.975,
+       "n_base": 20
+      }
+     }
+    }
+   },
+   "effort": "medium",
+   "model": "claude-opus-5-5",
+   "q": {
+    "24": {
+     "band": [
+      1.0,
+      1.0
+     ],
+     "label": "dotted extrapolation only",
+     "q_n": 1.0
+    },
+    "by_n": {
+     "12": {
+      "band": [
+       1.0,
+       1.0
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.95,
+       "nx1": 1.0,
+       "pooled": 0.975
+      },
+      "q_n": 1.0
+     },
+     "16": {
+      "band": [
+       1.0,
+       1.0
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.0,
+       "nx1": 1.0,
+       "pooled": 1.0
+      },
+      "q_n": 1.0
+     },
+     "4": {
+      "band": [
+       1.0,
+       1.0
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.95,
+       "nx1": 1.0,
+       "pooled": 0.975
+      },
+      "q_n": 1.0
+     },
+     "6": {
+      "band": [
+       1.0,
+       1.0
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.0,
+       "nx1": 1.0,
+       "pooled": 1.0
+      },
+      "q_n": 1.0
+     },
+     "8": {
+      "band": [
+       1.0,
+       1.0
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.95,
+       "nx1": 1.0,
+       "pooled": 0.975
+      },
+      "q_n": 1.0
+     }
+    },
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "q": 1.0
+   },
+   "tries_per_puzzle": 1
+  },
+  "sm": {
+   "by_n": {
+    "12": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 1.0,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.975,
+        1.0
+       ],
+       "mean": 0.9916666666666666,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.8958333333333334,
+        0.9666666666666666
+       ],
+       "mean": 0.9333333333333333,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.9416666666666667,
+        0.9833333333333332
+       ],
+       "mean": 0.9625,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n12",
+     "set_id": "ladder-ledger-l14n12-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 0,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+       ],
+       "interval": "wilson",
+       "mean": 0.95,
+       "n_base": 20,
+       "right": 19,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.2992980081982124,
+        0.7007019918017876
+       ],
+       "interval": "wilson",
+       "mean": 0.5,
+       "n_base": 20,
+       "right": 10,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.6,
+        0.85
+       ],
+       "mean": 0.725,
+       "n_base": 20
+      }
+     }
+    },
+    "16": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 1.0,
+     "format_flag": false,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.971875,
+        0.99375
+       ],
+       "mean": 0.984375,
+       "n_base": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.86875,
+        0.98125
+       ],
+       "mean": 0.9375,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.9234375,
+        0.984375
+       ],
+       "mean": 0.9609375,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n16",
+     "set_id": "ladder-ledger-l14n16-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 0,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.531299122381256,
+        0.8881382985923343
+       ],
+       "interval": "wilson",
+       "mean": 0.75,
+       "n_base": 20,
+       "right": 15,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.3420853424503424,
+        0.7418021417443758
+       ],
+       "interval": "wilson",
+       "mean": 0.55,
+       "n_base": 20,
+       "right": 11,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.5,
+        0.775
+       ],
+       "mean": 0.65,
+       "n_base": 20
+      }
+     }
+    },
+    "4": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 0.6,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.9318181818181818,
+        1.0
+       ],
+       "mean": 0.9791666666666666,
+       "n_base": 12
+      },
+      "nx1": {
+       "ci95": [
+        0.9625,
+        1.0
+       ],
+       "mean": 0.9875,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.95,
+        1.0
+       ],
+       "mean": 0.98125,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n4",
+     "set_id": "ladder-ledger-l14n4-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 8,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.3420853424503424,
+        0.7418021417443758
+       ],
+       "interval": "wilson",
+       "mean": 0.55,
+       "n_base": 20,
+       "right": 11,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+       ],
+       "interval": "wilson",
+       "mean": 0.95,
+       "n_base": 20,
+       "right": 19,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.625,
+        0.875
+       ],
+       "mean": 0.75,
+       "n_base": 20
+      }
+     }
+    },
+    "6": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 0.75,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.9642857142857143,
+        1.0
+       ],
+       "mean": 0.9888888888888889,
+       "n_base": 15
+      },
+      "nx1": {
+       "ci95": [
+        0.925,
+        0.9833333333333334
+       ],
+       "mean": 0.9583333333333334,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.9458333333333334,
+        0.9916666666666666
+       ],
+       "mean": 0.9708333333333334,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n6",
+     "set_id": "ladder-ledger-l14n6-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 5,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.4810271816464765,
+        0.8545227551323956
+       ],
+       "interval": "wilson",
+       "mean": 0.7,
+       "n_base": 20,
+       "right": 14,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.531299122381256,
+        0.8881382985923343
+       ],
+       "interval": "wilson",
+       "mean": 0.75,
+       "n_base": 20,
+       "right": 15,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.575,
+        0.875
+       ],
+       "mean": 0.725,
+       "n_base": 20
+      }
+     }
+    },
+    "8": {
+     "answered_1xn": 20,
+     "format_compliance_1xn": 0.9,
+     "format_flag": true,
+     "n_base": 20,
+     "not_answered": {},
+     "per_step": {
+      "1xn": {
+       "ci95": [
+        0.9558823529411765,
+        1.0
+       ],
+       "mean": 0.9791666666666666,
+       "n_base": 18
+      },
+      "nx1": {
+       "ci95": [
+        0.93125,
+        0.98125
+       ],
+       "mean": 0.95625,
+       "n_base": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.953125,
+        0.984375
+       ],
+       "mean": 0.96875,
+       "n_base": 20
+      }
+     },
+     "preset": "l14n8",
+     "set_id": "ladder-ledger-l14n8-v1",
+     "truncated": 0,
+     "unplaceable_1xn": 2,
+     "whole_answer": {
+      "1xn": {
+       "ci95": [
+        0.531299122381256,
+        0.8881382985923343
+       ],
+       "interval": "wilson",
+       "mean": 0.75,
+       "n_base": 20,
+       "right": 15,
+       "tries": 20
+      },
+      "nx1": {
+       "ci95": [
+        0.43285427668523635,
+        0.8188081758989179
+       ],
+       "interval": "wilson",
+       "mean": 0.65,
+       "n_base": 20,
+       "right": 13,
+       "tries": 20
+      },
+      "pooled": {
+       "ci95": [
+        0.575,
+        0.825
+       ],
+       "mean": 0.7,
+       "n_base": 20
+      }
+     }
+    }
+   },
+   "effort": "medium",
+   "model": "claude-sonnet-5-5",
+   "q": {
+    "24": {
+     "band": [
+      0.13749724349510897,
+      0.4392728957186971
+     ],
+     "label": "dotted extrapolation only",
+     "q_n": 0.26886103360254054
+    },
+    "by_n": {
+     "12": {
+      "band": [
+       0.3708062074657178,
+       0.6627766559850287
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.8321442896921203,
+       "nx1": 0.9642864682590107,
+       "pooled": 1.3982153789755654
+      },
+      "q_n": 0.518518113090122
+     },
+     "16": {
+      "band": [
+       0.26639699877032913,
+       0.5778604054928295
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.8004290877870737,
+       "nx1": 1.3203146643771875,
+       "pooled": 1.5603718760821306
+      },
+      "q_n": 0.41656736446189774
+     },
+     "4": {
+      "band": [
+       0.7184264810209747,
+       0.8718780305169387
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.6846070684580771,
+       "nx1": 1.1825031182457693,
+       "pooled": 0.9335550933519231
+      },
+      "q_n": 0.8033805453378549
+     },
+     "6": {
+      "band": [
+       0.6089385908822973,
+       0.8141109604869773
+      ],
+      "observed_over_q_n": {
+       "1xn": 0.9721114848070823,
+       "nx1": 1.0415480194361597,
+       "pooled": 1.006829752121621
+      },
+      "q_n": 0.7200820183077217
+     },
+     "8": {
+      "band": [
+       0.5161366086321809,
+       0.760171300098096
+      ],
+      "observed_over_q_n": {
+       "1xn": 1.162033483097757,
+       "nx1": 1.0070956853513895,
+       "pooled": 1.0845645842245732
+      },
+      "q_n": 0.6454203006273491
+     }
+    },
+    "ci95": [
+     0.9206521739130434,
+     0.966304347826087
+    ],
+    "q": 0.9467391304347826
+   },
+   "tries_per_puzzle": 1
+  }
+ },
+ "opened": [
+  "hm",
+  "om",
+  "sm"
+ ],
+ "pilot1": {
+  "hm": {
+   "l14_only": {
+    "ci95": [
+     0.0,
+     0.04
+    ],
+    "label": "pilot-1, presets l14, before lock-2 (different rule mix, sets and timing)",
+    "mean": 0.02,
+    "n_base": 5,
+    "sets": [
+     "pilot-ledger-l14-v1"
+    ]
+   },
+   "l14_to_l16": {
+    "ci95": [
+     0.002,
+     0.014000000000000002
+    ],
+    "label": "pilot-1, presets l14, l15, l16, before lock-2 (different rule mix, sets and timing)",
+    "mean": 0.008,
+    "n_base": 25,
+    "sets": [
+     "pilot-ledger-l14-v1",
+     "pilot-ledger-l15-v1",
+     "pilot-ledger-l16-v1"
+    ]
+   }
+  },
+  "om": {
+   "l14_only": {
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "label": "pilot-1, presets l14, before lock-2 (different rule mix, sets and timing)",
+    "mean": 1.0,
+    "n_base": 5,
+    "sets": [
+     "pilot-ledger-l14-v1"
+    ]
+   },
+   "l14_to_l16": {
+    "ci95": [
+     0.84,
+     0.98
+    ],
+    "label": "pilot-1, presets l14, l15, l16, before lock-2 (different rule mix, sets and timing)",
+    "mean": 0.92,
+    "n_base": 25,
+    "sets": [
+     "pilot-ledger-l14-v1",
+     "pilot-ledger-l15-v1",
+     "pilot-ledger-l16-v1"
+    ]
+   }
+  },
+  "sm": {
+   "l14_only": {
+    "ci95": [
+     0.6,
+     1.0
+    ],
+    "label": "pilot-1, presets l14, before lock-2 (different rule mix, sets and timing)",
+    "mean": 0.8,
+    "n_base": 5,
+    "sets": [
+     "pilot-ledger-l14-v1"
+    ]
+   },
+   "l14_to_l16": {
+    "ci95": [
+     0.36,
+     0.64
+    ],
+    "label": "pilot-1, presets l14, l15, l16, before lock-2 (different rule mix, sets and timing)",
+    "mean": 0.5,
+    "n_base": 25,
+    "sets": [
+     "pilot-ledger-l14-v1",
+     "pilot-ledger-l15-v1",
+     "pilot-ledger-l16-v1"
+    ]
+   }
+  }
+ },
+ "plan": "research/pilot-plan-ledger.md, D-87 curve (descriptive only)",
+ "seed": 20261012,
+ "sets": {
+  "ladder-ledger-l14n12-v1": "l14n12",
+  "ladder-ledger-l14n16-v1": "l14n16",
+  "ladder-ledger-l14n4-v1": "l14n4",
+  "ladder-ledger-l14n6-v1": "l14n6",
+  "ladder-ledger-l14n8-v1": "l14n8"
+ }
+}

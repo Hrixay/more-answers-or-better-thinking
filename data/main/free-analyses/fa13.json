@@ -1,0 +1,327 @@
+{
+ "analysis": "fa13",
+ "checks": [
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "B2 bases left out (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.0010262800195021602,
+   "stamped": 0.0010262800195021602,
+   "what": "B2 primary_margin_5 a (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -1.1458333333333346,
+    2.4404761904761894
+   ],
+   "stamped": [
+    -1.1458333333333346,
+    2.4404761904761894
+   ],
+   "what": "B2 primary_margin_5 ci95 (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.6324404761904753,
+   "stamped": 0.6324404761904753,
+   "what": "B2 primary_margin_5 d (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": true,
+   "stamped": true,
+   "what": "B2 primary_margin_5 declared (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 80,
+   "stamped": 80,
+   "what": "B2 primary_margin_5 n (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.00010062651391767874,
+   "stamped": 0.00010062651391767874,
+   "what": "B2 primary_margin_5 p (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": "non-inferior",
+   "stamped": "non-inferior",
+   "what": "B2 primary_margin_5 reading (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 7747836445806562404,
+   "stamped": 7747836445806562404,
+   "what": "B2 primary_margin_5 seed (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": -0.0078959611115179,
+   "stamped": -0.0078959611115179,
+   "what": "B2 primary_margin_5 z0 (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.0010262800195021602,
+   "stamped": 0.0010262800195021602,
+   "what": "B2 secondary_margin_10 a (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": [
+    -1.1458333333333346,
+    2.4404761904761894
+   ],
+   "stamped": [
+    -1.1458333333333346,
+    2.4404761904761894
+   ],
+   "what": "B2 secondary_margin_10 ci95 (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.6324404761904753,
+   "stamped": 0.6324404761904753,
+   "what": "B2 secondary_margin_10 d (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": true,
+   "stamped": true,
+   "what": "B2 secondary_margin_10 declared (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 80,
+   "stamped": 80,
+   "what": "B2 secondary_margin_10 n (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.00010062651391767874,
+   "stamped": 0.00010062651391767874,
+   "what": "B2 secondary_margin_10 p (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": "non-inferior",
+   "stamped": "non-inferior",
+   "what": "B2 secondary_margin_10 reading (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 7747836445806562404,
+   "stamped": 7747836445806562404,
+   "what": "B2 secondary_margin_10 seed (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": -0.0078959611115179,
+   "stamped": -0.0078959611115179,
+   "what": "B2 secondary_margin_10 z0 (as deployed)"
+  },
+  {
+   "equal": true,
+   "ours": 0.6324404761904753,
+   "stamped": 0.6324404761904753,
+   "what": "B2 d recomputed from the per-form vote and Opus-medium scores (pooled)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "16x1: base puzzles whose enumerated tie-decided share = votes.py's differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "16x1: base puzzles whose enumerated vote@6, ties at 1/m = the locked vote_scores differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "16x1: base puzzles whose enumerated vote@6, ties wrong = vote_scores(tie='wrong') differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "1x16: base puzzles whose enumerated tie-decided share = votes.py's differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "1x16: base puzzles whose enumerated vote@6, ties at 1/m = the locked vote_scores differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": 0,
+   "stamped": 0,
+   "what": "1x16: base puzzles whose enumerated vote@6, ties wrong = vote_scores(tie='wrong') differs (of 80)"
+  },
+  {
+   "equal": true,
+   "ours": -0.6622023809523654,
+   "stamped": -0.6622023809523798,
+   "what": "pooled shift = d(ties wrong) - B2's d"
+  }
+ ],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "3590871f69b9a302527596dd1df1e994c031fdaf",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "50e0e5321af4f565f62bbec139f4ff736f689a29c08af2cbf3303555cb93238b"
+ },
+ "definition": {
+  "date": "2026-10-16",
+  "id": "D-157",
+  "note": "Mock review fix #14 (concern E-12).",
+  "ruling": "**Free analysis 13: the tie view for Test B2** (no API cost, existing data). Report the share of B2 puzzles decided by 3\u20133 ties and B2's gap with ties counted wrong, as one row in the Study 1b appendix, labelled post hoc. Report it whatever it shows. Friday computes it; Edith reproduces it independently",
+  "source": "decisions/register.md at ee30f69, row D-157",
+  "status": "ruled",
+  "user_words": "\"go with A\""
+ },
+ "inputs": {
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "interval_sanity": {
+  "checked": 5,
+  "point_outside": [],
+  "zero_width": []
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "N": 16,
+  "designed_tries": 10,
+  "k": 6,
+  "k_source": "data/main/study1b-1/k.json",
+  "label": "post hoc (D-157), labelled post hoc in the Study 1b appendix; no reading; B2's pre-registered reading is unchanged",
+  "note": "A tie decides a vote when the right answer is tied for the top count with another answer; under the locked rule it then scores 1/m (m answers tied), here 0. With k = 6 a 3-3 tie is '3x2'; '2x2' and '2x3' are 2-2 and 2-2-2 ties, and so on. shift_points = mean vote with ties wrong minus mean vote with ties at 1/m.",
+  "reproduced": {
+   "primary_margin_5": {
+    "ci95": [
+     -1.1458333333333346,
+     2.4404761904761894
+    ],
+    "d": 0.6324404761904753,
+    "p": 0.00010062651391767874,
+    "reading": "non-inferior"
+   },
+   "secondary_margin_10": {
+    "ci95": [
+     -1.1458333333333346,
+     2.4404761904761894
+    ],
+    "d": 0.6324404761904753,
+    "p": 0.00010062651391767874,
+    "reading": "non-inferior"
+   }
+  },
+  "test": "B2",
+  "tie_decided": {
+   "16x1": {
+    "bases_with_a_decided_tie": 4,
+    "decided_subsets_by_pattern": {
+     "2x2": 30,
+     "3x2": 165
+    },
+    "n_base": 80,
+    "subsets": 16800,
+    "tie_decided_share": 0.011607142857142856,
+    "tie_decided_share_3_3": 0.009821428571428571
+   },
+   "1x16": {
+    "bases_with_a_decided_tie": 7,
+    "decided_subsets_by_pattern": {
+     "2x2": 30,
+     "3x2": 220
+    },
+    "n_base": 80,
+    "subsets": 16800,
+    "tie_decided_share": 0.01488095238095238,
+    "tie_decided_share_3_3": 0.013095238095238096
+   },
+   "pooled": {
+    "bases_with_a_decided_tie_in_either_form": 11,
+    "n_base": 80,
+    "tie_decided_share": 0.013244047619047617,
+    "tie_decided_share_3_3": 0.011458333333333333
+   }
+  },
+  "ties_as_wrong": {
+   "means": {
+    "16x1": {
+     "opus_medium": 98.75,
+     "shift_points": -0.580357142857153,
+     "vote_ties_at_1_over_m": 98.85416666666667,
+     "vote_ties_wrong": 98.27380952380952
+    },
+    "1x16": {
+     "opus_medium": 96.875,
+     "shift_points": -0.7440476190476488,
+     "vote_ties_at_1_over_m": 98.0357142857143,
+     "vote_ties_wrong": 97.29166666666666
+    },
+    "pooled": {
+     "opus_medium": 97.8125,
+     "shift_points": -0.6622023809523654,
+     "vote_ties_at_1_over_m": 98.44494047619047,
+     "vote_ties_wrong": 97.7827380952381
+    }
+   },
+   "paired": {
+    "16x1": {
+     "ci95": [
+      -2.8869047619047614,
+      2.113095238095238
+     ],
+     "d": -0.47619047619047594,
+     "n": 80,
+     "seed_name": "fa13:B2:ties-as-wrong:16x1"
+    },
+    "1x16": {
+     "ci95": [
+      -3.6607142857142847,
+      3.898809523809524
+     ],
+     "d": 0.41666666666666724,
+     "n": 80,
+     "seed_name": "fa13:B2:ties-as-wrong:1x16"
+    },
+    "pooled": {
+     "ci95": [
+      -2.113095238095238,
+      1.904761904761905
+     ],
+     "d": -0.029761904761904566,
+     "n": 80,
+     "seed_name": "fa13:B2:ties-as-wrong:pooled"
+    }
+   }
+  },
+  "view": "as_deployed"
+ },
+ "undefined_as_null": []
+}

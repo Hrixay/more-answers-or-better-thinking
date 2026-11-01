@@ -1,0 +1,708 @@
+{
+ "output": {
+  "id": "TAB-22",
+  "kind": "table",
+  "label": "disclosure",
+  "section": "Method (data README)",
+  "title": "Data README: stamped labels and the paper's wording"
+ },
+ "panels": [
+  {
+   "name": "SHA-256 values named in the rows",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Field"
+     },
+     {
+      "kind": "label",
+      "printed": "SHA-256"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "formula": "the stamped key path",
+       "kind": "num",
+       "printed": "groupc: inputs.k_json_sha256",
+       "raw": "inputs.k_json_sha256",
+       "refs": [
+        {
+         "key": "inputs.k_json_sha256",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+       "raw": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+       "refs": [
+        {
+         "key": "inputs.k_json_sha256",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "The pinned Study 1 k.json (TAB-23)"
+      },
+      {
+       "kind": "num",
+       "printed": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+       "raw": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+       "refs": [
+        {
+         "key": "@sha256",
+         "source": "main_k"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the stamped key path",
+       "kind": "num",
+       "printed": "topup: inputs.plan_sha256",
+       "raw": "inputs.plan_sha256",
+       "refs": [
+        {
+         "key": "inputs.plan_sha256",
+         "source": "topup"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+       "raw": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+       "refs": [
+        {
+         "key": "inputs.plan_sha256",
+         "source": "topup"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "claims_ledger": {
+   "commit": "f3d0e6d",
+   "path": "research/paper-notes/claims-ledger.jsonl",
+   "sha256": "8b05cf0b07f986d1bcd8f2a5ff0cbd7ed8fed3b2ca12c870ccefb42cf26e7c7e"
+  },
+  "groupc": {
+   "commit": "2830340",
+   "path": "data/main/main-l14n6-1/groupc.json",
+   "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+  },
+  "log": {
+   "commit": "bec30e3",
+   "path": "LOG.md",
+   "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "register": {
+   "commit": "28944cb",
+   "path": "decisions/register.md",
+   "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "disclosure (data README)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Stamped field"
+   },
+   {
+    "kind": "label",
+    "printed": "Stamped value (or [a description])"
+   },
+   {
+    "kind": "label",
+    "printed": "In the paper"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Each row is a stamped field that the paper does not repeat as written, beside the wording or key the paper uses instead."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The first column gives the file (main: the Study 1 analysis; groupc: the Study 1 keep-list analyses; topup: the top-up analysis; TAB-23 gives their paths) and the field's key path in it, its keys joined by dots."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The key paths and the values in the 'Stamped value' column are quoted verbatim from the stamped files, as is every stamped word in single quotes in the 'In the paper' column; some are words the paper's own text does not use, and a key path or value that holds one is set in double quotation marks. Square brackets mark our changes: a value wholly in square brackets describes the stamped value rather than quoting it, and a bracketed phrase inside a quoted value replaces the words the next notes name. Panel 1 gives the SHA-256 values these rows name, in full."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The released data files' labels cite internal decision numbers; the decision register is not released, so each is given here in plain words."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "In stamped text, a reviewing session's name and review round are replaced by [review note]."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "main: confirmatory.headline_wording.t5",
+     "raw": "confirmatory.headline_wording.t5",
+     "refs": [
+      {
+       "key": "confirmatory.headline_wording.t5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "matches",
+     "raw": "matches",
+     "refs": [
+      {
+       "key": "confirmatory.headline_wording.t5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "the one value stamped for each of Tests 1-4",
+     "kind": "num",
+     "printed": "Test 5's stamped headline word, the pre-registration's own word for the no-worse-than reading within the margin. The paper writes: shown no worse than the comparator by more than the margin (Holm-adjusted). The values for Tests 1–4 read 'does not match as deployed'; the paper uses the pre-registered decision rule.",
+     "raw": [
+      "does not match as deployed",
+      "does not match as deployed",
+      "does not match as deployed",
+      "does not match as deployed"
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.headline_wording.t1",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.headline_wording.t2",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.headline_wording.t3",
+       "source": "main"
+      },
+      {
+       "key": "confirmatory.headline_wording.t4",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "main: original_repeat_rule_appendix.format_compliance",
+     "raw": "original_repeat_rule_appendix.format_compliance",
+     "refs": [
+      {
+       "key": "original_repeat_rule_appendix.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "[repeats the official-rule values, e.g. Sonnet-medium chain: 97.50%]",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "original_repeat_rule_appendix.format_compliance.sonnet-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "Original-rule format compliance is read from secondary.rates (and item 10 for the other settings), e.g. Sonnet-medium chain: 65.00% (TAB-03, Panel 1).",
+     "raw": 0.65,
+     "refs": [
+      {
+       "key": "secondary.rates.sonnet-med.format_compliance_original",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "groupc: label",
+     "raw": "label",
+     "refs": [
+      {
+       "key": "label",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "decision id D-93 replaced in place by a bracketed plain-words gloss from its register row; the ISO date's day and month name; text cut /`harness/analysis/main_rows\\.py` and `(main_analysis)\\.py`/ group 1; not printed: the record for 'the ruling is about the analysis code'; text cut /their (commit hash) is posted on a public gist/ group 1; not printed: the record for 'the ruling posts the analysis code's hash publicly'; text cut /(BEFORE any main-run result is opened)/ group 1; not printed: the record for 'the stamp comes before any result is opened'",
+     "kind": "num",
+     "printed": "pre-specified descriptive (definition fixed and timestamped before the data, [the 12 October analysis] stamp; computed after the confirmatory results were opened, because it was not in the stamped driver)",
+     "raw": "pre-specified descriptive (definition fixed and timestamped before the data, D-93 stamp; computed after the confirmatory results were opened, because it was not in the stamped driver)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "groupc"
+      },
+      {
+       "key": "L115.Date",
+       "source": "register"
+      },
+      {
+       "key": "L115.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L115.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L115.Decision (plain)",
+       "source": "register"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /\"text\": \"([^\"\\\\(.;]+?) \\(/ group 1; text cut /(\"used_in\": \\[\"Caption of TAB-06\"\\])/ group 1; not printed: the record for 'row C-219 is the caption of TAB-06'; text cut /(definition fixed and timestamped before the data)/ group 1; not printed: the record for 'the definitions were stamped first'; text cut /(computed after the confirmatory results were opened)/ group 1; not printed: the record for 'the rows were computed after the confirmatory results were opened'",
+     "kind": "num",
+     "printed": "The keep-list definitions were fixed before any result was opened, inside the public analysis stamp; they were computed after the confirmatory results were opened. Table TAB-06, which holds these analyses, says so in its caption: \"The planned descriptive analyses, computed after the confirmatory results were opened\". That caption uses this wording, not the stamped label's.",
+     "raw": [
+      "The planned descriptive analyses, computed after the confirmatory results were opened",
+      "\"used_in\": [\"Caption of TAB-06\"]",
+      "definition fixed and timestamped before the data",
+      "computed after the confirmatory results were opened"
+     ],
+     "refs": [
+      {
+       "key": "L202",
+       "source": "claims_ledger"
+      },
+      {
+       "key": "L202",
+       "source": "claims_ledger"
+      },
+      {
+       "key": "label",
+       "source": "groupc"
+      },
+      {
+       "key": "label",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "groupc: inputs.k",
+     "raw": "inputs.k",
+     "refs": [
+      {
+       "key": "inputs.k",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "[a scratch path on the build machine]"
+    },
+    {
+     "formula": "not printed: the two SHA-256 values are equal (the build checks it); Panel 1 prints them",
+     "kind": "num",
+     "printed": "The k.json used is the committed Study 1 k.json: its SHA-256 equals the pinned file's (both in Panel 1).",
+     "raw": [
+      [
+       "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+       "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+      ]
+     ],
+     "refs": [
+      {
+       "key": "inputs.k_json_sha256",
+       "source": "groupc"
+      },
+      {
+       "key": "@sha256",
+       "source": "main_k"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "topup: costs.price_table_date",
+     "raw": "costs.price_table_date",
+     "refs": [
+      {
+       "key": "costs.price_table_date",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2026-10-12",
+     "raw": "2026-10-12",
+     "refs": [
+      {
+       "key": "costs.price_table_date",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /the price date is (\\d{4}-\\d\\d-\\d\\d)/ group 1; text cut /^(D-\\d+)$/ group 1; not printed: the record for 'the ruling's id, kept in provenance and not printed'",
+     "kind": "num",
+     "printed": "The analysis code's own price-table date; the run's price date is 2026-10-13, as our ruling of 2026-10-13 records. The prices it applies are the same list prices the run was cleared on, re-checked unchanged before the run; the paper states list prices once, with their check date.",
+     "raw": [
+      "2026-10-13",
+      "2026-10-13",
+      "D-112"
+     ],
+     "refs": [
+      {
+       "key": "L134.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L134.Date",
+       "source": "register"
+      },
+      {
+       "key": "L134.ID",
+       "source": "register"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "topup: inputs.plan_sha256",
+     "raw": "inputs.plan_sha256",
+     "refs": [
+      {
+       "key": "inputs.plan_sha256",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "a description of the stamped value; the value itself is printed in Panel 1",
+     "kind": "num",
+     "printed": "[a SHA-256 hash, in full in Panel 1]",
+     "raw": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+     "refs": [
+      {
+       "key": "inputs.plan_sha256",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /plan ([0-9a-f]{8})… and all \\d+ run-file hashes checked first/ group 1; text cut /and all (\\d+) run-file hashes checked first/ group 1",
+     "kind": "num",
+     "printed": "The driver was given the run folder's own copy of the plan (topup_plan.json), so its plan check compares that copy with itself; the value is that copy's file hash, as in the run's row of our cost records. Before the driver ran, the cleared plan's hash (e038a46e…, as in that row) and all 13 run-file hashes (the top-up's and the main run's, as in their rows of our cost records) were checked (our work log's entry for the driver run).",
+     "raw": [
+      "topup_plan.json",
+      "e038a46e",
+      "13"
+     ],
+     "refs": [
+      {
+       "key": "inputs.plan",
+       "source": "topup"
+      },
+      {
+       "key": "L27",
+       "source": "log"
+      },
+      {
+       "key": "L27",
+       "source": "log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "main: \"reporting.group_b.item_9b.arms.rt-haiku-med:1x6.batch_mean\"",
+     "raw": "reporting.group_b.item_9b.arms.rt-haiku-med:1x6.batch_mean",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9b.arms.rt-haiku-med:1x6.batch_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[equals its list mean; its batch_label reads 'real time (list)']",
+     "raw": "real time (list)",
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9b.arms.rt-haiku-med:1x6.batch_label",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "The six real-time settings were billed at list price, so their 'batch_mean' holds the list cost; the paper reports them at list."
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "topup: comparisons.topup:e2-e3:6x1.comparator",
+     "raw": "comparisons.topup:e2-e3:6x1.comparator",
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "c13",
+     "raw": "c13",
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "The comparison's key reads as the Haiku team against the main run's step voting, but on pieces its comparator is the top-up's step voting on pieces, as this field says; in the main run, step voting ran on chains only. The paper follows this field and calls the comparator step voting on pieces.",
+     "raw": [
+      "e2",
+      "6x1",
+      "c13",
+      "c13"
+     ],
+     "refs": [
+      {
+       "key": "comparisons.topup:e2-e3:6x1.challenger",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.shape",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      },
+      {
+       "key": "comparisons.topup:e2-e3:6x1.comparator",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "topup: test4_pieces.label",
+     "raw": "test4_pieces.label",
+     "refs": [
+      {
+       "key": "test4_pieces.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "unadjusted (exploratory, outside Holm)",
+     "raw": "unadjusted (exploratory, outside Holm)",
+     "refs": [
+      {
+       "key": "test4_pieces.label",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "The key's name reads as Test 4 at pieces, the top-up spec's convenience label. The paper never names it a test (only Tests 1–5 and B1–B3 are tests). It writes: step voting on pieces against one Opus-medium answer (the pieces counterpart of Test 4), unadjusted, exploratory, outside the pre-registered family; the drift check between runs: not fired (TAB-14).",
+     "raw": "not fired",
+     "refs": [
+      {
+       "key": "test4_pieces.same_model_flag",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "topup: test4_pieces.methods_note",
+     "raw": "test4_pieces.methods_note",
+     "refs": [
+      {
+       "key": "test4_pieces.methods_note",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "a chat's name and review round replaced by [review note]",
+     "kind": "num",
+     "printed": "\"this arm ran in a different window from its comparator (the top-up run's own window, after the main run's; spec section 1, [review note])\"",
+     "raw": "this arm ran in a different window from its comparator (the top-up run's own window, after the main run's; spec section 1, Edith r6)",
+     "refs": [
+      {
+       "key": "test4_pieces.methods_note",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /main run's (\\d+)-hour window closes \\(\\d\\d-\\d\\d \\d\\d:\\d\\d UTC\\)/ group 1; the build checks that the stated close (10-14 13:01) is this many hours after the main run's first invocation (2026-10-12T13:01)",
+     "kind": "num",
+     "printed": "The top-up was a run of its own, which started within 48 hours of the main run's start by a disclosed change; comparisons across the two runs carry the status of the drift check between runs (TAB-07). In the stamped value, the words 'arm' and 'window' read, in the paper, design and run.",
+     "raw": [
+      "48"
+     ],
+     "refs": [
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L121.Decision (plain)",
+       "source": "register"
+      },
+      {
+       "key": "L38.What ran",
+       "source": "spend_log"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped key path",
+     "kind": "num",
+     "printed": "main: fairness.flag_k.reason",
+     "raw": "fairness.flag_k.reason",
+     "refs": [
+      {
+       "key": "fairness.flag_k.reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "\"does not fire (TI_house not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249}))\"",
+     "raw": "does not fire (TI_house not assessable at pilot scale: opus+sonnet short (0 exposed slips < 3; counts {'exposed_slips': 0, 'exposed_steps': 457, 'G_slips': 11, 'G_steps': 1249}))",
+     "refs": [
+      {
+       "key": "fairness.flag_k.reason",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /exposed slips < (\\d+)/ group 1",
+     "kind": "num",
+     "printed": "Flag K did not fire because the house-rule targeting index could not be assessed: Opus and Sonnet together had 0 house-rule slips, fewer than the 3 the index needs. The main run is not a pilot: the paper gives the counts and does not repeat 'pilot scale' (TAB-21).",
+     "raw": [
+      0,
+      "3"
+     ],
+     "refs": [
+      {
+       "key": "fairness.TI_house.assess_counts.opus+sonnet.exposed_slips",
+       "source": "main"
+      },
+      {
+       "key": "fairness.TI_house.assess_reason",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

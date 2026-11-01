@@ -1,0 +1,8 @@
+tree 12f3c1f2f962c2e43e90335bc9a134a7430d217d
+parent cc1f5524d64010ac01e00aa54fc291a6e7c9d603
+author Hriday Jain <114401146+Hrixay@users.noreply.github.com> 1791793952 +0530
+committer Hriday Jain <114401146+Hrixay@users.noreply.github.com> 1791793952 +0530
+
+Friday: lock manifest file hashes for prereg-lock-3 (python3 -m harness.lockhash write on main 48337ed + the manifest text cc1f552) over every tracked file except the manifest. The last commit before the tag
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

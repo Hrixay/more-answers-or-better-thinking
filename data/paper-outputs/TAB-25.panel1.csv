@@ -1,0 +1,3 @@
+Shape,Own cost-matched k,Samples per comparator answer (Opus-medium cost per answer / one Haiku-max sample),One Haiku-max sample: list cost per answer ($),Vote at own k: list cost per answer ($),Opus-medium: list cost per answer ($),d: vote at own k minus Opus-medium (points),d 95% interval (paired),B2's vote: list cost per answer ($),B2's vote / Opus-medium spend share (derived)
+1×16,5,5.50,0.0123,0.0613,0.0674,+1.02,"[−2.22, 4.76]",0.0736,1.091
+16×1,8,8.18,0.0101,0.0807,0.0825,+0.56,"[−0.90, 3.26]",0.0605,0.733

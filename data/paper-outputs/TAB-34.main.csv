@@ -1,0 +1,13 @@
+Shape,Steps,Target (%),Cheapest setting (point estimate),List cost per answer ($),Cheapest setting (95% lower end),List cost per answer ($)
+chains,6,90,one Haiku-max sample (Study 1b),0.00433,one Haiku-max sample (Study 1b),0.00433
+chains,6,95,one Haiku-max sample (Study 1b),0.00433,"one Haiku-max sample (Study 1, exploratory)",0.00441
+chains,6,98,"Haiku-max vote, k = 3 (Study 1b, post hoc)",0.0130,"Haiku-max vote, k = 5 (Study 1b, post hoc)",0.0216
+chains,16,90,one Haiku-max sample (Study 1b),0.0123,"Haiku-max vote, k = 3 (Study 1b)",0.0368
+chains,16,95,"Haiku-max vote, k = 3 (Study 1b)",0.0368,"Haiku-max vote, k = 5 (Study 1b)",0.0613
+chains,16,98,"Haiku-max vote, k = 6 (Study 1b)",0.0736,no measured setting clears,—
+pieces,6,90,one Haiku-max sample (Study 1b),0.00405,one Haiku-max sample (Study 1b),0.00405
+pieces,6,95,"one Haiku-max sample (Study 1, exploratory)",0.00407,"Haiku-max vote, k = 3 (Study 1, exploratory)",0.0122
+pieces,6,98,"Haiku-max vote, k = 3 (Study 1, exploratory)",0.0122,no measured setting clears,—
+pieces,16,90,one Haiku-max sample (Study 1b),0.0101,one Haiku-max sample (Study 1b),0.0101
+pieces,16,95,"Haiku-max vote, k = 3 (Study 1b)",0.0303,"Haiku-max vote, k = 3 (Study 1b)",0.0303
+pieces,16,98,"Haiku-max vote, k = 5 (Study 1b)",0.0504,"Haiku-max vote, k = 7 (Study 1b)",0.0706

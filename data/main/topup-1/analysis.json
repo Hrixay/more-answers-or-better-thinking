@@ -1,0 +1,1406 @@
+{
+ "accuracy": {
+  "any8": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:any8:1x6",
+    "ci95": [
+     80.0,
+     95.0
+    ],
+    "mean": 87.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:any8:6x1",
+    "ci95": [
+     78.75,
+     92.5
+    ],
+    "mean": 86.25,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:any8:pooled",
+    "ci95": [
+     81.25,
+     92.5
+    ],
+    "mean": 86.875,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "c13": {
+   "6x1": {
+    "bootstrap_name": "topup:acc:c13:6x1",
+    "ci95": [
+     40.0,
+     62.5
+    ],
+    "mean": 51.25,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "e2": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:e2:1x6",
+    "ci95": [
+     41.25,
+     62.5
+    ],
+    "mean": 52.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:e2:6x1",
+    "ci95": [
+     62.5,
+     82.5
+    ],
+    "mean": 72.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:e2:pooled",
+    "ci95": [
+     55.625,
+     68.75
+    ],
+    "mean": 62.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "h-pick8": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:h-pick8:1x6",
+    "ci95": [
+     52.5,
+     72.5
+    ],
+    "mean": 62.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:h-pick8:6x1",
+    "ci95": [
+     57.5,
+     78.75
+    ],
+    "mean": 67.5,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:h-pick8:pooled",
+    "ci95": [
+     57.5,
+     72.5
+    ],
+    "mean": 65.0,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "label": "accuracy in points (official, as deployed); the main-run arms are the comparators, rebuilt from the main run's log",
+  "main-e3": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:main-e3:1x6",
+    "ci95": [
+     43.75,
+     63.75
+    ],
+    "mean": 53.75,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "main-om": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:main-om:1x6",
+    "ci95": [
+     91.25,
+     100.0
+    ],
+    "mean": 96.25,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:main-om:6x1",
+    "ci95": [
+     100.0,
+     100.0
+    ],
+    "mean": 100.0,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:main-om:pooled",
+    "ci95": [
+     95.625,
+     100.0
+    ],
+    "mean": 98.125,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "single8": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:single8:1x6",
+    "ci95": [
+     36.71875,
+     50.78125
+    ],
+    "mean": 43.59375,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:single8:6x1",
+    "ci95": [
+     45.78125,
+     60.625
+    ],
+    "mean": 52.96875,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:single8:pooled",
+    "ci95": [
+     42.8125,
+     53.90625
+    ],
+    "mean": 48.28125,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  },
+  "vote8": {
+   "1x6": {
+    "bootstrap_name": "topup:acc:vote8:1x6",
+    "ci95": [
+     42.23958333333333,
+     63.489583333333336
+    ],
+    "mean": 52.864583333333336,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "6x1": {
+    "bootstrap_name": "topup:acc:vote8:6x1",
+    "ci95": [
+     55.0,
+     75.0
+    ],
+    "mean": 65.41666666666666,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   },
+   "pooled": {
+    "bootstrap_name": "topup:acc:vote8:pooled",
+    "ci95": [
+     52.213541666666664,
+     65.72916666666666
+    ],
+    "mean": 59.140625,
+    "n_base": 80,
+    "seed": 20261014,
+    "unit": "points"
+   }
+  }
+ },
+ "choices": {
+  "accuracy_names": "Accuracy intervals: curve.cluster_bootstrap over base puzzles, seed 20261014, names 'topup:acc:<arm>:<shape|pooled>' (arms e2, h-pick8, vote8, any8, single8, c13, main-e3, main-om); pooled = each base's mean over its two shapes (Study 1b's form pooling).",
+  "aggregator_change": "The final answer 'differs from the helpers' chain' when the aggregator's graded whole answer (the step-line trace at 1x6, the pieces at 6x1) is not the helpers' results in order; an unreadable aggregator answer or a helpers' chain with a '(no result)' place counts as differing (sub-counted). The helpers' chain is right when every result equals the key the scorer uses. Counted over puzzles with a final aggregator.",
+  "c13_rows": "C13 rows: e3.e3_rows on the runner's own step list (topup.c13_steps: piece s from its printed start, ledger.step_call(p, s, 1); Edith's spec note 1), relabelled 6x1 (e3_rows writes 1x1 for depth 1), scored as the product over the 6 pieces (F7, five_tests.e3_arm_scores; Edith's ruling 7). An unfinished pieces puzzle is a missing row as main_rows._e3_missing_rows makes one: done pieces keep their voted result, open pieces wrong.",
+  "comparisons_output": "Section 5's comparisons report n, d, the 95% interval, the seed and its name only (no p-value, no reading): 'Report d and the 95% interval'. As deployed only. Unpaired bases are counted.",
+  "compliance": "Items 16 and 17's rules per part and shape: refusals by category, truncations (stop_reason max_tokens), failures of kind empty / unexpected_stop / error, and missing items, as count / designed with Wilson 95% (report_arms._rate) and their list cost. Designed: the same-model tries, one picker, planner per puzzle, one aggregator per puzzle with a plan; E2 helper draws and C13 draws over the calls made (as item 16 does for E3). Item 17's 5% format flag on the graded rows (E2 aggregators, the same-model check); the picker's unreadable picks and the planner's plan_failed among answered calls beside it.",
+  "costs": "List cost per call by report_costs.list_cost (B5-free refusals at $0, each run's own ledger.jsonl read for free_by_rule); a designed call with no record costs $0 (X4). Mean / median per shape with report_costs._stats (report_costs' own seed 20261012, names 'cost_mean|cost_median:<arm>:<shape>'), CPC with report_costs._cpc (names 'cpc:<arm>:<shape>'). The picker: arm 'h-pick8-extra' (the picker call alone, the headline) and 'h-pick8-total' (its 8 main-run samples plus the picker) beside it; CPC on h-pick8-total only (the extra alone is not the cost of an answer). Pooled cost per answer is each base's mean over its two shapes (point only). The Batch figure is the logged cost_usd, None if any call of the arm logged none.",
+  "cross_window": "Cross-window comparisons (flag status attached): E2 - E3 at 1x6, E2 - Opus-medium, every picker comparison (its comparators are main-run samples) and Test 4 at pieces. E2 - C13 at 6x1 is within the top-up window.",
+  "cut_short": "D-106(G) (spec section 5 at 9c007e5; Edith's pass-2 ruling on P14 and her detail): per arm, designed / final / missing calls from the final records (a refusal, truncation or unparseable answer is final). Picker: one call per puzzle; same-model check: one per planned try. The Haiku team and step voting on pieces are adaptive (lead by 2, cap 9): their missing calls are the ones the runner's own logic still plans when the driver runs (topup.e2_puzzle's next requests for a puzzle neither done nor plan_failed; e3.plan_round on topup.c13_steps), designed = final + missing (a lower bound). Any missing call: the arm reads 'not completed' (NOT_COMPLETED_TOPUP) with its counts only, in accuracy, costs (per puzzle and CPC; the run's totals by tag stay, as spend), the 4e counts and the picker's positions; every section 5 comparison that uses it keeps its place and labels and reads 'not completed' with no n, d or interval; Test 4 at pieces has no view and no reading if C13 is not completed. A same-model check not completed has no d, interval, tokens or flag; the flag status beside every cross-window comparison and Test 4 reads 'not completed'. The main-run comparators are not top-up arms and stay. Items 16 and 17 (section 8) stay: they report the missing calls themselves.",
+  "e2_task_detail": "Each E2 task row carries its agreed result (`answer`: the voted state key, None for no result or not reached) and each draw's vote key (`votes`: draw number, the record's kind, e3.record_vote's key or None).",
+  "e2_unfinished": "An E2 puzzle the run did not finish (no final aggregator and not plan_failed) is a missing row in topup_rows (wrong, counted); under D-106(G) it makes the whole Haiku team arm 'not completed' (counts only), so that row is never scored.",
+  "flag_rule": "'The pooled 95% interval excludes 0' is lo > 0 or hi < 0; '|d| > 10' is strict. The token condition alone fires it too.",
+  "join": "The picker and the same-model joins use only FINAL main-run records: topup.main_run_replies (the runner's own check: run id, model, effort, setup, sample) and then every (item_id, sample) must give exactly one scored row; any failure stops the driver (JoinError), no per-puzzle skip (Edith's ruling 1: a pre-flight refusal of the whole run, not a quiet skip). A missing main manifest also stops it, and before any of this the main run's six files must match the D-93 stamp.",
+  "main_rows_source": "The main-run comparators are rebuilt from the main run's call log by main_rows.build with the planned list of main_rows.planned_requests (extras sl, ho, hx and D-42 on, the run's clearance) checked against its manifest, exactly as main_analysis.analyse_run builds Study 1's rows, restricted to Haiku-medium samples 1-8, Opus-medium and E3 (spec 4c). A missing Opus-medium try or an unfinished E3 chain is Study 1's missing row (wrong as deployed); Study 1's analysis.json is not read.",
+  "main_run_stamp": "The main run's six run-folder files are compared with the D-93 analysis stamp's SHA-256 values (constants copied from decisions/briefings/2026-10-12-analysis-stamp/analysis-stamp.txt), and the plan's main_run.run_id must be the stamp's run; any mismatch or missing file stops the driver before anything is read. Expected and observed are recorded side by side, with the code identity (git commit, harness/ dirty, SHA-256 of main_rows.py and the driver).",
+  "manifest_check": "The run folder must hold manifest.json with an item_set_sha256, and it must equal round 1 rebuilt by topup.plan_round on an empty log; otherwise the driver refuses.",
+  "picker_pick_of_no_reply": "A pick of a sample that did not answer (shown as '(no reply)') is that sample's own row, which is wrong.",
+  "picker_score_points": "The picker's per-puzzle score is 100 or 0 points (one try); any@8 likewise; vote@8 via five_tests.vote_scores (its right key from the samples marked right; none right gives 0).",
+  "pieces_no_result": "At pieces a task with no result stays at its own place only, because pieces are independent (Edith's ruling 4; the runner's e2_puzzle). At chain the later tasks are never started.",
+  "plan_copy": "The run folder must hold the runner's copy of its plan (topup_plan.json) and it must equal the plan given; otherwise the driver refuses.",
+  "plan_failed": "A planner that is refused, truncated or otherwise does not answer, or whose reply has no exact Task 1..6, is plan_failed (Edith's ruling 2): graded by the locked scorer with kind 'plan_failed' (wrong), listed with the planner's kind and stop_reason.",
+  "same_model_missing": "A planned same-model try with no final top-up record is a missing row (counted); under D-106(G) it makes the check 'not completed' (counts only, no d and no flag).",
+  "same_model_pooled": "Pooled d is the mean over all same-model puzzles (both shapes); its cluster bootstrap resamples bases and averages over the drawn bases' puzzles.",
+  "same_model_refusals_truncations": "Refusals are the rows the refusals_out view drops (a refusal stop, or a block: table.is_block); truncations the rows the truncations_out view drops (kind truncated or stop_reason max_tokens).",
+  "same_model_size": "The plan's same-model check must be the spec's 20 bases x 5 tries (both shapes, 200 planned calls); the driver stops otherwise.",
+  "same_model_tokens": "Mean output tokens per call (usage output_tokens as logged) over the final records that carry usage; records without usage are left out of the mean and counted. Relative change = (top-up - main) / main; 'more than 25%' is |change| > 0.25; a main mean of 0 makes the token condition not computable (reported as None).",
+  "seed_names": "<shape> in the seed names is written '1x6' / '6x1'; the picker's <ref> is 'vote8', 'any8' or 'single'.",
+  "t4_views": "Test 4 at pieces runs in all three views (as item 11 does for tests 3 and 5), each a family of one (declared iff p <= 0.025), labelled report_arms.OUTSIDE_HOLM_LABEL."
+ },
+ "code": {
+  "git": {
+   "commit": "d1c565fc9188d56e970bbb15ce908271627ccf0a",
+   "harness_dirty": false
+  },
+  "sha256": {
+   "main_rows.py": "a1096ab2db2517e025045af7c2ae98d135afa7ed6bb141397a29ad5f64cc579f",
+   "topup.py": "46cfd2af44b2cbf71807fa8974873c4363ef60428a84d23eaa20810a15709fa3",
+   "topup_analysis.py": "c0d4433f6d29d88e21dc6163335c742b960d294df51ba786e97ef49805392d6c",
+   "topup_rows.py": "06803cea94019553f8f0c51179eb54312033f87858e0d322649ca279b54432c4"
+  }
+ },
+ "comparisons": {
+  "label": "exploratory (no Holm, no verdict)",
+  "method": "bootstrap.paired_bca(diffs, margin=-10, B=10,000, seed=derive_seed(20261014, name)) over base puzzles, as deployed; d and the 95% interval",
+  "topup:e2-e3:1x6": {
+   "B": 10000,
+   "challenger": "e2",
+   "ci95": [
+    -15.0,
+    12.5
+   ],
+   "comparator": "main-e3",
+   "cross_window": true,
+   "d": -1.25,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 12198667349014378107,
+   "seed_base": 20261014,
+   "seed_name": "topup:e2-e3:1x6",
+   "shape": "1x6",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:e2-e3:6x1": {
+   "B": 10000,
+   "challenger": "e2",
+   "ci95": [
+    6.25,
+    35.0
+   ],
+   "comparator": "c13",
+   "cross_window": false,
+   "d": 21.25,
+   "n": 80,
+   "seed": 16613535256511066045,
+   "seed_base": 20261014,
+   "seed_name": "topup:e2-e3:6x1",
+   "shape": "6x1",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:e2-om:1x6": {
+   "B": 10000,
+   "challenger": "e2",
+   "ci95": [
+    -55.0,
+    -31.25
+   ],
+   "comparator": "main-om",
+   "cross_window": true,
+   "d": -43.75,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 1697316547315275490,
+   "seed_base": 20261014,
+   "seed_name": "topup:e2-om:1x6",
+   "shape": "1x6",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:e2-om:6x1": {
+   "B": 10000,
+   "challenger": "e2",
+   "ci95": [
+    -37.5,
+    -18.75
+   ],
+   "comparator": "main-om",
+   "cross_window": true,
+   "d": -27.5,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 15687041694768418239,
+   "seed_base": 20261014,
+   "seed_name": "topup:e2-om:6x1",
+   "shape": "6x1",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-any8:1x6": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    -36.25,
+    -16.25
+   ],
+   "comparator": "any8",
+   "cross_window": true,
+   "d": -25.0,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 2716668082128667162,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-any8:1x6",
+   "shape": "1x6",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-any8:6x1": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    -28.75,
+    -11.25
+   ],
+   "comparator": "any8",
+   "cross_window": true,
+   "d": -18.75,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 472547620568583962,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-any8:6x1",
+   "shape": "6x1",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-single:1x6": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    9.53125,
+    27.96875
+   ],
+   "comparator": "single8",
+   "cross_window": true,
+   "d": 18.90625,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 4921327760899204673,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-single:1x6",
+   "shape": "1x6",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-single:6x1": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    6.40625,
+    22.5
+   ],
+   "comparator": "single8",
+   "cross_window": true,
+   "d": 14.53125,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 14874200858562677444,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-single:6x1",
+   "shape": "6x1",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-vote8:1x6": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    -1.875,
+    21.354166666666668
+   ],
+   "comparator": "vote8",
+   "cross_window": true,
+   "d": 9.635416666666668,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 17588831673090811792,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-vote8:1x6",
+   "shape": "1x6",
+   "unit": "points",
+   "unpaired_bases": 0
+  },
+  "topup:hp8-vote8:6x1": {
+   "B": 10000,
+   "challenger": "h-pick8",
+   "ci95": [
+    -6.875,
+    10.833333333333332
+   ],
+   "comparator": "vote8",
+   "cross_window": true,
+   "d": 2.0833333333333335,
+   "n": 80,
+   "same_model_flag": "not fired",
+   "seed": 13483748797241243824,
+   "seed_base": 20261014,
+   "seed_name": "topup:hp8-vote8:6x1",
+   "shape": "6x1",
+   "unit": "points",
+   "unpaired_bases": 0
+  }
+ },
+ "completeness": {
+  "arms": {
+   "c13": {
+    "arm": "c13",
+    "completed": true,
+    "designed": 1061,
+    "designed_rule": "final draws + the draws e3.plan_round still plans on C13's step list (an adaptive arm: a lower bound)",
+    "final": 1061,
+    "missing": 0,
+    "puzzles": 80,
+    "puzzles_unfinished": 0,
+    "unit": "calls"
+   },
+   "e2": {
+    "arm": "e2",
+    "completed": true,
+    "designed": 2399,
+    "designed_rule": "final calls + the next calls topup.e2_puzzle still plans for each puzzle neither done nor plan_failed (an adaptive arm: a lower bound)",
+    "final": 2399,
+    "missing": 0,
+    "puzzles": 160,
+    "puzzles_unfinished": 0,
+    "unit": "calls"
+   },
+   "h_pick8": {
+    "arm": "h-pick8",
+    "completed": true,
+    "designed": 160,
+    "final": 160,
+    "missing": 0,
+    "unit": "calls"
+   },
+   "same_model": {
+    "arm": "same-model-check",
+    "completed": true,
+    "designed": 200,
+    "final": 200,
+    "missing": 0,
+    "unit": "calls"
+   }
+  },
+  "label": "not completed (D-106(G)): an arm with a designed call that has no final record; counts only",
+  "not_completed": []
+ },
+ "constants": {
+  "B": 10000,
+  "draws": 2000,
+  "flag_d_points": 10.0,
+  "flag_tokens_share": 0.25,
+  "margin": -10.0,
+  "seed_base": 20261014,
+  "t4_seed_base": 20261011
+ },
+ "costs": {
+  "label": "list price (item 9a; B5-free refusals at $0); the logged Batch cost beside",
+  "ledger_read_for_free_by_rule": {
+   "main": true,
+   "top_up": true
+  },
+  "per_puzzle": {
+   "c13": {
+    "6x1": {
+     "batch_mean": 0.001752741875,
+     "cpc": {
+      "bases_left_out": [],
+      "ci95": [
+       0.005432378,
+       0.00894080625
+      ],
+      "correct": 41.0,
+      "cpc": 0.006839968292682927,
+      "n_bases": 80,
+      "share_draws_no_correct": 0.0,
+      "total_usd": 0.2804387
+     },
+     "mean": 0.00350548375,
+     "mean_ci95": [
+      0.0032963362500000003,
+      0.0037292575000000003
+     ],
+     "median": 0.0031745,
+     "median_ci95": [
+      0.00306305,
+      0.0033064
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    }
+   },
+   "e2": {
+    "1x6": {
+     "batch_mean": 0.003114423125,
+     "cpc": {
+      "bases_left_out": [],
+      "ci95": [
+       0.009730177551020408,
+       0.014982145454545454
+      ],
+      "correct": 42.0,
+      "cpc": 0.011864469047619048,
+      "n_bases": 80,
+      "share_draws_no_correct": 0.0,
+      "total_usd": 0.4983077
+     },
+     "mean": 0.00622884625,
+     "mean_ci95": [
+      0.00601441125,
+      0.006472241249999999
+     ],
+     "median": 0.00604395,
+     "median_ci95": [
+      0.005799800000000001,
+      0.0062414
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "6x1": {
+     "batch_mean": 0.003244009375,
+     "cpc": {
+      "bases_left_out": [],
+      "ci95": [
+       0.007641543076923077,
+       0.010841152083333333
+      ],
+      "correct": 58.0,
+      "cpc": 0.008948991379310345,
+      "n_bases": 80,
+      "share_draws_no_correct": 0.0,
+      "total_usd": 0.5190415
+     },
+     "mean": 0.00648801875,
+     "mean_ci95": [
+      0.0061174787500000005,
+      0.00703821125
+     ],
+     "median": 0.00609645,
+     "median_ci95": [
+      0.00583705,
+      0.0063274
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "pooled": {
+     "mean": 0.0063584324999999995,
+     "n_bases": 80,
+     "unit": "USD per puzzle (each base's mean over its shapes)"
+    }
+   },
+   "h-pick8-extra": {
+    "1x6": {
+     "batch_mean": 0.00076991875,
+     "cpc": null,
+     "mean": 0.0015398375,
+     "mean_ci95": [
+      0.00139106875,
+      0.0017077825
+     ],
+     "median": 0.00130495,
+     "median_ci95": [
+      0.0012144500000000002,
+      0.0014543
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "6x1": {
+     "batch_mean": 0.0007112225,
+     "cpc": null,
+     "mean": 0.001422445,
+     "mean_ci95": [
+      0.0013399925,
+      0.00151160375
+     ],
+     "median": 0.00138425,
+     "median_ci95": [
+      0.00125555,
+      0.00149335
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "pooled": {
+     "mean": 0.00148114125,
+     "n_bases": 80,
+     "unit": "USD per puzzle (each base's mean over its shapes)"
+    }
+   },
+   "h-pick8-total": {
+    "1x6": {
+     "batch_mean": 0.005164434375,
+     "cpc": {
+      "bases_left_out": [],
+      "ci95": [
+       0.013966434482758621,
+       0.020049146341463417
+      ],
+      "correct": 50.0,
+      "cpc": 0.01652619,
+      "n_bases": 80,
+      "share_draws_no_correct": 0.0,
+      "total_usd": 0.8263095
+     },
+     "mean": 0.01032886875,
+     "mean_ci95": [
+      0.0099904625,
+      0.01068417125
+     ],
+     "median": 0.0100036,
+     "median_ci95": [
+      0.00969,
+      0.0107513
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "6x1": {
+     "batch_mean": 0.005074568125,
+     "cpc": {
+      "bases_left_out": [],
+      "ci95": [
+       0.012967470967741935,
+       0.017797582608695652
+      ],
+      "correct": 54.0,
+      "cpc": 0.015035757407407408,
+      "n_bases": 80,
+      "share_draws_no_correct": 0.0,
+      "total_usd": 0.8119309
+     },
+     "mean": 0.01014913625,
+     "mean_ci95": [
+      0.0098924275,
+      0.010404105
+     ],
+     "median": 0.0101175,
+     "median_ci95": [
+      0.0097858,
+      0.0105039
+     ],
+     "n_bases": 80,
+     "unit": "USD per puzzle, list price (item 9a)"
+    },
+    "pooled": {
+     "mean": 0.0102390025,
+     "n_bases": 80,
+     "unit": "USD per puzzle (each base's mean over its shapes)"
+    }
+   }
+  },
+  "picker_note": "h-pick8-extra is the picker call alone: the extra cost over vote@8's 8 samples (the headline); h-pick8-total adds those 8 main-run samples; cost per correct answer is given for h-pick8-total only",
+  "price_table_date": "2026-10-12",
+  "run_totals_by_tag": {
+   "es": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.14021935",
+    "calls": 1061,
+    "list_usd": "0.2804387"
+   },
+   "pk": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.11849130",
+    "calls": 160,
+    "list_usd": "0.2369826"
+   },
+   "sc": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.10836300",
+    "calls": 200,
+    "list_usd": "0.2167260"
+   },
+   "ta": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.09998730",
+    "calls": 160,
+    "list_usd": "0.1999746"
+   },
+   "th": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.28256675",
+    "calls": 2079,
+    "list_usd": "0.5651335"
+   },
+   "tp": {
+    "batch_cost_missing": 0,
+    "batch_usd_logged": "0.12612055",
+    "calls": 160,
+    "list_usd": "0.2522411"
+   }
+  }
+ },
+ "e2_counts": {
+  "1x6": {
+   "aggregator_changes": {
+    "changed": 42,
+    "of_which_aggregator_unreadable": 2,
+    "of_which_helpers_had_no_result": 1,
+    "over_puzzles_with_a_final_aggregator": 80,
+    "right_chain_turned_wrong": 15,
+    "wrong_chain_turned_right": 7
+   },
+   "failed_plans": {
+    "list": [],
+    "puzzles": 0
+   },
+   "failed_tasks": {
+    "puzzles": 1,
+    "tasks": 1
+   },
+   "helper_draws": 1035,
+   "puzzles": 80,
+   "unfinished_puzzles": 0
+  },
+  "6x1": {
+   "aggregator_changes": {
+    "changed": 34,
+    "of_which_aggregator_unreadable": 0,
+    "of_which_helpers_had_no_result": 0,
+    "over_puzzles_with_a_final_aggregator": 80,
+    "right_chain_turned_wrong": 9,
+    "wrong_chain_turned_right": 18
+   },
+   "failed_plans": {
+    "list": [],
+    "puzzles": 0
+   },
+   "failed_tasks": {
+    "puzzles": 0,
+    "tasks": 0
+   },
+   "helper_draws": 1044,
+   "puzzles": 80,
+   "unfinished_puzzles": 0
+  }
+ },
+ "format_refusals_truncations_missing": {
+  "item_17_flags": {
+   "e2 1x6": {
+    "answered": 80,
+    "fires": false,
+    "format_ok": 78,
+    "non_compliance": 0.025
+   },
+   "e2 6x1": {
+    "answered": 80,
+    "fires": false,
+    "format_ok": 80,
+    "non_compliance": 0.0
+   },
+   "same-model-check 1x6": {
+    "answered": 100,
+    "fires": false,
+    "format_ok": 100,
+    "non_compliance": 0.0
+   },
+   "same-model-check 6x1": {
+    "answered": 100,
+    "fires": false,
+    "format_ok": 100,
+    "non_compliance": 0.0
+   }
+  },
+  "label": "items 16 and 17's rules (count / designed with Wilson 95%, list cost)",
+  "rates": {
+   "c13 6x1": {
+    "designed_calls": 1061,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 1061
+    },
+    "label": "over the C13 calls actually made (no designed count, as item 16 does for E3)",
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.003607540623886411
+     ]
+    },
+    "missing_puzzles": {
+     "count": 0,
+     "denominator": "C13 pieces puzzles",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.003607540623886411
+     ]
+    }
+   },
+   "e2_aggregator 1x6": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    }
+   },
+   "e2_aggregator 6x1": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    }
+   },
+   "e2_helpers 1x6": {
+    "designed_calls": 1035,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 1035
+    },
+    "label": "over the helper calls actually made (no designed count, as item 16 does for E3)",
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.003697829719902587
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.003697829719902587
+     ]
+    },
+    "unreadable_votes": 0
+   },
+   "e2_helpers 6x1": {
+    "designed_calls": 1044,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 1044
+    },
+    "label": "over the helper calls actually made (no designed count, as item 16 does for E3)",
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0036660687438513253
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0036660687438513253
+     ]
+    },
+    "unreadable_votes": 0
+   },
+   "e2_planner 1x6": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "plan_failed_among_answered": {
+     "above_5_percent": false,
+     "answered": 80,
+     "count": 0
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    }
+   },
+   "e2_planner 6x1": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "plan_failed_among_answered": {
+     "above_5_percent": false,
+     "answered": 80,
+     "count": 0
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    }
+   },
+   "h_pick8 1x6": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "unreadable_pick_among_answered": {
+     "above_5_percent": false,
+     "answered": 80,
+     "count": 0
+    }
+   },
+   "h_pick8 6x1": {
+    "designed_calls": 80,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 80
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.04581812953552708
+     ]
+    },
+    "unreadable_pick_among_answered": {
+     "above_5_percent": false,
+     "answered": 80,
+     "count": 0
+    }
+   },
+   "same_model 1x6": {
+    "designed_calls": 100,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 100
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349820698565
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349820698565
+     ]
+    }
+   },
+   "same_model 6x1": {
+    "designed_calls": 100,
+    "failures_by_kind": {},
+    "kinds": {
+     "answered": 100
+    },
+    "missing": {
+     "count": 0,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349820698565
+     ]
+    },
+    "refusals_by_category": {},
+    "truncations": {
+     "count": 0,
+     "list_cost_usd": "0",
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349820698565
+     ]
+    }
+   }
+  }
+ },
+ "inputs": {
+  "main_run": {
+   "calls.jsonl_sha256": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+   "extras": [
+    "sl",
+    "ho",
+    "hx"
+   ],
+   "ledger.jsonl_sha256": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+   "manifest.json_sha256": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+  },
+  "main_run_stamp": {
+   "all_match": true,
+   "files": {
+    "calls.jsonl": {
+     "expected": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+     "match": true,
+     "observed": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123"
+    },
+    "compact_table.csv": {
+     "expected": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+     "match": true,
+     "observed": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4"
+    },
+    "ledger.jsonl": {
+     "expected": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+     "match": true,
+     "observed": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e"
+    },
+    "manifest.json": {
+     "expected": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993",
+     "match": true,
+     "observed": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+    },
+    "runner.log": {
+     "expected": "1a213c8db3f40a672cba6c18b15a56e3834b16deae059ad1a0ab83cdceacf13f",
+     "match": true,
+     "observed": "1a213c8db3f40a672cba6c18b15a56e3834b16deae059ad1a0ab83cdceacf13f"
+    },
+    "window.json": {
+     "expected": "684fcddd46eeaa0c4761356469583834a5ccd6ccb2a96cd0ee1894eec6919a65",
+     "match": true,
+     "observed": "684fcddd46eeaa0c4761356469583834a5ccd6ccb2a96cd0ee1894eec6919a65"
+    }
+   },
+   "run_id": "main-l14n6-1",
+   "source": "decisions/briefings/2026-10-12-analysis-stamp/analysis-stamp.txt"
+  },
+  "plan": "topup_plan.json",
+  "plan_sha256": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+  "run": {
+   "calls.jsonl_sha256": "752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138",
+   "compact_table.csv_sha256": "08dfdb386f8e77e37392f3f0fbd762fa0232b55988d08c3acadfcc32875c1e33",
+   "ledger.jsonl_sha256": "003314a8f7f740a41e3fe717acee938ab359df1320c11d36e1b2930b189af479",
+   "manifest.json_sha256": "4bfc8515abf28f79f86bdba3bb2a8e399056db4226b25d0f5692099e0fda15a6",
+   "topup_plan.json_sha256": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc"
+  },
+  "run_manifest_check": {
+   "checked": true,
+   "round_1_calls": 1480
+  },
+  "same_model_size_check": {
+   "bases": 20,
+   "checked": true,
+   "rows": 200,
+   "tries": 5
+  },
+  "set": {
+   "items_sha256": "11deebd8109adfcc7a1332006ceb63db6e14ab170a8afaf8fe4b8bd6f17f09bf",
+   "set_id": "main-ledger-l14n6-v1"
+  },
+  "team_prompts_sha256": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498"
+ },
+ "label": "exploratory (no Holm, no verdict)",
+ "picker_positions": {
+  "1x6": {
+   "1": 37,
+   "2": 13,
+   "3": 7,
+   "4": 3,
+   "5": 4,
+   "6": 2,
+   "7": 10,
+   "8": 4,
+   "none": 0,
+   "puzzles": 80
+  },
+  "6x1": {
+   "1": 44,
+   "2": 20,
+   "3": 7,
+   "4": 1,
+   "5": 5,
+   "6": 2,
+   "7": 1,
+   "8": 0,
+   "none": 0,
+   "puzzles": 80
+  },
+  "label": "descriptive: how often each of samples 1-8 is picked; position effects are not studied",
+  "pooled": {
+   "1": 81,
+   "2": 33,
+   "3": 14,
+   "4": 4,
+   "5": 9,
+   "6": 4,
+   "7": 11,
+   "8": 4,
+   "none": 0,
+   "puzzles": 160
+  }
+ },
+ "records": {
+  "by_tag": {
+   "es": 1061,
+   "pk": 160,
+   "sc": 200,
+   "ta": 160,
+   "th": 2079,
+   "tp": 160
+  },
+  "main_missing_rows": 0,
+  "main_rows_used": 1520,
+  "top_up_final": 3820
+ },
+ "same_model_check": {
+  "1x6": {
+   "bootstrap_name": "same_model:1x6",
+   "ci95": [
+    -3.0,
+    15.0
+   ],
+   "d": 6.0,
+   "main_accuracy": 39.0,
+   "n_puzzles": 20,
+   "seed": 20261014,
+   "top_up_accuracy": 45.0
+  },
+  "6x1": {
+   "bootstrap_name": "same_model:6x1",
+   "ci95": [
+    -14.0,
+    8.0
+   ],
+   "d": -3.0,
+   "main_accuracy": 61.0,
+   "n_puzzles": 20,
+   "seed": 20261014,
+   "top_up_accuracy": 58.0
+  },
+  "bases": 20,
+  "flag": {
+   "accuracy_condition": false,
+   "fires": false,
+   "rule": "fires if the pooled 95% interval excludes 0 and |d| > 10 points, or mean output tokens move by more than 25%; a flag, not a gate",
+   "status": "not fired",
+   "tokens_condition": false
+  },
+  "label": "a flag, not a gate; these answers are never mixed into Study 1",
+  "output_tokens": {
+   "main": {
+    "calls_with_usage": 200,
+    "calls_without_usage": 0,
+    "mean_output_tokens": 1956.54
+   },
+   "relative_change": 0.002903084015660331,
+   "top_up": {
+    "calls_with_usage": 200,
+    "calls_without_usage": 0,
+    "mean_output_tokens": 1962.22
+   }
+  },
+  "pooled": {
+   "bootstrap_name": "same_model:pooled",
+   "ci95": [
+    -8.0,
+    10.0
+   ],
+   "d": 1.5,
+   "n_base": 20,
+   "n_puzzles": 40,
+   "seed": 20261014,
+   "unit": "points (top-up - main)"
+  },
+  "refusals_truncations": {
+   "main": {
+    "calls": 200,
+    "missing": 0,
+    "refusals": 0,
+    "truncations": 0
+   },
+   "top_up": {
+    "calls": 200,
+    "missing": 0,
+    "refusals": 0,
+    "truncations": 0
+   }
+  },
+  "tries_per_puzzle": 5
+ },
+ "spec": "research/topup-run-spec.md at 9c007e5 (Karen; the spec frozen in lock 4, Edith CLEAN; SHA-256 f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5), sections 3-5; Edith's rulings on the runner (ops/reviews/2026-10-13-topup-spec-r1.md)",
+ "test4_pieces": {
+  "B": 10000,
+  "as_deployed": {
+   "ci95": [
+    -60.0,
+    -37.5
+   ],
+   "d": -48.75,
+   "declared": false,
+   "label": "unadjusted (exploratory, outside Holm)",
+   "n": 80,
+   "p": 0.9999031898061289,
+   "reading": "worse by more than the margin",
+   "seed": 1399096555967064693
+  },
+  "challenger": "c13 (step voting on pieces, top-up)",
+  "comparator": "opus-med (main run)",
+  "exploratory": true,
+  "label": "unadjusted (exploratory, outside Holm)",
+  "margin": -10.0,
+  "methods_note": "this arm ran in a different window from its comparator (the top-up run's own window, after the main run's; spec section 1, Edith r6)",
+  "outside_holm_family": true,
+  "refusals_out": {
+   "ci95": [
+    -60.0,
+    -37.5
+   ],
+   "d": -48.75,
+   "declared": false,
+   "label": "unadjusted (exploratory, outside Holm)",
+   "n": 80,
+   "p": 0.9999031898061289,
+   "reading": "worse by more than the margin",
+   "seed": 1399096555967064693
+  },
+  "same_model_flag": "not fired",
+  "seed_base": 20261011,
+  "seed_name": "t4@6x1",
+  "shape": "6x1",
+  "truncations_out": {
+   "ci95": [
+    -60.0,
+    -37.5
+   ],
+   "d": -48.75,
+   "declared": false,
+   "label": "unadjusted (exploratory, outside Holm)",
+   "n": 80,
+   "p": 0.9999031898061289,
+   "reading": "worse by more than the margin",
+   "seed": 1399096555967064693
+  }
+ }
+}

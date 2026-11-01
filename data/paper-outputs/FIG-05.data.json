@@ -1,0 +1,6176 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Three panels of whole-answer accuracy against puzzle length, for chains, pieces and both pooled, in the length sweep on other puzzles. Each model's accuracies are joined by a line in length order, with a 95% bar on each point (hollow markers in the pieces panel); Sonnet-medium and Opus-medium are shifted a little to the left and to the right of each length to keep the markers and bars of one length apart, and Haiku-medium stands at its true length. A grey dashed line with a light band is the reference q^N, built from Haiku-medium's per-piece accuracy; it is labelled once, in panel A, Haiku-medium q^N (not fitted), with a short grey leader from the label to the line. Panel B's title says its markers are hollow."
+  },
+  {
+   "kind": "label",
+   "printed": "Haiku-medium pooled accuracy falls from"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "55.5%",
+   "raw": 0.5549999999999999,
+   "refs": [
+    {
+     "key": "models.hm.by_n.4.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "formula": "the key name (steps)",
+   "kind": "num",
+   "printed": "4",
+   "raw": 4,
+   "refs": [
+    {
+     "key": "models.hm.by_n.4",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "steps to"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "18.0%",
+   "raw": 0.18,
+   "refs": [
+    {
+     "key": "models.hm.by_n.16.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "formula": "the key name (steps)",
+   "kind": "num",
+   "printed": "16",
+   "raw": 16,
+   "refs": [
+    {
+     "key": "models.hm.by_n.16",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "steps, while Opus-medium is at"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "97.5%",
+   "raw": 0.975,
+   "refs": [
+    {
+     "key": "models.om.by_n.4.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "100.0%",
+   "raw": 1.0,
+   "refs": [
+    {
+     "key": "models.om.by_n.16.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "and Sonnet-medium goes from"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "87.5%",
+   "raw": 0.875,
+   "refs": [
+    {
+     "key": "models.sm.by_n.4.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "to"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "65.0%.",
+   "raw": 0.65,
+   "refs": [
+    {
+     "key": "models.sm.by_n.16.whole_answer.pooled.mean",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "The reference line, the independent-pieces line, reaches"
+  },
+  {
+   "formula": "100 * x",
+   "kind": "num",
+   "printed": "20.4%",
+   "raw": 0.2036481906305447,
+   "refs": [
+    {
+     "key": "models.hm.q.by_n.16.q_n",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "formula": "the key name (steps)",
+   "kind": "num",
+   "printed": "16",
+   "raw": 16,
+   "refs": [
+    {
+     "key": "models.hm.by_n.16",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "steps. The points that the format check flags on chains are named in the caption. The chains' own per-step line (post hoc†) is not drawn; its values, with their placeable counts, are in this figure's data file."
+  },
+  {
+   "kind": "label",
+   "printed": "Study 1b's Haiku-max and Opus-medium and Pilot 1's markers at 24 steps are in the appendix version of this figure."
+  },
+  {
+   "kind": "label",
+   "printed": "Bars drawn from exact 95% intervals, post hoc, where a bootstrap interval collapsed to a point:"
+  },
+  {
+   "kind": "label",
+   "printed": "length-sweep Opus-medium"
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "formula": "the key name (steps)",
+   "kind": "num",
+   "printed": "6",
+   "raw": 6,
+   "refs": [
+    {
+     "key": "models.om.by_n.6",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "steps,"
+  },
+  {
+   "kind": "label",
+   "printed": "pooled over shapes;"
+  },
+  {
+   "kind": "label",
+   "printed": "length-sweep Opus-medium"
+  },
+  {
+   "kind": "label",
+   "printed": "at"
+  },
+  {
+   "formula": "the key name (steps)",
+   "kind": "num",
+   "printed": "16",
+   "raw": 16,
+   "refs": [
+    {
+     "key": "models.om.by_n.16",
+     "source": "curve_d90"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "steps,"
+  },
+  {
+   "kind": "label",
+   "printed": "pooled over shapes."
+  }
+ ],
+ "caption": {
+  "elsewhere": [
+   {
+    "kind": "label",
+    "printed": "Study 1b's Haiku-max and Opus-medium at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "descriptive.length_curve.haiku-max.6",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "descriptive.length_curve.haiku-max.12",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps and"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "descriptive.length_curve.haiku-max.16",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(other puzzle sets; descriptive) and Pilot 1's markers at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "24",
+    "raw": 24,
+    "refs": [
+     {
+      "key": "models.hm.q.24",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps (exploratory‡: run before Lock 2, on other sets and rules) are not in this figure; they are in its appendix version. Study 1b's Haiku-medium at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "descriptive.length_curve.haiku-medium.6",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps and"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "descriptive.length_curve.haiku-medium.16",
+      "source": "s1b"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "label",
+    "printed": "(other puzzle sets; descriptive) is in neither version of this figure: it is in TAB-12"
+   }
+  ],
+  "flagged": [
+   {
+    "kind": "label",
+    "printed": "points flagged by the pre-registered format check, all on chains (their format compliance in brackets):"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(94.5%);",
+    "raw": 0.945,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(95.0%);",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.om.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(95.0%);",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.om.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(95.0%)",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  ],
+  "format": [
+   {
+    "kind": "label",
+    "printed": "format compliance on chains, the share of chain answers in the required format, beside each length. Length sweep, under the official marking rule (Deviation 2):"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0%",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.0%",
+    "raw": 0.98,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0%",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.5%",
+    "raw": 0.965,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "94.5%",
+    "raw": 0.945,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "num",
+    "printed": "(flagged);",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Sonnet-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0%",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "num",
+    "printed": "(flagged),",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps;"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0%",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.om.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "num",
+    "printed": "(flagged),",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.om.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.om.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0%",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.om.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "kind": "num",
+    "printed": "(flagged),",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.om.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   }
+  ],
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "95%, drawn as bars, as stamped. Length sweep:"
+   },
+   {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "for one-sample Sonnet-medium and Opus-medium by shape, as the curve file stamps it (the plan:"
+   },
+   {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "“a Wilson interval for each shape”); for Haiku-medium and every pooled point the curve file stamps",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "2,000",
+    "raw": 2000,
+    "refs": [
+     {
+      "key": "draws",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "draws and no method name, and the length sweep's analysis plan names it:"
+   },
+   {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "“a cluster bootstrap”",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "over puzzles for Haiku, and"
+   },
+   {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "“The pooled panel uses the same cluster bootstrap”. Where a bootstrap interval collapsed to a point, the bar is free analysis 4's exact (Clopper–Pearson) 95% interval over puzzles, post hoc†:",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "length-sweep Opus-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.om.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "kind": "label",
+    "printed": "pooled over shapes,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.2%",
+    "raw": 0.8315665290169145,
+    "refs": [
+     {
+      "key": "result.cells.100.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "to"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%;",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.100.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "length-sweep Opus-medium"
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.om.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps,"
+   },
+   {
+    "kind": "label",
+    "printed": "pooled over shapes,"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.2%",
+    "raw": 0.8315665290169145,
+    "refs": [
+     {
+      "key": "result.cells.95.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "to"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.95.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   }
+  ],
+  "local": [
+   {
+    "kind": "label",
+    "printed": "the chains' own per-step rate raised to the length (post hoc†; Haiku-medium, among placeable chain samples, conditional on format; not drawn) under the official marking rule:"
+   },
+   {
+    "formula": "100 * x ** 4",
+    "kind": "num",
+    "printed": "40.1%",
+    "raw": 40.113310215325996,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "(198",
+    "raw": 198.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.4.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "answered samples placeable),"
+   },
+   {
+    "formula": "100 * x ** 6",
+    "kind": "num",
+    "printed": "41.8%",
+    "raw": 41.83489896458058,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "(196",
+    "raw": 196.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.6.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "answered samples placeable),"
+   },
+   {
+    "formula": "100 * x ** 8",
+    "kind": "num",
+    "printed": "49.6%",
+    "raw": 49.5516850452874,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "(198",
+    "raw": 198.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.8.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "answered samples placeable),"
+   },
+   {
+    "formula": "100 * x ** 12",
+    "kind": "num",
+    "printed": "17.2%",
+    "raw": 17.222572701473766,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "(193",
+    "raw": 193.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.12.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "answered samples placeable),"
+   },
+   {
+    "formula": "100 * x ** 16",
+    "kind": "num",
+    "printed": "14.8%",
+    "raw": 14.828648267105033,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "at"
+   },
+   {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "steps"
+   },
+   {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "(189",
+    "raw": 189.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.16.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "answered samples placeable)"
+   }
+  ],
+  "marks": [
+   {
+    "kind": "label",
+    "printed": "each model's points are joined by a line in length order, with a 95% bar on each; filled markers are chains and both shapes pooled, hollow markers are pieces (panel B)"
+   }
+  ],
+  "n": [
+   {
+    "kind": "label",
+    "printed": "length sweep: puzzles per length, model and shape:"
+   },
+   {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.1xn.n_base",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(the same at every length); samples per puzzle and shape: Haiku-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "10, Sonnet-medium",
+    "raw": 10,
+    "refs": [
+     {
+      "key": "models.hm.tries_per_puzzle",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "1, Opus-medium",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "models.sm.tries_per_puzzle",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "1",
+    "raw": 1,
+    "refs": [
+     {
+      "key": "models.om.tries_per_puzzle",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  ],
+  "note": [
+   {
+    "kind": "label",
+    "printed": "the accuracy axes run from zero to the top of the scale; Sonnet-medium and Opus-medium are shifted a little to the left and to the right of each length (display only) to keep the markers and bars of one length apart, while Haiku-medium, the series set against the q^N line, stands at its true length; the lengths use different puzzle sets"
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "not applicable (no cost on this figure)"
+   }
+  ],
+  "reference": [
+   {
+    "kind": "label",
+    "printed": "the dashed grey line is q^N: Haiku-medium's per-piece rate q, from pieces pooled over the lengths, raised to the number of steps N, with its 95% band; it compounds the rate over the steps, is not fitted and is not a test; panel A labels it once, with Haiku-medium's name and “not fitted”"
+   }
+  ],
+  "rule": [
+   {
+    "kind": "label",
+    "printed": "every length-sweep value uses the official marking rule (Deviation 2's repeated-line rule); the appendix version of this figure draws the length sweep under the original marking rule as locked in Lock 2"
+   }
+  ],
+  "set": [
+   {
+    "kind": "label",
+    "printed": "the length sweep's ladder sets, one per length from 4 steps to 16 steps (other puzzles than Study 1)"
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "the length sweep with Haiku-medium, Sonnet-medium and Opus-medium"
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "pre-registered descriptive: the length sweep and the q^N line with its band; the exact intervals drawn as bars (listed with the intervals) and the chains' own per-step values (listed under local) are post hoc†"
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-05",
+  "kind": "figure",
+  "label": "pre-registered descriptive (D-87); merges F5 and TF-A11",
+  "section": "Results: effort and length",
+  "title": "Length curve with the independent-pieces reference line"
+ },
+ "points": [
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.5",
+    "raw": 0.595,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "26.5",
+    "raw": 0.265,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "42.0",
+    "raw": 0.42000000000000004,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.0",
+    "raw": 0.98,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "61.5",
+    "raw": 0.615,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.5",
+    "raw": 0.305,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "46.0",
+    "raw": 0.45999999999999996,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.0",
+    "raw": 0.99,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.0",
+    "raw": 0.6799999999999999,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.5",
+    "raw": 0.395,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.0",
+    "raw": 0.54,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "96.5",
+    "raw": 0.965,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "36.0",
+    "raw": 0.36,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "13.0",
+    "raw": 0.13,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "23.5",
+    "raw": 0.23500000000000001,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "94.5",
+    "raw": 0.945,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "24.5",
+    "raw": 0.24500000000000002,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "6.5",
+    "raw": 0.065,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "14.5",
+    "raw": 0.145,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "82.0",
+    "raw": 0.82,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "54.0",
+    "raw": 0.54,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "69.0",
+    "raw": 0.6900000000000001,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.5",
+    "raw": 0.655,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.5",
+    "raw": 0.34500000000000003,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.0",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "61.5",
+    "raw": 0.615,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "39.0",
+    "raw": 0.39,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.505,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "47.0",
+    "raw": 0.47000000000000003,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "15.0",
+    "raw": 0.15,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.5",
+    "raw": 0.30500000000000005,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.5",
+    "raw": 0.305,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "13.0",
+    "raw": 0.13,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "21.5",
+    "raw": 0.215,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "68.3",
+    "raw": 0.6825,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "41.5",
+    "raw": 0.41500000000000004,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.5",
+    "raw": 0.5549999999999999,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "62.0",
+    "raw": 0.62,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "33.8",
+    "raw": 0.3375,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "48.0",
+    "raw": 0.48,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.3",
+    "raw": 0.6325000000000001,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "42.0",
+    "raw": 0.42000000000000004,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "52.3",
+    "raw": 0.5225000000000001,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "38.3",
+    "raw": 0.3825,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "17.0",
+    "raw": 0.16999999999999998,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "27.0",
+    "raw": 0.27,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "26.0",
+    "raw": 0.26,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "a cluster bootstrap",
+    "raw": "- **Haiku:** a cluster bootstrap over base puzzles. Percentile, 2,000 resamples, seed 20261012. All tries,",
+    "refs": [
+     {
+      "key": "L514",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "10.3",
+    "raw": 0.1025,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "18.0",
+    "raw": 0.18,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "91.9",
+    "raw": 0.9193423374202019,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "58.4",
+    "raw": 0.5839825677481065,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.0",
+    "raw": 0.8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "94.8",
+    "raw": 0.9476312541037835,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.0",
+    "raw": 0.6395811352592431,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.0",
+    "raw": 0.85,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "94.8",
+    "raw": 0.9476312541037835,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "64.0",
+    "raw": 0.6395811352592431,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.0",
+    "raw": 0.85,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 0.9911185511992047,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.763868806553258,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "88.8",
+    "raw": 0.8881382985923343,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.1",
+    "raw": 0.531299122381256,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 0.75,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 0.9911185511992047,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.763868806553258,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "88.8",
+    "raw": 0.8881382985923343,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "53.1",
+    "raw": 0.531299122381256,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 0.75,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "81.9",
+    "raw": 0.8188081758989179,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "43.3",
+    "raw": 0.43285427668523635,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.0",
+    "raw": 0.65,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "70.1",
+    "raw": 0.7007019918017876,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "29.9",
+    "raw": 0.2992980081982124,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.0",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "74.2",
+    "raw": 0.7418021417443758,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "34.2",
+    "raw": 0.3420853424503424,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.0",
+    "raw": 0.55,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "77.5",
+    "raw": 0.775,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "87.5",
+    "raw": 0.875,
+    "refs": [
+     {
+      "key": "models.sm.by_n.4.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "90.0",
+    "raw": 0.9,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.0",
+    "raw": 0.65,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "80.0",
+    "raw": 0.8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.6.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "87.5",
+    "raw": 0.875,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 0.625,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "75.0",
+    "raw": 0.75,
+    "refs": [
+     {
+      "key": "models.sm.by_n.8.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "85.0",
+    "raw": 0.85,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "60.0",
+    "raw": 0.6,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "72.5",
+    "raw": 0.725,
+    "refs": [
+     {
+      "key": "models.sm.by_n.12.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "77.5",
+    "raw": 0.775,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.0",
+    "raw": 0.5,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Sonnet-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "65.0",
+    "raw": 0.65,
+    "refs": [
+     {
+      "key": "models.sm.by_n.16.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 0.9911185511992047,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.763868806553258,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.om.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.om.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 0.9911185511992047,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.763868806553258,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.om.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "flagged",
+    "raw": true,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.1",
+    "raw": 0.9911185511992047,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "76.4",
+    "raw": 0.763868806553258,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.om.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 0.95,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance_1xn": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.format_compliance_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.format_flag",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.1xn.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.1xn.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.1xn.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.om.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.om.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.om.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.om.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.om.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.nx1.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "kind": "num",
+    "printed": "Wilson",
+    "raw": "wilson",
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.nx1.interval",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.9",
+    "raw": 0.8388748419471808,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.nx1.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.om.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.nx1.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "92.5",
+    "raw": 0.925,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.om.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "models.om.by_n.4.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.100.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.2",
+    "raw": 0.8315665290169145,
+    "refs": [
+     {
+      "key": "result.cells.100.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "result.cells.100.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "result.cells.100.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc†), over exact_n puzzles, exact_x of them right",
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.om.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.6.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "92.5",
+    "raw": 0.925,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.om.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "models.om.by_n.8.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "92.5",
+    "raw": 0.925,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.om.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "models.om.by_n.12.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "exact_hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "result.cells.95.exact95.1",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "83.2",
+    "raw": 0.8315665290169145,
+    "refs": [
+     {
+      "key": "result.cells.95.exact95.0",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_n": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "result.cells.95.n",
+      "source": "fa4"
+     }
+    ]
+   },
+   "exact_x": {
+    "kind": "num",
+    "printed": "20",
+    "raw": 20,
+    "refs": [
+     {
+      "key": "result.cells.95.x",
+      "source": "fa4"
+     }
+    ]
+   },
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.pooled.ci95.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "interval": {
+    "formula": "quoted from this line",
+    "kind": "num",
+    "printed": "The pooled panel uses the same cluster bootstrap",
+    "raw": "- **Opus and Sonnet:** a Wilson interval for each shape. The pooled panel uses the same cluster bootstrap",
+    "refs": [
+     {
+      "key": "L516",
+      "source": "curve_plan"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.pooled.ci95.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the bootstrap interval collapsed to a point; the bar is the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc†), over exact_n puzzles, exact_x of them right",
+   "panel": "pooled",
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Opus-medium, length sweep",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.om.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "models.om.by_n.16.whole_answer.pooled.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "71.0",
+    "raw": 0.7103182924532165,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.5",
+    "raw": 0.6345018594140623,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.2",
+    "raw": 0.6717692788832097,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "71.0",
+    "raw": 0.7103182924532165,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.5",
+    "raw": 0.6345018594140623,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.2",
+    "raw": 0.6717692788832097,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "71.0",
+    "raw": 0.7103182924532165,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "63.5",
+    "raw": 0.6345018594140623,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "67.2",
+    "raw": 0.6717692788832097,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.4.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.9",
+    "raw": 0.5986589759618813,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5054164217528927,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1",
+    "raw": 0.550592394979705,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.9",
+    "raw": 0.5986589759618813,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5054164217528927,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1",
+    "raw": 0.550592394979705,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "59.9",
+    "raw": 0.5986589759618813,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5054164217528927,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "55.1",
+    "raw": 0.550592394979705,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.6.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5045520765936533,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "40.3",
+    "raw": 0.40259260959990256,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.1",
+    "raw": 0.4512739640512675,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5045520765936533,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "40.3",
+    "raw": 0.40259260959990256,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.1",
+    "raw": 0.4512739640512675,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "50.5",
+    "raw": 0.5045520765936533,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "40.3",
+    "raw": 0.40259260959990256,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "45.1",
+    "raw": 0.4512739640512675,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.8.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "35.8",
+    "raw": 0.35839256949972836,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2554457593774979,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.3",
+    "raw": 0.30315198540948746,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "35.8",
+    "raw": 0.35839256949972836,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2554457593774979,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.3",
+    "raw": 0.30315198540948746,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "35.8",
+    "raw": 0.35839256949972836,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2554457593774979,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "30.3",
+    "raw": 0.30315198540948746,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.12.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2545727979949678,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "16.2",
+    "raw": 0.1620808093044596,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "chain",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "20.4",
+    "raw": 0.2036481906305447,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2545727979949678,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "16.2",
+    "raw": 0.1620808093044596,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "20.4",
+    "raw": 0.2036481906305447,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "25.5",
+    "raw": 0.2545727979949678,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.1",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "lo": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "16.2",
+    "raw": 0.1620808093044596,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.band.0",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "panel": "pooled",
+   "series": "Haiku-medium q^N reference (q from pieces only)",
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "20.4",
+    "raw": 0.2036481906305447,
+    "refs": [
+     {
+      "key": "models.hm.q.by_n.16.q_n",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "answered_samples": {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the stamped per-step accuracy on chains (each step judged from the model's own previous balances), among placeable samples (conditional on format), raised to N",
+   "panel": "chain",
+   "placeable_samples": {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "198",
+    "raw": 198.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.4.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium chains' own local^N (post hoc†; not drawn, printed in the caption)",
+   "unplaceable_samples": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x ** 4",
+    "kind": "num",
+    "printed": "40.1",
+    "raw": 40.113310215325996,
+    "refs": [
+     {
+      "key": "models.hm.by_n.4.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "answered_samples": {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the stamped per-step accuracy on chains (each step judged from the model's own previous balances), among placeable samples (conditional on format), raised to N",
+   "panel": "chain",
+   "placeable_samples": {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "196",
+    "raw": 196.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.6.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium chains' own local^N (post hoc†; not drawn, printed in the caption)",
+   "unplaceable_samples": {
+    "kind": "num",
+    "printed": "4",
+    "raw": 4,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "6",
+    "raw": 6,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x ** 6",
+    "kind": "num",
+    "printed": "41.8",
+    "raw": 41.83489896458058,
+    "refs": [
+     {
+      "key": "models.hm.by_n.6.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "answered_samples": {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the stamped per-step accuracy on chains (each step judged from the model's own previous balances), among placeable samples (conditional on format), raised to N",
+   "panel": "chain",
+   "placeable_samples": {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "198",
+    "raw": 198.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.8.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium chains' own local^N (post hoc†; not drawn, printed in the caption)",
+   "unplaceable_samples": {
+    "kind": "num",
+    "printed": "2",
+    "raw": 2,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "8",
+    "raw": 8,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x ** 8",
+    "kind": "num",
+    "printed": "49.6",
+    "raw": 49.5516850452874,
+    "refs": [
+     {
+      "key": "models.hm.by_n.8.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "answered_samples": {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the stamped per-step accuracy on chains (each step judged from the model's own previous balances), among placeable samples (conditional on format), raised to N",
+   "panel": "chain",
+   "placeable_samples": {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "193",
+    "raw": 193.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.12.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium chains' own local^N (post hoc†; not drawn, printed in the caption)",
+   "unplaceable_samples": {
+    "kind": "num",
+    "printed": "7",
+    "raw": 7,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "12",
+    "raw": 12,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x ** 12",
+    "kind": "num",
+    "printed": "17.2",
+    "raw": 17.222572701473766,
+    "refs": [
+     {
+      "key": "models.hm.by_n.12.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  },
+  {
+   "answered_samples": {
+    "kind": "num",
+    "printed": "200",
+    "raw": 200,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.answered_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "note": "the stamped per-step accuracy on chains (each step judged from the model's own previous balances), among placeable samples (conditional on format), raised to N",
+   "panel": "chain",
+   "placeable_samples": {
+    "formula": "answered_1xn - unplaceable_1xn",
+    "kind": "num",
+    "printed": "189",
+    "raw": 189.0,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.answered_1xn",
+      "source": "curve_d90"
+     },
+     {
+      "key": "models.hm.by_n.16.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "rule": "the official marking rule (Deviation 2)",
+   "series": "Haiku-medium chains' own local^N (post hoc†; not drawn, printed in the caption)",
+   "unplaceable_samples": {
+    "kind": "num",
+    "printed": "11",
+    "raw": 11,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.unplaceable_1xn",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "x": {
+    "formula": "the key name (steps)",
+    "kind": "num",
+    "printed": "16",
+    "raw": 16,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16",
+      "source": "curve_d90"
+     }
+    ]
+   },
+   "y": {
+    "formula": "100 * x ** 16",
+    "kind": "num",
+    "printed": "14.8",
+    "raw": 14.828648267105033,
+    "refs": [
+     {
+      "key": "models.hm.by_n.16.per_step.1xn.mean",
+      "source": "curve_d90"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "curve": {
+   "commit": "4547097",
+   "path": "data/pilot/curve-ladder-l14n-1.json",
+   "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+  },
+  "curve_d90": {
+   "commit": "b6c1de5",
+   "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+   "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+  },
+  "curve_plan": {
+   "commit": "7bcc8d1",
+   "path": "research/pilot-plan-ledger.md",
+   "sha256": "51c811bdb99e22ad0168d1a02ed4334841b0153beff90b5368ca6942371911f9"
+  },
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "pilot1_recount": {
+   "commit": "e585a6d",
+   "path": "data/pilot/pilot1-recount-e12.json",
+   "sha256": "a31c905f25113112ab23539445cb2e7edae04222b0290918e8c934bfb22d32aa"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "582d8d1559d91bbefee7339d347f6da0e08269da",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "2.37275035",
+  "item_set_sha256": "aeab730728e516ee85a56bb602e4e75d3ad3e3867e2c8f07d8a7a634a10746c7",
+  "mode": "batch",
+  "n_items": 5,
+  "note": "S3 check Batch (one Batch, 5 items)",
+  "price_table_date": "2026-10-11",
+  "run_cap_usd": "0.70",
+  "run_id": "s3-ledger-1",
+  "source_sha256": "384c48bffdac1f5f064ec5db71dc4708701e91c7a89606ecad08fa2b5b01ae29"
+}

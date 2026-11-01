@@ -1,0 +1,77 @@
+{
+ "status": "complete",
+ "reason": "",
+ "run_id": "s3-ledger-1",
+ "set_id": "smoke3-ledger-l16-v1",
+ "items_planned": 5,
+ "items_sent": 5,
+ "items_with_result": 5,
+ "kinds": {
+  "answered": 5
+ },
+ "spent_usd": "0.287141",
+ "worst_case_batch_usd": "0.679830",
+ "batch_ids": [
+  "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+ ],
+ "unbilled_assumed": [],
+ "missing": [],
+ "items": [
+  {
+   "custom_id": "s3-smoke3-ledger-l16-v1-000-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6232,
+   "cost_usd": "0.068258",
+   "batch_id": "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+  },
+  {
+   "custom_id": "s3-smoke3-ledger-l16-v1-000-24x1-om",
+   "model": "claude-opus-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6493,
+   "cost_usd": "0.073046",
+   "batch_id": "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+  },
+  {
+   "custom_id": "s3-smoke3-ledger-l16-v1-001-1x24-om",
+   "model": "claude-opus-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 7154,
+   "cost_usd": "0.07775",
+   "batch_id": "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+  },
+  {
+   "custom_id": "s3-smoke3-ledger-l16-v1-002-1x24-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "1x24",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 5819,
+   "cost_usd": "0.032128",
+   "batch_id": "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+  },
+  {
+   "custom_id": "s3-smoke3-ledger-l16-v1-002-24x1-sm",
+   "model": "claude-sonnet-5-5",
+   "shape": "24x1",
+   "kind": "answered",
+   "stop_reason": "end_turn",
+   "refusal_category": null,
+   "output_tokens": 6367,
+   "cost_usd": "0.035959",
+   "batch_id": "msgbatch_01GoVwYT8SJHezFc1fZHR8uZ"
+  }
+ ],
+ "next": "After the S3 Batch settles and the Console shows it, the passing Console check is recorded with `python3 -m harness.pareto.pilot console-check` under the PILOT's own run id, before the pilot's first wave; a check recorded under the S3 run id does not carry over. s3check never records a Console check itself (N67)."
+}

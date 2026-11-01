@@ -1,0 +1,110 @@
+{
+ "calls": 13680,
+ "per_setup": {
+  "ledger/hm": 6400,
+  "ledger/hl": 6400,
+  "ledger/om": 160,
+  "ledger/ol": 160,
+  "ledger/sm": 160,
+  "ledger/hv": 400
+ },
+ "batch_worst_case_usd": "149.8265970",
+ "waves_if_nothing_were_spent_between": [
+  8932,
+  4748
+ ],
+ "e3": {
+  "step_positions": 480,
+  "first_round_calls": 960,
+  "max_calls_at_cap": 4320,
+  "lead": 2,
+  "cap": 9,
+  "max_tokens": 48000,
+  "first_round_booking_usd": "11.5982252",
+  "booking_at_cap_usd_approx": "52.1791200"
+ },
+ "set_id": "main-ledger-l14n6-v1",
+ "steps": 6,
+ "puzzles": 160,
+ "setups": [
+  {
+   "name": "hm",
+   "model": "claude-haiku-5-5",
+   "effort": "medium",
+   "per_puzzle": 40,
+   "max_tokens": 5000,
+   "thinking_off": false,
+   "priority": "must",
+   "calls": 6400,
+   "batch_booking_usd": "8.9917640"
+  },
+  {
+   "name": "hl",
+   "model": "claude-haiku-5-5",
+   "effort": "low",
+   "per_puzzle": 40,
+   "max_tokens": 48000,
+   "thinking_off": false,
+   "priority": "must",
+   "calls": 6400,
+   "batch_booking_usd": "77.7917640"
+  },
+  {
+   "name": "om",
+   "model": "claude-opus-5-5",
+   "effort": "medium",
+   "per_puzzle": 1,
+   "max_tokens": 4000,
+   "thinking_off": false,
+   "priority": "must",
+   "calls": 160,
+   "batch_booking_usd": "7.391764"
+  },
+  {
+   "name": "ol",
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "per_puzzle": 1,
+   "max_tokens": 32000,
+   "thinking_off": false,
+   "priority": "must",
+   "calls": 160,
+   "batch_booking_usd": "52.191764"
+  },
+  {
+   "name": "sm",
+   "model": "claude-sonnet-5-5",
+   "effort": "medium",
+   "per_puzzle": 1,
+   "max_tokens": 3000,
+   "thinking_off": false,
+   "priority": "must",
+   "calls": 160,
+   "batch_booking_usd": "2.895882"
+  },
+  {
+   "name": "hv",
+   "model": "claude-haiku-5-5",
+   "effort": "medium",
+   "per_puzzle": 10,
+   "max_tokens": 5000,
+   "thinking_off": false,
+   "priority": "D-42 (a)",
+   "calls": 400,
+   "batch_booking_usd": "0.5636590"
+  }
+ ],
+ "realtime": {
+  "calls": 70,
+  "puzzles": 10,
+  "list_worst_case_usd": "1.4270980",
+  "per_setup": {
+   "rthm": 50,
+   "rtsm": 10,
+   "rtom": 10
+  }
+ },
+ "not_here": [
+  "E2 and H-pick8: wording pending approval; a later, separate run"
+ ]
+}

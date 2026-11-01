@@ -1,0 +1,2038 @@
+{
+ "counts": {
+  "built": 42,
+  "partial": 0,
+  "stub": 0,
+  "todo": 0
+ },
+ "dropped": [
+  {
+   "id": "TAB-32",
+   "title": "Picker and team audits (appendix)",
+   "why": "dropped: its free analyses 14 and 15 were never approved (D-131/D-133 approved only 1-10 and 12); the top-up text already reports the picker positions and the aggregator counts. Source: Jarvis; LOG 2026-10-15 (TAB-32 and TAB-33 DROPPED)"
+  },
+  {
+   "id": "TAB-33",
+   "title": "Every estimate and its tier (appendix)",
+   "why": "dropped: its free analysis 37 was never approved (D-131/D-133 approved only 1-10 and 12); the claims ledger, published with the code, already lists every estimate with its tier. Source: Jarvis; LOG 2026-10-15 (TAB-32 and TAB-33 DROPPED)"
+  }
+ ],
+ "generator": "harness/analysis/paper_outputs.py",
+ "outputs": [
+  {
+   "files": {
+    "TAB-01.cells.json": "62d94899d505b0d062ce50b78b548b96e268fd25b9c69371f8d70be58980208f",
+    "TAB-01.csv": "339fc7eb9073dc502a579bda526faa52541cfa20019783af6e5883849ee4fe0e",
+    "TAB-01.main.cells.json": "ba937fbb71d108ef8285c685f609267eef17d70c77c58bc9465f7d1b1cfe652e",
+    "TAB-01.main.csv": "9cf0a0c0616bf5a02ea93799c86a49228618c4d3c3489af6deebbd45c0c081b2",
+    "TAB-01.main.tex": "15f1efa3e629c957ef9c141ca516bdb3ca358184c7d5cc9d514a974d73e1c631",
+    "TAB-01.part2.tex": "6fe1dfde3b650e1d3415c3555c4bb73f0271708dca77185ed55f2d266ce34558",
+    "TAB-01.part3.tex": "8c7d02dca8e5fb66a898c500435440a0743420ba4f874bd423ac44104d696abb",
+    "TAB-01.part4.tex": "5b3c5f7c6e3fa8c5abf5f49ed9b25b77e5943309a57a7aad13ae1de88bde1d1e",
+    "TAB-01.tex": "a622105599a2c07ab554692728d39cee2bece4705618d662b64b2e7fe31989e1"
+   },
+   "id": "TAB-01",
+   "kind": "table",
+   "label": "confirmatory (Holm within each study only); merges framing T-tests and analyses TF-A4",
+   "main_text_version": "TAB-01.main.tex",
+   "module": "harness.analysis.paper_out_overview",
+   "section": "Introduction",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "main_plan": {
+     "commit": "7c8bb4b",
+     "path": "data/plans/main-l14n6-1-plan-all.json",
+     "sha256": "3d173b387bc65810433e2850c06c724855aa40634d724a350bc2aa7d57f6f40e"
+    },
+    "overview_s1_spec_lock3": {
+     "commit": "086fbfd",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "The eight tests at a glance"
+  },
+  {
+   "files": {
+    "TAB-02.cells.json": "071aeb497bdbb74f748bed8e7f3d37a7103e525467ccb93243f2afbf2fe1c3cf",
+    "TAB-02.csv": "d50c1ee883ab528f23edeaf042229653bf809c0f5d820a917b8a3877c4884e9b",
+    "TAB-02.main.cells.json": "1c535dbe18226225bbd6becc1ac9d4f96538c96f00aa1105a40ecce133b500cb",
+    "TAB-02.main.csv": "c635303e62901d044251f80a5a435c323db433edc4cc84b5d358ae985deab090",
+    "TAB-02.main.tex": "c98dd4c76153cb6462b5462259721860b95d87e8ee57060cee45fbb983cc7dc1",
+    "TAB-02.part2.tex": "d464953bb6b52605bd72dd6e91e5eb5e68fcb417e911db4e0588336b6ad7426b",
+    "TAB-02.part3.tex": "ae9773cfcb2ac75f668c25bfcf43c275831099a22a3c78057d1863d5d478b2c7",
+    "TAB-02.part4.tex": "c5221b556ac19b4affddc2ef49a09c90600477b5985388c9fa474613c11a8190",
+    "TAB-02.tex": "e272d85bfdb260bf34e82364b9d7f42edf10aef9ee9c76503416a96caf24dcab"
+   },
+   "id": "TAB-02",
+   "kind": "table",
+   "label": "confirmatory: Test 5 Holm-declared; Tests 1-4 three-way reading of unadjusted intervals",
+   "main_text_version": "TAB-02.main.tex",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1_defs": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "s1_spec": {
+     "commit": "f773d83",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    }
+   },
+   "status": "built",
+   "title": "Study 1 confirmatory tests (Tests 1-5)"
+  },
+  {
+   "files": {
+    "TAB-03.cells.json": "6ea9da9a2693040eea337c0b05c74cbc87d43258c1c2360c0643c903b4a78f55",
+    "TAB-03.csv": "15ee881f5087e223132708913f4c759bd92bdefa99af72b159d685ea656a28b5",
+    "TAB-03.panel1.csv": "a93cc4c82426d632c07e932612816ca8966b3573c08194f1a3fe073e6f1a8988",
+    "TAB-03.panel1.tex": "3ad75c157e98ef25b4d1c9550b2e2672785c74250ae43182c13c8d8112da900b",
+    "TAB-03.part2.tex": "0aa235c10e2098e93db105d72a9f5a26afb1ffbae6ad80d04e23dbd338061c3d",
+    "TAB-03.part3.tex": "1ce8528ec83c23f34ee1da6dc80ffbdd9a547e68e3b6289ab21282729ee1ae43",
+    "TAB-03.tex": "0fae3992f546d01b09f410de3636f67bbaefe89c88005623b7dba7055b36b61e"
+   },
+   "id": "TAB-03",
+   "kind": "table",
+   "label": "pre-registered sensitivity and secondary views plus Deviation 2's declared view (not tests); merges T2, T-L1, TF-A8",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    }
+   },
+   "status": "built",
+   "title": "Tests 1-5 under every sensitivity and secondary view (appendix)"
+  },
+  {
+   "files": {
+    "TAB-04.cells.json": "c412c165b38147c261133a2df9a370bba753128539c87207e5401afa07e3e9a3",
+    "TAB-04.csv": "ee09b031b8a4d9e933566f1b2845642c7c9e1dd2966d74323444f712d311f952",
+    "TAB-04.part2.tex": "e69d81222262da744f57adf5f396507ec28c51b546153e9ee338abf2e00ddb86",
+    "TAB-04.tex": "fe783d99b127573eaaa3896ce93b014f89767fefb2347886445d68254fc36f48"
+   },
+   "id": "TAB-04",
+   "kind": "table",
+   "label": "pre-specified descriptive",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    }
+   },
+   "status": "built",
+   "title": "Study 1 arms at 6 steps: accuracy, format, cost"
+  },
+  {
+   "files": {
+    "TAB-05.cells.json": "21573581382f0ae427deabb27028b8645f4128a9e686cf43a46c40bf0230f483",
+    "TAB-05.csv": "731a555b68ecc3735e00b887890b8847c15e2eb1b5c7161d77d394b43117fb12",
+    "TAB-05.part2.tex": "55f5c63f9c8a46779193d008fa4dc9fec1c4e5f2cc17b3e662dc6cabef6916ec",
+    "TAB-05.part3.tex": "8ba8cae6752ab98596f5fcbc1d29fcc5c0367c32398d82426bd95ac16644bc0f",
+    "TAB-05.part4.tex": "ac8b9dc4ab89577bba07d8d31853addf7098464de4eabc3ad548fa4f00c06034",
+    "TAB-05.tex": "ad90e00c7f263fa3c901dd4c780b16ac1040853821c4c075dac2a2f2c38320ac"
+   },
+   "id": "TAB-05",
+   "kind": "table",
+   "label": "exploratory",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Study 1 exploratory paired comparisons (appendix)"
+  },
+  {
+   "files": {
+    "TAB-06.cells.json": "1c14e25d115b8f7ecfeefc7f49fe916fba48e1fdbc05eb8e6f79a8ef8f17df9b",
+    "TAB-06.csv": "e172d7073602f7199b9ae637a9197c7c19a6cdb8bca4109329f45c50c36d1ab1",
+    "TAB-06.panel1.csv": "94b2a80df5793f0a7aee2b51f1e49135eeaaf1e5b04f6e5d0f52e2313d61634c",
+    "TAB-06.panel1.tex": "fb689c377505e3db9ba039923297af901873aeefbe07fb41ce3c7b53ac7af388",
+    "TAB-06.panel2.csv": "f792bc82387c2f29c6c5d10d5df8481d63f1434cf896ed9b3aaacf0174da37a3",
+    "TAB-06.panel2.tex": "a60b12f587f3e46a0e079b4f4d46489cf213e6bd9187fac26b3983ffa6d9b0ed",
+    "TAB-06.panel3.csv": "c6a6a281b11b6f2cd91cd987c295f50e5edc3d6486fe0e1f0f4871d537f39e9d",
+    "TAB-06.panel3.tex": "8d1cc21ffad519d89c707282960c0af7dc0a1a3b5a153eef20e142d2033f6e96",
+    "TAB-06.panel4.csv": "51254f6a522c1556c666bd043dc2f1d7c78c85f6c3db1d9eb02ac80919206ab1",
+    "TAB-06.panel4.part2.tex": "f969815c2938e68f703105687f98f178c9b0d21a96938f8507b2f440e12f90fe",
+    "TAB-06.panel4.tex": "0f0c58033dc9e4a8fcdf69852ca7318a0eebed15aca551b87b017af90943539c",
+    "TAB-06.part2.tex": "d4a5d4a1d5a9bf57a94f4252a30e541524a859b1743dbe0ba67e8fc525a811b1",
+    "TAB-06.tex": "18d003a824c6becd18bbdd68a59ae603177d638e131df3b153b121db4fdd6dc8"
+   },
+   "id": "TAB-06",
+   "kind": "table",
+   "label": "pre-specified descriptive (computed after the confirmatory results were opened)",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    }
+   },
+   "status": "built",
+   "title": "Keep-list analyses (appendix)"
+  },
+  {
+   "files": {
+    "TAB-07.cells.json": "c1495b7e26911c94239edda860245afb8bb1630a67e825b101d894e59ebf91c4",
+    "TAB-07.csv": "1052727d8eebfad3f0565b1a19d34e14fc02088254fe505d642505c678537b72",
+    "TAB-07.panel1.csv": "5377788d7753d6fe2213b2f81b2dbec53e73b3f2e52fb585ea52420f374c0b11",
+    "TAB-07.panel1.tex": "5680dd8957493243768af4eea16c20305e22f8284603c14f01784ca4bde24be6",
+    "TAB-07.panel2.csv": "8a2963b2d6c90c7a23e75dec2a15af480abce2df5e8e98e5348ef4ade8d8495a",
+    "TAB-07.panel2.tex": "7a486ea53661e054cfae5dbb86429fbafc11e4a545f5856c69c63ef3125fdc42",
+    "TAB-07.part2.tex": "94fcf22d95da33509a36dba7d59b38a0c23f28d72d9a8ce7d3b5145229cfbe49",
+    "TAB-07.part3.tex": "96d3117621191cf454acdaaf27db3a46d978f17b8796ebb4e740da2765718749",
+    "TAB-07.tex": "d2fbc9bb238e10cc7515d7cc32acbb1518491180d03fbd334316dc1f073e5207"
+   },
+   "id": "TAB-07",
+   "kind": "table",
+   "label": "pre-specified checks (flags, not tests); fairness check exploratory",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1",
+   "sources": {
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "s1_defs": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "s1_driver_log": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/driver-run.log",
+     "sha256": "bb77248f86b282d4b87f540591079b27eaec67bc01d2316aec2a9542488fe7fe"
+    },
+    "s1_fairness_py": {
+     "commit": "c273eb9",
+     "path": "harness/analysis/fairness.py",
+     "sha256": "6af248e7aaa70f179aa53b922cbae7b3255ca0512568e5aff20a685984319587"
+    },
+    "s1_main_analysis_py": {
+     "commit": "c273eb9",
+     "path": "harness/analysis/main_analysis.py",
+     "sha256": "5fb0ab788aef57759e3a90f3b4b8dd5064bc36c2c25fac9fb9de74fba1695627"
+    },
+    "s1_pilot_plan": {
+     "commit": "7bcc8d1",
+     "path": "research/pilot-plan-ledger.md",
+     "sha256": "51c811bdb99e22ad0168d1a02ed4334841b0153beff90b5368ca6942371911f9"
+    },
+    "s1_spec": {
+     "commit": "f773d83",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    },
+    "s1_work_log": {
+     "commit": "bec30e3",
+     "path": "LOG.md",
+     "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Pre-specified checks and flags"
+  },
+  {
+   "files": {
+    "TAB-08.cells.json": "4aa84e918b2db66c26fc70900f67aca4abfc05107a63af09999cd171d22ea22b",
+    "TAB-08.csv": "fa0f0cbb2f6bdeaa2f00639fece563065a5b80c1313ba26f29c2d32bb521908d",
+    "TAB-08.main.cells.json": "8b5d8ca4e4d03a6505ecc8094edfee1edd42eaa31b78b442eaa3e92d8d5c09db",
+    "TAB-08.main.csv": "d9e27bfb971c3a364ff30bb476003319391de1a68b8731613dce700f75e08e5c",
+    "TAB-08.main.tex": "defdb5f300a466e09442f1bca753e3a0cad45fef1f33f5b844a1e95911fb68a8",
+    "TAB-08.part2.tex": "a57b686a4786983633269592cc3ea272e1f6589a06c8a0d9e416e1962cb2c19a",
+    "TAB-08.tex": "a9469dad2b7fed1267a3d12e20045e603339ad01648887a63e29edba0504ddd6"
+   },
+   "id": "TAB-08",
+   "kind": "table",
+   "label": "pre-specified exploratory (offline simulation)",
+   "main_text_version": "TAB-08.main.tex",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    }
+   },
+   "status": "built",
+   "title": "Escalate-to-Opus cascade, offline (appendix)"
+  },
+  {
+   "files": {
+    "TAB-09.cells.json": "89eab039594b1ebbf081993cf36016ca68326ab4f280bcdadf8e8da9cac371df",
+    "TAB-09.csv": "7dbd765e7b41e1eb1ccfd0df8a5b3ebef96c77a5fb7e70e9dc586033af9342bd",
+    "TAB-09.panel1.csv": "16c061872025a481f462252ed3a437d4b94f4441cefb9d5fb79219fe5f1c2431",
+    "TAB-09.panel1.tex": "f0fb6b346f1126ed00d7c7aed6c6669c5af992bb3fabb379a1131ef233753bf3",
+    "TAB-09.part2.tex": "cf5c4d07bb0beb7667db00061c5c9d5ed970651702cbbbab927c050512a81db4",
+    "TAB-09.tex": "368e874053992cf9ab22458b0e1c84d486bf447318cd842fd7f6c202f4a6ef78"
+   },
+   "id": "TAB-09",
+   "kind": "table",
+   "label": "pre-specified descriptive (item 6); Pilot 1 exploratory",
+   "module": "harness.analysis.paper_out_study1",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "pilot1_ledger": {
+     "commit": "2b28bc4",
+     "path": "data/pilot/pilot-ledger-1-exploratory.md",
+     "sha256": "1fdf8225f044d6063b9c7f40bd52dbcf6a8d9d33ecc61ad275036430a77f201e"
+    }
+   },
+   "status": "built",
+   "title": "Real time vs Batch and latency (appendix)"
+  },
+  {
+   "files": {
+    "TAB-10.cells.json": "ff9ba5ba59e447997fe5a47a8e63c411582267f1e19a759d853afb91b58cbf81",
+    "TAB-10.csv": "00d4a87c44632d896bffbbdf2609dd61ea75abaf494741d4b6d1032d777205e3",
+    "TAB-10.main.cells.json": "7ba03dbaeafa8cca0144dd5fa6beb4159920656968b12cfd71034080b6a44abc",
+    "TAB-10.main.csv": "ba7a63e0d6e3029fd0573f24779ad9a6fb8fc7875bb0171240b52eee5f9c7062",
+    "TAB-10.main.tex": "c00fe67b5af2c0e026d940585055abe22abfa912d3ba99a4cc4606edf94b7665",
+    "TAB-10.panel1.csv": "437301ed756f05605ce0c4d7744342aa95c26630422a08ecb0f76dd99786089f",
+    "TAB-10.panel1.part2.tex": "5407139ed3ff175e8f4ee05a5e6320b9d81587755edcede325c39fa17338dff2",
+    "TAB-10.panel1.tex": "af2e437516f95b0c1637ac4c5a9a0661677238624db560c32c5cded74ec86f35",
+    "TAB-10.panel2.csv": "68b83aa8311e630332cf5eff782112433336af268b46233356648e4ebdf209e4",
+    "TAB-10.panel2.tex": "431236b9cdeb25108cbe06fda3b88d0751b61c2047f19af1e7c52fe389515051",
+    "TAB-10.part2.tex": "019b331e2b8394c7b8b9f657c233458cf10bdfc91b22007c5b158c24ee596f2a",
+    "TAB-10.part3.tex": "723e0b30af505bbf0c0d2235051f2202b0bac2bc0b0efd1ebeb30ee910bf5dca",
+    "TAB-10.tex": "4d5e53281207d84e74465e9a0bf0462456341f390e20ccd3ca8ac0739c96415f"
+   },
+   "id": "TAB-10",
+   "kind": "table",
+   "label": "confirmatory (Holm within Study 1b only)",
+   "main_text_version": "TAB-10.main.tex",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Results: Study 1b",
+   "sources": {
+    "fa13": {
+     "commit": "c1b33af",
+     "path": "data/main/free-analyses/fa13.json",
+     "sha256": "ca4d0805ded485d6787fc3b099064101d47c4e3f8b9f70c27937ce45d2f92a32"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    },
+    "spec1b": {
+     "commit": "9c007e5",
+     "path": "research/study1b-spec.md",
+     "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+    }
+   },
+   "status": "built",
+   "title": "Study 1b tests B1-B3"
+  },
+  {
+   "files": {
+    "TAB-11.cells.json": "ef653f3659efa8a775bc7791398e5fc59288b6f27746cb7b8dc9d30804229ee3",
+    "TAB-11.csv": "5ea17ab399d82c210ee420ef151c90ee797f7ca9d8e2cfe3f1ae8cef5850464d",
+    "TAB-11.main.cells.json": "3fa4828f1ebe90c7fabff434cfe3034eabd7d2b7eba05777381b922e8f987db8",
+    "TAB-11.main.csv": "9e0551fd2663bbbdf425a5eed00aea76733e5616d2d9c941ba41558c6b77a983",
+    "TAB-11.main.tex": "c5978c293d2a861014058bd0fc8cc3147f0fd9e1e7bc116219cf747acb692d05",
+    "TAB-11.panel1.csv": "e69962363e911df6b56ea8ddf67fd1959ac3d97151f68e7bbd565ec5cc597515",
+    "TAB-11.panel1.tex": "7cd639e1a842cfd0a92688478af3448ad352dd0e8e6d40133137a41ebc36a720",
+    "TAB-11.tex": "22f28532b973bff1b23edafd231f098ba32d6ae966330d641309e1ff42b07b44"
+   },
+   "id": "TAB-11",
+   "kind": "table",
+   "label": "descriptive per-shape breakdown",
+   "main_text_version": "TAB-11.main.tex",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Results: Study 1b (appendix)",
+   "sources": {
+    "fa13": {
+     "commit": "c1b33af",
+     "path": "data/main/free-analyses/fa13.json",
+     "sha256": "ca4d0805ded485d6787fc3b099064101d47c4e3f8b9f70c27937ce45d2f92a32"
+    },
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_curve_py_s1b": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/curve.py",
+     "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+    },
+    "s1b_driver_s1b": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/study1b.py",
+     "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    },
+    "spec1b": {
+     "commit": "9c007e5",
+     "path": "research/study1b-spec.md",
+     "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+    }
+   },
+   "status": "built",
+   "title": "Study 1b per-shape readings and views (appendix)"
+  },
+  {
+   "files": {
+    "TAB-12.cells.json": "54ac263b14f66c0501de8d86692ce9aa8d16800825f8bc1b24882ce9e72ea7fa",
+    "TAB-12.csv": "408534afebea5f94ab5c3a8434261fed439e4567ed7cba5dc6dad28d0b319886",
+    "TAB-12.main.cells.json": "421000a5d30b5cdae4a0a787b9bfe826e660f09bcef77d7cbc71886330ed090f",
+    "TAB-12.main.csv": "c583ac71fc6ad6ad577c6410adc5feb64ce3a16e6a2b30e8c67c7183ef467386",
+    "TAB-12.main.tex": "3fabbcebe626731823a727b2591b4551d3d3d0da6fa0495bb5c179329d85b2e1",
+    "TAB-12.part2.tex": "bb0525fce356391263d5c74cc45a03433a837806e5f2d691ff45851bfeaf79da",
+    "TAB-12.tex": "8792e121a5ac9a4d28af8dd961b3a8d344a4730c1877ac6a411b3cf93c52873c"
+   },
+   "id": "TAB-12",
+   "kind": "table",
+   "label": "pre-specified descriptive (no tests)",
+   "main_text_version": "TAB-12.main.tex",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Results: effort and length",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_curve_py_s1b": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/curve.py",
+     "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+    },
+    "s1b_driver_s1b": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/study1b.py",
+     "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+    },
+    "spec1b": {
+     "commit": "9c007e5",
+     "path": "research/study1b-spec.md",
+     "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+    }
+   },
+   "status": "built",
+   "title": "Effort sweep (Study 1b)"
+  },
+  {
+   "files": {
+    "TAB-13.cells.json": "ee4e04cb16fd73af56c66910716dd3784922d2f1446202b4f6364e1fd435a5c4",
+    "TAB-13.csv": "d66e6c6a1a9bc4d1956cd224209dcd0e70fb41e63ce956bebbb0d1464b52fb0c",
+    "TAB-13.panel1.csv": "f9feda6731f1f0601a1bcc8b46357fabb31b3c0832a45a591eee8e906fc3ad32",
+    "TAB-13.panel1.tex": "20bfd9c39a3f39c2096495031e39f26a5719dd503b8e4c774eddbbd71e64f33f",
+    "TAB-13.panel2.csv": "e1b0232e486e9ec781840538cad21ac58be0bc5af4a6e577f4774fb679cc03b5",
+    "TAB-13.panel2.tex": "6019559a36f20d3cdfde1263be7896782a1d299f63934344d662f2a1aa374a79",
+    "TAB-13.panel3.csv": "c6de49da099e0e5115d8469f7aa7b309dff52e00d5cde80b9a4670e7969b39b9",
+    "TAB-13.panel3.tex": "8dbe873ef7f332c813056a5044a51f32415992efcbaaf22046173d46b331ca26",
+    "TAB-13.panel4.csv": "0b3b55533a82909d64ec73b40ffa0f9f9e106885690f35fddd5e0e73f489f900",
+    "TAB-13.panel4.tex": "c2af69a48ea6c41b2551f5f755b43f7fbfd098686e4222196d0d50663b226793",
+    "TAB-13.panel5.csv": "45ccea65a254bc7752aa766e676a0c54b325922c7aaa7e96789925810d2eae53",
+    "TAB-13.panel5.tex": "7fcd8690f19df14769c88164432a044fa469d9cb1fceb3fd97bbd9dcdca682db",
+    "TAB-13.panel6.csv": "dbc5cf60fd4b2cc017f55015e3ad3314a2c8e155446360a4bb01e75fa1d0346a",
+    "TAB-13.panel6.tex": "b29db4855a1c560f95345e136fdd3b5e154105e9c2ba0ec0ec4c7f428e9b683a",
+    "TAB-13.part2.tex": "de7640778963469c0a2861ab858a0777248f5ae5f477a893de2af85deb0df614",
+    "TAB-13.tex": "502a3b7c7c78858c0d9356ab7856e4c3cf1bbf85afb9489ce87463b80b8551a9"
+   },
+   "id": "TAB-13",
+   "kind": "table",
+   "label": "pre-registered descriptive (D-87); 24-step markers exploratory",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Results: effort and length (appendix)",
+   "sources": {
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "s1b_curve_py_s1b": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/curve.py",
+     "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+    }
+   },
+   "status": "built",
+   "title": "Length sweep (appendix)"
+  },
+  {
+   "files": {
+    "TAB-14.cells.json": "a9409d7e0f39bf7cafac682b0e368b5866aaeda8ad536d3e59c493d5c8cdccd9",
+    "TAB-14.csv": "96b1079149c2c297b3688d7a5a7f547a34a8e2d1211c9badddd7376923487804",
+    "TAB-14.main.cells.json": "55dde1cd94a51e17c524746f9e0a9bab130076d5147461ec60bf8a901b6f6469",
+    "TAB-14.main.csv": "132683548888d1131490498b0bd85475945c6106a4b0967cd5012fa79af6e00f",
+    "TAB-14.main.tex": "900f2f312dcbbd32cc7736c5baa0240f7cb17a29edb161de8df9b8241e19b8c6",
+    "TAB-14.panel1.csv": "fa5087bf80dc08c20fb168e3809a3922070b8ca396c951f5dd1eb159998448f6",
+    "TAB-14.panel1.tex": "049c8ba348425e5ba7660499144df604513cf2304badc11fc58aee67188cb62d",
+    "TAB-14.part2.tex": "433497ef1d6d2a2306011d980ab82778f68db5925e48fb08d7624b3569525274",
+    "TAB-14.tex": "710db42c5596400b0f9e5e30665937e36d7761c3262d68c83eb80bb74d0eaa79"
+   },
+   "id": "TAB-14",
+   "kind": "table",
+   "label": "exploratory",
+   "main_text_version": "TAB-14.main.tex",
+   "module": "harness.analysis.paper_out_topup",
+   "section": "Results: top-up",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    },
+    "topup_run_spec": {
+     "commit": "9c007e5",
+     "path": "research/topup-run-spec.md",
+     "sha256": "f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5"
+    }
+   },
+   "status": "built",
+   "title": "Top-up arms and comparisons"
+  },
+  {
+   "files": {
+    "TAB-15.cells.json": "58a5a464098ca258f2f4cebe65590d879ea51dfb7faffe7e68c13444db19ff93",
+    "TAB-15.csv": "1bfc17bbb515e18b51a9c2bd2e4576df2ab791b807ba908ea7ff58334a64d9ca",
+    "TAB-15.panel1.csv": "7da92a31ad9548e6cca0d60aa910ed68cd5fc9e0af89079f4c652405e2eb333f",
+    "TAB-15.panel1.tex": "bd598d6e95c32da6d43d38e1261264811b126dc81dad8113f6155ce2b5d02216",
+    "TAB-15.panel2.csv": "c0d691faf4d9e35024b1cce90a0548b61642e78c2142ff5bbeaac899778fbf87",
+    "TAB-15.panel2.tex": "b15f7d66fbd68d26536392fa9736f540c2665e38c43b5d482b9368a2d33b75e8",
+    "TAB-15.tex": "f5c76da41798676278d780c93441335c2020766f68e3865f80fb36688d073855"
+   },
+   "id": "TAB-15",
+   "kind": "table",
+   "label": "exploratory counts",
+   "module": "harness.analysis.paper_out_topup",
+   "section": "Results: top-up (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Top-up counts (appendix)"
+  },
+  {
+   "files": {
+    "TAB-16.cells.json": "78ec4c1c7a284bc5058fa28b54d29d7f6072fa73dcdafbc68a3128f78ef83d00",
+    "TAB-16.csv": "edadfa1ecdbafb80414bed8bfffd238166df4dc0d50451e8710fd53407b5afec",
+    "TAB-16.main.cells.json": "2f66428b33382086f779979def55f0a9e2a0360a1b041b5bb1bfde602d10c7a5",
+    "TAB-16.main.csv": "d682200dd0678a804f245d0b48acb5d54a9c554b6c81425ec5e6ab7aa4ee23c2",
+    "TAB-16.main.tex": "084f5271b99bd4087ccfb70260e6e17aeb394e84cb2d9e195ad301e467baff66",
+    "TAB-16.panel1.csv": "6a675509a24455a72a00804dc01cd2a2cf38c8aed77005eeecebeb639abe0f35",
+    "TAB-16.panel1.tex": "723d98022f3c509d7ab61252870c1ff9182c3fc78c6eb8c340699e06be0580b3",
+    "TAB-16.panel2.csv": "7ab348b933aff0726c6e2c31568885cf8d8ebc633074cc27dab22f685de42633",
+    "TAB-16.panel2.tex": "5e02978cfc3d19ecb2f27e716fac1ef8fcb8d1e0a6b566f626198b423f2e5d22",
+    "TAB-16.panel3.csv": "32af23b586941d06e7651b1b5c759356264b1ddc7b263e5cd5f94c989605c951",
+    "TAB-16.panel3.tex": "b8d971e39cd16b97c9fe5c052b29d19249df3c768bdc2cac1100e38ffcda2956",
+    "TAB-16.panel4.csv": "a8ee4fd75d7b4bc32d243bab33f1fa959f03a2685a4bfab57e1debc322d70c41",
+    "TAB-16.panel4.tex": "ac0b0224590d5cff815deb988ee55aab3ec0f0619515d603adcc5af5bf02511c",
+    "TAB-16.part2.tex": "fabdf1d47bd8075d55785669d5a8ca91434c466b3bca7aa2f8c394f0c05230c8",
+    "TAB-16.part3.tex": "36f37f32f7b60dbfe273d96a90ea84f203f3c86a4e47d6f49b768414fc619bef",
+    "TAB-16.part4.tex": "dbac1bf69cb139c355d606963097b6e3bb94404101a9b08375b11340ac9ca54c",
+    "TAB-16.tex": "6859d9f5f29bb69f4321c0a1b3651054e6dfd6d2176b2a6bd5d014a0b85cd671"
+   },
+   "id": "TAB-16",
+   "kind": "table",
+   "label": "pre-specified descriptive; item 19 estimates; post hoc columns flagged (merges T15 and TF-A10)",
+   "main_text_version": "TAB-16.main.tex",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Results: effort and length",
+   "sources": {
+    "fa10": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa10.json",
+     "sha256": "74bdca2c18c23b6542af2e32555c1e62fd1f8e96f7789ac1f807c1711154df54"
+    },
+    "fa2": {
+     "commit": "4935d15",
+     "path": "data/main/free-analyses/fa2r2.json",
+     "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+    },
+    "fa3": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa3.json",
+     "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1_defs_s1b": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "Where the money goes"
+  },
+  {
+   "files": {
+    "TAB-17.cells.json": "4539a217b622fc53aa8c000e82272a98369ec470acb28588c217dc897b7914a2",
+    "TAB-17.csv": "8712281a566fad4e8cada98e47e77be00ee33f76e7553585716bad5eb87683d4",
+    "TAB-17.panel1.csv": "59dd1a408cdf93be13039bf929e9292b447b4501c25d7a208e9198052dc16c38",
+    "TAB-17.panel1.tex": "6bf8fb81c4eca80f0eea55f463be7c1be64071edf6bd2812bbfa4557d988f592",
+    "TAB-17.tex": "f8b4f646c1f821d86e95f711593d274d1e6fe3018943855e8274897bc4b5733e"
+   },
+   "id": "TAB-17",
+   "kind": "table",
+   "label": "descriptive (operations)",
+   "module": "harness.analysis.paper_out_ops",
+   "section": "Method (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "plan": {
+     "commit": "7b43f91",
+     "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+     "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+    },
+    "register": {
+     "commit": "28944cb",
+     "path": "decisions/register.md",
+     "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Runs, completeness and spend (appendix)"
+  },
+  {
+   "files": {
+    "TAB-18.cells.json": "25fab9379f85c0cc6db4a2185d7eb17003310952476b3b8afd91af74ff3a05cc",
+    "TAB-18.csv": "baf14731d2c8522089363bfcd2b3e9f021d4e44748c424fb5501645386e7676b",
+    "TAB-18.panel1.csv": "2afcc61b7015350d24ed3bcfdec331646e9707071b87eb1b258dd057ce9469ef",
+    "TAB-18.panel1.tex": "3fbbc45d662c9be6a38c52e259c011ddfaf3d61fc5c05a489a456e31988c2444",
+    "TAB-18.tex": "786a7e9ce66d0434556a6f15c6598305abbfa02f168ec208a880756d0f38e63d"
+   },
+   "id": "TAB-18",
+   "kind": "table",
+   "label": "cross-study descriptive",
+   "module": "harness.analysis.paper_out_study1b",
+   "section": "Discussion and limits (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    },
+    "topup_spec_s1b": {
+     "commit": "9c007e5",
+     "path": "research/topup-run-spec.md",
+     "sha256": "f048e73a8ccc843f9d575e4fd51a0d462d1e39d5c1635bbad5d1a493170b41c5"
+    }
+   },
+   "status": "built",
+   "title": "Cross-set comparison at 6 steps (appendix)"
+  },
+  {
+   "anonymous_version": [
+    "TAB-19.anon.tex",
+    "TAB-19.part2.anon.tex",
+    "TAB-19.part3.anon.tex"
+   ],
+   "files": {
+    "TAB-19.anon.cells.json": "56a2d6e539463a0e8005072bc58f42e495819c73043337c1f0e2499eb483ba95",
+    "TAB-19.anon.csv": "7ca6d6418b89c0bf92016f60940ef79797f6cee532e29449d0aa350e6a8d16fa",
+    "TAB-19.anon.tex": "f491c71cd439cc4844b7862738d3e7337797a8b07ebb38f7314508c205e08924",
+    "TAB-19.cells.json": "6b8d65d773fdf86761bcbcad26367c2f7cdbe2d715566c1ae6ad726d61c70c1f",
+    "TAB-19.csv": "a0033bbbd1b736afd7d8c22bda814e0b6f69ba15a32e06c67b767b72bda40608",
+    "TAB-19.main.cells.json": "5d8317ef36e01c4bdb0461bedb640a88630e26b2a89b08f66346e892f851969c",
+    "TAB-19.main.csv": "3d0e83fcb0f048cda6b2ada3dbdcfb530a0eb0c79da446f4ff38c9694ca356c6",
+    "TAB-19.main.tex": "b6e91da56e3b7b5b8c5a0e7f4a5810adf199dc0891cc99108abd1d9347eaf6c8",
+    "TAB-19.part2.anon.tex": "2786cf37b483c09881b0e2af3e114edb987ae539e911c3cafad1e3655c9df919",
+    "TAB-19.part2.tex": "380a9e11b8418c07c9843bc41b51106bc47431712d03288f854292cdcdbf7a5c",
+    "TAB-19.part3.anon.tex": "eebb26cc36a1333aa087ce7918e3fc3e5b2ae49518f264da950040578ba6bc37",
+    "TAB-19.part3.tex": "b5b8639a7fb11cb3590a943ae3046138f98f24665eabc00c7bbdc164cb043fdc",
+    "TAB-19.tex": "1bdf0f0fbed61300e6a51b235c9df24317dea3e1c44d936ef45db67aaa05a17c"
+   },
+   "id": "TAB-19",
+   "kind": "table",
+   "label": "disclosure",
+   "main_text_version": "TAB-19.main.tex",
+   "module": "harness.analysis.paper_out_ops",
+   "section": "Method (appendix)",
+   "sources": {
+    "clr_main": {
+     "commit": "f4a14d1",
+     "path": "ops/reviews/2026-10-12-clearance-main-l14n6-1.md",
+     "sha256": "46f7dc88fe60f98054d987615bf99949628302836a137a560886d958f07aba2f"
+    },
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "findings": {
+     "commit": "b6e1788",
+     "path": "research/paper-notes/findings-register.md",
+     "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+    },
+    "log": {
+     "commit": "bec30e3",
+     "path": "LOG.md",
+     "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "plan": {
+     "commit": "7b43f91",
+     "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+     "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+    },
+    "register": {
+     "commit": "28944cb",
+     "path": "decisions/register.md",
+     "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+    },
+    "settlement_g3": {
+     "commit": "05fddf9",
+     "path": "ops/reviews/2026-10-15-plan-settlement/g3.md",
+     "sha256": "92f48d733d8986a72edc3d19b18bb24906a4dc9700c9a44ebe7274218d771745"
+    },
+    "settlement_g4": {
+     "commit": "05fddf9",
+     "path": "ops/reviews/2026-10-15-plan-settlement/g4.md",
+     "sha256": "f609e65d2b4a6fbc4d1706d1b333083a8d0d8506c649adab656a793f7de2075b"
+    },
+    "settlement_main": {
+     "commit": "05fddf9",
+     "path": "ops/reviews/2026-10-15-plan-settlement.md",
+     "sha256": "ca84a5e312dec0107845c67bd2fc2be32698420ff30fb211a683151035683ec7"
+    },
+    "spec1": {
+     "commit": "f773d83",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    },
+    "study1b_clearance": {
+     "commit": "5b0f8f5",
+     "path": "ops/reviews/2026-10-13-clearance-study1b-1.md",
+     "sha256": "042a5e2d41e775c64db2dc581f771a7c9d53a459158f39ada4a6e6526660e645"
+    },
+    "topup_clearance": {
+     "commit": "ea3181d",
+     "path": "ops/reviews/2026-10-13-clearance-topup-1.md",
+     "sha256": "dc5989d53a19c5aafa67f02401bfa007f856a0e4bd431c69fdb0f70aa24965a3"
+    }
+   },
+   "status": "built",
+   "title": "Deviations and declared changes (appendix)"
+  },
+  {
+   "anonymous_version": [
+    "TAB-20.anon.tex",
+    "TAB-20.panel1.anon.tex",
+    "TAB-20.panel2.anon.tex",
+    "TAB-20.panel3.anon.tex"
+   ],
+   "files": {
+    "TAB-20.anon.cells.json": "5f5a638b9f75520c9e9469014e1bf3bdc27aeb31eb8aede0412cb60280da1cee",
+    "TAB-20.anon.csv": "32a108377f29f7e2d0730f8862d8f4336e4075e8a62f092cb4806583858fce24",
+    "TAB-20.anon.tex": "cfacb0c091cb7a8e610a795ef9375a47f6454bbb1d0fb51d77ae0f898c3a0cc2",
+    "TAB-20.cells.json": "3df493a219784673068c19b55bbcace79c0df74727ce443aebf3ed408d11accf",
+    "TAB-20.csv": "59737898f482b0ef8fdba5b37049df83425bca35972a3f77ba635f2a1c4f2ad3",
+    "TAB-20.panel1.anon.csv": "a1ff1b1055f15ef7e67ecd808152f3e665d728a754be994bce3034fec902ec90",
+    "TAB-20.panel1.anon.tex": "0fddf84b1706fb3b8f39cd40a5d07d0056eb9d345ef9e5f8a2fa057ee82af56d",
+    "TAB-20.panel1.csv": "d1fa0eb413481bfa5da0b8a52fccc58b33572ec4d4996587a2da788db6b74e02",
+    "TAB-20.panel1.tex": "0da7ff9f17c72ded3cbcd0d7fd20952ccb811b9e95a69730f85044a37cea61c3",
+    "TAB-20.panel2.anon.csv": "69cfbd83fb0406ec485b2c90137bf0d73f37dbcd575cacc0530c7696daf6d4bf",
+    "TAB-20.panel2.anon.tex": "9e33907071a33f984cfcca41a6d92cf3a1e680a8281a3e76339e86eeee55cb29",
+    "TAB-20.panel2.csv": "69cfbd83fb0406ec485b2c90137bf0d73f37dbcd575cacc0530c7696daf6d4bf",
+    "TAB-20.panel2.tex": "b7991fb80aac0e01ac27d6e759b6d7152b591687ec389f4855133a51f1d0c893",
+    "TAB-20.panel3.anon.csv": "953429458fdacb6fd67916277c8b8b1b38d20ce02d5f580c4e3ec345ec8d89a2",
+    "TAB-20.panel3.anon.tex": "557d29166a60a4ef7ff6ab62e3acd8ca9c813cb04919405fb53e1d684b44fb24",
+    "TAB-20.panel3.csv": "953429458fdacb6fd67916277c8b8b1b38d20ce02d5f580c4e3ec345ec8d89a2",
+    "TAB-20.panel3.tex": "e8e9a9a878be758ce3569fbb8f89a3476c60cce335137ac6185d6e7353041965",
+    "TAB-20.tex": "679a76053dfa67f3463c42e9ecb774c3973e06176cae5d76e7f897dea938a4b5"
+   },
+   "id": "TAB-20",
+   "kind": "table",
+   "label": "disclosure (merges T-L3 and TF-A17; lock-proof column per E-16)",
+   "module": "harness.analysis.paper_out_timeline",
+   "section": "Method (appendix)",
+   "sources": {
+    "clr_1b": {
+     "commit": "5b0f8f5",
+     "path": "ops/reviews/2026-10-13-clearance-study1b-1.md",
+     "sha256": "042a5e2d41e775c64db2dc581f771a7c9d53a459158f39ada4a6e6526660e645"
+    },
+    "clr_topup": {
+     "commit": "ea3181d",
+     "path": "ops/reviews/2026-10-13-clearance-topup-1.md",
+     "sha256": "dc5989d53a19c5aafa67f02401bfa007f856a0e4bd431c69fdb0f70aa24965a3"
+    },
+    "findings": {
+     "commit": "b6e1788",
+     "path": "research/paper-notes/findings-register.md",
+     "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+    },
+    "fp_lock4": {
+     "commit": "4d60335",
+     "path": "decisions/briefings/2026-10-13-zenodo-v4/fingerprint-lock4.txt",
+     "sha256": "600b53eb5664a0be248db85aa2dad5857145baaf18bd2bf573195f030a1629ad"
+    },
+    "lock_manifest": {
+     "commit": "d1c565f",
+     "path": "ops/lock/LOCK-MANIFEST.md",
+     "sha256": "64a276d42e352cb716004c9f78f4d95a033bc6f9ad0122870da14df51f3ad1a5"
+    },
+    "log": {
+     "commit": "bec30e3",
+     "path": "LOG.md",
+     "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+    },
+    "register": {
+     "commit": "28944cb",
+     "path": "decisions/register.md",
+     "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    },
+    "settle_g3": {
+     "commit": "05fddf9",
+     "path": "ops/reviews/2026-10-15-plan-settlement/g3.md",
+     "sha256": "92f48d733d8986a72edc3d19b18bb24906a4dc9700c9a44ebe7274218d771745"
+    },
+    "settle_g4": {
+     "commit": "05fddf9",
+     "path": "ops/reviews/2026-10-15-plan-settlement/g4.md",
+     "sha256": "f609e65d2b4a6fbc4d1706d1b333083a8d0d8506c649adab656a793f7de2075b"
+    },
+    "spec1": {
+     "commit": "f773d83",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    }
+   },
+   "status": "built",
+   "title": "Pre-registration timeline (appendix)"
+  },
+  {
+   "files": {
+    "TAB-21.cells.json": "810f8c4a136de9e2d50739d477424b991d82df01125dce7d1c1f07d82eb0ef2f",
+    "TAB-21.csv": "401955c45ef57d5f93471010926e5c1832a834f0b09e4bebdd552da16d015e11",
+    "TAB-21.main.cells.json": "91dd628e455a76dcbced03707ca6758f5c787c13ac851a20458f2ccda2d41483",
+    "TAB-21.main.csv": "95d130c8fc48b676240f69381df7b02a25efe862505bf5ddf106e82a66c33e61",
+    "TAB-21.main.tex": "e141b7c28ad9d0e8c9db52888b405d76dad6651cefb20068ce363d5650c9599a",
+    "TAB-21.tex": "497add844ee32ce85471cad97e3f47c753bc5fb46527bde50c26865ef087011c"
+   },
+   "id": "TAB-21",
+   "kind": "table",
+   "label": "disclosure",
+   "main_text_version": "TAB-21.main.tex",
+   "module": "harness.analysis.paper_out_disclosure",
+   "section": "Discussion and limits (appendix)",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "spec1": {
+     "commit": "f773d83",
+     "path": "studies/1-real-price/spec.md",
+     "sha256": "0ab437934a8df843db20ff9eb4aa57dd6e8228605f38df4b77e138d942e6c169"
+    }
+   },
+   "status": "built",
+   "title": "Tuning bias: which choices favour which side (appendix)"
+  },
+  {
+   "files": {
+    "TAB-22.cells.json": "18b88e8f5594da677a90515ea2544a089839b46a33c5e3ded6547781a670bffd",
+    "TAB-22.csv": "7b8bcb7698976ece2b94af4e9c387653e3d3e13df496bedec177982e59412a5b",
+    "TAB-22.panel1.csv": "20388538394d6868ffb346c846c1ba2d73a9527164a1bcfcd4ff1d5b72c6776b",
+    "TAB-22.panel1.tex": "b8836ff81fd025a08817ed0b7a40c19b09a3aec6b5952fbb24c7c05897823c45",
+    "TAB-22.part2.tex": "81dd05eb9df18b5082d921baba914de51d6a2aaa06a88065bdc77f0a0dc5b527",
+    "TAB-22.part3.tex": "fbfc3d2ca5839b5f462c079215d1b9291832f6dc9c4d081f6627c6b60e47a801",
+    "TAB-22.tex": "70304e9c3299dfeae333da30090385c03a7c965a4e3fce869802d3b51c6a4740"
+   },
+   "id": "TAB-22",
+   "kind": "table",
+   "label": "disclosure",
+   "module": "harness.analysis.paper_out_disclosure",
+   "section": "Method (data README)",
+   "sources": {
+    "claims_ledger": {
+     "commit": "f3d0e6d",
+     "path": "research/paper-notes/claims-ledger.jsonl",
+     "sha256": "8b05cf0b07f986d1bcd8f2a5ff0cbd7ed8fed3b2ca12c870ccefb42cf26e7c7e"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "log": {
+     "commit": "bec30e3",
+     "path": "LOG.md",
+     "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "register": {
+     "commit": "28944cb",
+     "path": "decisions/register.md",
+     "sha256": "2fb8de56a0abf0053fa1f1499b003a93c0cf27fc37f1b36cad6f718e910fed95"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Data README: stamped labels and the paper's wording"
+  },
+  {
+   "files": {
+    "TAB-23.cells.json": "47e23fb0d0dd5970f9e7db897f467889761501f8b62a43179984c487cbf881fa",
+    "TAB-23.csv": "13632076c82b336ca1aa4cb17cc0d727ec937130599036d9bbc810f8164d7765",
+    "TAB-23.panel1.csv": "745f8a0905fc5de1d9bf22430a6e6724553d675684fda6fe9c338dfbf31104a4",
+    "TAB-23.panel1.tex": "c7d242467e1d7ca3e0c229b431c290353c8fb953c4191e1a2912f9ea18bee929",
+    "TAB-23.tex": "150cbab567d7bea03542ce5647d18ad6b35a1c2999ac085b745bb53a2984cbf6"
+   },
+   "id": "TAB-23",
+   "kind": "table",
+   "label": "disclosure",
+   "module": "harness.analysis.paper_out_disclosure",
+   "section": "Discussion and limits (end matter appendix)",
+   "sources": {
+    "claims_format": {
+     "commit": "c59ccfa",
+     "path": "research/paper-notes/claims-ledger-format.md",
+     "sha256": "12635ab5ed6a58c6f1560aad1bddf86b4f791cb144be277370eb50ed58e81fe9"
+    },
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "findings": {
+     "commit": "b6e1788",
+     "path": "research/paper-notes/findings-register.md",
+     "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "log": {
+     "commit": "bec30e3",
+     "path": "LOG.md",
+     "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "reporting_defs_release": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "requirements": {
+     "commit": "88d5c72",
+     "path": "harness/requirements.txt",
+     "sha256": "e426975f7680eba153716fbec5de1762092e50628cbb9731fc395cd3abedb019"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    },
+    "spend_log": {
+     "commit": "b216f07",
+     "path": "ops/spend-log.md",
+     "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Reproducibility: files, hashes and commits (appendix)"
+  },
+  {
+   "files": {
+    "TAB-24.cells.json": "7168f9cb6d8ae6680def95ca63847b06d71a19b30cb245fc3e9833aadf66d621",
+    "TAB-24.csv": "56e9274f1a3ccddd95f92dcf0ad531382e41a8f2fbba44d1990e9be643ea7334",
+    "TAB-24.main.cells.json": "7dac1d813b567a8a5f52c68b238e0090793b02ba4ed5e6ce6d5009de22e9ecbc",
+    "TAB-24.main.csv": "5c8e229f6a7a208878c69d6a51fad4fd8ab2d18a384a47ea0181a0e92fa162d3",
+    "TAB-24.main.tex": "db8f9a93f55cf1db9369ea5feb5a4b83286afca2399b12f023af988088f2d170",
+    "TAB-24.panel1.csv": "8213ab000706801ad4453939c40bb19c5fa9bdc1cb97ae66579e8a825e01d511",
+    "TAB-24.panel1.part2.tex": "78d8928194fc983e8c28388a6bc16425fc67ecb8d09d6c9b0dceadac600d168f",
+    "TAB-24.panel1.part3.tex": "3a6e5cb433adce569b0e33a56a656ecaba1b6435cc3fdce7775456417061128f",
+    "TAB-24.panel1.part4.tex": "759e78f15ad315218d896529f7cce19e09067fa1d07a30e249c819092fe0cddf",
+    "TAB-24.panel1.tex": "06bd111395362210298d2036e238b85c76e3e9a21b4e43357d47265b2c24fb6a",
+    "TAB-24.panel2.csv": "879e3c793bc382d3f873882f68a9f642c1cadad6b2211d0865f4e220c63d6a70",
+    "TAB-24.panel2.part2.tex": "8a534b7c60ac32ad9758ecab6e3071ed48916f52eb5a02fe435103e8ad56e388",
+    "TAB-24.panel2.part3.tex": "4213f41b6628ba7606fcd322b2392db1e976420cdee38fd41010ee4522c5d3ca",
+    "TAB-24.panel2.part4.tex": "91d73f2377b637e82623452aab5c5d609f81cf72b36fc788f950e33bab9e702b",
+    "TAB-24.panel2.tex": "eb193acfd1e5736f04fa1b51c16f40f98def1b23ae12ee2ec261af47227a4477",
+    "TAB-24.part2.tex": "d3ac821f155ff33aa8ff3939027872e1d68b42ef01317dc47b7fa1aefeb7eaba",
+    "TAB-24.part3.tex": "a9557562b86e477b8f2b5d63821ad8416f044eb60cc6039c7a115a16b50ae93b",
+    "TAB-24.tex": "273e9ce9819565cb021551e9b60764714eb42677c25dab97440cc5d511595859"
+   },
+   "id": "TAB-24",
+   "kind": "table",
+   "label": "post hoc reading (merges framing T-same-money and analyses TF-A3)",
+   "main_text_version": "TAB-24.main.tex",
+   "module": "harness.analysis.paper_out_fa_votes",
+   "section": "Discussion and limits",
+   "sources": {
+    "fa1": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa1.json",
+     "sha256": "a9dd18fed80c2d693824e742e60d5c07e4c8314fb5c1a39d6d23f4f993e4c5bb"
+    },
+    "fa7": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa7.json",
+     "sha256": "9f71dc7893cf35c1b1e96fbeee9dd189c678731e88b47ae86949e063b387db26"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "main_plan": {
+     "commit": "7c8bb4b",
+     "path": "data/plans/main-l14n6-1-plan-all.json",
+     "sha256": "3d173b387bc65810433e2850c06c724855aa40634d724a350bc2aa7d57f6f40e"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "Same money, same puzzles: one Haiku-max try against a lower-effort Haiku vote"
+  },
+  {
+   "files": {
+    "TAB-25.cells.json": "27d390b83c9fff60010121082df9f872a68cbe7b291ecea8962fee1f7d5d51ac",
+    "TAB-25.csv": "a8e10bae002f8a82b8c8116a5e47a63e73bb46a035bed61c4216a4ee8ce52e6f",
+    "TAB-25.main.cells.json": "8c34e147f0b2cbed723d9f18420e9cda7d0977a63acd039d5b2280a94134d2a5",
+    "TAB-25.main.csv": "273ed2fb66ad0717d22cf052c7b636a1ef434e6ace58b56dec0f7ed30758415f",
+    "TAB-25.main.tex": "ef310c4ac95cb6f64860adb4788062843d469e2eee0cebf3619350d90fd9c431",
+    "TAB-25.panel1.csv": "db71c41a32492682e5e9716b2cfe3151bd54b125cef9bcb584d08d6f218bc8cf",
+    "TAB-25.panel1.part2.tex": "392b4f0846cb75cbe5920c2bc4b96c1e5b01347babbcbcd66dd7021443931c93",
+    "TAB-25.panel1.tex": "be2135249486c6a09bdc759f230e5cbadad88270dfd56c2c76ca8547c2750498",
+    "TAB-25.part2.tex": "46a6a85b1f0718a58846c09b70a611197911fe13f8b3224337f690f364a64ec5",
+    "TAB-25.part3.tex": "fcb42c7dc66a6c08a4631673980c9e337b8c92e7db008d6eb1b43e2af2ad4d25",
+    "TAB-25.tex": "d3c68ae63e38baa426556515e2e8feeb84133ce675c17dfe2f65429b07c2fbbd"
+   },
+   "id": "TAB-25",
+   "kind": "table",
+   "label": "post hoc descriptive sensitivity",
+   "main_text_version": "TAB-25.main.tex",
+   "module": "harness.analysis.paper_out_fa_votes",
+   "section": "Results: Study 1b (appendix)",
+   "sources": {
+    "fa3": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa3.json",
+     "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+    },
+    "fa_votes_spec1b": {
+     "commit": "9c007e5",
+     "path": "research/study1b-spec.md",
+     "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "B2's Haiku-max vote at every k, 16 steps (appendix)"
+  },
+  {
+   "files": {
+    "TAB-26.cells.json": "8154027dfb9b61d664acec5845fcc408a03903dbfd0bc8e349d3de109c85a5ee",
+    "TAB-26.csv": "e104beea56c3620b15e631fdf983e40f15bb12682dd977708436bb01f00350a0",
+    "TAB-26.panel1.csv": "e04e3e9d76389714bc2c4486b64218012bdd3d7371d2d740b7066cfc7402872e",
+    "TAB-26.panel1.tex": "1c4614052e392e871d7a1c5054d963d3a6c0769f20f8c8eafef79de0e3b21650",
+    "TAB-26.part2.tex": "98b2763e491e1ab7235fd51dda3e86d570196cfdc675857d9a7990e8d59596ad",
+    "TAB-26.part3.tex": "eb3419c84cc162b32cf65a6cf7f78b79bf2c59ea6f8b612f2373ad38b483f937",
+    "TAB-26.part4.tex": "38256f09c14acb5717ed1e24a4a47f865ee6639bcc0ae7cf4cde41a589bcf753",
+    "TAB-26.part5.tex": "9a0f72afbfdaa0f1ef08e98f353d03b88faa9a858424ae9d96ffcc740e49c9de",
+    "TAB-26.part6.tex": "a761bacd367467c47ab8d6d0f7d3df7b135a836050b4a8bc43905c789fed99ca",
+    "TAB-26.part7.tex": "16aec8a84b1188119cdfb7d2c5e60733a852c0d9e548b68df60ca085f8b84ca8",
+    "TAB-26.part8.tex": "c2f174396ef59cdf5573e3976de78389cfe1aced87e295730a423fa45f01ab04",
+    "TAB-26.tex": "aa19d803e10ecade542ceee43bc27733bc9d326024602a85cf6ac1ceae557584"
+   },
+   "id": "TAB-26",
+   "kind": "table",
+   "label": "post hoc presentation",
+   "module": "harness.analysis.paper_out_fa_checks",
+   "section": "Method (appendix)",
+   "sources": {
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "fa2": {
+     "commit": "4935d15",
+     "path": "data/main/free-analyses/fa2r2.json",
+     "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+    },
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "fa_checks_s1_defs": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "plan": {
+     "commit": "7b43f91",
+     "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+     "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Exact intervals where the bootstrap collapsed (appendix)"
+  },
+  {
+   "files": {
+    "TAB-27.cells.json": "ea989891e031e59a7022ef4190b8311d0e5bdf040b729a22741ff9656604d2a2",
+    "TAB-27.csv": "3df81754cd5353e160745767b89a014837e2adcc52cb65e7adf9408e3ea157c3",
+    "TAB-27.main.cells.json": "a6daf13f4a903c2f537c33abcf5521b9edd55f61e52ff4d0e980d369db5217ba",
+    "TAB-27.main.csv": "1a9780567695d4080fb72d0c97b1bdf95d2031aee78a65ad9d66fdbf16e43a50",
+    "TAB-27.main.tex": "ef4d735d433df9a17b13392b5c2298a967cb377b02ff5b523d08882d044cbd39",
+    "TAB-27.part2.tex": "222bdea584c8e507cc12031e4b142cf59ae99244abf8f213814dc944b6348156",
+    "TAB-27.tex": "b49f52255576ca86f91d1ddbf2344e9f521d4eca290e997658d6381377915b6f"
+   },
+   "id": "TAB-27",
+   "kind": "table",
+   "label": "post hoc sensitivity",
+   "main_text_version": "TAB-27.main.tex",
+   "module": "harness.analysis.paper_out_fa_checks",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "fa5": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa5.json",
+     "sha256": "13fe74329bebcb83e1a4cc15ba90b393e98a625781ba2233d2bf349ae26ec21e"
+    },
+    "fa_checks_s1_defs": {
+     "commit": "93334b8",
+     "path": "research/reporting-definitions-main.md",
+     "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    }
+   },
+   "status": "built",
+   "title": "Tests 1-4 under a multiplicity correction (appendix)"
+  },
+  {
+   "files": {
+    "TAB-28.cells.json": "bca0871c41b0d6653c1c76814b039d6b61a249209fe95c92c5278a34e15f33dc",
+    "TAB-28.csv": "e9ef0c1b759f4b7b5f084c3eff3f73fb81f84a16ed013fe131b8b49ff2122ac4",
+    "TAB-28.tex": "ef735a34c679de7242cb97efa4a0fac558549a7d0092a70a14e7286b31ba2f81"
+   },
+   "id": "TAB-28",
+   "kind": "table",
+   "label": "post hoc descriptive",
+   "module": "harness.analysis.paper_out_fa_desc",
+   "section": "Results: effort and length",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "fa8": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa8.json",
+     "sha256": "33f5ed5fad5bb936cd7aa96d9b6718be6900547a4044fb9c1ba23a63ac912f0c"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    }
+   },
+   "status": "built",
+   "title": "Haiku with thinking off: format failures and wrong answers"
+  },
+  {
+   "files": {
+    "TAB-29.cells.json": "779fcc3658c28d7211f897de6816f3d87dd2a6b5b283ea620a65069b505bf1d0",
+    "TAB-29.csv": "c32a29208893be4774a76dc6c39080425e9a725b49c41a2f293e597c1f0e8066",
+    "TAB-29.main.cells.json": "6ad8042c0e5b512dee8afd2c6f0964c2342048d25bf48615375c76934e802dce",
+    "TAB-29.main.csv": "1a9b9a0e16bc356f3fab96a471026e44c63c7dde4e49d1749f79af0ae6c2b27c",
+    "TAB-29.main.tex": "6cd8ad2ad8adb994e8629956e6af24dc9f4adfebb708c28c61dbb0791a56ddd8",
+    "TAB-29.tex": "2164aae138d919659547b10a1cc7c2f967a58eae8fe4e265b7bbc6b8c2db75d3"
+   },
+   "id": "TAB-29",
+   "kind": "table",
+   "label": "post hoc exploratory",
+   "main_text_version": "TAB-29.main.tex",
+   "module": "harness.analysis.paper_out_fa_more",
+   "section": "Results: Study 1 (beside Test 5) or Discussion and limits",
+   "sources": {
+    "fa9": {
+     "commit": "a0ecfba",
+     "path": "data/main/free-analyses/fa9.json",
+     "sha256": "88db8da4553ea4b6359bdbbc8e77ad070682c1441a85dba12ead6174b5a94f44"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    }
+   },
+   "status": "built",
+   "title": "Sonnet at its default effort on Study 1b's 40 six-step bases"
+  },
+  {
+   "files": {
+    "TAB-30.cells.json": "ee87943258619cf5a8cc06e8fa62a3d7f217e643bbed0be76ae3eab16e624392",
+    "TAB-30.csv": "ec0ea9d84a7e7989fed0bd3463d586cf7ead1823568345b5ed857a53c3e7916b",
+    "TAB-30.panel1.csv": "beb12b1dffe8aade9ca70530345fb6c2c824856601516b928d719196d5d92fbb",
+    "TAB-30.panel1.tex": "47c4c29066c27d7a056d8340792b07755989a4cc572cd422cc37072f1ac3955f",
+    "TAB-30.panel2.csv": "024720d03135150a780cb40f7fd119518a79d884e01f55294eb8a23205ff53b4",
+    "TAB-30.panel2.tex": "9bcad263f42e8d65f6115ab6612357d39b974480579ce40b94fc6db5f3f455b9",
+    "TAB-30.tex": "fecc14f2b3a8a2201e2357790d076248c631ed44b5f289efe115d74d141aea8a"
+   },
+   "id": "TAB-30",
+   "kind": "table",
+   "label": "post hoc sensitivity",
+   "module": "harness.analysis.paper_out_fa_more",
+   "section": "Discussion and limits (appendix)",
+   "sources": {
+    "fa12": {
+     "commit": "a0ecfba",
+     "path": "data/main/free-analyses/fa12.json",
+     "sha256": "63d009747ae20318f3332a61fd6f088c4eead9694a754e122af5146f68c34a81"
+    },
+    "fa3": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa3.json",
+     "sha256": "265701337861586facf1e86cd2553819f8277eeab3bcb5716f0a38df6d18ab4e"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "Re-pricing: equal-money k and the vote's gap at other price ratios (appendix)"
+  },
+  {
+   "files": {
+    "TAB-31.cells.json": "9a9dd87c58f0afe874a6aa03cc967999dc76f79655b9e11759b96c140ca5b79a",
+    "TAB-31.csv": "95ce95a47b9bd95204073e5339779c9f1db15b3dfe84221abcb5d3580556aa68",
+    "TAB-31.panel1.csv": "7d1c78438f42ea54a378514cd1b02b0479b7ef94175a064b2c13e46aa6c4e61b",
+    "TAB-31.panel1.tex": "f511cf6f4a70843643f7e629454474e3a79dc0924ee5b0f90ddd8ec9cbfff02f",
+    "TAB-31.tex": "85c621cda18361c0f0bf88ad10a526de204bd5ea0c95b6e4a4293465e2bc5566"
+   },
+   "id": "TAB-31",
+   "kind": "table",
+   "label": "post hoc exploratory",
+   "module": "harness.analysis.paper_out_fa_desc",
+   "section": "Results: effort and length",
+   "sources": {
+    "fa6a": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa6a.json",
+     "sha256": "6af8ea0b47f938fcb3855ed3e58caf417393f45f9925a64af86a990018874258"
+    },
+    "fa6b": {
+     "commit": "c0dcddc",
+     "path": "data/main/free-analyses/fa6b.json",
+     "sha256": "76d0baaf276c045dc63fa5d38a83d045a9f1fcdc9f342aa86cb9a296e8486c45"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "Wrong-answer repeat share by effort and length"
+  },
+  {
+   "files": {
+    "TAB-34.cells.json": "e37cbe7c97c839d9ef2e992347f737ca5d1f65c37f31c563710c877d7ebc51de",
+    "TAB-34.csv": "c1534736c05d6ae7f98e5e35857bb1f7f23123719942bdc31d721b2b9e57a15e",
+    "TAB-34.main.cells.json": "63db33015130f0e38104bea138b2bade047ebc5b9110fe0c0a49a4ae36730e17",
+    "TAB-34.main.csv": "cdf932eda3ae013c562ad3ac12e0ac4845d957fac0e282b103c69fa8d536b7b8",
+    "TAB-34.main.tex": "ad9db101e23ecd286d20f5f50ff29ce525be1fdd8533605cdf99b029cd8a4c9c",
+    "TAB-34.part2.tex": "27c3bfca0ef3bb1d18fcf20917bc6b52c9deb05c5ceeb1d616840ca27be9f4b4",
+    "TAB-34.tex": "f3dddea7905344578097bea5ad8537a7983ee07c0282d6d9c4d766376b6929a1"
+   },
+   "id": "TAB-34",
+   "kind": "table",
+   "label": "post hoc descriptive",
+   "main_text_version": "TAB-34.main.tex",
+   "module": "harness.analysis.paper_out_cost_target",
+   "section": "Discussion and limits (appendix)",
+   "sources": {
+    "fa2": {
+     "commit": "4935d15",
+     "path": "data/main/free-analyses/fa2r2.json",
+     "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+    },
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "plan": {
+     "commit": "7b43f91",
+     "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+     "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Cost for a target accuracy"
+  },
+  {
+   "files": {
+    "FIG-01.alt.txt": "755fd967c4fc5178b2264fd5045e132d9c727e6c44f92ec57ae2ef81f9c49b45",
+    "FIG-01.data.json": "ba8a6127c3a73146a7af979b27a5033fede8e0ba32ce43be50ebebbbd8e544ba",
+    "FIG-01.pdf": "a99077389b1d43bd36556e9172a1c151a5e8907ddf700d13f69992aae4d7f1fd",
+    "FIG-01.png": "6196c1c156880a6d29d1d444a6298005303ead99e051a5a13f5f85eb37ae06b7"
+   },
+   "id": "FIG-01",
+   "kind": "figure",
+   "label": "pre-specified descriptive; Test 4 point confirmatory; Haiku-max exploratory",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: Study 1",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    }
+   },
+   "status": "built",
+   "title": "Study 1 vote curves at 6 steps"
+  },
+  {
+   "files": {
+    "FIG-02.alt.txt": "6e47caa92558a59e0f5bf9e72b822549233dd37b249a97ea5ad6f5e91353a341",
+    "FIG-02.data.json": "b4138c4f2eae9c9fabdb91b5fc25f623a0de19d4b2abc9e969716244ddbb9ad0",
+    "FIG-02.pdf": "3d28d61d119a785e1e76ad24be0e22a75bec4f64d10a51942a62f7a2d43f5ff0",
+    "FIG-02.png": "93ac3f24e41694f9f89acd1a22da221c4c3f653975125c6a02902aae4346032c"
+   },
+   "id": "FIG-02",
+   "kind": "figure",
+   "label": "pre-specified descriptive; no test, no cause",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: Study 1 (appendix)",
+   "sources": {
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    }
+   },
+   "status": "built",
+   "title": "Where the vote helped: difficulty bins by agreement thirds (appendix)"
+  },
+  {
+   "files": {
+    "FIG-03.alt.txt": "0a9ec4341781683964588fee4c798972a9b7873b9f090ebb70aecdef398a04e1",
+    "FIG-03.data.json": "f815ecb5e36208ea8a14a98905671e9c4cc3caa3bb27760bea71afde304709de",
+    "FIG-03.pdf": "2b9561059340188c826564c2a7fcb63422b29e028b6208377a1b2bc250260a62",
+    "FIG-03.png": "a2189c5be64b38b2e24f0b5758f05fc391a2c6fda4d6212b0251fc933158e45f"
+   },
+   "id": "FIG-03",
+   "kind": "figure",
+   "label": "pre-specified descriptive; only k = 6 is a test",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: Study 1b",
+   "sources": {
+    "fa2": {
+     "commit": "4935d15",
+     "path": "data/main/free-analyses/fa2r2.json",
+     "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_driver": {
+     "commit": "d1c565f",
+     "path": "harness/analysis/study1b.py",
+     "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+    }
+   },
+   "status": "built",
+   "title": "Haiku-max vote curve at 16 steps (Study 1b)"
+  },
+  {
+   "files": {
+    "FIG-04.alt.txt": "31ceaf77675f30d302b90b38d42207a7fce4c898d121c1c7e8db92ef3d396846",
+    "FIG-04.data.json": "0d72cbafc6b77f60ea03d2f894c2d594293dd787d15619f6f84bc5c93e978345",
+    "FIG-04.pdf": "50567f5a2d6e89a5d20ecc4ac0148832f194e6bc7dda8041fec4a9947f5d17bc",
+    "FIG-04.png": "474a566426936d84815ccb6e6913cc186e74128896fbe5b1a44a8b458a8bcea5"
+   },
+   "id": "FIG-04",
+   "kind": "figure",
+   "label": "pre-specified descriptive (merges F4, framing F-effort-cost, analyses TF-A6 figure)",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: effort and length",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    }
+   },
+   "status": "built",
+   "title": "Accuracy against cost per answer by model and effort (6 and 16 steps)"
+  },
+  {
+   "files": {
+    "FIG-05.alt.txt": "d0370e4fcae236b7099e98b5e9ef5fdc46f0f85e849bbb117f2d390772db8457",
+    "FIG-05.appendix.alt.txt": "02ef15b28ba3c4147288871d49fe770fe5a24d58d45b23a3cd358ead5926b293",
+    "FIG-05.appendix.data.json": "85122ca40f9195e1a212ea4369d12556a938665d921ca214add5b57839f23d9a",
+    "FIG-05.appendix.pdf": "cc9722c724aba12a720f6d15ae602375e54466effeb2c8e2e4758412af7a261c",
+    "FIG-05.appendix.png": "64a301202ca23a831a2d9df49e330d9853fdea0947ec5c1556d0ba5c29b0e46b",
+    "FIG-05.data.json": "86c6b20e4ee71d96401dd2f75c8c286885b449736633ac97992f5415a3feb176",
+    "FIG-05.pdf": "0304020a528e3026b9f927fbcea30b9b40fecdf94aae37bf293f79150b1a30c1",
+    "FIG-05.png": "d2663d97f717f632ec5ab5bbfa41625901e86e2ca0bc8c75d478f7a56a603f6b"
+   },
+   "id": "FIG-05",
+   "kind": "figure",
+   "label": "pre-registered descriptive (D-87); merges F5 and TF-A11",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: effort and length",
+   "sources": {
+    "curve": {
+     "commit": "4547097",
+     "path": "data/pilot/curve-ladder-l14n-1.json",
+     "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+    },
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "curve_plan": {
+     "commit": "7bcc8d1",
+     "path": "research/pilot-plan-ledger.md",
+     "sha256": "51c811bdb99e22ad0168d1a02ed4334841b0153beff90b5368ca6942371911f9"
+    },
+    "fa4": {
+     "commit": "d9cc189",
+     "path": "data/main/free-analyses/fa4r3.json",
+     "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+    },
+    "pilot1_recount": {
+     "commit": "e585a6d",
+     "path": "data/pilot/pilot1-recount-e12.json",
+     "sha256": "a31c905f25113112ab23539445cb2e7edae04222b0290918e8c934bfb22d32aa"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    }
+   },
+   "status": "built",
+   "title": "Length curve with the independent-pieces reference line",
+   "variants": [
+    "FIG-05.appendix.pdf"
+   ]
+  },
+  {
+   "files": {
+    "FIG-06.alt.txt": "586053b3126401f20e0304630f7b50ee014edba142b03dcea7c39049e3576b59",
+    "FIG-06.data.json": "b8af8a30134c0d8eb7aca764933e62761192f3669e4f14704f24572c88bbbf34",
+    "FIG-06.pdf": "f1042b8837cebcf73678f515de9a5605d49ab60e7b13cc7600de01719983f0c2",
+    "FIG-06.png": "3e96e8ff160e943ad2d7431440a5c72a129d54ea077c2a4991e2a1faef1bad72"
+   },
+   "id": "FIG-06",
+   "kind": "figure",
+   "label": "descriptive/exploratory; no frontier",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: top-up",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Where each design landed at 6 steps (Study 1 and top-up)"
+  },
+  {
+   "files": {
+    "FIG-07.alt.txt": "7c3fc14b61c53e669bb2e5ec24f2ea05d803825809c56ba81e4ad9de0b3dc4e0",
+    "FIG-07.data.json": "25f761dbb0f3a9757d6dd91cbbda0a01e56e9b79ef979d53b587ef41b54863a2",
+    "FIG-07.pdf": "93324e69f131adf76dd6a894f445609d4a453c2f94ad0a41cc173b7c96883cd3",
+    "FIG-07.png": "b61e519c709fae5b7f430d9c826dfe604537f527e0491601c998ab4c421c12c6"
+   },
+   "id": "FIG-07",
+   "kind": "figure",
+   "label": "pre-specified descriptive (labelled estimates)",
+   "module": "harness.analysis.paper_out_figures",
+   "section": "Results: effort and length (appendix)",
+   "sources": {
+    "fa10": {
+     "commit": "a2d93ba",
+     "path": "data/main/free-analyses/fa10.json",
+     "sha256": "74bdca2c18c23b6542af2e32555c1e62fd1f8e96f7789ac1f807c1711154df54"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    }
+   },
+   "status": "built",
+   "title": "Where the Haiku dollar goes (appendix)"
+  },
+  {
+   "files": {
+    "FIG-00.alt.txt": "365c517f0e2d5108482dc2c8e15d819854f08eee59d51a94b8dea454d7b6d84e",
+    "FIG-00.data.json": "10a9cb9464445d65b0184125eec785575589249f11781a70c1cbd3458971460d",
+    "FIG-00.pdf": "a1b7a26c490a0dc9badac797225d7eda9b7b3ca8e265a6b94aa42415b95a9e77",
+    "FIG-00.png": "33ac5f80e4dc0d73da7c2535f2184c8cfc36e93ac4fdef45ac68d09ec55deb2c"
+   },
+   "id": "FIG-00",
+   "kind": "figure",
+   "label": "descriptive summary of confirmatory and exploratory points; each study's points kept separate; our reading, not a test",
+   "module": "harness.analysis.paper_out_fig00",
+   "section": "Introduction",
+   "sources": {
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_k": {
+     "commit": "da61c76",
+     "path": "data/main/main-l14n6-1/k.json",
+     "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "s1b_k": {
+     "commit": "534e415",
+     "path": "data/main/study1b-1/k.json",
+     "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+    }
+   },
+   "status": "built",
+   "title": "The story at a glance: accuracy against cost per answer for the key setups"
+  },
+  {
+   "files": {
+    "TAB-35.cells.json": "85ea30dd0a8bffd2c280bf135a27ad573dcd32df397cf23cde33700a585bbb65",
+    "TAB-35.csv": "6fcc91241b3cd7073ad3a003224d7005c7dc724def3c7345a37b9dd321826efe",
+    "TAB-35.main.cells.json": "ed3ad206eaa2bc45348764cc415a7aec84373709052cf62cd4f1967130b01b58",
+    "TAB-35.main.csv": "3bd6ae04f1c6fddb389643372e12a079d2f8b7a1fff903f95d8736bc041d307f",
+    "TAB-35.main.tex": "525e2ee2b271e2960fc6e8d0bb93c9dacfc7aed8d9d210b273679f6bb70a3b9c",
+    "TAB-35.tex": "571318ad2f78d9314a6a249c2458d9c918165285e78d08a7086118d8ad622093"
+   },
+   "id": "TAB-35",
+   "kind": "table",
+   "label": "design summary: every setting's samples per puzzle, puzzles, steps and role; no results",
+   "main_text_version": "TAB-35.main.tex",
+   "module": "harness.analysis.paper_out_main",
+   "section": "Method",
+   "sources": {
+    "curve_d90": {
+     "commit": "b6c1de5",
+     "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_plan": {
+     "commit": "7c8bb4b",
+     "path": "data/plans/main-l14n6-1-plan-all.json",
+     "sha256": "3d173b387bc65810433e2850c06c724855aa40634d724a350bc2aa7d57f6f40e"
+    },
+    "s1b": {
+     "commit": "fb301dd",
+     "path": "data/main/study1b-1/analysis.json",
+     "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+    },
+    "topup": {
+     "commit": "5c305db",
+     "path": "data/main/topup-1/analysis.json",
+     "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+    }
+   },
+   "status": "built",
+   "title": "Settings at a glance"
+  },
+  {
+   "files": {
+    "ledger-derived.json": "28e6c706af8783a7c8c45385c7e3537656dfa5a1012540936b1a5ccebe10c8fb"
+   },
+   "id": "ledger-derived",
+   "kind": "data",
+   "label": "derived values",
+   "module": "harness.analysis.paper_out_derived",
+   "section": "claims ledger",
+   "sources": {
+    "groupc": {
+     "commit": "2830340",
+     "path": "data/main/main-l14n6-1/groupc.json",
+     "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+    },
+    "main": {
+     "commit": "8be72ec",
+     "path": "data/main/main-l14n6-1/analysis.json",
+     "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+    },
+    "main_plan": {
+     "commit": "7c8bb4b",
+     "path": "data/plans/main-l14n6-1-plan-all.json",
+     "sha256": "3d173b387bc65810433e2850c06c724855aa40634d724a350bc2aa7d57f6f40e"
+    }
+   },
+   "status": "built",
+   "title": "ledger-derived"
+  }
+ ],
+ "pins": {
+  "contourpy": "1.3.0",
+  "cycler": "0.12.1",
+  "fonttools": "4.60.2",
+  "kiwisolver": "1.4.7",
+  "matplotlib": "3.9.4",
+  "numpy": "1.26.4",
+  "pillow": "11.3.0",
+  "pyparsing": "3.3.2"
+ },
+ "plan": {
+  "commit": "7b43f91",
+  "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+  "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+ },
+ "python": "3.9",
+ "title_edits": [
+  {
+   "id": "TAB-34",
+   "plan_title": "Cost for a target accuracy (appendix; per F-11)",
+   "printed_title": "Cost for a target accuracy",
+   "why": "the plan's title names an internal finding id; the printed title drops it"
+  }
+ ]
+}

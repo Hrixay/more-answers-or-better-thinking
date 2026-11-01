@@ -1,0 +1,21 @@
+{
+  "_source": "POST-PILOT (D-72/D-73/D-74, Amendment 1): the ladder ladder-l14n-1 at the chosen preset l14n6 (N = 6), all final calls (Haiku 400, Opus 40, Sonnet 40; no truncations), data/raw/ladder-l14n-1/calls.jsonl (sha256 3725c1cc87dcca8e0107234cb379f9a29c18486c1908e9f1486759d4fb0b52f4). Pinned recipe (research/d72-d73-lock-spec.md): in and vis tokens one mean each over all calls (visible = answer characters / 3); tm = [t, t, 1.25 t], t = Opus-medium mean thinking / 10000 (thinking = output - visible); hm_ratio and sm_ratio = Haiku- and Sonnet-medium mean thinking / Opus-medium's. Karen, research/post-pilot-n6.md.",
+  "post_pilot": true,
+  "in_tokens": [
+    1030.9,
+    1030.9,
+    1030.9
+  ],
+  "vis_tokens": [
+    223.0,
+    223.0,
+    223.0
+  ],
+  "tm": [
+    0.13053,
+    0.13053,
+    0.16316
+  ],
+  "hm_ratio": 1.4889,
+  "sm_ratio": 0.3888
+}

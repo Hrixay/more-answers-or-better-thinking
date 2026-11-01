@@ -1,0 +1,286 @@
+{
+ "analysis": "fa4",
+ "checks": [],
+ "code": {
+  "B": 10000,
+  "draws": 2000,
+  "fa_seed": 20261015,
+  "git_dirty": false,
+  "git_head": "048020caa071918da7a2802ac0416d4c63085a64",
+  "module": "harness/analysis/free_analyses.py",
+  "module_sha256": "b56a2aab77dbf72beecf4dd9ce30291dc00611cda6276c4251e0ef035da28449"
+ },
+ "definition": {
+  "analysis": "Exact (Clopper-Pearson) intervals wherever a bootstrap collapsed: Study 1b om@6 pieces; top-up main-om pieces; C10 Opus pieces; item 7 Opus per-piece; length-sweep Opus-medium at 6 and 16 steps and its q; Study 1's 3-try Haiku-max vote on chains; Study 1b's Haiku-max vote@10 on pieces; thinking-off chains at 16 steps.",
+  "could_change_headline": "No.",
+  "inputs": "the keys named, in the three analysis files, groupc.json and the length-sweep file",
+  "rank": 4,
+  "size": "trivial",
+  "source": "decisions/briefings/2026-10-15-compiler/plan-result.json at 7b43f91, plan.free_analyses[3]",
+  "tier_label": "post hoc presentation",
+  "why": "The approved style sheet requires it; a [100, 100] band suggests false certainty."
+ },
+ "inputs": {
+  "study1": {
+   "analysis_json_sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+   "k_json_sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+   "run": {
+    "calls.jsonl": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+    "compact_table.csv": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+    "ledger.jsonl": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+    "manifest.json": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993"
+   }
+  },
+  "study1b": {
+   "analysis_json_sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+   "k_json_sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+   "run": {
+    "calibration_limits.json": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+    "calls.jsonl": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+    "compact_table.csv": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+    "manifest.json": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5"
+   }
+  }
+ },
+ "label": "post hoc (D-131): reported as a result labelled post hoc, never as a test; it cannot change a pre-registered reading",
+ "result": {
+  "cells": [
+   {
+    "cell": "Study 1b Opus-medium, 6 steps, pieces",
+    "exact95": [
+     91.19026971211977,
+     100.0
+    ],
+    "key": "descriptive.arms.om@6.6x1",
+    "n": 40,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 40
+   },
+   {
+    "cell": "Top-up comparator Opus-medium (main run), pieces",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "accuracy.main-om.6x1",
+    "n": 80,
+    "note": null,
+    "source": "data/main/topup-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "C10 Opus-low, pieces (main run)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "item_C10.pairs.opus-low-vs-opus-med:6x1",
+    "n": 80,
+    "note": "the stamped interval is the paired difference's [0, 0]; each arm's exact accuracy interval is given instead",
+    "source": "data/main/main-l14n6-1/groupc.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "C10 Opus-medium, pieces (main run)",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "item_C10.pairs.opus-low-vs-opus-med:6x1",
+    "n": 80,
+    "note": "the stamped interval is the paired difference's [0, 0]; each arm's exact accuracy interval is given instead",
+    "source": "data/main/main-l14n6-1/groupc.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "Item 7 Opus-medium per-piece accuracy",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_7.per_piece_accuracy.arms.opus-med",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Item 7 Opus-low per-piece accuracy",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_7.per_piece_accuracy.arms.opus-low",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 6 steps, pooled",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.6.per_step.pooled",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 6 steps, pieces (q's input)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.6.per_step.nx1",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 16 steps, pooled",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.16.per_step.pooled",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Length sweep Opus-medium per-step, 16 steps, pieces (q's input)",
+    "exact95": [
+     0.8315665290169145,
+     1.0
+    ],
+    "key": "models.om.by_n.16.per_step.nx1",
+    "n": 20,
+    "note": null,
+    "source": "data/pilot/curve-ladder-l14n-1-d90.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 20
+   },
+   {
+    "cell": "Study 1 Haiku-max 3-try vote, chains",
+    "exact95": [
+     0.9549359649323077,
+     1.0
+    ],
+    "key": "reporting.group_b.item_10.arms.haiku-max 1x6.vote_curve.points.2",
+    "n": 80,
+    "note": null,
+    "source": "data/main/main-l14n6-1/analysis.json",
+    "stamped_ci95": [
+     1.0,
+     1.0
+    ],
+    "stamped_mean": 1.0,
+    "unit": "share (0-1)",
+    "x": 80
+   },
+   {
+    "cell": "Study 1b Haiku-max vote@10, 16 steps, pieces",
+    "exact95": [
+     95.49359649323077,
+     100.0
+    ],
+    "key": "descriptive.vote_curve_n16.points.9.16x1",
+    "n": 80,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     100.0,
+     100.0
+    ],
+    "stamped_mean": 100.0,
+    "unit": "points",
+    "x": 80
+   },
+   {
+    "cell": "Study 1b Haiku thinking-off, 16 steps, chains",
+    "exact95": [
+     0.0,
+     4.5064035067692245
+    ],
+    "key": "descriptive.arms.ho@16.1x16",
+    "n": 80,
+    "note": null,
+    "source": "data/main/study1b-1/analysis.json",
+    "stamped_ci95": [
+     0.0,
+     0.0
+    ],
+    "stamped_mean": 0.0,
+    "unit": "points",
+    "x": 0
+   }
+  ],
+  "method": "report_arms.clopper_pearson(x, n), two-sided 95%, over base puzzles (the conservative unit)",
+  "q_note": "the length sweep's q is estimated from pieces only, so its exact counterpart is the pieces per-step row"
+ }
+}

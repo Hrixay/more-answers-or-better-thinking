@@ -1,0 +1,923 @@
+{
+ "output": {
+  "id": "TAB-11",
+  "kind": "table",
+  "label": "descriptive per-shape breakdown",
+  "section": "Results: Study 1b (appendix)",
+  "title": "Study 1b per-shape readings and views (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "fa13": {
+   "commit": "c1b33af",
+   "path": "data/main/free-analyses/fa13.json",
+   "sha256": "ca4d0805ded485d6787fc3b099064101d47c4e3f8b9f70c27937ce45d2f92a32"
+  },
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_curve_py_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/curve.py",
+   "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+  },
+  "s1b_driver_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/study1b.py",
+   "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "formula": "text cut /\"d\": \\{b: (c\\[b\\] - o\\[b\\]) for b in bases\\}/ group 1; not printed: the record for 'per_form's d is paired: each puzzle's challenger minus its comparator'; text cut /\"ci95\": _boot\\(bases, v, (f\"1b:\\{t\\}:\\{n\\}:\\{shape\\}:\\{s\\}\"), draws\\)/ group 1; not printed: the record for 'each per-shape interval is _boot under its own name'; text cut /\"\"\"The cluster bootstrap \\(curve\\.cluster_bootstrap, (percentile 95%)\\) of the mean over drawn base puzzles/ group 1; not printed: the record for '_boot is a percentile bootstrap'; text cut /\"per_form\": (per_form\\(rows, k, dv\\)),/ group 1; not printed: the record for 'the per-test intervals get the file's draws'; text cut /\"constants\": \\{.*(\"draws\": dv),/ group 1; not printed: the record for 'the file stamps the draws the driver used'",
+     "kind": "num",
+     "printed": "cluster bootstrap over puzzles for accuracies; paired bootstrap for d,",
+     "raw": [
+      "c[b] - o[b]",
+      "f\"1b:{t}:{n}:{shape}:{s}\"",
+      "percentile 95%",
+      "per_form(rows, k, dv)",
+      "\"draws\": dv"
+     ],
+     "refs": [
+      {
+       "key": "L689",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L691",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L705",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1188",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1180",
+       "source": "s1b_driver_s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,000",
+     "raw": 2000,
+     "refs": [
+      {
+       "key": "constants.draws",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "draws; exact Clopper–Pearson over puzzles (post hoc) where a bootstrap interval collapsed"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles per shape:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.d.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B1, B2);"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.d.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B3);"
+    },
+    {
+     "kind": "label",
+     "printed": "samples per puzzle and shape: Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no cost column)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's own puzzle set at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Tests B1 and B2) and its set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Test B3)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b; Tests B1 and B2 at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps, Test B3 at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "descriptive per-shape breakdown of the confirmatory tests in TAB-10 (Holm within Study 1b only); the exact intervals are post hoc"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger accuracy (%) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium accuracy (%) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance, challenger (%)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Challenger: one Haiku-max sample (B1, B3) or the vote of"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.k_from_k_json",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B2); a vote's format compliance is its samples'; Opus-medium's is"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.0% throughout.",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "† Opus-medium's interval: exact Clopper–Pearson (post hoc), where the bootstrap one collapsed."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "B1"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "92.3 [89.1, 94.9]",
+     "raw": [
+      92.25,
+      [
+       89.125,
+       94.875
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.h.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.9 [93.8, 99.4]",
+     "raw": [
+      96.875,
+      [
+       93.75,
+       99.375
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−4.6 [−8.8, −0.4]",
+     "raw": [
+      -4.625,
+      [
+       -8.75,
+       -0.375
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.5",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B1"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "93.0 [90.4, 95.4]",
+     "raw": [
+      93.0,
+      [
+       90.375,
+       95.375
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.h.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.8 [96.9, 100.0]",
+     "raw": [
+      98.75,
+      [
+       96.875,
+       100.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.8 [−8.6, −2.6]",
+     "raw": [
+      -5.75,
+      [
+       -8.625,
+       -2.625
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.9",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B2"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "98.0 [95.7, 99.6]",
+     "raw": [
+      98.03571428571429,
+      [
+       95.6547619047619,
+       99.59821428571429
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.v.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.v.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.v.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.9 [93.8, 99.4]",
+     "raw": [
+      96.875,
+      [
+       93.75,
+       99.375
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.2 [−2.2, 4.7]",
+     "raw": [
+      1.1607142857142851,
+      [
+       -2.2172619047619055,
+       4.717261904761903
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.5",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B2"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "kind": "num",
+     "printed": "98.9 [97.5, 99.9]",
+     "raw": [
+      98.85416666666666,
+      [
+       97.54464285714286,
+       99.89583333333334
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.v.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.v.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.v.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.8 [96.9, 100.0]",
+     "raw": [
+      98.75,
+      [
+       96.875,
+       100.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.1 [−1.8, 2.2]",
+     "raw": [
+      0.1041666666666666,
+      [
+       -1.800595238095238,
+       2.2321428571428568
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.9",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B3"
+    },
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "kind": "num",
+     "printed": "97.3 [94.8, 99.3]",
+     "raw": [
+      97.25,
+      [
+       94.75,
+       99.25
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.h.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.8 [96.3, 100.0]",
+     "raw": [
+      98.75,
+      [
+       96.25,
+       100.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−1.5 [−4.8, 1.5]",
+     "raw": [
+      -1.5,
+      [
+       -4.75,
+       1.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "B3"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces†"
+    },
+    {
+     "kind": "num",
+     "printed": "94.3 [90.8, 97.3]",
+     "raw": [
+      94.25,
+      [
+       90.75,
+       97.25
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.h.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.0 [91.2, 100.0]",
+     "raw": [
+      100.0,
+      [
+       91.19026971211977,
+       100.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.o.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.74.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.74.exact95.1",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.8 [−9.3, −2.8]",
+     "raw": [
+      -5.75,
+      [
+       -9.25,
+       -2.75
+      ]
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.d.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.0",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

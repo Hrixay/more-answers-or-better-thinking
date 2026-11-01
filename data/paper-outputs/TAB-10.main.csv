@@ -1,0 +1,5 @@
+Test,Shape,Challenger (%),Opus-medium (%),d (points) [95% interval],Error-rate ratio [95% interval],Decision (margins in points)
+B1,pooled,92.6,97.8,"−5.2 [−7.8, −2.7]","3.4 [1.8, 10.1]",inconclusive at 5; shown no worse by > 10
+B2,pooled,98.4,97.8,"+0.6 [−1.1, 2.4]","0.7 [0.2, 2.1]",shown no worse by > 5 and by > 10
+B2,ties†,,,"0.0 [−2.1, 1.9]",,—
+B3,pooled,95.8,99.4,"−3.6 [−7.0, −1.5]","6.8 [1.7, unbounded]",inconclusive at 5; shown no worse by > 10

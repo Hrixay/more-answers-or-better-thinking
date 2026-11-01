@@ -1,0 +1,42 @@
+{
+ "_note": "SYNTHETIC known-answer check for the D-72 re-run (not pilot data). Re-running must reproduce d72_example_output.json.",
+ "haiku_correct": [
+  2,
+  3,
+  1,
+  4,
+  0,
+  5,
+  2,
+  3,
+  6,
+  1
+ ],
+ "haiku_tries": [
+  10,
+  10,
+  10,
+  10,
+  10,
+  10,
+  10,
+  10,
+  10,
+  10
+ ],
+ "wrong_pairs_agree": 30,
+ "wrong_pairs": 250,
+ "opus_correct": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "k": 29
+}

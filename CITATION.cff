@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "More Answers, or Better Thinking? What a Fixed Budget Buys Across Claude 5.5 Models on Synthetic Multi-Step Puzzles"
+type: software
+authors:
+  - family-names: "Jain"
+    given-names: "Hriday Kalpit"
+  - family-names: "Lodha"
+    given-names: "Vivek Jain"
+license: MIT
+repository-code: "https://github.com/Hrixay/more-answers-or-better-thinking"

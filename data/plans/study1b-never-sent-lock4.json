@@ -1,0 +1,291 @@
+{
+ "folders_searched": [
+  "/Users/hrixay/Desktop/pareto/data",
+  "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research",
+  "/Users/hrixay/Desktop/pareto/research"
+ ],
+ "other_files_scanned": 1098,
+ "ran_from": {
+  "commit": "0a2396cae9037de9df72366d1c49e06dd9a2e661",
+  "tree_clean": true
+ },
+ "raw": "/Users/hrixay/Desktop/pareto/data/raw",
+ "runs_scanned": {
+  "check-ledger-1": {
+   "ids": 20,
+   "lines": 20,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/check-ledger-1/calls.jsonl",
+   "prompt_hashes": 10,
+   "sha256": "92dd68a5b002ba102b7d24e1905de1058e11f1bc84287ab0a0b9e0a628402d77"
+  },
+  "diag-haiku-effort-1": {
+   "ids": 36,
+   "lines": 36,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/diag-haiku-effort-1/calls.jsonl",
+   "prompt_hashes": 24,
+   "sha256": "d64316f1e5324395cea13c190328e1c238a99119a0648706d9cca28cd2a362f3"
+  },
+  "ladder-l14n-1": {
+   "ids": 2400,
+   "lines": 2415,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/ladder-l14n-1/calls.jsonl",
+   "prompt_hashes": 200,
+   "sha256": "3725c1cc87dcca8e0107234cb379f9a29c18486c1908e9f1486759d4fb0b52f4"
+  },
+  "main-l14n6-1": {
+   "ids": 21876,
+   "lines": 21904,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/main-l14n6-1/calls.jsonl",
+   "prompt_hashes": 680,
+   "sha256": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123"
+  },
+  "pilot-ledger-1": {
+   "ids": 670,
+   "lines": 676,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/pilot-ledger-1/calls.jsonl",
+   "prompt_hashes": 50,
+   "sha256": "411c877baf3f4b399d44355c6d77126c4abd7c348d17fca194aa0e46d7f79142"
+  },
+  "s3-ledger-1": {
+   "ids": 5,
+   "lines": 8,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/s3-ledger-1/calls.jsonl",
+   "prompt_hashes": 5,
+   "sha256": "9f988dd553368baaa09d8f0bb5e67b001d8ff5a424f1c2fdb5f14a7e3180aca5"
+  },
+  "smoke-1": {
+   "ids": 1,
+   "lines": 1,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/smoke-1/calls.jsonl",
+   "prompt_hashes": 1,
+   "sha256": "fffbbf2784dc38fd610049137061fca3623b975b56ce514054b484c738c67071"
+  },
+  "smoke-2": {
+   "ids": 9,
+   "lines": 12,
+   "path": "/Users/hrixay/Desktop/pareto/data/raw/smoke-2/calls.jsonl",
+   "prompt_hashes": 2,
+   "sha256": "50e7e07dbe547355ecde6670c138efecb4152006456d470e9e397192097739de"
+  }
+ },
+ "sets": {
+  "ext40-ledger-l14n6-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 80,
+   "items_sha256": "1f342a6c9b0129df5796a52612ef50cc58ba162dedd6abfc4036cc38173b94dd",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 11,
+    "first": [
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-never-sent.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan-booking.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/models/study1b_power_results.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-never-sent-check.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-plan.md",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-spec.md",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/models/study1b_power_results.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-never-sent-check.json",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-plan.md",
+      "ext40-ledger-l14n6-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-spec.md",
+      "ext40-ledger-l14n6-v1"
+     ]
+    ]
+   }
+  },
+  "main-ledger-l14n12-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "9aefe3406a17f08bb0614fe4fdf72b87a5b7e2ba0fde1a0072805d27d44f7c44",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 7,
+    "first": [
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-never-sent.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan-booking.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-never-sent-check.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-spec.md",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-never-sent-check.json",
+      "main-ledger-l14n12-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-spec.md",
+      "main-ledger-l14n12-v1"
+     ]
+    ]
+   }
+  },
+  "main-ledger-l14n16-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "0bf12afca05edd504085c715c9ce1b5cdd8eb40a67978db675f8884e7a55f372",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": true,
+   "sent_by_id": {
+    "count": 0,
+    "first": []
+   },
+   "sent_by_prompt_hash": {
+    "count": 0,
+    "first": []
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   },
+   "set_id_mentioned_in": {
+    "count": 11,
+    "first": [
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-never-sent.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan-booking.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/data/plans/study1b-plan.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/models/study1b_power_results.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-never-sent-check.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-plan.md",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/Users/hrixay/Desktop/pareto/research/study1b-spec.md",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/models/study1b_power_results.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-never-sent-check.json",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-plan.md",
+      "main-ledger-l14n16-v1"
+     ],
+     [
+      "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/research/study1b-spec.md",
+      "main-ledger-l14n16-v1"
+     ]
+    ]
+   }
+  }
+ },
+ "spend_log": {
+  "bookkeeping_rows": [
+   "smoke-2 (markers)"
+  ],
+  "every_spend_log_run_scanned": true,
+  "path": "/private/tmp/claude-501/-Users-hrixay-Desktop-pareto--claude-worktrees-pensive-dubinsky-64f994/287c65d6-de31-451f-9167-190511eaf9f5/scratchpad/xclean/ops/spend-log.md",
+  "runs_scanned_not_in_spend_log": [],
+  "runs_with_calls": [
+   "check-ledger-1",
+   "diag-haiku-effort-1",
+   "ladder-l14n-1",
+   "main-l14n6-1",
+   "pilot-ledger-1",
+   "s3-ledger-1",
+   "smoke-1",
+   "smoke-2"
+  ]
+ }
+}

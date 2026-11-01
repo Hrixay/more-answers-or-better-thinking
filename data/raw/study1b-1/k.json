@@ -1,0 +1,63 @@
+{
+ "b2_note": null,
+ "b2_run": true,
+ "calls": {
+  "hx": 1600,
+  "om": 320
+ },
+ "cap": 10,
+ "capped": false,
+ "capped_rule": "ratio > 10 (\u00a74)",
+ "challenger": "hx",
+ "columns_read": [
+  "custom_id",
+  "requested_model",
+  "effort",
+  "kind",
+  "refusal_billed_by_rule",
+  "input_tokens",
+  "output_tokens",
+  "cache_read_tokens",
+  "cache_write_tokens"
+ ],
+ "compact_table_sha256": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+ "comparator": "om",
+ "free_b5_ids_in_ledger": 0,
+ "k": 6,
+ "label": null,
+ "ledger_read_for_free_by_rule": true,
+ "ledger_sha256": "2aa6ef78721de0152a7eb6f77922abffe02ef9206ae94ff823821671605d586a",
+ "mean_list_cost_per_try": {
+  "hx": "35755009/3200000000",
+  "om": "2998869/40000000"
+ },
+ "mean_list_cost_per_try_float": {
+  "hx": 0.0111734403125,
+  "om": 0.074971725
+ },
+ "n": 16,
+ "ratio": "239909520/35755009",
+ "ratio_float": 6.7098156792521015,
+ "raw_k": 6,
+ "rows_left_out_by_set": {
+  "ext40-ledger-l14n6-v1": 3680,
+  "ladder-ledger-l14n12-v1": 20,
+  "ladder-ledger-l14n16-v1": 100,
+  "ladder-ledger-l14n6-v1": 160,
+  "main-ledger-l14n12-v1": 1760
+ },
+ "rows_left_out_by_tag": {
+  "hh": 800,
+  "hl": 800,
+  "hm": 800,
+  "ho": 800,
+  "hxh": 800
+ },
+ "rule": "k = floor(om mean list cost per try / hx mean list cost per try) on main-ledger-l14n16-v1, cap 10 (study1b-spec \u00a74)",
+ "samples_drawn": 10,
+ "set_id": "main-ledger-l14n16-v1",
+ "total_list_cost": {
+  "hx": "17.8775045",
+  "om": "23.990952"
+ }
+}

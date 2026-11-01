@@ -1,0 +1,1400 @@
+{
+ "output": {
+  "id": "TAB-09",
+  "kind": "table",
+  "label": "pre-specified descriptive (item 6); Pilot 1 exploratory",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Real time vs Batch and latency (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Pilot 1 real time next to Batch (exploratory)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Model"
+     },
+     {
+      "kind": "label",
+      "printed": "Mode"
+     },
+     {
+      "kind": "label",
+      "printed": "24×1 whole (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "24×1 per piece (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "1×24 whole (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "1×24 final (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "1×24 lines = key (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "1×24 local (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "1×24 format ok (%)"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "the number of base puzzles in the stamped range 'base puzzles a–b' of this heading: b - a + 1; the number matched by 'both shapes: (\\\\d+) puzzles\\\\)$' in this stamped string",
+       "kind": "num",
+       "printed": "Pilot 1 is exploratory (24 steps, a different puzzle set). The cells are for the 5 Pilot 1 puzzles of its real-time check, each as a chain and as pieces (10 in all).",
+       "raw": [
+        "## The real-time check next to Batch (l16 base puzzles 0–4, both shapes: 10 puzzles)",
+        "## The real-time check next to Batch (l16 base puzzles 0–4, both shapes: 10 puzzles)"
+       ],
+       "refs": [
+        {
+         "key": "L74",
+         "source": "pilot1_ledger"
+        },
+        {
+         "key": "L74",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "As the ledger words it: \"Real time: Haiku ×5, Opus ×1, Sonnet ×1 per puzzle; Batch: the same puzzles' Batch tries (Haiku ×10, Opus ×1, Sonnet ×1).\"",
+       "raw": "Real time: Haiku ×5, Opus ×1, Sonnet ×1 per puzzle; Batch: the same puzzles' Batch tries (Haiku ×10, Opus ×1, Sonnet ×1).",
+       "refs": [
+        {
+         "key": "L76",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule; cited line (not printed): the code or text that sets this rule",
+       "kind": "num",
+       "printed": "The measures, as Pilot 1's ledger defines them. 24×1 is the puzzle as separate pieces and 1×24 as one chain. Whole: the whole-answer accuracy under the original marking rule. Per piece (24×1): the share of pieces right. Final (1×24): the accuracy on the answer line alone (at 24×1 it equals the whole answer). Lines = key (1×24): the share of step lines equal to the key, over samples whose lines can be placed. Local (1×24): the per-step accuracy with each step judged from the model's own previous line, over samples whose lines can be placed. Format ok (1×24): the share of samples in the required answer format.",
+       "raw": [
+        "## Whole-answer accuracy (official D-76 score), with 95% intervals",
+        "## Final-answer view (the Answer line alone; at 24×1 it equals the whole answer)",
+        "24×1: share of pieces right. 1×24: (a) step lines equal to the key, (b) the local-slip per-step accuracy (each step judged from the",
+        "model's own previous line), (c) the first wrong step (median line number, over tries with a wrong line), over tries whose lines can be placed.",
+        "## Format compliance and truncations"
+       ],
+       "refs": [
+        {
+         "key": "L15",
+         "source": "pilot1_ledger"
+        },
+        {
+         "key": "L30",
+         "source": "pilot1_ledger"
+        },
+        {
+         "key": "L41",
+         "source": "pilot1_ledger"
+        },
+        {
+         "key": "L42",
+         "source": "pilot1_ledger"
+        },
+        {
+         "key": "L59",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Pilot 1's results file gives percentages to one decimal; the cells are copied from it without the percent sign. Calls per cell are the samples named in the Mode column, which keeps the ledger's own wording in quotation marks (its \"tries\" are samples)."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Marking rule: Pilot 1's results file was scored with the scorers that were official at the time, under the original marking rule, before Deviation 2. The paper's other tables use Deviation 2's rule; no re-score of these cells under it is stamped."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku-medium",
+       "raw": "haiku-5-5",
+       "refs": [
+        {
+         "key": "L80.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"real time (25+25 tries)\"",
+       "raw": "real time (25+25 tries)",
+       "refs": [
+        {
+         "key": "L80.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L80.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "79.2",
+       "raw": "79.2%",
+       "refs": [
+        {
+         "key": "L80.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L80.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L80.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "17.7",
+       "raw": "17.7%",
+       "refs": [
+        {
+         "key": "L80.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "75.1",
+       "raw": "75.1%",
+       "refs": [
+        {
+         "key": "L80.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "92.0",
+       "raw": "92.0%",
+       "refs": [
+        {
+         "key": "L80.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Haiku-medium",
+       "raw": "haiku-5-5",
+       "refs": [
+        {
+         "key": "L81.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"Batch (50+50 tries)\"",
+       "raw": "Batch (50+50 tries)",
+       "refs": [
+        {
+         "key": "L81.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L81.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "81.1",
+       "raw": "81.1%",
+       "refs": [
+        {
+         "key": "L81.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L81.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "0.0",
+       "raw": "0.0%",
+       "refs": [
+        {
+         "key": "L81.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "10.0",
+       "raw": "10.0%",
+       "refs": [
+        {
+         "key": "L81.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "76.5",
+       "raw": "76.5%",
+       "refs": [
+        {
+         "key": "L81.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "71.4",
+       "raw": "71.4%",
+       "refs": [
+        {
+         "key": "L81.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Opus-medium",
+       "raw": "opus-5-5",
+       "refs": [
+        {
+         "key": "L82.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"real time (5+5 tries)\"",
+       "raw": "real time (5+5 tries)",
+       "refs": [
+        {
+         "key": "L82.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L82.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Opus-medium",
+       "raw": "opus-5-5",
+       "refs": [
+        {
+         "key": "L83.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"Batch (5+5 tries)\"",
+       "raw": "Batch (5+5 tries)",
+       "refs": [
+        {
+         "key": "L83.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L83.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L83.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "60.0",
+       "raw": "60.0%",
+       "refs": [
+        {
+         "key": "L83.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "80.0",
+       "raw": "80.0%",
+       "refs": [
+        {
+         "key": "L83.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "80.2",
+       "raw": "80.2%",
+       "refs": [
+        {
+         "key": "L83.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "97.9",
+       "raw": "97.9%",
+       "refs": [
+        {
+         "key": "L83.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "80.0",
+       "raw": "80.0%",
+       "refs": [
+        {
+         "key": "L83.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Sonnet-medium",
+       "raw": "sonnet-5-5",
+       "refs": [
+        {
+         "key": "L84.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"real time (5+5 tries)\"",
+       "raw": "real time (5+5 tries)",
+       "refs": [
+        {
+         "key": "L84.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "20.0",
+       "raw": "20.0%",
+       "refs": [
+        {
+         "key": "L84.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "96.7",
+       "raw": "96.7%",
+       "refs": [
+        {
+         "key": "L84.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "40.0",
+       "raw": "40.0%",
+       "refs": [
+        {
+         "key": "L84.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "40.0",
+       "raw": "40.0%",
+       "refs": [
+        {
+         "key": "L84.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "52.5",
+       "raw": "52.5%",
+       "refs": [
+        {
+         "key": "L84.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "93.3",
+       "raw": "93.3%",
+       "refs": [
+        {
+         "key": "L84.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L84.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "Sonnet-medium",
+       "raw": "sonnet-5-5",
+       "refs": [
+        {
+         "key": "L85.Model",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "\"Batch (5+5 tries)\"",
+       "raw": "Batch (5+5 tries)",
+       "refs": [
+        {
+         "key": "L85.Mode",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "40.0",
+       "raw": "40.0%",
+       "refs": [
+        {
+         "key": "L85.24×1 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "95.0",
+       "raw": "95.0%",
+       "refs": [
+        {
+         "key": "L85.24×1 per piece",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "20.0",
+       "raw": "20.0%",
+       "refs": [
+        {
+         "key": "L85.1×24 whole",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "20.0",
+       "raw": "20.0%",
+       "refs": [
+        {
+         "key": "L85.1×24 final",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "26.7",
+       "raw": "26.7%",
+       "refs": [
+        {
+         "key": "L85.1×24 lines = key",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "95.8",
+       "raw": "95.8%",
+       "refs": [
+        {
+         "key": "L85.1×24 local",
+         "source": "pilot1_ledger"
+        }
+       ]
+      },
+      {
+       "formula": "strip the trailing %",
+       "kind": "num",
+       "printed": "100.0",
+       "raw": "100.0%",
+       "refs": [
+        {
+         "key": "L85.1×24 format ok",
+         "source": "pilot1_ledger"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "pilot1_ledger": {
+   "commit": "2b28bc4",
+   "path": "data/pilot/pilot-ledger-1-exploratory.md",
+   "sha256": "1fdf8225f044d6063b9c7f40bd52dbcf6a8d9d33ecc61ad275036430a77f201e"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "none: counts, medians and quartiles only"
+    }
+   ],
+   "n": [
+    {
+     "formula": "the number of distinct base numbers in the stamped puzzle ids; the number of stamped puzzle ids",
+     "kind": "num",
+     "printed": "5 puzzles, each as a chain and as pieces (10 in all); real-time calls: Haiku-medium 50, Opus-medium 10, Sonnet-medium 10",
+     "raw": [
+      5,
+      10,
+      50,
+      10,
+      10
+     ],
+     "refs": [
+      {
+       "key": "reporting.realtime.puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-haiku-med.calls",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-opus-med.calls",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-sonnet-med.calls",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no costs)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps (real-time subset)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive (the real-time check); the Pilot 1 panel is exploratory"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Calls"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy, real time (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy, Batch (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Difference, real time minus Batch (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "Mean output tokens per call, real time"
+   },
+   {
+    "kind": "label",
+    "printed": "Mean output tokens per call, Batch"
+   },
+   {
+    "kind": "label",
+    "printed": "Latency median (s)"
+   },
+   {
+    "kind": "label",
+    "printed": "Latency quartiles (s)"
+   },
+   {
+    "kind": "label",
+    "printed": "Latency p95 (s)"
+   },
+   {
+    "kind": "label",
+    "printed": "Latency max (s)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "num",
+     "printed": "Vote times are computed from single calls, not measured: all at once is the slowest of a puzzle's real-time calls, one after another is their sum; the figures are medians over puzzles. Only Haiku-medium has repeated real-time calls, so only it has vote times: a vote of its real-time calls takes a median of 7.30 s all at once and 34.51 s one after another.",
+     "raw": [
+      7.301,
+      34.5085
+     ],
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.vote_of_5.at_once_median",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-haiku-med.vote_of_5.one_after_another_median",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The real-time subset is a small check next to Batch; accuracy differences are of a few puzzles and carry no test."
+    }
+   ],
+   [
+    {
+     "formula": "the value every row of the table prints (the build refuses a column that is not constant)",
+     "kind": "num",
+     "printed": "Format compliance of Study 1's real-time calls is 100.00% for all three settings: the format-ok share of their answered samples, both shapes together (the per-shape counts are in TAB-07's Study 1 format panel). No format figure is stamped for the Batch samples on this subset; the settings' full Batch figures are in TAB-04.",
+     "raw": [
+      100.0,
+      100.0,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-haiku-med 1x6.answered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-haiku-med 6x1.answered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-opus-med 1x6.answered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-opus-med 6x1.answered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.format_ok",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-sonnet-med 1x6.answered",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_17.flags.rt-sonnet-med 6x1.answered",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Latency is the time of answered calls; quartiles are the first and third quartile; p95 is the time that 95% of the calls did not exceed, and max is the slowest call's."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium, real time"
+    },
+    {
+     "kind": "num",
+     "printed": "50",
+     "raw": 50,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.calls",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "54.00",
+     "raw": 0.54,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.accuracy_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "58.00",
+     "raw": 0.58,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.accuracy_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "−4.00",
+     "raw": -0.039999999999999925,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,791.3",
+     "raw": 1791.34,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.output_tokens_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,812.7",
+     "raw": 1812.74,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.output_tokens_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6.91",
+     "raw": 6.914,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.latency.median",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[6.51, 7.34]",
+     "raw": [
+      6.51075,
+      7.3355
+     ],
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.latency.quartiles.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-haiku-med.latency.quartiles.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8.00",
+     "raw": 8.0037,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.latency.p95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8.39",
+     "raw": 8.385,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-haiku-med.latency.max",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium, real time"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.calls",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90.00",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.accuracy_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.accuracy_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "−10.00",
+     "raw": -0.09999999999999998,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,797.4",
+     "raw": 1797.4,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.output_tokens_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,932.9",
+     "raw": 1932.9,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.output_tokens_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "16.20",
+     "raw": 16.201,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.latency.median",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[13.78, 16.89]",
+     "raw": [
+      13.77925,
+      16.88525
+     ],
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.latency.quartiles.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-opus-med.latency.quartiles.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "17.84",
+     "raw": 17.8384,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.latency.p95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "18.16",
+     "raw": 18.157,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-opus-med.latency.max",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium, real time"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.calls",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "70.00",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.accuracy_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "90.00",
+     "raw": 0.9,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.accuracy_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "−20.00",
+     "raw": -0.20000000000000007,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.accuracy_difference",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,280.4",
+     "raw": 1280.4,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.output_tokens_realtime",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1,285.3",
+     "raw": 1285.3,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.output_tokens_batch",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "7.77",
+     "raw": 7.766,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.latency.median",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[7.13, 8.30]",
+     "raw": [
+      7.1325,
+      8.302999999999999
+     ],
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.latency.quartiles.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.realtime.rt-sonnet-med.latency.quartiles.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8.63",
+     "raw": 8.6288,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.latency.p95",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8.74",
+     "raw": 8.735,
+     "refs": [
+      {
+       "key": "reporting.realtime.rt-sonnet-med.latency.max",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

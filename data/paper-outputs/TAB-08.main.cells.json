@@ -1,0 +1,1031 @@
+{
+ "output": {
+  "id": "TAB-08",
+  "kind": "table",
+  "label": "pre-specified exploratory (offline simulation)",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Escalate-to-Opus cascade, offline (appendix)"
+ },
+ "panels": [],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  }
+ },
+ "table": {
+  "caption": {
+   "columns": [
+    {
+     "kind": "label",
+     "printed": "what the printed notes leave out because the caption carries it: the cascade takes a vote of k_c Haiku-medium samples and escalates to Opus-medium when the top answer's share is below τ; τ is chosen on the odd-numbered puzzles and every other column is on the even-numbered puzzles; d and the cost difference are the cascade minus Opus-medium on the same puzzles (the cost header says so)"
+    }
+   ],
+   "full_table_only": [
+    {
+     "kind": "label",
+     "printed": "printed in the supplement's full table only: Opus-medium's own accuracy and list cost with their intervals (on pieces its accuracy interval is the exact interval of free analysis 4, post hoc), its accuracy on the odd-numbered puzzles, and each row's tau-rule text (the second note gives the rule and its one exception); a caption for this version should not describe them"
+    }
+   ],
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "bootstrap over puzzles, 95% intervals (bootstrap name stamped per row)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "even-numbered puzzles: 40; odd-numbered puzzles: 40; per puzzle the cascade uses k_c Haiku-medium samples, plus one Opus-medium sample when it escalates",
+     "raw": [
+      40,
+      40
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even_bases",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.odd_bases",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price per puzzle"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "pre-specified exploratory (offline simulation)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "k_c"
+   },
+   {
+    "kind": "label",
+    "printed": "τ"
+   },
+   {
+    "kind": "label",
+    "printed": "Escalated (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per puzzle ($) [95% interval]"
+   },
+   {
+    "kind": "label",
+    "printed": "Cost minus Opus-medium ($) [95% interval]"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "k_c: Haiku-medium samples per vote; the cascade escalates to Opus-medium when the top answer's share is below τ."
+    }
+   ],
+   [
+    {
+     "formula": "the tolerance written in every row's stamped tau rule (all equal); the name of this dict entry; the stamped reason, in plain words",
+     "kind": "num",
+     "printed": "τ: the cheapest value within 10 points of Opus-medium on the odd-numbered puzzles (chains, k_c = 5: none, so the most accurate).",
+     "raw": [
+      [
+       "none within 10 points: the highest odd-base accuracy",
+       "cheapest tau within 10 points of Opus-medium on the odd bases",
+       "cheapest tau within 10 points of Opus-medium on the odd bases",
+       "cheapest tau within 10 points of Opus-medium on the odd bases",
+       "cheapest tau within 10 points of Opus-medium on the odd bases",
+       "cheapest tau within 10 points of Opus-medium on the odd bases"
+      ],
+      5,
+      "none within 10 points: the highest odd-base accuracy"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.rule",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.rule",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "62.5",
+     "raw": 0.625,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "82.5 [70.0, 92.5]",
+     "raw": [
+      82.5,
+      [
+       70.0,
+       92.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−10.0 [−20.0, −2.5]",
+     "raw": [
+      -10.0,
+      [
+       -20.0,
+       -2.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0323 [0.0260, 0.0389]",
+     "raw": [
+      0.0322738375,
+      [
+       0.0259584,
+       0.038937025
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00937 [−0.0155, −0.00327]",
+     "raw": [
+      -0.009374262500000001,
+      [
+       -0.015454812500000002,
+       -0.0032735250000000002
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.5.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.8",
+     "raw": 0.8,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "70.0",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.0 [80.0, 97.5]",
+     "raw": [
+      90.0,
+      [
+       80.0,
+       97.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−2.5 [−7.5, 0.0]",
+     "raw": [
+      -2.5,
+      [
+       -7.5,
+       0.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0408 [0.0340, 0.0471]",
+     "raw": [
+      0.0408262875,
+      [
+       0.0340266375,
+       0.047140325
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.000822 [−0.00719, 0.00490]",
+     "raw": [
+      -0.0008218125000000002,
+      [
+       -0.0071892000000000015,
+       0.004901612499999999
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.10.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "chains"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "67.5",
+     "raw": 0.675,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.0 [80.0, 97.5]",
+     "raw": [
+      90.0,
+      [
+       80.0,
+       97.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−2.5 [−7.5, 0.0]",
+     "raw": [
+      -2.5,
+      [
+       -7.5,
+       0.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0509 [0.0440, 0.0578]",
+     "raw": [
+      0.050949062499999996,
+      [
+       0.043963312500000004,
+       0.0577942875
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.00930 [0.00287, 0.0151]",
+     "raw": [
+      0.009300962500000001,
+      [
+       0.002871775000000001,
+       0.015149025
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.1x6.20.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "47.5",
+     "raw": 0.475,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "87.5 [77.5, 97.5]",
+     "raw": [
+      87.5,
+      [
+       77.5,
+       97.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−12.5 [−22.5, −2.5]",
+     "raw": [
+      -12.5,
+      [
+       -22.5,
+       -2.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0290 [0.0213, 0.0369]",
+     "raw": [
+      0.0289858375,
+      [
+       0.0213005,
+       0.03685365
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0199 [−0.0272, −0.0124]",
+     "raw": [
+      -0.019868662500000002,
+      [
+       -0.0272422875,
+       -0.012423325
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.5.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.7",
+     "raw": 0.7,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "52.5",
+     "raw": 0.525,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.5 [85.0, 100.0]",
+     "raw": [
+      92.5,
+      [
+       85.0,
+       100.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−7.5 [−15.0, 0.0]",
+     "raw": [
+      -7.5,
+      [
+       -15.0,
+       0.0
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0366 [0.0293, 0.0447]",
+     "raw": [
+      0.036647,
+      [
+       0.029257250000000002,
+       0.0447135375
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.0122 [−0.0195, −0.00470]",
+     "raw": [
+      -0.0122075,
+      [
+       -0.0195320375,
+       -0.004697962499999999
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.10.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "pieces"
+    },
+    {
+     "formula": "the name of this dict entry",
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.6",
+     "raw": 0.6,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.recommended_tau",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "45.0",
+     "raw": 0.45,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_escalation_rate",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.0 [80.0, 97.5]",
+     "raw": [
+      90.0,
+      [
+       80.0,
+       97.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_accuracy_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−10.0 [−20.0, −2.5]",
+     "raw": [
+      -10.0,
+      [
+       -20.0,
+       -2.5
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.accuracy_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0441 [0.0370, 0.0518]",
+     "raw": [
+      0.04413575,
+      [
+       0.0370262125,
+       0.05184165
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cascade_mean_cost_ci95.1",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.00472 [−0.0117, 0.00266]",
+     "raw": [
+      -0.004718749999999999,
+      [
+       -0.011718474999999999,
+       0.0026613750000000005
+      ]
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference_ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_9e.shapes.6x1.20.even.cost_difference_ci95.1",
+       "source": "main"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

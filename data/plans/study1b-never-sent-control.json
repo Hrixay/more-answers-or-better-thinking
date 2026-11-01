@@ -1,0 +1,180 @@
+{
+ "folders_searched": [
+  "/var/folders/9f/5bv127416m512s62z83ys3100000gn/T/emptydata"
+ ],
+ "other_files_scanned": 0,
+ "runs_scanned": {
+  "check-ledger-1": {
+   "ids": 20,
+   "lines": 20,
+   "prompt_hashes": 10
+  },
+  "diag-haiku-effort-1": {
+   "ids": 36,
+   "lines": 36,
+   "prompt_hashes": 24
+  },
+  "ladder-l14n-1": {
+   "ids": 2400,
+   "lines": 2415,
+   "prompt_hashes": 200
+  },
+  "main-l14n6-1": {
+   "ids": 21876,
+   "lines": 21904,
+   "prompt_hashes": 680
+  },
+  "pilot-ledger-1": {
+   "ids": 670,
+   "lines": 676,
+   "prompt_hashes": 50
+  },
+  "s3-ledger-1": {
+   "ids": 5,
+   "lines": 8,
+   "prompt_hashes": 5
+  },
+  "smoke-1": {
+   "ids": 1,
+   "lines": 1,
+   "prompt_hashes": 1
+  },
+  "smoke-2": {
+   "ids": 9,
+   "lines": 12,
+   "prompt_hashes": 2
+  }
+ },
+ "sets": {
+  "ladder-ledger-l14n16-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 40,
+   "items_sha256": "0503cf11971e8b5a00221f0eb0573f47497490732941478f88f5afa55ecbb12b",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": false,
+   "sent_by_id": {
+    "count": 480,
+    "first": [
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-01"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-02"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-03"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-04"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1-hm-05"
+     ]
+    ]
+   },
+   "sent_by_prompt_hash": {
+    "count": 40,
+    "first": [
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-16x1"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-000-1x16"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-001-16x1"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-001-1x16"
+     ],
+     [
+      "ladder-l14n-1",
+      "ladder-ledger-l14n16-v1-002-16x1"
+     ]
+    ]
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   }
+  },
+  "main-ledger-l14n6-v1": {
+   "in_other_data_files": {
+    "count": 0,
+    "first": []
+   },
+   "items": 160,
+   "items_sha256": "11deebd8109adfcc7a1332006ceb63db6e14ab170a8afaf8fe4b8bd6f17f09bf",
+   "items_sha256_matches_manifest": true,
+   "never_in_other_files": true,
+   "never_sent": false,
+   "sent_by_id": {
+    "count": 21876,
+    "first": [
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0101"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0102"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0201"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0202"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6-es-0203"
+     ]
+    ]
+   },
+   "sent_by_prompt_hash": {
+    "count": 160,
+    "first": [
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-1x6"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-000-6x1"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-001-1x6"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-001-6x1"
+     ],
+     [
+      "main-l14n6-1",
+      "main-ledger-l14n6-v1-002-1x6"
+     ]
+    ]
+   },
+   "sent_under_set_prefix": {
+    "count": 0,
+    "first": []
+   }
+  }
+ }
+}

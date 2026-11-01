@@ -1,0 +1,9 @@
+Setting,Study 1 chain (%),Study 1b chain (%),"Difference, chain (points)",Study 1 pieces (%),Study 1b pieces (%),"Difference, pieces (points)",Study 1 pooled (%),Study 1b pooled (%),"Difference, pooled (points)"
+"Haiku, thinking off",22.00,26.50,+4.50,23.50,28.50,+5.00,22.75,27.50,+4.75
+Haiku-low,39.22,52.50,+13.28,46.50,53.00,+6.50,42.86,52.75,+9.89
+Haiku-medium,43.72,52.00,+8.28,51.00,57.00,+6.00,47.36,54.50,+7.14
+Haiku-max,97.50,97.25,−0.25,95.00,94.25,−0.75,96.25,95.75,−0.50
+Sonnet-low,71.25,77.50,+6.25,76.25,82.50,+6.25,73.75,80.00,+6.25
+Sonnet-medium,80.00,77.50,−2.50,75.00,82.50,+7.50,77.50,80.00,+2.50
+Opus-low,97.50,97.50,0.00,100.00,100.00,0.00,98.75,98.75,0.00
+Opus-medium,96.25,98.75,+2.50,100.00,100.00,0.00,98.13,99.38,+1.25

@@ -1,0 +1,46 @@
+{
+ "base": {
+  "claude-fable-5-1": {
+   "cache_read": "0.25",
+   "cache_write_1h": "20",
+   "cache_write_5m": "12.50",
+   "input": "10",
+   "output": "50"
+  },
+  "claude-haiku-5-5": {
+   "cache_read": "0.01",
+   "cache_write_1h": "0.20",
+   "cache_write_5m": "0.125",
+   "input": "0.10",
+   "output": "0.50"
+  },
+  "claude-opus-5-5": {
+   "cache_read": "0.20",
+   "cache_write_1h": "8",
+   "cache_write_5m": "5",
+   "input": "4",
+   "output": "20"
+  },
+  "claude-sonnet-5-5": {
+   "cache_read": "0.10",
+   "cache_write_1h": "4",
+   "cache_write_5m": "2.50",
+   "input": "2",
+   "output": "10"
+  }
+ },
+ "batch": "every rate x 0.5 (prices.cost with batch=True; checked here for each model)",
+ "long_prompt": {
+  "claude-haiku-5-5": {
+   "cache_read": "0.05",
+   "cache_write_1h": "1",
+   "cache_write_5m": "0.625",
+   "input": "0.50",
+   "output": "2.50"
+  }
+ },
+ "long_prompt_rule": "a Haiku request whose prompt tokens exceed 100,000 is billed whole at the long-prompt row",
+ "source": "harness/pareto/prices.py; its dated checks of the pricing page are in research/facts-checked.md",
+ "table_date_in_code": "2026-10-12",
+ "unit": "US dollars per million tokens"
+}

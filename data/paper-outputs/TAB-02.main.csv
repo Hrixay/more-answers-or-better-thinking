@@ -1,0 +1,11 @@
+Test,Challenger vs comparator,Accuracy (%),Format compliance (%),d (points) [95% interval],Error-rate ratio [95% interval],Decision (by > 10 points) and views
+Test 1,"Haiku-medium vote, k = 40",66.9,99.7,−33.1,undefined,worse
+,"vs Opus-medium, pieces",100.0,100.0,"[−43.8, −23.8]",(comparator errors 0 of 80),views agree
+Test 2,"Haiku-medium vote, k = 36",58.6,98.6,−37.6,11.0,worse
+,"vs Opus-medium, chains",96.3,97.5,"[−48.8, −27.0]","[4.7, unbounded]",views agree
+Test 3,"Haiku-medium vote, k = 13",55.3,98.6,−24.7,2.2,worse
+,"vs Sonnet-medium, chains",80.0,97.5,"[−36.1, −12.2]","[1.5, 3.9]",views differ
+Test 4,Step voting,53.8,—,−42.5,12.3,worse
+,"vs Opus-medium, chains",96.3,97.5,"[−53.8, −30.0]","[5.2, unbounded]",views agree
+Test 5,Opus-low,97.5,98.8,+17.5,0.1,shown no worse
+,"vs Sonnet-medium, chains",80.0,97.5,"[8.8, 27.5]","[0.0, 0.4]",views agree

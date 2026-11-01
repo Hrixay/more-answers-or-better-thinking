@@ -1,0 +1,4353 @@
+{
+ "output": {
+  "id": "TAB-06",
+  "kind": "table",
+  "label": "pre-specified descriptive (computed after the confirmatory results were opened)",
+  "section": "Results: Study 1 (appendix)",
+  "title": "Keep-list analyses (appendix)"
+ },
+ "panels": [
+  {
+   "name": "C5: shape-by-setup interaction (Tests 1 and 2)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Quantity"
+     },
+     {
+      "kind": "label",
+      "printed": "k"
+     },
+     {
+      "kind": "label",
+      "printed": "Value (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "95% interval"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "cited (not printed): which shapes k.json caps, and by what; cited (not printed): which shapes k.json caps, and by what",
+       "kind": "num",
+       "printed": "k_O is the Haiku-medium vote's k against Opus-medium at that shape, the k of Test 1 (6×1) and of Test 2 (1×6) in TAB-02: its cost-matched k, held at the cap of 40 on 6×1 (raw k 44).",
+       "raw": [
+        40,
+        44,
+        "cap",
+        null
+       ],
+       "refs": [
+        {
+         "key": "k_from_rows.opus.6x1.cap",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.raw_k",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.capped_by",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.1x6.capped_by",
+         "source": "main_k"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Sign: Test 1 (6×1) minus Test 2 (1×6), each the Haiku-medium vote at its k_O minus Opus-medium."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Tests 1 and 2's rows repeat their confirmatory d and interval (paired BCa bootstrap, as in TAB-02); the interaction's interval is the shared cluster bootstrap."
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "C5 panel: 80 puzzles in every row.",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "item_C5.n_bases",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test 1 (6×1): Haiku-medium vote minus Opus-medium (confirmatory, as in TAB-02)"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C5.k_O.6x1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−33.13",
+       "raw": -33.125,
+       "refs": [
+        {
+         "key": "confirmatory.views.as_deployed.tests.t1.d",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−43.75, −23.75]",
+       "raw": [
+        -43.75,
+        -23.75
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.views.as_deployed.tests.t1.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "confirmatory.views.as_deployed.tests.t1.ci95.1",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test 2 (1×6): Haiku-medium vote minus Opus-medium (confirmatory, as in TAB-02)"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C5.k_O.1x6",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−37.64",
+       "raw": -37.642737626290256,
+       "refs": [
+        {
+         "key": "confirmatory.views.as_deployed.tests.t2.d",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−48.82, −26.96]",
+       "raw": [
+        -48.82033729073203,
+        -26.964504230951597
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.views.as_deployed.tests.t2.ci95.0",
+         "source": "main"
+        },
+        {
+         "key": "confirmatory.views.as_deployed.tests.t2.ci95.1",
+         "source": "main"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Shape-by-setup interaction: Test 1 minus Test 2"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "+4.52",
+       "raw": 4.517737626290257,
+       "refs": [
+        {
+         "key": "item_C5.interaction",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−9.85, 18.23]",
+       "raw": [
+        -9.851130229419704,
+        18.229478972900026
+       ],
+       "refs": [
+        {
+         "key": "item_C5.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C5.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "C7: difficulty bins and the crossover",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "k_O"
+     },
+     {
+      "kind": "label",
+      "printed": "Single-sample accuracy bin (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles"
+     },
+     {
+      "kind": "label",
+      "printed": "Haiku-medium single sample (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Haiku-medium vote at k_O (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Opus-medium (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Vote reaches Opus within k_O"
+     },
+     {
+      "kind": "label",
+      "printed": "Smallest k reaching Opus"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "cited (not printed): which shapes k.json caps, and by what; cited (not printed): which shapes k.json caps, and by what",
+       "kind": "num",
+       "printed": "k_O is the Haiku-medium vote's k against Opus-medium at that shape, the k of Test 1 (6×1) and of Test 2 (1×6) in TAB-02: its cost-matched k, held at the cap of 40 on 6×1 (raw k 44).",
+       "raw": [
+        40,
+        44,
+        "cap",
+        null
+       ],
+       "refs": [
+        {
+         "key": "k_from_rows.opus.6x1.cap",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.raw_k",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.capped_by",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.1x6.capped_by",
+         "source": "main_k"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "1×6, as stamped: \"the lowest single-try accuracy bin at which a vote within k_O reaches Opus: [60,70) (k_O = 36)\".",
+       "raw": "the lowest single-try accuracy bin at which a vote within k_O reaches Opus: [60,70) (k_O = 36)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.sentence",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+       "kind": "num",
+       "printed": "6×1, as stamped: \"the lowest single-try accuracy bin at which a vote within k_O reaches Opus: [50,60) (k_O = 40)\".",
+       "raw": "the lowest single-try accuracy bin at which a vote within k_O reaches Opus: [50,60) (k_O = 40)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.sentence",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "16",
+       "raw": 16,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "3.59",
+       "raw": 0.0359375,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.15",
+       "raw": 0.0015378232483495642,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "93.75",
+       "raw": 0.9375,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[0,10)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[10,20)",
+       "raw": "[10,20)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "14.06",
+       "raw": 0.140625,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "30.10",
+       "raw": 0.30096632563737824,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[10,20)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "22.08",
+       "raw": 0.22083333333333335,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "29.20",
+       "raw": 0.29201681438523547,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[20,30)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[30,40)",
+       "raw": "[30,40)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "32.81",
+       "raw": 0.328125,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "48.58",
+       "raw": 0.4857943976365029,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "87.50",
+       "raw": 0.875,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[30,40)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "43.61",
+       "raw": 0.4361111111111111,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "66.88",
+       "raw": 0.6687511398037713,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[40,50)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[50,60)",
+       "raw": "[50,60)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "53.44",
+       "raw": 0.534375,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.45",
+       "raw": 0.9745322245322245,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "39",
+       "raw": 39,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[50,60)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "64.17",
+       "raw": 0.6416666666666667,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "66.67",
+       "raw": 0.6666666666666666,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[60,70)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[70,80)",
+       "raw": "[70,80)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "73.93",
+       "raw": 0.7392857142857142,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "22",
+       "raw": 22,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[70,80)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[80,90)",
+       "raw": "[80,90)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "84.38",
+       "raw": 0.84375,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[80,90)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[90,100]",
+       "raw": "[90,100]",
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "11",
+       "raw": 11,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "96.82",
+       "raw": 0.9681818181818183,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "item_C7.shapes.1x6.bins['[90,100]'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "2.19",
+       "raw": 0.021875000000000002,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[0,10)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[10,20)",
+       "raw": "[10,20)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "12.08",
+       "raw": 0.12083333333333333,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[10,20)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "24.44",
+       "raw": 0.24444444444444446,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "22.22",
+       "raw": 0.2222222222222222,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[20,30)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[30,40)",
+       "raw": "[30,40)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "31.67",
+       "raw": 0.31666666666666665,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[30,40)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "12",
+       "raw": 12,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "43.96",
+       "raw": 0.4395833333333334,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "79.17",
+       "raw": 0.7916666666666666,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "no",
+       "raw": false,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "none up to 40",
+       "raw": "none up to 40",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[40,50)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[50,60)",
+       "raw": "[50,60)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "53.13",
+       "raw": 0.53125,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "39",
+       "raw": 39,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[50,60)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "62.14",
+       "raw": 0.6214285714285713,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "31",
+       "raw": 31,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[60,70)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[70,80)",
+       "raw": "[70,80)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "74.72",
+       "raw": 0.7472222222222222,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "21",
+       "raw": 21,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[70,80)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[80,90)",
+       "raw": "[80,90)",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "82.78",
+       "raw": 0.8277777777777778,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "16",
+       "raw": 16,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[80,90)'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[90,100]",
+       "raw": "[90,100]",
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]']",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].puzzles",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "96.67",
+       "raw": 0.9666666666666666,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].haiku_med_single_try_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].mean_vote_at_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].opus_med_mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "yes",
+       "raw": true,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].reaches_within_k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "item_C7.shapes.6x1.bins['[90,100]'].smallest_k_reaching_opus",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "C9: wrong-sample agreement against vote gain",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "k_O"
+     },
+     {
+      "kind": "label",
+      "printed": "Spearman rho, wrong-sample agreement against vote gain"
+     },
+     {
+      "kind": "label",
+      "printed": "95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles kept"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles left out (fewer than two wrong samples)"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "cited (not printed): which shapes k.json caps, and by what; cited (not printed): which shapes k.json caps, and by what",
+       "kind": "num",
+       "printed": "k_O is the Haiku-medium vote's k against Opus-medium at that shape, the k of Test 1 (6×1) and of Test 2 (1×6) in TAB-02: its cost-matched k, held at the cap of 40 on 6×1 (raw k 44).",
+       "raw": [
+        40,
+        44,
+        "cap",
+        null
+       ],
+       "refs": [
+        {
+         "key": "k_from_rows.opus.6x1.cap",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.raw_k",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.6x1.capped_by",
+         "source": "main_k"
+        },
+        {
+         "key": "k_from_rows.opus.1x6.capped_by",
+         "source": "main_k"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "The file's own words for the unit: \"vote gain in points; agreement a share\"; the puzzles left out are counted, not used in the correlation.",
+       "raw": "vote gain in points; agreement a share",
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.unit",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "36",
+       "raw": 36,
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.18",
+       "raw": -0.18400831496102094,
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.rho",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−0.40, 0.04]",
+       "raw": [
+        -0.39885758946502675,
+        0.04286851711534054
+       ],
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C9.shapes.1x6.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "74",
+       "raw": 74,
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.n_kept",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "item_C9.shapes.1x6.n_left_out",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "item_C9.shapes.6x1.k_O",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.30",
+       "raw": -0.30284264679333256,
+       "refs": [
+        {
+         "key": "item_C9.shapes.6x1.rho",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−0.50, −0.09]",
+       "raw": [
+        -0.49833565789324147,
+        -0.09464360568139218
+       ],
+       "refs": [
+        {
+         "key": "item_C9.shapes.6x1.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C9.shapes.6x1.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "75",
+       "raw": 75,
+       "refs": [
+        {
+         "key": "item_C9.shapes.6x1.n_kept",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "item_C9.shapes.6x1.n_left_out",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "C10: effort pairs with cost differences",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Pair (low minus medium effort)"
+     },
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Low-effort accuracy (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Low-effort format compliance (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Medium-effort accuracy (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Medium-effort format compliance (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "d (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "d 95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "Low-effort list cost per sample ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Medium-effort list cost per sample ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Cost difference ($ per sample)"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "num",
+       "printed": "Costs are the mean list cost of one sample (for Opus, its one answer); the cost difference is low effort minus medium effort. The file's own words for the status: \"exploratory: no Holm, no verdict\".",
+       "raw": "exploratory: no Holm, no verdict",
+       "refs": [
+        {
+         "key": "item_C10.exploratory",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Where both settings are at the ceiling, the bootstrap interval of d collapses to one point (marked collapsed). The difference itself has no exact interval in free analysis 4, which gives each setting's exact 95% interval instead (Clopper–Pearson over puzzles), printed in that setting's accuracy cell as post hoc† (exact): a presentation only, not a test."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low minus Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "39.22",
+       "raw": 39.21875,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.accuracy_means.haiku-low",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.13",
+       "raw": 0.98125,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_10.arms.haiku-low 1x6.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "43.72",
+       "raw": 43.71875,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.accuracy_means.haiku-med",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.59",
+       "raw": 0.9859375,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.haiku-med.1x6.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−4.50",
+       "raw": -4.5,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.d",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−6.91, −2.13]",
+       "raw": [
+        -6.90625,
+        -2.125
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00103",
+       "raw": 0.001031584375,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.cost_9b.haiku-low.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00110",
+       "raw": 0.00110017171875,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.cost_9b.haiku-med.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.0000686",
+       "raw": -6.858734375e-05,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:1x6.cost_difference_usd",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-low minus Haiku-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "46.50",
+       "raw": 46.5,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.accuracy_means.haiku-low",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.66",
+       "raw": 0.9965625,
+       "refs": [
+        {
+         "key": "reporting.group_b.item_10.arms.haiku-low 6x1.format_compliance.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "51.00",
+       "raw": 51.0,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.accuracy_means.haiku-med",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.72",
+       "raw": 0.9971875,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.haiku-med.6x1.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−4.50",
+       "raw": -4.5,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.d",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.84, −1.09]",
+       "raw": [
+        -7.84375,
+        -1.09375
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00103",
+       "raw": 0.0010258584375,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.cost_9b.haiku-low.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00109",
+       "raw": 0.0010930271875,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.cost_9b.haiku-med.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.0000672",
+       "raw": -6.716875e-05,
+       "refs": [
+        {
+         "key": "item_C10.pairs.haiku-low-vs-haiku-med:6x1.cost_difference_usd",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low minus Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "1×6"
+      },
+      {
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 97.5,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.accuracy_means.opus-low",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "98.75",
+       "raw": 0.9875,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.opus-low.1x6.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "96.25",
+       "raw": 96.25,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.accuracy_means.opus-med",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "97.50",
+       "raw": 0.975,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.opus-med.1x6.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+1.25",
+       "raw": 1.25,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.d",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−3.75, 7.50]",
+       "raw": [
+        -3.75,
+        7.5
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0365",
+       "raw": 0.036531,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.cost_9b.opus-low.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0402",
+       "raw": 0.040241,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.cost_9b.opus-med.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.00371",
+       "raw": -0.00371,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.cost_difference_usd",
+         "source": "groupc"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Opus-low minus Opus-medium"
+      },
+      {
+       "kind": "label",
+       "printed": "6×1"
+      },
+      {
+       "kind": "num",
+       "printed": "100.00 [95.49, 100.00] post hoc† (exact)",
+       "raw": [
+        100.0,
+        [
+         95.49359649323077,
+         100.0
+        ]
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.accuracy_means.opus-low",
+         "source": "groupc"
+        },
+        {
+         "key": "result.cells.2.exact95.0",
+         "source": "fa4"
+        },
+        {
+         "key": "result.cells.2.exact95.1",
+         "source": "fa4"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.opus-low.6x1.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00 [95.49, 100.00] post hoc† (exact)",
+       "raw": [
+        100.0,
+        [
+         95.49359649323077,
+         100.0
+        ]
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.accuracy_means.opus-med",
+         "source": "groupc"
+        },
+        {
+         "key": "result.cells.3.exact95.0",
+         "source": "fa4"
+        },
+        {
+         "key": "result.cells.3.exact95.1",
+         "source": "fa4"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 1.0,
+       "refs": [
+        {
+         "key": "confirmatory.format_compliance.opus-med.6x1.format_compliance",
+         "source": "main"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00",
+       "raw": 0.0,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.d",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[0.00, 0.00] (collapsed)",
+       "raw": [
+        0.0,
+        0.0
+       ],
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.ci95.0",
+         "source": "groupc"
+        },
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.ci95.1",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0449",
+       "raw": 0.0448643,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.cost_9b.opus-low.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0481",
+       "raw": 0.0481223,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.cost_9b.opus-med.mean",
+         "source": "groupc"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.00326",
+       "raw": -0.003258,
+       "refs": [
+        {
+         "key": "item_C10.pairs.opus-low-vs-opus-med:6x1.cost_difference_usd",
+         "source": "groupc"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "groupc": {
+   "commit": "2830340",
+   "path": "data/main/main-l14n6-1/groupc.json",
+   "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "95% intervals. Shared cluster bootstrap for C2, C3, the C5 interaction and C9 (2,000 draws, stamped on C2 and C9); paired BCa bootstrap for Tests 1 and 2 in the C5 panel (their confirmatory intervals, B = 10,000) and for the C10 effort pairs (B = 10,000); exact Clopper–Pearson for the post hoc per-setting intervals at the ceiling.",
+     "raw": [
+      2000,
+      10000,
+      10000
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-med.draws",
+       "source": "groupc"
+      },
+      {
+       "key": "confirmatory.views.as_deployed.B",
+       "source": "main"
+      },
+      {
+       "key": "item_C10.pairs.opus-low-vs-opus-med:1x6.B",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "num",
+     "printed": "puzzles: 80; samples per puzzle and shape as in TAB-04 (the Haiku settings' accuracies are means over their samples)",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-med.n_bases",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "list price (effort pairs)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "the Study 1 main-run puzzle set at 6 steps: each puzzle as a chain (1×6) and as pieces (6×1)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1, main run, 6 steps"
+    }
+   ],
+   "tier": [
+    {
+     "formula": "the stamped label, in the paper's words",
+     "kind": "num",
+     "printed": "pre-specified descriptive (keep-list definitions stamped before the data; computed after the confirmatory results were opened); Tests 1 and 2's rows in the C5 panel repeat their confirmatory results; the C10 pairs are exploratory; the exact per-setting intervals at the ceiling are post hoc",
+     "raw": "pre-specified descriptive (definition fixed and timestamped before the data, D-93 stamp; computed after the confirmatory results were opened, because it was not in the stamped driver)",
+     "refs": [
+      {
+       "key": "label",
+       "source": "groupc"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "C2 statistic"
+   },
+   {
+    "kind": "label",
+    "printed": "C2 correlation, 6×1 against 1×6"
+   },
+   {
+    "kind": "label",
+    "printed": "C2 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "C2 undefined where"
+   },
+   {
+    "kind": "label",
+    "printed": "C3 accuracy 1×6 (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance 1×6 (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "C3 accuracy 6×1 (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance 6×1 (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "C3 d: 6×1 minus 1×6 (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "C3 95% interval"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "C2 is the correlation, across the puzzles, of each puzzle's accuracy at 6×1 and at 1×6 (Pearson for the Haiku settings, phi for one-sample settings); C3 is the paired difference 6×1 minus 1×6. A correlation is undefined where a setting has no variation at one shape (the cell shows the stamped text)."
+    }
+   ],
+   [
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "C2 definition, as stamped: \"Per arm, across the 80 base puzzles: the Pearson correlation of per-puzzle accuracy at 6×1 and at 1×6. For the Haiku arms that is each puzzle's share right of its tries; for one-try arms it is 0/1, which gives the phi coefficient. Shared cluster bootstrap 95%. Descriptive\".",
+     "raw": "Per arm, across the 80 base puzzles: the Pearson correlation of per-puzzle accuracy at 6×1 and at 1×6. For the Haiku arms that is each puzzle's share right of its tries; for one-try arms it is 0/1, which gives the phi coefficient. Shared cluster bootstrap 95%. Descriptive",
+     "refs": [
+      {
+       "key": "item_C2.definition",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "the stamped text, verbatim in quotation marks (a quotation mark inside it as a single one)",
+     "kind": "num",
+     "printed": "C3 definition, as stamped: \"Per arm: the paired difference in whole-answer accuracy, 6×1 minus 1×6, over the 80 bases, with the shared cluster bootstrap 95%. Descriptive. This is also the 'structure effect'\".",
+     "raw": "Per arm: the paired difference in whole-answer accuracy, 6×1 minus 1×6, over the 80 bases, with the shared cluster bootstrap 95%. Descriptive. This is also the \"structure effect\"",
+     "refs": [
+      {
+       "key": "item_C3.definition",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "In the stamped texts (the C2 and C3 definitions and the C7 sentences), \"arm\" means setting, \"base puzzle\" and \"bases\" mean puzzle and puzzles, and \"try\" and \"tries\" mean sample and samples."
+    }
+   ],
+   [
+    {
+     "formula": "the value every row of the table prints (the build refuses a column that is not constant)",
+     "kind": "num",
+     "printed": "C2 and C3: 80 puzzles in every row.",
+     "raw": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-thinking-off.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-low.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-med.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-max.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.opus-low.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.opus-med.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.sonnet-low.n_bases",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.sonnet-med.n_bases",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance is the share of the setting's answered samples in the required answer format at that shape (from the main analysis), beside each C3 accuracy."
+    }
+   ],
+   [
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "Haiku-max's C2 interval leaves out the 9 of 2,000 bootstrap draws in which the correlation was undefined (0.45% of the draws).",
+     "raw": [
+      9,
+      2000,
+      0.0045
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-max.draws_dropped_undefined",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-max.draws",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-max.share_draws_dropped",
+       "source": "groupc"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku, thinking off"
+    },
+    {
+     "kind": "num",
+     "printed": "Pearson",
+     "raw": "Pearson",
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-thinking-off.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.20",
+     "raw": 0.19587722439157237,
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-thinking-off.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.09, 0.45]",
+     "raw": [
+      -0.0907088119970163,
+      0.4459636902318589
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-thinking-off.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-thinking-off.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "22.00",
+     "raw": 22.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-thinking-off.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "81.72",
+     "raw": 0.8171875,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-thinking-off 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "23.50",
+     "raw": 23.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-thinking-off.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.56",
+     "raw": 0.995625,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-thinking-off 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.50",
+     "raw": 1.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-thinking-off.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−4.81, 8.34]",
+     "raw": [
+      -4.8125,
+      8.34375
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-thinking-off.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-thinking-off.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-low"
+    },
+    {
+     "kind": "num",
+     "printed": "Pearson",
+     "raw": "Pearson",
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-low.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.26",
+     "raw": 0.26206482668261216,
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-low.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.05, 0.45]",
+     "raw": [
+      0.04993323043265408,
+      0.45037525892994934
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-low.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-low.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "39.22",
+     "raw": 39.21875,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-low.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.13",
+     "raw": 0.98125,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-low 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "46.50",
+     "raw": 46.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-low.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.66",
+     "raw": 0.9965625,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-low 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+7.28",
+     "raw": 7.28125,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-low.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.94, 15.16]",
+     "raw": [
+      -0.9375,
+      15.15625
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-low.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-low.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "Pearson",
+     "raw": "Pearson",
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-med.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.20",
+     "raw": 0.2006082642154241,
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-med.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.02, 0.40]",
+     "raw": [
+      -0.017757198404777512,
+      0.39566111244549274
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-med.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-med.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "43.72",
+     "raw": 43.71875,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-med.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.59",
+     "raw": 0.9859375,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.haiku-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "51.00",
+     "raw": 51.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-med.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.72",
+     "raw": 0.9971875,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.haiku-med.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+7.28",
+     "raw": 7.28125,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-med.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.47, 15.38]",
+     "raw": [
+      -1.46875,
+      15.375
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-med.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-med.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "Pearson",
+     "raw": "Pearson",
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-max.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.12",
+     "raw": 0.116008199480861,
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-max.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.09, 0.44]",
+     "raw": [
+      -0.08817538310581412,
+      0.44342202660886976
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.haiku-max.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.haiku-max.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-max.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 95.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-max.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.58",
+     "raw": 0.9958333333333333,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−2.50",
+     "raw": -2.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-max.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−6.25, 0.83]",
+     "raw": [
+      -6.25,
+      0.8333333333333333
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.haiku-max.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.haiku-max.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-low"
+    },
+    {
+     "kind": "num",
+     "printed": "phi (Pearson on 0/1)",
+     "raw": "phi (Pearson on 0/1)",
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-low.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "undefined (no variation)",
+     "raw": "undefined (no variation)",
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-low.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "6×1 has no variation",
+     "raw": [
+      false,
+      true
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-low.why_undefined.1x6",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.opus-low.why_undefined.6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-low.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 0.9875,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-low.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-low.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-low.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+2.50",
+     "raw": 2.5,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-low.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.00, 6.25]",
+     "raw": [
+      0.0,
+      6.25
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-low.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.opus-low.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "phi (Pearson on 0/1)",
+     "raw": "phi (Pearson on 0/1)",
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-med.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "undefined (no variation)",
+     "raw": "undefined (no variation)",
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-med.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "6×1 has no variation",
+     "raw": [
+      false,
+      true
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.opus-med.why_undefined.1x6",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.opus-med.why_undefined.6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-med.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-med.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.opus-med.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+3.75",
+     "raw": 3.75,
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-med.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.00, 8.75]",
+     "raw": [
+      0.0,
+      8.75
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.opus-med.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.opus-med.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-low"
+    },
+    {
+     "kind": "num",
+     "printed": "phi (Pearson on 0/1)",
+     "raw": "phi (Pearson on 0/1)",
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-low.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.03",
+     "raw": 0.03488392882831374,
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-low.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.19, 0.25]",
+     "raw": [
+      -0.18992733985605437,
+      0.2519516299301345
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-low.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.sonnet-low.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "71.25",
+     "raw": 71.25,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-low.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.sonnet-low 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "76.25",
+     "raw": 76.25,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-low.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.sonnet-low 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+5.00",
+     "raw": 5.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-low.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−8.75, 18.75]",
+     "raw": [
+      -8.75,
+      18.75
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-low.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.sonnet-low.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Sonnet-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "phi (Pearson on 0/1)",
+     "raw": "phi (Pearson on 0/1)",
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-med.statistic",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−0.14",
+     "raw": -0.14433756729740643,
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-med.r",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−0.31, 0.05]",
+     "raw": [
+      -0.30794088102571987,
+      0.05218143957980998
+     ],
+     "refs": [
+      {
+       "key": "item_C2.arms.sonnet-med.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C2.arms.sonnet-med.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "num",
+     "printed": "80.00",
+     "raw": 80.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-med.accuracy_1x6",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 0.975,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.sonnet-med.1x6.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "75.00",
+     "raw": 75.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-med.accuracy_6x1",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "confirmatory.format_compliance.sonnet-med.6x1.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.00",
+     "raw": -5.0,
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-med.d",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−18.75, 8.75]",
+     "raw": [
+      -18.75,
+      8.75
+     ],
+     "refs": [
+      {
+       "key": "item_C3.arms.sonnet-med.ci95.0",
+       "source": "groupc"
+      },
+      {
+       "key": "item_C3.arms.sonnet-med.ci95.1",
+       "source": "groupc"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

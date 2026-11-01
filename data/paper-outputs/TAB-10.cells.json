@@ -1,0 +1,1919 @@
+{
+ "output": {
+  "id": "TAB-10",
+  "kind": "table",
+  "label": "confirmatory (Holm within Study 1b only)",
+  "section": "Results: Study 1b",
+  "title": "Study 1b tests B1-B3"
+ },
+ "panels": [
+  {
+   "name": "Costs beside the tests, list price",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Test"
+     },
+     {
+      "kind": "label",
+      "printed": "k (measured)"
+     },
+     {
+      "kind": "label",
+      "printed": "Wording"
+     },
+     {
+      "kind": "label",
+      "printed": "Challenger list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Opus-medium list cost per answer ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Spend share or cost ratio (challenger / Opus-medium)"
+     },
+     {
+      "kind": "label",
+      "printed": "Challenger list cost, chain ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Challenger list cost, pieces ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Opus-medium list cost, chain ($)"
+     },
+     {
+      "kind": "label",
+      "printed": "Opus-medium list cost, pieces ($)"
+     }
+    ],
+    "notes": [],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.k_measured",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "\"about 1/6 of the cost per answer (k measured)\"",
+       "raw": "about 1/6 of the cost per answer (k measured)",
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.wording",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0112",
+       "raw": 0.0111734403125,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.challenger.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0750",
+       "raw": 0.074971725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.comparator.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.149",
+       "raw": 0.1490353905088885,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.ratio_challenger_over_comparator",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0123",
+       "raw": 0.01226045875,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.challenger.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0101",
+       "raw": 0.010086421875,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.challenger.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0674",
+       "raw": 0.067429725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.comparator.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0825",
+       "raw": 0.082513725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B1.comparator.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "descriptive.vote_curve_n16.k_from_k_json",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "\"the vote of k = 6 Haiku-max tries, about Opus-medium's price\"",
+       "raw": "the vote of k = 6 Haiku-max tries, about Opus-medium's price",
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.wording",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0670",
+       "raw": 0.067040641875,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0750",
+       "raw": 0.074971725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.comparator.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.894",
+       "raw": 0.8942123430533311,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.ratio_challenger_over_comparator",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0736",
+       "raw": 0.0735627525,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0605",
+       "raw": 0.06051853125,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.challenger.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0674",
+       "raw": 0.067429725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.comparator.1x16.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0825",
+       "raw": 0.082513725,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B2.comparator.16x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.k_measured",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "\"about 1/10 of the cost per answer (k measured)\"",
+       "raw": "about 1/10 of the cost per answer (k measured)",
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.wording",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00419",
+       "raw": 0.0041901575,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.challenger.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0441",
+       "raw": 0.044095075,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.comparator.pooled.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.095",
+       "raw": 0.09502552155767963,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.ratio_challenger_over_comparator",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00433",
+       "raw": 0.00432628875,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.challenger.1x6.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00405",
+       "raw": 0.00405402625,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.challenger.6x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0406",
+       "raw": 0.04057565,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.comparator.1x6.list_usd",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.0476",
+       "raw": 0.0476145,
+       "refs": [
+        {
+         "key": "costs_beside_tests.B3.comparator.6x1.list_usd",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Sensitivity: exposed puzzles left out",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Test"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles (exposed ones left out)"
+     },
+     {
+      "kind": "label",
+      "printed": "d (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "d 95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "5-point margin: p"
+     },
+     {
+      "kind": "label",
+      "printed": "5-point margin: reading"
+     },
+     {
+      "kind": "label",
+      "printed": "Error-rate ratio R"
+     },
+     {
+      "kind": "label",
+      "printed": "Error-rate ratio 95% interval"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "label",
+       "printed": "≤ marks a p at the smallest value the bootstrap can return (no resample reached the margin)."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−5.19",
+       "raw": -5.189873417721519,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.85, −2.66]",
+       "raw": [
+        -7.848101265822785,
+        -2.6582278481012658
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.56397",
+       "raw": 0.5639659247696529,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "3.34",
+       "raw": 3.342857142857143,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B1.R",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[1.76, 9.80]",
+       "raw": [
+        1.7600000000000002,
+        9.799999999999999
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B1.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B1.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "num",
+       "printed": "79",
+       "raw": 79,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+0.64",
+       "raw": 0.640446051838456,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−1.20, 2.50]",
+       "raw": [
+        -1.1980108499095847,
+        2.501506931886678
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00009",
+       "raw": 8.862686307176126e-05,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"holds (no worse in all three views)\"",
+       "raw": "holds (no worse in all three views)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B2",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.71",
+       "raw": 0.7108843537414969,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B2.R",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[0.24, 2.13]",
+       "raw": [
+        0.2440476190476194,
+        2.130952380952383
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B2.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B2.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "num",
+       "printed": "38",
+       "raw": 38,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.bases_per_test.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−3.82",
+       "raw": -3.8157894736842106,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.50, −1.45]",
+       "raw": [
+        -7.5,
+        -1.4473684210526316
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.25586",
+       "raw": 0.2558635787045502,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+       "kind": "num",
+       "printed": "\"inconclusive (could not show)\"",
+       "raw": "inconclusive (could not show)",
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.template.B3",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "6.80",
+       "raw": 6.8,
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B3.R",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[1.67, unbounded]",
+       "raw": [
+        1.6666666666666667,
+        "unbounded"
+       ],
+       "refs": [
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B3.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "sensitivity_exposed_bases_excluded.error_ratios.B3.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa13": {
+   "commit": "c1b33af",
+   "path": "data/main/free-analyses/fa13.json",
+   "sha256": "ca4d0805ded485d6787fc3b099064101d47c4e3f8b9f70c27937ce45d2f92a32"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "num",
+     "printed": "d: paired BCa bootstrap, B = 10,000;",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "error-rate ratio R: bootstrap over puzzles, B ="
+    },
+    {
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "error_ratios.B1.B",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B1, B2);"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B3);"
+    },
+    {
+     "kind": "label",
+     "printed": "samples per puzzle and shape: Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "formula": "text cut /^- \\*\\*the cost\\*\\*, by .+ \\((list price); / group 1; not printed: the record for 'the cost beside every test is at list price'",
+     "kind": "num",
+     "printed": "list price per answer (pre-registered)",
+     "raw": "list price",
+     "refs": [
+      {
+       "key": "L214",
+       "source": "spec1b"
+      }
+     ]
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's own puzzle set at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Tests B1 and B2) and its set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Test B3)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b: Tests B1 and B2 at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps, Test B3 at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "formula": "text cut /^- \\*\\*(Beside every test):\\*\\*$/ group 1; not printed: the record for 'the outputs beside every test'; text cut /^- the \\*\\*(error-rate ratio)\\*\\*, by the rules of/ group 1; not printed: the record for 'the error-rate ratio is reported beside every test'; text cut /(the spec frozen in lock 4)/ group 1; not printed: the record for 'its analysis ran under the specification frozen in lock 4'; text cut /(frozen (?:at the tag|in) `prereg-lock-4`)/ group 1; not printed: the record for 'the specification is frozen at the Lock 4 tag'",
+     "kind": "num",
+     "printed": "confirmatory (Holm within Study 1b only); error-rate ratio R: pre-specified descriptive, reported beside the test",
+     "raw": [
+      "Beside every test",
+      "error-rate ratio",
+      "the spec frozen in lock 4",
+      "frozen at the tag `prereg-lock-4`"
+     ],
+     "refs": [
+      {
+       "key": "L209",
+       "source": "spec1b"
+      },
+      {
+       "key": "L210",
+       "source": "spec1b"
+      },
+      {
+       "key": "spec",
+       "source": "s1b"
+      },
+      {
+       "key": "L3",
+       "source": "spec1b"
+      }
+     ]
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Puzzles"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance, challenger, chains / pieces (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "d 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "5-point margin: p"
+   },
+   {
+    "kind": "label",
+    "printed": "5-point margin: Holm threshold"
+   },
+   {
+    "kind": "label",
+    "printed": "5-point margin: reading"
+   },
+   {
+    "kind": "label",
+    "printed": "5-point margin: shown no worse (Holm-adjusted)"
+   },
+   {
+    "kind": "label",
+    "printed": "10-point margin: p"
+   },
+   {
+    "kind": "label",
+    "printed": "10-point margin: Holm threshold"
+   },
+   {
+    "kind": "label",
+    "printed": "Error-rate ratio R"
+   },
+   {
+    "kind": "label",
+    "printed": "Error-rate ratio 95% interval"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Readings in quotation marks are the Study 1b file's own template words: \"holds\" only if the test is no worse in all three views; an inconclusive test reads \"inconclusive (could not show)\" and is never called worse. The ruled reading, shown no worse (Holm-adjusted), is the column \"5-point margin: shown no worse (Holm-adjusted)\" of this table. Panel 2 has no such column: at the 5-point margin"
+    },
+    {
+     "formula": "not printed: Panel 2's Holm-adjusted result at the 5-point margin, one per test; not printed: Panel 2's Holm-adjusted result at the 5-point margin, one per test; not printed: Panel 2's Holm-adjusted result at the 5-point margin, one per test",
+     "kind": "num",
+     "printed": "Test B2 is shown no worse (Holm-adjusted) and Tests B1 and B3 are not.",
+     "raw": [
+      false,
+      true,
+      false
+     ],
+     "refs": [
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Holm's correction runs within Study 1b only; Study 1 and Study 1b are never pooled. Shown no worse (Holm-adjusted) is yes where p is below the test's Holm threshold at that margin, in Holm's step-down order: a test is shown no worse (Holm-adjusted) only if every test before it in Holm's order is too."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "d is the same at both margins: Haiku-max (or its vote) minus Opus-medium, in points, paired over puzzles. A positive d means Haiku-max scored higher."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Error-rate ratio R is the challenger's error rate divided by Opus-medium's, over the same puzzles (an error rate is the share of answers not right, the complement of the accuracy); R above one means the challenger made more errors."
+    },
+    {
+     "formula": "text cut /^- \\*\\*(Beside every test):\\*\\*$/ group 1; not printed: the record for 'the outputs beside every test'; text cut /^- the \\*\\*(error-rate ratio)\\*\\*, by the rules of/ group 1; not printed: the record for 'the error-rate ratio is reported beside every test'; text cut /(the spec frozen in lock 4)/ group 1; not printed: the record for 'its analysis ran under the specification frozen in lock 4'; text cut /(frozen (?:at the tag|in) `prereg-lock-4`)/ group 1; not printed: the record for 'the specification is frozen at the Lock 4 tag'",
+     "kind": "num",
+     "printed": "R is pre-specified descriptive, reported beside the test: Study 1b's specification, frozen with Lock 4, reports it beside every test, and it is not part of any test's reading.",
+     "raw": [
+      "Beside every test",
+      "error-rate ratio",
+      "the spec frozen in lock 4",
+      "frozen at the tag `prereg-lock-4`"
+     ],
+     "refs": [
+      {
+       "key": "L209",
+       "source": "spec1b"
+      },
+      {
+       "key": "L210",
+       "source": "spec1b"
+      },
+      {
+       "key": "spec",
+       "source": "s1b"
+      },
+      {
+       "key": "L3",
+       "source": "spec1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Its 95% interval is a bootstrap over puzzles; an unbounded upper end means Opus-medium made no error in too many resamples for the interval to have a finite top."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The B2 challenger is the vote of k Haiku-max samples, k ="
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.k_from_k_json",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(cost-matched with Opus-medium, by the pre-registered cost-matched k rule)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "For Test B2 the challenger's format compliance is that of the single Haiku-max samples the vote is taken over."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Costs: list price per answer; the vote at k costs k answers. Each test's cost wording, k and per-shape costs (B2's included) are in Panel 1 (costs). Its ratio column holds Test B2's spend share (the vote's cost over its cost-matched comparator's) and the cost ratios of Tests B1 and B3."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Panel 2 (sensitivity) leaves out the puzzles that were exposed before the run (the file lists them under excluded); it is a sensitivity, not a test."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Panel 1's wordings are the Study 1b file's own, in quotation marks; its \"tries\" are the paper's samples."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Columns that print one value in every row are left out. In every test the comparator is"
+    },
+    {
+     "kind": "label",
+     "printed": "Opus-medium, whose format compliance is"
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.00% / 100.00% (chains / pieces);",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "at the 10-point margin every test reads"
+    },
+    {
+     "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+     "kind": "num",
+     "printed": "\"holds (no worse in all three views)\"",
+     "raw": "holds (no worse in all three views)",
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.template.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.template.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.template.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "not printed: each test's Holm-adjusted result at the 10-point margin",
+     "kind": "num",
+     "printed": "and is shown no worse (Holm-adjusted).",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied); not printed: Panel 2's 10-point reading, the same in every row and the same as the table's",
+     "kind": "num",
+     "printed": "Panel 2's 10-point readings are the same.",
+     "raw": "holds (no worse in all three views)",
+     "refs": [
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.secondary_margin_10.template.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.secondary_margin_10.template.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "sensitivity_exposed_bases_excluded.confirmatory.secondary_margin_10.template.B3",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "≤ marks a p at the smallest value the bootstrap can return (no resample reached the margin)."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test B1"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "92.63",
+     "raw": 92.625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.19",
+     "raw": -5.1875,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.75, −2.69]",
+     "raw": [
+      -7.75,
+      -2.6875
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.56595",
+     "raw": 0.565953689092755,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.p",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.025",
+     "raw": 0.025,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.holm_thresholds.B1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+     "kind": "num",
+     "printed": "\"inconclusive (could not show)\"",
+     "raw": "inconclusive (could not show)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00027",
+     "raw": 0.0002657598362947877,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.p",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0125",
+     "raw": 0.0125,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3.37",
+     "raw": 3.3714285714285714,
+     "refs": [
+      {
+       "key": "error_ratios.B1.R",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[1.78, 10.07]",
+     "raw": [
+      1.78,
+      10.066666666666666
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B1.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B2.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.44",
+     "raw": 98.44494047619047,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.81",
+     "raw": 97.8125,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@16.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "99.50 / 99.88",
+     "raw": [
+      0.995,
+      0.99875
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.63",
+     "raw": 0.6324404761904753,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.15, 2.44]",
+     "raw": [
+      -1.1458333333333346,
+      2.4404761904761894
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00011",
+     "raw": 0.00010062651391767874,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00833",
+     "raw": 0.008333333333333333,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.holm_thresholds.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+     "kind": "num",
+     "printed": "\"holds (no worse in all three views)\"",
+     "raw": "holds (no worse in all three views)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "yes",
+     "raw": true,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00011",
+     "raw": 0.00010062651391767874,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00833",
+     "raw": 0.008333333333333333,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B2",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.71",
+     "raw": 0.7108843537414969,
+     "refs": [
+      {
+       "key": "error_ratios.B2.R",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[0.24, 2.11]",
+     "raw": [
+      0.24206349206349223,
+      2.10952380952381
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B2.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B2.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B3"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.75",
+     "raw": 95.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "99.38",
+     "raw": 99.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.om@6.pooled.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x; 100 * x",
+     "kind": "num",
+     "printed": "100.00 / 100.00",
+     "raw": [
+      1.0,
+      1.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−3.63",
+     "raw": -3.625,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.d",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−7.00, −1.50]",
+     "raw": [
+      -7.0,
+      -1.5
+     ],
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.20571",
+     "raw": 0.2057066469437367,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.p",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0125",
+     "raw": 0.0125,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.holm_thresholds.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "the Study 1b file's template reading, in quotation marks (as the file words it; spaces in its parenthesis tied)",
+     "kind": "num",
+     "printed": "\"inconclusive (could not show)\"",
+     "raw": "inconclusive (could not show)",
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.template.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no",
+     "raw": false,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+     "kind": "num",
+     "printed": "≤ 0.00108",
+     "raw": 0.0010780584973148488,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.p",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.z0",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.a",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.025",
+     "raw": 0.025,
+     "refs": [
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.holm_thresholds.B3",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6.80",
+     "raw": 6.8,
+     "refs": [
+      {
+       "key": "error_ratios.B3.R",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[1.67, unbounded]",
+     "raw": [
+      1.6666666666666667,
+      "unbounded"
+     ],
+     "refs": [
+      {
+       "key": "error_ratios.B3.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "error_ratios.B3.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+Test,k (measured),Wording,Challenger list cost per answer ($),Opus-medium list cost per answer ($),Spend share or cost ratio (challenger / Opus-medium),"Challenger list cost, chain ($)","Challenger list cost, pieces ($)","Opus-medium list cost, chain ($)","Opus-medium list cost, pieces ($)"
+Test B1,6,"""about 1/6 of the cost per answer (k measured)""",0.0112,0.0750,0.149,0.0123,0.0101,0.0674,0.0825
+Test B2,6,"""the vote of k = 6 Haiku-max tries, about Opus-medium's price""",0.0670,0.0750,0.894,0.0736,0.0605,0.0674,0.0825
+Test B3,10,"""about 1/10 of the cost per answer (k measured)""",0.00419,0.0441,0.095,0.00433,0.00405,0.0406,0.0476

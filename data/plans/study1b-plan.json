@@ -1,0 +1,482 @@
+{
+ "study": "study1b",
+ "run_id_prefix": "study1b-",
+ "spec": "research/study1b-spec.md at 9c007e5 (the spec frozen in lock 4) (Karen, with Edith's S-1..S-4; D-98 names): section 3 arms, section 7 trial round (wave 0 here), limit rule and cut order, section 8 cap",
+ "notes": [
+  "Tags (Karen's, letters only): h/s/o = Haiku/Sonnet/Opus; l low, m medium, h high, xh xhigh, x max; ho = Haiku thinking off at medium.",
+  "Measured arms: fixed max_tokens (1.5 x the largest measured output, rounded up to 1,000). Calibrated arms: the section 7 rule after wave 0."
+ ],
+ "sets": [
+  {
+   "set": "data/tasks/main-ledger-l14n16-v1",
+   "items_sha256": "0bf12afca05edd504085c715c9ce1b5cdd8eb40a67978db675f8884e7a55f372",
+   "steps": 16,
+   "note": "B1, B2; the effort sweep at 16 (spec section 3)",
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "n": 10,
+     "role": "confirmatory",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 96000,
+      "wave0_max_tokens": 128000
+     },
+     "note": "section 7 rule, floor 96,000"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "n": 2,
+     "role": "confirmatory",
+     "thinking_off": false,
+     "max_tokens": 9000,
+     "cost_basis": {
+      "cost_usd_sum": "1.429034",
+      "calls": 40,
+      "source": "ladder-l14n-1 per-arm Batch cost as billed (Opus-medium at 16 steps): sum of cost_usd over the 40 final records of ladder-ledger-l14n16-v1 tag om in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+     },
+     "note": "1.5 x the ladder's 5,474"
+    },
+    {
+     "tag": "ho",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": true,
+     "calibrate": {
+      "floor": 14000,
+      "wave0_max_tokens": 64000
+     },
+     "note": "thinking off at medium, as Study 1's ho"
+    },
+    {
+     "tag": "hl",
+     "model": "claude-haiku-5-5",
+     "effort": "low",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 14000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "hm",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 14000,
+     "cost_basis": {
+      "cost_usd_sum": "0.50069450",
+      "calls": 400,
+      "source": "ladder-l14n-1 per-arm Batch cost as billed (Haiku-medium at 16 steps): sum of cost_usd over the 400 final records of ladder-ledger-l14n16-v1 tag hm in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+     },
+     "note": "1.5 x the ladder's 9,120"
+    },
+    {
+     "tag": "hh",
+     "model": "claude-haiku-5-5",
+     "effort": "high",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 14000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "hxh",
+     "model": "claude-haiku-5-5",
+     "effort": "xhigh",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 14000,
+      "wave0_max_tokens": 64000
+     }
+    }
+   ]
+  },
+  {
+   "set": "data/tasks/ext40-ledger-l14n6-v1",
+   "items_sha256": "1f342a6c9b0129df5796a52612ef50cc58ba162dedd6abfc4036cc38173b94dd",
+   "steps": 6,
+   "note": "B3; the effort sweep at 6 (spec section 3)",
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "n": 10,
+     "role": "confirmatory",
+     "thinking_off": false,
+     "max_tokens": 30000,
+     "cost_basis": {
+      "cost_usd_sum": "1.01663665",
+      "calls": 480,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-max 1x6' + 'haiku-max 6x1' (cost_usd over rows)"
+     },
+     "note": "1.5 x Study 1's largest, 19,580"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "n": 2,
+     "role": "confirmatory",
+     "thinking_off": false,
+     "max_tokens": 4000,
+     "cost_basis": {
+      "cost_usd_sum": "3.534532",
+      "calls": 160,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'opus-med 1x6' + 'opus-med 6x1' (cost_usd over rows)"
+     },
+     "note": "Amendment 1"
+    },
+    {
+     "tag": "ho",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": true,
+     "max_tokens": 4000,
+     "cost_basis": {
+      "cost_usd_sum": "2.95424050",
+      "calls": 6400,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-thinking-off 1x6' + 'haiku-thinking-off 6x1' (cost_usd over rows)"
+     },
+     "note": "1.5 x Study 1's largest"
+    },
+    {
+     "tag": "hl",
+     "model": "claude-haiku-5-5",
+     "effort": "low",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 7000,
+     "cost_basis": {
+      "cost_usd_sum": "3.29190850",
+      "calls": 6400,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-low 1x6' + 'haiku-low 6x1' (cost_usd over rows)"
+     },
+     "note": "1.5 x Study 1's largest"
+    },
+    {
+     "tag": "hm",
+     "model": "claude-haiku-5-5",
+     "effort": "medium",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 6000,
+     "cost_basis": {
+      "cost_usd_sum": "3.50911825",
+      "calls": 6400,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'haiku-med 1x6' + 'haiku-med 6x1' (cost_usd over rows)"
+     },
+     "note": "1.5 x Study 1's largest"
+    },
+    {
+     "tag": "hh",
+     "model": "claude-haiku-5-5",
+     "effort": "high",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 6000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "hxh",
+     "model": "claude-haiku-5-5",
+     "effort": "xhigh",
+     "n": 5,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 6000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "sl",
+     "model": "claude-sonnet-5-5",
+     "effort": "low",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 3000,
+     "cost_basis": {
+      "cost_usd_sum": "1.199521",
+      "calls": 160,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'sonnet-low 1x6' + 'sonnet-low 6x1' (cost_usd over rows)"
+     },
+     "note": "Study 1"
+    },
+    {
+     "tag": "sm",
+     "model": "claude-sonnet-5-5",
+     "effort": "medium",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 3000,
+     "cost_basis": {
+      "cost_usd_sum": "1.233546",
+      "calls": 160,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'sonnet-med 1x6' + 'sonnet-med 6x1' (cost_usd over rows)"
+     },
+     "note": "Study 1"
+    },
+    {
+     "tag": "sh",
+     "model": "claude-sonnet-5-5",
+     "effort": "high",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 3000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "sxh",
+     "model": "claude-sonnet-5-5",
+     "effort": "xhigh",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 3000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "sx",
+     "model": "claude-sonnet-5-5",
+     "effort": "max",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 3000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "ol",
+     "model": "claude-opus-5-5",
+     "effort": "low",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 4000,
+     "cost_basis": {
+      "cost_usd_sum": "3.255812",
+      "calls": 160,
+      "source": "main-l14n6-1 per-arm Batch cost as billed: data/main/main-l14n6-1/analysis.json counts 'opus-low 1x6' + 'opus-low 6x1' (cost_usd over rows)"
+     },
+     "note": "Study 1"
+    },
+    {
+     "tag": "oh",
+     "model": "claude-opus-5-5",
+     "effort": "high",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 4000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "oxh",
+     "model": "claude-opus-5-5",
+     "effort": "xhigh",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 4000,
+      "wave0_max_tokens": 64000
+     }
+    },
+    {
+     "tag": "ox",
+     "model": "claude-opus-5-5",
+     "effort": "max",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 4000,
+      "wave0_max_tokens": 64000
+     }
+    }
+   ]
+  },
+  {
+   "set": "data/tasks/main-ledger-l14n12-v1",
+   "items_sha256": "9aefe3406a17f08bb0614fe4fdf72b87a5b7e2ba0fde1a0072805d27d44f7c44",
+   "steps": 12,
+   "note": "the 12-step point (descriptive; D-96)",
+   "arms": [
+    {
+     "tag": "hx",
+     "model": "claude-haiku-5-5",
+     "effort": "max",
+     "n": 10,
+     "role": "descriptive",
+     "thinking_off": false,
+     "calibrate": {
+      "floor": 96000,
+      "wave0_max_tokens": 128000
+     },
+     "note": "section 7 rule, floor 96,000"
+    },
+    {
+     "tag": "om",
+     "model": "claude-opus-5-5",
+     "effort": "medium",
+     "n": 1,
+     "role": "descriptive",
+     "thinking_off": false,
+     "max_tokens": 7000,
+     "cost_basis": {
+      "cost_usd_sum": "1.265824",
+      "calls": 40,
+      "source": "ladder-l14n-1 per-arm Batch cost as billed (Opus-medium at 12 steps): sum of cost_usd over the 40 final records of ladder-ledger-l14n12-v1 tag om in data/raw/ladder-l14n-1/calls.jsonl (cost-only read by Friday, 2026-10-13)"
+     },
+     "note": "1.5 x the ladder's 4,303"
+    }
+   ]
+  }
+ ],
+ "calibration": {
+  "sets": [
+   {
+    "set": "data/tasks/ladder-ledger-l14n16-v1",
+    "items_sha256": "0503cf11971e8b5a00221f0eb0573f47497490732941478f88f5afa55ecbb12b",
+    "steps": 16
+   },
+   {
+    "set": "data/tasks/ladder-ledger-l14n6-v1",
+    "items_sha256": "e9e2d56098aeb2a63cad8111aee2e7399571c42980acd4ee01c7a2fa4e81f19b",
+    "steps": 6
+   },
+   {
+    "set": "data/tasks/ladder-ledger-l14n12-v1",
+    "items_sha256": "9ac487325ede011169d1260826076fc55028ffb0b5e7eed829694366d5394e94",
+    "steps": 12
+   }
+  ],
+  "base_puzzles": 10,
+  "tries": 1,
+  "rule": {
+   "factor": 2,
+   "round_up_to": 1000,
+   "max_tokens_cap": 128000,
+   "on_truncation": 128000
+  },
+  "note": "wave 0 on already-used ladder sets, base 000-009, both forms, one try per item per calibrated arm"
+ },
+ "cut": {
+  "multiplier": "1.5",
+  "share_of_cap": "0.9",
+  "order": [
+   {
+    "name": "Opus-max at 6",
+    "arms": [
+     [
+      6,
+      "ox"
+     ]
+    ]
+   },
+   {
+    "name": "Opus-xhigh at 6",
+    "arms": [
+     [
+      6,
+      "oxh"
+     ]
+    ]
+   },
+   {
+    "name": "Sonnet-max",
+    "arms": [
+     [
+      6,
+      "sx"
+     ]
+    ]
+   },
+   {
+    "name": "Sonnet-xhigh",
+    "arms": [
+     [
+      6,
+      "sxh"
+     ]
+    ]
+   },
+   {
+    "name": "the 12-step point",
+    "arms": [
+     [
+      12,
+      "hx"
+     ],
+     [
+      12,
+      "om"
+     ]
+    ]
+   },
+   {
+    "name": "Haiku-xhigh at 16",
+    "arms": [
+     [
+      16,
+      "hxh"
+     ]
+    ]
+   }
+  ],
+  "never_cut": [
+   [
+    6,
+    "hx"
+   ],
+   [
+    6,
+    "om"
+   ],
+   [
+    16,
+    "hx"
+   ],
+   [
+    16,
+    "om"
+   ]
+  ],
+  "note": "Edith S-1: projected = wave 0's Batch cost + 1.5 x sum(cost per call x planned calls) over the arms left; cut in order while over 0.9 x cap"
+ }
+}

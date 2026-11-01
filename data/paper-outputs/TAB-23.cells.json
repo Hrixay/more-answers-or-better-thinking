@@ -1,0 +1,2557 @@
+{
+ "output": {
+  "id": "TAB-23",
+  "kind": "table",
+  "label": "disclosure",
+  "section": "Discussion and limits (end matter appendix)",
+  "title": "Reproducibility: files, hashes and commits (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Paid runs: run commit and raw-file SHA-256s (our cost records)",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Run"
+     },
+     {
+      "kind": "label",
+      "printed": "Run commit"
+     },
+     {
+      "kind": "label",
+      "printed": "Raw file"
+     },
+     {
+      "kind": "label",
+      "printed": "SHA-256"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "formula": "text cut /→ ([0-9a-f]{7}) \\(the commit the main run ran from/ group 1; text cut /^\\*\\*5\\.4 (Code used after the locks)\\.\\*\\*/ group 1; not printed: the record for 'section 5.4 is the record of the code used after the locks'",
+       "kind": "num",
+       "printed": "Run commit: the commit each paid run ran from, as its row in our cost records states it; raw files: the SHA-256 of each run file its row lists (our cost records at commit b216f07). Rows with a dash list no file hashes. The main run's commit is also the one our record of the code used after the locks names as the commit it ran from: b4ff738.",
+       "raw": [
+        "b216f07",
+        "b4ff738",
+        "Code used after the locks"
+       ],
+       "refs": [
+        {
+         "key": "@commit",
+         "source": "spend_log"
+        },
+        {
+         "key": "L359",
+         "source": "findings"
+        },
+        {
+         "key": "L355",
+         "source": "findings"
+        }
+       ]
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "num",
+       "printed": "smoke-2",
+       "raw": "smoke-2",
+       "refs": [
+        {
+         "key": "L45.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "568e8a4",
+       "raw": "568e8a4",
+       "refs": [
+        {
+         "key": "L45.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "check-ledger-1",
+       "raw": "check-ledger-1",
+       "refs": [
+        {
+         "key": "L43.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "e1d6d60",
+       "raw": "e1d6d60",
+       "refs": [
+        {
+         "key": "L43.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L43.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "92dd68a5b002ba102b7d24e1905de1058e11f1bc84287ab0a0b9e0a628402d77",
+       "raw": "92dd68a5b002ba102b7d24e1905de1058e11f1bc84287ab0a0b9e0a628402d77",
+       "refs": [
+        {
+         "key": "L43.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "check-ledger-1",
+       "raw": "check-ledger-1",
+       "refs": [
+        {
+         "key": "L43.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "e1d6d60",
+       "raw": "e1d6d60",
+       "refs": [
+        {
+         "key": "L43.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(check_result\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "check_result.json",
+       "raw": "check_result.json",
+       "refs": [
+        {
+         "key": "L43.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`check_result\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "9b76b38f23b7151580f0572b7447b901f0a68efae4c5eed3d7bfdbec44c43dfd",
+       "raw": "9b76b38f23b7151580f0572b7447b901f0a68efae4c5eed3d7bfdbec44c43dfd",
+       "refs": [
+        {
+         "key": "L43.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "s3-ledger-1",
+       "raw": "s3-ledger-1",
+       "refs": [
+        {
+         "key": "L42.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "582d8d1",
+       "raw": "582d8d1",
+       "refs": [
+        {
+         "key": "L42.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L42.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "9f988dd553368baaa09d8f0bb5e67b001d8ff5a424f1c2fdb5f14a7e3180aca5",
+       "raw": "9f988dd553368baaa09d8f0bb5e67b001d8ff5a424f1c2fdb5f14a7e3180aca5",
+       "refs": [
+        {
+         "key": "L42.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "s3-ledger-1",
+       "raw": "s3-ledger-1",
+       "refs": [
+        {
+         "key": "L42.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "582d8d1",
+       "raw": "582d8d1",
+       "refs": [
+        {
+         "key": "L42.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(s3_result\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "s3_result.json",
+       "raw": "s3_result.json",
+       "refs": [
+        {
+         "key": "L42.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`s3_result\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "78b3583e40b64700e1099a6cf4dbfc43f026b37ba2560e7fcbdc9ccad220c892",
+       "raw": "78b3583e40b64700e1099a6cf4dbfc43f026b37ba2560e7fcbdc9ccad220c892",
+       "refs": [
+        {
+         "key": "L42.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "pilot-ledger-1",
+       "raw": "pilot-ledger-1",
+       "refs": [
+        {
+         "key": "L41.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "1b058a5",
+       "raw": "1b058a5",
+       "refs": [
+        {
+         "key": "L41.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "411c877baf3f4b399d44355c6d77126c4abd7c348d17fca194aa0e46d7f79142",
+       "raw": "411c877baf3f4b399d44355c6d77126c4abd7c348d17fca194aa0e46d7f79142",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "pilot-ledger-1",
+       "raw": "pilot-ledger-1",
+       "refs": [
+        {
+         "key": "L41.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "1b058a5",
+       "raw": "1b058a5",
+       "refs": [
+        {
+         "key": "L41.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(compact_table\\.csv)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "compact_table.csv",
+       "raw": "compact_table.csv",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`compact_table\\.csv` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "83c18fd960022575ccfc2b9d1819217d242b122de87682dbda34e21e5cf30d54",
+       "raw": "83c18fd960022575ccfc2b9d1819217d242b122de87682dbda34e21e5cf30d54",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "pilot-ledger-1",
+       "raw": "pilot-ledger-1",
+       "refs": [
+        {
+         "key": "L41.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "1b058a5",
+       "raw": "1b058a5",
+       "refs": [
+        {
+         "key": "L41.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(ledger\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "ledger.jsonl",
+       "raw": "ledger.jsonl",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`ledger\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "2bf9297e656a8b87ccf47795a4b397b2d853d79ddbd52599943bbc3d89b48969",
+       "raw": "2bf9297e656a8b87ccf47795a4b397b2d853d79ddbd52599943bbc3d89b48969",
+       "refs": [
+        {
+         "key": "L41.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "diag-haiku-effort-1",
+       "raw": "diag-haiku-effort-1",
+       "refs": [
+        {
+         "key": "L40.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "0b45978",
+       "raw": "0b45978",
+       "refs": [
+        {
+         "key": "L40.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L40.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "d64316f1e5324395cea13c190328e1c238a99119a0648706d9cca28cd2a362f3",
+       "raw": "d64316f1e5324395cea13c190328e1c238a99119a0648706d9cca28cd2a362f3",
+       "refs": [
+        {
+         "key": "L40.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "diag-haiku-effort-1",
+       "raw": "diag-haiku-effort-1",
+       "refs": [
+        {
+         "key": "L40.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "0b45978",
+       "raw": "0b45978",
+       "refs": [
+        {
+         "key": "L40.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(diag_result\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "diag_result.json",
+       "raw": "diag_result.json",
+       "refs": [
+        {
+         "key": "L40.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`diag_result\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "eb91e5efbc9fb28d30b4ec3d8780a31dbe57bbdb54416d817af460e118f22869",
+       "raw": "eb91e5efbc9fb28d30b4ec3d8780a31dbe57bbdb54416d817af460e118f22869",
+       "refs": [
+        {
+         "key": "L40.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "ladder-l14n-1",
+       "raw": "ladder-l14n-1",
+       "refs": [
+        {
+         "key": "L39.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "95fb5f8",
+       "raw": "95fb5f8",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "3725c1cc87dcca8e0107234cb379f9a29c18486c1908e9f1486759d4fb0b52f4",
+       "raw": "3725c1cc87dcca8e0107234cb379f9a29c18486c1908e9f1486759d4fb0b52f4",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "ladder-l14n-1",
+       "raw": "ladder-l14n-1",
+       "refs": [
+        {
+         "key": "L39.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "95fb5f8",
+       "raw": "95fb5f8",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(compact_table\\.csv)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "compact_table.csv",
+       "raw": "compact_table.csv",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`compact_table\\.csv` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "a4f60c97206d5245fe5177fcabe05a36de9d78fb77d708194cd3af4a600d8585",
+       "raw": "a4f60c97206d5245fe5177fcabe05a36de9d78fb77d708194cd3af4a600d8585",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "ladder-l14n-1",
+       "raw": "ladder-l14n-1",
+       "refs": [
+        {
+         "key": "L39.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "95fb5f8",
+       "raw": "95fb5f8",
+       "refs": [
+        {
+         "key": "L39.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(ledger\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "ledger.jsonl",
+       "raw": "ledger.jsonl",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`ledger\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "09536cbc3f979656cddbb884107d60862103c038c38f662180a4985462d0f419",
+       "raw": "09536cbc3f979656cddbb884107d60862103c038c38f662180a4985462d0f419",
+       "refs": [
+        {
+         "key": "L39.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+       "raw": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(compact_table\\.csv)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "compact_table.csv",
+       "raw": "compact_table.csv",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`compact_table\\.csv` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+       "raw": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(ledger\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "ledger.jsonl",
+       "raw": "ledger.jsonl",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`ledger\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+       "raw": "5f175b8764dd44c1e028d9887ff88945b96489bc2e4eb368bd362ab83313957e",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(manifest\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "manifest.json",
+       "raw": "manifest.json",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`manifest\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993",
+       "raw": "702cd7ca22da2ecd97ef7d5fe4bf8c970a92adf9de7bfeef76e5d55252de6993",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(runner\\.log)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "runner.log",
+       "raw": "runner.log",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`runner\\.log` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "1a213c8db3f40a672cba6c18b15a56e3834b16deae059ad1a0ab83cdceacf13f",
+       "raw": "1a213c8db3f40a672cba6c18b15a56e3834b16deae059ad1a0ab83cdceacf13f",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "main-l14n6-1",
+       "raw": "main-l14n6-1",
+       "refs": [
+        {
+         "key": "L38.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "b4ff738",
+       "raw": "b4ff738",
+       "refs": [
+        {
+         "key": "L38.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(window\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "window.json",
+       "raw": "window.json",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`window\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "684fcddd46eeaa0c4761356469583834a5ccd6ccb2a96cd0ee1894eec6919a65",
+       "raw": "684fcddd46eeaa0c4761356469583834a5ccd6ccb2a96cd0ee1894eec6919a65",
+       "refs": [
+        {
+         "key": "L38.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+       "raw": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(ledger\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "ledger.jsonl",
+       "raw": "ledger.jsonl",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`ledger\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "2aa6ef78721de0152a7eb6f77922abffe02ef9206ae94ff823821671605d586a",
+       "raw": "2aa6ef78721de0152a7eb6f77922abffe02ef9206ae94ff823821671605d586a",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(manifest\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "manifest.json",
+       "raw": "manifest.json",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`manifest\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5",
+       "raw": "72111619a79daf91702daab908648216aa5f7a512ae9bfb7c3a282e1c39034a5",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(runner\\.log)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "runner.log",
+       "raw": "runner.log",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`runner\\.log` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "924078736ccd91f4bdf8119734972665281a34a06f79e08cd11caf7d828e1e6d",
+       "raw": "924078736ccd91f4bdf8119734972665281a34a06f79e08cd11caf7d828e1e6d",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(window\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "window.json",
+       "raw": "window.json",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`window\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "ba8a6b6ddcc81e26aa9fad5fd43e4767f7ebe13d19e1d23921bb5a7526866e08",
+       "raw": "ba8a6b6ddcc81e26aa9fad5fd43e4767f7ebe13d19e1d23921bb5a7526866e08",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(compact_table\\.csv)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "compact_table.csv",
+       "raw": "compact_table.csv",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`compact_table\\.csv` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+       "raw": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calibration_limits\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calibration_limits.json",
+       "raw": "calibration_limits.json",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calibration_limits\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+       "raw": "41612c7a4e53d71e88aae5171cee741bed32bdc3d7da96000acd1c13d2d9c4ea",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "study1b-1",
+       "raw": "study1b-1",
+       "refs": [
+        {
+         "key": "L37.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "521f2a1",
+       "raw": "521f2a1",
+       "refs": [
+        {
+         "key": "L37.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(slim_plan\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "slim_plan.json",
+       "raw": "slim_plan.json",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`slim_plan\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "0915eddc07a0850e3f49ed7dadf17903e727e551fbf4b2ca452ea1717433bc7f",
+       "raw": "0915eddc07a0850e3f49ed7dadf17903e727e551fbf4b2ca452ea1717433bc7f",
+       "refs": [
+        {
+         "key": "L37.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(calls\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "calls.jsonl",
+       "raw": "calls.jsonl",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`calls\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138",
+       "raw": "752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(compact_table\\.csv)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "compact_table.csv",
+       "raw": "compact_table.csv",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`compact_table\\.csv` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "08dfdb386f8e77e37392f3f0fbd762fa0232b55988d08c3acadfcc32875c1e33",
+       "raw": "08dfdb386f8e77e37392f3f0fbd762fa0232b55988d08c3acadfcc32875c1e33",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(ledger\\.jsonl)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "ledger.jsonl",
+       "raw": "ledger.jsonl",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`ledger\\.jsonl` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "003314a8f7f740a41e3fe717acee938ab359df1320c11d36e1b2930b189af479",
+       "raw": "003314a8f7f740a41e3fe717acee938ab359df1320c11d36e1b2930b189af479",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(manifest\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "manifest.json",
+       "raw": "manifest.json",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`manifest\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "4bfc8515abf28f79f86bdba3bb2a8e399056db4226b25d0f5692099e0fda15a6",
+       "raw": "4bfc8515abf28f79f86bdba3bb2a8e399056db4226b25d0f5692099e0fda15a6",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(runner\\.log)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "runner.log",
+       "raw": "runner.log",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`runner\\.log` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "907aab5abf1af4f9fcab407b3d9d8d08d449563716bf504cafae9e3d59bf5ecf",
+       "raw": "907aab5abf1af4f9fcab407b3d9d8d08d449563716bf504cafae9e3d59bf5ecf",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(topup_plan\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "topup_plan.json",
+       "raw": "topup_plan.json",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`topup_plan\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+       "raw": "c24960360b2ff0fdf1e69b599120bf909197d404baae02b8359b23b237e3b3dc",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "num",
+       "printed": "topup-1",
+       "raw": "topup-1",
+       "refs": [
+        {
+         "key": "L36.Run ID",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /(?:clean detached checkout at (?:the price-date commit )?|run from M \\()([0-9a-f]{7})[0-9a-f]*/ group 1",
+       "kind": "num",
+       "printed": "056dd26",
+       "raw": "056dd26",
+       "refs": [
+        {
+         "key": "L36.What ran",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`(window\\.json)` [0-9a-f]{64}/ group 1",
+       "kind": "num",
+       "printed": "window.json",
+       "raw": "window.json",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      },
+      {
+       "formula": "text cut /`window\\.json` ([0-9a-f]{64})/ group 1",
+       "kind": "num",
+       "printed": "2c6306330fd9f981387f4a4664ee7107656229e901c414a6c2bea321f079c39f",
+       "raw": "2c6306330fd9f981387f4a4664ee7107656229e901c414a6c2bea321f079c39f",
+       "refs": [
+        {
+         "key": "L36.Notes",
+         "source": "spend_log"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "claims_format": {
+   "commit": "c59ccfa",
+   "path": "research/paper-notes/claims-ledger-format.md",
+   "sha256": "12635ab5ed6a58c6f1560aad1bddf86b4f791cb144be277370eb50ed58e81fe9"
+  },
+  "curve": {
+   "commit": "4547097",
+   "path": "data/pilot/curve-ladder-l14n-1.json",
+   "sha256": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad"
+  },
+  "curve_d90": {
+   "commit": "b6c1de5",
+   "path": "data/pilot/curve-ladder-l14n-1-d90.json",
+   "sha256": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0"
+  },
+  "findings": {
+   "commit": "b6e1788",
+   "path": "research/paper-notes/findings-register.md",
+   "sha256": "4c92d9979b511683d0fd2443a8809e95dd9443c892cb42f0da8b76b3aa36bf28"
+  },
+  "groupc": {
+   "commit": "2830340",
+   "path": "data/main/main-l14n6-1/groupc.json",
+   "sha256": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9"
+  },
+  "log": {
+   "commit": "bec30e3",
+   "path": "LOG.md",
+   "sha256": "16a220dae12460a5a8e9b0dc9c4371a50ed0d51901357ba30efe4a0f6339e1b8"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "reporting_defs_release": {
+   "commit": "93334b8",
+   "path": "research/reporting-definitions-main.md",
+   "sha256": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81"
+  },
+  "requirements": {
+   "commit": "88d5c72",
+   "path": "harness/requirements.txt",
+   "sha256": "e426975f7680eba153716fbec5de1762092e50628cbb9731fc395cd3abedb019"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "spend_log": {
+   "commit": "b216f07",
+   "path": "ops/spend-log.md",
+   "sha256": "ea0ad353622b9d88a591d0afa6748fe5640cff696bb99fa66b83a237bf998929"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "files": [
+    {
+     "kind": "label",
+     "printed": "nine files: the three analysis files (Study 1, Study 1b and the top-up), the two k.json files (Study 1 and Study 1b), Study 1's keep-list analyses and reporting definitions, and the length sweep's two curves (Deviation 2 rule and original rule), each with its SHA-256 hash and, where one is recorded, its code commit (the reporting definitions and the two curve files have none); the paid-runs panel lists each run's commit and the SHA-256 of each raw file its cost record lists"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "disclosure (reproducibility)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "File"
+   },
+   {
+    "kind": "label",
+    "printed": "Path"
+   },
+   {
+    "kind": "label",
+    "printed": "Commit"
+   },
+   {
+    "kind": "label",
+    "printed": "SHA-256"
+   },
+   {
+    "kind": "label",
+    "printed": "Code commit"
+   },
+   {
+    "kind": "label",
+    "printed": "Run file recorded"
+   },
+   {
+    "kind": "label",
+    "printed": "Recorded SHA-256"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "formula": "text cut /`source` becomes `(sources): \\{/ group 1; text cut /^`(\\{path, commit, sha256\\})`/ group 1; text cut /`commit` is (the last commit on main that touched the file)/ group 1; git log -1 HEAD -- data/main/main-l14n6-1/analysis.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/main/main-l14n6-1/k.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/main/main-l14n6-1/groupc.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- research/reporting-definitions-main.md; not printed: the pin is the last commit in HEAD's history that touched the file; git log -1 HEAD -- data/main/study1b-1/analysis.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/main/study1b-1/k.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/main/topup-1/analysis.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/pilot/curve-ladder-l14n-1-d90.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; git log -1 HEAD -- data/pilot/curve-ladder-l14n-1.json and git log --diff-filter=A HEAD; not printed: the pin is the last commit in HEAD's history that touched the file, and the one commit that added it; text cut /research/reporting\\-definitions\\-main\\.md \\(([0-9a-f]{7})\\b/ group 1; not printed: main:reporting.group_b.note names the reporting definitions at the pinned commit; text cut /research/reporting\\-definitions\\-main\\.md \\(([0-9a-f]{7})\\b/ group 1; not printed: groupc:note names the reporting definitions at the pinned commit",
+     "kind": "num",
+     "printed": "Path, Commit and SHA-256 are each file's entry in the claims ledger's sources field, {path, commit, sha256}, so a ledger row and this table cite a file the same way. The commit is the last commit on main that touched the file: for each data file, the commit that added it; for Study 1's reporting definitions, the revision that the Study 1 analysis and the keep-list analyses cite. Each file is read from that commit, and its SHA-256 is checked against the bytes before any table is built.",
+     "raw": [
+      "sources",
+      "{path, commit, sha256}",
+      "the last commit on main that touched the file",
+      "8be72ec",
+      "da61c76",
+      "2830340",
+      "93334b8",
+      "fb301dd",
+      "534e415",
+      "5c305db",
+      "b6c1de5",
+      "4547097",
+      "93334b8",
+      "93334b8"
+     ],
+     "refs": [
+      {
+       "key": "L96",
+       "source": "claims_format"
+      },
+      {
+       "key": "L20.What it holds",
+       "source": "claims_format"
+      },
+      {
+       "key": "L97",
+       "source": "claims_format"
+      },
+      {
+       "key": "@commit",
+       "source": "main"
+      },
+      {
+       "key": "@commit",
+       "source": "main_k"
+      },
+      {
+       "key": "@commit",
+       "source": "groupc"
+      },
+      {
+       "key": "@commit",
+       "source": "reporting_defs_release"
+      },
+      {
+       "key": "@commit",
+       "source": "s1b"
+      },
+      {
+       "key": "@commit",
+       "source": "s1b_k"
+      },
+      {
+       "key": "@commit",
+       "source": "topup"
+      },
+      {
+       "key": "@commit",
+       "source": "curve_d90"
+      },
+      {
+       "key": "@commit",
+       "source": "curve"
+      },
+      {
+       "key": "reporting.group_b.note",
+       "source": "main"
+      },
+      {
+       "key": "note",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "text cut /research/reporting\\-definitions\\-main\\.md \\([0-9a-f]{7}[^)]*\\), items (\\d+-\\d+)\\b/ group 1; the record's hyphen in a range is printed as an en dash (house style); text cut /research/reporting\\-definitions\\-main\\.md \\([0-9a-f]{7}[^)]*\\), items (\\d+-\\d+)\\b/ group 1; the record's hyphen in a range is printed as an en dash (house style); text cut /research/reporting\\-definitions\\-main\\.md \\(([0-9a-f]{7})\\b/ group 1; not printed: main:reporting.group_b.note names the reporting definitions at the pinned commit; text cut /research/reporting\\-definitions\\-main\\.md \\(([0-9a-f]{7})\\b/ group 1; not printed: groupc:note names the reporting definitions at the pinned commit",
+     "kind": "num",
+     "printed": "Item numbers in the appendix tables ('item N') refer to the numbered items of Study 1's reporting definitions at that revision: the Study 1 analysis cites items 7–24 there, and the keep-list analyses items 1–24.",
+     "raw": [
+      "7-24",
+      "1-24",
+      "93334b8",
+      "93334b8"
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.note",
+       "source": "main"
+      },
+      {
+       "key": "note",
+       "source": "groupc"
+      },
+      {
+       "key": "reporting.group_b.note",
+       "source": "main"
+      },
+      {
+       "key": "note",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Code commit: the commit the analysis ran at, from our work log's entry for each driver run (the top-up file stamps its own). Run file recorded: the run file whose SHA-256 the analysis file itself records about its inputs (for the Study 1 analysis, the compact table that k was computed from); each equals the hash in that run's row of our cost records (the run panel). A dash: no such record (our work log names no commit for the curve runs, and the curve files record no run-file hash; the reporting definitions are a text file, not a run's output). Commits here and in the run panel are shortened to their first seven characters."
+    }
+   ],
+   [
+    {
+     "formula": "text cut /^- Tools: (.+)\\.$/ group 1; text cut /^\\*\\*5\\.4 (Code used after the locks)\\.\\*\\*/ group 1; not printed: the record for 'section 5.4 is the record of the code used after the locks'; text cut /^(anthropic==\\S+)$/ group 1",
+     "kind": "num",
+     "printed": "Tools for the paid runs and the analyses: anthropic==0.125.0, Python 3.9.6, git 2.39.5 (our record of the code used after the locks); the API client pinned in harness/requirements.txt: anthropic==0.125.0.",
+     "raw": [
+      "anthropic==0.125.0, Python 3.9.6, git 2.39.5",
+      "Code used after the locks",
+      "anthropic==0.125.0"
+     ],
+     "refs": [
+      {
+       "key": "L364",
+       "source": "findings"
+      },
+      {
+       "key": "L355",
+       "source": "findings"
+      },
+      {
+       "key": "L9",
+       "source": "requirements"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The paper-outputs code, its figure-library pins and every output's SHA-256 are in data/paper-outputs/MANIFEST.json."
+    }
+   ],
+   [
+    {
+     "formula": "text cut /\\b(D-93)\\b/ group 1; not printed: the record for 'the file cites a decision number'; text cut /\\b(Friday)'s three group-B modules\\b/ group 1; not printed: the record for 'the file names one of our work sessions'",
+     "kind": "num",
+     "printed": "Study 1's reporting definitions are listed as written: they cite internal decision numbers and name our own work sessions; the record those numbers refer to is not released.",
+     "raw": [
+      "D-93",
+      "Friday"
+     ],
+     "refs": [
+      {
+       "key": "L10",
+       "source": "reporting_defs_release"
+      },
+      {
+       "key": "L706",
+       "source": "reporting_defs_release"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 analysis"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/main-l14n6-1/analysis.json",
+     "raw": "data/main/main-l14n6-1/analysis.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8be72ec",
+     "raw": "8be72ec",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+     "raw": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "c273eb9",
+     "raw": "c273eb9",
+     "refs": [
+      {
+       "key": "L187",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "compact_table.csv"
+    },
+    {
+     "kind": "num",
+     "printed": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+     "raw": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+     "refs": [
+      {
+       "key": "k.compact_table_sha256",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 k.json"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/main-l14n6-1/k.json",
+     "raw": "data/main/main-l14n6-1/k.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "da61c76",
+     "raw": "da61c76",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+     "raw": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /clean checkout at the stamped ([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "c273eb9",
+     "raw": "c273eb9",
+     "refs": [
+      {
+       "key": "L191",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "compact_table.csv"
+    },
+    {
+     "kind": "num",
+     "printed": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+     "raw": "984da2841cd56f0026bb0e750968d59845d8a842af70b2aff04dcd82269df6b4",
+     "refs": [
+      {
+       "key": "compact_table_sha256",
+       "source": "main_k"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 keep-list analyses"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/main-l14n6-1/groupc.json",
+     "raw": "data/main/main-l14n6-1/groupc.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2830340",
+     "raw": "2830340",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9",
+     "raw": "e1cbd4057ed94e6735d7a3ca079213d8ea6eba1240b6f5d90244545bb3f773a9",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "groupc"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /checkout at ([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "90cfb42",
+     "raw": "90cfb42",
+     "refs": [
+      {
+       "key": "L147",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "calls.jsonl"
+    },
+    {
+     "kind": "num",
+     "printed": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+     "raw": "0d04ce3870704017d79a7cd2f3603a7f124379f241f13fb3b3ce416bdd02c123",
+     "refs": [
+      {
+       "key": "inputs.calls_jsonl_sha256",
+       "source": "groupc"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1 reporting definitions"
+    },
+    {
+     "kind": "num",
+     "printed": "research/reporting-definitions-main.md",
+     "raw": "research/reporting-definitions-main.md",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "reporting_defs_release"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "93334b8",
+     "raw": "93334b8",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "reporting_defs_release"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81",
+     "raw": "bddab72761b4111f6d4ed439f13ddbd63427bc14a9c61b58d0ceadb32f18bf81",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "reporting_defs_release"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b analysis"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/study1b-1/analysis.json",
+     "raw": "data/main/study1b-1/analysis.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "fb301dd",
+     "raw": "fb301dd",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+     "raw": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /commit ([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "d1c565f",
+     "raw": "d1c565f",
+     "refs": [
+      {
+       "key": "L45",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "calls.jsonl"
+    },
+    {
+     "kind": "num",
+     "printed": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+     "raw": "7523d30e0cf979cc323e0192c4141fee548ce33557288fefdd53f5c43e1baeb9",
+     "refs": [
+      {
+       "key": "inputs.calls_sha256",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Study 1b k.json"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/study1b-1/k.json",
+     "raw": "data/main/study1b-1/k.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "534e415",
+     "raw": "534e415",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+     "raw": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /commit ([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "d1c565f",
+     "raw": "d1c565f",
+     "refs": [
+      {
+       "key": "L49",
+       "source": "log"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "compact_table.csv"
+    },
+    {
+     "kind": "num",
+     "printed": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+     "raw": "e2fbadd3603f4b96d103ecba5392d8dc7e31e04f167eadaf15d3d08eb8a45ca7",
+     "refs": [
+      {
+       "key": "compact_table_sha256",
+       "source": "s1b_k"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Top-up analysis"
+    },
+    {
+     "kind": "num",
+     "printed": "data/main/topup-1/analysis.json",
+     "raw": "data/main/topup-1/analysis.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5c305db",
+     "raw": "5c305db",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558",
+     "raw": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "formula": "text cut /^([0-9a-f]{7})[0-9a-f]*/ group 1",
+     "kind": "num",
+     "printed": "d1c565f",
+     "raw": "d1c565f",
+     "refs": [
+      {
+       "key": "code.git.commit",
+       "source": "topup"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "calls.jsonl"
+    },
+    {
+     "kind": "num",
+     "printed": "752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138",
+     "raw": "752bb180688e500c7dd9155429801731921e8358f09bdc851ef3432d9fb7f138",
+     "refs": [
+      {
+       "key": "inputs.run['calls.jsonl_sha256']",
+       "source": "topup"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Length sweep curve (Deviation 2 rule)"
+    },
+    {
+     "kind": "num",
+     "printed": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "raw": "data/pilot/curve-ladder-l14n-1-d90.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "curve_d90"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "b6c1de5",
+     "raw": "b6c1de5",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "curve_d90"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0",
+     "raw": "33ab260979cffd6a720f96aeab57f6384c9e6bd49b8730d0a4eab543184120f0",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "curve_d90"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Length sweep curve (original rule)"
+    },
+    {
+     "kind": "num",
+     "printed": "data/pilot/curve-ladder-l14n-1.json",
+     "raw": "data/pilot/curve-ladder-l14n-1.json",
+     "refs": [
+      {
+       "key": "@path",
+       "source": "curve"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "4547097",
+     "raw": "4547097",
+     "refs": [
+      {
+       "key": "@commit",
+       "source": "curve"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad",
+     "raw": "1300a410d652323f9969fd2e44ff843619e72205a5e74cdf1ade01346fdc36ad",
+     "refs": [
+      {
+       "key": "@sha256",
+       "source": "curve"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ]
+  ]
+ }
+}

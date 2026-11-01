@@ -1,0 +1,11 @@
+Test,View,Puzzles used,d (points),d 95% interval,5-point margin: p,5-point margin: reading in this view,10-point margin: p,10-point margin: reading in this view
+Test B1,as deployed,80,−5.19,"[−7.75, −2.69]",0.56595,inconclusive at 5,0.00027,shown no worse by > 10 (Holm-adjusted)
+Test B1,refusals out,80,−5.19,"[−7.75, −2.69]",0.56595,inconclusive at 5,0.00027,shown no worse by > 10 (Holm-adjusted)
+Test B1,truncations out,80,−5.19,"[−7.75, −2.69]",0.56595,inconclusive at 5,0.00027,shown no worse by > 10 (Holm-adjusted)
+Test B2,as deployed,80,+0.63,"[−1.15, 2.44]",≤ 0.00011,shown no worse by > 5 (Holm-adjusted),≤ 0.00011,shown no worse by > 10 (Holm-adjusted)
+Test B2,refusals out,80,+0.63,"[−1.15, 2.44]",≤ 0.00011,shown no worse by > 5 (Holm-adjusted),≤ 0.00011,shown no worse by > 10 (Holm-adjusted)
+Test B2,truncations out,80,+0.63,"[−1.15, 2.44]",≤ 0.00011,shown no worse by > 5 (Holm-adjusted),≤ 0.00011,shown no worse by > 10 (Holm-adjusted)
+Test B2,ties counted wrong (post hoc),80,−0.03,"[−2.11, 1.90]",—,—,—,—
+Test B3,as deployed,40,−3.63,"[−7.00, −1.50]",0.20571,inconclusive at 5,≤ 0.00108,shown no worse by > 10 (Holm-adjusted)
+Test B3,refusals out,40,−3.63,"[−7.00, −1.50]",0.20571,inconclusive at 5,≤ 0.00108,shown no worse by > 10 (Holm-adjusted)
+Test B3,truncations out,40,−3.63,"[−7.00, −1.50]",0.20571,inconclusive at 5,≤ 0.00108,shown no worse by > 10 (Holm-adjusted)

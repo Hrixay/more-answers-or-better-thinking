@@ -1,0 +1,2531 @@
+{
+ "output": {
+  "id": "TAB-34",
+  "kind": "table",
+  "label": "post hoc descriptive",
+  "section": "Discussion and limits (appendix)",
+  "title": "Cost for a target accuracy"
+ },
+ "panels": [],
+ "sources": {
+  "fa2": {
+   "commit": "4935d15",
+   "path": "data/main/free-analyses/fa2r2.json",
+   "sha256": "92aa3cfe2fb26c00b34d11edbf54b627b938a4f2db06d1306830a2f9b8e94838"
+  },
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "plan": {
+   "commit": "7b43f91",
+   "path": "decisions/briefings/2026-10-15-compiler/plan-result.json",
+   "sha256": "07d38a4c790dc37c936ac3a6f1ab9bfc0eeae5f7a3cf66035e439205d4f47a28"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "95% over puzzles; every printed row: cluster bootstrap"
+    }
+   ],
+   "n": [
+    {
+     "formula": "samples / puzzles",
+     "kind": "num",
+     "printed": "puzzles and samples per puzzle behind the printed rows: Study 1, main set, Haiku-max: 80 puzzles, 3 samples each; Study 1b, 6-step set, Haiku-max: 40 puzzles, 10 samples each; Study 1b, 16-step set, Haiku-max: 80 puzzles, 10 samples each",
+     "raw": [
+      80,
+      3.0,
+      40,
+      10,
+      80,
+      10
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.refusals_and_truncations.tries",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+       "source": "main"
+      },
+      {
+       "key": "descriptive.arms.hx@6.1x6.n_base",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.1x16.n_base",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "US dollars per answer at list price"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "the printed rows come from Study 1, main set; Study 1b, 6-step set; Study 1b, 16-step set (each row names its study and set)"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc reading on point estimates (first block) and stamped 95% lower ends (second block); every row carries its study and its label; no fitted frontier"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Cleared by"
+   },
+   {
+    "kind": "label",
+    "printed": "Length"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Target (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Cheapest setting that clears"
+   },
+   {
+    "kind": "label",
+    "printed": "Study and set"
+   },
+   {
+    "kind": "label",
+    "printed": "Label"
+   },
+   {
+    "kind": "label",
+    "printed": "Accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "95% lower end (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "List cost per answer ($)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Post hoc reading on point estimates and stamped 95% intervals: nothing is fitted and no frontier is drawn. Settings from different studies, puzzle sets and runs are compared only as our reading, not a test; each row names its study, set and label."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Two blocks, named in the first column. In the first, a setting clears a target when its accuracy (the point estimate) is at or above the target; in the second, when the lower end of its 95% interval is at or above the target. Each row gives the cheapest setting that clears the target at that length and shape, or says that no measured setting clears it (a dash stands for each number it then lacks). Where rounding would put a value on the target, one more decimal is printed."
+    }
+   ],
+   [
+    {
+     "kind": "num",
+     "printed": "Candidates (every measured setting with a stamped accuracy, 95% interval and list cost per answer at that length and shape): at 6 steps, Study 1's single-call settings and step voting (chains only), its Haiku-medium vote line (k = 2 to 40) and Haiku-max's vote of k = 3 samples; Study 1b's effort-sweep settings on the 6-step set and Haiku-max votes of k = 2 to 10 (free analysis 2, post hoc); the top-up run's Haiku team, its picker (whose cost includes its samples) and its step voting (pieces only). At 16 steps, Study 1b's effort-sweep settings and its Haiku-max vote curve (k = 2 to 10).",
+     "raw": [
+      2,
+      40,
+      3,
+      2,
+      10,
+      2,
+      10
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.chart.1x6.haiku_med_vote_line.1.k",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.chart.1x6.haiku_med_vote_line.39.k",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med.k",
+       "source": "main"
+      },
+      {
+       "key": "result.N=6.curve.1.k",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.9.k",
+       "source": "fa2"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.1.k",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.k",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "formula": "samples / puzzles; samples / puzzles",
+     "kind": "num",
+     "printed": "Every vote row is estimated from the samples made per puzzle, not from separate runs of k calls: Study 1b's Haiku-max votes from 10 samples per puzzle on the 6-step set and 10 on the 16-step set (the expected accuracy of a vote of k of them, a tie credited as a share split evenly among the tied answers); Study 1's Haiku-max vote from its 3 samples and its Haiku-medium vote line from 40. A vote's list cost per answer is k times one sample's.",
+     "raw": [
+      10,
+      10,
+      3.0,
+      40.0
+     ],
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.refusals_and_truncations.tries",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.base_puzzles",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.refusals_and_truncations.tries",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Lower ends are those of the stamped 95% intervals over puzzles, as each setting's file stamps them: Clopper–Pearson (exact) for the Opus and Sonnet settings with one sample per puzzle; cluster bootstrap for every other setting (the Haiku settings, Study 1b's Opus-medium, step voting, the top-up designs and every vote); Clopper–Pearson from free analysis 4 (post hoc) where a bootstrap interval collapsed to one value. Every lower end printed in this table is that of a cluster bootstrap."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Format compliance is the share of answered samples in the required format; for a vote, that of the samples it is drawn from."
+    }
+   ],
+   [
+    {
+     "formula": "count of candidates whose stamped 95% interval has zero width (both ends recorded); each one's lower end is free analysis 4's exact interval for that very interval (its ends recorded)",
+     "kind": "num",
+     "printed": "Where a candidate's bootstrap interval collapsed to one value, its lower end is that of the exact (Clopper–Pearson) 95% interval from free analysis 4 (post hoc) over the same puzzles, so no candidate is left out of the lower-end ranking. That holds for 6 candidates: Haiku-max vote, k = 3, on chains (Study 1, main set; Study 1, exploratory setting): accuracy 100.00%, lower end 95.49% (exact, post hoc; 80 puzzles); Haiku-max vote, k = 9, on chains (Study 1b, 6-step set; post hoc (free analysis 2)): accuracy 100.00%, lower end 91.19% (exact, post hoc; 40 puzzles); Haiku-max vote, k = 10, on chains (Study 1b, 6-step set; post hoc (free analysis 2)): accuracy 100.00%, lower end 91.19% (exact, post hoc; 40 puzzles); Opus-medium, one sample, on pieces (Study 1b, 6-step set; Study 1b, pre-specified descriptive (effort sweep)): accuracy 100.00%, lower end 91.19% (exact, post hoc; 40 puzzles); Haiku, thinking off, one sample, on chains (Study 1b, 16-step set; Study 1b, pre-specified descriptive (effort sweep)): accuracy 0.00%, lower end 0.00% (exact, post hoc; 80 puzzles); Haiku-max vote, k = 10, on pieces (Study 1b, 16-step set; Study 1b, pre-specified descriptive (vote curve)): accuracy 100.00%, lower end 95.49% (exact, post hoc; 80 puzzles).",
+     "raw": [
+      6,
+      3,
+      100.0,
+      95.49359649323077,
+      80,
+      9,
+      100.0,
+      91.19026971211977,
+      40,
+      10,
+      100.0,
+      91.19026971211977,
+      40,
+      100.0,
+      91.19026971211977,
+      40,
+      0.0,
+      0.0,
+      80,
+      10,
+      100.0,
+      95.49359649323077,
+      80
+     ],
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med.ci95.0",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med.ci95.1",
+       "source": "main"
+      },
+      {
+       "key": "result.cells.67.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.67.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "result.N=6.curve.8.1x6.ci95.0",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.8.1x6.ci95.1",
+       "source": "fa2"
+      },
+      {
+       "key": "result.cells.103.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.103.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "result.N=6.curve.9.1x6.ci95.0",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.9.1x6.ci95.1",
+       "source": "fa2"
+      },
+      {
+       "key": "result.cells.104.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.104.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.arms.om@6.6x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.om@6.6x1.ci95.1",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.0.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.0.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.arms.ho@16.1x16.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.arms.ho@16.1x16.ci95.1",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.12.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.12.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.16x1.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.16x1.ci95.1",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.11.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.11.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med.k",
+       "source": "main"
+      },
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.vote_at_own_k.own k vs opus-med.mean",
+       "source": "main"
+      },
+      {
+       "key": "result.cells.67.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.67.n",
+       "source": "fa4"
+      },
+      {
+       "key": "result.N=6.curve.8.k",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.8.1x6.mean",
+       "source": "fa2"
+      },
+      {
+       "key": "result.cells.103.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.103.n",
+       "source": "fa4"
+      },
+      {
+       "key": "result.N=6.curve.9.k",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.9.1x6.mean",
+       "source": "fa2"
+      },
+      {
+       "key": "result.cells.104.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.104.n",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.arms.om@6.6x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.0.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.0.n",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.arms.ho@16.1x16.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.12.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.12.n",
+       "source": "fa4"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.k",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.vote_curve_n16.points.9.16x1.mean",
+       "source": "s1b"
+      },
+      {
+       "key": "result.cells.11.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.11.n",
+       "source": "fa4"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.75",
+     "raw": 94.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00433",
+     "raw": 0.00432628875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.75",
+     "raw": 94.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00433",
+     "raw": 0.00432628875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.N=6.curve.2.k",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 2)"
+    },
+    {
+     "kind": "num",
+     "printed": "99.06",
+     "raw": 99.05555555555557,
+     "refs": [
+      {
+       "key": "result.N=6.curve.2.1x6.mean",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.28",
+     "raw": 97.27777777777779,
+     "refs": [
+      {
+       "key": "result.N=6.curve.2.1x6.ci95.0",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "formula": "k * Haiku-max list cost per answer",
+     "kind": "num",
+     "printed": "0.0130",
+     "raw": 0.012978866249999998,
+     "refs": [
+      {
+       "key": "result.N=6.hx_cost_per_answer.1x6.list_usd",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.2.k",
+       "source": "fa2"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.50",
+     "raw": 90.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00405",
+     "raw": 0.00405402625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, main set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, exploratory setting"
+    },
+    {
+     "kind": "num",
+     "printed": "95.00",
+     "raw": 95.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.58",
+     "raw": 0.9958333333333333,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "91.25",
+     "raw": 91.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_interval.ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00407",
+     "raw": 0.004066895,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.k",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, main set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, exploratory setting"
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.58",
+     "raw": 0.9958333333333333,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0122",
+     "raw": 0.012200685,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "92.25",
+     "raw": 92.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "89.25",
+     "raw": 89.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0123",
+     "raw": 0.01226045875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.1x16.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "96.62",
+     "raw": 96.61805555555556,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.15",
+     "raw": 94.14583333333334,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0368",
+     "raw": 0.03678137625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "Study 1b, pre-specified descriptive (vote curve, at B2's k = 6)",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "k",
+       "source": "s1b_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.04",
+     "raw": 98.03571428571429,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.77",
+     "raw": 95.77380952380952,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.1x16.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0736",
+     "raw": 0.0735627525,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.5.1x16.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "93.00",
+     "raw": 93.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.38",
+     "raw": 90.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0101",
+     "raw": 0.010086421875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.43",
+     "raw": 97.43402777777779,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.50",
+     "raw": 95.5,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0303",
+     "raw": 0.030259265625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "point estimate"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "98.71",
+     "raw": 98.71279761904762,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25446428571429,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0504",
+     "raw": 0.050432109375,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.75",
+     "raw": 94.75,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00433",
+     "raw": 0.00432628875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.1x6.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, main set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, exploratory setting"
+    },
+    {
+     "kind": "num",
+     "printed": "97.50",
+     "raw": 97.5,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.42",
+     "raw": 95.41666666666666,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_interval.ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00441",
+     "raw": 0.004405077083333334,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 1x6.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "result.N=6.curve.4.k",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc (free analysis 2)"
+    },
+    {
+     "kind": "num",
+     "printed": "99.35",
+     "raw": 99.3452380952381,
+     "refs": [
+      {
+       "key": "result.N=6.curve.4.1x6.mean",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.04",
+     "raw": 98.03571428571429,
+     "refs": [
+      {
+       "key": "result.N=6.curve.4.1x6.ci95.0",
+       "source": "fa2"
+      }
+     ]
+    },
+    {
+     "formula": "k * Haiku-max list cost per answer",
+     "kind": "num",
+     "printed": "0.0216",
+     "raw": 0.02163144375,
+     "refs": [
+      {
+       "key": "result.N=6.hx_cost_per_answer.1x6.list_usd",
+       "source": "fa2"
+      },
+      {
+       "key": "result.N=6.curve.4.k",
+       "source": "fa2"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 6-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.50",
+     "raw": 90.5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.00405",
+     "raw": 0.00405402625,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.6x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.k",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, main set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1, exploratory setting"
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.mean",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.58",
+     "raw": 0.9958333333333333,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.25",
+     "raw": 96.25,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.ci95.0",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0122",
+     "raw": 0.012200685,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-max 6x1.vote_at_own_k.own k vs opus-med.cost_per_puzzle.mean",
+       "source": "main"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "6 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "no measured setting clears"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "96.62",
+     "raw": 96.61805555555556,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "94.15",
+     "raw": 94.14583333333334,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0368",
+     "raw": 0.03678137625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.1x16.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.89",
+     "raw": 97.89434523809524,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.1x16.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.67",
+     "raw": 95.66964285714286,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.1x16.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0613",
+     "raw": 0.06130229375,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.4.1x16.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "no measured setting clears"
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "empty",
+     "printed": ""
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 1",
+     "kind": "num",
+     "printed": "90",
+     "raw": "90",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max, one sample"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (effort sweep)"
+    },
+    {
+     "kind": "num",
+     "printed": "93.00",
+     "raw": 93.0,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90.38",
+     "raw": 90.375,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0101",
+     "raw": 0.010086421875,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 2",
+     "kind": "num",
+     "printed": "95",
+     "raw": "95",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "97.43",
+     "raw": 97.43402777777779,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "95.50",
+     "raw": 95.5,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0303",
+     "raw": 0.030259265625,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.2.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "95% lower end"
+    },
+    {
+     "kind": "label",
+     "printed": "16 steps"
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "formula": "text cut /(\\d+)%, (\\d+)% and (\\d+)%/ group 3",
+     "kind": "num",
+     "printed": "98",
+     "raw": "98",
+     "refs": [
+      {
+       "key": "plan.tables_figures.33.content",
+       "source": "plan"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "Haiku-max vote, k = 7",
+     "raw": 7,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.k",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, 16-step set"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b, pre-specified descriptive (vote curve)"
+    },
+    {
+     "kind": "num",
+     "printed": "99.17",
+     "raw": 99.16666666666666,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.16x1.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.13",
+     "raw": 98.125,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.16x1.ci95.0",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0.0706",
+     "raw": 0.070604953125,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.points.6.16x1.cost_per_answer",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

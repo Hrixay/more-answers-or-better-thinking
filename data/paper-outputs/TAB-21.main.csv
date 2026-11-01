@@ -1,0 +1,7 @@
+Choice,Favours,Bounded or measured by,Outcome (accuracies in %)
+Rule kinds tuned on Haiku's slips,Opus and Sonnet (against the vote),"The fairness check (the targeting index, the house-rule index, repeat share)","The fairness check's flag did not fire (the targeting index did not trigger the flag; the house-rule index was not assessable: Opus and Sonnet together had 0 house-rule slips, fewer than the 3 it needs); Flag R did not fire (TAB-07)"
+The 10-point margin,The vote,The pre-registered decision rule; the error-rate ratios; a 5-point secondary view (a power simulation),The 5-point view of Tests 1–5 (TAB-03)
+Refusals and truncations count as wrong,The vote,The headline rule (a result shown no worse must hold with them left out),The refusals-out and truncations-out views (TAB-03)
+The 25–50 per cent Haiku band,The vote,Stated as the regime studied; the scope sentence,"Study 1 pooled, Haiku-medium single sample: 47.4 (TAB-18)"
+Pieces near the ceiling,"Both sides, so less informative",Per-shape medians reported; a low-information flag if Haiku pieces score above 60 per cent,Low-information flag did not fire; Haiku-medium pieces: 51.0 (TAB-07)
+Absorption in chains,Designs that slip more (the vote),"The official chain score is all step lines right, so an absorbed slip still counts as wrong; the puzzle generator's absorption caps (single units, each transfer size and the house-rule slips on the reference chain) bound the final-answer view",The final-answer view (TAB-03)

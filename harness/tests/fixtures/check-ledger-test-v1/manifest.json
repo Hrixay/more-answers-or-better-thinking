@@ -1,0 +1,57 @@
+{
+ "family": "ledger",
+ "generator": "ledger-0.3",
+ "git_commit": "96b6368639c364b2be6fa055c1d5f24e92216301",
+ "git_dirty": true,
+ "items_sha256": "f3fc9490d3d4717f53fdc047e198361c7fbb688543277c7e9c6856082037581b",
+ "n_base": 5,
+ "n_items": 10,
+ "prompt_sha256": [
+  "6ffdba7eb3b0d9347adf860c3f11a0528d98039db40d3bb5377a36039f5845c1",
+  "1bddd37c248d08fb8693d3950d4e1afb44cc2098d99f823c3e9961759fdaecb4",
+  "703a81a349a3d8620ea926754edfddcf38d7e6abb6b12c7ef60f2ad56a8c73d3",
+  "c6a8c976a1740573068d88a2aa17f03dd7f779541f4b697da07083176906c0b6",
+  "c2eb370e1b900b93fe1cdc788421d189c597244849b15ee61c97d7b2dbf16300",
+  "0b71b510b0ab2044799373e9e48938201028f24a11c42410fca92031ebfdf3e4",
+  "7bf9c85f9b9eb39e26bb1cf5d7679664033fddbf83c5de0d979f399effb4f6ba",
+  "66e2187b37ce7b449ce273c3cc70a52a1a10a1bf3dafbf731eea1602ef19e9ae",
+  "4e1aa6db68e1015714f8598cb1a725109d11d3e7fd17a1aaa4fe05d6763e7bd1",
+  "9afc2a76557ad7b6cc8e93d645a1dc02623651701fd373f5eeecd8d7253e5d68"
+ ],
+ "prompt_style": "d31",
+ "seeds": [
+  "8503825215913479954",
+  "583836657624154318",
+  "5908815523639671734",
+  "8982651666480637194",
+  "9035408806855142561"
+ ],
+ "set_id": "check-ledger-test-v1",
+ "setting": "l14",
+ "setting_params": {
+  "decoys": 0,
+  "digits": 4,
+  "hard": false,
+  "house": true,
+  "kinds": [
+   "repick2",
+   "repeat_fixed",
+   "rank_move",
+   "count_move",
+   "avg_donors",
+   "two_clause",
+   "compare_move"
+  ],
+  "lines": 6,
+  "max_per_kind": 6,
+  "overwrite_max": 3,
+  "repeat_n": 3,
+  "total_steps": 24
+ },
+ "shapes": [
+  "24x1",
+  "1x24"
+ ],
+ "split": "scratch",
+ "taskgen_sources_sha256": "c214d156cef1e4f0a79c0381fb301a44df9306acce674e59f976919842bb0fe5"
+}

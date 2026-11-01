@@ -1,0 +1,2613 @@
+{
+ "output": {
+  "id": "TAB-11",
+  "kind": "table",
+  "label": "descriptive per-shape breakdown",
+  "section": "Results: Study 1b (appendix)",
+  "title": "Study 1b per-shape readings and views (appendix)"
+ },
+ "panels": [
+  {
+   "name": "Pooled tests in the three views",
+   "table": {
+    "caption": {},
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Test"
+     },
+     {
+      "kind": "label",
+      "printed": "View"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles used"
+     },
+     {
+      "kind": "label",
+      "printed": "d (points)"
+     },
+     {
+      "kind": "label",
+      "printed": "d 95% interval"
+     },
+     {
+      "kind": "label",
+      "printed": "5-point margin: p"
+     },
+     {
+      "kind": "label",
+      "printed": "5-point margin: reading in this view"
+     },
+     {
+      "kind": "label",
+      "printed": "10-point margin: p"
+     },
+     {
+      "kind": "label",
+      "printed": "10-point margin: reading in this view"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "label",
+       "printed": "≤ marks a p at the smallest value the bootstrap can return (no resample reached the margin)."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "label",
+       "printed": "as deployed"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−5.19",
+       "raw": -5.1875,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.75, −2.69]",
+       "raw": [
+        -7.75,
+        -2.6875
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.56595",
+       "raw": 0.565953689092755,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00027",
+       "raw": 0.0002657598362947877,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "label",
+       "printed": "refusals out"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−5.19",
+       "raw": -5.1875,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.75, −2.69]",
+       "raw": [
+        -7.75,
+        -2.6875
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.56595",
+       "raw": 0.565953689092755,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00027",
+       "raw": 0.0002657598362947877,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B1"
+      },
+      {
+       "kind": "label",
+       "printed": "truncations out"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−5.19",
+       "raw": -5.1875,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.75, −2.69]",
+       "raw": [
+        -7.75,
+        -2.6875
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.56595",
+       "raw": 0.565953689092755,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.00027",
+       "raw": 0.0002657598362947877,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B1.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B1.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B1.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "label",
+       "printed": "as deployed"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+0.63",
+       "raw": 0.6324404761904753,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−1.15, 2.44]",
+       "raw": [
+        -1.1458333333333346,
+        2.4404761904761894
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 5 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "label",
+       "printed": "refusals out"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+0.63",
+       "raw": 0.6324404761904753,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−1.15, 2.44]",
+       "raw": [
+        -1.1458333333333346,
+        2.4404761904761894
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 5 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "label",
+       "printed": "truncations out"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "+0.63",
+       "raw": 0.6324404761904753,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−1.15, 2.44]",
+       "raw": [
+        -1.1458333333333346,
+        2.4404761904761894
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 5 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00011",
+       "raw": 0.00010062651391767874,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B2.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B2.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B2.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B2.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B2.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B2"
+      },
+      {
+       "kind": "label",
+       "printed": "ties counted wrong (post hoc)"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.ties_as_wrong.paired.pooled.n",
+         "source": "fa13"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−0.03",
+       "raw": -0.029761904761904566,
+       "refs": [
+        {
+         "key": "result.ties_as_wrong.paired.pooled.d",
+         "source": "fa13"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−2.11, 1.90]",
+       "raw": [
+        -2.113095238095238,
+        1.904761904761905
+       ],
+       "refs": [
+        {
+         "key": "result.ties_as_wrong.paired.pooled.ci95.0",
+         "source": "fa13"
+        },
+        {
+         "key": "result.ties_as_wrong.paired.pooled.ci95.1",
+         "source": "fa13"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "label",
+       "printed": "as deployed"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−3.63",
+       "raw": -3.625,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.00, −1.50]",
+       "raw": [
+        -7.0,
+        -1.5
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.20571",
+       "raw": 0.2057066469437367,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.as_deployed.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00108",
+       "raw": 0.0010780584973148488,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.as_deployed.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "label",
+       "printed": "refusals out"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−3.63",
+       "raw": -3.625,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.00, −1.50]",
+       "raw": [
+        -7.0,
+        -1.5
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.20571",
+       "raw": 0.2057066469437367,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.refusals_out.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00108",
+       "raw": 0.0010780584973148488,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B3.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B3.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B3.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.refusals_out.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Test B3"
+      },
+      {
+       "kind": "label",
+       "printed": "truncations out"
+      },
+      {
+       "kind": "num",
+       "printed": "40",
+       "raw": 40,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.n",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "−3.63",
+       "raw": -3.625,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.d",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "[−7.00, −1.50]",
+       "raw": [
+        -7.0,
+        -1.5
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.ci95.0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.ci95.1",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "0.20571",
+       "raw": 0.2057066469437367,
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.p",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "inconclusive at 5",
+       "raw": [
+        "inconclusive",
+        false
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.views.truncations_out.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.primary_margin_5.margin",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "p at the bootstrap's floor (bootstrap.p_value at the clipped share, from z0, a and B); printed as a bound rounded up at 5 places",
+       "kind": "num",
+       "printed": "≤ 0.00108",
+       "raw": 0.0010780584973148488,
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B3.p",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B3.z0",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B3.a",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.B",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "the stamped reading and Holm flags (and Study 1b's secondary-margin ones) in the Method legend's words",
+       "kind": "num",
+       "printed": "shown no worse by > 10 (Holm-adjusted)",
+       "raw": [
+        "non-inferior",
+        true
+       ],
+       "refs": [
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B3.reading",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.views.truncations_out.tests.B3.declared",
+         "source": "s1b"
+        },
+        {
+         "key": "confirmatory.secondary_margin_10.margin",
+         "source": "s1b"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa13": {
+   "commit": "c1b33af",
+   "path": "data/main/free-analyses/fa13.json",
+   "sha256": "ca4d0805ded485d6787fc3b099064101d47c4e3f8b9f70c27937ce45d2f92a32"
+  },
+  "fa4": {
+   "commit": "d9cc189",
+   "path": "data/main/free-analyses/fa4r3.json",
+   "sha256": "61ecbaf4ae31a1be4ba280323af0224be375d496a1a022d581b3f9a96e6b2f91"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_curve_py_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/curve.py",
+   "sha256": "948261958e81e6ddf460f9f7391f586162eebd0435754e3d01aab637e793a732"
+  },
+  "s1b_driver_s1b": {
+   "commit": "d1c565f",
+   "path": "harness/analysis/study1b.py",
+   "sha256": "957f63276197fdcf9c2eee0e8f43b542c63ee8c1be76a4f3ef72b6226a2295d3"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  },
+  "spec1b": {
+   "commit": "9c007e5",
+   "path": "research/study1b-spec.md",
+   "sha256": "4b6779502c26ae1da96b55573b0f9e62d153caa4509ef543b748c5d70a72c879"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "formula": "text cut /\"d\": \\{b: (c\\[b\\] - o\\[b\\]) for b in bases\\}/ group 1; not printed: the record for 'per_form's d is paired: each puzzle's challenger minus its comparator'; text cut /\"ci95\": _boot\\(bases, v, (f\"1b:\\{t\\}:\\{n\\}:\\{shape\\}:\\{s\\}\"), draws\\)/ group 1; not printed: the record for 'each per-shape interval is _boot under its own name'; text cut /\"\"\"The cluster bootstrap \\(curve\\.cluster_bootstrap, (percentile 95%)\\) of the mean over drawn base puzzles/ group 1; not printed: the record for '_boot is a percentile bootstrap'; text cut /\"per_form\": (per_form\\(rows, k, dv\\)),/ group 1; not printed: the record for 'the per-test intervals get the file's draws'; text cut /\"constants\": \\{.*(\"draws\": dv),/ group 1; not printed: the record for 'the file stamps the draws the driver used'",
+     "kind": "num",
+     "printed": "cluster bootstrap over puzzles for accuracies; paired bootstrap for d,",
+     "raw": [
+      "c[b] - o[b]",
+      "f\"1b:{t}:{n}:{shape}:{s}\"",
+      "percentile 95%",
+      "per_form(rows, k, dv)",
+      "\"draws\": dv"
+     ],
+     "refs": [
+      {
+       "key": "L689",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L691",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L705",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1188",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1180",
+       "source": "s1b_driver_s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "2,000",
+     "raw": 2000,
+     "refs": [
+      {
+       "key": "constants.draws",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "draws; exact Clopper–Pearson over puzzles (free analysis 4, post hoc) where a bootstrap interval collapsed; Panel 1's d intervals are paired BCa bootstraps with"
+    },
+    {
+     "formula": "one value, equal in every source",
+     "kind": "num",
+     "printed": "10,000",
+     "raw": 10000,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.B",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.secondary_margin_10.views.as_deployed.B",
+       "source": "s1b"
+      },
+      {
+       "key": "code.B",
+       "source": "fa13"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "resamples (the tests' own, and free analysis 13's for the ties-counted-wrong row)"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles per shape:"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.d.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B1, B2);"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.d.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "(B3);"
+    },
+    {
+     "kind": "label",
+     "printed": "samples per puzzle and shape: Haiku-max"
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "constants.designed_tries.hx",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and Opus-medium"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "constants.designed_tries.om",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "not applicable (no cost column)"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1b's own puzzle set at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Tests B1 and B2) and its set at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps (Test B3)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1b; Tests B1 and B2 at"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "completeness.B1.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps, Test B3 at"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "completeness.B3.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "steps"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "descriptive per-shape breakdown of the confirmatory tests (Holm within Study 1b only); the exact intervals are post hoc (free analysis 4); Panel 1's ties-counted-wrong row for Test B2 is post hoc (free analysis 13)"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Test"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Challenger 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium accuracy (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "d (points)"
+   },
+   {
+    "kind": "label",
+    "printed": "d 95% interval"
+   },
+   {
+    "kind": "label",
+    "printed": "Format compliance, challenger (%)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Per-shape numbers are descriptive: the tests are the pooled ones in TAB-10. A chain is one puzzle whose answer carries all the steps; pieces are separate one-step puzzles."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The B2 challenger is the vote of k Haiku-max samples, k ="
+    },
+    {
+     "kind": "num",
+     "printed": "6;",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.k_from_k_json",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "B1 and B3 use one Haiku-max sample. Intervals are cluster bootstrap over puzzles (accuracies) and paired bootstrap (d)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "For Test B2 the challenger's format compliance is that of the single Haiku-max samples the vote is taken over."
+    }
+   ],
+   [
+    {
+     "formula": "text cut /^- \\*\\*Per shape:\\*\\* h, o, v and d for each shape, with a (cluster bootstrap over base puzzles) \\((\\d,\\d{3}) draws, seed \\d+\\)\\. Descriptive\\.$/ group 1; not printed: the record for 'the per-test intervals per shape are a cluster bootstrap over base puzzles'; text cut /^## \\d+\\. (The confirmatory tests): B1, B2, B3 \\(F-3\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. (The confirmatory tests): B1, B2, B3 \\\\(F-3\\\\)$''; text cut /^- Each point carries its interval: a (cluster bootstrap for multi-try arms), Clopper–Pearson for one-try arms, (\\d,\\d{3}) draws, seed$/ group 1; not printed: the record for 'the effort sweep's multi-try intervals are a cluster bootstrap'; text cut /^## \\d+\\. Descriptive outputs \\((pre-registered), no tests\\)$/ group 1; not printed: the record for 'that line sits in the section '^## \\\\d+\\\\. Descriptive outputs \\\\((pre-registered), no tests\\\\)$''; text cut /^(\\d+)$/ group 1; not printed: the record for 'the bootstrap draws the Study 1b file used'; text cut /\"\"\"The (cluster bootstrap) \\(curve\\.cluster_bootstrap, percentile 95%\\) of the mean over drawn base puzzles/ group 1; not printed: the record for '_boot is the cluster bootstrap over base puzzles'; text cut /lambda s: math\\.fsum\\(values\\[b\\] for b in s\\) / len\\(s\\), (name, draws=draws),/ group 1; not printed: the record for '_boot draws under the name and with the draws it is given'; text cut /\"ci95\": _boot\\(bases, v, (f\"1b:\\{t\\}:\\{n\\}:\\{shape\\}:\\{s\\}\"), draws\\)/ group 1; not printed: the record for 'each per-test interval is _boot under its own name'; text cut /name = (f\"1b:\\{su\\.name\\}:\\{n\\}:\\{shape\\}\")/ group 1; not printed: the record for 'the effort sweep's per-shape bootstrap name'; text cut /d\\.update\\(ci95=_boot\\(bases, per\\[shape\\], name, draws\\), interval=\"(cluster bootstrap)\", bootstrap_name=name\\)/ group 1; not printed: the record for 'the effort sweep's per-shape interval of a multi-try arm is _boot'; text cut /\"ci95\": _boot\\(sorted\\(v\\), v, (f\"1b:hx-vote:\\{n\\}:\\{label\\}\"), draws\\)/ group 1; not printed: the record for 'each vote-curve interval is _boot under its own name'; text cut /out\\.update\\((_accuracy\\(ctx, ar, su, n, draws, final_only=False\\))\\)/ group 1; not printed: the record for 'an effort-sweep arm's entry is _accuracy with the draws it is given'; text cut /= (arm_point\\(ctx, rows, su, int\\(s\\[\"n\"\\]\\), draws, h\\))/ group 1; not printed: the record for 'every effort-sweep arm gets the draws'; text cut /arms = (descriptive_arms\\(ctx, rows, plan, dv\\))/ group 1; not printed: the record for 'the effort sweep gets the file's draws'; text cut /\"per_form\": (per_form\\(rows, k, dv\\)),/ group 1; not printed: the record for 'the per-test intervals get the file's draws'; text cut /\"vote_curve_n16\": (vote_curve\\(ctx, rows, k, dv\\)),/ group 1; not printed: the record for 'the vote curve gets the file's draws'; text cut /\"constants\": \\{.*(\"draws\": dv),/ group 1; not printed: the record for 'the file stamps the draws the driver used'; text cut /rng = random\\.Random\\((derive_seed\\(seed, name\\))\\)/ group 1; not printed: the record for 'the cluster bootstrap seeds its draws by the bootstrap's name'",
+     "kind": "num",
+     "printed": "The per-test intervals here and TAB-12's intervals for the same setting and shape (for the B2 vote, FIG-03's) come from separate bootstrap draws over the same puzzles, with the same points, and differ only by resampling, so their ends can differ slightly; where both collapsed to one value, both show the same exact interval.",
+     "raw": [
+      "cluster bootstrap over base puzzles",
+      "The confirmatory tests",
+      "cluster bootstrap for multi-try arms",
+      "pre-registered",
+      "2000",
+      "cluster bootstrap",
+      "name, draws=draws",
+      "f\"1b:{t}:{n}:{shape}:{s}\"",
+      "f\"1b:{su.name}:{n}:{shape}\"",
+      "cluster bootstrap",
+      "f\"1b:hx-vote:{n}:{label}\"",
+      "_accuracy(ctx, ar, su, n, draws, final_only=False)",
+      "arm_point(ctx, rows, su, int(s[\"n\"]), draws, h)",
+      "descriptive_arms(ctx, rows, plan, dv)",
+      "per_form(rows, k, dv)",
+      "vote_curve(ctx, rows, k, dv)",
+      "\"draws\": dv",
+      "derive_seed(seed, name)"
+     ],
+     "refs": [
+      {
+       "key": "L216",
+       "source": "spec1b"
+      },
+      {
+       "key": "L158",
+       "source": "spec1b"
+      },
+      {
+       "key": "L275",
+       "source": "spec1b"
+      },
+      {
+       "key": "L270",
+       "source": "spec1b"
+      },
+      {
+       "key": "constants.draws",
+       "source": "s1b"
+      },
+      {
+       "key": "L705",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L708",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L691",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L832",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L836",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1054",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L894",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L917",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1163",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1188",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1192",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L1180",
+       "source": "s1b_driver_s1b"
+      },
+      {
+       "key": "L228",
+       "source": "s1b_curve_py_s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "\"(exact, post hoc; … puzzles)\" marks a bootstrap interval that collapsed to one value (every puzzle right, or every one wrong), replaced by the exact two-sided 95% Clopper–Pearson interval from free analysis 4 (post hoc; it changes no test). The count in the mark is the number of puzzles, not of samples (the conservative unit)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Panel 1 gives the pooled tests in the three views; its readings are per view, and a test holds only if it is no worse in all three views (TAB-10). The three views agree to every printed digit because no refusal or truncation touched either side of a test."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Panel 1's ties-counted-wrong row for Test B2 is post hoc (free analysis 13): the vote is scored as deployed, except that a vote whose top answers tie, the right one among them, scores nothing instead of an equal share; d and its paired bootstrap interval only, with no p and no reading, and B2's reading is unchanged. A tie that included the right answer decided"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "1.32% of B2's",
+     "raw": 0.013244047619047617,
+     "refs": [
+      {
+       "key": "result.tie_decided.pooled.tie_decided_share",
+       "source": "fa13"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6-sample votes (a mean over puzzles, each over all of its possible votes; three-against-three ties alone",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.vote_curve_n16.k_from_k_json",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "1.15%); such a tie decided at least one vote in",
+     "raw": 0.011458333333333333,
+     "refs": [
+      {
+       "key": "result.tie_decided.pooled.tie_decided_share_3_3",
+       "source": "fa13"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "11",
+     "raw": 11,
+     "refs": [
+      {
+       "key": "result.tie_decided.pooled.bases_with_a_decided_tie_in_either_form",
+       "source": "fa13"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "of the"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.tie_decided.pooled.n_base",
+       "source": "fa13"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "puzzles (in either shape). TAB-02 gives the tie-decided share for Tests 1–3."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Columns that print one value in every row are left out: Opus-medium's format compliance is"
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00% for every test and shape,",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x16.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.16x1.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.1x6.format_compliance",
+       "source": "s1b"
+      },
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.om.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "and Panel 1's number of puzzles left out is"
+    },
+    {
+     "kind": "num",
+     "printed": "0 in every row.",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.bases_left_out.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.refusals_out.bases_left_out.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.truncations_out.bases_left_out.B1",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.bases_left_out.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.refusals_out.bases_left_out.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.truncations_out.bases_left_out.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.bases_left_out.B2",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.as_deployed.bases_left_out.B3",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.refusals_out.bases_left_out.B3",
+       "source": "s1b"
+      },
+      {
+       "key": "confirmatory.primary_margin_5.views.truncations_out.bases_left_out.B3",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Test B1"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×16)"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "92.25",
+     "raw": 92.25,
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.h.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[89.13, 94.88]",
+     "raw": [
+      89.125,
+      94.875
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.88",
+     "raw": 96.875,
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.75, 99.38]",
+     "raw": [
+      93.75,
+      99.375
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−4.63",
+     "raw": -4.625,
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−8.75, −0.38]",
+     "raw": [
+      -8.75,
+      -0.375
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.1x16.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.1x16.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B1"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (16×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "93.00",
+     "raw": 93.0,
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.h.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.38, 95.38]",
+     "raw": [
+      90.375,
+      95.375
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.88, 100.00]",
+     "raw": [
+      96.875,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.75",
+     "raw": -5.75,
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−8.63, −2.63]",
+     "raw": [
+      -8.625,
+      -2.625
+     ],
+     "refs": [
+      {
+       "key": "per_form.B1.16x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B1.16x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×16)"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "98.04",
+     "raw": 98.03571428571429,
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.v.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[95.65, 99.60]",
+     "raw": [
+      95.6547619047619,
+      99.59821428571429
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.v.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.v.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "96.88",
+     "raw": 96.875,
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[93.75, 99.38]",
+     "raw": [
+      93.75,
+      99.375
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+1.16",
+     "raw": 1.1607142857142851,
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−2.22, 4.72]",
+     "raw": [
+      -2.2172619047619055,
+      4.717261904761903
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.1x16.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.1x16.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.50",
+     "raw": 0.995,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B2"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (16×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "Haiku-max vote"
+    },
+    {
+     "kind": "num",
+     "printed": "98.85",
+     "raw": 98.85416666666666,
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.v.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[97.54, 99.90]",
+     "raw": [
+      97.54464285714286,
+      99.89583333333334
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.v.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.v.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.88, 100.00]",
+     "raw": [
+      96.875,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "+0.10",
+     "raw": 0.1041666666666666,
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−1.80, 2.23]",
+     "raw": [
+      -1.800595238095238,
+      2.2321428571428568
+     ],
+     "refs": [
+      {
+       "key": "per_form.B2.16x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B2.16x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "99.88",
+     "raw": 0.99875,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B3"
+    },
+    {
+     "kind": "label",
+     "printed": "chains (1×6)"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "97.25",
+     "raw": 97.25,
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.h.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[94.75, 99.25]",
+     "raw": [
+      94.75,
+      99.25
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "98.75",
+     "raw": 98.75,
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[96.25, 100.00]",
+     "raw": [
+      96.25,
+      100.0
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.o.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.o.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−1.50",
+     "raw": -1.5,
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−4.75, 1.50]",
+     "raw": [
+      -4.75,
+      1.5
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.1x6.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.1x6.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x6.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Test B3"
+    },
+    {
+     "kind": "label",
+     "printed": "pieces (6×1)"
+    },
+    {
+     "kind": "label",
+     "printed": "One Haiku-max sample"
+    },
+    {
+     "kind": "num",
+     "printed": "94.25",
+     "raw": 94.25,
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.h.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[90.75, 97.25]",
+     "raw": [
+      90.75,
+      97.25
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.h.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.h.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 100.0,
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.o.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[91.19, 100.00] (exact, post hoc; 40 puzzles)",
+     "raw": [
+      [
+       91.19026971211977,
+       100.0
+      ],
+      40
+     ],
+     "refs": [
+      {
+       "key": "result.cells.74.exact95.0",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.74.exact95.1",
+       "source": "fa4"
+      },
+      {
+       "key": "result.cells.74.n",
+       "source": "fa4"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "−5.75",
+     "raw": -5.75,
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.d.mean",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "[−9.25, −2.75]",
+     "raw": [
+      -9.25,
+      -2.75
+     ],
+     "refs": [
+      {
+       "key": "per_form.B3.6x1.d.ci95.0",
+       "source": "s1b"
+      },
+      {
+       "key": "per_form.B3.6x1.d.ci95.1",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "descriptive.format_refusals_truncations_missing.format_report.hx.6x1.format_compliance",
+       "source": "s1b"
+      }
+     ]
+    }
+   ]
+  ]
+ }
+}

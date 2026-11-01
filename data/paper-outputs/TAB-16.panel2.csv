@@ -1,0 +1,12 @@
+Study,Steps,Shape,Haiku-max mean output tokens per call (post hoc),Opus-medium mean output tokens per call (Study 1: pre-specified; Study 1b: post hoc),"Output-token ratio, Haiku-max / Opus-medium (post hoc)",Haiku-max list cost per answer ($),Opus-medium list cost per answer ($),"List-cost ratio, Haiku-max / Opus-medium",Ratio source
+Study 1,6,chains (1×6),"8,616.6","1,818.5",4.74,0.00441,0.0402,0.109,free analysis 10 (post hoc)
+Study 1,6,pieces (6×1),"7,918.1","2,190.4",3.61,0.00407,0.0481,0.085,free analysis 10 (post hoc)
+Study 1b,6,chains (1×6),"8,458.5","1,834.7",4.61,0.00433,0.0406,0.107,free analysis 10 (post hoc)
+Study 1b,6,pieces (6×1),"7,891.8","2,164.5",3.65,0.00405,0.0476,0.085,free analysis 10 (post hoc)
+Study 1b,6,pooled,,,,0.00419,0.0441,0.095,recorded beside Test B3
+Study 1b,12,chains (1×12),"17,418.5","2,439.7",7.14,0.00885,0.0544,0.163,free analysis 10 (post hoc)
+Study 1b,12,pieces (12×1),"14,978.0","3,057.3",4.90,0.00766,0.0680,0.113,free analysis 10 (post hoc)
+Study 1b,12,pooled,,,,0.00826,0.0612,0.135,computed from the two recorded costs (post hoc arithmetic); free analysis 2 gives the inverse ratio (post hoc; Panel 1)
+Study 1b,16,chains (1×16),"24,180.2","3,030.8",7.98,0.0123,0.0674,0.182,free analysis 10 (post hoc)
+Study 1b,16,pieces (16×1),"19,741.9","3,694.8",5.34,0.0101,0.0825,0.122,free analysis 10 (post hoc)
+Study 1b,16,pooled,,,,0.0112,0.0750,0.149,recorded beside Test B1

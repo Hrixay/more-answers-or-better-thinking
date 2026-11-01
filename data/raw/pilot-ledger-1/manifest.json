@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "1b058a552230311f490bff9b352f78317d059f84",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "2.65989135",
+  "item_set_sha256": "30c66f36c2539a5bcfc781f3c695e0a9e95feb069b401726da987e25586e6a13",
+  "mode": "batch",
+  "n_items": 670,
+  "note": "pilot (D-36)",
+  "price_table_date": "2026-10-11",
+  "run_cap_usd": "30",
+  "run_id": "pilot-ledger-1",
+  "source_sha256": "7847449451f0604293f9f3ed7dd2a310c2545ab9d59b655987e73c663ade54d2"
+}

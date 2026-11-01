@@ -1,0 +1,4 @@
+Quantity,k,Value (points),95% interval
+"Test 1 (6×1): Haiku-medium vote minus Opus-medium (confirmatory, as in TAB-02)",40,−33.13,"[−43.75, −23.75]"
+"Test 2 (1×6): Haiku-medium vote minus Opus-medium (confirmatory, as in TAB-02)",36,−37.64,"[−48.82, −26.96]"
+Shape-by-setup interaction: Test 1 minus Test 2,—,+4.52,"[−9.85, 18.23]"

@@ -1,0 +1,8 @@
+Setting,Shape,Accuracy (%),95% interval (%),List cost per puzzle ($),d (points) [95% interval]
+Haiku team,chains,52.5,"[41.3, 62.5]",0.00623,"−43.8 [−55.0, −31.3]"
+Haiku team,pieces,72.5,"[62.5, 82.5]",0.00649,"−27.5 [−37.5, −18.8]"
+Haiku picker,chains,62.5,"[52.5, 72.5]",0.0103,—
+Haiku picker,pieces,67.5,"[57.5, 78.8]",0.0101,—
+Step voting,pieces,51.3,"[40.0, 62.5]",0.00351,"−48.8 [−60.0, −37.5]"
+Opus-medium,chains,96.3,"[89.4, 99.2]",0.0402,—
+Opus-medium,pieces,100.0,"[95.5, 100.0]",0.0481,—

@@ -1,0 +1,16 @@
+Model,Steps,Chain samples answered,"Format compliance, chain (%), Deviation 2 rule","Format flag fires, Deviation 2 rule","Chain samples not placeable, Deviation 2 rule","Format compliance, chain (%), original rule","Format flag fires, original rule","Chain samples not placeable, original rule"
+Haiku-medium,4,200,99.00,no,2,99.00,no,2
+Haiku-medium,6,200,98.00,no,4,98.00,no,4
+Haiku-medium,8,200,99.00,no,2,98.50,no,3
+Haiku-medium,12,200,96.50,no,7,96.00,no,8
+Haiku-medium,16,200,94.50,yes,11,94.00,yes,12
+Opus-medium,4,20,95.00,yes,1,95.00,yes,1
+Opus-medium,6,20,100.00,no,0,100.00,no,0
+Opus-medium,8,20,100.00,no,0,100.00,no,0
+Opus-medium,12,20,95.00,yes,1,95.00,yes,1
+Opus-medium,16,20,100.00,no,0,100.00,no,0
+Sonnet-medium,4,20,100.00,no,0,60.00,yes,8
+Sonnet-medium,6,20,95.00,yes,1,75.00,yes,5
+Sonnet-medium,8,20,100.00,no,0,90.00,yes,2
+Sonnet-medium,12,20,100.00,no,0,100.00,no,0
+Sonnet-medium,16,20,100.00,no,0,100.00,no,0

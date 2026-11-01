@@ -1,0 +1,121 @@
+{
+ "parsers": [
+  {
+   "doc": "A 1x`steps` reply under the D-76 rules (see the module text). `repeats`: \"identical\" (D-90, the official rule) or \"strict\"\n(the original rule of prereg-lock-2: any repeated step line fails).",
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "function",
+   "line": 203,
+   "name": "parse_trace",
+   "what": "a chain reply's step lines and Answer line"
+  },
+  {
+   "doc": "A 24x1 reply: the last Answer line (`last_answer_text`, the same definition as 1x24) with the D-76 value rules for each entry. Status, in order:\n`no_answer`, `misnumbered` (an entry number outside 1..width), `non_integer` / `wrong_length` (the first bad entry), `missing_line`\n(a number not given).",
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "function",
+   "line": 258,
+   "name": "parse_pieces",
+   "what": "a pieces reply's per-sequence Answer lines"
+  },
+  {
+   "doc": "The last Answer line of a one-sequence reply, read by the value rules: (\"ok\", state) or (reason, None). The `1 =` label is\noptional. Used for the Answer line of a trace and for the answer-only fallback prompt (D-36(5); D-76: answer-only fallback).",
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "function",
+   "line": 183,
+   "name": "parse_final",
+   "what": "a reply's last Answer line as a state"
+  },
+  {
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "constant",
+   "line": 89,
+   "name": "_STEP",
+   "source": "re.compile(_LEAD + r\"(\\d+)\\.(\\d+)[*`_]*\\s*[=:]\\s*(.*)$\")",
+   "what": "the step-line pattern"
+  },
+  {
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "constant",
+   "line": 90,
+   "name": "_ANSWER",
+   "source": "re.compile(_LEAD + r\"answer(?![a-z0-9])[*`_]*\\s*:?(.*)$\", re.I)",
+   "what": "the Answer-line pattern"
+  },
+  {
+   "file": "harness/analysis/trace_parse.py",
+   "file_sha256": "0acfbd8ab12130c0efaa6bded4242ebb681f61ca2d218fb5bc45e4213ef4ba0c",
+   "kind": "constant",
+   "line": 79,
+   "name": "REPEATS_IDENTICAL",
+   "source": "\"identical\"",
+   "what": "the official repeated-line rule (Deviation 2)"
+  },
+  {
+   "doc": "What one try votes for under `score`, or None (a vote for nothing): no answer (kind not \"answered\"); on a trace row, official and\ncopy-forgiven: a format that is not ok. Official votes the whole trace; final votes the Answer state; copy-forgiven votes RIGHT_TRACE\nfor a right or copy-slip trace and the trace otherwise. Rows that are not trace rows vote their `answer_key`.",
+   "file": "harness/analysis/scoring.py",
+   "file_sha256": "26d522e105f5f95ff65435f89e5b50dc7710088ec983329b1a05edea70322d1c",
+   "kind": "function",
+   "line": 273,
+   "name": "vote_key",
+   "what": "what one try votes for"
+  },
+  {
+   "doc": "Whether one try is right under `score` (\"official\", \"final\", \"copy_forgiven\" or \"original\"). \"original\" is the official score\nunder prereg-lock-2's repeat rule (D-90's sensitivity view, `correct_original`); a row with no `correct_original` field was graded\nbefore D-90, under that same rule, so it reads its `correct`. Rows that are not trace rows use `correct`. This\nreads ONE row, so it cannot see an answer-only / step-line mix: that check is set-level (`check_answer_only`, called by\n`arm_scores`, `format_compliance` and `rates_1x24`).",
+   "file": "harness/analysis/scoring.py",
+   "file_sha256": "26d522e105f5f95ff65435f89e5b50dc7710088ec983329b1a05edea70322d1c",
+   "kind": "function",
+   "line": 252,
+   "name": "row_correct",
+   "what": "whether one try is right"
+  },
+  {
+   "doc": "The state a step reply votes for (`scoring.state_key`), or None when its Answer line does not read as a state.",
+   "file": "harness/pareto/e3.py",
+   "file_sha256": "e3d345bca21c62e608d6f96ed7a292db2b264e4907a1d2746808527e961ee1b5",
+   "kind": "function",
+   "line": 105,
+   "name": "parse_step_answer",
+   "what": "what one step call votes for (step voting)"
+  },
+  {
+   "doc": "The n task texts, or None if the plan does not have exactly tasks 1..n (then E2 fails on that puzzle).",
+   "file": "research/models/team_prompts.py",
+   "file_sha256": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498",
+   "kind": "function",
+   "line": 53,
+   "name": "parse_plan",
+   "what": "the planner's tasks"
+  },
+  {
+   "file": "research/models/team_prompts.py",
+   "file_sha256": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498",
+   "kind": "constant",
+   "line": 21,
+   "name": "TASK",
+   "source": "re.compile(r'^[\\s#*_`>\\-]*task\\s+(\\d+)[\\s*_`]*(?:$|[:.\\-\\u2013\\u2014][\\s*_`]*(.*)$)', re.I)",
+   "what": "the task-label pattern"
+  },
+  {
+   "doc": "The chosen reply number 1..8 from the LAST `Pick:` line, or None (then the picker gives no answer).",
+   "file": "research/models/team_prompts.py",
+   "file_sha256": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498",
+   "kind": "function",
+   "line": 113,
+   "name": "parse_pick",
+   "what": "the picker's choice"
+  },
+  {
+   "file": "research/models/team_prompts.py",
+   "file_sha256": "14d122c73d3343d0344a20d83f779b2627b5397d1def6b8df923b5c35b4bb498",
+   "kind": "constant",
+   "line": 23,
+   "name": "PICK",
+   "source": "re.compile(r'^[\\s#*_`>\\-]*pick\\s*:[\\s*_`]*(?:reply\\s+)?(\\d+)[\\s*_`]*[.,]?[\\s*_`]*$', re.I)",
+   "what": "the Pick-line pattern"
+  }
+ ]
+}

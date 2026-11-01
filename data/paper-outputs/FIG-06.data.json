@@ -1,0 +1,1791 @@
+{
+ "alt": [
+  {
+   "kind": "label",
+   "printed": "Two panels, chains on the left and pieces on the right, of whole-answer accuracy against list cost per puzzle on a log axis at 6 steps, one point per design, each labelled with its design. A dashed line marks Opus-medium's accuracy. Every Haiku-medium design sits far below it; one Haiku-max sample sits near it, far above every Haiku-medium design, at a fraction of Opus-medium's cost."
+  },
+  {
+   "kind": "label",
+   "printed": "On chains, one Opus-medium answer is at"
+  },
+  {
+   "kind": "num",
+   "printed": "96.3%",
+   "raw": 96.25,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0402",
+   "raw": 0.040241,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "US dollars; the Haiku-medium vote, cost-matched to Opus-medium with k ="
+  },
+  {
+   "kind": "num",
+   "printed": "36, is at",
+   "raw": 36,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "58.6%",
+   "raw": 58.607262373709744,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0396",
+   "raw": 0.039606181875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; one Haiku-max sample is at"
+  },
+  {
+   "kind": "num",
+   "printed": "97.5%",
+   "raw": 97.5,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00441",
+   "raw": 0.004405077083333334,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-max 1x6.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; step voting is at"
+  },
+  {
+   "kind": "num",
+   "printed": "53.8%",
+   "raw": 53.75,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00356",
+   "raw": 0.003559415,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.e3 1x6.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; the Haiku team is at"
+  },
+  {
+   "kind": "num",
+   "printed": "52.5%",
+   "raw": 52.5,
+   "refs": [
+    {
+     "key": "accuracy.e2.1x6.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00623",
+   "raw": 0.00622884625,
+   "refs": [
+    {
+     "key": "costs.per_puzzle.e2.1x6.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; the picker is at"
+  },
+  {
+   "kind": "num",
+   "printed": "62.5%",
+   "raw": 62.5,
+   "refs": [
+    {
+     "key": "accuracy.h-pick8.1x6.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0103",
+   "raw": 0.01032886875,
+   "refs": [
+    {
+     "key": "costs.per_puzzle.h-pick8-total.1x6.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; one Haiku-medium sample is at"
+  },
+  {
+   "kind": "num",
+   "printed": "43.7%",
+   "raw": 43.71875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00110",
+   "raw": 0.00110017171875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 1x6.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars."
+  },
+  {
+   "kind": "label",
+   "printed": "On pieces, one Opus-medium answer is at"
+  },
+  {
+   "kind": "num",
+   "printed": "100.0%",
+   "raw": 100.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.accuracy",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0481",
+   "raw": 0.0481223,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.opus-med 6x1.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; the Haiku-medium vote, cost-matched to Opus-medium with k ="
+  },
+  {
+   "kind": "num",
+   "printed": "40, is at",
+   "raw": 40,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.k",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "66.9%",
+   "raw": 66.875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0437",
+   "raw": 0.0437210875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; one Haiku-max sample is at"
+  },
+  {
+   "kind": "num",
+   "printed": "95.0%",
+   "raw": 95.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00407",
+   "raw": 0.004066895,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-max 6x1.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; step voting, from the top-up run, is at"
+  },
+  {
+   "kind": "num",
+   "printed": "51.3%",
+   "raw": 51.25,
+   "refs": [
+    {
+     "key": "accuracy.c13.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00351",
+   "raw": 0.00350548375,
+   "refs": [
+    {
+     "key": "costs.per_puzzle.c13.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars, with the drift check between runs"
+  },
+  {
+   "kind": "num",
+   "printed": "not fired; the Haiku team is at",
+   "raw": "not fired",
+   "refs": [
+    {
+     "key": "same_model_check.flag.status",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "num",
+   "printed": "72.5%",
+   "raw": 72.5,
+   "refs": [
+    {
+     "key": "accuracy.e2.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00649",
+   "raw": 0.00648801875,
+   "refs": [
+    {
+     "key": "costs.per_puzzle.e2.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; the picker is at"
+  },
+  {
+   "kind": "num",
+   "printed": "67.5%",
+   "raw": 67.5,
+   "refs": [
+    {
+     "key": "accuracy.h-pick8.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.0101",
+   "raw": 0.01014913625,
+   "refs": [
+    {
+     "key": "costs.per_puzzle.h-pick8-total.6x1.mean",
+     "source": "topup"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars; one Haiku-medium sample is at"
+  },
+  {
+   "kind": "num",
+   "printed": "51.0%",
+   "raw": 51.0,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "for"
+  },
+  {
+   "kind": "num",
+   "printed": "0.00109",
+   "raw": 0.0010930271875,
+   "refs": [
+    {
+     "key": "reporting.group_b.item_24.table.haiku-med 6x1.cost_per_puzzle.mean",
+     "source": "main"
+    }
+   ]
+  },
+  {
+   "kind": "label",
+   "printed": "dollars."
+  },
+  {
+   "kind": "label",
+   "printed": "A double dagger marks the exploratory points: Haiku-max, the Haiku team, the picker and step voting on pieces. The labels of the Haiku team and the picker on both shapes, and of step voting on pieces, also say top-up, the run that came after the main run."
+  }
+ ],
+ "caption": {
+  "format": [
+   {
+    "kind": "label",
+    "printed": "format compliance, the share of samples in the required answer format (TAB-04 prints it to two decimals, this figure to one), chains then pieces:"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.6%",
+    "raw": 0.9859375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.7%;",
+    "raw": 0.9971875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.6%;",
+    "raw": 0.9958333333333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5%",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0%; the votes carry the format compliance of the Haiku-medium samples they are drawn from; Study 1's file stamps none for step voting. Top-up run, answers in the required format (its format check): the Haiku team",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "78",
+    "raw": 78,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.format_ok",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.answered",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on chains"
+   },
+   {
+    "kind": "label",
+    "printed": "and"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.format_ok",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "of"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.answered",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "on pieces; the top-up file stamps none for the picker or step voting on pieces; the format check flags none of the points drawn"
+   }
+  ],
+  "interval": [
+   {
+    "kind": "label",
+    "printed": "vertical bars are 95% intervals: cluster bootstrap for the Haiku-medium and Haiku-max samples, the votes, step voting and the top-up designs; exact (Clopper–Pearson) for the one-sample Opus-medium answers"
+   }
+  ],
+  "n": [
+   {
+    "kind": "label",
+    "printed": "puzzles per shape:"
+   },
+   {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.base_puzzles",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "(every design); samples per shape (the same on chains and pieces):"
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "3,200,",
+    "raw": 3200,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku-max"
+   },
+   {
+    "kind": "num",
+    "printed": "240,",
+    "raw": 240,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Opus-medium"
+   },
+   {
+    "kind": "num",
+    "printed": "80; the Haiku-medium votes are drawn from the Haiku-medium samples; step voting on chains:",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.tries",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "num",
+    "printed": "1,086",
+    "raw": 1086,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_19.arms.e3:1x6.calls",
+      "source": "main"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "calls. Top-up run, over both shapes: the Haiku team"
+   },
+   {
+    "kind": "num",
+    "printed": "2,399",
+    "raw": 2399,
+    "refs": [
+     {
+      "key": "completeness.arms.e2.final",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "calls on"
+   },
+   {
+    "kind": "num",
+    "printed": "160",
+    "raw": 160,
+    "refs": [
+     {
+      "key": "completeness.arms.e2.puzzles",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "puzzle runs; the picker"
+   },
+   {
+    "kind": "num",
+    "printed": "160",
+    "raw": 160,
+    "refs": [
+     {
+      "key": "completeness.arms.h_pick8.final",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "calls (it reads the main run's Haiku-medium samples); step voting on pieces"
+   },
+   {
+    "kind": "num",
+    "printed": "1,061",
+    "raw": 1061,
+    "refs": [
+     {
+      "key": "completeness.arms.c13.final",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "calls"
+   }
+  ],
+  "note": [
+   {
+    "kind": "label",
+    "printed": "the dashed line is Opus-medium's accuracy in each panel; every point except Haiku-max and Opus-medium is a Haiku-medium design; a double dagger marks an exploratory point; the grey word top-up under a label marks a design from the top-up run, which came after the main run (step voting on pieces; the Haiku team on chains and pieces; the picker on chains and pieces); the labels name each design, and the cost-matched vote's k is the vote size; the picker's cost includes the main run's Haiku-medium samples that it reads; 95% bars shorter than their markers, with neither end reaching a printed point past the marker’s edge, are not drawn (the Haiku-max sample on chains), and their interval ends are in this figure's data file"
+   }
+  ],
+  "price": [
+   {
+    "kind": "label",
+    "printed": "US dollars per puzzle at list price (Study 1's price table, dated"
+   },
+   {
+    "kind": "num",
+    "printed": "2026-10-12)",
+    "raw": "2026-10-12",
+    "refs": [
+     {
+      "key": "reporting.group_b.item_9a.price_table_date",
+      "source": "main"
+     }
+    ]
+   }
+  ],
+  "set": [
+   {
+    "kind": "label",
+    "printed": "the Study 1 puzzle set at 6 steps, which the top-up run also used: each puzzle as a chain and as pieces"
+   }
+  ],
+  "study": [
+   {
+    "kind": "label",
+    "printed": "Study 1, main run, 6 steps, and the top-up run, which came after the main run"
+   }
+  ],
+  "tier": [
+   {
+    "kind": "label",
+    "printed": "descriptive and exploratory, no frontier or fitted line. Values used in Study 1's tests: Opus-medium (the comparator in Tests 1, 2 and 4), the Haiku-medium vote cost-matched to Opus-medium (Tests 1 and 2) and step voting on chains (Test 4); the Haiku-medium sample is pre-specified descriptive, and its votes are what the tests use. Exploratory‡: one Haiku-max sample, the Haiku team, the picker and step voting on pieces (the pieces counterpart of Test 4: unadjusted, outside the pre-registered family; the drift check between runs:"
+   },
+   {
+    "kind": "num",
+    "printed": "not fired); the Haiku team, the picker and step voting on pieces ran in the top-up run, after the main run. Not drawn: Study 1's other single samples (in TAB-04; the format check flags",
+    "raw": "not fired",
+    "refs": [
+     {
+      "key": "same_model_check.flag.status",
+      "source": "topup"
+     }
+    ]
+   },
+   {
+    "kind": "label",
+    "printed": "Haiku, thinking off on chains"
+   },
+   {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "(81.7%), and its rule is in TAB-07), Tests 3 and 5 with their comparators (in TAB-02; their pieces counterparts and the Haiku-max vote are in TAB-05; the Haiku-max vote's exact 95% interval, post hoc†, is in TAB-26), and the top-up run's comparators (in TAB-14)",
+    "raw": 0.8171875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-thinking-off 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   }
+  ]
+ },
+ "output": {
+  "id": "FIG-06",
+  "kind": "figure",
+  "label": "descriptive/exploratory; no frontier",
+  "section": "Results: top-up",
+  "title": "Where each design landed at 6 steps (Study 1 and top-up)"
+ },
+ "points": [
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "98.6",
+    "raw": 0.9859375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-med 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "50.7",
+    "raw": 50.71875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "36.4",
+    "raw": 36.4375,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium, one sample, chains",
+   "tier": "pre-specified descriptive: this single sample is not tested; the tests use its votes",
+   "x": {
+    "kind": "num",
+    "printed": "0.00110",
+    "raw": 0.00110017171875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "43.7",
+    "raw": 43.71875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "68.5",
+    "raw": 68.54277911514754,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "36",
+    "raw": 36,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "48.2",
+    "raw": 48.20191167888536,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Haiku-medium vote, cost-matched to Opus-medium, chains",
+   "tier": "Haiku-medium vote at the Opus-medium cost-matched k; used in Test 2",
+   "x": {
+    "kind": "num",
+    "printed": "0.0396",
+    "raw": 0.039606181875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "58.6",
+    "raw": 58.607262373709744,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 1x6.vote_at_own_k.k_O.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "63.8",
+    "raw": 63.75,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "42.5",
+    "raw": 42.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "step voting, chains",
+   "tier": "used in Test 4",
+   "x": {
+    "kind": "num",
+    "printed": "0.00356",
+    "raw": 0.003559415,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "53.8",
+    "raw": 53.75,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.e3 1x6.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "answers": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.answered",
+      "source": "topup"
+     }
+    ]
+   },
+   "answers_in_format": {
+    "kind": "num",
+    "printed": "78",
+    "raw": 78,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.format_ok",
+      "source": "topup"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 1x6.fires",
+      "source": "topup"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 62.5,
+    "refs": [
+     {
+      "key": "accuracy.e2.1x6.ci95.1",
+      "source": "topup"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "41.3",
+    "raw": 41.25,
+    "refs": [
+     {
+      "key": "accuracy.e2.1x6.ci95.0",
+      "source": "topup"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "the Haiku team, chains",
+   "tier": "exploratory, top-up run, after the main run",
+   "x": {
+    "kind": "num",
+    "printed": "0.00623",
+    "raw": 0.00622884625,
+    "refs": [
+     {
+      "key": "costs.per_puzzle.e2.1x6.mean",
+      "source": "topup"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "52.5",
+    "raw": 52.5,
+    "refs": [
+     {
+      "key": "accuracy.e2.1x6.mean",
+      "source": "topup"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "72.5",
+    "raw": 72.5,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.1x6.ci95.1",
+      "source": "topup"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "52.5",
+    "raw": 52.5,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.1x6.ci95.0",
+      "source": "topup"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "the picker with its samples, chains",
+   "tier": "exploratory, top-up run, after the main run",
+   "x": {
+    "kind": "num",
+    "printed": "0.0103",
+    "raw": 0.01032886875,
+    "refs": [
+     {
+      "key": "costs.per_puzzle.h-pick8-total.1x6.mean",
+      "source": "topup"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 62.5,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.1x6.mean",
+      "source": "topup"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-max 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.2",
+    "raw": 99.16666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "95.4",
+    "raw": 95.41666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "note": "its 95% bar is shorter than its marker, and neither end reaches a printed point past the marker’s edge, so it is not drawn (its ends are lo and hi)",
+   "panel": "chains",
+   "series": "Haiku-max, one sample, chains",
+   "tier": "exploratory setting",
+   "x": {
+    "kind": "num",
+    "printed": "0.00441",
+    "raw": 0.004405077083333334,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 97.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 1x6.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "97.5",
+    "raw": 0.975,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-med 1x6.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "99.2",
+    "raw": 99.21988127342833,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "89.4",
+    "raw": 89.42980149834914,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "chains",
+   "series": "Opus-medium, chains",
+   "tier": "used in Test 2, Test 4",
+   "x": {
+    "kind": "num",
+    "printed": "0.0402",
+    "raw": 0.040241,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "96.3",
+    "raw": 96.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 1x6.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.7",
+    "raw": 0.9971875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-med 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "57.3",
+    "raw": 57.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "44.3",
+    "raw": 44.28125,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium, one sample, pieces",
+   "tier": "pre-specified descriptive: this single sample is not tested; the tests use its votes",
+   "x": {
+    "kind": "num",
+    "printed": "0.00109",
+    "raw": 0.0010930271875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "51.0",
+    "raw": 51.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "77.5",
+    "raw": 77.5,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "k": {
+    "kind": "num",
+    "printed": "40",
+    "raw": 40,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.k",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "56.3",
+    "raw": 56.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-medium vote, cost-matched to Opus-medium, pieces",
+   "tier": "Haiku-medium vote at the Opus-medium cost-matched k; used in Test 1",
+   "x": {
+    "kind": "num",
+    "printed": "0.0437",
+    "raw": 0.0437210875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "66.9",
+    "raw": 66.875,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-med 6x1.vote_at_own_k.k_O.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 62.5,
+    "refs": [
+     {
+      "key": "accuracy.c13.6x1.ci95.1",
+      "source": "topup"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "40.0",
+    "raw": 40.0,
+    "refs": [
+     {
+      "key": "accuracy.c13.6x1.ci95.0",
+      "source": "topup"
+     }
+    ]
+   },
+   "note": "the drift check between runs: not fired",
+   "panel": "pieces",
+   "series": "step voting, pieces",
+   "tier": "the pieces counterpart of Test 4: unadjusted, exploratory, outside the pre-registered family; top-up run, after the main run",
+   "x": {
+    "kind": "num",
+    "printed": "0.00351",
+    "raw": 0.00350548375,
+    "refs": [
+     {
+      "key": "costs.per_puzzle.c13.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "51.3",
+    "raw": 51.25,
+    "refs": [
+     {
+      "key": "accuracy.c13.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   }
+  },
+  {
+   "answers": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.answered",
+      "source": "topup"
+     }
+    ]
+   },
+   "answers_in_format": {
+    "kind": "num",
+    "printed": "80",
+    "raw": 80,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.format_ok",
+      "source": "topup"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "format_refusals_truncations_missing.item_17_flags.e2 6x1.fires",
+      "source": "topup"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "82.5",
+    "raw": 82.5,
+    "refs": [
+     {
+      "key": "accuracy.e2.6x1.ci95.1",
+      "source": "topup"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "62.5",
+    "raw": 62.5,
+    "refs": [
+     {
+      "key": "accuracy.e2.6x1.ci95.0",
+      "source": "topup"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "the Haiku team, pieces",
+   "tier": "exploratory, top-up run, after the main run",
+   "x": {
+    "kind": "num",
+    "printed": "0.00649",
+    "raw": 0.00648801875,
+    "refs": [
+     {
+      "key": "costs.per_puzzle.e2.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "72.5",
+    "raw": 72.5,
+    "refs": [
+     {
+      "key": "accuracy.e2.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   }
+  },
+  {
+   "hi": {
+    "kind": "num",
+    "printed": "78.8",
+    "raw": 78.75,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.6x1.ci95.1",
+      "source": "topup"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "57.5",
+    "raw": 57.5,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.6x1.ci95.0",
+      "source": "topup"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "the picker with its samples, pieces",
+   "tier": "exploratory, top-up run, after the main run",
+   "x": {
+    "kind": "num",
+    "printed": "0.0101",
+    "raw": 0.01014913625,
+    "refs": [
+     {
+      "key": "costs.per_puzzle.h-pick8-total.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "67.5",
+    "raw": 67.5,
+    "refs": [
+     {
+      "key": "accuracy.h-pick8.6x1.mean",
+      "source": "topup"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "99.6",
+    "raw": 0.9958333333333333,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.haiku-max 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "97.9",
+    "raw": 97.91666666666666,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_interval.ci95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "91.3",
+    "raw": 91.25,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_interval.ci95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Haiku-max, one sample, pieces",
+   "tier": "exploratory setting",
+   "x": {
+    "kind": "num",
+    "printed": "0.00407",
+    "raw": 0.004066895,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "95.0",
+    "raw": 95.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.haiku-max 6x1.accuracy_interval.mean",
+      "source": "main"
+     }
+    ]
+   }
+  },
+  {
+   "format_compliance": {
+    "formula": "100 * x",
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 1.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.format_compliance.format_compliance",
+      "source": "main"
+     }
+    ]
+   },
+   "format_flag": {
+    "kind": "num",
+    "printed": "not flagged",
+    "raw": false,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_17.flags.opus-med 6x1.fires",
+      "source": "main"
+     }
+    ]
+   },
+   "hi": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.1",
+      "source": "main"
+     }
+    ]
+   },
+   "lo": {
+    "kind": "num",
+    "printed": "95.5",
+    "raw": 95.49359649323077,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.cp95.0",
+      "source": "main"
+     }
+    ]
+   },
+   "panel": "pieces",
+   "series": "Opus-medium, pieces",
+   "tier": "used in Test 1",
+   "x": {
+    "kind": "num",
+    "printed": "0.0481",
+    "raw": 0.0481223,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.cost_per_puzzle.mean",
+      "source": "main"
+     }
+    ]
+   },
+   "y": {
+    "kind": "num",
+    "printed": "100.0",
+    "raw": 100.0,
+    "refs": [
+     {
+      "key": "reporting.group_b.item_24.table.opus-med 6x1.accuracy_cp95.accuracy",
+      "source": "main"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "topup": {
+   "commit": "5c305db",
+   "path": "data/main/topup-1/analysis.json",
+   "sha256": "c76478bfd6783fed2a43f146c587d03ace739ba4f67efe6f3da5de2c1f773558"
+  }
+ }
+}

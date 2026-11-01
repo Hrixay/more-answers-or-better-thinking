@@ -1,0 +1,3 @@
+# Illustrative puzzle (illustrative, not from any test set)
+
+One base puzzle of the l14n4 preset (the l14 rule set at 4 steps), shown as a chain (1x4) and as pieces (4x1), made fresh for the paper's puzzle figure (D-141) by the frozen sets' own generator (ledger-0.5) from the seed of set id `paper-illustration-ledger-l14n4-v1`, which names no frozen set. `illustration.json` holds both puzzles (prompt, rulebook, start balances, every reference state, the answer) and the disjointness proof (counts only): no shared set id, seed or prompt with any set under data/tasks/. It is not from any test set and no model has seen it. Files: `chain-prompt.txt`, `pieces-prompt.txt`, the reference replies, `illustration.json`; SHA-256 of each in `SHA256SUMS`.

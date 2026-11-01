@@ -1,0 +1,17 @@
+{
+  "anthropic_version": "0.125.0",
+  "git": {
+    "commit": "521f2a1295e5c99eb74d941202d1e8448448f4e9",
+    "dirty": false
+  },
+  "global_cap_usd": "200",
+  "global_spent_before_usd": "41.72885455",
+  "item_set_sha256": "09b43465d16a2d433e805f28d460debd6509e980a40b60f26ec3fda9bb1bc17f",
+  "mode": "batch",
+  "n_items": 11640,
+  "note": "Study 1b slim runner (D-96): wave 0 (calibration, ladder sets), limits and cut once (log lines), then the test sets; plan d8c66f5bf1559e6be882d1d7155c7f8e79077205448ac595601dc62c9c7e1b63; calibrated arms listed at their floors, the limits sent are in the calibration_limits line",
+  "price_table_date": "2026-10-13",
+  "run_cap_usd": "130",
+  "run_id": "study1b-1",
+  "source_sha256": "084838a4c9638eea002bb6930054540bcc29896679b91d8a270187e591e4e3d6"
+}

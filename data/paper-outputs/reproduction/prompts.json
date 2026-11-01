@@ -1,0 +1,446 @@
+{
+ "label": "illustrative, not from any test set",
+ "prompts": [
+  {
+   "file": "prompts/chain-reworded-prompt.txt",
+   "kind": "the rewording check's variant wording",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-reworded-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "hv",
+   "sha256": "19f794a865e66cefb1cf890338a9185409485c37edfdbcdb0d96f88ddc63ff2c"
+  },
+  {
+   "file": "prompts/pieces-reworded-prompt.txt",
+   "kind": "the rewording check's variant wording",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-reworded-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "hv",
+   "sha256": "11760b3417c3be2c31f84bb7af568b14941f80480d9b18cd267a71ab18f50f03"
+  },
+  {
+   "file": "prompts/chain-step-1-prompt.txt",
+   "kind": "step voting, one chain step (Test 4)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-step-1-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "es",
+   "sha256": "2366f4237ca0b56d7fa1c5a738301876a9b1f6ff9c87d5a43c4b2b0fbd159b2d"
+  },
+  {
+   "file": "prompts/chain-step-2-prompt.txt",
+   "kind": "step voting, one chain step (Test 4)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-step-2-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "es",
+   "sha256": "231750771057f559a631c546fbd379eebde5b539ee909a1949a2a43399d2b8c8"
+  },
+  {
+   "file": "prompts/chain-step-3-prompt.txt",
+   "kind": "step voting, one chain step (Test 4)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-step-3-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "es",
+   "sha256": "be60a3bf789daa3932e7ae77e5ca5a969efe60dfb39bc48e5fc041dae14171ac"
+  },
+  {
+   "file": "prompts/chain-step-4-prompt.txt",
+   "kind": "step voting, one chain step (Test 4)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-step-4-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "Study 1 main run",
+   "setup": "es",
+   "sha256": "508223b9353fff5d7fdc8f1acbbd4ce5d8d7f0f0e52dfc5866158b3f50b4651f"
+  },
+  {
+   "file": "prompts/pieces-step-1-prompt.txt",
+   "kind": "step voting, one piece (C13)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-step-1-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "es",
+   "sha256": "12bbbc5cf83efd15fb355e7b9e43fc6bfc243b86aad90a8e6a621fcd04aa4085"
+  },
+  {
+   "file": "prompts/pieces-step-2-prompt.txt",
+   "kind": "step voting, one piece (C13)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-step-2-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "es",
+   "sha256": "643c3bc65e98c63797cbc3bc3a7b5a1453353ba4e9556691f6b6c1e244e0ee63"
+  },
+  {
+   "file": "prompts/pieces-step-3-prompt.txt",
+   "kind": "step voting, one piece (C13)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-step-3-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "es",
+   "sha256": "b09bd4da92cf9898666b188ad58a211009116969f3d3cf2fd007225141bfde91"
+  },
+  {
+   "file": "prompts/pieces-step-4-prompt.txt",
+   "kind": "step voting, one piece (C13)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-step-4-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "es",
+   "sha256": "e039a5cc1c56c46ec7c79147820dc9f5d8d8a4f108020ca8e1031de91c8183b6"
+  },
+  {
+   "file": "prompts/chain-planner-prompt.txt",
+   "kind": "team planner (E2)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-planner-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "tp",
+   "sha256": "3cde1d1d0d9211ac2c12f51ca05805988b6053aacd1c496c83b1452ec0a2f12b"
+  },
+  {
+   "file": "prompts/chain-helper-prompt.txt",
+   "kind": "team helper (E2), task 1",
+   "note": "The planner's instruction is a placeholder: in the run it was the planner's own text for task 1.",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-helper-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "th",
+   "sha256": "be270a743fb838fc7bd3070d0ddc4e485860c73fba8455ce8cd6674442dbfa96"
+  },
+  {
+   "file": "prompts/chain-aggregator-prompt.txt",
+   "kind": "team aggregator (E2)",
+   "note": "Shown with the results a correct helper returns (each task's true balances).",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-aggregator-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "ta",
+   "sha256": "c38a4cde6a5364b87f66d22456030914bddd7d89719c5c5c05ec7c52cf069ce1"
+  },
+  {
+   "file": "prompts/chain-picker-prompt.txt",
+   "kind": "picker over 8 replies (H-pick8)",
+   "note": "The eight replies are placeholders: in the run they were Haiku-medium samples 1-8 of the main run.",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in chain-picker-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "pk",
+   "sha256": "4cb0d5294411e0a98f3e0a22abb0c07826ebe3dd3ed8fffdec2027c3ba8ae221"
+  },
+  {
+   "file": "prompts/pieces-planner-prompt.txt",
+   "kind": "team planner (E2)",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-planner-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "tp",
+   "sha256": "6a71595c114a11ffadce62ea75b96eddc6bfb650e2ee15d081c5b17d8a4cf83d"
+  },
+  {
+   "file": "prompts/pieces-helper-prompt.txt",
+   "kind": "team helper (E2), task 1",
+   "note": "The planner's instruction is a placeholder: in the run it was the planner's own text for task 1.",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-helper-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "th",
+   "sha256": "66d805da59bcc785bbd41f977fbe397ab64128053e7fbf28cea4e9c3c60a893f"
+  },
+  {
+   "file": "prompts/pieces-aggregator-prompt.txt",
+   "kind": "team aggregator (E2)",
+   "note": "Shown with the results a correct helper returns (each task's true balances).",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-aggregator-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "ta",
+   "sha256": "70ae592dbe06d1d991b3f4be6be46dc272af425a4756de76b4dba081a1f0335b"
+  },
+  {
+   "file": "prompts/pieces-picker-prompt.txt",
+   "kind": "picker over 8 replies (H-pick8)",
+   "note": "The eight replies are placeholders: in the run they were Haiku-medium samples 1-8 of the main run.",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in pieces-picker-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "run": "top-up run",
+   "setup": "pk",
+   "sha256": "d409edcc77d53d40ad1510f2135a4423db827f99fd34f5b56dc71743b10874d4"
+  }
+ ],
+ "puzzle": {
+  "chain": "paper-illustration-ledger-l14n4-v1-000-1x4",
+  "disjointness": {
+   "illustration_seed": "412511133936123486",
+   "illustration_set_id": "paper-illustration-ledger-l14n4-v1",
+   "prompt_hashes_compared": 1778,
+   "prompt_hashes_computed_from_items": 0,
+   "seeds_compared": 889,
+   "sets_checked": 28,
+   "shared_prompts": 0,
+   "shared_seeds": 0,
+   "shared_set_ids": 0
+  },
+  "not_a_test_render": {
+   "shared": 0,
+   "team_prompt_renders_compared": 8
+  },
+  "pieces": "paper-illustration-ledger-l14n4-v1-000-4x1",
+  "set_id": "paper-illustration-ledger-l14n4-v1"
+ },
+ "shapes": "the chain and pieces prompts themselves are illustration/chain-prompt.txt and pieces-prompt.txt"
+}

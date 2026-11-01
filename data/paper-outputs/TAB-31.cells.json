@@ -1,0 +1,6431 @@
+{
+ "output": {
+  "id": "TAB-31",
+  "kind": "table",
+  "label": "post hoc exploratory",
+  "section": "Results: effort and length",
+  "title": "Wrong-answer repeat share by effort and length"
+ },
+ "panels": [
+  {
+   "name": "Haiku-max vote at 16 steps by Haiku-medium difficulty bin",
+   "table": {
+    "caption": {
+     "interval": [
+      {
+       "kind": "label",
+       "printed": "none: means over puzzles"
+      }
+     ],
+     "n": [
+      {
+       "kind": "label",
+       "printed": "puzzles per shape:"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.1x16.puzzles",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "; Haiku-max samples per puzzle:"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "; Haiku-medium samples per puzzle (for the bins):"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "descriptive.arms.hm@16.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      }
+     ],
+     "price": [
+      {
+       "kind": "label",
+       "printed": "no costs in this table"
+      }
+     ],
+     "set": [
+      {
+       "kind": "label",
+       "printed": "Study 1b's 16-step set"
+      }
+     ],
+     "study": [
+      {
+       "kind": "label",
+       "printed": "Study 1b, 16 steps"
+      }
+     ],
+     "tier": [
+      {
+       "kind": "label",
+       "printed": "post hoc exploratory (no causal claim), bins fixed before computing; the unbinned rows pre-specified descriptive, their vote at k ="
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "k",
+         "source": "s1b_k"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "being Test B2's challenger at that shape (Test B2 is confirmatory and pools the shapes; a per-shape value is not a test)"
+      }
+     ]
+    },
+    "columns": [
+     {
+      "kind": "label",
+      "printed": "Shape"
+     },
+     {
+      "kind": "label",
+      "printed": "Haiku-medium accuracy bin (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Wrong-sample agreement third"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles"
+     },
+     {
+      "kind": "label",
+      "printed": "Status"
+     },
+     {
+      "kind": "label",
+      "printed": "Haiku-max single sample (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Vote at k (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Vote of all samples drawn (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Haiku-max format compliance (%)"
+     },
+     {
+      "kind": "label",
+      "printed": "Puzzles with too few wrong samples"
+     }
+    ],
+    "notes": [
+     [
+      {
+       "kind": "label",
+       "printed": "Bins: each puzzle's Haiku-medium single-sample accuracy at 16 steps over its"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "descriptive.arms.hm@16.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "samples, in 10-point bins with the top bin closed. The bins were fixed, and their occupancy written, before any Haiku-max value was binned; with so few samples some bins cannot hold a puzzle and are empty."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "A bin with fewer than"
+      },
+      {
+       "formula": "the number matched by fewer than (\\d+) puzzles in the stamped text",
+       "kind": "num",
+       "printed": "3",
+       "raw": "E-20: hm@16 single-try accuracy over its 5 tries, 10-point bins (the last includes 100); a bin with fewer than 3 puzzles is shown but not read; a shape whose largest bin holds more than 80% of its puzzles is uninformative",
+       "refs": [
+        {
+         "key": "result.rule",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "puzzles is shown but not read; a shape whose largest bin holds more than"
+      },
+      {
+       "formula": "the number matched by more than (\\d+)% of its puzzles in the stamped text",
+       "kind": "num",
+       "printed": "80%",
+       "raw": "E-20: hm@16 single-try accuracy over its 5 tries, 10-point bins (the last includes 100); a bin with fewer than 3 puzzles is shown but not read; a shape whose largest bin holds more than 80% of its puzzles is uninformative",
+       "refs": [
+        {
+         "key": "result.rule",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "of its puzzles is uninformative, and then only the unbinned curve is read (rule fixed before computing)."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Chains (1×16): uninformative:"
+      },
+      {
+       "kind": "num",
+       "printed": "no;",
+       "raw": false,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.uninformative",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "the largest bin"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.1x16.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "holds"
+      },
+      {
+       "kind": "num",
+       "printed": "49",
+       "raw": 49,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "of its"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.1x16.puzzles",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "puzzles (61.25%);",
+       "raw": 0.6125,
+       "refs": [
+        {
+         "key": "result.1x16.largest_bin_share",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "the bins marked read are read."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Pieces (16×1): uninformative:"
+      },
+      {
+       "kind": "num",
+       "printed": "no;",
+       "raw": false,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.uninformative",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "the largest bin"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.16x1.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "holds"
+      },
+      {
+       "kind": "num",
+       "printed": "41",
+       "raw": 41,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "of its"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.16x1.puzzles",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "puzzles (51.25%);",
+       "raw": 0.5125,
+       "refs": [
+        {
+         "key": "result.16x1.largest_bin_share",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "the bins marked read are read."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max single sample: the mean over the bin's puzzles of each puzzle's single-sample accuracy. Vote at k: Haiku-max's majority vote of k samples as Test B2 scores it, estimated from the samples drawn; k ="
+      },
+      {
+       "kind": "num",
+       "printed": "6",
+       "raw": 6,
+       "refs": [
+        {
+         "key": "k",
+         "source": "s1b_k"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "(Test B2's k). Vote of all samples drawn: the vote of all"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.tries_per_item",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "Haiku-max samples per puzzle. A missing sample, or a sample with no answer or whose official format is not ok, votes for nothing, and a tie among several leading answers scores an equal share of one right answer when the right answer is among them (the locked vote curve's rule). Means over puzzles, in %; no intervals."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Puzzles with too few wrong samples: the puzzles in the bin with fewer than two wrong Haiku-max samples, so no agreement between wrong answers can be measured."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Wrong-sample agreement thirds (a post hoc variant of the within-bin split in Study 1's pre-specified vote lookup chart): within a bin, the puzzles with at least two wrong Haiku-max samples are ordered by how often their wrong samples give the same answer (agreeing pairs over pairs; ties broken by puzzle) and cut into a lowest, middle and highest third so that the higher thirds take any extra puzzles. Study 1's chart gives the extra puzzles to the lower thirds and sends a whole group of tied puzzles to the lower third, so these are not its thirds, and a lower third can be empty here (dashes). A bin whose puzzles all have too few wrong samples has no thirds. The rule above on which bins are read applies to bins, not to thirds: each third rests on the few puzzles in its puzzles column."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "Haiku-max format compliance: the locked share of the 16-step Haiku-max samples whose official format status is ok, for all puzzles of the shape (pre-specified descriptive); it is not stamped by bin."
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "The unbinned rows are Study 1b's locked single-sample accuracy and vote curve (pre-specified descriptive); the post hoc recount agrees with them (checked when the table is built). Their vote at k is Test B2's challenger at that shape: Test B2 is confirmatory and pools the two shapes, so this per-shape value is a descriptive breakdown, not a test. The binned rows and the thirds are post hoc exploratory, with no causal claim."
+      }
+     ]
+    ],
+    "rows": [
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "49",
+       "raw": 49,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "91.02",
+       "raw": 91.0204081632653,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "97.21",
+       "raw": 97.20602526724977,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "97.96",
+       "raw": 97.95918367346938,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "37",
+       "raw": 37,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t1.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "67.50",
+       "raw": 67.5,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t1.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "80.36",
+       "raw": 80.35714285714286,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t1.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "75.00",
+       "raw": 75.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t1.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t2.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "70.00",
+       "raw": 70.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t2.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "94.05",
+       "raw": 94.04761904761904,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t2.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t2.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "72.50",
+       "raw": 72.5,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "91.37",
+       "raw": 91.36904761904762,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[0,10)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[10,20)",
+       "raw": "[10,20)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[10,20)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[10,20)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[10,20)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "19",
+       "raw": 19,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[20,30)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "94.74",
+       "raw": 94.73684210526316,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "99.56",
+       "raw": 99.56140350877192,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "16",
+       "raw": 16,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t1.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t1.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t1.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t1.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t2.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "70.00",
+       "raw": 70.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t2.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "91.67",
+       "raw": 91.66666666666666,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t2.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t2.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[20,30)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[30,40)",
+       "raw": "[30,40)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[30,40)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[30,40)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[30,40)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[40,50)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "95.56",
+       "raw": 95.55555555555556,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "9",
+       "raw": 9,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[40,50)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[50,60)",
+       "raw": "[50,60)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[50,60)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[50,60)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[50,60)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[60,70)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "86.67",
+       "raw": 86.66666666666667,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "96.03",
+       "raw": 96.03174603174602,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "2",
+       "raw": 2,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "60.00",
+       "raw": 60.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "88.10",
+       "raw": 88.09523809523809,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[60,70)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[70,80)",
+       "raw": "[70,80)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[70,80)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[70,80)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[70,80)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[80,90)",
+       "raw": "[80,90)",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[80,90)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[80,90)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[80,90)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[90,100]",
+       "raw": "[90,100]",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[90,100]']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.1x16.bins['[90,100]']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.1x16.bins['[90,100]'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "1×16"
+      },
+      {
+       "kind": "label",
+       "printed": "all puzzles (unbinned)"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.1x16.puzzles",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "92.25",
+       "raw": 92.25,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.1x16.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "98.04",
+       "raw": 98.03571428571429,
+       "refs": [
+        {
+         "key": "descriptive.vote_curve_n16.points.5.1x16.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "98.75",
+       "raw": 98.75,
+       "refs": [
+        {
+         "key": "descriptive.vote_curve_n16.points.9.1x16.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.50",
+       "raw": 0.995,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hx.1x16.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "41",
+       "raw": 41,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[0,10)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "91.71",
+       "raw": 91.70731707317073,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "98.29",
+       "raw": 98.28687572590012,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "31",
+       "raw": 31,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t1.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t1.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t1.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t1.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "num",
+       "printed": "3",
+       "raw": 3,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t2.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "63.33",
+       "raw": 63.333333333333336,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t2.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "85.32",
+       "raw": 85.31746031746032,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t2.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t2.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[0,10)",
+       "raw": "[0,10)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "75.00",
+       "raw": 75.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "93.45",
+       "raw": 93.45238095238095,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[0,10)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[10,20)",
+       "raw": "[10,20)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[10,20)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[10,20)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[10,20)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "11",
+       "raw": 11,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[20,30)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "90.00",
+       "raw": 90.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "98.05",
+       "raw": 98.05194805194805,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "8",
+       "raw": 8,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t1.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t1.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t1.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t1.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t2.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "50.00",
+       "raw": 50.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t2.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "78.57",
+       "raw": 78.57142857142857,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t2.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t2.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[20,30)",
+       "raw": "[20,30)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[20,30)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[30,40)",
+       "raw": "[30,40)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[30,40)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[30,40)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[30,40)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "12",
+       "raw": 12,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[40,50)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "94.17",
+       "raw": 94.16666666666667,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "10",
+       "raw": 10,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "lowest"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "middle"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t2.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t2.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t2.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t2.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[40,50)",
+       "raw": "[40,50)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "highest"
+      },
+      {
+       "kind": "num",
+       "printed": "1",
+       "raw": 1,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t3.puzzles",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80.00",
+       "raw": 80.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t3.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t3.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[40,50)'].thirds.t3.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[50,60)",
+       "raw": "[50,60)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[50,60)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[50,60)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[50,60)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[60,70)",
+       "raw": "[60,70)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[60,70)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "97.14",
+       "raw": 97.14285714285714,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "7",
+       "raw": 7,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[60,70)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[70,80)",
+       "raw": "[70,80)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[70,80)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "0",
+       "raw": 0,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[70,80)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "empty",
+       "raw": "empty",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[70,80)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[80,90)",
+       "raw": "[80,90)",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[80,90)']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "96.00",
+       "raw": 96.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "5",
+       "raw": 5,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[80,90)'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "formula": "the name of this dict entry",
+       "kind": "num",
+       "printed": "[90,100]",
+       "raw": "[90,100]",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]']",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "whole bin"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.16x1.bins['[90,100]']",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "read",
+       "raw": "read",
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]'].status",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]'].all.single_try_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]'].all.vote_at_6_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]'].all.vote_at_10_mean",
+         "source": "fa6b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "4",
+       "raw": 4,
+       "refs": [
+        {
+         "key": "result.bins_16.16x1.bins['[90,100]'].too_few_wrong_tries",
+         "source": "fa6b"
+        }
+       ]
+      }
+     ],
+     [
+      {
+       "kind": "label",
+       "printed": "16×1"
+      },
+      {
+       "kind": "label",
+       "printed": "all puzzles (unbinned)"
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "80",
+       "raw": 80,
+       "refs": [
+        {
+         "key": "result.16x1.puzzles",
+         "source": "fa6a"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      },
+      {
+       "kind": "num",
+       "printed": "93.00",
+       "raw": 93.0,
+       "refs": [
+        {
+         "key": "descriptive.arms.hx@16.16x1.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "98.85",
+       "raw": 98.85416666666666,
+       "refs": [
+        {
+         "key": "descriptive.vote_curve_n16.points.5.16x1.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "num",
+       "printed": "100.00",
+       "raw": 100.0,
+       "refs": [
+        {
+         "key": "descriptive.vote_curve_n16.points.9.16x1.mean",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "formula": "100 * x",
+       "kind": "num",
+       "printed": "99.88",
+       "raw": 0.99875,
+       "refs": [
+        {
+         "key": "descriptive.format_refusals_truncations_missing.format_report.hx.16x1.format_compliance",
+         "source": "s1b"
+        }
+       ]
+      },
+      {
+       "kind": "label",
+       "printed": "—"
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "fa6a": {
+   "commit": "a2d93ba",
+   "path": "data/main/free-analyses/fa6a.json",
+   "sha256": "6af8ea0b47f938fcb3855ed3e58caf417393f45f9925a64af86a990018874258"
+  },
+  "fa6b": {
+   "commit": "c0dcddc",
+   "path": "data/main/free-analyses/fa6b.json",
+   "sha256": "76d0baaf276c045dc63fa5d38a83d045a9f1fcdc9f342aa86cb9a296e8486c45"
+  },
+  "main": {
+   "commit": "8be72ec",
+   "path": "data/main/main-l14n6-1/analysis.json",
+   "sha256": "43d18eed62604aab9006cae76a6ee04445170866486d14246fb933646823cfef"
+  },
+  "main_k": {
+   "commit": "da61c76",
+   "path": "data/main/main-l14n6-1/k.json",
+   "sha256": "b0f8b05f729b5e6cee6deaa2384c986646217adf72a96772d5096bd2d6e3234b"
+  },
+  "s1b": {
+   "commit": "fb301dd",
+   "path": "data/main/study1b-1/analysis.json",
+   "sha256": "239173fc617f832e7a793e57d0b3fa3dc5c968b395dade10e0720c0f1dc74332"
+  },
+  "s1b_k": {
+   "commit": "534e415",
+   "path": "data/main/study1b-1/k.json",
+   "sha256": "4204d537769f63c1317909b4d98112fff6c4d550555568ef5aa0cd20bc4c8427"
+  }
+ },
+ "table": {
+  "caption": {
+   "interval": [
+    {
+     "kind": "label",
+     "printed": "none: counts and shares only"
+    }
+   ],
+   "n": [
+    {
+     "kind": "label",
+     "printed": "puzzles per shape: Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_24.table.haiku-med 1x6.base_puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; Study 1b 6-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; 12-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; 16-step set"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.pooled.n_base",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "; puzzles kept and pairs per row"
+    }
+   ],
+   "price": [
+    {
+     "kind": "label",
+     "printed": "no costs in this table"
+    }
+   ],
+   "set": [
+    {
+     "kind": "label",
+     "printed": "Study 1: the main-run puzzle set; Study 1b: its 6-step, 12-step and 16-step sets (other puzzles)"
+    }
+   ],
+   "study": [
+    {
+     "kind": "label",
+     "printed": "Study 1 (main run, 6 steps) and Study 1b (6-step, 12-step and 16-step sets), each row within one study"
+    }
+   ],
+   "tier": [
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory (no causal claim); the Study 1 Haiku-medium rows pre-specified descriptive"
+    }
+   ]
+  },
+  "columns": [
+   {
+    "kind": "label",
+    "printed": "Setting"
+   },
+   {
+    "kind": "label",
+    "printed": "Study"
+   },
+   {
+    "kind": "label",
+    "printed": "Steps"
+   },
+   {
+    "kind": "label",
+    "printed": "Samples per puzzle"
+   },
+   {
+    "kind": "label",
+    "printed": "Shape"
+   },
+   {
+    "kind": "label",
+    "printed": "Puzzles kept"
+   },
+   {
+    "kind": "label",
+    "printed": "Pairs"
+   },
+   {
+    "kind": "label",
+    "printed": "Agreeing pairs"
+   },
+   {
+    "kind": "label",
+    "printed": "Repeat share (%)"
+   },
+   {
+    "kind": "label",
+    "printed": "Label"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "kind": "label",
+     "printed": "Pairs: unordered pairs of wrong samples on the same puzzle and shape. Agreeing pairs give the identical official answer (a sample with no answer or whose official format is not ok never agrees). Repeat share: agreeing pairs divided by pairs, pooled over the puzzles kept (the puzzles with at least two wrong samples)."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "No pairs: no puzzle had two wrong samples, so the share is undefined."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Both shapes: the chains' and the pieces' pairs and agreeing pairs added together, and the share is agreeing pairs over pairs; no count of puzzles is stamped for these rows, so Puzzles kept shows a dash."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The Study 1 Haiku-medium rows are Study 1's locked, pre-specified descriptive values; the post hoc recount gives the same counts (checked when the table is built). Every other row is post hoc."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "The Study 1b Haiku-medium rows go beyond the settings this post hoc analysis was defined to cover (Haiku-max, Haiku-high and Haiku-xhigh in Study 1b, and Haiku-max on Study 1's"
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 1x6.own_k.vs opus-med.k_value.samples_drawn",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "samples); the same post hoc recount computed them, and they are shown as the same-set medium-effort baseline for the higher efforts."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Rows differ in study, puzzle set, length and samples per puzzle; a share from few pairs or few puzzles is fragile. Setting rows side by side, above all across the two studies, is our reading, not a test."
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Exploratory, no causal claim: the table does not show that repeated wrong answers cause or prevent anything."
+    }
+   ]
+  ],
+  "rows": [
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.1x6.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "74",
+     "raw": 74,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.1x6.puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26,026",
+     "raw": 26026,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.1x6.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "7,269",
+     "raw": 7269,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.1x6.agree",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "27.93",
+     "raw": 0.27929762545147163,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.1x6.share",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.6x1.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "75",
+     "raw": 75,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.6x1.puzzles",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20,234",
+     "raw": 20234,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.6x1.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "8,177",
+     "raw": 8177,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.6x1.agree",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "40.41",
+     "raw": 0.4041217752298112,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.6x1.share",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "k_from_rows.opus.1x6.samples_drawn",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "46,260",
+     "raw": 46260,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.both_shapes.pairs",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "15,446",
+     "raw": 15446,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.both_shapes.agree",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "33.39",
+     "raw": 0.33389537397319496,
+     "refs": [
+      {
+       "key": "haiku_repeat_share.both_shapes.share",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "pre-specified descriptive"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "24",
+     "raw": 24,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.1x6.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "132",
+     "raw": 132,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.1x6.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "33",
+     "raw": 33,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.1x6.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "25.00",
+     "raw": 0.25,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.1x6.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "22",
+     "raw": 22,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.6x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "106",
+     "raw": 106,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.6x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "37",
+     "raw": 37,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.6x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "34.91",
+     "raw": 0.3490566037735849,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.6x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "238",
+     "raw": 238,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "70",
+     "raw": 70,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "29.41",
+     "raw": 0.29411764705882354,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@6.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "kind": "num",
+     "printed": "80",
+     "raw": 80,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.1x16.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "634",
+     "raw": 634,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.1x16.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "42",
+     "raw": 42,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.1x16.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "6.62",
+     "raw": 0.06624605678233439,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.1x16.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "kind": "num",
+     "printed": "71",
+     "raw": 71,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.16x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "519",
+     "raw": 519,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.16x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "44",
+     "raw": 44,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.16x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "8.48",
+     "raw": 0.08477842003853564,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.16x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-medium"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hm@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "1,153",
+     "raw": 1153,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "86",
+     "raw": 86,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "7.46",
+     "raw": 0.0745880312228968,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hm@16.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "24",
+     "raw": 24,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.1x6.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "100",
+     "raw": 100,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.1x6.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "40",
+     "raw": 40,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.1x6.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "40.00",
+     "raw": 0.4,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.1x6.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.6x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "101",
+     "raw": 101,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.6x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "50",
+     "raw": 50,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.6x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "49.50",
+     "raw": 0.49504950495049505,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.6x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "201",
+     "raw": 201,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "90",
+     "raw": 90,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "44.78",
+     "raw": 0.44776119402985076,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@6.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "kind": "num",
+     "printed": "74",
+     "raw": 74,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.1x16.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "405",
+     "raw": 405,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.1x16.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "42",
+     "raw": 42,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.1x16.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "10.37",
+     "raw": 0.1037037037037037,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.1x16.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "kind": "num",
+     "printed": "71",
+     "raw": 71,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.16x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "413",
+     "raw": 413,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.16x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "64",
+     "raw": 64,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.16x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "15.50",
+     "raw": 0.1549636803874092,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.16x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-high"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "818",
+     "raw": 818,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "106",
+     "raw": 106,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "12.96",
+     "raw": 0.1295843520782396,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hh@16.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "9",
+     "raw": 9,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.1x6.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "20",
+     "raw": 20,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.1x6.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.1x6.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "50.00",
+     "raw": 0.5,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.1x6.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "13",
+     "raw": 13,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.6x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "55",
+     "raw": 55,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.6x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "32",
+     "raw": 32,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.6x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "58.18",
+     "raw": 0.5818181818181818,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.6x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "75",
+     "raw": 75,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "42",
+     "raw": 42,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "56.00",
+     "raw": 0.56,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@6.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "kind": "num",
+     "printed": "49",
+     "raw": 49,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.1x16.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "184",
+     "raw": 184,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.1x16.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "37",
+     "raw": 37,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.1x16.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "20.11",
+     "raw": 0.20108695652173914,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.1x16.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "kind": "num",
+     "printed": "47",
+     "raw": 47,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.16x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "179",
+     "raw": 179,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.16x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "64",
+     "raw": 64,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.16x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "35.75",
+     "raw": 0.3575418994413408,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.16x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-xhigh"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "descriptive.arms.hxh@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "363",
+     "raw": 363,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "101",
+     "raw": 101,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "27.82",
+     "raw": 0.27823691460055094,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hxh@16.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 1x6.own_k.vs opus-med.k_value.samples_drawn",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.1x6.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.1x6.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "0",
+     "raw": 0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.1x6.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "no pairs",
+     "raw": null,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.1x6.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 6x1.own_k.vs opus-med.k_value.samples_drawn",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "1",
+     "raw": 1,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.6x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.6x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.6x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.6x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "n",
+       "source": "main_k"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "reporting.group_b.item_10.arms.haiku-max 1x6.own_k.vs opus-med.k_value.samples_drawn",
+       "source": "main"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "3",
+     "raw": 3,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1:haiku-max@6.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×6"
+    },
+    {
+     "kind": "num",
+     "printed": "2",
+     "raw": 2,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.1x6.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "7",
+     "raw": 7,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.1x6.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.1x6.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "85.71",
+     "raw": 0.8571428571428571,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.1x6.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "6×1"
+    },
+    {
+     "kind": "num",
+     "printed": "5",
+     "raw": 5,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.6x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "19",
+     "raw": 19,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.6x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "19",
+     "raw": 19,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.6x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "100.00",
+     "raw": 1.0,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.6x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "6",
+     "raw": 6,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@6.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "26",
+     "raw": 26,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "25",
+     "raw": 25,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "96.15",
+     "raw": 0.9615384615384616,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@6.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×12"
+    },
+    {
+     "kind": "num",
+     "printed": "18",
+     "raw": 18,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.1x12.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "83",
+     "raw": 83,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.1x12.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "56",
+     "raw": 56,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.1x12.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "67.47",
+     "raw": 0.6746987951807228,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.1x12.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "12×1"
+    },
+    {
+     "kind": "num",
+     "printed": "11",
+     "raw": 11,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.12x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "26",
+     "raw": 26,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.12x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "18",
+     "raw": 18,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.12x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "69.23",
+     "raw": 0.6923076923076923,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.12x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "12",
+     "raw": 12,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@12.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "109",
+     "raw": 109,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "74",
+     "raw": 74,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "67.89",
+     "raw": 0.6788990825688074,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@12.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "1×16"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.1x16.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "60",
+     "raw": 60,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.1x16.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "36",
+     "raw": 36,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.1x16.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "60.00",
+     "raw": 0.6,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.1x16.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "16×1"
+    },
+    {
+     "kind": "num",
+     "printed": "15",
+     "raw": 15,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.16x1.puzzles",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "42",
+     "raw": 42,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.16x1.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "24",
+     "raw": 24,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.16x1.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "57.14",
+     "raw": 0.5714285714285714,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.16x1.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ],
+   [
+    {
+     "kind": "label",
+     "printed": "Haiku-max"
+    },
+    {
+     "kind": "label",
+     "printed": "Study 1b"
+    },
+    {
+     "kind": "num",
+     "printed": "16",
+     "raw": 16,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.N",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "10",
+     "raw": 10,
+     "refs": [
+      {
+       "key": "descriptive.arms.hx@16.tries_per_item",
+       "source": "s1b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "both shapes"
+    },
+    {
+     "kind": "label",
+     "printed": "—"
+    },
+    {
+     "kind": "num",
+     "printed": "102",
+     "raw": 102,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.both_shapes.pairs",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "num",
+     "printed": "60",
+     "raw": 60,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.both_shapes.agree",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "formula": "100 * x",
+     "kind": "num",
+     "printed": "58.82",
+     "raw": 0.5882352941176471,
+     "refs": [
+      {
+       "key": "result.repeat_share.study1b:hx@16.both_shapes.share",
+       "source": "fa6b"
+      }
+     ]
+    },
+    {
+     "kind": "label",
+     "printed": "post hoc exploratory"
+    }
+   ]
+  ]
+ }
+}

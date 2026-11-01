@@ -1,0 +1,1061 @@
+{
+ "arms": [
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "picker (graded first)",
+   "study": "length sweep",
+   "tag": "hm",
+   "thinking_off": false,
+   "tries_per_puzzle": 10
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 32000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 32000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "sealed until the pick",
+   "study": "length sweep",
+   "tag": "om",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 32000,
+   "model": "claude-sonnet-5-5",
+   "request": {
+    "max_tokens": 32000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "sealed until the pick",
+   "study": "length sweep",
+   "tag": "sm",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 5000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "must",
+   "study": "Study 1",
+   "tag": "hm",
+   "thinking_off": false,
+   "tries_per_puzzle": 40
+  },
+  {
+   "effort": "low",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "must",
+   "study": "Study 1",
+   "tag": "hl",
+   "thinking_off": false,
+   "tries_per_puzzle": 40
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 4000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 4000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "must",
+   "study": "Study 1",
+   "tag": "om",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "low",
+   "max_tokens": 32000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 32000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "must",
+   "study": "Study 1",
+   "tag": "ol",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 3000,
+   "model": "claude-sonnet-5-5",
+   "request": {
+    "max_tokens": 3000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "must",
+   "study": "Study 1",
+   "tag": "sm",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "low",
+   "max_tokens": 32000,
+   "model": "claude-sonnet-5-5",
+   "request": {
+    "max_tokens": 32000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "extra 1",
+   "study": "Study 1",
+   "tag": "sl",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "disabled"
+    }
+   },
+   "role": "extra 2",
+   "study": "Study 1",
+   "tag": "ho",
+   "thinking_off": true,
+   "tries_per_puzzle": 40
+  },
+  {
+   "effort": "max",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 48000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "extra (first to trim)",
+   "study": "Study 1",
+   "tag": "hx",
+   "thinking_off": false,
+   "tries_per_puzzle": 3
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 5000,
+   "model": "claude-haiku-5-5",
+   "note": "the rewording check: the reworded prompt (chain-reworded-prompt.txt) in place of the approved one",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "D-42 (a)",
+   "study": "Study 1",
+   "tag": "hv",
+   "thinking_off": false,
+   "tries_per_puzzle": 10
+  },
+  {
+   "effort": "max",
+   "max_tokens": 96000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 96000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "confirmatory",
+   "study": "Study 1b, 16 steps",
+   "tag": "hx",
+   "thinking_off": false,
+   "tries_per_puzzle": 10
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 9000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 9000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "confirmatory",
+   "study": "Study 1b, 16 steps",
+   "tag": "om",
+   "thinking_off": false,
+   "tries_per_puzzle": 2
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 14000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 14000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "disabled"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 16 steps",
+   "tag": "ho",
+   "thinking_off": true,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "low",
+   "max_tokens": 14000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 14000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 16 steps",
+   "tag": "hl",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 14000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 14000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 16 steps",
+   "tag": "hm",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "high",
+   "max_tokens": 32000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 32000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "high"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 16 steps",
+   "tag": "hh",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "xhigh",
+   "max_tokens": 39000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 39000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "xhigh"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 16 steps",
+   "tag": "hxh",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "max",
+   "max_tokens": 30000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 30000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "confirmatory",
+   "study": "Study 1b, 6 steps",
+   "tag": "hx",
+   "thinking_off": false,
+   "tries_per_puzzle": 10
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 4000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 4000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "confirmatory",
+   "study": "Study 1b, 6 steps",
+   "tag": "om",
+   "thinking_off": false,
+   "tries_per_puzzle": 2
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 4000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 4000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "disabled"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "ho",
+   "thinking_off": true,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "low",
+   "max_tokens": 7000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 7000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "hl",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 6000,
+   "model": "claude-haiku-5-5",
+   "request": {
+    "max_tokens": 6000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "hm",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "high",
+   "max_tokens": 6000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 6000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "high"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "hh",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "xhigh",
+   "max_tokens": 11000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 11000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "xhigh"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "hxh",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "low",
+   "max_tokens": 3000,
+   "model": "claude-sonnet-5-5",
+   "request": {
+    "max_tokens": 3000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "sl",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 3000,
+   "model": "claude-sonnet-5-5",
+   "request": {
+    "max_tokens": 3000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "sm",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "high",
+   "max_tokens": 5000,
+   "model": "claude-sonnet-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "high"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "sh",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "xhigh",
+   "max_tokens": 6000,
+   "model": "claude-sonnet-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 6000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "xhigh"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "sxh",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "max",
+   "max_tokens": 11000,
+   "model": "claude-sonnet-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 11000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-sonnet-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "sx",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "low",
+   "max_tokens": 4000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 4000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "low"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "ol",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "high",
+   "max_tokens": 6000,
+   "model": "claude-opus-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 6000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "high"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "oh",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "xhigh",
+   "max_tokens": 6000,
+   "model": "claude-opus-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 6000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "xhigh"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "oxh",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "max",
+   "max_tokens": 11000,
+   "model": "claude-opus-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 11000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 6 steps",
+   "tag": "ox",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "max",
+   "max_tokens": 96000,
+   "model": "claude-haiku-5-5",
+   "note": "max_tokens set by the section 7 rule in the run's trial round (the run's recorded limit)",
+   "request": {
+    "max_tokens": 96000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "max"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 12 steps",
+   "tag": "hx",
+   "thinking_off": false,
+   "tries_per_puzzle": 10
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 7000,
+   "model": "claude-opus-5-5",
+   "request": {
+    "max_tokens": 7000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-opus-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "descriptive",
+   "study": "Study 1b, 12 steps",
+   "tag": "om",
+   "thinking_off": false,
+   "tries_per_puzzle": 1
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 5000,
+   "model": "claude-haiku-5-5",
+   "note": "built by main._item with the main run's hm setup, under its own tag",
+   "request": {
+    "max_tokens": 5000,
+    "messages": [
+     {
+      "content": "<the prompt in illustration/chain-prompt.txt>",
+      "role": "user"
+     }
+    ],
+    "model": "claude-haiku-5-5",
+    "output_config": {
+     "effort": "medium"
+    },
+    "thinking": {
+     "type": "adaptive"
+    }
+   },
+   "role": "same-model check",
+   "study": "top-up",
+   "tag": "sc",
+   "thinking_off": false,
+   "tries_per_puzzle": 5
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": "as in the prompt records (prompts.json)",
+   "role": "team planner",
+   "study": "top-up",
+   "tag": "tp",
+   "thinking_off": false
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": "as in the prompt records (prompts.json)",
+   "role": "team helper",
+   "study": "top-up",
+   "tag": "th",
+   "thinking_off": false
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": "as in the prompt records (prompts.json)",
+   "role": "team aggregator",
+   "study": "top-up",
+   "tag": "ta",
+   "thinking_off": false
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": "as in the prompt records (prompts.json)",
+   "role": "picker",
+   "study": "top-up",
+   "tag": "pk",
+   "thinking_off": false
+  },
+  {
+   "effort": "medium",
+   "max_tokens": 48000,
+   "model": "claude-haiku-5-5",
+   "request": "as in the prompt records (prompts.json)",
+   "role": "step voting (Study 1's Test 4 and the top-up's C13)",
+   "study": "Study 1 and top-up",
+   "tag": "es",
+   "thinking_off": false
+  }
+ ],
+ "label": "illustrative, not from any test set",
+ "scope": "Covered: the length sweep, Study 1 (the main run), Study 1b and the top-up run. Not covered: Pilot 1 (its 24-step markers are reported as exploratory), the Haiku effort diagnostic (exploratory; its counts are in Appendix A), and the earlier setup and smoke checks.",
+ "thinking": "adaptive on every arm except thinking_off, which sends {'type': 'disabled'} (Haiku only, effort high or below; harness/pareto/request.py)"
+}
